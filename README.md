@@ -15,6 +15,8 @@ https://scrapy.org/
 <br>http://books.toscrape.com/
 <br>https://pypi.org/project/beautifulsoup4/
 <br>https://beautiful-soup-4.readthedocs.io/en/latest/
+<br>https://pypi.org/project/lxml/
+<br>https://lxml.de/
 
 **Comandos:**
 
