@@ -1,4 +1,4 @@
-# Scrapy Quotes Spider
+# Quotes Spider
 
 Este projeto é um spider simples feito com Scrapy para coletar citações do site [Quotes to Scrape](http://quotes.toscrape.com/). O spider extrai o texto da citação, o autor e as tags associadas, salvando todos os dados em um arquivo JSON.
 
