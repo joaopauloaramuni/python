@@ -7,3 +7,12 @@ https://www.jetbrains.com/pt-br/pycharm/
 <br>https://www.amazon.com.br/Pense-Python-Como-Cientista-Computação/dp/8575225081
 <br>https://www.amazon.com.br/Python-Essential-Reference-David-Beazley-dp-0134173279/dp/0134173279
 <br>https://www.amazon.com.br/Web-Scraping-Com-Python-Coletando/dp/8575227300
+
+python3 -m venv .venv
+source .venv/bin/activate
+pip3 install scrapy
+python3 quotes.py (ou scrapy startproject quotes_scrapy e em seguida scrapy crawl quotes -o quotes.json)
+
+https://scrapy.org/
+http://quotes.toscrape.com/
+http://books.toscrape.com/
