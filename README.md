@@ -13,6 +13,8 @@ https://www.jetbrains.com/pt-br/pycharm/
 https://scrapy.org/
 <br>http://quotes.toscrape.com/
 <br>http://books.toscrape.com/
+<br>https://pypi.org/project/beautifulsoup4/
+<br>https://beautiful-soup-4.readthedocs.io/en/latest/
 
 **Comandos:**
 
