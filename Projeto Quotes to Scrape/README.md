@@ -6,7 +6,7 @@ Este projeto é um spider simples feito com Scrapy para coletar citações do si
 
 ```
 scrapy-quotes/
-├── quotes_spider.py
+├── quotes.py
 └── quotes.json
 ```
 
