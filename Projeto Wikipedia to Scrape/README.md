@@ -7,7 +7,7 @@ Este projeto é um spider simples feito com Scrapy para coletar dados da página
 
 ```
 scrapy-wikipedia/
-├── wikipedia_spider.py
+├── wikipedia.py
 └── python_wikipedia.json
 ```
 
