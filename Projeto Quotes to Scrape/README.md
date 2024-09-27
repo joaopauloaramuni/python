@@ -32,7 +32,7 @@ pip install scrapy
    Para executar o spider, você pode usar o seguinte comando:
 
    ```bash
-   scrapy runspider quotes_spider.py
+   scrapy runspider quotes.py
    ```
 
    O spider irá coletar as citações de todas as páginas disponíveis no site e salvar os dados em `quotes.json`.
