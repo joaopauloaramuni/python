@@ -21,15 +21,45 @@ As dependências do projeto podem ser instaladas utilizando pip com o seguinte c
 pip install scrapy
 ```
 
+## Estrutura do Projeto
+
+A estrutura básica do projeto é a seguinte:
+
+```
+scrapy-books/
+├── books.py
+└── books.json
+```
+
 ## Executando o Projeto
 
 Para executar o projeto, use o seguinte comando:
 
 ```bash
-python nome_do_arquivo.py
+scrapy crawl books
 ```
 
-Certifique-se de substituir `nome_do_arquivo.py` pelo nome do arquivo onde o código está salvo.
+Os dados raspados serão salvos no arquivo `books.json`.
+
+## Resultados
+
+Os dados coletados terão a seguinte estrutura no arquivo `books.json`:
+
+```json
+[
+    {
+        "title": "Book Title 1",
+        "price": "£50.00",
+        "availability": "In stock"
+    },
+    {
+        "title": "Book Title 2",
+        "price": "£35.99",
+        "availability": "In stock"
+    },
+    ...
+]
+```
 
 ## Licença
 
