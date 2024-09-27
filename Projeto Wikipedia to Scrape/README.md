@@ -33,7 +33,7 @@ pip install scrapy
    Para executar o spider, você pode usar o seguinte comando:
 
    ```bash
-   scrapy runspider wikipedia_spider.py
+   scrapy runspider wikipedia.py
    ```
 
    O spider irá coletar os dados da página da Wikipedia e salvar os dados em `python_wikipedia.json`.
