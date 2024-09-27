@@ -56,8 +56,7 @@ Os dados coletados terão a seguinte estrutura no arquivo `books.json`:
         "title": "Book Title 2",
         "price": "£35.99",
         "availability": "In stock"
-    },
-    ...
+    }
 ]
 ```
 
