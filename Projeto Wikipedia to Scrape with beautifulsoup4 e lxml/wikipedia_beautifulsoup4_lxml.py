@@ -11,7 +11,7 @@ class WikipediaSpider(scrapy.Spider):
         self.data = []  # Inicializa uma lista para armazenar os dados
 
     def parse(self, response):
-        title = response.css('h1::text').get()  # Captura o título da página
+        title = response.css('h1 i::text').get()  # Captura o título da página
         
         # Utiliza BeautifulSoup para processar o HTML
         soup = BeautifulSoup(response.text, 'lxml')
