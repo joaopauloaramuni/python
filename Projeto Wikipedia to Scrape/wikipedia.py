@@ -10,7 +10,7 @@ class WikipediaSpider(scrapy.Spider):
         self.data = []  # Inicializa uma lista para armazenar os dados
 
     def parse(self, response):
-        title = response.css('h1::text').get()  # Captura o título da página
+        title = response.css('h1 i::text').get()  # Captura o título da página
         paragraphs = response.css('div.mw-parser-output > p:not(.mw-empty-elt)')  # Captura todos os parágrafos não vazios
 
         # Concatena o texto de cada parágrafo, mantendo a formatação HTML
