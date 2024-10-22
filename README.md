@@ -7,6 +7,7 @@ https://www.jetbrains.com/pt-br/pycharm/
 <br>https://www.amazon.com.br/Pense-Python-Como-Cientista-Computação/dp/8575225081
 <br>https://www.amazon.com.br/Python-Essential-Reference-David-Beazley-dp-0134173279/dp/0134173279
 <br>https://www.amazon.com.br/Web-Scraping-Com-Python-Coletando/dp/8575227300
+<br>https://pythontutor.com/python-compiler.html
 
 **To scrape:**
 
