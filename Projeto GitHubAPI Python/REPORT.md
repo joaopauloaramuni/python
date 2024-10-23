@@ -24,16 +24,19 @@ Foi utilizada a GitHub API para coletar os dados necessários dos repositórios.
 
 ## Resultados
 Considerando estrelas e forks, os seguintes repositórios foram ranqueados como os mais populares que utilizam a arquitetura de microsserviços:
-1. nodebestpractices
-2. dubbo
-3. nest
-4. nacos
-5. apollo
-6. istio
-7. kong
-8. awesome-design-patterns
-9. go-zero
-10. system-design
+
+| Ranking | Repositório                  | Stars | Forks | Score  | Novo Ranking |
+|---------|------------------------------|-------|-------|--------|--------------|
+| 1       | nodebestpractices            | 97090 | 9864  | 0.6508 | 1            |
+| 2       | dubbo                        | 40191 | 26331 | 0.5878 | 3 → 2        |
+| 3       | nest                         | 65393 | 7447  | 0.3700 | 2 → 3        |
+| 4       | nacos                        | 29396 | 12650 | 0.2195 | 8 → 4        |
+| 5       | apollo                       | 28908 | 10186 | 0.1638 | 9 → 5        |
+| 6       | istio                        | 35312 | 7618  | 0.1557 | 6            |
+| 7       | kong                         | 38213 | 4747  | 0.1158 | 4 → 7        |
+| 8       | awesome-design-patterns      | 37357 | 2752  | 0.0673 | 5 → 8        |
+| 9       | go-zero                      | 28063 | 3826  | 0.0228 | 10 → 9       |
+| 10      | system-design                | 30105 | 3095  | 0.0221 | 7 → 10       |
 
 ## Conclusão
 Este experimento demonstrou a viabilidade de coletar e analisar dados de repositórios populares no GitHub que implementam microsserviços. A metodologia utilizada permitiu identificar e ranquear os principais repositórios com base em critérios objetivos como estrelas e forks, apesar da limitação de apenas considerar repositórios que explicitamente mencionam "microservices" em seus metadados. O algoritmo de ranqueamento leva em média 30 minutos para rodar devido à necessidade de lidar com a paginação da API do GitHub, enquanto o algoritmo de cálculos estatísticos é instantâneo, pois os repositórios são fixos no código.
