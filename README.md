@@ -275,6 +275,7 @@ def print_snake3():
 ```python
 def print_snake3():
     print("******************************************", flush=True)
+    print("""                                      """, flush=True)
     print("""    ⠀⠀⠀⠀⠀⠀⠀⢀⣤⣴⣶⣶⣶⣶⣶⣦⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀    """, flush=True)
     print("""    ⠀⠀⠀⠀⠀⠀⢀⣾⠟⠛⢿⣿⣿⣿⣿⣿⣿⣷⠀⠀⠀⠀⠀⠀⠀⠀    """, flush=True)
     print("""    ⠀⠀⠀⠀⠀⠀⢸⣿⣄⣀⣼⣿⣿⣿⣿⣿⣿⣿⠀⢀⣀⣀⣀⡀⠀⠀    """, flush=True)
@@ -287,6 +288,7 @@ def print_snake3():
     print("""    ⠀⠈⠛⠻⠿⠿⠇⠀⣿⣿⣿⣿⣿⣿⣿⣿⠿⠿⣿⡇⠀⠀⠀⠀⠀⠀    """, flush=True)
     print("""    ⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⣿⣿⣿⣿⣧⣀⣀⣿⠇⠀⠀⠀⠀⠀⠀    """, flush=True)
     print("""    ⠀⠀⠀⠀⠀⠀⠀⠀⠘⢿⣿⣿⣿⣿⣿⣿⣿⡿⠋⠀⠀⠀⠀⠀⠀⠀    """, flush=True)
+    print("""                                      """, flush=True)
     print("******************************************", flush=True)
 ```
 
