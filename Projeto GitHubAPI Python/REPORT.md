@@ -114,7 +114,7 @@ Considerando stars e forks, os seguintes repositórios foram ranqueados como os 
 | 9       | [go-zero](https://github.com/zeromicro/go-zero)                      | 28063 | 3826  | 0.0228 | 10 → 9       | ⬆                |
 | 10      | [system-design](https://github.com/madd86/awesome-system-design)     | 30105 | 3095  | 0.0221 | 7 → 10       | ⬇                |
 
-### Tempo Médio de Execução
+### Tempo médio de execução
 
 Devido à paginação dos resultados retornados pela API do GitHub, o script tem um **tempo médio de execução de aproximadamente 30 minutos**. Esse tempo pode variar conforme o número de repositórios processados e o limite de resultados por página.
 
