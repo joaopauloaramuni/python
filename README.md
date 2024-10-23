@@ -32,7 +32,6 @@ python3 -m venv .venv
 ```python
 def print_spyder():
     print("************************************************", flush=True)
-    print("""       									 """, flush=True)
     print("""             ;               ,              """, flush=True)
     print("""           ,;                 '.            """, flush=True)
     print("""          ;:                   :;           """, flush=True)
