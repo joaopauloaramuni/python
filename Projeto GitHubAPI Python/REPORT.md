@@ -114,5 +114,9 @@ Considerando stars e forks, os seguintes repositórios foram ranqueados como os 
 | 9       | go-zero                      | 28063 | 3826  | 0.0228 | 10 → 9       | ⬆                |
 | 10      | system-design                | 30105 | 3095  | 0.0221 | 7 → 10       | ⬇                |
 
+### Tempo Médio de Execução
+
+Devido à paginação dos resultados retornados pela API do GitHub, o script tem um **tempo médio de execução de aproximadamente 30 minutos**. Esse tempo pode variar conforme o número de repositórios processados e o limite de resultados por página.
+
 ## Conclusão
 Este experimento demonstrou a viabilidade de coletar e analisar dados de repositórios populares no GitHub que implementam microsserviços. A metodologia utilizada permitiu identificar e ranquear os principais repositórios com base em critérios objetivos como estrelas e forks, apesar da limitação de apenas considerar repositórios que explicitamente mencionam "microservices" em seus metadados. O algoritmo de ranqueamento leva em média 30 minutos para rodar devido à necessidade de lidar com a paginação da API do GitHub, enquanto o algoritmo de cálculos estatísticos é instantâneo, pois os repositórios são fixos no código.
