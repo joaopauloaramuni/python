@@ -87,7 +87,7 @@ output_mode = 'multi'  # ou 'single'
 
 Depois, execute o script para ver a arte ASCII gerada.
 
-## Execução do Código
+## Execução do código
 
 Para executar o código e gerar a arte ASCII a partir da imagem especificada, basta utilizar o seguinte comando no terminal:
 
