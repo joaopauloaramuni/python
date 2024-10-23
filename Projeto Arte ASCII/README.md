@@ -71,6 +71,16 @@ output_mode = 'multi'  # ou 'single'
 
 Depois, execute o script para ver a arte ASCII gerada.
 
+## Execução do Código
+
+Para executar o código e gerar a arte ASCII a partir da imagem especificada, basta utilizar o seguinte comando no terminal:
+
+```bash
+python3 arte.py
+```
+
+Certifique-se de que você esteja no diretório onde o arquivo arte.py está localizado e que o ambiente virtual esteja ativado, caso você esteja usando um. Assim, o script irá rodar e você verá a arte ASCII gerada no seu terminal, de acordo com o modo de saída que você escolheu.
+
 ## Ambiente virtual
 
 É recomendável usar um ambiente virtual para gerenciar suas dependências. Siga os passos abaixo para configurar um ambiente virtual:
