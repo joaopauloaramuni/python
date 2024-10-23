@@ -95,6 +95,11 @@ O projeto faz uso das seguintes rotas da API REST do GitHub:
 - `GET /repos/{owner}/{repo}/issues`: Para listar as issues.
 - `GET /repos/{owner}/{repo}/languages`: Para obter as linguagens mais utilizadas.
 
+## Relatório técnico
+
+Para uma análise detalhada dos repositórios populares que utilizam microsserviços no GitHub, consulte o [relatório técnico](REPORT.md).
+
+
 ## Licença
 
 Este projeto está licenciado sob a MIT License.
