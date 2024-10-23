@@ -1,4 +1,4 @@
-# Coleta de dados dos Top 10 repositórios mais popular que utilizam microsserviços
+# Coleta de dados dos Top 10 repositórios mais populares que utilizam microsserviços
 
 Este projeto tem como objetivo coletar dados e métricas dos 10 repositórios mais populares no GitHub que utilizam microsserviços. As informações coletadas incluem número de estrelas, forks, pull requests, issues, último release e linguagens utilizadas. Além disso, as métricas serão normalizadas e uma pontuação composta será calculada para cada repositório.
 
