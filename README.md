@@ -70,6 +70,7 @@ def print_spyder():
 **Pirata:**
 
 ```python
+def print_pirate():
     print("**************************************************************************", flush=True)
     print("""                                                                        ", flush=True)
     print("""⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣰⣿⣷⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀            ", flush=True)⠀⠀⠀⠀⠀⠀⠀
