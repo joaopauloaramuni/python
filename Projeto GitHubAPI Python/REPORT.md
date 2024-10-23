@@ -83,9 +83,11 @@ Vamos considerar repositórios mais populares como:
 
 Stars + Forks
 
-• 1) Normalização dos dados: Primeiro, normalizamos os dados para que as duas variáveis estejam na mesma escala.
-• 2) Cálculo da pontuação composta: Em seguida, calculamos uma pontuação composta para cada repositório.
-• 3) Ordenação dos repositórios: Finalmente, ordenamos os repositórios com base na pontuação composta.
+1) Normalização dos dados: Primeiro, normalizamos os dados para que as duas variáveis estejam na mesma escala.
+2) Cálculo da pontuação composta: Em seguida, calculamos uma pontuação composta para cada repositório.
+3) Ordenação dos repositórios: Finalmente, ordenamos os repositórios com base na pontuação composta.
+
+Detalhamento
 
 1) Normalização dos dados: A normalização pode ser feita utilizando a técnica de min-max scaling:
 
@@ -96,8 +98,8 @@ Stars + Forks
    onde 𝑋′ é o valor normalizado, 𝑋 é o valor original, 𝑋𝑚𝑖𝑛 é o valor mínimo do conjunto de dados e 𝑋𝑚𝑎𝑥 é o valor máximo do conjunto de dados.
 
 2) Cálculo da pontuação composta:
-• Vamos atribuir pesos iguais para ambas as variáveis (estrelas e forks) para simplificar:
-• Combinação linear ponderada: scores = 0.5 × normalized_stars + 0.5 × normalized_forks
+- Vamos atribuir pesos iguais para ambas as variáveis (estrelas e forks) para simplificar:
+- Combinação linear ponderada: scores = 0.5 × normalized_stars + 0.5 × normalized_forks
 
 4) Ordenação dos repositórios: Os repositórios serão ordenados de acordo com a pontuação composta.
 
