@@ -102,11 +102,11 @@ Detalhamento
    forks_normalized = (forks - forks.min()) / (forks.max() - forks.min())
    ```
 
-3) Cálculo da pontuação composta:
+2) Cálculo da pontuação composta:
 - Vamos atribuir pesos iguais para ambas as variáveis (estrelas e forks) para simplificar:
 - Combinação linear ponderada: scores = 0.5 × normalized_stars + 0.5 × normalized_forks
 
-4) Ordenação dos repositórios: Os repositórios serão ordenados de acordo com a pontuação composta.
+3) Ordenação dos repositórios: Os repositórios serão ordenados de acordo com a pontuação composta.
 
 ## Resultados
 Considerando stars e forks, os seguintes repositórios foram ranqueados como os mais populares que utilizam a arquitetura de microsserviços:
