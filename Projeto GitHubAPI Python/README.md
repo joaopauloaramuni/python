@@ -9,11 +9,16 @@ Este projeto tem como objetivo coletar dados e métricas dos 10 repositórios ma
 - Normalização das métricas coletadas.
 - Cálculo de uma pontuação composta baseada em stars e forks.
 
-## Requisitos
+## Requisitos do projeto
 
-- Python 3.8 ou superior
+- Python 3.11.0 ou superior
 - Token de autenticação GitHub
 - Pacotes Python: `requests` e `numpy`
+
+### Versões
+Python==3.11.0
+requests==2.32.3
+numpy==2.1.2
 
 ## Preparação do ambiente
 
