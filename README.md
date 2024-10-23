@@ -64,5 +64,5 @@ def print_spyder():
     print("""            ';              ,;'             """, flush=True)
     print("""              "'           '"               """, flush=True)
     print("""                '                           """, flush=True)
-    print("************************************************")
+    print("************************************************", flush=True)
 ```
