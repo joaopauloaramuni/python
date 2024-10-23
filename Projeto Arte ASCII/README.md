@@ -10,6 +10,10 @@ Para executar este código, você precisará da biblioteca Pillow. Você pode in
 pip3 install Pillow
 ```
 
+### Pillow
+
+**Pillow** é uma biblioteca Python que facilita a manipulação e o processamento de imagens. Com ela, é possível abrir, salvar e converter imagens em diversos formatos, além de realizar operações como redimensionamento, recorte e rotação. A biblioteca também oferece a aplicação de filtros e efeitos, bem como a capacidade de adicionar texto e formas às imagens. Pillow é uma ferramenta poderosa e versátil, amplamente utilizada em projetos que envolvem tratamento de imagens.
+
 ## Estrutura de diretórios
 
 1. Certifique-se de que a imagem que deseja converter está localizada na pasta especificada. Neste exemplo, `Documents` no macOS.
