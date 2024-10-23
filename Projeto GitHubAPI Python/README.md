@@ -50,7 +50,15 @@ Este projeto tem como objetivo coletar dados e métricas dos 10 repositórios ma
 6. **Geração de token de acesso**
    - Crie um token de acesso pessoal no GitHub nas configurações de desenvolvedor: [GitHub Tokens](https://github.com/settings/tokens)
 
-7. **Documentação da API REST do GitHub**
+7. **Adicione o token ao código**
+   - Adicione o token gerado em main.py:
+   
+   ```python
+   # Adicione seu token de acesso pessoal aqui
+   token = "token"
+   ```
+
+8. **Documentação da API REST do GitHub**
    - Consulte a documentação da API REST do GitHub para mais informações: [Documentação da API GitHub](https://docs.github.com/pt/rest?apiVersion=2022-11-28)
 
 ## Uso
