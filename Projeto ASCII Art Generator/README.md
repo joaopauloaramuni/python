@@ -47,6 +47,22 @@ O parâmetro `new_width` define a largura da imagem redimensionada antes de conv
 
 A escolha do `new_width` deve ser feita com base no equilíbrio desejado entre detalhes e legibilidade da saída ASCII.
 
+## Converter a imagem para tons de cinza
+
+Uma etapa fundamental na geração de arte ASCII é a conversão da imagem original para tons de cinza. Isso é feito pela função `grayify`, que utiliza o método `convert('L')` da biblioteca Pillow. Aqui estão algumas razões pelas quais essa conversão é importante:
+
+1. **Simplicidade**: Imagens coloridas contêm uma vasta gama de informações que não são necessárias para a representação em ASCII. Convertendo para tons de cinza, eliminamos a complexidade das cores, focando apenas na intensidade da luz, o que simplifica o processamento.
+
+2. **Representação de brilho**: A arte ASCII depende da intensidade dos pixels para representar diferentes níveis de brilho. Ao converter a imagem para tons de cinza, cada pixel é representado por um valor de intensidade que varia de 0 (preto) a 255 (branco). Isso permite uma melhor correspondência entre a intensidade dos pixels e os caracteres ASCII que usamos.
+
+3. **Melhor controle de contraste**: Com a imagem em escala de cinza, é mais fácil ajustar o contraste e aplicar um `threshold` para determinar quais pixels serão considerados escuros ou claros. Isso é crucial para a geração de uma arte ASCII que seja visualmente atraente e legível.
+
+4. **Desempenho**: Trabalhar com imagens em tons de cinza geralmente requer menos recursos computacionais do que processar imagens em cores. Isso pode resultar em um desempenho mais rápido ao gerar a arte ASCII.
+
+5. **Compatibilidade**: A maioria dos algoritmos de processamento de imagem e manipulação de dados de pixel é mais eficaz em imagens em escala de cinza. Isso garante que a geração da arte ASCII ocorra de forma mais eficiente e confiável.
+
+Em resumo, a função `grayify` desempenha um papel crucial na preparação da imagem para a conversão em arte ASCII, permitindo que o processo seja mais simples, rápido e eficaz.
+
 ## Melhoria de contraste
 
 O contraste na arte ASCII gerada depende da escolha do modo de saída e dos caracteres utilizados para representar os pixels da imagem. Aqui estão algumas dicas para melhorar o contraste da sua arte ASCII:
