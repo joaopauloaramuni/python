@@ -4,7 +4,7 @@
 O objetivo deste experimento é coletar e analisar características de repositórios populares no GitHub que implementam a arquitetura de microsserviços. Os principais parâmetros analisados incluem estrelas, forks, commits, watchers, pull requests, data do último commit, linguagem principal, licença, contribuidores, tamanho, ramo principal, releases, issues fechadas e tópicos.
 
 ## Linguagem de programação
-Python 3 foi a linguagem escolhida para desenvolver o experimento.
+Python 3.11.0 foi a linguagem escolhida para desenvolver o experimento.
 
 ## Dependências
 Para executar este experimento, as seguintes dependências foram utilizadas:
