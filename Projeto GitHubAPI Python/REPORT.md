@@ -103,16 +103,16 @@ Considerando stars e forks, os seguintes repositórios foram ranqueados como os 
 
 | Ranking | Repositório                  | Stars | Forks | Score  | Novo ranking | Movimentação     |
 |---------|------------------------------|-------|-------|--------|--------------|------------------|
-| 1       | nodebestpractices            | 97090 | 9864  | 0.6508 | 1            | -                |
-| 2       | dubbo                        | 40191 | 26331 | 0.5878 | 3 → 2        | ⬆                |
-| 3       | nest                         | 65393 | 7447  | 0.3700 | 2 → 3        | ⬇                |
-| 4       | nacos                        | 29396 | 12650 | 0.2195 | 8 → 4        | ⬆                |
-| 5       | apollo                       | 28908 | 10186 | 0.1638 | 9 → 5        | ⬆                |
-| 6       | istio                        | 35312 | 7618  | 0.1557 | 6            | -                |
-| 7       | kong                         | 38213 | 4747  | 0.1158 | 4 → 7        | ⬇                |
-| 8       | awesome-design-patterns      | 37357 | 2752  | 0.0673 | 5 → 8        | ⬇                |
-| 9       | go-zero                      | 28063 | 3826  | 0.0228 | 10 → 9       | ⬆                |
-| 10      | system-design                | 30105 | 3095  | 0.0221 | 7 → 10       | ⬇                |
+| 1       | [nodebestpractices](https://github.com/goldbergyoni/nodebestpractices) | 97090 | 9864  | 0.6508 | 1            | -                |
+| 2       | [dubbo](https://github.com/apache/dubbo)                            | 40191 | 26331 | 0.5878 | 3 → 2        | ⬆                |
+| 3       | [nest](https://github.com/nestjs/nest)                              | 65393 | 7447  | 0.3700 | 2 → 3        | ⬇                |
+| 4       | [nacos](https://github.com/alibaba/nacos)                            | 29396 | 12650 | 0.2195 | 8 → 4        | ⬆                |
+| 5       | [apollo](https://github.com/apolloconfig/apollo)                     | 28908 | 10186 | 0.1638 | 9 → 5        | ⬆                |
+| 6       | [istio](https://github.com/istio/istio)                              | 35312 | 7618  | 0.1557 | 6            | -                |
+| 7       | [kong](https://github.com/Kong/kong)                                 | 38213 | 4747  | 0.1158 | 4 → 7        | ⬇                |
+| 8       | [awesome-design-patterns](https://github.com/DovAmir/awesome-design-patterns) | 37357 | 2752  | 0.0673 | 5 → 8        | ⬇                |
+| 9       | [go-zero](https://github.com/zeromicro/go-zero)                      | 28063 | 3826  | 0.0228 | 10 → 9       | ⬆                |
+| 10      | [system-design](https://github.com/madd86/awesome-system-design)     | 30105 | 3095  | 0.0221 | 7 → 10       | ⬇                |
 
 ### Tempo Médio de Execução
 
