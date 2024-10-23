@@ -22,7 +22,44 @@ Foi utilizada a GitHub API para coletar os dados necessários dos repositórios.
 - **Cálculo da pontuação composta:** Foi utilizado um método de combinação linear ponderada (scores) para calcular uma pontuação composta para cada repositório, levando em consideração tanto as estrelas quanto os forks.
 - **Ordenação dos Repositórios:** Os repositórios foram ordenados em ordem decrescente com base na pontuação composta calculada.
 
-## Top 10 repositórios com microsserviços (ordenados por Stars)
+## Busca de repositórios no GitHub com a palavra-chave "microservices"
+
+Esta funcionalidade utiliza a API do GitHub para buscar repositórios que tenham relação com a palavra-chave `microservices`. A busca é feita de acordo com diferentes critérios, como nome do repositório, descrição, README, e tópicos associados. Abaixo estão os detalhes de como cada critério é utilizado:
+
+### URL da API
+
+A busca é realizada através do seguinte endpoint da API do GitHub:
+
+https://api.github.com/search/repositories?q={keyword}&sort=stars&order=desc&per_page={num_repos}
+
+- **keyword**: palavra-chave usada na busca (neste caso, `"microservices"`).
+- **num_repos**: número de repositórios a serem retornados.
+
+### Critérios de busca
+
+1. **Nome do repositório**: 
+   - Repositórios cujo nome contém a palavra-chave `microservices`.
+
+2. **Descrição do repositório**: 
+   - Repositórios cuja descrição menciona a palavra-chave `microservices`.
+
+3. **README**:
+   - Repositórios cujo arquivo `README` contém a palavra-chave `microservices`.
+
+4. **Tópicos do repositório**:
+   - Repositórios que possuem tópicos (tags) associadas que contêm a palavra-chave `microservices`.
+
+### Exemplo de Uso
+
+Para buscar os 10 repositórios mais populares relacionados a microservices:
+
+https://api.github.com/search/repositories?q=microservices&sort=stars&order=desc&per_page=10
+
+Essa consulta retornará os repositórios ordenados por número de estrelas em ordem decrescente.
+
+## Análise
+
+### Top 10 repositórios com microsserviços (ordenados por Stars)
 
 Resultado bruto:
 1. [https://github.com/goldbergyoni/nodebestpractices](https://github.com/goldbergyoni/nodebestpractices)
@@ -36,8 +73,7 @@ Resultado bruto:
 9. [https://github.com/apolloconfig/apollo](https://github.com/apolloconfig/apollo)
 10. [https://github.com/zeromicro/go-zero](https://github.com/zeromicro/go-zero)
 
-
-## Stars + Forks
+### Stars + Forks
 Para realizar uma análise mais completa que considere tanto o número de estrelas (stars) quanto o número de forks, podemos aplicar um teste estatístico que combine ambas as variáveis. Podemos usar uma pontuação composta que pondera ambos os fatores.
 
 Vamos considerar repositórios mais populares como:
@@ -65,7 +101,7 @@ Stars + Forks
 ## Resultados
 Considerando stars e forks, os seguintes repositórios foram ranqueados como os mais populares que utilizam a arquitetura de microsserviços:
 
-| Ranking | Repositório                  | Stars | Forks | Score  | Novo Ranking | Movimentação     |
+| Ranking | Repositório                  | Stars | Forks | Score  | Novo ranking | Movimentação     |
 |---------|------------------------------|-------|-------|--------|--------------|------------------|
 | 1       | nodebestpractices            | 97090 | 9864  | 0.6508 | 1            | -                |
 | 2       | dubbo                        | 40191 | 26331 | 0.5878 | 3 → 2        | ⬆                |
