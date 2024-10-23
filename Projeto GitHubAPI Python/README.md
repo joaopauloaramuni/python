@@ -16,9 +16,9 @@ Este projeto tem como objetivo coletar dados e métricas dos 10 repositórios ma
 - Pacotes Python: `requests` e `numpy`
 
 ### Versões
-Python==3.11.0
-requests==2.32.3
-numpy==2.1.2
+- Python==3.11.0
+- requests==2.32.3
+- numpy==2.1.2
 
 ## Preparação do ambiente
 
