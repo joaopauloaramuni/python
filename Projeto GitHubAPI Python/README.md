@@ -29,7 +29,7 @@ Este projeto tem como objetivo coletar dados e métricas dos 10 repositórios ma
 
 3. Instale as dependências:
    ```bash
-   pip install -r requirements.txt
+   pip3 install -r requirements.txt
    ```
 
 4. Adicione seu Token GitHub no arquivo de configuração:
