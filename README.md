@@ -718,10 +718,75 @@ def print_galo():
     print("***************************************", flush=True)
 ```
 
-**PUC Minas:**
+**PUC Minas (width 75):**
 
 ```python
-def print_pucminas():
+def print_pucminas75():
+    print("*********************************************************************", flush=True)
+    print("""                                                                 """, flush=True)      
+    print("""                                -:                               """, flush=True)      
+    print("""                               --=-                              """, flush=True)      
+    print("""                                ::                               """, flush=True)      
+    print("""                                ::                               """, flush=True)      
+    print("""                               :--.                              """, flush=True)      
+    print("""                              -    :                             """, flush=True)      
+    print("""                             :      :                            """, flush=True)      
+    print("""                            ::-:-::-.:                           """, flush=True)      
+    print("""                           .:-:----:=:                           """, flush=True)      
+    print("""                   .       :::::::.: .::                         """, flush=True)      
+    print("""                  - =     ::.::::.: : ::     . :                 """, flush=True)      
+    print("""                   - -    -.-.:=.::::::-    .  .                 """, flush=True)      
+    print("""                  - - -   - .:. . :: --:.  :  .:                 """, flush=True)      
+    print("""                 -   = :  .. :- :    .:-: - ..  .                """, flush=True)      
+    print("""                -     - : .      .      :- .    = :              """, flush=True)      
+    print("""               :   : - - .::::--::-:::::- : :  .   -             """, flush=True)      
+    print("""              =   . - . : ..  -   :.   - -  -..-                 """, flush=True)      
+    print("""               -   : -   :  . - :. :  - -   :  -   .             """, flush=True)      
+    print("""                -..:.-   ... :- -- - : --   --- -.               """, flush=True)      
+    print("""                  -   ::-   . = -- :: -  ---   :                 """, flush=True)      
+    print("""                  -   .      : --- . :     -   :                 """, flush=True)      
+    print("""                   :  -      :: -.. =      :  -                  """, flush=True)      
+    print("""            :..:.   .-:.....................:-    -..-           """, flush=True)      
+    print("""            . - -:.   :                         -- .: .          """, flush=True)      
+    print("""            .--    =..-                     ..:.  =:.--          """, flush=True)      
+    print("""            -: =-   ::=                    . -   ..:-.           """, flush=True)      
+    print("""              .. .    =         : :        .     - :.=           """, flush=True)      
+    print("""             :-. .    -      : == == .     :     . - :           """, flush=True)      
+    print("""             -----    :     :=::= = ==.    :     =---=           """, flush=True)      
+    print("""            .:-===    .    =:.= + +.= --   -    .=-=-:           """, flush=True)      
+    print("""            ---:-:        :==:-:+ --.===   -     --:--           """, flush=True)      
+    print("""             .: :.        -.:+ -= :+.=..-  =     :...            """, flush=True)      
+    print("""             .::     ...     ..=- .=-      --     :::            """, flush=True)      
+    print("""            -    :  .. .     ..=- .=-      - -   - . .           """, flush=True)      
+    print("""           : -  :. .:..:  :  = -= :+.=  -  .-- -- : ..:          """, flush=True)      
+    print("""           =    : -  - :  -==--:+ --.===.   .  --:   -           """, flush=True)      
+    print("""           = .  =   :  -   +: = + +.= -=     .-  .   -.          """, flush=True)      
+    print("""            . -:     : -    :=-:= = ==.   . -      -: -          """, flush=True)      
+    print("""           .  :   -.: :-     - == == -    .: -.:   .. -          """, flush=True)      
+    print("""           :.    .   - -       :- -.      :-.   - -  - .         """, flush=True)      
+    print("""            =   :    -                    --.   -      -         """, flush=True)      
+    print("""           :.     ::- - :                - . ::-  -  -           """, flush=True)      
+    print("""           .  : .:: .-   :.             -   .: .-- .. -          """, flush=True)      
+    print("""             -:-           ::.      .:-           :--:           """, flush=True)      
+    print("""                                                                 """, flush=True)      
+    print("""                                                                 """, flush=True)      
+    print("""                                                                 """, flush=True)      
+    print("""    =**-.  -=   ==   :**-      :.   =   *                        """, flush=True)      
+    print("""    **:=*+ +*   ++  *+:.+      +*  :*   +                        """, flush=True)       
+    print("""    **  +* +*   ++ =*          **  **: ++  +.**:  .**=   +*+     """, flush=True)       
+    print("""    **  ** +*   ++ *+         .**- **= .*. *+ .*:    +* *+ .     """, flush=True)       
+    print("""    ****+  +*   ++ *+         -*:*-*=+  *. *=  *= .**** .*+.     """, flush=True)       
+    print("""    **     +*   ++ +*         ++ **::*  *. *=  *= *: .*   =*:    """, flush=True)       
+    print("""    **     :*+:+*.  **::*:    *- =*  *. *. *=  *= *:.** ...*=    """, flush=True)       
+    print("""    +*      .+++     =++-     +.  -  +- +. +-  += .++ +:.++-     """, flush=True)       
+    print("""                                                                 """, flush=True)       
+    print("*********************************************************************", flush=True)                                                                                                                       
+```                                                                           
+                                                                        
+**PUC Minas (width 100):**                                                                           
+
+```python
+def print_pucminas100():
     print("*********************************************************************************************", flush=True)                                               
     print("""                                            ..                                           """, flush=True)       
     print("""                                           --.-=                                         """, flush=True)       
@@ -801,10 +866,10 @@ def print_pucminas():
     print("*********************************************************************************************", flush=True)
 ```
 
-**PUC Minas:**
+**PUC Minas (width 150):**
 
 ```python
-def print_pucminas():
+def print_pucminas150():
     print("************************************************************************************************************************************************", flush=True)         
     print("""                                                                                                                                            """, flush=True)      
     print("""                                                                     ..                                                                     """, flush=True)      
