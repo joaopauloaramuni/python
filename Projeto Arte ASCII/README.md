@@ -33,6 +33,16 @@ O script oferece duas opções de saída para a representação da arte ASCII:
 
 O `threshold` é um valor que determina a intensidade do pixel a partir da qual um pixel é considerado "escuro". No modo `single`, pixels com intensidade abaixo do `threshold` são representados como `#`, enquanto pixels acima são deixados como espaços vazios. O valor padrão é **128**, que é o ponto médio na escala de 0 a 255. Você pode ajustar esse valor para ver como ele afeta a saída da arte ASCII.
 
+## Resolução da Imagem
+
+O parâmetro `new_width` define a largura da imagem redimensionada antes de convertê-la para arte ASCII. Ele desempenha um papel importante na resolução da imagem ASCII resultante. A altura da imagem é ajustada automaticamente para manter a proporção com base na largura especificada.
+
+- **Considerações sobre a Resolução**:
+    - **Valor de new_width**: Um valor menor para `new_width` resultará em uma arte ASCII mais compacta, mas pode perder detalhes importantes da imagem original. 
+    - **Valor maior de new_width**: Um valor maior proporcionará mais detalhes na arte ASCII, mas também pode tornar a saída muito longa para ser exibida em uma única tela, exigindo rolagem.
+
+A escolha do `new_width` deve ser feita com base no equilíbrio desejado entre detalhes e legibilidade da saída ASCII.
+
 ## Exemplo de Uso
 
 Para usar o script, basta definir o caminho da imagem e escolher o modo de saída (multi ou single):
