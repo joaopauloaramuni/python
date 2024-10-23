@@ -119,6 +119,13 @@ Esta função retorna o número de issues fechadas de um repositório, utilizand
 ### `collect_and_print_repo_info(repos)`
 Esta função coleta informações detalhadas sobre cada repositório em uma lista de repositórios e imprime essas informações no console. Para cada repositório, ela chama as funções de detalhes, pull requests, releases e issues fechadas, formatando a saída de maneira legível.
 
+### `__main__`
+A seção principal do `main.py` realiza as seguintes funções:
+
+1. **Definição de variáveis**: Define a palavra-chave a ser pesquisada (`keyword`) como "microservices" e o número de repositórios a serem coletados (`num_repos`) como 10.
+2. **Chamada de funções**: Tenta obter os repositórios mais populares com a palavra-chave especificada, utilizando a função `get_popular_repos`. Em seguida, chama a função `collect_and_print_repo_info` para exibir as informações coletadas dos repositórios.
+3. **Tratamento de exceções**: Caso ocorra uma falha na coleta de dados, captura a exceção e imprime uma mensagem de erro.
+
 ## stats.py
 
 ## Descrição das funções
@@ -135,6 +142,13 @@ Esta função calcula uma pontuação composta para uma lista de repositórios c
 A função retorna a lista de repositórios ordenados.
 
 > **Nota:** Os resultados coletados por `main.py` foram inseridos manualmente no array em `stats.py`.
+
+### `__main__`
+A seção principal do `stats.py` executa as seguintes operações:
+
+1. **Definição de dados**: Insere manualmente dados de repositórios em um array, contendo informações sobre o nome, número de estrelas e forks de cada repositório.
+2. **Cálculo das pontuações**: Chama a função `calculate_scores` para calcular e ordenar as pontuações dos repositórios com base nas estrelas e forks fornecidos.
+3. **Exibição dos resultados**: Itera sobre a lista de repositórios ordenados e imprime informações sobre cada um, incluindo nome, estrelas, forks e a pontuação calculada.
 
 ## Relatório técnico
 
