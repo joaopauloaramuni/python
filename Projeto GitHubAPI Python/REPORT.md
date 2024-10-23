@@ -50,12 +50,6 @@ Stars + Forks
 
 1) Normalização dos dados: A normalização pode ser feita utilizando a técnica de min-max scaling:
 
-```
-X’ = X - Xmin
--------------
-Xmax - Xmin
-```
-
 $$
 X' = \frac{X - X_{min}}{X_{max} - X_{min}}
 $$
