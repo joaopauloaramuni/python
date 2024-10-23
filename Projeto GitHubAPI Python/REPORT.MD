@@ -1,9 +1,9 @@
-# Relatório Técnico: Análise de Repositórios Populares que Utilizam Microsserviços no GitHub
+# Relatório Técnico: Análise de repositórios populares que utilizam microsserviços no GitHub
 
 ## Objetivo
 O objetivo deste experimento é coletar e analisar características de repositórios populares no GitHub que implementam a arquitetura de microsserviços. Os principais parâmetros analisados incluem estrelas, forks, commits, watchers, pull requests, data do último commit, linguagem principal, licença, contribuidores, tamanho, ramo principal, releases, issues fechadas e tópicos.
 
-## Linguagem de Programação
+## Linguagem de programação
 Python 3 foi a linguagem escolhida para desenvolver o experimento.
 
 ## Dependências
