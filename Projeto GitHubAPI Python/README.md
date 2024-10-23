@@ -50,7 +50,7 @@ Para iniciar a coleta de dados, basta rodar o script principal:
 python3 main.py
 ```
 
-## Top 10 Repositórios com microsserviços (ordenados por Stars)
+## Top 10 repositórios com microsserviços (ordenados por Stars)
 
 Resultado bruto:
 1. [https://github.com/goldbergyoni/nodebestpractices](https://github.com/goldbergyoni/nodebestpractices)
@@ -64,7 +64,7 @@ Resultado bruto:
 9. [https://github.com/apolloconfig/apollo](https://github.com/apolloconfig/apollo)
 10. [https://github.com/zeromicro/go-zero](https://github.com/zeromicro/go-zero)
 
-## Top 10 Repositórios com microsserviços (ordenados por Stars + Forks usando score)
+## Top 10 repositórios com microsserviços (ordenados por Stars + Forks usando score)
 
 1. [https://github.com/goldbergyoni/nodebestpractices](https://github.com/goldbergyoni/nodebestpractices)
 2. [https://github.com/apache/dubbo](https://github.com/apache/dubbo)
@@ -76,7 +76,6 @@ Resultado bruto:
 8. [https://github.com/DovAmir/awesome-design-patterns](https://github.com/DovAmir/awesome-design-patterns)
 9. [https://github.com/zeromicro/go-zero](https://github.com/zeromicro/go-zero)
 10. [https://github.com/karanpratapsingh/system-design](https://github.com/karanpratapsingh/system-design)
-
 
 O script irá acessar a API do GitHub e coletar as seguintes informações para cada repositório:
 - **Nome do repositório**
