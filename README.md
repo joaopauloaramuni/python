@@ -29,9 +29,10 @@ python3 -m venv .venv
 
 **Aranha para crawlers:**
 
+```python
 def print_spyder():
     print("************************************************", flush=True)
-    print("""       									                   """, flush=True)
+    print("""       									 """, flush=True)
     print("""             ;               ,              """, flush=True)
     print("""           ,;                 '.            """, flush=True)
     print("""          ;:                   :;           """, flush=True)
@@ -65,3 +66,4 @@ def print_spyder():
     print("""              "'           '"               """, flush=True)
     print("""                '                           """, flush=True)
     print("************************************************")
+```
