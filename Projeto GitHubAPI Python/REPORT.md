@@ -97,7 +97,12 @@ Detalhamento
    
    onde 𝑋′ é o valor normalizado, 𝑋 é o valor original, 𝑋𝑚𝑖𝑛 é o valor mínimo do conjunto de dados e 𝑋𝑚𝑎𝑥 é o valor máximo do conjunto de dados.
 
-2) Cálculo da pontuação composta:
+   ```python
+   stars_normalized = (stars - stars.min()) / (stars.max() - stars.min())
+   forks_normalized = (forks - forks.min()) / (forks.max() - forks.min())
+   ```
+
+3) Cálculo da pontuação composta:
 - Vamos atribuir pesos iguais para ambas as variáveis (estrelas e forks) para simplificar:
 - Combinação linear ponderada: scores = 0.5 × normalized_stars + 0.5 × normalized_forks
 
