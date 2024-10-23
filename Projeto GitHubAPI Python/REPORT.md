@@ -54,7 +54,7 @@ $$
 X' = \frac{X - X_{min}}{X_{max} - X_{min}}
 $$
 
-  onde 𝑋′ é o valor normalizado, 𝑋 é o valor original, 𝑋𝑚𝑖𝑛 é o valor mínimo do conjunto de dados e 𝑋𝑚𝑎𝑥 é o valor máximo do conjunto de dados.
+   onde 𝑋′ é o valor normalizado, 𝑋 é o valor original, 𝑋𝑚𝑖𝑛 é o valor mínimo do conjunto de dados e 𝑋𝑚𝑎𝑥 é o valor máximo do conjunto de dados.
 
 2) Cálculo da pontuação composta:
 • Vamos atribuir pesos iguais para ambas as variáveis (estrelas e forks) para simplificar:
