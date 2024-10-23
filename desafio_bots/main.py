@@ -139,7 +139,7 @@ def __extract():
     print(Back.LIGHTWHITE_EX, flush=True)
     print(Fore.LIGHTCYAN_EX, flush=True)
 
-    print_spyder()
+    print_spider()
     print("Extract Started ********************************", flush=True)
     print("************************************************", flush=True)
 
@@ -162,7 +162,7 @@ def __extract():
     return result
 
 
-def print_spyder():
+def print_spider():
     print("************** CRAWLERS HOTMILHAS **************", flush=True)
     print("************************************************", flush=True)
     print("""             ;               ,              """, flush=True)
