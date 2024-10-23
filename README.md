@@ -274,7 +274,7 @@ def print_snake3():
 **Python:**
 
 ```python
-def print_snake3():
+def print_python():
     print("******************************************", flush=True)
     print("""                                      """, flush=True)
     print("""    ⠀⠀⠀⠀⠀⠀⠀⢀⣤⣴⣶⣶⣶⣶⣶⣦⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀    """, flush=True)
