@@ -25,7 +25,7 @@ Este projeto utiliza a biblioteca padrão do Python, por isso não há necessida
 
 O código importa a biblioteca `random`, que é parte da biblioteca padrão do Python. A função `random.randint(a, b)` é utilizada para gerar números inteiros aleatórios entre `a` e `b`, que são usados para criar os números de CPF e CNPJ válidos.
 
-## Exemplo de Saída
+## Exemplo de saída
 
 Ao executar o programa, você verá uma saída semelhante a esta:
 
