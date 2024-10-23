@@ -95,10 +95,50 @@ O projeto faz uso das seguintes rotas da API REST do GitHub:
 - `GET /repos/{owner}/{repo}/issues`: Para listar as issues.
 - `GET /repos/{owner}/{repo}/languages`: Para obter as linguagens mais utilizadas.
 
+## Código
+
+## Descrição das funções
+
+## main.py
+
+### `get_popular_repos(keyword, num_repos)`
+Esta função busca os repositórios mais populares do GitHub que contêm uma palavra-chave específica, neste caso, "microservices". Utiliza a API do GitHub para realizar a pesquisa e retorna uma lista de repositórios, ordenados por número de estrelas. Os parâmetros incluem a palavra-chave e o número máximo de repositórios a serem retornados.
+
+### `get_repo_details(owner, repo)`
+Esta função coleta detalhes específicos sobre um repositório. Recebe o nome do proprietário e o nome do repositório como parâmetros e retorna informações detalhadas, como URL, número de estrelas, forks, linguagem principal, licença, entre outros.
+
+### `get_pull_requests(owner, repo)`
+Esta função obtém o número total de pull requests de um repositório, utilizando paginação para garantir que todos os pull requests sejam contados. Recebe o nome do proprietário e o nome do repositório como parâmetros e retorna a contagem total de pull requests.
+
+### `get_releases(owner, repo)`
+Semelhante à função anterior, esta função coleta o número total de releases de um repositório. Utiliza paginação para contabilizar corretamente todas as releases. Os parâmetros são o nome do proprietário e o nome do repositório, e a função retorna a contagem total de releases.
+
+### `get_closed_issues(owner, repo)`
+Esta função retorna o número de issues fechadas de um repositório, utilizando também paginação para garantir a precisão na contagem. Recebe como parâmetros o nome do proprietário e o nome do repositório e retorna a contagem total de issues fechadas.
+
+### `collect_and_print_repo_info(repos)`
+Esta função coleta informações detalhadas sobre cada repositório em uma lista de repositórios e imprime essas informações no console. Para cada repositório, ela chama as funções de detalhes, pull requests, releases e issues fechadas, formatando a saída de maneira legível.
+
+## stats.py
+
+## Descrição das funções
+
+### `calculate_scores(repos)`
+Esta função calcula uma pontuação composta para uma lista de repositórios com base no número de estrelas e forks.
+
+1. **Extração de dados**: Os dados dos repositórios, como estrelas e forks, são inseridos manualmente em um array no stats.py para análise.
+2. **Normalização**: Normaliza os valores de estrelas e forks para uma escala de 0 a 1, utilizando a fórmula de normalização padrão.
+3. **Cálculo da pontuação composta**: Calcula a pontuação composta usando uma média ponderada (50% para estrelas e 50% para forks).
+4. **Atualização dos repositórios**: Adiciona a pontuação calculada a cada repositório no dicionário.
+5. **Ordenação dos repositórios**: Ordena a lista de repositórios com base na pontuação composta, do maior para o menor.
+
+A função retorna a lista de repositórios ordenados.
+
+> **Nota:** Os resultados coletados por `main.py` foram inseridos manualmente no array em `stats.py`.
+
 ## Relatório técnico
 
 Para uma análise detalhada dos repositórios populares que utilizam microsserviços no GitHub, consulte o [relatório técnico](REPORT.md).
-
 
 ## Licença
 
