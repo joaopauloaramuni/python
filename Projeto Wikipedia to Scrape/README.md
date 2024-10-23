@@ -55,4 +55,5 @@ Sinta-se à vontade para abrir issues ou enviar pull requests se você tiver sug
 
 ## Licença
 
-Este projeto está licenciado sob a [MIT License](LICENSE).
+Este projeto está licenciado sob a MIT License.
+
