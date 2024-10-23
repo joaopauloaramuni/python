@@ -15,32 +15,42 @@ Este projeto tem como objetivo coletar dados e métricas dos 10 repositórios ma
 - Token de autenticação GitHub
 - Pacotes Python: `requests` e `numpy`
 
-## Preparação do Ambiente
+## Preparação do ambiente
 
-1. **Instalação do Python 3**
+1. **Clone o repositório** (se ainda não o fez):
+   ```bash
+   git clone https://github.com/joaopauloaramuni/python.git
+   cd python/Projeto GitHubAPI Python
+   ```
+   
+2. **Instalação do Python 3**
    - Certifique-se de ter o Python 3 instalado em sua máquina.
 
-2. **(Virtual env) Criação do ambiente virtual**
+3. **(Virtual env) Criação do ambiente virtual**
    ```bash
    python3 -m venv .venv
    ```
 
-3. **(Virtual env) Ativação do ambiente virtual**
+4. **(Virtual env) Ativação do ambiente virtual**
    ```bash
    source .venv/bin/activate  # Para usuários de Linux/macOS
    .venv\Scripts\activate  # Para usuários de Windows
    ```
 
-4. **(Dependências) Instalação da biblioteca requests**
+5. **(Dependências) Instalação da biblioteca requests**
    ```bash
    pip3 install requests
    pip3 install numpy
    ```
+   ou
+   ```bash
+   pip3 install -r requirements.txt
+   ```
 
-5. **Geração de token de acesso**
+6. **Geração de token de acesso**
    - Crie um token de acesso pessoal no GitHub nas configurações de desenvolvedor: [GitHub Tokens](https://github.com/settings/tokens)
 
-6. **Apresentação da documentação da API REST do GitHub**
+7. **Documentação da API REST do GitHub**
    - Consulte a documentação da API REST do GitHub para mais informações: [Documentação da API GitHub](https://docs.github.com/pt/rest?apiVersion=2022-11-28)
 
 ## Uso
@@ -49,6 +59,11 @@ Para iniciar a coleta de dados, basta rodar o script principal:
 
 ```bash
 python3 main.py
+```
+
+Em seguida, copie os resultados e cole para o array em stats.py. Feito isso, basta rodar o script de apoio (estatísticas):
+```bash
+python3 stats.py
 ```
 
 ## Top 10 repositórios com microsserviços (ordenados por Stars)
