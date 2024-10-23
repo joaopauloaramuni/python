@@ -29,8 +29,10 @@ python3 -m venv .venv
 
 **Spiders para crawlers:**
 
+**Spider1:**
+
 ```python
-def print_spider():
+def print_spider1():
     print("************************************************", flush=True)
     print("""             ;               ,              """, flush=True)
     print("""           ,;                 '.            """, flush=True)
@@ -466,7 +468,7 @@ def print_spider10():
     print("********************************************************************************", flush=True)
 ```
 
-**Pirata:**
+**Pirate:**
 
 ```python
 def print_pirate():
