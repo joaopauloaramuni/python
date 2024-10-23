@@ -10,11 +10,16 @@ Para executar este código, você precisará da biblioteca Pillow. Você pode in
 pip3 install Pillow
 ```
 
+## Estrutura de Diretórios
+
+1. Certifique-se de que a imagem que deseja converter está localizada na pasta especificada. Neste exemplo, `Documents` no macOS.
+   - **Observação**: No Windows, o caminho seria algo como `C:\Users\SeuUsuario\Documents`, e no Linux, poderia ser `/home/SeuUsuario/Documents`. Adapte o caminho conforme o sistema operacional que você está utilizando.
+
 ## Como Usar
 
-1. Certifique-se de que a imagem que deseja converter está localizada na pasta `Documents` do seu macOS. 
+1. Certifique-se de que a imagem que deseja converter está localizada na pasta especificada. 
 2. Atualize a variável `image_path` com o caminho correto da sua imagem.
-3. Execute o script. 
+3. Execute o script.
 
 ## Modos de Saída
 
@@ -37,3 +42,27 @@ output_mode = 'multi'  # ou 'single'
 ```
 
 Depois, execute o script para ver a arte ASCII gerada.
+
+## Ambiente Virtual
+
+É recomendável usar um ambiente virtual para gerenciar suas dependências. Siga os passos abaixo para configurar um ambiente virtual:
+
+1. Crie um ambiente virtual usando o seguinte comando:
+
+    ```bash
+    python3 -m venv .venv
+    ```
+
+2. Ative o ambiente virtual:
+   - No macOS e Linux:
+
+    ```bash
+    source .venv/bin/activate
+    ```
+   - No Windows:
+
+    ```bash
+    .venv\Scripts\activate
+    ```
+
+Após ativar o ambiente virtual, você pode instalar a dependência do Pillow conforme mencionado anteriormente.
