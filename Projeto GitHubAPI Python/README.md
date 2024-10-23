@@ -13,7 +13,7 @@ Este projeto tem como objetivo coletar dados e métricas dos 10 repositórios ma
 
 - Python 3.8 ou superior
 - Token de autenticação GitHub
-- Pacotes Python: `requests`, `python-dotenv`, `pandas`
+- Pacotes Python: `requests` e `numpy`
 
 ## Preparação do Ambiente
 
@@ -34,6 +34,7 @@ Este projeto tem como objetivo coletar dados e métricas dos 10 repositórios ma
 4. **(Dependências) Instalação da biblioteca requests**
    ```bash
    pip3 install requests
+   pip3 install numpy
    ```
 
 5. **Geração de token de acesso**
