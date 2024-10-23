@@ -67,6 +67,8 @@ def print_spyder():
     print("************************************************", flush=True)
 ```
 
+**Galão da massa:**
+
 ```python
 def print_galo():
     print("***************************************", flush=True)
