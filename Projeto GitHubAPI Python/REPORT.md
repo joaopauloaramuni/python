@@ -99,7 +99,7 @@ Stars + Forks
 • Vamos atribuir pesos iguais para ambas as variáveis (estrelas e forks) para simplificar:
 • Combinação linear ponderada: scores = 0.5 × normalized_stars + 0.5 × normalized_forks
 
-3) Ordenação dos repositórios: Os repositórios serão ordenados de acordo com a pontuação composta.
+4) Ordenação dos repositórios: Os repositórios serão ordenados de acordo com a pontuação composta.
 
 ## Resultados
 Considerando stars e forks, os seguintes repositórios foram ranqueados como os mais populares que utilizam a arquitetura de microsserviços:
