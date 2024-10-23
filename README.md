@@ -27,7 +27,7 @@ python3 -m venv .venv
 <br>python3 quotes.py (ou scrapy startproject quotes_scrapy e em seguida scrapy crawl quotes -o quotes.json)
 <br>Opcional: pip3 install beautifulsoup4 lxml
 
-**Spider para crawlers:**
+**Spiders para crawlers:**
 
 ```python
 def print_spider():
