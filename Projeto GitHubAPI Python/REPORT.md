@@ -62,16 +62,19 @@ Essa consulta retornará os repositórios ordenados por número de estrelas em o
 ### Top 10 repositórios com microsserviços (ordenados por Stars)
 
 Resultado bruto:
-1. [https://github.com/goldbergyoni/nodebestpractices](https://github.com/goldbergyoni/nodebestpractices)
-2. [https://github.com/nestjs/nest](https://github.com/nestjs/nest)
-3. [https://github.com/apache/dubbo](https://github.com/apache/dubbo)
-4. [https://github.com/Kong/kong](https://github.com/Kong/kong)
-5. [https://github.com/DovAmir/awesome-design-patterns](https://github.com/DovAmir/awesome-design-patterns)
-6. [https://github.com/istio/istio](https://github.com/istio/istio)
-7. [https://github.com/karanpratapsingh/system-design](https://github.com/karanpratapsingh/system-design)
-8. [https://github.com/alibaba/nacos](https://github.com/alibaba/nacos)
-9. [https://github.com/apolloconfig/apollo](https://github.com/apolloconfig/apollo)
-10. [https://github.com/zeromicro/go-zero](https://github.com/zeromicro/go-zero)
+
+| Ranking | Repositório                  | Stars |
+|---------|------------------------------|-------|
+| 1       | [nodebestpractices](https://github.com/goldbergyoni/nodebestpractices) | 97090 |
+| 2       | [nest](https://github.com/nestjs/nest)                              | 65393 |
+| 3       | [dubbo](https://github.com/apache/dubbo)                            | 40191 |
+| 4       | [kong](https://github.com/Kong/kong)                                 | 38213 |
+| 5       | [awesome-design-patterns](https://github.com/DovAmir/awesome-design-patterns) | 37357 |
+| 6       | [istio](https://github.com/istio/istio)                              | 35312 |
+| 7       | [system-design](https://github.com/madd86/awesome-system-design)     | 30105 |
+| 8       | [nacos](https://github.com/alibaba/nacos)                            | 29396 |
+| 9       | [apollo](https://github.com/apolloconfig/apollo)                     | 28908 |
+| 10      | [go-zero](https://github.com/zeromicro/go-zero)                      | 28063 |
 
 ### Stars + Forks
 Para realizar uma análise mais completa que considere tanto o número de estrelas (stars) quanto o número de forks, podemos aplicar um teste estatístico que combine ambas as variáveis. Podemos usar uma pontuação composta que pondera ambos os fatores.
