@@ -49,7 +49,7 @@ https://api.github.com/search/repositories?q={keyword}&sort=stars&order=desc&per
 4. **Tópicos do repositório**:
    - Repositórios que possuem tópicos (tags) associadas que contêm a palavra-chave `microservices`.
 
-### Exemplo de Uso
+### Exemplo de uso
 
 Para buscar os 10 repositórios mais populares relacionados a microservices:
 
