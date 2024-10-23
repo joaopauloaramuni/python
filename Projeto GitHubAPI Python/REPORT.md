@@ -50,10 +50,10 @@ Stars + Forks
 
 1) Normalização dos dados: A normalização pode ser feita utilizando a técnica de min-max scaling:
 
-$$
-X' = \frac{X - X_{min}}{X_{max} - X_{min}}
-$$
-
+   $$
+   X' = \frac{X - X_{min}}{X_{max} - X_{min}}
+   $$
+   
    onde 𝑋′ é o valor normalizado, 𝑋 é o valor original, 𝑋𝑚𝑖𝑛 é o valor mínimo do conjunto de dados e 𝑋𝑚𝑎𝑥 é o valor máximo do conjunto de dados.
 
 2) Cálculo da pontuação composta:
