@@ -92,7 +92,7 @@ Depois, execute o script para ver a arte ASCII gerada.
 Para executar o código e gerar a arte ASCII a partir da imagem especificada, basta utilizar o seguinte comando no terminal:
 
 ```bash
-python3 arte.py
+python3 ascii_art_generator.py
 ```
 
 Certifique-se de que você esteja no diretório onde o arquivo arte.py está localizado e que o ambiente virtual esteja ativado, caso você esteja usando um. Assim, o script irá rodar e você verá a arte ASCII gerada no seu terminal, de acordo com o modo de saída que você escolheu.
