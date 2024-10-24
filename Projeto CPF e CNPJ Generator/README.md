@@ -39,4 +39,4 @@ Validação de CNPJ (11.222.333/0001-81): True
 
 ## Licença
 
-Este projeto é de uso livre. Sinta-se à vontade para modificar e distribuir conforme necessário.
+Este projeto está licenciado sob a MIT License.
