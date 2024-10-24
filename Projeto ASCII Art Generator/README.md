@@ -120,3 +120,7 @@ Certifique-se de que você esteja no diretório onde o arquivo arte.py está loc
     ```
 
 Após ativar o ambiente virtual, você pode instalar a dependência do Pillow conforme mencionado anteriormente.
+
+## Licença
+
+Este projeto está licenciado sob a MIT License.
