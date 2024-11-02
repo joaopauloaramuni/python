@@ -1,0 +1,844 @@
+{
+	"info": {
+		"_postman_id": "d185de3d-ce0a-4695-94ae-88aa8d1e811b",
+		"name": "Biblioteca",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Autores",
+			"item": [
+				{
+					"name": "Listar registros",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{localhost_url}}/biblioteca/autores/",
+							"host": [
+								"{{localhost_url}}"
+							],
+							"path": [
+								"biblioteca",
+								"autores",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Listar um registro",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{localhost_url}}/biblioteca/autores/1/",
+							"host": [
+								"{{localhost_url}}"
+							],
+							"path": [
+								"biblioteca",
+								"autores",
+								"1",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Criar registro",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"nome\" : \"John Paul Mueller\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{localhost_url}}/biblioteca/autores/",
+							"host": [
+								"{{localhost_url}}"
+							],
+							"path": [
+								"biblioteca",
+								"autores",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Atualização do registro",
+					"request": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"nome\" : \"John Paul Mueller Renomeado\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{localhost_url}}/biblioteca/autores/1/",
+							"host": [
+								"{{localhost_url}}"
+							],
+							"path": [
+								"biblioteca",
+								"autores",
+								"1",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Removendo registro",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{localhost_url}}/biblioteca/autores/8/",
+							"host": [
+								"{{localhost_url}}"
+							],
+							"path": [
+								"biblioteca",
+								"autores",
+								"8",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"auth": {
+				"type": "apikey",
+				"apikey": [
+					{
+						"key": "value",
+						"value": "Token 83352c68aa333323a3fdc447ea0bc4aaf439e56d",
+						"type": "string"
+					},
+					{
+						"key": "key",
+						"value": "Authorization",
+						"type": "string"
+					}
+				]
+			},
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "a421ecb6-ce78-46cc-bbf7-596c7ea7ff02",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "e0bda30b-8eb9-4488-841b-96203462e26a",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Livros",
+			"item": [
+				{
+					"name": "Listar registro",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{localhost_url}}/biblioteca/livros/",
+							"host": [
+								"{{localhost_url}}"
+							],
+							"path": [
+								"biblioteca",
+								"livros",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Listar um registro",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{localhost_url}}/biblioteca/livros/1/",
+							"host": [
+								"{{localhost_url}}"
+							],
+							"path": [
+								"biblioteca",
+								"livros",
+								"1",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Criar registro",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"titulo\" : \"Livro de teste\",\n\t\"autor\" : [ 1,3,4 ],\n\t\"edicao\" : 2\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{localhost_url}}/biblioteca/livros/",
+							"host": [
+								"{{localhost_url}}"
+							],
+							"path": [
+								"biblioteca",
+								"livros",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Atualização do registro",
+					"request": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"autor\" : [7]\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{localhost_url}}/biblioteca/livros/2/",
+							"host": [
+								"{{localhost_url}}"
+							],
+							"path": [
+								"biblioteca",
+								"livros",
+								"2",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Removendo registro",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{localhost_url}}/biblioteca/livros/1/",
+							"host": [
+								"{{localhost_url}}"
+							],
+							"path": [
+								"biblioteca",
+								"livros",
+								"1",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"auth": {
+				"type": "apikey",
+				"apikey": [
+					{
+						"key": "value",
+						"value": "Token 83352c68aa333323a3fdc447ea0bc4aaf439e56d",
+						"type": "string"
+					},
+					{
+						"key": "key",
+						"value": "Authorization",
+						"type": "string"
+					}
+				]
+			},
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "a421ecb6-ce78-46cc-bbf7-596c7ea7ff02",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "e0bda30b-8eb9-4488-841b-96203462e26a",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Alunos",
+			"item": [
+				{
+					"name": "Listar registros",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{localhost_url}}/biblioteca/alunos/",
+							"host": [
+								"{{localhost_url}}"
+							],
+							"path": [
+								"biblioteca",
+								"alunos",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Listar um registro",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{localhost_url}}/biblioteca/alunos/1/",
+							"host": [
+								"{{localhost_url}}"
+							],
+							"path": [
+								"biblioteca",
+								"alunos",
+								"1",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Criar registro",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"nome\" : \"João\",\n\t\"cpf\" : \"12314132\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{localhost_url}}/biblioteca/alunos/",
+							"host": [
+								"{{localhost_url}}"
+							],
+							"path": [
+								"biblioteca",
+								"alunos",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Atualização do registro",
+					"request": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"nome\" : \"John Aluno Renomeado\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{localhost_url}}/biblioteca/alunos/1/",
+							"host": [
+								"{{localhost_url}}"
+							],
+							"path": [
+								"biblioteca",
+								"alunos",
+								"1",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Removendo registro",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{localhost_url}}/biblioteca/alunos/8/",
+							"host": [
+								"{{localhost_url}}"
+							],
+							"path": [
+								"biblioteca",
+								"alunos",
+								"8",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"auth": {
+				"type": "apikey",
+				"apikey": [
+					{
+						"key": "value",
+						"value": "Token 83352c68aa333323a3fdc447ea0bc4aaf439e56d",
+						"type": "string"
+					},
+					{
+						"key": "key",
+						"value": "Authorization",
+						"type": "string"
+					}
+				]
+			},
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "a421ecb6-ce78-46cc-bbf7-596c7ea7ff02",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "e0bda30b-8eb9-4488-841b-96203462e26a",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Emprestimos",
+			"item": [
+				{
+					"name": "Listar registros",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{localhost_url}}/biblioteca/emprestimos/",
+							"host": [
+								"{{localhost_url}}"
+							],
+							"path": [
+								"biblioteca",
+								"emprestimos",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Listar com filtro",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{localhost_url}}/biblioteca/emprestimos/?data_emprestimo=2019-11-28",
+							"host": [
+								"{{localhost_url}}"
+							],
+							"path": [
+								"biblioteca",
+								"emprestimos",
+								""
+							],
+							"query": [
+								{
+									"key": "data_emprestimo",
+									"value": "2019-11-28"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Listar não devolvidos",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{localhost_url}}/biblioteca/emprestimos/?esta_emprestado=True",
+							"host": [
+								"{{localhost_url}}"
+							],
+							"path": [
+								"biblioteca",
+								"emprestimos",
+								""
+							],
+							"query": [
+								{
+									"key": "esta_emprestado",
+									"value": "True"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Listar um registro",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{localhost_url}}/biblioteca/emprestimos/1/",
+							"host": [
+								"{{localhost_url}}"
+							],
+							"path": [
+								"biblioteca",
+								"emprestimos",
+								"1",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Criar registro",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"aluno\" : 2,\n\t\"livro\" : 2\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{localhost_url}}/biblioteca/emprestimos/",
+							"host": [
+								"{{localhost_url}}"
+							],
+							"path": [
+								"biblioteca",
+								"emprestimos",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Atualização do registro",
+					"request": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"livro\" : 2,\n\t\"data_devolucao\" : \"2019-10-10\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{localhost_url}}/biblioteca/emprestimos/1/",
+							"host": [
+								"{{localhost_url}}"
+							],
+							"path": [
+								"biblioteca",
+								"emprestimos",
+								"1",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Removendo registro",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{localhost_url}}/biblioteca/emprestimos/2/",
+							"host": [
+								"{{localhost_url}}"
+							],
+							"path": [
+								"biblioteca",
+								"emprestimos",
+								"2",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"auth": {
+				"type": "apikey",
+				"apikey": [
+					{
+						"key": "value",
+						"value": "Token 83352c68aa333323a3fdc447ea0bc4aaf439e56d",
+						"type": "string"
+					},
+					{
+						"key": "key",
+						"value": "Authorization",
+						"type": "string"
+					}
+				]
+			},
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "a421ecb6-ce78-46cc-bbf7-596c7ea7ff02",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "e0bda30b-8eb9-4488-841b-96203462e26a",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Autenticação",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\": \"admin\",\r\n    \"password\": \"admin\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{localhost_url}}/api-token-auth/",
+					"host": [
+						"{{localhost_url}}"
+					],
+					"path": [
+						"api-token-auth",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "4870e1d5-d970-4d41-b793-a8cb0ca689df",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "8a5e0be5-ff4b-4b3f-bfdd-3f5fe9e35f91",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"id": "06e9f81a-0f6c-4587-bd85-f7f63dbf70a4",
+			"key": "localhost_url",
+			"value": "http://127.0.0.1:8000",
+			"type": "string"
+		}
+	],
+	"protocolProfileBehavior": {}
+}
