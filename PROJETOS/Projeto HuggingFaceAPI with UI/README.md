@@ -68,19 +68,6 @@ Substitua pelo seu token copiado:
 headers = {"Authorization": "Bearer hf_seutoken"}  # Coloque seu token aqui
 ```
 
-## Dependências
-
-Este projeto requer as seguintes bibliotecas:
-- requests
-- io
-- PIL (Pillow)
-
-Você pode instalá-las usando o seguinte comando:
-
-```bash
-pip3 install requests pillow
-```
-
 ## Execução do Projeto
 
 Para executar o projeto, basta rodar o arquivo `interface.py`:
