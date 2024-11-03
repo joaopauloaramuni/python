@@ -68,7 +68,6 @@ Para gerar seu próprio token, visite: [Configurações de Token](https://huggin
 Este projeto requer as seguintes bibliotecas:
 - requests: Para fazer requisições HTTP à API do Hugging Face.
 - Pillow: Para manipulação de imagens.
-- tkinter: Para a interface gráfica do usuário.
 
 Você pode instalá-las usando o seguinte comando:
 
