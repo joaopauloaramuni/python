@@ -13,9 +13,9 @@ Este é um programa de compressão de imagens com uma interface gráfica constru
 
 - **Tela de Home**: A tela inicial apresenta um botão onde o usuário pode selecionar uma imagem para compressão, uma barra deslizante para especificar a qualidade desejada e iniciar o processo.
 
-| <img src="imgs/home2.png" alt="Home2" width="400"/> | <img src="imgs/home3.png" alt="Home3" width="400"/> |
-|:----------------------:|:----------------------:|
-|         Home 1         |         Home 2         |
+| ![Tela Inicial - Home ](imgs/home2.png) | ![Tela Inicial - Home ](imgs/home3.png) |
+|:---------------------:|:--------------------:|
+|         Home          |         Home         |
 
 No exemplo apresentado, o arquivo original `image.jpg`, com um tamanho de 3.2 MB, foi comprimido para `comprimido_image.jpg`, que agora ocupa apenas 893 KB. Essa compressão foi realizada utilizando um parâmetro de qualidade de 0.5, demonstrando uma redução significativa no tamanho do arquivo, mantendo uma qualidade aceitável da imagem.
 
