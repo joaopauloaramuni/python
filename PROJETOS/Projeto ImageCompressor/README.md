@@ -1,13 +1,12 @@
 # Compressor de Imagens
 
-Este é um programa de compressão de imagens com uma interface gráfica construída em Python usando a biblioteca `Tkinter`. Ele permite que o usuário selecione uma imagem, ajuste a qualidade de compressão e salve a versão comprimida. Este README inclui instruções para gerar o executável (.exe) do projeto.
+Este é um programa simples de compressão de imagens desenvolvido em Python. Ele permite que o usuário ajuste a qualidade de compressão diretamente no código e salva a imagem comprimida no mesmo diretório da original.
 
 ## Funcionalidades
 
-- **Upload de Imagem**: Seleção de uma imagem no formato `.jpg`, `.jpeg` ou `.png`.
-- **Ajuste de Qualidade**: Controle de qualidade da compressão, de 1 a 100.
-- **Interface Gráfica**: Interface amigável e intuitiva para facilitar o uso.
-- **Versão Executável (.exe)**: Pode ser gerado para uso direto no Windows, sem necessidade de instalar Python.
+- **Upload de Imagem**: Seleção de uma imagem no formato `.jpg`, `.jpeg` ou `.png` (definido diretamente no código).
+- **Ajuste de Qualidade**: Controle de qualidade da compressão configurável de 1 a 100.
+- **Execução Simples**: Código editável e executável diretamente pelo terminal.
 
 ## Compressão
 
@@ -24,15 +23,20 @@ Você pode instalar as dependências necessárias utilizando o seguinte comando:
 ```bash
 pip3 install Pillow
 ```
-## Execução do código
 
-Para executar o código e gerar a imagem a partir do texto especificado, basta utilizar o seguinte comando no terminal:
+## Uso
 
-```bash
-python3 app.py
-```
+1. **Edite o código**:
+   - Abra o arquivo `app.py` e defina o caminho da imagem (`caminho_imagem`) e o nível de qualidade desejado (1-100).
 
-Certifique-se de que você esteja no diretório onde o arquivo app.py está localizado e que o ambiente virtual esteja ativado, caso você esteja usando um. Assim, o script irá rodar e você verá a imagem gerada, de acordo com o texto passado como parâmetro.
+2. **Execute o programa**:
+   
+    ```console
+    python app.py
+    ```
+
+3. **Saída**:
+   - A imagem comprimida será salva no mesmo diretório da imagem original com o prefixo `comprimido_`.
 
 ## Ambiente Virtual
 
