@@ -5,7 +5,7 @@ Este é um programa simples de compressão de imagens desenvolvido em Python. El
 ## Funcionalidades
 
 - **Upload de Imagem**: Seleção de uma imagem no formato `.jpg`, `.jpeg` ou `.png` (definido diretamente no código).
-- **Ajuste de Qualidade**: Controle de qualidade da compressão configurável de 1 a 100.
+- **Ajuste de Qualidade**: Controle de qualidade da compressão configurável de 1 a 100  (definido diretamente no código).
 - **Execução Simples**: Código editável e executável diretamente pelo terminal.
 
 ## Compressão
