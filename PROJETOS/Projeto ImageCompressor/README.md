@@ -9,42 +9,48 @@ Este é um programa de compressão de imagens com uma interface gráfica constru
 - **Interface Gráfica**: Interface amigável e intuitiva para facilitar o uso.
 - **Versão Executável (.exe)**: Pode ser gerado para uso direto no Windows, sem necessidade de instalar Python.
 
-## Captura de Tela
-
-- **Tela de Home**: A tela inicial apresenta um botão onde o usuário pode selecionar uma imagem para compressão, uma barra deslizante para especificar a qualidade desejada e iniciar o processo.
-
-| ![Tela Inicial - Home ](imgs/home2.png) | ![Tela Inicial - Home ](imgs/home3.png) |
-|:---------------------:|:--------------------:|
-|         Home          |         Home         |
+## Compressão
 
 No exemplo apresentado, o arquivo original `image.jpg`, com um tamanho de 3.2 MB, foi comprimido para `comprimido_image.jpg`, que agora ocupa apenas 893 KB. Essa compressão foi realizada utilizando um parâmetro de qualidade de 0.5, demonstrando uma redução significativa no tamanho do arquivo, mantendo uma qualidade aceitável da imagem.
 
-## Como Gerar o Executável
+## Dependências
 
-Para gerar o executável, siga os passos abaixo:
+Para executar este projeto, você precisará das seguintes bibliotecas Python:
 
-1. Certifique-se de ter o `PyInstaller` instalado. Caso não tenha, instale com o comando:
-   ```bash
-   pip3 install pyinstaller
-   ```
+- `Pillow`: Para manipulação de imagens.
 
-2. Navegue até o diretório onde o código-fonte está salvo e execute o seguinte comando:
-   ```bash
-   pyinstaller --onefile --windowed --icon=icone.ico compressor.py
-   ```
+Você pode instalar as dependências necessárias utilizando o seguinte comando:
 
-   - `--onefile`: Cria um único arquivo executável.
-   - `--windowed`: Oculta o terminal ao abrir a interface gráfica.
-   - `--icon=icone.ico`: Define o ícone do executável como `icone.ico`.
+```bash
+pip3 install Pillow
+```
+## Execução do código
 
-3. O executável gerado estará na pasta `dist/`.
+Para executar o código e gerar a imagem a partir do texto especificado, basta utilizar o seguinte comando no terminal:
 
-## Como Usar
+```bash
+python3 app.py
+```
 
-1. Abra o arquivo executável (`compressor.exe`).
-2. Na interface, clique em "Selecionar Imagem" para escolher uma imagem do seu computador.
-3. Use o controle deslizante para ajustar a qualidade da compressão (quanto menor o valor, maior a compressão).
-4. Clique em "Comprimir Imagem" para salvar a imagem comprimida.
+Certifique-se de que você esteja no diretório onde o arquivo app.py está localizado e que o ambiente virtual esteja ativado, caso você esteja usando um. Assim, o script irá rodar e você verá a imagem gerada, de acordo com o texto passado como parâmetro.
+
+## Ambiente Virtual
+
+É recomendável usar um ambiente virtual para gerenciar suas dependências. Siga os passos abaixo para configurar um ambiente virtual:
+
+1. Crie um ambiente virtual usando o seguinte comando:
+    ```bash
+    python3 -m venv .venv
+    ```
+2. Ative o ambiente virtual:
+    - No macOS e Linux:
+        ```bash
+        source .venv/bin/activate
+        ```
+    - No Windows:
+        ```bash
+        .venv\Scripts\activate
+        ```
 
 ## Licença
 
