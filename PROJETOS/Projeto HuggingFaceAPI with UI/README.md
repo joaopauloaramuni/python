@@ -12,6 +12,19 @@ O código envia uma solicitação POST para a API de inferência da Hugging Face
 - Opção de salvar a imagem gerada no formato PNG.
 - Interface amigável e intuitiva.
 
+## Interface Gráfica
+
+A interface gráfica permite que o usuário insira o link do vídeo, visualize e inicie o download com um clique. Para usar, basta iniciar o programa e colar o link do YouTube no campo designado.
+
+### Capturas de Tela
+
+- **Tela Inicial**: Campo para inserir o link do vídeo e botão de download.
+- **Tela de Progresso**: Exibe o progresso do download.
+
+| ![Tela Inicial](imgs/home1.png) | ![Tela de Download](imgs/home2.png) |
+|:--:|:--:|
+| Tela Inicial | Tela de Download |
+
 ## Dependências
 
 Para executar este projeto, você precisará das seguintes bibliotecas Python:
