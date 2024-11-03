@@ -121,12 +121,12 @@ Para gerar o executável, siga os passos abaixo:
 
 2. Navegue até o diretório onde o código-fonte está salvo e execute o seguinte comando:
    ```bash
-   pyinstaller --onefile --windowed --icon=icone.ico interface.py
+   pyinstaller --onefile --windowed --icon=icon.ico interface.py
    ```
 
    - `--onefile`: Cria um único arquivo executável.
    - `--windowed`: Oculta o terminal ao abrir a interface gráfica.
-   - `--icon=icone.ico`: Define o ícone do executável como `icone.ico`.
+   - `--icon=icon.ico`: Define o ícone do executável como `icon.ico`.
 
 3. O executável gerado estará na pasta `dist/`.
 
