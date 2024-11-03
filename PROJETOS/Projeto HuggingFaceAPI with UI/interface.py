@@ -45,9 +45,11 @@ app.geometry("500x400")  # Diminuindo a altura da janela
 app.configure(bg="#e0f7fa")
 
 # Adicionar um ícone (Certifique-se de ter o arquivo 'icon.ico' no mesmo diretório)
+# icon_image_path = "C:/prj/icon.ico" # Para geração do .exe
 app.iconbitmap("icon.ico")
 
 # Carregar e exibir a logo (Certifique-se de ter o arquivo 'logo.png' no mesmo diretório)
+# logo_image_path = "C:/prj/logo.png" # Para geração do .exe
 logo_image = Image.open("logo.png")
 logo_image = logo_image.resize((300, 80))  # Ajustar o tamanho da logo
 logo_tk = ImageTk.PhotoImage(logo_image)
