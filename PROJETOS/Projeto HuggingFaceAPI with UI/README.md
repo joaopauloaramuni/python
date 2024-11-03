@@ -110,6 +110,33 @@ python3 interface.py
 Para este exemplo, foi escolhida a imagem:
 - Astronaut riding a horse (Astronauta andando a cavalo)
 
+## Como Gerar o Executável
+
+Para gerar o executável, siga os passos abaixo:
+
+1. Certifique-se de ter o `PyInstaller` instalado. Caso não tenha, instale com o comando:
+   ```bash
+   pip3 install pyinstaller
+   ```
+
+2. Navegue até o diretório onde o código-fonte está salvo e execute o seguinte comando:
+   ```bash
+   pyinstaller --onefile --windowed --icon=icone.ico interface.py
+   ```
+
+   - `--onefile`: Cria um único arquivo executável.
+   - `--windowed`: Oculta o terminal ao abrir a interface gráfica.
+   - `--icon=icone.ico`: Define o ícone do executável como `icone.ico`.
+
+3. O executável gerado estará na pasta `dist/`.
+
+## Como Usar
+
+1. Abra o arquivo executável (`compressor.exe`).
+2. Na interface, clique em "Selecionar Imagem" para escolher uma imagem do seu computador.
+3. Use o controle deslizante para ajustar a qualidade da compressão (quanto menor o valor, maior a compressão).
+4. Clique em "Comprimir Imagem" para salvar a imagem comprimida.
+
 ## Documentação
 - [Hugging Face Website](https://huggingface.co/)
 - [Link da documentação da API](https://huggingface.co/docs/api-inference/tasks/text-to-image?code=python#text-to-image)
