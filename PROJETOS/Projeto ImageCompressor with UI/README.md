@@ -36,7 +36,7 @@ pip3 install Pillow
 
 1. **Execute o programa**:
 
-    ```console
+    ```bash
     python3 app.py
     ```
 
