@@ -31,6 +31,33 @@ Você pode instalar as dependências necessárias utilizando o seguinte comando:
 ```bash
 pip3 install Pillow
 ```
+## Execução do código
+
+Para executar o código e gerar a imagem a partir do texto especificado, basta utilizar o seguinte comando no terminal:
+
+```bash
+python3 app.py
+```
+
+Certifique-se de que você esteja no diretório onde o arquivo app.py está localizado e que o ambiente virtual esteja ativado, caso você esteja usando um. Assim, o script irá rodar e você verá a imagem gerada, de acordo com o texto passado como parâmetro.
+
+## Ambiente Virtual
+
+É recomendável usar um ambiente virtual para gerenciar suas dependências. Siga os passos abaixo para configurar um ambiente virtual:
+
+1. Crie um ambiente virtual usando o seguinte comando:
+    ```bash
+    python3 -m venv .venv
+    ```
+2. Ative o ambiente virtual:
+    - No macOS e Linux:
+        ```bash
+        source .venv/bin/activate
+        ```
+    - No Windows:
+        ```bash
+        .venv\Scripts\activate
+        ```
 
 ## Como Gerar o Executável
 
