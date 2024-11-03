@@ -1,2 +1,0 @@
-pyinstaller --clean --onefile --windowed --icon="C:\prj\icon.ico" --add-data "C:\prj\logo.png;." "C:\prj\interfac
-e.py"
