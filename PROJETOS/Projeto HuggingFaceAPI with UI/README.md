@@ -12,14 +12,9 @@ O código envia uma solicitação POST para a API de inferência da Hugging Face
 - Opção de salvar a imagem gerada no formato PNG.
 - Interface amigável e intuitiva.
 
-## Interface Gráfica
+## Capturas de Tela
 
-A interface gráfica permite que o usuário insira o link do vídeo, visualize e inicie o download com um clique. Para usar, basta iniciar o programa e colar o link do YouTube no campo designado.
-
-### Capturas de Tela
-
-- **Tela Inicial**: Campo para inserir o link do vídeo e botão de download.
-- **Tela de Progresso**: Exibe o progresso do download.
+- **Tela de Home**: A tela inicial exibe um campo de texto onde o usuário pode inserir a descrição detalhada da imagem que deseja gerar. Além disso, o usuário pode ajustar a qualidade da imagem, controlando o nível de compressão conforme suas preferências.
 
 | ![Tela Inicial](imgs/home1.png) | ![Tela de Download](imgs/home2.png) |
 |:--:|:--:|
