@@ -15,6 +15,7 @@ O código envia uma solicitação POST para a API de inferência da Hugging Face
 ## Capturas de Tela
 
 - **Tela de Home**: A tela inicial apresenta um campo texto onde o usuário pode inserir uma descrição para a imagem que deseja gerar.
+- **Tela de Download**: Após o processamento, a tela apresenta uma pré-visualização da imagem gerada, permitindo que o usuário veja o resultado antes de baixá-la. Um botão de download está disponível para salvar a imagem gerada no dispositivo.
 
 | ![Tela Inicial](imgs/home1.png) | ![Tela de Download](imgs/home2.png) |
 |:--:|:--:|
