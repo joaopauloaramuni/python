@@ -171,6 +171,8 @@ Essas configurações ajudam a garantir que o vídeo seja baixado na melhor qual
 Para rodar o código, basta executar o seguinte comando no terminal:
 
 ```bash
+python3 app.py
+# ou
 python3 interface.py
 ```
 
