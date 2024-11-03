@@ -211,7 +211,11 @@ Para gerar o executável, siga os passos abaixo:
 
 2. Navegue até o diretório onde o código-fonte está salvo e execute o seguinte comando:
    ```bash
+   # Com caminho relativo
    pyinstaller --onefile --windowed --icon=icon.ico app.py
+
+    # Com caminho absoluto
+   pyinstaller --clean --onefile --windowed --icon="C:\prj\icon.ico" "C:\prj\app.py"
    ```
 
    - `--onefile`: Cria um único arquivo executável.
