@@ -26,13 +26,16 @@ pip3 install Pillow
 
 ## Uso
 
-1. **Execute o programa**:
-   
+1. **Edite o código**:
+   - Abra o arquivo `app.py` e defina o caminho da imagem (`caminho_imagem`) e o nível de qualidade desejado (1-100).
+
+2. **Execute o programa**:
+
     ```console
     python app.py
     ```
 
-2. **Saída**:
+3. **Saída**:
    - A imagem comprimida será salva no mesmo diretório da imagem original com o prefixo `comprimido_`.
 
 ## Ambiente Virtual
