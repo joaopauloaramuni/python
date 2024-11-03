@@ -200,7 +200,6 @@ O vídeo será baixado com o título original do YouTube e salvo na pasta videos
 
 Após ativar o ambiente virtual, você pode instalar a dependência do yt-dlp conforme mencionado anteriormente.
 
-
 ## Como Gerar o Executável
 
 Para gerar o executável, siga os passos abaixo:
@@ -212,12 +211,12 @@ Para gerar o executável, siga os passos abaixo:
 
 2. Navegue até o diretório onde o código-fonte está salvo e execute o seguinte comando:
    ```bash
-   pyinstaller --onefile --windowed --icon=icone.ico app.py
+   pyinstaller --onefile --windowed --icon=icon.ico app.py
    ```
 
    - `--onefile`: Cria um único arquivo executável.
    - `--windowed`: Oculta o terminal ao abrir a interface gráfica.
-   - `--icon=icone.ico`: Define o ícone do executável como `icone.ico`.
+   - `--icon=icon.ico`: Define o ícone do executável como `icon.ico`.
 
 3. O executável gerado estará na pasta `dist/`.
 
