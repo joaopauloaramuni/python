@@ -39,6 +39,11 @@ def create_interface(start_download):
     window.geometry("400x250")
     window.configure(bg=bg_color)
 
+    # Adicionar um ícone (Certifique-se de ter o arquivo 'icon.ico' no mesmo diretório)
+    # icon_image_path = "C:/prj/icon.ico" # Para geração do .exe
+    # window.iconbitmap(icon_image_path)
+    window.iconbitmap("icon.ico")
+
     # Interface
     tk.Label(
         window, text="Insira a URL do vídeo do YouTube:", bg=bg_color, fg=fg_color
