@@ -52,7 +52,7 @@ Após receber os dados da imagem gerados pela API, o código executa as seguinte
 4. **Confirmação do Salvamento**:
    Por fim, uma mensagem é impressa no console informando que a imagem foi salva com sucesso: `print("Imagem salva como 'imagem_gerada2.png'.")`.
 
-Para este exemplo, foram escolhidas as imagems:
+Para este exemplo, foram escolhidas as imagens:
 - Astronaut riding a horse (Astronauta andando a cavalo)
 - Bearded software engineering professor (Professor barbudo de engenharia de software)
 
