@@ -19,6 +19,19 @@ Este é um programa de compressão de imagens com uma interface gráfica constru
 
 No exemplo apresentado, o arquivo original `image.jpg`, com um tamanho de 3.2 MB, foi comprimido para `comprimido_image.jpg`, que agora ocupa apenas 893 KB. Essa compressão foi realizada utilizando um parâmetro de qualidade de 0.5, demonstrando uma redução significativa no tamanho do arquivo, mantendo uma qualidade aceitável da imagem.
 
+## Dependências
+
+Para executar este projeto, você precisará das seguintes bibliotecas Python:
+
+- `Pillow`: Para manipulação de imagens.
+- `tkinter`: Para a interface gráfica do usuário.
+
+Você pode instalar as dependências necessárias utilizando o seguinte comando:
+
+```bash
+pip3 install Pillow
+```
+
 ## Como Gerar o Executável
 
 Para gerar o executável, siga os passos abaixo:
