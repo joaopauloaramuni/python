@@ -171,7 +171,7 @@ Essas configurações ajudam a garantir que o vídeo seja baixado na melhor qual
 Para rodar o código, basta executar o seguinte comando no terminal:
 
 ```bash
-python3 main.py
+python3 app.py
 ```
 
 O vídeo será baixado com o título original do YouTube e salvo na pasta videos.
