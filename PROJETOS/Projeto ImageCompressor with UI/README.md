@@ -1,4 +1,4 @@
-# Compressor de Imagens
+# Compressor de Imagens (With UI)
 
 Este é um programa de compressão de imagens com uma interface gráfica construída em Python usando a biblioteca `Tkinter`. Ele permite que o usuário selecione uma imagem, ajuste a qualidade de compressão e salve a versão comprimida. Este README inclui instruções para gerar o executável (.exe) do projeto.
 
@@ -31,15 +31,17 @@ Você pode instalar as dependências necessárias utilizando o seguinte comando:
 ```bash
 pip3 install Pillow
 ```
-## Execução do código
 
-Para executar o código e gerar a imagem a partir do texto especificado, basta utilizar o seguinte comando no terminal:
+## Uso
 
-```bash
-python3 app.py
-```
+1. **Execute o programa**:
 
-Certifique-se de que você esteja no diretório onde o arquivo app.py está localizado e que o ambiente virtual esteja ativado, caso você esteja usando um. Assim, o script irá rodar e você verá a imagem gerada, de acordo com o texto passado como parâmetro.
+    ```console
+    python app.py
+    ```
+
+2. **Saída**:
+   - A imagem comprimida será salva no mesmo diretório da imagem original com o prefixo `comprimido_`.
 
 ## Ambiente Virtual
 
