@@ -14,6 +14,11 @@ class CompressorInterface:
         self.janela.geometry("550x400")
         self.janela.config(bg="#f0f4f8")
 
+        # Adicionar um ícone (Certifique-se de ter o arquivo 'icon.ico' no mesmo diretório)
+        # icon_image_path = "C:/prj/icon.ico" # Para geração do .exe
+        # self.janela.iconbitmap(icon_image_path)
+        self.janela.iconbitmap("icon.ico")
+
         # Estilos de fonte e cores
         fonte_titulo = font.Font(family="Helvetica", size=16, weight="bold")
         fonte_texto = font.Font(family="Helvetica", size=12)
