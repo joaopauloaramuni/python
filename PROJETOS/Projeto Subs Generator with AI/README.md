@@ -125,7 +125,7 @@ venv\Scripts\activate
 Para garantir que você tenha a versão mais recente do `pip`, execute:
 
 ```bash
-pip install -U pip
+pip install --upgrade pip
 ```
 
 Em seguida, instale todas as dependências listadas no arquivo `requirements.txt`:
