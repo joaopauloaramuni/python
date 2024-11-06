@@ -174,7 +174,7 @@ O Whisper oferece diferentes modelos de transcrição e tradução de áudio, va
 
 A taxa de amostragem, representada pelo parâmetro `-ar`, define o número de amostras de áudio capturadas por segundo. No caso de uma taxa de 22.05 kHz (22050 Hz), significa que 22.050 amostras são capturadas a cada segundo. Essa taxa é um bom compromisso entre a qualidade do áudio e o tamanho do arquivo, oferecendo boa qualidade para transcrições sem gerar arquivos excessivamente grandes.
 
-### Como Funciona o processo de transcrição
+### Como funciona o processo de transcrição
 
 1. **Extração do áudio**: Primeiramente, é necessário extrair o áudio do arquivo de vídeo. Isso é feito utilizando o `ffmpeg`, que converte o áudio em um arquivo WAV com uma taxa de amostragem de 22.05 kHz, o que ajuda a reduzir o tamanho do arquivo sem perder qualidade.
    
