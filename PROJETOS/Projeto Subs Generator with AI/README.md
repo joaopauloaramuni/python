@@ -4,7 +4,7 @@ O projeto **Subs Generator with AI** tem como objetivo utilizar inteligência ar
 
 ## Dependências
 
-Este projeto foi desenvolvido utilizando Python 3.9.9 e PyTorch 1.10.1 para treinar e testar os modelos, mas o código base deve ser compatível com versões do Python de 3.8 a 3.11 e versões recentes do PyTorch.
+Este projeto foi desenvolvido utilizando Python 3.9.9 e PyTorch 1.10.1 para treinar e testar os modelos, mas o código base é compatível com versões do Python de 3.8 a 3.11 e versões recentes do PyTorch.
 
 As dependências essenciais do projeto incluem:
 
