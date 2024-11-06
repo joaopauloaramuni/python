@@ -204,15 +204,16 @@ python main.py
 
 ## Resultados:
 
-1. Os arquivos `audio.wav` e `output.srt` serão gerados na pasta raiz do projeto.
-2. Um arquivo de exemplo, `output.srt`, foi incluído na pasta do projeto, mas os arquivos de áudio e vídeo não estão presentes devido ao seu tamanho.
+1. Os arquivos `audio.wav`, `english.srt` e `portuguese.srt` serão gerados na pasta raiz do projeto.
+2. Dois arquivos de exemplo, `english.srt` e `portuguese.srt`, foram incluídos na pasta do projeto, mas os arquivos de áudio e vídeo não estão presentes devido ao seu tamanho.
 3. Para que a legenda seja reconhecida automaticamente por players de vídeo, como o VLC ou KM Player, é importante que o arquivo de vídeo e o arquivo de legenda possuam o mesmo nome.
    Exemplo: `teste.mp4` e `teste.srt`.
 
 ## Links Úteis
 
 - [Whisper no GitHub](https://github.com/openai/whisper)
-- [Artigo Introducing Whisper](https://openai.com/index/whisper/)
+- [Artigo: Introducing Whisper](https://openai.com/index/whisper/)
+- [Deep Translator](https://pypi.org/project/deep-translator/)
 
 ## Licença
 
