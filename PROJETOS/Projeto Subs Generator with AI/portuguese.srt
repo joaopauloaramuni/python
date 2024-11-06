@@ -1,0 +1,1620 @@
+1
+00:00:30,000 --> 00:00:48,640
+Espero que isso não te envergonhe, Jen. Mas acho que a melhor coisa a fazer com um novo funcionário é...
+
+2
+00:00:48,640 --> 00:00:53,679
+É para avaliá-los com um olhar longo e duro.
+
+3
+00:00:53,679 --> 00:01:18,000
+Então, primeiro dia. Sim. Assustador. Sim. Não tenha medo. Bem, eu não estou muito assustado. Você deveria estar. Por que estou um pouco assustado?
+
+4
+00:01:18,000 --> 00:01:26,640
+O que não ser? Decida-se. Então aqui está. Sim. Estou realmente ansioso para entender isso.
+
+5
+00:01:26,640 --> 00:01:33,599
+Vou colocá-lo em TI porque você disse no seu currículo que tem muita experiência com computadores.
+
+6
+00:01:33,599 --> 00:01:42,879
+Eu poderia dizer que está no meu currículo. Mas muita experiência com todo esse computador, estou dizendo e-mails,
+
+7
+00:01:42,879 --> 00:01:54,719
+enviando e-mails, recebendo e-mails, excluindo e-mails, eu poderia continuar. Faça a web usando o mouse,
+
+8
+00:01:54,719 --> 00:02:03,359
+bom como usar o mouse, clicar, clicar duas vezes, tela do computador, é claro, o teclado,
+
+9
+00:02:03,359 --> 00:02:07,199
+a parte que vai no chão ali embaixo. O disco rígido. Correto.
+
+10
+00:02:07,280 --> 00:02:12,879
+Bem, você disse que parece saber do assunto. Tenho um bom pressentimento sobre você, Jen,
+
+11
+00:02:12,879 --> 00:02:17,759
+e eles precisam de um novo gerente. Fantástico. Então, as pessoas com quem vou trabalhar, o que elas gostam.
+
+12
+00:02:17,759 --> 00:02:19,759
+Nerds comuns!
+
+13
+00:03:07,599 --> 00:03:11,119
+Olá, TI. Você já tentou desligá-lo e ligá-lo novamente?
+
+14
+00:03:14,159 --> 00:03:16,959
+Ok, bem, o botão na lateral. Ele está brilhando?
+
+15
+00:03:19,280 --> 00:03:20,639
+Sim, você precisa ligá-lo.
+
+16
+00:03:23,039 --> 00:03:24,639
+E o botão liga?
+
+17
+00:03:28,079 --> 00:03:35,120
+Sim. Você sabe como um botão funciona, não sabe? Não, não em roupas.
+
+18
+00:03:35,200 --> 00:03:38,240
+Olá, TI. É, hein?
+
+19
+00:03:39,680 --> 00:03:42,560
+Você já tentou forçar uma reinicialização inesperada?
+
+20
+00:03:42,560 --> 00:03:45,200
+Não, não, aí está. Não, aí está. Acabei de ouvir isso acontecer.
+
+21
+00:03:46,240 --> 00:03:49,680
+Não, não, essa é a música que você ouve quando ela toca. Não, essa é a música que você ouve quando ela toca.
+
+22
+00:03:50,400 --> 00:03:51,759
+Desculpe, você é do passado?
+
+23
+00:03:53,280 --> 00:03:57,759
+Veja, o driver conecta uma função ao corrigir a tabela de resfriamento do sistema, então não é seguro descarregá-la,
+
+24
+00:03:57,759 --> 00:04:02,080
+a menos que outro tópico esteja prestes a entrar lá e fazer essas coisas. E você não quer acabar no
+
+25
+00:04:02,640 --> 00:04:04,640
+meio de memórias inválidas.
+
+26
+00:04:06,320 --> 00:04:07,280
+Olá?
+
+27
+00:04:08,080 --> 00:04:13,280
+Ah, é mesmo? Reed, bem, por que você não desce aqui e me faz então? O quê? O que você acha que eu tenho medo de você?
+
+28
+00:04:13,280 --> 00:04:16,879
+Não tenho medo de você. Pode vir aqui quando quiser, estarei esperando por você.
+
+29
+00:04:18,480 --> 00:04:19,199
+É tudo dela.
+
+30
+00:04:21,920 --> 00:04:25,520
+Oh, Deus, já faz um tempo que você voltou. Já foi tudo. Você tinha um emprego.
+
+31
+00:04:26,319 --> 00:04:29,280
+Garota na quinta. Vocês dois se deram bem?
+
+32
+00:04:30,239 --> 00:04:32,239
+Defina "bater na mesma"?
+
+33
+00:04:33,039 --> 00:04:36,000
+Ela continuou falando com você depois que você consertou o computador dela?
+
+34
+00:04:37,679 --> 00:04:42,639
+Não. E enquanto eu trabalhava nisso, ela colocou uma xícara nas minhas costas.
+
+35
+00:04:43,439 --> 00:04:44,639
+Não, sim.
+
+36
+00:04:45,919 --> 00:04:49,599
+Inacreditável. Quer dizer, eles não têm respeito por nós. Eles não têm respeito.
+
+37
+00:04:49,599 --> 00:04:54,799
+Cuidado com o caminho, pois somos todos apenas servos para eles. Sim. Se eles são piores, algo como um servo,
+
+38
+00:04:54,799 --> 00:04:58,559
+é isso que fizemos com eles. É como se eles fossem polywall quando há um problema com seus
+
+39
+00:04:58,639 --> 00:05:06,480
+impressora, mas uma vez consertada, eles nos jogam fora como geleia de ontem. Sim, geleia de ontem. É isso que devemos fazer então.
+
+40
+00:05:08,079 --> 00:05:12,639
+Na verdade, sabe de uma coisa? Isso não funciona muito bem porque a geléia dura uma eternidade.
+
+41
+00:05:15,519 --> 00:05:18,560
+Olá, TI. Você já tentou desligá-lo e ligá-lo novamente?
+
+42
+00:05:21,840 --> 00:05:25,600
+Você faz seis banheiros. Você tem que fazer seis banheiros como um campo anêmico.
+
+43
+00:05:29,199 --> 00:05:37,519
+Esse é o tipo de lugar, Jen. Muitas pessoas sensuais que não trabalham muito e têm casos.
+
+44
+00:05:40,079 --> 00:05:42,480
+Meu Deus, olha essa vista.
+
+45
+00:05:46,560 --> 00:05:48,240
+Sinto que estou no topo do mundo.
+
+46
+00:05:49,279 --> 00:05:51,519
+Bem, Jen, é aqui que eu te deixo.
+
+47
+00:05:51,519 --> 00:05:52,639
+É normal, 34.
+
+48
+00:05:53,599 --> 00:05:57,360
+30. Certo, para onde estou indo?
+
+49
+00:05:57,360 --> 00:06:00,959
+Bem, o caminho até o porão. Boa sorte.
+
+50
+00:06:12,240 --> 00:06:18,639
+Sai da esquerda. Sai da esquerda. Sai da esquerda.
+
+51
+00:06:19,120 --> 00:06:24,879
+Sai da esquerda. Sai da esquerda. Sai da esquerda.
+
+52
+00:06:26,639 --> 00:06:28,079
+Saia da esquerda.
+
+53
+00:06:39,360 --> 00:06:41,360
+Ah, bem-vindo a...
+
+54
+00:06:41,360 --> 00:06:44,479
+Oh meu Deus. Oh meu Deus.
+
+55
+00:06:44,479 --> 00:06:46,479
+Oh, oh, olhe para eles.
+
+56
+00:06:48,639 --> 00:06:51,159
+Hahahaha!
+
+57
+00:06:55,879 --> 00:06:57,860
+Olá?
+
+58
+00:06:59,240 --> 00:07:00,240
+Olá.
+
+59
+00:07:18,639 --> 00:07:20,639
+RISADA
+
+60
+00:07:40,639 --> 00:07:42,639
+Sim, eu acredito que foi uma história fantástica, você disse,
+
+61
+00:07:42,639 --> 00:07:44,639
+oh, parece que temos uma visita.
+
+62
+00:07:44,639 --> 00:07:46,639
+RISADA
+
+63
+00:07:46,639 --> 00:07:51,639
+Desculpe, meus inimigos estavam envolvidos em uma discussão bastante séria sobre livros e coisas do tipo.
+
+64
+00:07:51,639 --> 00:07:53,639
+Não ouvimos você entrar.
+
+65
+00:07:53,639 --> 00:07:56,639
+O que é o segundo? Você disse que era uma história alta, você disse,
+
+66
+00:07:56,639 --> 00:07:58,639
+o quê? Ah, eu não me importo mais com isso, Mordys.
+
+67
+00:07:58,639 --> 00:08:00,639
+Quando você leu uma história incrível?
+
+68
+00:08:00,639 --> 00:08:02,639
+Ela vai aparecer, Marles.
+
+69
+00:08:02,639 --> 00:08:04,639
+Por que você está falando com essa voz estranha?
+
+70
+00:08:04,639 --> 00:08:07,639
+Quando foi que eu não me lembrava mais dessa conversa?
+
+71
+00:08:08,639 --> 00:08:11,639
+Você não sabe o que dizer, mas você é apenas uma história.
+
+72
+00:08:11,639 --> 00:08:13,639
+Nós somos bobos, vocês nunca conversaram.
+
+73
+00:08:13,639 --> 00:08:15,639
+RISADA
+
+74
+00:08:19,639 --> 00:08:22,639
+Muitas pessoas vêm aqui para visitar.
+
+75
+00:08:22,639 --> 00:08:26,639
+Do que você está falando? Quem desce? Que pessoas?
+
+76
+00:08:28,639 --> 00:08:31,639
+Por que você está me dando o sinal secreto para calar a boca?
+
+77
+00:08:33,639 --> 00:08:37,639
+Então, o que podemos fazer por você?
+
+78
+00:08:38,639 --> 00:08:42,639
+Sou o novo chefe deste departamento.
+
+79
+00:08:42,639 --> 00:08:44,639
+Este é meu escritório?
+
+80
+00:08:45,639 --> 00:08:48,639
+Por quê? O que você disse?
+
+81
+00:08:48,639 --> 00:08:52,639
+Eu sou o chefe deste departamento. Eu pensei que era.
+
+82
+00:08:52,639 --> 00:08:55,639
+Essa é uma de nós, certamente não ela.
+
+83
+00:08:55,639 --> 00:08:56,639
+Vou resolver isso.
+
+84
+00:08:56,639 --> 00:08:58,639
+Você tem uma faixa na cabeça aí. Faixa na cabeça!
+
+85
+00:09:00,639 --> 00:09:03,639
+Não quero ser rude nem nada,
+
+86
+00:09:03,639 --> 00:09:06,639
+mas não fui informado de nenhuma mudança neste departamento.
+
+87
+00:09:06,639 --> 00:09:08,639
+Ah, eles não te falaram sobre mim?
+
+88
+00:09:08,639 --> 00:09:12,639
+Não! E estamos perfeitamente bem aqui embaixo.
+
+89
+00:09:12,639 --> 00:09:15,639
+Muito obrigado. Somos mais do que capazes de cuidar de nós mesmos.
+
+90
+00:09:15,639 --> 00:09:18,639
+Então, então, você sabe que está coberto de sangue.
+
+91
+00:09:19,639 --> 00:09:20,639
+Musgo!
+
+92
+00:09:21,639 --> 00:09:22,639
+Essa foi uma ideia interessante.
+
+93
+00:09:22,639 --> 00:09:26,639
+Ah, que perverso! Eu sei o que é isso. É o novo Harry Potter.
+
+94
+00:09:26,639 --> 00:09:29,639
+Comprei a edição infantil e a edição adulta.
+
+95
+00:09:29,639 --> 00:09:32,639
+Apenas uma verificação para verificar se não há diferenças no texto.
+
+96
+00:09:34,639 --> 00:09:37,639
+Desculpe, mas não vou conseguir lidar com essa mulher.
+
+97
+00:09:39,639 --> 00:09:42,639
+Se ninguém mais vai ficar com os 400 andares, eu fico com eles.
+
+98
+00:09:42,639 --> 00:09:45,639
+Não, isso não é bobagem. Vou ter uma pequena luz para baixo.
+
+99
+00:09:50,639 --> 00:09:51,639
+Entre.
+
+100
+00:09:52,639 --> 00:09:53,639
+Sim, jeans.
+
+101
+00:09:53,639 --> 00:09:54,639
+Sim.
+
+102
+00:09:54,639 --> 00:09:55,639
+Sim.
+
+103
+00:09:55,639 --> 00:09:56,639
+Não, não, não.
+
+104
+00:09:56,639 --> 00:09:58,639
+Eles estão bem até agora.
+
+105
+00:09:58,639 --> 00:10:01,639
+Sim. Acho que vamos nos dar muito bem.
+
+106
+00:10:02,639 --> 00:10:03,639
+Sim, eu sei.
+
+107
+00:10:03,639 --> 00:10:05,639
+Tudo bem, então tome cuidado.
+
+108
+00:10:05,639 --> 00:10:06,639
+Tudo bem, sim, bem, sim.
+
+109
+00:10:08,639 --> 00:10:10,639
+Ok, ok, ok, ok.
+
+110
+00:10:10,639 --> 00:10:12,639
+Ok, ok, tchau, tchau.
+
+111
+00:10:15,639 --> 00:10:16,639
+Então, olá.
+
+112
+00:10:16,639 --> 00:10:19,639
+O que posso fazer por você? O que posso fazer por você?
+
+113
+00:10:20,639 --> 00:10:22,639
+Olá, eu só estava pensando,
+
+114
+00:10:22,639 --> 00:10:24,639
+você quer que eu conecte seu telefone?
+
+115
+00:10:32,639 --> 00:10:35,639
+Não, não, não, não, não, não, não.
+
+116
+00:10:35,639 --> 00:10:37,639
+Está funcionando.
+
+117
+00:10:37,639 --> 00:10:39,639
+Eu estava falando com jeans ali.
+
+118
+00:10:40,639 --> 00:10:42,639
+O que você quer fazer?
+
+119
+00:10:43,639 --> 00:10:45,639
+Estou fechando a porta para mim.
+
+120
+00:10:45,639 --> 00:10:46,639
+Ah, sim, claro.
+
+121
+00:10:49,639 --> 00:10:51,639
+Sim, do outro lado.
+
+122
+00:10:52,639 --> 00:10:53,639
+Claro.
+
+123
+00:10:57,639 --> 00:10:58,639
+Assim.
+
+124
+00:10:58,639 --> 00:10:59,639
+É isso.
+
+125
+00:11:00,639 --> 00:11:01,639
+Comigo no...
+
+126
+00:11:01,639 --> 00:11:02,639
+Obrigado.
+
+127
+00:11:04,639 --> 00:11:05,639
+Oh.
+
+128
+00:11:12,639 --> 00:11:14,639
+Você está bem?
+
+129
+00:11:14,639 --> 00:11:15,639
+Oh sim.
+
+130
+00:11:15,639 --> 00:11:17,639
+Talvez tenhamos algo interessante para saber.
+
+131
+00:11:17,639 --> 00:11:19,639
+Eu não fiz o meu tipo de experiência.
+
+132
+00:11:19,639 --> 00:11:20,639
+Estou aqui.
+
+133
+00:11:20,639 --> 00:11:23,639
+Eu sei. Estou brincando. Estou bem.
+
+134
+00:11:23,639 --> 00:11:24,639
+O que vamos fazer com ela?
+
+135
+00:11:24,639 --> 00:11:28,639
+Bom, eu acabei de entrar e ela estava tendo uma conversa de mentirinha.
+
+136
+00:11:28,639 --> 00:11:29,639
+Realmente?
+
+137
+00:11:29,639 --> 00:11:32,639
+Sim, ela é um pouco estranha, para dizer o mínimo.
+
+138
+00:11:34,639 --> 00:11:35,639
+O que é isso?
+
+139
+00:11:35,639 --> 00:11:36,639
+Vou apenas regar.
+
+140
+00:11:36,639 --> 00:11:39,639
+Às vezes sinto um ar quente e isso ajuda a esfriar.
+
+141
+00:11:40,639 --> 00:11:42,639
+Ela é bem parecida com um touro.
+
+142
+00:11:43,639 --> 00:11:47,639
+Você notou que ela nem ficou animada quando contou esse ZX81 original?
+
+143
+00:11:47,639 --> 00:11:49,639
+Sim, não foi estranho.
+
+144
+00:11:49,639 --> 00:11:51,639
+É quase como se ela não soubesse nada sobre computadores.
+
+145
+00:11:51,639 --> 00:11:52,639
+O que?
+
+146
+00:11:54,639 --> 00:11:55,639
+Nós fizemos.
+
+147
+00:11:55,639 --> 00:11:58,639
+Não me preocupo. É por isso que sempre faço duas xícaras de chá.
+
+148
+00:11:58,639 --> 00:12:00,639
+De qualquer forma, do que estávamos falando?
+
+149
+00:12:00,639 --> 00:12:02,639
+Vou sofrer por não saber nada sobre computadores.
+
+150
+00:12:02,639 --> 00:12:03,639
+O que?
+
+151
+00:12:13,639 --> 00:12:15,639
+Definitivamente quero me livrar dela.
+
+152
+00:12:15,639 --> 00:12:16,639
+Concordo, sim.
+
+153
+00:12:16,639 --> 00:12:17,639
+OK.
+
+154
+00:12:17,639 --> 00:12:18,639
+Então aqui está o plano.
+
+155
+00:12:18,639 --> 00:12:19,639
+Um plano.
+
+156
+00:12:19,639 --> 00:12:22,639
+Deixe-me colocar meus óculos um pouco maiores.
+
+157
+00:12:25,639 --> 00:12:29,639
+Certo, me bata.
+
+158
+00:12:29,639 --> 00:12:31,639
+Ok, estamos indo.
+
+159
+00:12:31,639 --> 00:12:32,639
+Quando?
+
+160
+00:12:32,639 --> 00:12:34,639
+Sabe de uma coisa? Vou minar.
+
+161
+00:12:34,639 --> 00:12:37,639
+Será tempo suficiente para eu conhecer o plano?
+
+162
+00:12:37,639 --> 00:12:40,639
+Sim, sabe de uma coisa? Eu não deveria ter usado um plano de palavras.
+
+163
+00:12:40,639 --> 00:12:42,639
+Eu claramente te superei em emoções.
+
+164
+00:12:42,639 --> 00:12:45,639
+Esquema seria uma palavra melhor, embora seja igualmente emocionante.
+
+165
+00:12:45,639 --> 00:12:47,639
+Talvez eu até precise disso.
+
+166
+00:12:51,639 --> 00:12:53,639
+Tudo o que eu ia dizer era:
+
+167
+00:12:54,639 --> 00:12:59,639
+Entramos. Eu inventei um monte de besteiras sobre computadores e foi fácil entender.
+
+168
+00:13:02,639 --> 00:13:05,639
+Sim, então posso dizer por que você não quis usar um plano de palavras.
+
+169
+00:13:05,639 --> 00:13:07,639
+Deixe-me falar.
+
+170
+00:13:07,639 --> 00:13:08,639
+Tudo bem.
+
+171
+00:13:11,639 --> 00:13:13,639
+Certo, precisamos acertar isso.
+
+172
+00:13:13,639 --> 00:13:14,639
+Sim.
+
+173
+00:13:14,639 --> 00:13:16,639
+Precisamos manter a calma.
+
+174
+00:13:16,639 --> 00:13:19,639
+Não queremos entrar lá desprevenidos.
+
+175
+00:13:24,639 --> 00:13:26,639
+OK.
+
+176
+00:13:31,639 --> 00:13:33,639
+Eu não vou.
+
+177
+00:13:33,639 --> 00:13:35,639
+Como eu poderia ajudar?
+
+178
+00:13:35,639 --> 00:13:38,639
+Bem, estávamos nos perguntando agora que seu chefe,
+
+179
+00:13:38,639 --> 00:13:42,639
+você gostaria que acessássemos o Duchess Appliar e conectássemos você à matriz?
+
+180
+00:13:44,639 --> 00:13:47,639
+Você acabou de inventar tudo isso.
+
+181
+00:13:48,639 --> 00:13:51,639
+Você não sabe nada sobre computadores e minutos.
+
+182
+00:13:51,639 --> 00:13:54,639
+Você parou de tentar me enfraquecer.
+
+183
+00:13:54,639 --> 00:13:58,639
+Agora entre lá e faça algum trabalho com computadores.
+
+184
+00:13:58,639 --> 00:14:01,639
+Venha aqui, deixe-me dar uma olhada em você.
+
+185
+00:14:02,639 --> 00:14:05,639
+Certo, moça. Você venceu esta rodada.
+
+186
+00:14:05,639 --> 00:14:07,639
+Mas podemos esperar.
+
+187
+00:14:07,639 --> 00:14:10,639
+Um dia você vai cometer um deslize e acredite em você, em mim.
+
+188
+00:14:10,639 --> 00:14:12,639
+Estaremos lá quando você fizer isso.
+
+189
+00:14:12,639 --> 00:14:15,639
+Haverá alguma evidência que será provada sem ação.
+
+190
+00:14:15,639 --> 00:14:17,639
+Não entendo nada de computadores.
+
+191
+00:14:17,639 --> 00:14:18,639
+O que você está fazendo?
+
+192
+00:14:18,639 --> 00:14:20,639
+Está mexendo no seu computador?
+
+193
+00:14:22,639 --> 00:14:25,639
+Pode ser algo que você diz ou algo que você faz.
+
+194
+00:14:25,639 --> 00:14:29,639
+Mas quando nos acessamos e acredite, nós nos notaremos.
+
+195
+00:14:29,639 --> 00:14:32,639
+Vai ser um longo caminho para vocês, queridas bochechas.
+
+196
+00:14:37,639 --> 00:14:39,639
+Ele vai perceber em um segundo.
+
+197
+00:14:48,639 --> 00:14:51,639
+Não acredito que você vai me contar.
+
+198
+00:14:51,639 --> 00:14:55,639
+É como um par de velhas horríveis.
+
+199
+00:14:55,639 --> 00:14:57,639
+O que ela disse?
+
+200
+00:14:57,639 --> 00:14:59,639
+Ela disse que somos como mulheres horríveis.
+
+201
+00:14:59,639 --> 00:15:01,639
+Ela não fez isso.
+
+202
+00:15:01,639 --> 00:15:02,639
+Ei pessoal.
+
+203
+00:15:02,639 --> 00:15:04,639
+Ei, tem que ser um "me diga".
+
+204
+00:15:04,639 --> 00:15:05,639
+Sim, bem, é assim.
+
+205
+00:15:05,639 --> 00:15:08,639
+Olhe para vocês, minha equipe de TI.
+
+206
+00:15:08,639 --> 00:15:10,639
+Todos e cada um de vocês são jogadores de equipe.
+
+207
+00:15:10,639 --> 00:15:14,639
+Ela não tem nada contra pessoas que não conseguem atuar em equipe e minha equipe.
+
+208
+00:15:14,639 --> 00:15:15,639
+Com licença.
+
+209
+00:15:15,639 --> 00:15:16,639
+Olá?
+
+210
+00:15:17,639 --> 00:15:18,639
+O que?
+
+211
+00:15:18,639 --> 00:15:21,639
+Se vocês não conseguem se parecer com um time, estão todos demitidos.
+
+212
+00:15:21,639 --> 00:15:24,639
+É isso, você me demitiu. Pegue suas coisas e vá.
+
+213
+00:15:24,639 --> 00:15:26,639
+Vou deixar a segurança.
+
+214
+00:15:26,639 --> 00:15:28,639
+Todos no quarto andar estão demitidos.
+
+215
+00:15:28,639 --> 00:15:30,639
+Ele os tirou do local.
+
+216
+00:15:30,639 --> 00:15:31,639
+E faça isso em equipe.
+
+217
+00:15:31,639 --> 00:15:34,639
+Lembre-se de sua equipe e se vocês não conseguirem agir como um time, vocês também serão demitidos.
+
+218
+00:15:35,639 --> 00:15:36,639
+Vestir.
+
+219
+00:15:36,639 --> 00:15:37,639
+Vamos ao recrutamento.
+
+220
+00:15:37,639 --> 00:15:40,639
+Faça com que eles procurem uma equipe de segurança que possa trabalhar em equipe.
+
+221
+00:15:40,639 --> 00:15:45,639
+Eles podem ter que escoltar a atual equipe de segurança para fora do prédio por não agir como uma equipe.
+
+222
+00:15:47,639 --> 00:15:48,639
+Equipe.
+
+223
+00:15:48,639 --> 00:15:50,639
+Equipe, equipe, equipe, equipe, equipe.
+
+224
+00:15:50,639 --> 00:15:53,639
+Eu até adoro dizer a palavra equipe.
+
+225
+00:15:53,639 --> 00:15:55,639
+Você provavelmente pensa que essa é uma foto da minha família.
+
+226
+00:15:55,639 --> 00:15:57,639
+Ah, ah.
+
+227
+00:15:57,639 --> 00:15:59,639
+São 18.
+
+228
+00:15:59,639 --> 00:16:00,639
+Boliche.
+
+229
+00:16:00,639 --> 00:16:01,639
+Doyle, o que é isso?
+
+230
+00:16:01,639 --> 00:16:02,639
+Tigre.
+
+231
+00:16:02,639 --> 00:16:03,639
+O mapa de joias.
+
+232
+00:16:03,639 --> 00:16:05,639
+Todos eles.
+
+233
+00:16:05,639 --> 00:16:07,639
+Então o que você quer me dizer?
+
+234
+00:16:07,639 --> 00:16:09,639
+Bom, isso não está funcionando.
+
+235
+00:16:09,639 --> 00:16:12,639
+Ele está brincando.
+
+236
+00:16:12,639 --> 00:16:14,639
+Mas ele não está se exercitando.
+
+237
+00:16:15,639 --> 00:16:16,639
+Oh não.
+
+238
+00:16:16,639 --> 00:16:19,639
+Estamos nos dando muito bem como uma grande casa em chamas.
+
+239
+00:16:19,639 --> 00:16:21,639
+Ele está saindo.
+
+240
+00:16:21,639 --> 00:16:26,639
+Não, sabe de uma coisa? Devemos ir embora agora porque você sabe que é um homem ocupado.
+
+241
+00:16:26,639 --> 00:16:28,639
+E tomamos muito do seu tempo.
+
+242
+00:16:28,639 --> 00:16:30,639
+Jen, você pode abrir a porta aí?
+
+243
+00:16:30,639 --> 00:16:31,639
+Claro, Roy.
+
+244
+00:16:31,639 --> 00:16:33,639
+Então por que você veio aqui em primeiro lugar?
+
+245
+00:16:33,639 --> 00:16:35,639
+Hum...
+
+246
+00:16:35,639 --> 00:16:39,639
+Nós configuramos um sistema de ativação por voz no seu computador.
+
+247
+00:16:39,639 --> 00:16:41,639
+Acho que você vai gostar disso.
+
+248
+00:16:41,639 --> 00:16:44,639
+Pode levar um tempinho até você acertar o tom da voz.
+
+249
+00:16:44,639 --> 00:16:45,639
+Mas mesmo assim, vá em frente.
+
+250
+00:16:45,639 --> 00:16:46,639
+Muito obrigado.
+
+251
+00:16:46,639 --> 00:16:47,639
+Bye Bye.
+
+252
+00:16:47,639 --> 00:16:48,639
+Obrigado.
+
+253
+00:16:48,639 --> 00:16:49,639
+Sociedade.
+
+254
+00:16:49,639 --> 00:16:51,639
+Hum.
+
+255
+00:16:52,639 --> 00:16:53,639
+Olá.
+
+256
+00:16:57,639 --> 00:16:58,639
+Olá, computador.
+
+257
+00:17:02,639 --> 00:17:03,639
+Olá.
+
+258
+00:17:05,639 --> 00:17:06,639
+Olá.
+
+259
+00:17:06,639 --> 00:17:08,639
+Olá, computador.
+
+260
+00:17:11,640 --> 00:17:12,640
+Para que você serve?
+
+261
+00:17:12,640 --> 00:17:15,640
+Você obviamente não sabe nada sobre computadores.
+
+262
+00:17:15,640 --> 00:17:16,640
+Não, mas tudo bem.
+
+263
+00:17:16,640 --> 00:17:18,640
+Mas eu posso aprender, sabia?
+
+264
+00:17:18,640 --> 00:17:23,640
+Por exemplo, Moss, você poderia me contar o que está fazendo agora.
+
+265
+00:17:23,640 --> 00:17:24,640
+Eu ficaria encantado.
+
+266
+00:17:24,640 --> 00:17:28,640
+Estou apenas trabalhando em um pedaço muito simples de código de programação.
+
+267
+00:17:36,640 --> 00:17:37,640
+Eu vejo.
+
+268
+00:17:38,640 --> 00:17:40,640
+Oh, Deus, não, estou mentindo de novo.
+
+269
+00:17:40,640 --> 00:17:41,640
+Eu não entendi nada disso.
+
+270
+00:17:41,640 --> 00:17:43,640
+Não entendo nada de computadores.
+
+271
+00:17:43,640 --> 00:17:45,640
+Quer dizer, sou absolutamente inútil para você.
+
+272
+00:17:45,640 --> 00:17:47,640
+Também vou fazer as malas e ir para casa.
+
+273
+00:17:50,640 --> 00:17:51,640
+Oi.
+
+274
+00:17:51,640 --> 00:17:52,640
+É o Roy?
+
+275
+00:17:52,640 --> 00:17:53,640
+Estou por perto.
+
+276
+00:17:54,640 --> 00:17:56,640
+Olá, mocinha.
+
+277
+00:17:56,640 --> 00:17:57,640
+Você está perdido?
+
+278
+00:17:57,640 --> 00:17:58,640
+Como posso ajudá-lo?
+
+279
+00:17:58,640 --> 00:17:59,640
+Eu sou o Roy.
+
+280
+00:18:01,640 --> 00:18:03,640
+Deixe-me ir, Roy.
+
+281
+00:18:03,640 --> 00:18:04,640
+Ah, Roy.
+
+282
+00:18:04,640 --> 00:18:05,640
+Vem cá, Roy.
+
+283
+00:18:05,640 --> 00:18:06,640
+Adoro a sensação.
+
+284
+00:18:07,640 --> 00:18:08,640
+Oh meu Deus.
+
+285
+00:18:08,640 --> 00:18:09,640
+Oh meu Deus.
+
+286
+00:18:09,640 --> 00:18:10,640
+Bem, talvez haja um...
+
+287
+00:18:10,640 --> 00:18:13,640
+Ah, três pessoas com um pouco de respeito.
+
+288
+00:18:13,640 --> 00:18:17,640
+Oh, oh, houve algum toque que falamos ali no chão, querida?
+
+289
+00:18:17,640 --> 00:18:18,640
+Oh, Deus.
+
+290
+00:18:18,640 --> 00:18:19,640
+Oh, Deus.
+
+291
+00:18:19,640 --> 00:18:20,640
+Isso é macarrão?
+
+292
+00:18:20,640 --> 00:18:21,640
+Oh sim.
+
+293
+00:18:21,640 --> 00:18:22,640
+Oh, Deus.
+
+294
+00:18:22,640 --> 00:18:24,640
+Meu Deus, como eles são caros?
+
+295
+00:18:24,640 --> 00:18:25,640
+Não, não, não, não.
+
+296
+00:18:25,640 --> 00:18:28,640
+Eu vou dizer, oh, Deus, Clevver, você.
+
+297
+00:18:28,640 --> 00:18:30,640
+Nunca tive a sorte de pegar um inseto na minha vida.
+
+298
+00:18:30,640 --> 00:18:31,640
+Bom, eu deveria levar você, certo?
+
+299
+00:18:31,640 --> 00:18:32,640
+Sim, não, não, não, não.
+
+300
+00:18:32,640 --> 00:18:33,640
+Eu vou te levar.
+
+301
+00:18:33,640 --> 00:18:34,640
+Ah, vou ligar.
+
+302
+00:18:34,640 --> 00:18:35,640
+Por que sim?
+
+303
+00:18:35,640 --> 00:18:36,640
+Escolha.
+
+304
+00:18:36,640 --> 00:18:37,640
+É bom estar em você.
+
+305
+00:18:37,640 --> 00:18:39,640
+Presidente, uau.
+
+306
+00:18:39,640 --> 00:18:42,640
+Ele apenas acusou isso em parte de sua situação.
+
+307
+00:18:42,640 --> 00:18:43,640
+Que situação?
+
+308
+00:18:43,640 --> 00:18:45,640
+Ah, ah, isso sim.
+
+309
+00:18:45,640 --> 00:18:46,640
+Oh meu Deus.
+
+310
+00:18:46,640 --> 00:18:48,640
+Isso acontece muito?
+
+311
+00:18:48,640 --> 00:18:51,640
+As surras são bem regulares, sim.
+
+312
+00:18:51,640 --> 00:18:53,640
+Vou poupá-la de uma surra semanal.
+
+313
+00:18:53,640 --> 00:18:55,640
+Ah, não posso pedir tão mal.
+
+314
+00:18:55,640 --> 00:18:57,640
+Vamos, Roy.
+
+315
+00:18:57,640 --> 00:18:58,640
+É bem ruim.
+
+316
+00:18:58,640 --> 00:19:00,640
+Talvez eu possa ajudar com isso.
+
+317
+00:19:00,640 --> 00:19:03,640
+Sabe, eu sou uma pessoa sociável.
+
+318
+00:19:03,640 --> 00:19:06,640
+E pessoas como você precisam de alguém para lidar com pessoas.
+
+319
+00:19:06,640 --> 00:19:08,640
+Uma pessoa sociável como eu.
+
+320
+00:19:08,640 --> 00:19:09,640
+Oh meu Deus.
+
+321
+00:19:09,640 --> 00:19:10,640
+Eu faço é uma vinda.
+
+322
+00:19:10,640 --> 00:19:11,640
+As coisas estão acontecendo.
+
+323
+00:19:11,640 --> 00:19:12,640
+Ok, ok.
+
+324
+00:19:12,640 --> 00:19:14,640
+O que você diria, sim?
+
+325
+00:19:14,640 --> 00:19:19,640
+Se eu lhe dissesse que tenho um plano para elevar seu perfil em 100%.
+
+326
+00:19:19,640 --> 00:19:20,640
+O que você diria?
+
+327
+00:19:20,640 --> 00:19:21,640
+Não pode ser feito.
+
+328
+00:19:21,640 --> 00:19:22,640
+Você é louco.
+
+329
+00:19:22,640 --> 00:19:23,640
+O que você diria, Roy?
+
+330
+00:19:23,640 --> 00:19:25,640
+Roy desmaiou.
+
+331
+00:19:25,640 --> 00:19:26,640
+OK.
+
+332
+00:19:26,640 --> 00:19:28,640
+Quer dizer, senti, caneta.
+
+333
+00:19:28,640 --> 00:19:29,640
+E um pouco de papel.
+
+334
+00:19:33,640 --> 00:19:38,640
+Coloque no meu dedo.
+
+335
+00:19:55,640 --> 00:19:57,640
+Eu disse, por favor.
+
+336
+00:19:57,640 --> 00:19:58,640
+Desista.
+
+337
+00:19:59,640 --> 00:20:00,640
+Não, não, não.
+
+338
+00:20:00,640 --> 00:20:01,640
+Não o machuque.
+
+339
+00:20:01,640 --> 00:20:04,320
+Não, não, não, não, não, realmente, realmente, realmente,
+
+340
+00:20:04,320 --> 00:20:05,840
+com a história da verdade.
+
+341
+00:20:05,840 --> 00:20:07,600
+Eu vou até saber.
+
+342
+00:20:07,600 --> 00:20:10,000
+Eu disse, por que não saímos com seus caras de TI,
+
+343
+00:20:10,000 --> 00:20:10,840
+com mais frequência.
+
+344
+00:20:10,840 --> 00:20:11,680
+Você é hilário.
+
+345
+00:20:11,680 --> 00:20:12,480
+Sim, somos.
+
+346
+00:20:12,480 --> 00:20:16,880
+Vocês deveriam vir aqui com mais frequência.
+
+347
+00:20:16,880 --> 00:20:17,880
+Sabe, você deveria ver isso.
+
+348
+00:20:17,880 --> 00:20:20,080
+É uma nova era para indústrias aleatórias.
+
+349
+00:20:20,080 --> 00:20:22,759
+Você pode ler um pouco de história?
+
+350
+00:20:22,759 --> 00:20:24,120
+Oh sim.
+
+351
+00:20:24,120 --> 00:20:26,160
+Se você não quer ouvir algo realmente engraçado,
+
+352
+00:20:26,160 --> 00:20:28,160
+uma história muito engraçada, você deveria ouvir o que aconteceu
+
+353
+00:20:28,160 --> 00:20:30,120
+para musgo e uma luz quando estávamos tão bêbados
+
+354
+00:20:30,119 --> 00:20:33,239
+e Amsterdã que o musgo perdeu são os óculos.
+
+355
+00:20:33,239 --> 00:20:36,719
+Mas, mas, você consegue me ouvir?
+
+356
+00:20:36,719 --> 00:20:39,559
+Conte a eles aquela história de quando estávamos bêbados em Amsterdã.
+
+357
+00:20:39,559 --> 00:20:40,359
+Realmente?
+
+358
+00:20:40,359 --> 00:20:41,079
+Sim, sim, sim.
+
+359
+00:20:41,079 --> 00:20:41,839
+Ah, é brilhante.
+
+360
+00:20:41,839 --> 00:20:42,839
+Nossa, essa é uma ótima história.
+
+361
+00:20:42,839 --> 00:20:43,719
+Você vai adorar.
+
+362
+00:20:43,719 --> 00:20:46,479
+Vou pegar outra caixa de vinho.
+
+363
+00:20:46,479 --> 00:20:48,159
+Estamos indo, cara.
+
+364
+00:20:50,639 --> 00:20:51,799
+Tudo bem.
+
+365
+00:20:51,799 --> 00:20:55,959
+Bem, uma noite estávamos realmente bêbados.
+
+366
+00:20:55,959 --> 00:20:57,279
+Sim.
+
+367
+00:20:57,279 --> 00:21:00,000
+E estávamos tão bêbados que decidimos
+
+368
+00:21:00,000 --> 00:21:01,160
+para contratar prostitutas.
+
+369
+00:21:04,440 --> 00:21:05,759
+Mas quando chegaram ao hotel,
+
+370
+00:21:05,759 --> 00:21:07,079
+Estávamos com muito medo de fazer qualquer coisa.
+
+371
+00:21:07,079 --> 00:21:09,839
+Então os levamos para uma feira.
+
+372
+00:21:09,839 --> 00:21:11,480
+Eles foram muito legais no final
+
+373
+00:21:11,480 --> 00:21:12,720
+eles só nos cobraram metade,
+
+374
+00:21:12,720 --> 00:21:14,599
+mas tivemos que pagar por todos os passeios.
+
+375
+00:21:20,599 --> 00:21:23,720
+Ah, essa não é uma ótima história?
+
+376
+00:21:26,039 --> 00:21:28,200
+Você me disse para nunca contar essa história a ninguém.
+
+377
+00:21:28,200 --> 00:21:30,440
+Bem, quando se tratava de uma história brilhante
+
+378
+00:21:30,440 --> 00:21:32,080
+e então você realmente entrou no canal,
+
+379
+00:21:32,080 --> 00:21:34,279
+vamos sair dessa parte com o homem comprado.
+
+380
+00:21:34,279 --> 00:21:35,440
+Oh.
+
+381
+00:21:35,440 --> 00:21:36,279
+Oh.
+
+382
+00:21:37,720 --> 00:21:40,319
+Você quer dizer a história em que perdi meus óculos?
+
+383
+00:21:44,680 --> 00:21:45,680
+Sim.
+
+384
+00:21:50,200 --> 00:21:53,319
+Que história você acha que eu quis dizer?
+
+385
+00:21:53,319 --> 00:21:54,319
+O que?
+
+386
+00:21:55,920 --> 00:21:57,120
+O que você disse?
+
+387
+00:21:57,759 --> 00:21:58,759
+O que você disse?
+
+388
+00:22:01,559 --> 00:22:03,959
+Está tudo bem para você também.
+
+389
+00:22:03,959 --> 00:22:06,039
+Ele costumava estar em piranhas sociais.
+
+390
+00:22:10,159 --> 00:22:12,199
+Geralmente sou uma pessoa muito popular.
+
+391
+00:22:13,199 --> 00:22:14,439
+Aquela garota antes,
+
+392
+00:22:14,439 --> 00:22:18,119
+que tentou me espancar até a morte com seus sapatos.
+
+393
+00:22:18,119 --> 00:22:20,079
+Alguém conseguiu o número dela?
+
+394
+00:22:20,079 --> 00:22:23,319
+Foi um belo dia na feira, não foi?
+
+395
+00:22:23,319 --> 00:22:26,159
+RISADA
+
+396
+00:22:26,159 --> 00:22:28,000
+Com Brandy e Crystal.
+
+397
+00:22:31,359 --> 00:22:33,359
+Olá, eu diria.
+
+398
+00:22:34,359 --> 00:22:37,559
+Sim, você já tentou desligá-lo e ligá-lo novamente?
+
+399
+00:22:39,559 --> 00:22:41,559
+RISADA
+
+400
+00:22:53,319 --> 00:22:56,319
+RISADA
+
+401
+00:23:08,319 --> 00:23:09,319
+Olá!
+
+402
+00:23:09,319 --> 00:23:10,319
+Olá!
+
+403
+00:23:10,319 --> 00:23:11,319
+Olá!
+
+404
+00:23:11,319 --> 00:23:13,319
+Olá!
+
+405
+00:23:13,319 --> 00:23:14,319
+Olá!
+
