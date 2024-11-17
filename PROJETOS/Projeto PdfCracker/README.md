@@ -43,7 +43,7 @@ oldmain.py      # Versão anterior com PyPDF2 para fins de comparação.
 
 [2] Total de senhas a testar: 14,344,392
   50%|███████████████        | 7,172,196/14,344,392 [00:10<00:10, 703,499 words/s]
-[+] Senha encontrada: senha123
+[+] Senha encontrada: hello090
 
 [!] Senha não encontrada. Tente com outra wordlist.
 
