@@ -1,4 +1,3 @@
-
 # ColorPicker
 
 O **ColorPicker** é um utilitário simples em Python que permite capturar cores RGB e Hexadecimais do pixel sob o ponteiro do mouse em tempo real. É ideal para designers, desenvolvedores e entusiastas que precisam identificar cores diretamente da tela.
@@ -6,6 +5,17 @@ O **ColorPicker** é um utilitário simples em Python que permite capturar cores
 ## Requisitos
 
 - Python 3.6 ou superior
+
+## Pillow e PyAutoGUI em um Projeto Color Picker
+
+### Pillow
+Pillow é uma biblioteca Python para manipulação de imagens, oferecendo ferramentas para abrir, editar, salvar e processar imagens em diversos formatos. Em um projeto **Color Picker**, Pillow pode ser usada para analisar e manipular cores de imagens, permitindo, por exemplo, identificar a cor de um pixel em uma imagem ou realizar ajustes nas cores antes de exibir os resultados ao usuário.
+
+### PyAutoGUI
+PyAutoGUI é uma biblioteca Python voltada para automação de interfaces gráficas, possibilitando o controle do teclado e do mouse por meio de código. Em um projeto **Color Picker**, PyAutoGUI pode ser usada para capturar a posição atual do cursor e tirar screenshots da tela, permitindo obter a cor de um pixel específico diretamente da tela em tempo real.
+
+### Como se relacionam
+No contexto de um **Color Picker**, PyAutoGUI captura a posição e a tela onde o cursor está localizado, enquanto Pillow pode processar a imagem capturada para identificar e manipular a cor do pixel desejado. Juntas, essas bibliotecas permitem criar uma ferramenta eficiente para selecionar e exibir cores do monitor.
 
 ## Instalação
 
