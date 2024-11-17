@@ -50,3 +50,8 @@ oldmain.py      # Versão anterior com PyPDF2 para fins de comparação.
 ## Comparação com PyPDF2
 
 Durante os testes, o **pikepdf** se mostrou significativamente mais rápido do que o **PyPDF2**. Por esse motivo, a implementação padrão utiliza o **pikepdf**, enquanto a versão anterior com **PyPDF2** está disponível no arquivo `oldmain.py`.
+
+## Licença
+
+Este projeto está licenciado sob a Licença MIT.
+
