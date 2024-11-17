@@ -16,7 +16,7 @@ A hora será exibida da seguinte forma no terminal:
 |_|  |_|  |_   |_|  |_   |_   
 ```
 
-## Como Rodar o Projeto
+## Como rodar o projeto
 
 ### Pré-requisitos
 
@@ -35,7 +35,7 @@ python main.py
 
 A hora será exibida em um estilo de relógio digital no terminal, atualizando-se a cada segundo.
 
-## Como Funciona o Código
+## Como funciona o código
 
 1. **Mapeamento ASCII**: Cada número de 0 a 9 é representado por uma lista de três strings que formam o número no estilo digital.
 2. **Coloração**: O texto é colorido em verde usando códigos ANSI para simular o estilo de "Matrix".
