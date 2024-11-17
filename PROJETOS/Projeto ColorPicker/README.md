@@ -6,7 +6,7 @@ O **ColorPicker** é um utilitário simples em Python que permite capturar cores
 
 - Python 3.6 ou superior
 
-## Pillow e PyAutoGUI em um Projeto Color Picker
+## Pillow e PyAutoGUI
 
 ### Pillow
 Pillow é uma biblioteca Python para manipulação de imagens, oferecendo ferramentas para abrir, editar, salvar e processar imagens em diversos formatos. Em um projeto **Color Picker**, Pillow pode ser usada para analisar e manipular cores de imagens, permitindo, por exemplo, identificar a cor de um pixel em uma imagem ou realizar ajustes nas cores antes de exibir os resultados ao usuário.
