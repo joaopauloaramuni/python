@@ -67,4 +67,4 @@ else:
     exit(1)
 
 # pip install tqdm rarfile
-# brew install carlocab/personal/unrar
+# brew install rar
