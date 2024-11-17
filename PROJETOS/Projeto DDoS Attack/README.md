@@ -8,9 +8,7 @@ Este projeto é apenas para fins educacionais. Jamais utilize este script para a
 
 ## Como usar
 
-1. Clone o repositório:  
-   `git clone https://github.com/seuusuario/ddos_attack.git`  
-   `cd ddos_attack`
+1. Clone ou baixe o repositório.
 
 2. Instale as dependências:  
    `pip install requests`
