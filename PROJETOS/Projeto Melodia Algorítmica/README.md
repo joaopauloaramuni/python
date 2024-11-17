@@ -1,9 +1,8 @@
-
 # Projeto Melodia Algorítmica
 
 Este projeto gera uma melodia simples utilizando uma cadeia de Markov para criar variações de notas musicais. A melodia gerada é salva em formato MIDI e convertida para o formato WAV utilizando um soundfont. O código utiliza a biblioteca `MIDIUtil` para criação de arquivos MIDI e `midi2audio` para conversão de MIDI para WAV. O soundfont é essencial para gerar a sonoridade da melodia.
 
-## Como Funciona
+## Como funciona
 
 O projeto utiliza uma cadeia de Markov para gerar sequências de notas musicais. A cadeia de Markov é um modelo probabilístico em que o estado futuro depende apenas do estado atual. Neste projeto, as notas musicais representam os estados e a probabilidade de transição entre elas é determinada por uma matriz de transições predefinida.
 
@@ -43,7 +42,7 @@ Para gerar o áudio a partir do arquivo MIDI, é necessário um arquivo **soundf
 
 Este arquivo contém os samples necessários para a renderização do áudio a partir do MIDI, garantindo que a melodia gerada tenha uma sonoridade de piano realista.
 
-## Formatos de Arquivo
+## Formatos de arquivo
 
 ### 1. **MIDI (.mid)**
 - O formato MIDI é um padrão para representar dados musicais. Ele contém informações sobre as notas musicais, tempos e outras informações necessárias para reproduzir a música. O arquivo MIDI gerado neste projeto pode ser aberto e manipulado por qualquer software que suporte o formato MIDI.
@@ -51,7 +50,7 @@ Este arquivo contém os samples necessários para a renderização do áudio a p
 ### 2. **WAV (.wav)**
 - O formato WAV é um formato de áudio sem compressão, utilizado para armazenar áudio digitalizado. O arquivo WAV gerado neste projeto contém a música em formato de áudio e pode ser reproduzido em qualquer dispositivo de áudio.
 
-## Como Usar
+## Como usar
 
 1. **Instale as dependências**:
    - `pip install MIDIUtil midi2audio`
@@ -61,4 +60,4 @@ Este arquivo contém os samples necessários para a renderização do áudio a p
 
 ## Licença
 
-Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+Este projeto está licenciado sob a Licença MIT.
