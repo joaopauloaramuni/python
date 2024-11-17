@@ -1,0 +1,1 @@
+Teste para capturar o texto digitado no teclado
