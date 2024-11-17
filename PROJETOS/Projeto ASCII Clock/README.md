@@ -1,9 +1,8 @@
-
 # ASCII Clock
 
 Este projeto implementa um relógio digital que exibe a hora atual utilizando caracteres ASCII em um estilo semelhante ao mostrado no filme "Matrix". A hora é atualizada a cada segundo e exibida em verde vibrante no terminal.
 
-## Como Funciona
+## Como funciona
 
 O relógio digital é renderizado utilizando um conjunto de caracteres ASCII representando os números de 0 a 9. A cada segundo, a hora é obtida no formato HHMMSS e exibida no terminal com a cor verde, utilizando códigos ANSI para colorir o texto.
 
@@ -12,9 +11,9 @@ O relógio digital é renderizado utilizando um conjunto de caracteres ASCII rep
 A hora será exibida da seguinte forma no terminal:
 
 ```
- _     _     _   _   _   _
-| |   | |   | | |_| |_| |_|
-|_|   | |   | |   |   |   |
+ _    _    _    _    _    _   
+| |  |_|   _|  |_|   _|   _|  
+|_|  |_|  |_   |_|  |_   |_   
 ```
 
 ## Como Rodar o Projeto
@@ -24,14 +23,14 @@ A hora será exibida da seguinte forma no terminal:
 - Python 3.x instalado.
 - O terminal precisa suportar códigos ANSI para colorir o texto.
 
-### Passos para Executar
+### Passos para executar
 
 1. Clone ou baixe o repositório.
 2. Abra o terminal na pasta do projeto.
 3. Execute o arquivo Python:
 
 ```bash
-python ascii_clock.py
+python main.py
 ```
 
 A hora será exibida em um estilo de relógio digital no terminal, atualizando-se a cada segundo.
@@ -44,4 +43,4 @@ A hora será exibida em um estilo de relógio digital no terminal, atualizando-s
 
 ## Licença
 
-Este projeto está licenciado sob a [MIT License](LICENSE).
+Este projeto está licenciado sob a MIT License.
