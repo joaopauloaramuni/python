@@ -25,7 +25,7 @@ O **ColorPicker** é um utilitário simples em Python que permite capturar cores
 
 1. Execute o script no terminal:
    ```bash
-   python color_picker.py
+   python main.py
    ```
 2. Mova o mouse para capturar as cores dos pixels na tela.
 3. Pressione `Ctrl+C` para encerrar o programa.
@@ -45,4 +45,4 @@ Posição: Point(x=996, y=927) | RGB: RGB(red=96, green=43, blue=23) | Hex: #602
 
 ## Licença
 
-Este projeto é licenciado sob os termos da licença MIT. Consulte o arquivo LICENSE para mais detalhes.
+Este projeto é licenciado sob os termos da MIT License.
