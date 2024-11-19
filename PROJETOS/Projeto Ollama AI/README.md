@@ -41,7 +41,7 @@ Este projeto demonstra o uso da biblioteca ollama para interagir com modelos de 
 Antes de usar, você precisa baixar o modelo llama3.1, que ocupa aproximadamente **4.7 GB**. Para isso, execute o comando abaixo com o serviço do Ollama já em execução:
 
 ```bash
-     ollama pull llama3.1
+   ollama pull llama3.1
 ```
 
 Certifique-se de que o modelo foi baixado e está pronto para uso.
@@ -51,7 +51,7 @@ Certifique-se de que o modelo foi baixado e está pronto para uso.
 O serviço Ollama precisa estar rodando localmente para que você consiga interagir com os modelos. Para iniciar o serviço, use o seguinte comando:
 
 ```bash
-     ollama start
+   ollama start
 ```
 
 Verifique se o serviço está ativo antes de iniciar o script.
