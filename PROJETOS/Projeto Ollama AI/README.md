@@ -12,24 +12,37 @@ Este projeto demonstra o uso da biblioteca ollama para interagir com modelos de 
 
 1. Crie e ative um ambiente virtual:
    - No Linux/MacOS:
-     python -m venv venv  
+     ```bash
+     python -m venv venv
+     
      source venv/bin/activate
+     ```
    - No Windows:
-     python -m venv venv  
+     ```bash
+     python -m venv venv
+     
      venv\Scripts\activate
+     ```
 
 2. Instale a biblioteca ollama no ambiente virtual:
-     pip install ollama
 
-3. Instale e configure o Ollama:
+   ```bash
+     pip install ollama
+   ```
+
+4. Instale e configure o Ollama:
+   ```bash
      brew install ollama  
      brew services start ollama
+   ```
 
 ## Baixando o modelo
 
 Antes de usar, você precisa baixar o modelo llama3.1, que ocupa aproximadamente **4.7 GB**. Para isso, execute o comando abaixo com o serviço do Ollama já em execução:
 
+```bash
      ollama pull llama3.1
+```
 
 Certifique-se de que o modelo foi baixado e está pronto para uso.
 
@@ -37,7 +50,9 @@ Certifique-se de que o modelo foi baixado e está pronto para uso.
 
 O serviço Ollama precisa estar rodando localmente para que você consiga interagir com os modelos. Para iniciar o serviço, use o seguinte comando:
 
+```bash
      ollama start
+```
 
 Verifique se o serviço está ativo antes de iniciar o script.
 
@@ -53,4 +68,4 @@ O parâmetro `stream=True` no método `ollama.chat` permite que as respostas sej
 
 ## Licença
 
-Este projeto é licenciado sob a Licença MIT. Consulte o arquivo [LICENSE](LICENSE) para mais detalhes.
+Este projeto é licenciado sob a Licença MIT.
