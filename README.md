@@ -20,7 +20,7 @@
 
 # Repo Python
 
-<a href="https://betrybe.com/programacao/curso-python-desenvolvimento-web" target="_blank">Trybe - Formação Python para Dev Web</a>
+- <a href="https://betrybe.com/programacao/curso-python-desenvolvimento-web" target="_blank">Trybe - Formação Python para Dev Web</a>
 
 -----
 
