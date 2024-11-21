@@ -37,17 +37,44 @@ Esta função busca as informações de um filme com base no nome fornecido, ret
   - `movie_name`: O nome do filme a ser pesquisado.
 
 - **Retorno**:
-  - Um dicionário com os detalhes do filme, incluindo título, ID e gêneros.
+  - Um dicionário com os detalhes do filme, incluindo título, ID, gênero(s) e outras informações.
 
-### `fetch_similar_movies(api_key, genre_ids)`
-Esta função busca filmes populares e bem avaliados com base no(s) gênero(s) fornecido(s).
+### `fetch_genres(api_key)`
+Esta função busca todos os gêneros de filmes disponíveis na API TMDb.
+
+- **Parâmetros**:
+  - `api_key`: A chave da API TMDb.
+
+- **Retorno**:
+  - Um dicionário onde as chaves são os IDs dos gêneros e os valores são os nomes dos gêneros.
+
+### `fetch_similar_movies(api_key, genre_ids, min_vote_average=7.0)`
+Esta função busca filmes populares e bem avaliados com base no(s) gênero(s) fornecido(s) e filtra pela média de votos mínima especificada.
 
 - **Parâmetros**:
   - `api_key`: A chave da API TMDb.
   - `genre_ids`: Uma lista com os IDs dos gêneros dos filmes.
+  - `min_vote_average`: A nota mínima dos filmes a ser considerada (opcional, padrão é 7.0).
 
 - **Retorno**:
-  - Uma lista com os 10 filmes mais populares e bem avaliados do mesmo gênero.
+  - Uma lista com os 10 filmes mais populares e bem avaliados do(s) gênero(s) fornecido(s).
+
+## Exemplo de Uso:
+
+1. Buscar detalhes do filme:
+   ```python
+   movie = fetch_movie_details(api_key, "Inception")
+   ```
+
+2. Buscar todos os gêneros:
+   ```python
+   genres = fetch_genres(api_key)
+   ```
+
+3. Buscar filmes semelhantes com base nos gêneros do filme encontrado:
+   ```python
+   similar_movies = fetch_similar_movies(api_key, movie['genre_ids'], min_vote_average=8.0)
+   ```
 
 ## Exemplo de Chamadas para a API
 
