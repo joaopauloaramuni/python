@@ -76,7 +76,7 @@ def fetch_similar_movies(api_key, genre_ids, min_vote_average=7.0):
         return []
 
 def main():
-    api_key = "636d05525b891098884fe79c594385e3"
+    api_key = "suaapikeyaqui"
     movie_name = input("Digite o nome do filme: ")
     min_vote_average = float(input("Digite a nota mínima para filtrar os filmes (por padrão 7.0): ") or 7.0)
 
