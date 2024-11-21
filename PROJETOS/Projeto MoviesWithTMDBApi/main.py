@@ -59,7 +59,7 @@ def fetch_similar_movies(api_key, genre_ids, min_vote_average=7.0):
         'with_genres': ','.join(map(str, genre_ids)),
         'language': 'en-US',
         'page': 1,
-        'sort_by': 'popularity.desc',  # Ordena por popularidade decrescente
+        'sort_by': 'popularity.desc' # Ordena por popularidade decrescente
     }
     
     try:
