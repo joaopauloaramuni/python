@@ -76,7 +76,7 @@ Esta função busca filmes populares e bem avaliados com base no(s) gênero(s) f
    similar_movies = fetch_similar_movies(api_key, movie['genre_ids'], min_vote_average=8.0)
    ```
 
-## Exemplo de Chamadas para a API
+## Exemplos de chamadas para a API
 
 1. Buscar filmes populares:
    ```bash
@@ -86,6 +86,11 @@ Esta função busca filmes populares e bem avaliados com base no(s) gênero(s) f
 2. Buscar filmes por nome (exemplo: Harry Potter):
    ```bash
    https://api.themoviedb.org/3/search/movie?api_key=suaapikeyaqui&query=Harry+Potter&language=pt-BR
+   ```
+
+3. Descobrir filmes por popularidade:
+   ```bash
+   https://api.themoviedb.org/3/discover/movie?api_key=suaapikeyaqui&sort_by=popularity.desc&page=1&language=en-US
    ```
 
 ## Documentação e Links Úteis
