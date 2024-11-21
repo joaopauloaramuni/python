@@ -80,12 +80,12 @@ Esta função busca filmes populares e bem avaliados com base no(s) gênero(s) f
 
 1. Buscar filmes populares:
    ```bash
-   https://api.themoviedb.org/3/movie/popular?api_key=suaapitokenaqui
+   https://api.themoviedb.org/3/movie/popular?api_key=suaapikeyaqui
    ```
 
 2. Buscar filmes por nome (exemplo: Harry Potter):
    ```bash
-   https://api.themoviedb.org/3/search/movie?api_key=suaapitokenaqui&query=Harry+Potter&language=pt-BR
+   https://api.themoviedb.org/3/search/movie?api_key=suaapikeyaqui&query=Harry+Potter&language=pt-BR
    ```
 
 ## Documentação e Links Úteis
