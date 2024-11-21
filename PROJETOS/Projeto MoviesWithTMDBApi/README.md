@@ -65,7 +65,8 @@ Esta função busca filmes populares e bem avaliados com base no(s) gênero(s) f
 
 - [TMDb](https://www.themoviedb.org/)
 - [Configuração da API TMDb](https://www.themoviedb.org/settings/api)
-- [Documentação da API TMDb](https://api.themoviedb.org/3/)
+- [Documentação da API TMDb](https://api.themoviedb.org/)
+- [Link da API TMDb](https://api.themoviedb.org/3/)
 
 ## Licença
 
