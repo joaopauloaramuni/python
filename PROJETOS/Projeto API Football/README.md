@@ -2,6 +2,10 @@
 
 Este projeto utiliza a API Football para acessar dados sobre as ligas de futebol brasileiras, filtrando especificamente pelas ligas desejadas: "Serie A", "Serie B", "Copa Do Brasil" e "Mineiro - 1". A API permite acessar informações sobre os próximos jogos de cada uma dessas ligas.
 
+## Request
+
+- GET : https://v3.football.api-sports.io
+
 ## Exemplo de saída no terminal
 
 ### Liga: Serie A (2024)
