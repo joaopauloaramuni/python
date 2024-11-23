@@ -36,16 +36,6 @@ O `Pillow` é uma biblioteca Python para processamento de imagens, oferecendo um
 - **Instalação**: Pode ser instalado via pip com `pip install pillow`.
 - **Uso**: Usado para tarefas como redimensionamento de imagens, conversão de formatos, aplicação de filtros e manipulação de pixels. É amplamente utilizado em projetos de processamento de imagens e visão computacional.
 
-## Links úteis
-
-- [GitHub rembg](https://github.com/danielgatis/rembg/)
-- [GitHub Microsoft onnxruntime](https://github.com/microsoft/onnxruntime)
-- [GitHub Pillow](https://github.com/python-pillow/Pillow)
-
-- [pip rembg](https://pypi.org/project/rembg/)
-- [pip onnxruntime](https://pypi.org/project/onnxruntime/)
-- [pip pillow](https://pypi.org/project/pillow/)
-
 ## Como Rodar
 
 ### Passo 1: Instalar as dependências
@@ -95,6 +85,16 @@ O `Pillow` é uma biblioteca Python para processamento de imagens, oferecendo um
 ### Requisitos de versão
 
 Este projeto foi testado com Python 3.9.9. O `rembg` é compatível com versões do Python 3.7 até 3.10.
+
+## Links úteis
+
+- [GitHub rembg](https://github.com/danielgatis/rembg/)
+- [GitHub Microsoft onnxruntime](https://github.com/microsoft/onnxruntime)
+- [GitHub Pillow](https://github.com/python-pillow/Pillow)
+
+- [pip rembg](https://pypi.org/project/rembg/)
+- [pip onnxruntime](https://pypi.org/project/onnxruntime/)
+- [pip pillow](https://pypi.org/project/pillow/)
 
 ## Licença
 
