@@ -18,6 +18,24 @@ Foi utilizado como exemplo a imagem `Guido_van_Rossum.jpeg`, que está localizad
 |:---------------------:|:-----------------:|
 | Guido_van_Rossum.jpeg | fundoremovido.png | 
 
+### #rembg
+O `rembg` é uma ferramenta de código aberto que usa redes neurais para remover o fundo de imagens de forma automática. Ele é especialmente útil para quem precisa processar grandes quantidades de imagens, removendo o fundo sem a necessidade de ferramentas de edição manual. O `rembg` é baseado em modelos de aprendizado profundo, que identificam os objetos nas imagens e excluem o fundo, mantendo a qualidade das bordas e os detalhes.
+
+- **Instalação**: Pode ser instalado via pip com `pip install rembg`.
+- **Uso**: É simples de usar, podendo ser aplicado em imagens locais ou em lotes, facilitando o processamento de imagens em projetos de e-commerce ou design gráfico.
+
+### #onnxruntime
+O `onnxruntime` é um motor de inferência de aprendizado de máquina altamente otimizado para modelos treinados no formato ONNX (Open Neural Network Exchange). Ele é projetado para ser rápido e eficiente, permitindo que você execute modelos de aprendizado profundo em uma variedade de plataformas, como CPUs, GPUs e dispositivos móveis, oferecendo alta performance em tarefas de IA.
+
+- **Instalação**: Pode ser instalado via pip com `pip install onnxruntime`.
+- **Uso**: Usado principalmente para realizar inferência em modelos ONNX, sendo amplamente utilizado em aplicações de visão computacional, processamento de linguagem natural e outros.
+
+### #pillow
+O `Pillow` é uma biblioteca Python para processamento de imagens, oferecendo uma ampla gama de funcionalidades, como abrir, modificar, salvar e transformar imagens em vários formatos. Ele é uma versão atualizada e mantida da antiga biblioteca `PIL` (Python Imaging Library), sendo muito popular para tarefas de edição de imagens.
+
+- **Instalação**: Pode ser instalado via pip com `pip install pillow`.
+- **Uso**: Usado para tarefas como redimensionamento de imagens, conversão de formatos, aplicação de filtros e manipulação de pixels. É amplamente utilizado em projetos de processamento de imagens e visão computacional.
+
 ## Links úteis
 
 - [GitHub rembg](https://github.com/danielgatis/rembg/)
