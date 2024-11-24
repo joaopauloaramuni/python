@@ -66,7 +66,6 @@ def download_repo_zip(repo_url, repo_name):
 # Função principal para pegar todos os repositórios e fazer o download
 def main():
     # Pega a lista de repositórios
-    # response = requests.get(API_URL, headers=headers)
     # Definir o parâmetro per_page para 100, que é o máximo de repositórios retornados em uma requisição
     response = requests.get(API_URL, headers=headers, params={'per_page': 100})
     
