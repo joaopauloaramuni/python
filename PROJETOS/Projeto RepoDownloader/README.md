@@ -44,7 +44,7 @@ Antes de executar o script principal do projeto, você precisa configurar alguma
 # Seu token do GitHub (crie um token em https://github.com/settings/tokens)
 GITHUB_TOKEN = 'seutokenaqui'
 
-# Seu nome de usuário no GitHub
+# Nome do usuário no GitHub
 GITHUB_USERNAME = 'nomedousuarioaqui'
 ```
 
