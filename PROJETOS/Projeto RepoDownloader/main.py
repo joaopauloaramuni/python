@@ -3,7 +3,7 @@ import requests
 
 # Seu token do GitHub (crie um token em https://github.com/settings/tokens)
 GITHUB_TOKEN = 'ghp_seutokenaqui'
-# Seu nome de usuário no GitHub
+# Nome do usuário no GitHub
 GITHUB_USERNAME = 'nomedousuarioaqui'
 
 # URL da API do GitHub para obter os repositórios
