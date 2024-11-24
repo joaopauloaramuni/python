@@ -205,7 +205,11 @@ GET <a href="https://api.github.com/users/joaopauloaramuni/repos">https://api.gi
 
 ## Links úteis
 
+## Links úteis
+
 - [GitHub API Documentation](https://docs.github.com/pt/rest/about-the-rest-api)
+- [GitHub Repositories API](https://docs.github.com/pt/rest/repos/repos)
+- [Usando paginação na API REST do GitHub](https://docs.github.com/pt/rest/using-the-rest-api/using-pagination-in-the-rest-api)
 - [GitHub Personal Access Tokens](https://github.com/settings/tokens)
 - [Requests no PyPI](https://pypi.org/project/requests/)
 
