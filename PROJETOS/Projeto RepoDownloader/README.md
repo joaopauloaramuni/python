@@ -48,9 +48,7 @@ O script irá acessar a API do GitHub, listar os repositórios do usuário confi
 
 Para recuperar os repositórios públicos de um usuário no GitHub, você pode usar uma URL da API semelhante a esta:
 
-```
 GET <a href="https://api.github.com/users/joaopauloaramuni/repos">https://api.github.com/users/joaopauloaramuni/repos</a>
-```
 
 ## Links úteis
 
