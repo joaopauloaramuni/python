@@ -1,0 +1,6 @@
+psutil==6.1.0
+py-cpuinfo==9.0.0
+GPUtil==1.4.0
+setuptools==75.6.0
+hid==1.0.6
+hidapi==0.14.0.post4
