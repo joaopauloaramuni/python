@@ -36,13 +36,38 @@ pip install requests
 
 ### Passo 3: Executar o script
 
-1. Execute o script principal do projeto:
+Antes de executar o script principal do projeto, você precisa configurar algumas variáveis. 
 
-    ```bash
-    python main.py
-    ```
+1. Substitua os valores das seguintes variáveis no script:
+
+```
+# Seu token do GitHub (crie um token em https://github.com/settings/tokens)
+GITHUB_TOKEN = 'seutokenaqui'
+
+# Seu nome de usuário no GitHub
+GITHUB_USERNAME = 'nomedousuarioaqui'
+```
+
+- **GITHUB_TOKEN**: Para gerar seu token, vá até [Configurações de Tokens do GitHub](https://github.com/settings/tokens) e crie um novo token com as permissões necessárias. Esse token será usado para autenticar as requisições à API do GitHub.
+
+- **GITHUB_USERNAME**: Aqui você pode colocar seu próprio nome de usuário do GitHub ou o nome de usuário de outra pessoa. Esse valor é usado para buscar os repositórios desse usuário na plataforma.
+
+2. Após configurar essas variáveis, execute o script principal do projeto com o seguinte comando:
+
+```bash
+python main.py
+```
+
+Isso iniciará a execução do script, que agora estará autenticado com o token fornecido e buscará os repositórios do usuário especificado.
 
 O script irá acessar a API do GitHub, listar os repositórios do usuário configurado e fazer o download deles, seja via `git clone` ou como arquivos ZIP.
+
+Por padrão, o script efetua o download como arquivos ZIP.
+
+```
+# download_repo(repo_url, repo_name)
+download_repo_zip(repo_url, repo_name)
+```
 
 ## Exemplo de como recuperar os repositórios usando a API do GitHub
 
