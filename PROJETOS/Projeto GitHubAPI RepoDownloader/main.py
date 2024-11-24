@@ -72,6 +72,11 @@ def main():
     
     if response.status_code == 200:
         repos = response.json()
+        
+        # Imprime o total de repositórios
+        total_repos = len(repos)
+        print(f'Total de repositórios: {total_repos}')
+        
         for repo in repos:
             repo_name = repo['name']
             repo_url = repo['clone_url']
