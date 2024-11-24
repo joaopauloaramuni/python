@@ -44,7 +44,7 @@ pip install requests
 
 O script irá acessar a API do GitHub, listar os repositórios do usuário configurado e fazer o download deles, seja via `git clone` ou como arquivos ZIP.
 
-## Exemplo de como eecuperar os repositórios usando a API do GitHub
+## Exemplo de como recuperar os repositórios usando a API do GitHub
 
 Para recuperar os repositórios públicos de um usuário no GitHub, você pode usar uma URL da API semelhante a esta:
 
