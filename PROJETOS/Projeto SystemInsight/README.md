@@ -6,23 +6,17 @@ Este projeto fornece informações detalhadas sobre o seu sistema, incluindo CPU
 
 ### Bibliotecas Python
 
-1. **psutil** - Biblioteca para recuperar informações e status de processos e sistemas, como uso de CPU, memória e disco.
-   - [Link para psutil](https://pypi.org/project/psutil/)
+1. [psutil](https://pypi.org/project/psutil/) - Biblioteca para recuperar informações e status de processos e sistemas, como uso de CPU, memória e disco.
    
-2. **py-cpuinfo** - Fornece informações sobre o processador do sistema, como o modelo e a arquitetura da CPU.
-   - [Link para py-cpuinfo](https://pypi.org/project/py-cpuinfo/)
+2. [py-cpuinfo](https://pypi.org/project/py-cpuinfo/) - Fornece informações sobre o processador do sistema, como o modelo e a arquitetura da CPU.
    
-3. **GPUtil** - Permite obter informações sobre as GPUs disponíveis no sistema, incluindo uso de memória e temperatura.
-   - [Link para GPUtil](https://pypi.org/project/GPUtil/)
-   
-4. **setuptools** - Ferramenta para facilitar o empacotamento de bibliotecas Python e seus scripts.
-   - [Link para setuptools](https://pypi.org/project/setuptools/)
-   
-5. **hid** - Permite interagir com dispositivos USB HID (Human Interface Device), como teclados e mouses.
-   - [Link para hid](https://pypi.org/project/hid/)
+3. [GPUtil](https://pypi.org/project/GPUtil/) - Permite obter informações sobre as GPUs disponíveis no sistema, incluindo uso de memória e temperatura.
 
-6. **hidapi** - Biblioteca que fornece uma interface para comunicação com dispositivos HID (Human Interface Devices) via USB, como teclados, mouses e outros periféricos.
-   - [Link para hidapi](https://pypi.org/project/hidapi/)
+4. [setuptools](https://pypi.org/project/setuptools/) - Ferramenta para facilitar o empacotamento de bibliotecas Python e seus scripts.
+   
+5. [hid](https://pypi.org/project/hid/) - Permite interagir com dispositivos USB HID (Human Interface Device), como teclados e mouses.
+
+6. [hidapi](https://pypi.org/project/hidapi/) - Biblioteca que fornece uma interface para comunicação com dispositivos HID (Human Interface Devices) via USB, como teclados, mouses e outros periféricos.
    - **Instalação via Brew (macOS)**:
       ```bash
       brew install hidapi
@@ -201,6 +195,7 @@ python main.py
 - [GPUtil](https://pypi.org/project/GPUtil/)
 - [setuptools](https://pypi.org/project/setuptools/)
 - [hid](https://pypi.org/project/hid/)
+- [hidapi](https://pypi.org/project/hidapi/)
 
 ## Licença
 
