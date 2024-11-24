@@ -69,6 +69,19 @@ Por padrão, o script efetua o download como arquivos ZIP.
 download_repo_zip(repo_url, repo_name)
 ```
 
+## Uso do parâmetro `per_page`
+
+Ao fazer requisições à API do GitHub para coletar informações sobre repositórios, o parâmetro `per_page` controla o número de itens retornados por página. O valor máximo permitido para esse parâmetro é 100, o que significa que podemos retornar até 100 repositórios em uma única requisição.
+
+Exemplo de código:
+
+```python
+# Definir o parâmetro per_page para 100, que é o máximo de repositórios retornados em uma requisição
+response = requests.get(API_URL, headers=headers, params={'per_page': 100})
+```
+
+Neste exemplo, ao configurar o parâmetro per_page como 100, garantimos que a API retorne até 100 repositórios por vez, otimizando a coleta de dados e evitando múltiplas requisições em casos de grande volume de repositórios.
+
 ## Exemplo de como recuperar os repositórios usando a API do GitHub
 
 Para recuperar os repositórios públicos de um usuário no GitHub, você pode usar uma URL da API semelhante a esta:
