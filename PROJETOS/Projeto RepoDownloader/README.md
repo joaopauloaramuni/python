@@ -1,4 +1,3 @@
-
 # Projeto RepoDownloader
 
 Este projeto tem como objetivo baixar os repositórios de um usuário do GitHub, seja através do clone do repositório ou no formato ZIP. O código utiliza a API REST do GitHub para listar os repositórios de um usuário e realiza o download dos mesmos.
@@ -44,6 +43,14 @@ pip install requests
     ```
 
 O script irá acessar a API do GitHub, listar os repositórios do usuário configurado e fazer o download deles, seja via `git clone` ou como arquivos ZIP.
+
+## Exemplo de como eecuperar os repositórios usando a API do GitHub
+
+Para recuperar os repositórios públicos de um usuário no GitHub, você pode usar uma URL da API semelhante a esta:
+
+```
+GET https://api.github.com/users/joaopauloaramuni/repos
+```
 
 ## Links úteis
 
