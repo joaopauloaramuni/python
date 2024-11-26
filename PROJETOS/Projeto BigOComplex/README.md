@@ -169,7 +169,9 @@ Big O `bubble_sort`: O(n^2)
 ## Documentação e links úteis
 
 - [GitHub - BigO-calculator](https://github.com/Alfex4936/python-bigO-calculator/)
-- [Documentação do BigO-calculator](https://github.com/Alfex4936/python-bigO-calculator/blob/master/bigO/algorithm.py)
+- [Built-in algorithms list - BigO-calculator](https://github.com/Alfex4936/python-bigO-calculator/blob/master/bigO/algorithm.py)
 - [PyPI - BigO-calculator](https://pypi.org/project/big-O-calculator/)
+
+## Licença
 
 Este projeto está licenciado sob a Licença MIT.
