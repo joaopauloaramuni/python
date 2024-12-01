@@ -20,14 +20,29 @@ class AutomatoFinito:
         self.estado_inicial = self.estados[nome]
 
     def simular_entrada(self, entrada):
+        # Validação da entrada
+        for simbolo in entrada:
+            if simbolo not in self.alfabeto:
+                print(f"Erro: O símbolo '{simbolo}' não pertence ao alfabeto do autômato.")
+                print(f"Alfabeto válido: {self.alfabeto}")
+                print("Por favor, forneça uma entrada composta apenas pelos símbolos do alfabeto.")
+                return False, []
+
         estado_atual = self.estado_inicial
         caminho = [estado_atual.nome]
 
         for simbolo in entrada:
             if simbolo not in estado_atual.transicoes:
+                print(f"Erro: Não há transição definida para o símbolo '{simbolo}' no estado '{estado_atual.nome}'.")
                 return False, caminho
             estado_atual = self.estados[estado_atual.transicoes[simbolo][0]]
             caminho.append(estado_atual.nome)
 
         # Verifica se o estado final foi alcançado após processar a palavra
-        return estado_atual.is_final, caminho
+        if estado_atual.is_final:
+            print(f"Palavra aceita! Caminho percorrido: {caminho}")
+            return True, caminho
+        else:
+            print(f"Palavra rejeitada. Caminho percorrido: {caminho}")
+            return False, caminho
+
