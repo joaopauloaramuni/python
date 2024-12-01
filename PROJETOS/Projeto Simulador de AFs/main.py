@@ -2,14 +2,14 @@ from visualizador import desenhar_automato
 from linguagens import *
 
 def main():
-    print("Escolha o autômato:")
+    print("\nEscolha o autômato:")
     print("1. Linguagem que aceita apenas strings compostas pelos símbolos 'a' e 'b'")
     print("2. Linguagem que aceita apenas strings terminadas em 'ab'")
     print("3. Linguagem que aceita strings com um número par de 'a's")
     print("4. Linguagem que aceita strings contendo 'aa' como subcadeia")
     print("5. Linguagem que aceita apenas padrões 'ab' repetidos (com estado de erro)")
 
-    escolha = input("Digite o número correspondente: ")
+    escolha = input("\nDigite o número correspondente: ")
 
     # Criação dos 5 autômatos
     automatos = [
