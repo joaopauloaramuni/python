@@ -91,6 +91,29 @@ O **Graphviz** é uma ferramenta poderosa para visualização de grafos. Neste p
   - Informação sobre ser ou não um estado final.
   - Transições para outros estados.
 
+## Exemplo de Saída
+
+```
+Escolha o autômato:
+1. Linguagem que aceita apenas strings compostas pelos símbolos 'a' e 'b'
+2. Linguagem que aceita apenas strings terminadas em 'ab'
+3. Linguagem que aceita strings com um número par de 'a's
+4. Linguagem que aceita strings contendo 'aa' como subcadeia
+5. Linguagem que aceita apenas padrões 'ab' repetidos (com estado de erro)
+
+Digite o número correspondente: 4
+Digite a palavra para testar: baab
+Palavra aceita! Caminho percorrido: ['q0', 'q0', 'q1', 'q2', 'q2']
+Entrada: baab, Resultado: Aceita, Caminho: ['q0', 'q0', 'q1', 'q2', 'q2']
+
+Gerando gráficos dos autômatos...
+Automato 1 gerado: automato_1.png
+Automato 2 gerado: automato_2.png
+Automato 3 gerado: automato_3.png
+Automato 4 gerado: automato_4.png
+Automato 5 gerado: automato_5.png
+```
+
 ## Documentação e Links Úteis
 
 - [Documentação do Graphviz](https://graphviz.org/documentation/)
