@@ -65,11 +65,6 @@ O **Ghostscript** é uma ferramenta de código aberto para manipulação de arqu
      source venv/bin/activate
      ```
 
-3. **Instalar as dependências**:
-   ```bash
-   pip install graphviz
-   ```
-
 ---
 
 ## Exemplo de Saída
