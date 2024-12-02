@@ -15,7 +15,7 @@ headers = {
 }
 
 # Constantes para extensões analisadas
-CODE_EXTENSIONS = {".java", ".py", ".js", ".c", ".cpp", ".cs", ".html", ".css", ".php", ".rb", ".go", ".rs", ".ts", ".swift", ".kt", ".scala", ".sh", ".vbs", ".pas"}
+CODE_EXTENSIONS = {".java", ".py", ".js", ".c", ".cpp", ".cs", ".html", ".css", ".php", ".rb", ".go", ".rs", ".ts", ".swift", ".kt", ".scala", ".sh", ".vbs", ".pas", ".dart"}
 SQL_EXTENSION = ".sql"
 MARKDOWN_EXTENSION = ".md"
 
@@ -45,8 +45,6 @@ def fetch_file_content(file_url, file_path, repo_owner, repo_name):
         # Fallback para a API de blobs
         file_response = requests.get(file_url, headers=headers)
         file_response.raise_for_status()
-        if "truncated" in file_response.json() and file_response.json()["truncated"]:
-            print(f"Arquivo {file_url} truncado devido ao tamanho")
         return file_response.json().get("content", "")
     except requests.exceptions.RequestException as e:
         print(f"Erro ao acessar o arquivo {file_path}: {e}")
@@ -85,14 +83,16 @@ def count_lines_in_repo(repo):
                 continue
             
             try:
-                content = fetch_file_content(file["url"])  # Obter o conteúdo apenas uma vez
+                content = fetch_file_content(file["url"], file_path, repo_owner, repo_name)  # Obter o conteúdo
                 lines = len(content.split("\n"))  # Contar as linhas uma vez
                 print(f"Arquivo processado: {file_path}, Linhas contadas: {lines}")  # Diagnóstico
                 
                 if file_path.endswith(".java"):
                     java_lines += lines
+                    code_lines += lines  # Também adicione ao total de linhas de código
                 elif file_path.endswith(".py"):
                     python_lines += lines
+                    code_lines += lines
                 elif file_path.endswith(SQL_EXTENSION):
                     sql_lines += lines
                 elif file_path.endswith(MARKDOWN_EXTENSION):
