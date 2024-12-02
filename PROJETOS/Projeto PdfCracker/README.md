@@ -1,4 +1,4 @@
-# PdfCracker
+# Projeto PdfCracker
 
 PdfCracker é uma ferramenta simples para tentativa de quebra de senha de arquivos PDF protegidos utilizando uma wordlist. Este projeto foi desenvolvido com Python, empregando as bibliotecas `pikepdf` e `tqdm`.
 
