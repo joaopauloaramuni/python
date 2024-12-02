@@ -26,7 +26,7 @@ Com a GUI, o processo de compressão de PDFs ficou mais intuitivo, eliminando a 
 
 ## Capturas de Tela
 
-| ![Tela Inicial - Home ](imgs/home.png) | ![Tela Inicial - Sucesso ](imgs/home2.png) |
+| ![Tela Inicial - Home ](imgs/home3.png) | ![Tela Inicial - Sucesso ](imgs/home2.png) |
 |:---------------------:|:-----------------------:|
 |         Home          |         Sucesso         |
 
