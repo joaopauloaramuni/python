@@ -141,6 +141,11 @@ def main():
         print(f"Tempo para processar {repo['name']}: {elapsed_time:.2f} segundos")
         if code_lines == 0 and sql_lines == 0 and markdown_lines == 0:
             print(f"Linguagem fora da lista no repositório {repo['name']}")
+        elif sql_lines > 0:
+            print(f"Linhas encontradas no repositório {repo['name']}:")
+            print(f"  Linhas de código SQL: {sql_lines}")
+            print(f"  Linhas de código: {code_lines}")
+            print(f"  Linhas de Markdown: {markdown_lines}")
         else:
             print(f"Linhas encontradas no repositório {repo['name']}:")
             print(f"  Linhas de código: {code_lines}")
