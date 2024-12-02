@@ -88,29 +88,34 @@ GET <a href="https://api.github.com/users/joaopauloaramuni/repos">https://api.gi
 Obtendo a lista de repositórios...
 
 Extensões consideradas para análise:
-- Código: .c, .rs, .cs, .cpp, .js, .scala, .pas, .java, .sh, .ts, .vbs, .dart, .php, .html, .rb, .kt, .css, .py, .go, .swift
-- SQL: .sql
-- Markdown: .md
+  Código: .cs, .kt, .java, .rs, .c, .css, .scala, .js, .pas, .rb, .cpp, .swift, .go, .vbs, .py, .sh, .php, .html, .ts, .dart
+  SQL: .sql
+  Markdown: .md
 
 Total de repositórios encontrados: 37
 
 ******************************************************************************************************************************
-Processando repositório: actionscript  
-Tempo para processar actionscript: 0.60 segundos  
+Processando repositório: actionscript...
+Arquivo processado: README.md, Linhas contadas: 42
+Tempo para processar actionscript: 0.73 segundos
 Linguagem fora da lista no repositório actionscript
-Linhas de Markdown: 53
 
 ******************************************************************************************************************************
-Processando repositório: algoritmos-e-estruturas-de-dados-i  
-Tempo para processar algoritmos-e-estruturas-de-dados-i: 34.76 segundos  
-Linhas encontradas no repositório algoritmos-e-estruturas-de-dados-i:  
-Linhas de código: 3442  
-Linhas de Markdown: 24
+Processando repositório: algoritmos-e-estruturas-de-dados-i...
+Arquivo processado: PROJETOS/Prj_ASCII_Clock/src/Prj_ASCII_Clock.c, Linhas contadas: 70
+Arquivo processado: PROJETOS/Prj_Aramuni_Recursivo/src/Prj_Aramuni_Recursivo.c, Linhas contadas: 248
+Arquivo processado: PROJETOS/Prj_Array_Ex1/src/Prj_Array_Ex1.c, Linhas contadas: 35
+Arquivo processado: PROJETOS/Prj_Array_Ex2/src/Prj_Array_Ex2.c, Linhas contadas: 43
+Arquivo processado: PROJETOS/Prj_Array_Exer1/src/Prj_Array_Exer1.c, Linhas contadas: 33
+Arquivo processado: PROJETOS/Prj_Array_Exer2/src/Prj_Array_Exer2.c, Linhas contadas: 28
+Arquivo processado: PROJETOS/Prj_Array_Exer3/src/Prj_Array_Exer3.c, Linhas contadas: 34
+Arquivo processado: PROJETOS/Prj_ByVal_ByRef/src/Prj_ByVal_ByRef.c, Linhas contadas: 34
+
+...
 
 ******************************************************************************************************************************
 
 ...
-
 
 ```
 
