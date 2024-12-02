@@ -48,6 +48,8 @@ O **Ghostscript** é uma ferramenta de código aberto para manipulação de arqu
 
 ## Ambiente Virtual (venv)
 
+### Passo 1: Criar e ativar o ambiente virtual
+
 É recomendado criar um ambiente virtual para isolar as dependências do projeto. Para configurar o ambiente virtual:
 
 1. **Criar o ambiente virtual**:
@@ -64,6 +66,17 @@ O **Ghostscript** é uma ferramenta de código aberto para manipulação de arqu
      ```bash
      source venv/bin/activate
      ```
+
+### Passo 2: Executar o script
+
+Após ativar o ambiente virtual, execute o script principal:
+```bash
+python main.py
+```
+
+## Versão do Python
+
+Este projeto foi desenvolvido na versão **3.13.0** do Python.
 
 ---
 
