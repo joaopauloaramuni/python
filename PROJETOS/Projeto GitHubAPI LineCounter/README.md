@@ -122,6 +122,13 @@ Linhas encontradas no repositório algoritmos-e-estruturas-de-dados-i:
 
 ...
 
+--- Resultado Final ---
+  Total de linhas de código: 272575
+  Total de linhas de Markdown: 26418
+  Total de linhas de código Java: 116994
+  Total de linhas de código Python: 7005
+  Total de linhas de código SQL: 3787
+
 ```
 
 ## Links úteis
