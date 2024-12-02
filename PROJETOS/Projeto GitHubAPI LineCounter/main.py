@@ -32,7 +32,7 @@ def get_repositories():
 def fetch_file_content(file_url, file_path, repo_owner, repo_name):
     """Obtém o conteúdo de um arquivo do GitHub."""
     try:
-        # Tente buscar pelo link bruto primeiro
+        # Tentar buscar pelo link bruto primeiro
         raw_url = f"https://raw.githubusercontent.com/{repo_owner}/{repo_name}/main/{file_path}"
         raw_response = requests.get(raw_url, headers=headers)
         raw_response.raise_for_status()
