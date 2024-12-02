@@ -104,8 +104,8 @@ Linhas de Markdown: 53
 Processando repositório: algoritmos-e-estruturas-de-dados-i  
 Tempo para processar algoritmos-e-estruturas-de-dados-i: 34.76 segundos  
 Linhas encontradas no repositório algoritmos-e-estruturas-de-dados-i:  
-- Linhas de código: 3442  
-- Linhas de Markdown: 24
+Linhas de código: 3442  
+Linhas de Markdown: 24
 
 ******************************************************************************************************************************
 
