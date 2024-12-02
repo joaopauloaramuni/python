@@ -139,7 +139,7 @@ def main():
         elapsed_time = end_time - start_time  # Tempo total em segundos
         
         print(f"Tempo para processar {repo['name']}: {elapsed_time:.2f} segundos")
-        if code_lines == 0:
+        if code_lines == 0 and sql_lines == 0 and markdown_lines == 0:
             print(f"Linguagem fora da lista no repositório {repo['name']}")
         else:
             print(f"Linhas encontradas no repositório {repo['name']}:")
