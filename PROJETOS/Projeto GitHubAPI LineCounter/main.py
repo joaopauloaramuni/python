@@ -89,7 +89,7 @@ def count_lines_in_repo(repo):
                 
                 if file_path.endswith(".java"):
                     java_lines += lines
-                    code_lines += lines  # Também adicione ao total de linhas de código
+                    code_lines += lines
                 elif file_path.endswith(".py"):
                     python_lines += lines
                     code_lines += lines
