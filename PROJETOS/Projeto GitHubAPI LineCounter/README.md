@@ -113,6 +113,11 @@ Arquivo processado: PROJETOS/Prj_ByVal_ByRef/src/Prj_ByVal_ByRef.c, Linhas conta
 
 ...
 
+Tempo para processar algoritmos-e-estruturas-de-dados-i: 50.89 segundos
+Linhas encontradas no repositório algoritmos-e-estruturas-de-dados-i:
+  Linhas de código: 5825
+  Linhas de Markdown: 37
+
 ******************************************************************************************************************************
 
 ...
