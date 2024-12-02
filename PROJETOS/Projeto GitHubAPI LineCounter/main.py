@@ -15,7 +15,7 @@ headers = {
 }
 
 # Constantes para extensões analisadas
-CODE_EXTENSIONS = {".java", ".py", ".js", ".c", ".cpp", ".cs", ".html", ".css", ".php", ".rb", ".go", ".rs", ".ts", ".swift", ".kt", ".scala", ".sh", ".vbs", ".pas", ".dart"}
+CODE_EXTENSIONS = {".java", ".py", ".js", ".c", ".cpp", ".cs", ".html", ".css", ".php", ".rb", ".go", ".rs", ".ts", ".swift", ".kt", ".scala", ".sh", ".vbs", ".pas"}
 SQL_EXTENSION = ".sql"
 MARKDOWN_EXTENSION = ".md"
 
@@ -29,11 +29,28 @@ def get_repositories():
         print(f"Erro ao acessar os repositórios: {e}")
         return None
 
-def fetch_file_content(file_url):
+def fetch_file_content(file_url, file_path, repo_owner, repo_name):
     """Obtém o conteúdo de um arquivo do GitHub."""
-    file_response = requests.get(file_url, headers=headers)
-    file_response.raise_for_status()
-    return file_response.json().get("content", "")
+    try:
+        # Tente buscar pelo link bruto primeiro
+        raw_url = f"https://raw.githubusercontent.com/{repo_owner}/{repo_name}/main/{file_path}"
+        raw_response = requests.get(raw_url, headers=headers)
+        raw_response.raise_for_status()
+        return raw_response.text  # Retorna o conteúdo bruto
+
+    except requests.exceptions.RequestException as e:
+        print(f"Erro ao acessar o arquivo bruto {file_path}: {e}")
+
+    try:
+        # Fallback para a API de blobs
+        file_response = requests.get(file_url, headers=headers)
+        file_response.raise_for_status()
+        if "truncated" in file_response.json() and file_response.json()["truncated"]:
+            print(f"Arquivo {file_url} truncado devido ao tamanho")
+        return file_response.json().get("content", "")
+    except requests.exceptions.RequestException as e:
+        print(f"Erro ao acessar o arquivo {file_path}: {e}")
+        return ""
 
 def count_lines_in_repo(repo):
     """Conta as linhas de código e Markdown em um repositório."""
@@ -70,6 +87,8 @@ def count_lines_in_repo(repo):
             try:
                 content = fetch_file_content(file["url"])  # Obter o conteúdo apenas uma vez
                 lines = len(content.split("\n"))  # Contar as linhas uma vez
+                print(f"Arquivo processado: {file_path}, Linhas contadas: {lines}")  # Diagnóstico
+                
                 if file_path.endswith(".java"):
                     java_lines += lines
                 elif file_path.endswith(".py"):
@@ -120,15 +139,12 @@ def main():
         elapsed_time = end_time - start_time  # Tempo total em segundos
         
         print(f"Tempo para processar {repo['name']}: {elapsed_time:.2f} segundos")
-        if code_lines == 0 and sql_lines == 0:
+        if code_lines == 0:
             print(f"Linguagem fora da lista no repositório {repo['name']}")
         else:
             print(f"Linhas encontradas no repositório {repo['name']}:")
-            print(f"Linhas de código: {code_lines}")
-            # print(f"Linhas de código Java: {java_lines}")
-            # print(f"Linhas de código Python: {python_lines}")
-            # print(f"Linhas de código SQL: {sql_lines}")
-        print(f"Linhas de Markdown: {markdown_lines}")
+            print(f"  Linhas de código: {code_lines}")
+            print(f"  Linhas de Markdown: {markdown_lines}")
         
         total_code_lines += code_lines
         total_markdown_lines += markdown_lines
