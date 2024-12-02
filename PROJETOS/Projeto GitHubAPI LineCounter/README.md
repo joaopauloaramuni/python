@@ -84,7 +84,7 @@ GET <a href="https://api.github.com/users/joaopauloaramuni/repos">https://api.gi
 # Exemplo de Saída
 
 ```
-*****************************************************************************
+********************************************************************************************************************************
 Obtendo a lista de repositórios...
 
 **Extensões consideradas para análise:**
@@ -94,22 +94,24 @@ Obtendo a lista de repositórios...
 
 **Total de repositórios encontrados:** 37
 
-*****************************************************************************
+********************************************************************************************************************************
 **Processando repositório:** actionscript  
 **Tempo para processar actionscript:** 0.60 segundos  
 **Linguagem fora da lista no repositório actionscript**  
 **Linhas de Markdown:** 53
 
-*****************************************************************************
+********************************************************************************************************************************
 **Processando repositório:** algoritmos-e-estruturas-de-dados-i  
 **Tempo para processar algoritmos-e-estruturas-de-dados-i:** 34.76 segundos  
 **Linhas encontradas no repositório algoritmos-e-estruturas-de-dados-i:**  
 - **Linhas de código:** 3442  
 - **Linhas de Markdown:** 24
 
-*****************************************************************************
+********************************************************************************************************************************
 
 ...
+
+
 ```
 
 ## Links úteis
