@@ -88,7 +88,7 @@ Page 242
 PDF comprimido salvo como: output_compressed.pdf
 ```
 
-No exemplo acima, o arquivo `input.pdf` com tamanho de 20,9 MB foi reduzido para 8 MB no arquivo comprimido `output_compressed.pdf`.
+No exemplo acima, o arquivo `input.pdf` com tamanho de 19,92 MB foi reduzido para 7,61 MB no arquivo comprimido `output_compressed.pdf`.
 
 ---
 
