@@ -1,4 +1,4 @@
-# YouTube Video Downloader com Interface Gráfica
+# YouTube Video Downloader with UI
 
 Este é um projeto aprimorado para baixar vídeos do YouTube, agora com uma interface gráfica intuitiva, que permite aos usuários colar o link do vídeo e gerenciar o download facilmente. O projeto utiliza a biblioteca yt_dlp para gerenciar os downloads na melhor qualidade disponível.
 
