@@ -92,6 +92,12 @@ Para gerar o executável, siga os passos abaixo:
 3. Use o controle deslizante para ajustar a qualidade da compressão (quanto menor o valor, maior a compressão).
 4. Clique em "Comprimir Imagem" para salvar a imagem comprimida.
 
+## Documentação e Links úteis
+
+- [Documentação Oficial - Tkinter (Python)](https://docs.python.org/pt-br/3/library/tkinter.html)
+- [Tk Commands](https://tcl.tk/man/tcl8.6/TkCmd/contents.htm)
+- [TkDocs](https://tkdocs.com/)
+
 ## Licença
 
 Este projeto é livre para uso pessoal. Para uso comercial, consulte o autor.
