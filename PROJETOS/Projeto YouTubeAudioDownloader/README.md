@@ -225,6 +225,15 @@ with YoutubeDL(ydl_opts) as ydl:
 
 Para baixar áudios de outros vídeos, altere o valor da variável `url` no código.
 
+## Documentação e Links Úteis
+
+- [Repositório oficial do yt-dlp](https://github.com/yt-dlp/yt-dlp)
+- [Pacote yt-dlp no PyPI](https://pypi.org/project/yt-dlp/)
+- [Repositório oficial do FFmpeg](https://github.com/FFmpeg/FFmpeg)
+- [Página inicial do FFmpeg](https://ffmpeg.org/ffmpeg.html)
+- [Documentação completa do FFmpeg](https://ffmpeg.org/documentation.html)
+- [Página de download do FFmpeg](https://ffmpeg.org/download.html)
+
 ## Licença
 
 Este projeto é de código aberto e está licenciado sob a MIT License. Sinta-se livre para usá-lo e modificá-lo conforme necessário.
