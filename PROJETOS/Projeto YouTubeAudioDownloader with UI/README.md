@@ -180,6 +180,8 @@ A documentação oficial do Tk fornece uma descrição técnica detalhada dos co
 
 **Link**: [Documentação Oficial do Tk](https://tcl.tk/man/tcl8.6/TkCmd/contents.htm)
 
+---
+
 #### **4. Cursos e Recursos Adicionais**
 Além das documentações oficiais, existem recursos adicionais que ajudam a aprofundar conhecimentos em `tkinter`:
 
@@ -190,6 +192,8 @@ Além das documentações oficiais, existem recursos adicionais que ajudam a apr
 ##### **Tutorial Tkinter (Real Python)**
 - Um guia interativo com exemplos práticos para construção de GUIs.
 - **Link**: [Real Python - Tkinter Tutorial](https://realpython.com/python-gui-tkinter/)
+
+---
 
 #### **5. Comunidade e Suporte**
 - **Stack Overflow**: Para dúvidas específicas e resolução de problemas em Tkinter.  
