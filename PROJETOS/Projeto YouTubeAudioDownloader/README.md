@@ -114,17 +114,48 @@ Para mais detalhes, visite o site oficial do FFmpeg: https://ffmpeg.org.
 
 ## Configurações de qualidade do áudio
 
-A qualidade do áudio é configurada utilizando o parâmetro `-q:a` (ou `-aq`). Para o codec MP3, os valores variam de **0** (melhor qualidade) a **9** (qualidade mais baixa).
+A qualidade do áudio é configurada utilizando o parâmetro `-q:a` (ou `-aq`). Para o codec MP3, os valores variam de **0** (melhor qualidade) a **9** (qualidade mais baixa). Esse parâmetro utiliza o **VBR (Variable Bit Rate)**.
+
+### O que é VBR?
+
+**VBR (Variable Bit Rate)** é uma técnica de codificação que ajusta dinamicamente a taxa de bits do áudio dependendo da complexidade da faixa sonora. Em trechos simples (como silêncio ou tons constantes), utiliza menos bits; em trechos mais complexos (como vocais ou instrumentos variados), utiliza mais bits.
+
+Isso resulta em:
+- Melhor qualidade geral em relação ao tamanho do arquivo.
+- Arquivos menores do que os gerados com **CBR (Constant Bit Rate)**, que mantém uma taxa fixa.
 
 ### Relação entre qualidade e taxa de bits aproximada:
 
+
 | Valor (`q`) | Taxa de Bits Aproximada (kbps) | Qualidade       |
 |-------------|--------------------------------|-----------------|
-| **0**       | 240-320                       | Excelente       |
-| **2**       | 170-210                       | Boa (padrão)    |
-| **4**       | 140-180                       | Média           |
-| **6**       | 100-130                       | Baixa           |
-| **9**       | ~65                           | Muito baixa     |
+| **0**       | 240-320                        | Excelente       |
+| **2**       | 170-210                        | Boa (padrão)    |
+| **4**       | 140-180                        | Média           |
+| **6**       | 100-130                        | Baixa           |
+| **9**       | ~65                            | Muito baixa     |
+
+### Exemplo de uso com FFmpeg
+
+Abaixo estão exemplos para definir a qualidade usando o `-q:a` no FFmpeg:
+
+Configurar a melhor qualidade (q: 0):
+
+  ```bash
+  ffmpeg -i input.mp4 -q:a 0 output.mp3
+  ```
+
+Definir qualidade média (q: 4):
+
+  ```bash
+  ffmpeg -i input.mp4 -q:a 4 output.mp3
+  ```
+
+Gerar um arquivo com qualidade baixa (q: 9):
+
+  ```bash
+  ffmpeg -i input.mp4 -q:a 9 output.mp3
+  ```
 
 ## Uso
 
