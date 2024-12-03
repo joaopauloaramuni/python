@@ -319,8 +319,8 @@ with YoutubeDL(ydl_opts) as ydl:
 - [Documentação completa do FFmpeg](https://ffmpeg.org/documentation.html)
 - [Página de download do FFmpeg](https://ffmpeg.org/download.html)
 - [Documentação Oficial - Tkinter (Python)](https://docs.python.org/pt-br/3/library/tkinter.html)
-- [TkDocs](https://tkdocs.com/)
 - [Tk Commands](https://tcl.tk/man/tcl8.6/TkCmd/contents.htm)
+- [TkDocs](https://tkdocs.com/)
 
 ## Licença
 
