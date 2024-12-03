@@ -2,6 +2,19 @@
 
 Este é um projeto aprimorado para baixar vídeos do YouTube, agora com uma interface gráfica intuitiva, que permite aos usuários colar o link do vídeo e gerenciar o download facilmente. O projeto utiliza a biblioteca yt_dlp para gerenciar os downloads na melhor qualidade disponível.
 
+## Interface Gráfica
+
+A interface gráfica permite que o usuário insira o link do vídeo, visualize e inicie o download com um clique. Para usar, basta iniciar o programa e colar o link do YouTube no campo designado.
+
+### Capturas de Tela
+
+- **Tela Inicial**: Campo para inserir o link do vídeo e botão de download.
+- **Tela de Progresso**: Exibe o progresso do download.
+
+| ![Tela Inicial](imgs/interfacevideodownload-3.png) | ![Tela de Progresso](imgs/interfacevideodownload-4.png) |
+|:--:|:--:|
+| Tela Inicial | Tela de Progresso |
+
 ## Pré-requisitos
 
 Certifique-se de ter o Python instalado (versão 3.6 ou superior é recomendada).
@@ -163,19 +176,6 @@ Além das documentações oficiais, existem recursos adicionais que ajudam a apr
   [Visitar Reddit r/learnpython](https://www.reddit.com/r/learnpython/)
 
 ---
-
-## Interface Gráfica
-
-A interface gráfica permite que o usuário insira o link do vídeo, visualize e inicie o download com um clique. Para usar, basta iniciar o programa e colar o link do YouTube no campo designado.
-
-### Capturas de Tela
-
-- **Tela Inicial**: Campo para inserir o link do vídeo e botão de download.
-- **Tela de Progresso**: Exibe o progresso do download.
-
-| ![Tela Inicial](imgs/interfacevideodownload-3.png) | ![Tela de Progresso](imgs/interfacevideodownload-4.png) |
-|:--:|:--:|
-| Tela Inicial | Tela de Progresso |
 
 ## Uso
 
