@@ -12,11 +12,11 @@ Uma interface gráfica simples foi criada utilizando `tkinter` para facilitar a 
 
 ## Capturas de Tela
 
-| <img src="imgs/home.png" width="500px" alt="Tela Inicial"> | <img src="imgs/home2.png" width="500px" alt="Tela Inicial - 2"> |
-|:----------------------------------------------------------:|:------------------------------------------------------------:|
-|                          Home                              |                            Home 2                            |
-| <img src="imgs/home3.png" width="500px" alt="Tela Inicial - 3"> | <img src="imgs/home4.png" width="500px" alt="Tela Inicial - 4"> |
-|                          Home 3                            |                            Home 4                            |
+| <img src="imgs/home.png" width="500px" alt="Tela Inicial"> | <img src="imgs/home2.png" width="500px" alt="Validação"> |
+|:----------------------------------------------------------:|:---------------------------------------------------------:|
+|                          Home                              |                        Validação                         |
+| <img src="imgs/home3.png" width="500px" alt="Download">    | <img src="imgs/home4.png" width="500px" alt="Download">  |
+|                        Download                            |                         Download                          |
 
 ## Pré-requisitos
 
