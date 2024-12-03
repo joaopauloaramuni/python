@@ -139,6 +139,12 @@ Para gerar o executável, siga os passos abaixo:
 
 Aproveite o seu gerador de imagens!
 
+## Documentação e Links úteis
+
+- [Documentação Oficial - Tkinter (Python)](https://docs.python.org/pt-br/3/library/tkinter.html)
+- [Tk Commands](https://tcl.tk/man/tcl8.6/TkCmd/contents.htm)
+- [TkDocs](https://tkdocs.com/)
+
 ## Licença
 
 Este projeto é de código aberto e está licenciado sob a MIT License. Sinta-se livre para usá-lo e modificá-lo conforme necessário.
