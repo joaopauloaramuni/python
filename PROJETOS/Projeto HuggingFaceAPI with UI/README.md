@@ -128,9 +128,12 @@ Para gerar o executável, siga os passos abaixo:
 3. Use o controle deslizante para ajustar a qualidade da compressão (quanto menor o valor, maior a compressão).
 4. Clique em "Comprimir Imagem" para salvar a imagem comprimida.
 
-## Documentação
+## Documentação e Links úteis
 - [Hugging Face Website](https://huggingface.co/)
 - [Link da documentação da API](https://huggingface.co/docs/api-inference/tasks/text-to-image?code=python#text-to-image)
+- [Documentação Oficial - Tkinter (Python)](https://docs.python.org/pt-br/3/library/tkinter.html)
+- [Tk Commands](https://tcl.tk/man/tcl8.6/TkCmd/contents.htm)
+- [TkDocs](https://tkdocs.com/)
 
 ## Considerações Finais
 
@@ -138,12 +141,6 @@ Para gerar o executável, siga os passos abaixo:
 - **Limites de Uso**: Fique atento ao uso da API, pois pode haver limites dependendo do seu plano na Hugging Face.
 
 Aproveite o seu gerador de imagens!
-
-## Documentação e Links úteis
-
-- [Documentação Oficial - Tkinter (Python)](https://docs.python.org/pt-br/3/library/tkinter.html)
-- [Tk Commands](https://tcl.tk/man/tcl8.6/TkCmd/contents.htm)
-- [TkDocs](https://tkdocs.com/)
 
 ## Licença
 
