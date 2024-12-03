@@ -37,8 +37,6 @@ pip install yt-dlp
 
 - **Windows**
 
-- Windows
-
   Para Windows, o processo é um pouco diferente:
 
   1. Acesse o [site oficial do FFmpeg](https://ffmpeg.org/download.html) e baixe a versão mais recente para Windows.
