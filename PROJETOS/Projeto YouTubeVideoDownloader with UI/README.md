@@ -87,6 +87,83 @@ Para vídeos em alta resolução, o YouTube geralmente armazena o vídeo e o áu
 
 Após a instalação, o `yt_dlp` deverá conseguir usar o `ffmpeg` automaticamente para combinar vídeo e áudio e gerar arquivos de alta qualidade.
 
+
+**tkinter**: Usado para criar a interface gráfica com o usuário.
+
+### Instalação no Linux/Ubuntu
+
+O Tkinter geralmente já vem instalado em distribuições Linux, mas, caso necessário, você pode instalar com:
+
+```bash
+sudo apt-get install python3-tk
+```
+
+### Instalação no Windows
+
+No Windows, o Tkinter já é incluído na instalação padrão do Python. Certifique-se de que o Python está corretamente instalado.
+
+### Recursos Essenciais para Tkinter
+
+Esta lista contém referências abrangentes para aprender, explorar e dominar o uso do **Tkinter**, uma biblioteca do Python para desenvolvimento de interfaces gráficas (GUIs).
+
+#### **1. Documentação Oficial do Tkinter (Python)**
+A documentação oficial do Python cobre todos os aspectos básicos e avançados do `tkinter`, com detalhes sobre widgets, métodos e exemplos práticos.
+
+##### **Características**:
+- Informações detalhadas sobre todos os widgets disponíveis.
+- Explicações sobre eventos, layouts e estilos.
+- Suporte a idiomas locais.
+
+**Link**: [Documentação Oficial - Tkinter (Python)](https://docs.python.org/pt-br/3/library/tkinter.html)
+
+---
+
+#### **2. TkDocs: Um Guia Moderno para Tkinter**
+O TkDocs é uma referência moderna para desenvolver GUIs com `tkinter`. O site fornece tutoriais, guias e práticas recomendadas.
+
+##### **Características**:
+- Abordagem prática e moderna para desenvolvimento com Tkinter.
+- Exemplos e projetos aplicados.
+- Tutoriais para iniciantes e desenvolvedores avançados.
+
+**Link**: [TkDocs](https://tkdocs.com/)
+
+---
+
+#### **3. Documentação do Tk (Tcl)**
+A documentação oficial do Tk fornece uma descrição técnica detalhada dos comandos do backend usado pelo `tkinter`. Este recurso é mais útil para desenvolvedores avançados que desejam entender as bases do Tkinter.
+
+##### **Características**:
+- Guia técnico de comandos e opções do Tk.
+- Referência completa de configurações e customizações.
+- Insights avançados para manipulação direta do Tk.
+
+**Link**: [Documentação Oficial do Tk](https://tcl.tk/man/tcl8.6/TkCmd/contents.htm)
+
+---
+
+#### **4. Cursos e Recursos Adicionais**
+Além das documentações oficiais, existem recursos adicionais que ajudam a aprofundar conhecimentos em `tkinter`:
+
+##### **Python Tkinter Tutorial (GeeksforGeeks)**
+- Uma introdução prática ao `tkinter`, com exemplos básicos e avançados.
+- **Link**: [GeeksforGeeks - Python Tkinter Tutorial](https://www.geeksforgeeks.org/python-tkinter-tutorial/)
+
+##### **Tutorial Tkinter (Real Python)**
+- Um guia interativo com exemplos práticos para construção de GUIs.
+- **Link**: [Real Python - Tkinter Tutorial](https://realpython.com/python-gui-tkinter/)
+
+---
+
+#### **5. Comunidade e Suporte**
+- **Stack Overflow**: Para dúvidas específicas e resolução de problemas em Tkinter.  
+  [Visitar Stack Overflow](https://stackoverflow.com/questions/tagged/tkinter)
+
+- **Reddit - r/learnpython**: Uma comunidade ativa para iniciantes e desenvolvedores avançados em Python.  
+  [Visitar Reddit r/learnpython](https://www.reddit.com/r/learnpython/)
+
+---
+
 ## Interface Gráfica
 
 A interface gráfica permite que o usuário insira o link do vídeo, visualize e inicie o download com um clique. Para usar, basta iniciar o programa e colar o link do YouTube no campo designado.
@@ -243,6 +320,9 @@ Para baixar vídeos de URLs diferentes, altere o valor da variável `url` no có
 - [Página inicial do FFmpeg](https://ffmpeg.org/ffmpeg.html)
 - [Documentação completa do FFmpeg](https://ffmpeg.org/documentation.html)
 - [Página de download do FFmpeg](https://ffmpeg.org/download.html)
+- [Documentação Oficial - Tkinter (Python)](https://docs.python.org/pt-br/3/library/tkinter.html)
+- [Tk Commands](https://tcl.tk/man/tcl8.6/TkCmd/contents.htm)
+- [TkDocs](https://tkdocs.com/)
 
 ## Licença
 
