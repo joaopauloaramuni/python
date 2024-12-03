@@ -111,8 +111,6 @@ O script está configurado para baixar o vídeo na URL especificada e salvá-lo 
 
 Abaixo está o código principal do projeto:
 
-Aqui está um trecho do código principal:
-
 ```python
 def download_video():
     url = url_entry.get()
