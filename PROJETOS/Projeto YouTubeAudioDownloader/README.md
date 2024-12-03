@@ -12,11 +12,38 @@ Este projeto requer a instalação das seguintes dependências:
 
 **yt_dlp**: Para gerenciar o download de áudios.
 
-[youtube-dl GitHub Repository](https://github.com/ytdl-org/youtube-dl)
-
 ```bash
 pip install yt-dlp
 ```
+
+O `yt_dlp` é uma ferramenta poderosa para baixar vídeos e áudios de várias plataformas, como YouTube, Vimeo, Twitch, entre outras. Ele é uma ramificação aprimorada do `youtube-dl`, com maior suporte e novas funcionalidades.
+
+### Principais funcionalidades do `yt_dlp`:
+
+- Download de alta qualidade: Escolha o melhor formato disponível para vídeo ou áudio.
+- Suporte a várias plataformas: Compatível com centenas de sites de streaming e redes sociais.
+- Filtragem de formatos: Permite selecionar apenas áudio, apenas vídeo ou combinações específicas.
+- Customização: Oferece muitas opções de configuração para personalizar o download.
+- Integração com FFmpeg: Realiza conversões e edições avançadas de áudio e vídeo.
+
+### Exemplo de uso básico:
+
+Baixando apenas o áudio de um vídeo:
+
+    yt-dlp -x --audio-format mp3 https://www.youtube.com/watch?v=EXEMPLO
+
+- `-x`: Extrai apenas o áudio.
+- `--audio-format mp3`: Converte o áudio para o formato MP3.
+
+Baixando o melhor formato de vídeo e áudio:
+
+    yt-dlp -f best https://www.youtube.com/watch?v=EXEMPLO
+
+- `-f best`: Seleciona o melhor formato disponível.
+
+Para mais opções, consulte a documentação oficial: https://github.com/yt-dlp/yt-dlp.
+
+---
 
 **FFmpeg**: Necessário para realizar a conversão e manipulação de arquivos de áudio.
 
@@ -49,6 +76,41 @@ pip install yt-dlp
      ```bash
      ffmpeg -version
      ```
+
+O FFmpeg é uma ferramenta robusta para processar arquivos de multimídia. Ele é amplamente utilizado para converter, editar, e manipular vídeos e áudios em diversos formatos.
+
+### Principais funcionalidades do `FFmpeg`:
+
+- Conversão de formatos: Transforme arquivos para praticamente qualquer formato de áudio e vídeo.
+- Edição de arquivos: Corte, junte, ou aplique filtros em arquivos multimídia.
+- Extração de áudio: Extraia áudio de vídeos ou remova faixas específicas.
+- Configuração de qualidade: Permite ajustar taxas de bits, resolução e outros parâmetros.
+
+### Exemplo de uso básico:
+
+Converter um arquivo para MP3:
+
+  ```bash
+  ffmpeg -i input.mp4 -q:a 0 output.mp3
+  ```
+
+- `-i input.mp4`: Especifica o arquivo de entrada.
+- `-q:a 0`: Define a qualidade do áudio (0 é a melhor qualidade).
+- `output.mp3`: Especifica o nome do arquivo de saída.
+
+Cortar um trecho de um vídeo (exemplo dos primeiros 30 segundos):
+
+  ```bash
+  ffmpeg -i input.mp4 -ss 00:00:00 -t 00:00:30 -c copy output.mp4
+  ```
+
+- `-ss 00:00:00`: Define o ponto inicial (neste caso, o início do vídeo).
+- `-t 00:00:30`: Define a duração do clipe.
+- `-c copy`: Copia os fluxos sem reprocessamento.
+
+Para mais detalhes, visite o site oficial do FFmpeg: https://ffmpeg.org.
+
+---
 
 ## Configurações de qualidade do áudio
 
