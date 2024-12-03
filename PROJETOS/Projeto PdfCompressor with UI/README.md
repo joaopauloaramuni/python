@@ -164,7 +164,7 @@ Com essas configurações, o Ghostscript processa o PDF para reduzir o tamanho a
 
 ---
 
-## Documentação e links úteis
+## Documentação e Links úteis
 
 - [Documentação Oficial - Tkinter (Python)](https://docs.python.org/pt-br/3/library/tkinter.html)
 - [Tk Commands](https://tcl.tk/man/tcl8.6/TkCmd/contents.htm)
