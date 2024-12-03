@@ -12,15 +12,11 @@ Uma interface gráfica simples foi criada utilizando `tkinter` para facilitar a 
 
 ## Capturas de Tela
 
-## Capturas de Tela
-
 | <img src="imgs/home.png" width="500px" alt="Tela Inicial"> | <img src="imgs/home2.png" width="500px" alt="Tela Inicial - 2"> |
-|:----:|:------:|
-| Home | Home 2 |
-|:----:|:------:|
+|:----------------------------------------------------------:|:------------------------------------------------------------:|
+|                          Home                              |                            Home 2                            |
 | <img src="imgs/home3.png" width="500px" alt="Tela Inicial - 3"> | <img src="imgs/home4.png" width="500px" alt="Tela Inicial - 4"> |
-|:------:|:------:|
-| Home 3 | Home 4 |
+|                          Home 3                            |                            Home 4                            |
 
 ## Pré-requisitos
 
@@ -194,10 +190,6 @@ Além das documentações oficiais, existem recursos adicionais que ajudam a apr
 ##### **Tutorial Tkinter (Real Python)**
 - Um guia interativo com exemplos práticos para construção de GUIs.
 - **Link**: [Real Python - Tkinter Tutorial](https://realpython.com/python-gui-tkinter/)
-
-##### **Python GUI Programming with Tkinter (Programiz)**
-- Tutoriais e projetos básicos para explorar o potencial do `tkinter`.
-- **Link**: [Programiz - Python GUI Programming](https://www.programiz.com/python-programming/examples/gui-tkinter)
 
 #### **5. Comunidade e Suporte**
 - **Stack Overflow**: Para dúvidas específicas e resolução de problemas em Tkinter.  
