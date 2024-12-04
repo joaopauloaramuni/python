@@ -49,6 +49,7 @@ def create_interface(start_download):
 
     # Estilo para a barra de progresso
     style = Style()
+    style.theme_use("clam")
     style.configure(
         "Custom.Horizontal.TProgressbar",
         thickness=20,
