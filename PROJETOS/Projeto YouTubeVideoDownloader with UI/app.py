@@ -1,23 +1,37 @@
-# app.py
 from yt_dlp import YoutubeDL
 from tkinter import messagebox
 import threading
 from interface import create_interface
 
-# Configuração de opções de download do YouTube
+# Configurações de download
 ydl_opts = {
-    "format": "bestvideo[height<=1080]+bestaudio/best",
-    "outtmpl": "YoutubeVideoDownloader/videos/%(title)s.%(ext)s",
-    "merge_output_format": "mp4",
+    "format": "bestvideo[height<=1080]+bestaudio/best",  # Prioriza 1080p, caindo para a melhor disponível
+    "outtmpl": "videos/%(title)s.%(ext)s",  # Salva o vídeo com o título original
+    "merge_output_format": "mp4",  # Garante que o vídeo e áudio estejam em MP4
 }
 
-
 def download_video(url, update_progress, reset_ui):
-    """Função para fazer o download do vídeo em uma thread."""
+
     try:
+
+        def progress_hook(d):
+            if d["status"] == "downloading":
+                total_bytes = d.get("total_bytes", 0) or d.get(
+                    "total_bytes_estimate", 0
+                )
+                downloaded_bytes = d.get("downloaded_bytes", 0)
+
+                if total_bytes > 0:
+                    percent = (downloaded_bytes / total_bytes) * 100
+                    update_progress(percent, f"{percent:.2f}%")
+            elif d["status"] == "finished":
+                update_progress(100, "100%")
+
+        # Adiciona o hook de progresso dinamicamente às opções
+        ydl_opts["progress_hooks"] = [progress_hook]
+
         with YoutubeDL(ydl_opts) as ydl:
             info = ydl.extract_info(url, download=True)
-            update_progress(100, "100%")
             messagebox.showinfo(
                 "Sucesso", f"Download concluído!\nTítulo: {info.get('title')}"
             )
@@ -28,9 +42,9 @@ def download_video(url, update_progress, reset_ui):
 
 
 def start_download(url, update_progress, reset_ui):
-    """Inicia o download em uma nova thread."""
+
     threading.Thread(
-        target=download_video, args=(url, update_progress, reset_ui)
+        target=download_video, args=(url, update_progress, reset_ui), daemon=True 
     ).start()
 
 
