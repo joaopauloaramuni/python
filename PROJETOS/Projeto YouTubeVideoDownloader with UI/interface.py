@@ -34,7 +34,7 @@ def create_interface(start_download):
     def reset_ui():
         download_button.config(text="Baixar Vídeo", state=tk.NORMAL)
         status_label.config(
-            text="Status: Aguardando download...",
+            text="Status: Aguardando...",
             fg=fg_color,
         )
         video_label.config(text="Aguardando URL...", fg="#666666")
@@ -95,7 +95,7 @@ def create_interface(start_download):
     # Status e progresso
     status_label = tk.Label(
         window,
-        text="Status: Aguardando download...",
+        text="Status: Aguardando...",
         bg=bg_color,
         fg=fg_color,
         font=("Arial", 12),
