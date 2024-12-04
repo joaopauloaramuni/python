@@ -11,9 +11,9 @@ A interface gráfica permite que o usuário insira o link do vídeo, visualize e
 - **Tela Inicial**: Campo para inserir o link do vídeo e botão de download.
 - **Tela de Progresso**: Exibe o progresso do download.
 
-| ![Tela Inicial](imgs/home.png) | ![Tela de Progresso](imgs/home2.png) |
-|:-----------------------------:|:-----------------------------------:|
-|          Tela Inicial         |        Tela de Progresso           |
+| ![Tela Inicial](imgs/home1.png)            | ![Tela de Progresso](imgs/home2.png)      |
+|:------------------------------------------:|:-----------------------------------------:|
+|               **Tela Inicial**             |            **Tela de Progresso**          |
 
 ## Pré-requisitos
 
