@@ -28,21 +28,52 @@ https://play.kahoot.it/rest/kahoots/a5fba24d-e7e4-4cf2-8933-efc056232ba4
   "title": "AEDS 1 - Parte 2",
   "description": "",
   "quizType": "quiz",
+  "cover": "",
+  "lobby_video": {
+    "youtube": {
+      "id": "",
+      "startTime": 0,
+      "endTime": 0,
+      "service": "youtube",
+      "fullUrl": ""
+    }
+  },
   "questions": [
     {
       "type": "quiz",
-      "question": "Nesse tipo de tradução de código, é gerado um arquivo de baixo nível:",
+      "question": "\u003Cb\u003ENesse tipo de tradução de código, é gerado um arquivo de baixo nível:\u003C/b\u003E",
       "time": 20000,
+      "points": true,
+      "pointsMultiplier": 1,
       "choices": [
-        { "answer": "Interpretação", "correct": false },
-        { "answer": "Compilação híbrida", "correct": false },
-        { "answer": "Compilação", "correct": true },
-        { "answer": "Máquina virtual", "correct": false }
-      ]
-    }
-  ]
-}
-...
+        {
+          "answer": "Interpretação",
+          "correct": false
+        },
+        {
+          "answer": "Compilação híbrida",
+          "correct": false
+        },
+        {
+          "answer": "Compilação",
+          "correct": true
+        },
+        {
+          "answer": "Máquina virtual",
+          "correct": false
+        }
+      ],
+      "layout": "CLASSIC",
+      "resources": "",
+      "video": {
+        "startTime": 0,
+        "endTime": 0,
+        "service": "youtube",
+        "fullUrl": ""
+      },
+      "questionFormat": 0,
+      "media": []
+    },
 ```
 
 ### Exemplo de URL do jogo
@@ -68,7 +99,7 @@ O `quizId` é a única informação permanente referente ao quiz que você preci
 |:-------------------------------------------------------------:|
 |                            Kahoot                             |
 
-- **Visibilidade**: "Público" é a visibilidade padrão do Kahoot (para sua sorte):
+- **Visibilidade**: "Público" é a visibilidade padrão do Kahoot (para nossa sorte):
 
 | <img src="imgs/visibilidade.png" alt="Visibilidade" width="1000"/> |
 |:------------------------------------------------------------------:|
