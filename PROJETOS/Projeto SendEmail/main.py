@@ -50,7 +50,7 @@ def main():
     email, senha = carregar_credenciais()
 
     # Configurações do e-mail
-    destinatario = "joaopauloaramuni@gmail.com"
+    destinatario = "destinatario@gmail.com"
     assunto = "Teste de envio de e-mail."
     corpo = "Olá, este é um e-mail enviado usando Python."
 
