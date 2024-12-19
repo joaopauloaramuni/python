@@ -22,7 +22,7 @@
 
 - <a href="https://betrybe.com/programacao/curso-python-desenvolvimento-web" target="_blank">Trybe - Formação Python para Dev Web</a>
 
-- <a href="https://asimov.academy/" target="_blank">Asimov Academy</a>
+- <a href="https://asimov.academy/" target="_blank">Asimov Academy - A maior escola de programação em Python</a>
 
 -----
 
