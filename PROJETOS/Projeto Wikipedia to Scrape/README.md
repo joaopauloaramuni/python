@@ -1,4 +1,3 @@
-
 # Wikipedia Spider
 
 Este projeto é um spider simples feito com Scrapy para coletar dados da página da Wikipedia sobre Python. O spider extrai o título da página e o texto dos parágrafos, salvando todos os dados em um arquivo JSON.
