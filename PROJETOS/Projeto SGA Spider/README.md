@@ -30,7 +30,7 @@ Este projeto é uma aplicação Python que automatiza a consulta do número máx
 - **Cálculo Automático**:
   - Soma as notas de cada disciplina, facilitando a visualização do desempenho total.
 - **Exportação**:
-  - Gera um arquivo `faltas.json` com informações de frequência e notas.
+  - Gera um arquivo `faltas.json` e um arquivo `notas.json` com informações de frequência e notas.
 
 ## Requisitos
 
