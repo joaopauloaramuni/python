@@ -6,6 +6,11 @@
 
 # Repo Python
 
+## Sumário:
+- [Aulas em PDF](https://github.com/joaopauloaramuni/python/tree/main/PDF)
+- [Projetos](https://github.com/joaopauloaramuni/python/tree/main/PROJETOS)
+- [Desafios](https://github.com/joaopauloaramuni/python/tree/main/DESAFIOS)
+
 ## Cursos sugeridos
 - [Trybe - Formação Python para Dev Web](https://betrybe.com/programacao/curso-python-desenvolvimento-web)  
 - [Asimov Academy - A maior escola de programação em Python](https://asimov.academy/)
