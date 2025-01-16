@@ -20,37 +20,39 @@
 
 # Repo Python
 
-- <a href="https://betrybe.com/programacao/curso-python-desenvolvimento-web" target="_blank">Trybe - Formação Python para Dev Web</a>
-
-- <a href="https://asimov.academy/" target="_blank">Asimov Academy - A maior escola de programação em Python</a>
+## Cursos sugeridos
+- [Trybe - Formação Python para Dev Web](https://betrybe.com/programacao/curso-python-desenvolvimento-web)  
+- [Asimov Academy - A maior escola de programação em Python](https://asimov.academy/)
 
 -----
 
-https://www.jetbrains.com/pt-br/pycharm/
-<br>https://docs.python.org/3/
-<br>https://www.amazon.com.br/Python-Fluente-Programação-Concisa-Eficaz/dp/857522462X
-<br>https://www.amazon.com.br/Pense-Python-Como-Cientista-Computação/dp/8575225081
-<br>https://www.amazon.com.br/Python-Essential-Reference-David-Beazley-dp-0134173279/dp/0134173279
-<br>https://www.amazon.com.br/Web-Scraping-Com-Python-Coletando/dp/8575227300
-<br>https://pythontutor.com/python-compiler.html
+## Links úteis
+- [PyCharm - IDE da JetBrains](https://www.jetbrains.com/pt-br/pycharm/)  
+- [Documentação Oficial do Python](https://docs.python.org/3/)  
+- [Livro: Python Fluente - Programação Concisa e Eficaz](https://www.amazon.com.br/Python-Fluente-Programação-Concisa-Eficaz/dp/857522462X)  
+- [Livro: Pense em Python - Como um Cientista da Computação](https://www.amazon.com.br/Pense-Python-Como-Cientista-Computação/dp/8575225081)  
+- [Livro: Python Essential Reference (David Beazley)](https://www.amazon.com.br/Python-Essential-Reference-David-Beazley-dp-0134173279/dp/0134173279)  
+- [Livro: Web Scraping com Python - Coletando Dados da Web](https://www.amazon.com.br/Web-Scraping-Com-Python-Coletando/dp/8575227300)  
+- [Python Tutor - Visualizador de Código Python](https://pythontutor.com/python-compiler.html)
 
-**To scrape:**
+### To scrape
+- [Scrapy](https://scrapy.org/)  
+- [Quotes to Scrape](http://quotes.toscrape.com/)  
+- [Books to Scrape](http://books.toscrape.com/)  
+- [Beautiful Soup 4 no PyPI](https://pypi.org/project/beautifulsoup4/)  
+- [Documentação Beautiful Soup 4](https://beautiful-soup-4.readthedocs.io/en/latest/)  
+- [lxml no PyPI](https://pypi.org/project/lxml/)  
+- [Documentação lxml](https://lxml.de/)
 
-https://scrapy.org/
-<br>http://quotes.toscrape.com/
-<br>http://books.toscrape.com/
-<br>https://pypi.org/project/beautifulsoup4/
-<br>https://beautiful-soup-4.readthedocs.io/en/latest/
-<br>https://pypi.org/project/lxml/
-<br>https://lxml.de/
+## Comandos
 
-**Comandos:**
-
+```python
 python3 -m venv .venv
-<br>source .venv/bin/activate
-<br>pip3 install scrapy
-<br>python3 quotes.py (ou scrapy startproject quotes_scrapy e em seguida scrapy crawl quotes -o quotes.json)
-<br>Opcional: pip3 install beautifulsoup4 lxml
+source .venv/bin/activate
+pip3 install scrapy
+python3 quotes.py (ou scrapy startproject quotes_scrapy e em seguida scrapy crawl quotes -o quotes.json)
+Opcional: pip3 install beautifulsoup4 lxml
+```
 
 **Spiders para crawlers:**
 
