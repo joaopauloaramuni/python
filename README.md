@@ -16,8 +16,6 @@
 - [Trybe - Formação Python para Dev Web](https://betrybe.com/programacao/curso-python-desenvolvimento-web)  
 - [Asimov Academy - A maior escola de programação em Python](https://asimov.academy/)
 
------
-
 ## Links úteis
 - [PyCharm - IDE da JetBrains](https://www.jetbrains.com/pt-br/pycharm/)  
 - [Documentação Oficial do Python](https://docs.python.org/3/)  
@@ -46,6 +44,8 @@ python3 quotes.py (ou scrapy startproject quotes_scrapy e em seguida scrapy craw
 # Opcional:
 pip3 install beautifulsoup4 lxml
 ```
+
+-----
 
 ## Spiders para crawlers
 
@@ -1005,3 +1005,5 @@ def print_pucminas150():
     print("""                                                                                                                                            """, flush=True)
     print("************************************************************************************************************************************************", flush=True)   
 ```
+
+-----
