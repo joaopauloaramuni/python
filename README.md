@@ -40,7 +40,7 @@
 python3 -m venv .venv
 source .venv/bin/activate
 pip3 install scrapy
-python3 quotes.py (ou scrapy startproject quotes_scrapy e em seguida scrapy crawl quotes -o quotes.json)
+python3 quotes.py # (ou scrapy startproject quotes_scrapy e em seguida scrapy crawl quotes -o quotes.json)
 # Opcional:
 pip3 install beautifulsoup4 lxml
 ```
