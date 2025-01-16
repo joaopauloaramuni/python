@@ -8,6 +8,7 @@
 
 ## Sumário:
 - [Aulas em PDF](https://github.com/joaopauloaramuni/python/tree/main/PDF)
+- [Exercícios](https://github.com/joaopauloaramuni/python/tree/main/EXERCICIOS)
 - [Projetos](https://github.com/joaopauloaramuni/python/tree/main/PROJETOS)
 - [Desafios](https://github.com/joaopauloaramuni/python/tree/main/DESAFIOS)
 
