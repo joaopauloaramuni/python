@@ -32,13 +32,13 @@ def comprimir_imagem_png(caminho_imagem):
         return f"Erro: {e}"
 
 
-# Função para comprimir a imagem WebP sem alterar a extensão
+# Função para comprimir a imagem WebP
 def comprimir_imagem_webp(caminho_imagem, qualidade):
     try:
         img = Image.open(caminho_imagem)
         caminho_comprimido = os.path.join(
             os.path.dirname(caminho_imagem),
-            "comprimido_" + os.path.basename(caminho_imagem),  # Mantém a extensão original
+            "comprimido_" + os.path.basename(caminho_imagem),
         )
         img.save(caminho_comprimido, "WEBP", quality=qualidade, optimize=True)
         return caminho_comprimido
