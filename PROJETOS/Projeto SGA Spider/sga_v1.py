@@ -90,6 +90,7 @@ class FaltasSpider:
                 tds = primeira_tr.find_all('td')
                 valores = [td.get_text(strip=True).replace('\n', ' ') for td in tds]
                 print(f"Tabela {idx} - Valores encontrados na primeira linha: {valores}")
+                materias.append(valores)
  
         with open('faltas.json', 'w', encoding='utf-8') as f:
             json.dump(materias, f, ensure_ascii=False, indent=4)
