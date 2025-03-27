@@ -38,10 +38,11 @@ Este projeto é uma aplicação Python que automatiza a consulta do número máx
 - Bibliotecas necessárias:
   - `requests`
   - `beautifulsoup4`
+  - `lxml`
   
 Você pode instalar as dependências com o comando:
 ```bash
-pip install requests beautifulsoup4
+pip install requests beautifulsoup4 lxml
 ```
 
 ## Como utilizar
