@@ -133,8 +133,6 @@ class FaltasSpider:
             # Avançar para o próximo grupo de 4 células
             i += 4
         
-        
-        
         # Salvando faltas em faltas.json
         with open('faltas.json', 'w', encoding='utf-8') as f:
             json.dump(materias_faltas, f, ensure_ascii=False, indent=4)
