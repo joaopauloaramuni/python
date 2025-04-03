@@ -133,31 +133,6 @@ class FaltasSpider:
             # Avançar para o próximo grupo de 4 células
             i += 4
         
-        # Se não encontramos notas, vamos tentar um método alternativo
-        if not notas:
-            print("Tentando método alternativo para extrair notas...")
-            
-            # Encontrar linhas que podem conter as notas
-            trs_with_notas = soup.find_all('tr')
-            for tr in trs_with_notas:
-                # Verificar se há células com classe totalizador nesta linha
-                tds = tr.find_all('td', class_='smc-grid-totalizador')
-                if len(tds) >= 4:
-                    valores = [td.get_text(strip=True).replace('\n', ' ') for td in tds[:4]]
-                    
-                    # Criar chave única
-                    nota_key = '|'.join(valores)
-                    
-                    if nota_key not in notas_processadas and nota_key.strip():
-                        nota = {
-                            "data": valores[0],
-                            "descricao": valores[1],
-                            "valor_maximo": valores[2],
-                            "valor_obtido": valores[3]
-                        }
-                        notas.append(nota)
-                        notas_processadas.add(nota_key)
-        
         
         
         # Salvando faltas em faltas.json
