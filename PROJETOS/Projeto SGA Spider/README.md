@@ -8,7 +8,7 @@ Este projeto está na sua versão inicial (v1) e realiza uma raspagem de dados p
 |:--------------------------------------------:|
 | **Sistema de Gestão Acadêmica (SGA)** |
 
-## Como Funcionará (v2 em construção)
+## Como funciona
 
 Este projeto é uma aplicação Python que automatiza a consulta do número máximo de faltas possíveis e realiza o somatório das notas por disciplina para estudantes de graduação da PUC Minas. Ele utiliza web scraping para acessar o SGA e processar as informações de frequência e notas.
 
@@ -21,7 +21,7 @@ Este projeto é uma aplicação Python que automatiza a consulta do número máx
 - **Exportação**:
   - Gera um arquivo `faltas.json` com informações de frequência.
 
-## Funcionalidades da versão 2 (em construção)
+## Funcionalidades da versão 2
 
 - **Login Automático**: Realiza login no portal do estudante da PUC Minas.
 - **Extração de Dados**:
