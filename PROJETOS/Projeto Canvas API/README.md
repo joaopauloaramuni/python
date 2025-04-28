@@ -218,6 +218,10 @@ Para executar este projeto, é necessário instalar as dependências. Siga os pa
    pip install canvasapi pytz google-auth google-auth-oauthlib google-auth-httplib2 google-api-python-client
    ```
 
+## Observações
+- Quando uma tarefa é atribuída pelo professor a um section group específico, a API do Canvas pode retornar o campo `assignment.due_at` como `None`.
+- Quando a tarefa é atribuída ao grupo "Todos os demais", o campo `assignment.due_at` geralmente vem preenchido com a data de entrega.
+
 ## Documentação e Links Úteis
 
 - [CanvasAPI no GitHub](https://github.com/ucfopen/canvasapi)
