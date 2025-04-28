@@ -114,7 +114,8 @@ Para usar a API do Google Calendar, você precisa configurar um projeto no Googl
    - No painel "APIs e Serviços" > "Credenciais", clique em "Criar Credenciais".
    - Selecione "ID do Cliente OAuth" e escolha o tipo "Aplicativo da Web".
    - Configure o `localhost:8080` como o URI de redirecionamento (ver abaixo).
-   - Após criar as credenciais, baixe o arquivo `credentials.json`.
+   - Após criar as credenciais, baixe o arquivo `client_secret_255194037713-k9launmh82t4ej15f21i1vfkb97k5knq.apps.googleusercontent.com.json` (o nome do arquivo pode variar, mas será algo semelhante a isso).
+   - Renomeie o arquivo baixado para `credentials.json` e coloque-o na mesma pasta onde está o seu código Python.
 
 #### 2. **Arquivo `credentials.json`**
 
