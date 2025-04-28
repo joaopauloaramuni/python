@@ -60,6 +60,10 @@ Evento criado: https://www.google.com/calendar/event?eid=MGMwM21haGdudHN0Z2dncnR
 ******************************************************************************************************************************************************
 ```
 
+## Captura de Tela
+
+| <img src="imgs/calendar.png" alt="Google Calendar" width="600"/> |
+
 ## Como gerar o Token de Acesso no Canvas
 
 1. **Acesse o Canvas**:
