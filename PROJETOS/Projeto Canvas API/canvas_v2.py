@@ -127,3 +127,8 @@ if __name__ == "__main__":
 # https://canvasapi.readthedocs.io/en/stable/examples.html#courses
 # https://canvasapi.readthedocs.io/en/stable/examples.html#assignments
 # https://canvas.instructure.com/doc/api/index.html
+# https://developers.google.com/workspace/calendar?hl=pt-br
+# https://pypi.org/project/google-auth/
+# https://pypi.org/project/google-auth-oauthlib/
+# https://pypi.org/project/google-auth-httplib2/
+# https://pypi.org/project/google-api-python-client/
