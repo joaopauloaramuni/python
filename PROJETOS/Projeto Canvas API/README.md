@@ -60,7 +60,7 @@ Evento criado: https://www.google.com/calendar/event?eid=MGMwM21haGdudHN0Z2dncnR
 ******************************************************************************************************************************************************
 ```
 
-## Como Gerar o Token de Acesso no Canvas
+## Como gerar o Token de Acesso no Canvas
 
 1. **Acesse o Canvas**:
    - Abra o navegador e vá para a URL do Canvas da sua instituição: [https://pucminas.instructure.com](https://pucminas.instructure.com).
@@ -92,13 +92,13 @@ Evento criado: https://www.google.com/calendar/event?eid=MGMwM21haGdudHN0Z2dncnR
    API_KEY = "seu_token_gerado_aqui"
    ```
 
-# Integração com Google Calendar e Configuração da API
+## Integração com Google Calendar e Configuração da API
 
 Este projeto utiliza a API do Google Calendar para criar lembretes de tarefas do Canvas. Para realizar a autenticação e a interação com o Google Calendar, utilizamos o OAuth 2.0, o que envolve a utilização de dois arquivos essenciais: `credentials.json` e `token.json`. Além disso, o código faz uso de um servidor local (`localhost:8080`) durante o processo de autenticação.
 
-## Passos para configuração e funcionamento
+### Passos para configuração e funcionamento
 
-### 1. **Google Cloud Console**
+#### 1. **Google Cloud Console**
 
 Para usar a API do Google Calendar, você precisa configurar um projeto no Google Cloud Console e gerar as credenciais necessárias. Aqui estão os passos para isso:
 
@@ -116,14 +116,14 @@ Para usar a API do Google Calendar, você precisa configurar um projeto no Googl
    - Configure o `localhost:8080` como o URI de redirecionamento (ver abaixo).
    - Após criar as credenciais, baixe o arquivo `credentials.json`.
 
-### 2. **Arquivo `credentials.json`**
+#### 2. **Arquivo `credentials.json`**
 
 O arquivo `credentials.json` contém as credenciais necessárias para autenticar o usuário e permitir o acesso à API do Google Calendar. Esse arquivo inclui informações como o `client_id`, `client_secret` e outros detalhes que são necessários para o processo de OAuth 2.0.
 
 - **Onde encontrar**: Você pode obter o `credentials.json` ao seguir os passos no Google Cloud Console, conforme descrito acima.
 - **Onde armazenar**: Coloque o arquivo `credentials.json` no mesmo diretório onde seu script Python está localizado.
 
-### 3. **Processo de Autenticação e o Arquivo `token.json`**
+#### 3. **Processo de Autenticação e o Arquivo `token.json`**
 
 Ao executar o script pela primeira vez, será necessário autenticar sua conta Google. O OAuth 2.0 solicita que o usuário faça login e forneça permissão ao aplicativo para acessar seu Google Calendar.
 
@@ -132,13 +132,13 @@ Ao executar o script pela primeira vez, será necessário autenticar sua conta G
 
 O arquivo `token.json` será criado automaticamente na primeira execução e armazenará os detalhes de autenticação, como o `access_token`, `refresh_token` e o tempo de expiração.
 
-### 4. **Localhost e o Redirecionamento para o Navegador**
+#### 4. **Localhost e o Redirecionamento para o Navegador**
 
 Durante o processo de autenticação, o script utiliza o `localhost:8080` como um servidor local para receber a resposta de autorização do Google. Quando você autoriza a aplicação, o Google redireciona para esse endereço com um código de autorização, que o script usa para obter o token de acesso.
 
 - **Por que `localhost:8080`**: O URI de redirecionamento configurado no Google Cloud Console é `http://localhost:8080/`. O servidor local garante que o código de autorização seja recebido corretamente e que o processo de autenticação seja concluído.
 
-### 5. **Fluxo de Autenticação**
+#### 5. **Fluxo de Autenticação**
 
 Aqui está o fluxo simplificado de autenticação:
 
@@ -147,7 +147,7 @@ Aqui está o fluxo simplificado de autenticação:
 3. O usuário acessa o link, autoriza o acesso à conta do Google e é redirecionado de volta ao servidor local.
 4. O código de autorização recebido é trocado por um `access_token` e um `refresh_token`, que são salvos em `token.json`.
 
-## Resumo
+### Resumo
 
 - **`credentials.json`**: Contém as credenciais de cliente OAuth 2.0 que permitem que o script acesse a API do Google Calendar em nome do usuário.
 - **`token.json`**: Contém o token de acesso (e refresh token) que autoriza o acesso à API, evitando a necessidade de autenticação repetida.
