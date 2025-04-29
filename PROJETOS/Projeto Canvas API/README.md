@@ -60,17 +60,23 @@ Evento criado: https://www.google.com/calendar/event?eid=MGMwM21haGdudHN0Z2dncnR
 ******************************************************************************************************************************************************
 ```
 
+### :octocat: Versão 3
+
+| <img src="imgs/tkinter.png" alt="Tkinter" width="1000"/> |
+|:------:|
+| Tkinter |
+
 ## 🖼️ Capturas de Tela
 
-| <img src="imgs/canvas.png" alt="Canvas" width="800"/> |
+| <img src="imgs/canvas.png" alt="Canvas" width="1000"/> |
 |:------:|
 | Canvas |
 
-| <img src="imgs/cloud.png" alt="Google Cloud" width="800"/> |
+| <img src="imgs/cloud.png" alt="Google Cloud" width="1000"/> |
 |:------------:|
 | Google Cloud |
 
-| <img src="imgs/calendar.png" alt="Google Calendar" width="800"/> |
+| <img src="imgs/calendar.png" alt="Google Calendar" width="1000"/> |
 |:---------------:|
 | Google Calendar |
 
