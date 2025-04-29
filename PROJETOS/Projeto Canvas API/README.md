@@ -218,6 +218,60 @@ Para executar este projeto, é necessário instalar as dependências. Siga os pa
    pip install canvasapi pytz google-auth google-auth-oauthlib google-auth-httplib2 google-api-python-client
    ```
 
+# 🗓️ Estrutura do evento no Google Calendar com API Python
+
+Abaixo a estrutura usada para criar eventos no Google Calendar com a biblioteca `google-api-python-client`.
+
+```python
+evento = {
+    'summary': nome_tarefa,
+    'description': f'Lembrete da entrega: {nome_tarefa}',
+    'start': {
+        'dateTime': start_datetime.isoformat(),
+        'timeZone': 'America/Sao_Paulo',
+    },
+    'end': {
+        'dateTime': end_datetime.isoformat(),
+        'timeZone': 'America/Sao_Paulo',
+    },
+    'reminders': {
+        'useDefault': False,
+        'overrides': [
+            {'method': 'popup', 'minutes': 60},     # Notificação pop-up 1h antes
+            {'method': 'email', 'minutes': 1440},   # E-mail 1 dia antes
+        ],
+    },
+    'colorId': '10',  # Cor verde no Google Calendar
+}
+```
+
+## 🔍 Explicação de cada campo
+
+| Campo         | Tipo        | Descrição |
+|---------------|-------------|-----------|
+| `summary`     | `str`       | Título do evento — geralmente o nome da tarefa. |
+| `description` | `str`       | Detalhes adicionais sobre a tarefa ou evento. |
+| `start`       | `dict`      | Início do evento. Deve incluir `dateTime` no formato ISO 8601 e o `timeZone`. |
+| `end`         | `dict`      | Fim do evento. Mesmo formato do campo `start`. |
+| `reminders`   | `dict`      | Configura lembretes personalizados: `popup` 1h antes, `email` 1 dia antes. |
+| `colorId`     | `str`       | Cor do evento (neste exemplo, verde). Ex: `'1'` azul, `'10'` verde, `'11'` vermelho. |
+
+---
+
+## 🎨 Códigos de Cor do Google Calendar
+
+| Cor         | ID  |
+|-------------|-----|
+| Azul        | 1   |
+| Roxo        | 3   |
+| Verde       | 10  |
+| Vermelho    | 11  |
+| Amarelo     | 5   |
+| Laranja     | 6   |
+| Rosa        | 9   |
+
+---
+
 ## Observações
 - Quando uma tarefa é atribuída pelo professor a um section group específico, a API do Canvas pode retornar o campo `assignment.due_at` como `None`.
 - Quando a tarefa é atribuída ao grupo "Todos os demais", o campo `assignment.due_at` geralmente vem preenchido com a data de entrega.
