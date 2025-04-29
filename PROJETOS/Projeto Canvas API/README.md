@@ -1,6 +1,6 @@
 # Projeto Canvas API - Listagem de Tarefas e Integração com o Google Calendar
 
-## Descrição
+## 📄 Descrição
 Este projeto utiliza a API do Canvas para recuperar informações sobre os cursos e as tarefas associadas ao usuário autenticado. O script exibe o nome do curso, o ID, e a lista de tarefas com suas respectivas datas de entrega, formatadas no fuso horário de São Paulo (UTC-3).
 
 Além disso, o código integra-se ao Google Calendar, criando automaticamente lembretes para cada tarefa com data de entrega definida. Os lembretes são criados com base na data e hora de entrega das tarefas, com uma duração de 30 minutos.
@@ -60,7 +60,7 @@ Evento criado: https://www.google.com/calendar/event?eid=MGMwM21haGdudHN0Z2dncnR
 ******************************************************************************************************************************************************
 ```
 
-## Capturas de Tela
+## 🖼️ Capturas de Tela
 
 | <img src="imgs/canvas.png" alt="Canvas" width="800"/> |
 |:------:|
@@ -74,7 +74,7 @@ Evento criado: https://www.google.com/calendar/event?eid=MGMwM21haGdudHN0Z2dncnR
 |:---------------:|
 | Google Calendar |
 
-## Como gerar o Token de Acesso no Canvas
+## 🛡️ Como gerar o Token de Acesso no Canvas
 
 1. **Acesse o Canvas**:
    - Abra o navegador e vá para a URL do Canvas da sua instituição: [https://pucminas.instructure.com](https://pucminas.instructure.com).
@@ -170,7 +170,7 @@ Aqui está o fluxo simplificado de autenticação:
 
 Esse processo garante que a interação com o Google Calendar seja segura e eficiente, utilizando OAuth 2.0 para autenticação e autorização.
 
-## Dependências
+## 📦 Dependências
 
 - [CanvasAPI](https://pypi.org/project/canvasapi/): Biblioteca Python para acessar a API do Canvas LMS da Instructure. Esta biblioteca facilita a interação com o sistema Canvas, permitindo que desenvolvedores gerenciem programaticamente cursos, usuários, notas, tarefas e muito mais. O CanvasAPI foi criado e é mantido pela Universidade da Flórida Central (University of Central Florida) como um projeto de código aberto, oferecendo uma maneira eficiente e simples de integrar e automatizar o uso do Canvas LMS.
 
@@ -218,7 +218,7 @@ Para executar este projeto, é necessário instalar as dependências. Siga os pa
    pip install canvasapi pytz google-auth google-auth-oauthlib google-auth-httplib2 google-api-python-client
    ```
 
-# 🗓️ Estrutura do evento no Google Calendar com API Python
+## 🗓️ Estrutura do evento no Google Calendar com API Python
 
 Abaixo a estrutura usada para criar eventos no Google Calendar com a biblioteca `google-api-python-client`.
 
@@ -272,11 +272,12 @@ evento = {
 
 ---
 
-## Observações
+## 💡 Observações
+
 - Quando uma tarefa é atribuída pelo professor a um section group específico, a API do Canvas pode retornar o campo `assignment.due_at` como `None`.
 - Quando a tarefa é atribuída ao grupo "Todos os demais", o campo `assignment.due_at` geralmente vem preenchido com a data de entrega.
 
-## Documentação e Links Úteis
+## 📚 Documentação e Links Úteis
 
 - [CanvasAPI no GitHub](https://github.com/ucfopen/canvasapi)
 - [CanvasAPI no PyPI](https://pypi.org/project/canvasapi/)
@@ -291,6 +292,6 @@ evento = {
 - [Documentação da API do Canvas](https://canvas.instructure.com/doc/api/index.html)
 - [Documentação da API do Google Calendar](https://developers.google.com/calendar)
 
-## Licença
+## 🪪 Licença
 
 Este projeto está licenciado sob a Licença MIT.
