@@ -97,7 +97,7 @@ def criar_lembrete(service, nome_tarefa, data_entrega):
     start_datetime = datetime.fromisoformat(data_entrega)
     end_datetime = start_datetime + timedelta(minutes=30)  # <<< 30 minutos de duração
     
- evento = {
+    evento = {
         'summary': nome_tarefa,
         'description': f'Lembrete da entrega: {nome_tarefa}',
         'start': {
