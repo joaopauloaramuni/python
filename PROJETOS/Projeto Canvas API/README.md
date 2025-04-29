@@ -106,7 +106,7 @@ Evento criado: https://www.google.com/calendar/event?eid=MGMwM21haGdudHN0Z2dncnR
    API_KEY = "seu_token_gerado_aqui"
    ```
 
-## Integração com Google Calendar e Configuração da API
+## 🔗 Integração com Google Calendar e Configuração da API
 
 Este projeto utiliza a API do Google Calendar para criar lembretes de tarefas do Canvas. Para realizar a autenticação e a interação com o Google Calendar, utilizamos o OAuth 2.0, o que envolve a utilização de dois arquivos essenciais: `credentials.json` e `token.json`. Além disso, o código faz uso de um servidor local (`localhost:8080`) durante o processo de autenticação.
 
