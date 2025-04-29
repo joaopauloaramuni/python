@@ -10,7 +10,7 @@ Essa integração facilita o acesso a informações importantes sobre as tarefas
 ## Exemplo de Saída
 O script irá gerar uma saída no formato abaixo para cada curso e suas tarefas:
 
-### Versão 1
+### :octocat: Versão 1
 ```
 ******************************************************************************************************************************************************
 ***** Curso: Projeto de Software - Engenharia de Software - Campus Coração Eucarístico - PMG - Noite - 2024/2 | ID do curso: 205259 *****
@@ -27,7 +27,7 @@ Tarefa: ADA | ID da Tarefa: 1059544 | Data de Entrega: 04/12/2024 23:59:00
 ******************************************************************************************************************************************************
 ```
 
-### Versão 2
+### :octocat: Versão 2
 ```
 ******************************************************************************************************************************************************
 ***** Curso: Trabalho Interdisciplinar: Aplicações para Cenários Reais - Engenharia de Software - Campus Coração Eucarístico - PMG - Noite - 2025/1 | ID do curso: 229198 *****
