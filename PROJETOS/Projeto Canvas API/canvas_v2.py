@@ -97,7 +97,7 @@ def criar_lembrete(service, nome_tarefa, data_entrega):
     start_datetime = datetime.fromisoformat(data_entrega)
     end_datetime = start_datetime + timedelta(minutes=30)  # <<< 30 minutos de duração
     
-    evento = {
+ evento = {
         'summary': nome_tarefa,
         'description': f'Lembrete da entrega: {nome_tarefa}',
         'start': {
@@ -107,7 +107,15 @@ def criar_lembrete(service, nome_tarefa, data_entrega):
         'end': {
             'dateTime': end_datetime.isoformat(),
             'timeZone': 'America/Sao_Paulo',
-        }
+        },
+        'reminders': {
+            'useDefault': False,
+            'overrides': [
+                {'method': 'popup', 'minutes': 60},   # 1h antes
+                {'method': 'email', 'minutes': 1440}, # 1 dia antes
+            ],
+        },
+        'colorId': '10',  # Verde
     }
     event = service.events().insert(calendarId='primary', body=evento).execute()
     print(f"Evento criado: {event.get('htmlLink')}")
