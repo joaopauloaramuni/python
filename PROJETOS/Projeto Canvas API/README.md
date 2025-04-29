@@ -260,15 +260,19 @@ evento = {
 
 ## 🎨 Códigos de Cor do Google Calendar
 
-| Cor         | ID  |
-|-------------|-----|
-| Azul        | 1   |
-| Roxo        | 3   |
-| Verde       | 10  |
-| Vermelho    | 11  |
-| Amarelo     | 5   |
-| Laranja     | 6   |
-| Rosa        | 9   |
+| Cor          | ID  |
+|--------------|-----|
+| Azul         | 1   |
+| Verde        | 2   |
+| Roxo         | 3   |
+| Vermelho     | 4   |
+| Amarelo      | 5   |
+| Laranja      | 6   |
+| Turquesa     | 7   |
+| Cinza        | 8   |
+| Rosa         | 9   |
+| Verde        | 10  |
+| Vermelho     | 11  |
 
 ---
 
