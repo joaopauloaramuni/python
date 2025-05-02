@@ -169,10 +169,6 @@ Esses são os componentes principais do **Tkinter** utilizados no seu projeto. E
 
 ---
 
-## 🧠 Autor
-
-Desenvolvido como um projeto de visualização de algoritmos de ordenação com Python + Tkinter.
-
 ## Licença
 
 Este projeto está licenciado sob a **Licença MIT**.
