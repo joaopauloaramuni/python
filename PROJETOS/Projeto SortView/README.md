@@ -1,4 +1,4 @@
-# Projeto Sort View
+# Projeto SortView
 
 Visualizador de algoritmos de ordenação com interface gráfica usando Tkinter.  
 Permite visualizar passo a passo os seguintes algoritmos:  
