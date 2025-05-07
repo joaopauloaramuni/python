@@ -32,7 +32,7 @@
 
 <div align="center">
   <a href="https://betrybe.com/programacao/curso-python-desenvolvimento-web">
-    <img alt="trybe" src="https://github.com/joaopauloaramuni/joaopauloaramuni/blob/main/img/trybe-header2.png?raw=true"/>
+    <img width="1000px" alt="trybe" src="https://github.com/joaopauloaramuni/joaopauloaramuni/blob/main/img/trybe-header2.png?raw=true"/>
   </a>
 </div>
 
@@ -42,11 +42,9 @@
 
 [Asimov Academy - A maior escola de programação em Python](https://asimov.academy/)
 
-<div align="center">
-  <a href="https://asimov.academy/">
-    <img alt="Asimov" src="https://github.com/joaopauloaramuni/joaopauloaramuni/blob/main/img/asimov2.png?raw=true"/>
-  </a>
-</div>
+<a href="https://asimov.academy/">
+  <img width="800px" alt="Asimov" src="https://github.com/joaopauloaramuni/joaopauloaramuni/blob/main/img/asimov2.png?raw=true"/>
+</a>
 
 </div>
 
