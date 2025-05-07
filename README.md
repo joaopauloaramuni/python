@@ -54,7 +54,7 @@
 - [Livro: Python Essential Reference (David Beazley)](https://www.amazon.com.br/Python-Essential-Reference-David-Beazley-dp-0134173279/dp/0134173279)  
 - [Livro: Web Scraping com Python - Coletando Dados da Web](https://www.amazon.com.br/Web-Scraping-Com-Python-Coletando/dp/8575227300)  
 - [Python Tutor - Visualizador de Código Python](https://pythontutor.com/python-compiler.html)
-- [Documentação Oficial do Tkinter][https://docs.python.org/pt-br/3/library/tkinter.html]
+- [Documentação Oficial do Tkinter](https://docs.python.org/pt-br/3/library/tkinter.html)
 
 ### To scrape
 - [Scrapy](https://scrapy.org/)  
