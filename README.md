@@ -32,7 +32,7 @@
 
 <div align="center">
   <a href="https://betrybe.com/programacao/curso-python-desenvolvimento-web">
-    <img alt="trybe" src="https://github.com/joaopauloaramuni/joaopauloaramuni/blob/main/img/trybe-header.png?raw=true"/>
+    <img alt="trybe" src="https://github.com/joaopauloaramuni/joaopauloaramuni/blob/main/img/trybe-header2.png?raw=true"/>
   </a>
 </div>
 
