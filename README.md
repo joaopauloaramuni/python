@@ -1,5 +1,9 @@
 -----
 
+<img alt="pucminas" src="https://github.com/joaopauloaramuni/joaopauloaramuni/blob/main/img/FUNDOCOREUCAPA.jpg?raw=true"/>
+
+-----
+
 <div>
 
 :snake: Python Sudeste 2025 - PUC Minas - Unidade Lourdes:
@@ -12,12 +16,6 @@
 
 </div>
 
------
-
-<img alt="trybe" src="https://github.com/joaopauloaramuni/joaopauloaramuni/blob/main/img/trybe-header.png?raw=true"/>
-
------
-
 # Repo Python
 
 ## Sumário:
@@ -29,6 +27,8 @@
 ## Cursos sugeridos
 - [Trybe - Formação Python para Dev Web](https://betrybe.com/programacao/curso-python-desenvolvimento-web)  
 - [Asimov Academy - A maior escola de programação em Python](https://asimov.academy/)
+
+<img alt="trybe" src="https://github.com/joaopauloaramuni/joaopauloaramuni/blob/main/img/trybe-header.png?raw=true"/>
 
 ## Links úteis
 - [PyCharm - IDE da JetBrains](https://www.jetbrains.com/pt-br/pycharm/)  
@@ -1019,5 +1019,11 @@ def print_pucminas150():
     print("""                                                                                                                                            """, flush=True)
     print("************************************************************************************************************************************************", flush=True)   
 ```
+
+-----
+
+<div align="center">
+  <img width="70%" alt="pucminas" src="https://github.com/joaopauloaramuni/joaopauloaramuni/blob/main/img/engsoft.png?raw=true"/>
+</div>
 
 -----
