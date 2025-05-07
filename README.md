@@ -25,10 +25,19 @@
 - [Desafios](https://github.com/joaopauloaramuni/python/tree/main/DESAFIOS)
 
 ## Cursos sugeridos
-- [Trybe - Formação Python para Dev Web](https://betrybe.com/programacao/curso-python-desenvolvimento-web)  
 - [Asimov Academy - A maior escola de programação em Python](https://asimov.academy/)
 
-<img alt="trybe" src="https://github.com/joaopauloaramuni/joaopauloaramuni/blob/main/img/trybe-header.png?raw=true"/>
+<div>
+
+[Trybe - Formação Python para Dev Web](https://betrybe.com/programacao/curso-python-desenvolvimento-web)  
+
+<div align="center">
+  <a href="https://betrybe.com/programacao/curso-python-desenvolvimento-web">
+    <img alt="trybe" src="https://github.com/joaopauloaramuni/joaopauloaramuni/blob/main/img/trybe-header.png?raw=true"/>
+  </a>
+</div>
+
+</div>
 
 ## Links úteis
 - [PyCharm - IDE da JetBrains](https://www.jetbrains.com/pt-br/pycharm/)  
