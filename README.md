@@ -31,7 +31,7 @@
 [Trybe - Formação Python para Dev Web](https://betrybe.com/programacao/curso-python-desenvolvimento-web)  
 
 <a href="https://betrybe.com/programacao/curso-python-desenvolvimento-web">
-  <img width="400px" alt="trybe" src="https://github.com/joaopauloaramuni/joaopauloaramuni/blob/main/img/trybe-header2.png?raw=true"/>
+  <img width="400px" alt="trybe" src="https://github.com/joaopauloaramuni/joaopauloaramuni/blob/main/img/trybe-header2.jpg?raw=true"/>
 </a>
 
 </div>
