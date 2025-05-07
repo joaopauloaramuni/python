@@ -44,7 +44,7 @@
 
 <div align="center">
   <a href="https://asimov.academy/">
-    <img height="367px" alt="Asimov" src="https://github.com/joaopauloaramuni/joaopauloaramuni/blob/main/img/asimov.png?raw=true"/>
+    <img alt="Asimov" src="https://github.com/joaopauloaramuni/joaopauloaramuni/blob/main/img/asimov2.png?raw=true"/>
   </a>
 </div>
 
