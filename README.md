@@ -25,7 +25,6 @@
 - [Desafios](https://github.com/joaopauloaramuni/python/tree/main/DESAFIOS)
 
 ## Cursos sugeridos
-- [Asimov Academy - A maior escola de programação em Python](https://asimov.academy/)
 
 <div>
 
@@ -34,6 +33,18 @@
 <div align="center">
   <a href="https://betrybe.com/programacao/curso-python-desenvolvimento-web">
     <img alt="trybe" src="https://github.com/joaopauloaramuni/joaopauloaramuni/blob/main/img/trybe-header.png?raw=true"/>
+  </a>
+</div>
+
+</div>
+
+<div>
+
+[Asimov Academy - A maior escola de programação em Python](https://asimov.academy/)
+
+<div align="center">
+  <a href="https://asimov.academy/">
+    <img alt="Asimov" src="https://github.com/joaopauloaramuni/joaopauloaramuni/blob/main/img/asimov.png?raw=true"/>
   </a>
 </div>
 
