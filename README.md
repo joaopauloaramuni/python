@@ -30,11 +30,9 @@
 
 [Trybe - Formação Python para Dev Web](https://betrybe.com/programacao/curso-python-desenvolvimento-web)  
 
-<div align="center">
-  <a href="https://betrybe.com/programacao/curso-python-desenvolvimento-web">
-    <img width="1000px" alt="trybe" src="https://github.com/joaopauloaramuni/joaopauloaramuni/blob/main/img/trybe-header2.png?raw=true"/>
-  </a>
-</div>
+<a href="https://betrybe.com/programacao/curso-python-desenvolvimento-web">
+  <img width="600px" alt="trybe" src="https://github.com/joaopauloaramuni/joaopauloaramuni/blob/main/img/trybe-header2.png?raw=true"/>
+</a>
 
 </div>
 
@@ -43,7 +41,7 @@
 [Asimov Academy - A maior escola de programação em Python](https://asimov.academy/)
 
 <a href="https://asimov.academy/">
-  <img width="800px" alt="Asimov" src="https://github.com/joaopauloaramuni/joaopauloaramuni/blob/main/img/asimov2.png?raw=true"/>
+  <img width="600px" alt="Asimov" src="https://github.com/joaopauloaramuni/joaopauloaramuni/blob/main/img/asimov2.png?raw=true"/>
 </a>
 
 </div>
