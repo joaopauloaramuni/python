@@ -10,7 +10,7 @@
 
 <div align="center">
 <a href="https://2025.sudeste.python.org.br/">
-  <img src="https://github.com/joaopauloaramuni/joaopauloaramuni/blob/main/img/pythonsudeste2.png?raw=true"/>
+  <img src="https://joaopauloaramuni.github.io/image/pythonsudeste2.png?raw=true"/>
 </a>
 </div>
 
