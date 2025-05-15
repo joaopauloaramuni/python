@@ -62,21 +62,21 @@ Evento criado: https://www.google.com/calendar/event?eid=MGMwM21haGdudHN0Z2dncnR
 
 ### :octocat: Versão 3
 
-| <img src="imgs/tkinter.png" alt="Tkinter" width="1000"/> |
+| <img src="https://joaopauloaramuni.github.io/python-imgs/Canvas_API/imgs/tkinter.png" alt="Tkinter" width="1000"/> |
 |:------:|
 | Tkinter |
 
 ## 🖼️ Capturas de Tela
 
-| <img src="imgs/canvas.png" alt="Canvas" width="1000"/> |
+| <img src="https://joaopauloaramuni.github.io/python-imgs/Canvas_API/imgs/canvas.png" alt="Canvas" width="1000"/> |
 |:------:|
 | Canvas |
 
-| <img src="imgs/cloud.png" alt="Google Cloud" width="1000"/> |
+| <img src="https://joaopauloaramuni.github.io/python-imgs/Canvas_API/imgs/cloud.png" alt="Google Cloud" width="1000"/> |
 |:------------:|
 | Google Cloud |
 
-| <img src="imgs/calendar.png" alt="Google Calendar" width="1000"/> |
+| <img src="https://joaopauloaramuni.github.io/python-imgs/Canvas_API/imgs/calendar.png" alt="Google Calendar" width="1000"/> |
 |:---------------:|
 | Google Calendar |
 
