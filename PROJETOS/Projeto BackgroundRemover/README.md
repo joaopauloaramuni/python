@@ -14,7 +14,7 @@ Foi utilizado como exemplo a imagem `Guido_van_Rossum.jpeg`, que está localizad
 
 ## Captura de Tela
 
-| <img src="imgs/Guido_van_Rossum.jpeg" alt="Guido_van_Rossum" width="600"/> | <img src="imgs/fundoremovido.png" alt="fundoremovido" width="600"/> |
+| <img src="https://joaopauloaramuni.github.io/python-imgs/BackgroundRemover/imgs/Guido_van_Rossum.jpeg" alt="Guido_van_Rossum" width="600"/> | <img src="https://joaopauloaramuni.github.io/python-imgs/BackgroundRemover/imgs/fundoremovido.png" alt="fundoremovido" width="600"/> |
 |:---------------------:|:-----------------:|
 | Guido_van_Rossum.jpeg | fundoremovido.png | 
 
