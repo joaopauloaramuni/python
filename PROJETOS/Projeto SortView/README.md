@@ -32,11 +32,11 @@ import threading
 
 ## 🖼️ Capturas de tela
 
-| <img src="imgs/Tela_gerar.png" alt="Gerar" width="600"/> | <img src="imgs/Tela_ordenar1.png" alt="Ordenar" width="600"/> |
+| <img src="https://joaopauloaramuni.github.io/python-imgs/SortView/imgs/Tela_gerar.png" alt="Gerar" width="600"/> | <img src="https://joaopauloaramuni.github.io/python-imgs/SortView/imgs/Tela_ordenar1.png" alt="Ordenar" width="600"/> |
 |:---------------------:|:-----------------:|
 | Tela geração | Tela ordenação | 
 
-| <img src="imgs/Tela_ordenar2.png" alt="Ordenar" width="600"/> | <img src="imgs/Tela_ordenar3.png" alt="Ordenar" width="600"/> |
+| <img src="https://joaopauloaramuni.github.io/python-imgs/SortView/imgs/Tela_ordenar2.png" alt="Ordenar" width="600"/> | <img src="https://joaopauloaramuni.github.io/python-imgs/SortView/imgs/Tela_ordenar3.png" alt="Ordenar" width="600"/> |
 |:---------------------:|:-----------------:|
 | Tela ordenação | Tela ordenação | 
 
