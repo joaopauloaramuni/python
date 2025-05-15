@@ -50,7 +50,7 @@ A interface gráfica permite que o usuário clique no botão Iniciar para começ
 - **Tela Inicial: Teste de Velocidade da Internet**: Botão para iniciar o teste.
 - **Tela de Resultados:**: Apresenta os resultados do teste de velocidade.
 
-| ![Tela Inicial](imgs/home1.png) | ![Tela de Resultados](imgs/home2.png) |
+| ![Tela Inicial](https://joaopauloaramuni.github.io/python-imgs/InternetVelocityTest/imgs/home1.png) | ![Tela de Resultados](https://joaopauloaramuni.github.io/python-imgs/InternetVelocityTest/imgs/home2.png) |
 |:--:|:--:|
 | Tela Inicial | Tela de Resultados |
 
