@@ -26,7 +26,7 @@ Com a GUI, o processo de compressão de PDFs ficou mais intuitivo, eliminando a 
 
 ## Capturas de Tela
 
-| <img src="imgs/home3.png" width="500px" alt="Tela Inicial - Home"> | <img src="imgs/home2.png" width="500px" alt="Tela Inicial - Sucesso"> |
+| <img src="https://joaopauloaramuni.github.io/python-imgs/PdfCompressor_with_UI/imgs/home3.png" width="500px" alt="Tela Inicial - Home"> | <img src="https://joaopauloaramuni.github.io/python-imgs/PdfCompressor_with_UI/imgs/home2.png" width="500px" alt="Tela Inicial - Sucesso"> |
 |:-----------------------------------------------------------------:|:-------------------------------------------------------------------:|
 |                                Home                               |                               Sucesso                               |
 
