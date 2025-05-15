@@ -18,7 +18,7 @@ Os autômatos gerados são visualizados como grafos. Abaixo estão exemplos de v
 
 | **Autômato 1** | **Autômato 2** | **Autômato 3** | **Autômato 4** | **Autômato 5** |
 |:--------------:|:--------------:|:--------------:|:--------------:|:--------------:|
-| ![Automato 1](AFs/automato_1.png) | ![Automato 2](AFs/automato_2.png) | ![Automato 3](AFs/automato_3.png) | ![Automato 4](AFs/automato_4.png) | ![Automato 5](AFs/automato_5.png) |
+| ![Automato 1](https://joaopauloaramuni.github.io/python-imgs/Simulador_de_AFs/AFs/automato_1.png) | ![Automato 2](https://joaopauloaramuni.github.io/python-imgs/Simulador_de_AFs/AFs/automato_2.png) | ![Automato 3](https://joaopauloaramuni.github.io/python-imgs/Simulador_de_AFs/AFs/automato_3.png) | ![Automato 4](https://joaopauloaramuni.github.io/python-imgs/Simulador_de_AFs/AFs/automato_4.png) | ![Automato 5](https://joaopauloaramuni.github.io/python-imgs/Simulador_de_AFs/AFs/automato_5.png) |
 | Linguagem que aceita apenas strings compostas pelos símbolos 'a' e 'b' | Linguagem que aceita apenas strings terminadas em 'ab' | Linguagem que aceita strings com um número par de 'a's | Linguagem que aceita strings contendo 'aa' como subcadeia | Linguagem que aceita apenas padrões 'ab' repetidos (com estado de erro) |
 
 ## Ambiente Virtual (venv)
