@@ -95,13 +95,13 @@ O `quizId` é a única informação permanente referente ao quiz que você preci
 
 - **quizId**: Observe o quizId na url abaixo:
 
-| <img src="imgs/kahoot.png" alt="Kahoot" width="1000"/>        |
+| <img src="https://joaopauloaramuni.github.io/python-imgs/KahootHack/imgs/kahoot.png" alt="Kahoot" width="1000"/>        |
 |:-------------------------------------------------------------:|
 |                            Kahoot                             |
 
 - **Visibilidade**: "Público" é a visibilidade padrão do Kahoot (para nossa sorte):
 
-| <img src="imgs/visibilidade.png" alt="Visibilidade" width="1000"/> |
+| <img src="https://joaopauloaramuni.github.io/python-imgs/KahootHack/imgs/visibilidade.png" alt="Visibilidade" width="1000"/> |
 |:------------------------------------------------------------------:|
 |                            Visibilidade                            |
 
