@@ -13,7 +13,7 @@ Este é um programa de compressão de imagens com uma interface gráfica constru
 
 - **Tela de Home**: A tela inicial apresenta um botão onde o usuário pode selecionar uma imagem para compressão, uma barra deslizante para especificar a qualidade desejada e iniciar o processo.
 
-| ![Tela Inicial - Home ](imgs/home2.png) | ![Tela Inicial - Home ](imgs/home3.png) |
+| ![Tela Inicial - Home ](https://joaopauloaramuni.github.io/python-imgs/ImageCompressor_with_UI/imgs/home2.png) | ![Tela Inicial - Home ](https://joaopauloaramuni.github.io/python-imgs/ImageCompressor_with_UI/imgs/home3.png) |
 |:---------------------:|:--------------------:|
 |         Home          |         Home         |
 
