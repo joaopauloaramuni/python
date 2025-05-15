@@ -15,7 +15,7 @@ Uma interface gráfica simples foi criada utilizando `tkinter` para facilitar a 
 | <img src="https://joaopauloaramuni.github.io/python-imgs/YouTubeAudioDownloader_with_UI/imgs/home.png" width="500px" alt="Tela Inicial"> | <img src="https://joaopauloaramuni.github.io/python-imgs/YouTubeAudioDownloader_with_UI/imgs/home2.png" width="500px" alt="Validação"> |
 |:----------------------------------------------------------:|:---------------------------------------------------------:|
 |                          Home                              |                        Validação                         |
-| <img src="imgs/home3.png" width="500px" alt="Download">    | <img src="imgs/home4.png" width="500px" alt="Download">  |
+| <img src="https://joaopauloaramuni.github.io/python-imgs/YouTubeAudioDownloader_with_UI/imgs/home3.png" width="500px" alt="Download">    | <img src="https://joaopauloaramuni.github.io/python-imgs/YouTubeAudioDownloader_with_UI/imgs/home4.png" width="500px" alt="Download">  |
 |                        Download                            |                         Download                          |
 
 ## Pré-requisitos
