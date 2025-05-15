@@ -4,7 +4,7 @@ Este projeto, dividido em duas versões, realiza uma raspagem de dados para extr
 
 ## Captura de Tela
 
-| <img src="sga.png" width="1000px" alt="SGA"> |
+| <img src="https://joaopauloaramuni.github.io/python-imgs/SGA_Spider/sga.png" width="1000px" alt="SGA"> |
 |:--------------------------------------------:|
 | **Sistema de Gestão Acadêmica (SGA)** |
 
