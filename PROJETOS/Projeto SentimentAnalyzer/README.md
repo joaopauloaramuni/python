@@ -168,8 +168,11 @@ Sentimento interpretado: positivo 🙂
 ## 📚 Sugestão de Leitura
 
 **Título:** *Mineração de Emoções em Textos: Um Estudo Aplicado Sobre as Interações de Programadores em Comunidade On-line de Perguntas e Respostas*  
+
 **Autor:** Lucas Romualdo Fernandes de Sá 
+
 **Tipo:** Dissertação de Mestrado em Sistemas de Informação e Gestão do Conhecimento
+
 **Link:** [Dissertação (PDF)](Dissertação_Lucas_Romualdo_Fernandes_de_Sá/DISSERTAÇÃO_VERSAO_FINAL_REVISADA_LUCAS.pdf)
 
 **Resumo:**  
