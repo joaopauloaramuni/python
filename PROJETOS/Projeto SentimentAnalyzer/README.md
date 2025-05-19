@@ -165,6 +165,18 @@ Sentimento interpretado: positivo 🙂
 
 ---
 
+## 📚 Sugestão de Leitura
+
+**Título:** *Mineração de Emoções em Textos: Um Estudo Aplicado Sobre as Interações de Programadores em Comunidade On-line de Perguntas e Respostas*  
+**Autor:** Lucas Romualdo Fernandes de Sá 
+**Tipo:** Dissertação de Mestrado em Sistemas de Informação e Gestão do Conhecimento
+**Link:** [Dissertação (PDF)](Dissertação_Lucas_Romualdo_Fernandes_de_Sá/DISSERTAÇÃO_VERSAO_FINAL_REVISADA_LUCAS.pdf)
+
+**Resumo:**  
+O Stack Overflow é a maior comunidade on-line de Perguntas e Respostas sobre linguagem de programação na Web, tornando-se um repositório valioso de conhecimento por meio de interações sociais entre programadores e usuários. Esta dissertação investiga o uso de Análise de Sentimentos (AS) aplicada a essa comunidade, com o objetivo de entender a relação entre emoções, opiniões e o comportamento dos usuários. A metodologia incluiu uma Revisão Sistemática da Literatura e a aplicação de técnicas de AS usando a linguagem R e o pacote `tidytext`, com os léxicos NRC e AFINN, sobre comentários de usuários de diferentes linguagens de programação. Os resultados destacam como as tecnologias utilizadas influenciam na padronização emocional dos usuários, reforçando a importância de estudos mais aprofundados e ampliados para outras comunidades do Stack Exchange.
+
+---
+
 ## 📄 Licença
 
 Este projeto é distribuído sob a licença **MIT**. Você pode utilizá-lo, modificá-lo e distribuí-lo livremente. 🧑‍🏫
