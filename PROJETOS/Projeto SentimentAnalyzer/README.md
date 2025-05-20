@@ -157,11 +157,20 @@ Sentimento interpretado: positivo 🙂
 
 ## 📚 Documentação e Links Úteis
 
-- [Hugging Face Transformers](https://huggingface.co/transformers/)
-- [nlptown/bert-base-multilingual-uncased-sentiment](https://huggingface.co/nlptown/bert-base-multilingual-uncased-sentiment)
-- [pysentimiento/robertuito-sentiment-analysis](https://huggingface.co/pysentimiento/robertuito-sentiment-analysis)
-- [finiteautomata/bertweet-base-sentiment-analysis](https://huggingface.co/finiteautomata/bertweet-base-sentiment-analysis)
-- [BERT Paper (Google)](https://arxiv.org/abs/1810.04805)
+### 🔧 Bibliotecas e Ferramentas
+
+- [Transformers (Hugging Face)](https://huggingface.co/transformers/) — Documentação oficial da biblioteca `transformers`, usada para criar pipelines como `sentiment-analysis`.
+- [emoji (Python Package)](https://pypi.org/project/emoji/) — Biblioteca Python para manipulação e visualização de emojis.
+
+### 🤗 Modelos Pré-Treinados para Análise de Sentimentos
+
+- [nlptown/bert-base-multilingual-uncased-sentiment](https://huggingface.co/nlptown/bert-base-multilingual-uncased-sentiment) — Modelo BERT multilingue para classificação de sentimento em 5 níveis (1 a 5 estrelas).
+- [pysentimiento/robertuito-sentiment-analysis](https://huggingface.co/pysentimiento/robertuito-sentiment-analysis) — Modelo baseado em RoBERTuito para sentimentos em espanhol (POS, NEU, NEG).
+- [finiteautomata/bertweet-base-sentiment-analysis](https://huggingface.co/finiteautomata/bertweet-base-sentiment-analysis) — Modelo baseado em BERTweet para análise de sentimentos em inglês (LABEL_0, LABEL_1, LABEL_2).
+
+### 📄 Artigos Relevantes
+
+- [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding (Google)](https://arxiv.org/abs/1810.04805) — Artigo fundamental que introduz o modelo BERT, base para muitos modelos de NLP, incluindo os listados acima.
 
 ---
 
