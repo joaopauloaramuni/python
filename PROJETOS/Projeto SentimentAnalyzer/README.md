@@ -167,6 +167,22 @@ Sentimento interpretado: positivo 🙂
 
 ## 📚 Sugestão de Leitura
 
+**Título:** *BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding*
+
+**Autores:** Jacob Devlin, Ming-Wei Chang, Kenton Lee, Kristina Toutanova
+
+**Tipo:** Artigo Científico (Google AI)
+
+**Link original:** [BERT Paper (arXiv)](https://arxiv.org/abs/1810.04805)
+
+**Link local:** [BERT Paper (PDF)](Artigo_BERT/1810.04805v2.pdf)
+
+**Resumo:** O BERT (Bidirectional Encoder Representations from Transformers) é um modelo de linguagem pré-treinado profundamente bidirecional baseado na arquitetura Transformer. Ele foi projetado para compreender o contexto de uma palavra com base em todas as palavras em uma sentença (tanto à esquerda quanto à direita). O BERT foi treinado em tarefas de modelagem de linguagem e previsão de frases, e depois ajustado em tarefas específicas como perguntas e respostas, classificação de sentimentos e NER. Este artigo teve grande impacto no NLP moderno, redefinindo benchmarks em várias tarefas.
+
+**Palavras-chave:** NLP, Transformers, BERT, Google AI, Modelos de Linguagem
+
+---
+
 **Título:** *Mineração de Emoções em Textos: Um Estudo Aplicado Sobre as Interações de Programadores em Comunidade On-line de Perguntas e Respostas*  
 
 **Autor:** [Lucas Romualdo Fernandes de Sá](https://www.linkedin.com/in/lrfsa/)
