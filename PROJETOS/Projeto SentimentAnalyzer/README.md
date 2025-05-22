@@ -64,6 +64,103 @@ A biblioteca `transformers` da Hugging Face oferece **modelos pré-treinados de 
 
 ---
 
+# 🧠 Analisador de Sentimentos – Comparativo entre v1, v2 e v3
+
+Este documento apresenta as diferenças entre as versões `v1`, `v2` e `v3` do script `sentiment_analyzer.py`, que utiliza modelos da biblioteca `transformers` para análise de sentimentos.
+
+---
+
+## 📦 Modelos Utilizados
+
+Todas as versões utilizam os mesmos modelos base:
+
+- `1` → `nlptown/bert-base-multilingual-uncased-sentiment`
+- `2` → `pysentimiento/robertuito-sentiment-analysis`
+- `3` → `finiteautomata/bertweet-base-sentiment-analysis`
+
+---
+
+## 🔢 Versão v1
+
+**Arquivo:** `sentiment_analyzer_v1.py`
+
+### 🛠️ Características
+
+- Estrutura totalmente **linear e procedural**.
+- O código realiza:
+  - Escolha de modelo via `input`
+  - Entrada de texto
+  - Análise e exibição do resultado
+- Não há funções reutilizáveis.
+- Toda a lógica está concentrada em um único bloco.
+
+### 📉 Limitações
+
+- Difícil manutenção e leitura.
+- Baixa modularização.
+- Não suporta múltiplas entradas.
+
+---
+
+## 🔁 Versão v2
+
+**Arquivo:** `sentiment_analyzer_v2.py`
+
+### 🛠️ Características
+
+- **Modularização**: principais partes do código foram transformadas em funções:
+  - `escolher_modelo()`
+  - `analisar_sentimento()`
+  - `interpretar_resultado()`
+- Melhor **organização** do código.
+- Mais legível e reutilizável.
+
+### ✅ Melhorias
+
+- Fácil de expandir ou testar cada função separadamente.
+- Ainda trabalha com **uma única entrada textual**.
+
+### 📉 Limitações
+
+- Não analisa múltiplas mensagens.
+- Não calcula sentimento geral para blocos de texto ou conversas.
+
+---
+
+## 🧠 Versão v3
+
+**Arquivo:** `sentiment_analyzer_v3.py`  
+**Créditos:** Renato Matos – Estudante de Engenharia de Software (PUC Minas)  
+🔗 [LinkedIn](https://www.linkedin.com/in/renato-matos-alves-penna-646108276/)
+
+### 🛠️ Características
+
+- Totalmente modular e orientado a funções.
+- Aceita **várias linhas de entrada** (multi-frases).
+- Calcula um **sentimento geral** da conversa com base na **média ponderada** dos scores.
+- Usa a biblioteca `statistics.mean` para média das confiabilidades.
+
+### ✅ Melhorias
+
+- Ideal para analisar **conversas** ou **textos compostos**.
+- Exibe resultados linha a linha com interpretação e emoji.
+- Fornece um **resumo global do sentimento** com score médio.
+
+---
+
+## 📊 Comparativo Geral
+
+| Recurso                            | v1  | v2  | v3  |
+|------------------------------------|-----|-----|-----|
+| Estrutura modular                  | ❌  | ✅  | ✅  |
+| Escolha de modelo                  | ✅  | ✅  | ✅  |
+| Entrada única                      | ✅  | ✅  | ❌  |
+| Suporte a múltiplas mensagens      | ❌  | ❌  | ✅  |
+| Cálculo de sentimento geral        | ❌  | ❌  | ✅  |
+| Uso de funções reutilizáveis       | ❌  | ✅  | ✅  |
+
+---
+
 ## 📦 Dependências
 
 Para executar este projeto, você precisará instalar as seguintes bibliotecas:
