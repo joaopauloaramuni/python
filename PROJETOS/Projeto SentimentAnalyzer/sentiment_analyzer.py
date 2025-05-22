@@ -8,29 +8,6 @@ modelos_disponiveis = {
     "3": "finiteautomata/bertweet-base-sentiment-analysis"
 }
 
-print("Modelos disponíveis:")
-for chave, nome in modelos_disponiveis.items():
-    print(f"{chave} - {nome}")
-
-# Escolher modelo
-print("*" * 150)
-escolha = input("Escolha o modelo (número): ").strip()
-modelo = modelos_disponiveis.get(escolha)
-
-if not modelo:
-    print("Modelo inválido. Encerrando.")
-    exit()
-
-# Criar pipeline com o modelo escolhido
-analisador = pipeline("sentiment-analysis", model=modelo)
-
-# Entrada do usuário
-texto = input("Digite o texto a ser analisado: ").strip()
-
-# Analisar
-resultado = analisador(texto)[0]
-label = resultado['label']
-
 # Mapeamento geral
 mapa = {
     "1": "muito negativo",
@@ -56,20 +33,42 @@ emojis = {
     "desconhecido": emoji.emojize("❓")
 }
 
-# Extrair a chave do mapa de forma segura
-chave_mapa = label.strip().split()[0].upper()  # Funciona para "4 stars" → "4", e "POS", "LABEL_0", etc.
+def escolher_modelo():
+    print("Modelos disponíveis:")
+    for chave, nome in modelos_disponiveis.items():
+        print(f"{chave} - {nome}")
+    print("*" * 150)
+    escolha = input("Escolha o modelo (número): ").strip()
+    return modelos_disponiveis.get(escolha)
 
-# Obter a interpretação
-interpretacao = mapa.get(chave_mapa, "desconhecido")
-emoji_sentimento = emojis.get(interpretacao, emojis["desconhecido"])
+def analisar_sentimento(modelo, texto):
+    analisador = pipeline("sentiment-analysis", model=modelo)
+    resultado = analisador(texto)[0]
+    return resultado
 
-# Mostrar resultado
-print("*" * 150)
-print(f"Texto: {texto}")
-print(f"Modelo usado: {modelo}")
-print(f"Classificação bruta: {label}")
-print(f"Score de confiança: {resultado['score']:.2f}")
-print(f"Sentimento interpretado: {interpretacao} {emoji_sentimento}")
-print("*" * 150)
+def interpretar_resultado(label):
+    chave_mapa = label.strip().split()[0].upper()
+    interpretacao = mapa.get(chave_mapa, "desconhecido")
+    emoji_sentimento = emojis.get(interpretacao, emojis["desconhecido"])
+    return interpretacao, emoji_sentimento
 
-# pip install transformers emoji
+def main():
+    modelo = escolher_modelo()
+    if not modelo:
+        print("Modelo inválido. Encerrando.")
+        return
+
+    texto = input("Digite o texto a ser analisado: ").strip()
+    resultado = analisar_sentimento(modelo, texto)
+    interpretacao, emoji_sentimento = interpretar_resultado(resultado['label'])
+
+    print("*" * 150)
+    print(f"Texto: {texto}")
+    print(f"Modelo usado: {modelo}")
+    print(f"Classificação bruta: {resultado['label']}")
+    print(f"Score de confiança: {resultado['score']:.2f}")
+    print(f"Sentimento interpretado: {interpretacao} {emoji_sentimento}")
+    print("*" * 150)
+
+if __name__ == "__main__":
+    main()
