@@ -66,13 +66,39 @@ A biblioteca `transformers` da Hugging Face oferece **modelos pré-treinados de 
 
 ## 📦 Dependências
 
-Para executar este projeto, instale os seguintes pacotes:
+Para executar este projeto, você precisará instalar as seguintes bibliotecas:
 
 ```bash
 pip install transformers emoji
 ```
 
+> ⚠️ **Importante**: a biblioteca `transformers` requer um backend de deep learning para funcionar corretamente.
+Você pode escolher entre **PyTorch** ou **TensorFlow**, dependendo da sua preferência ou do modelo utilizado.
+
+### ✅ Instalar PyTorch (mais comum)
+
+Para a maioria dos projetos e modelos, recomenda-se o uso do PyTorch:
+
+```bash
+pip install torch
+```
+
+Para opções com suporte a GPU/CUDA, consulte o site oficial:  
+👉 https://pytorch.org/get-started/locally/
+
+### 🔁 Alternativa: TensorFlow
+
+Caso prefira usar TensorFlow como backend:
+
+```bash
+pip install tensorflow
+```
+
+Certifique-se de que o código ou modelo que você está utilizando seja compatível com o backend escolhido.
+
 ---
+
+Se você tentar rodar um pipeline do `transformers` sem ter o PyTorch ou TensorFlow instalados, um erro será exibido informando que um backend é necessário.
 
 ## 🧪 Ambiente Virtual
 
