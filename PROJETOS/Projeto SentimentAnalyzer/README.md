@@ -130,7 +130,8 @@ Todas as versões utilizam os mesmos modelos base:
 ### 🧠 Versão v3
 
 **Arquivo:** `sentiment_analyzer_v3.py`  
-**Créditos:** Renato Matos – Estudante de Engenharia de Software (PUC Minas)  
+**DevLabs:** Versão construída durante as oficinas do DevLabs
+**Créditos:** Renato Matos – Estudante do 5 período de Engenharia de Software (PUC Minas)
 🔗 [LinkedIn](https://www.linkedin.com/in/renato-matos-alves-penna-646108276/)
 
 #### 🛠️ Características
