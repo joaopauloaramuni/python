@@ -133,9 +133,10 @@ Todas as versões utilizam os mesmos modelos base:
 
 **DevLabs:** Versão construída durante as oficinas do DevLabs
 
-**Créditos:** Renato Matos – Estudante do 5 período de Engenharia de Software (PUC Minas)
+**Créditos:** Renato Matos – Estudante do 5º período de Engenharia de Software da PUC Minas (Unidade Lourdes)
 
 🔗 [LinkedIn](https://www.linkedin.com/in/renato-matos-alves-penna-646108276/)
+🔗 [GitHub](https://github.com/RenatoMAP77)
 
 #### 🛠️ Características
 
