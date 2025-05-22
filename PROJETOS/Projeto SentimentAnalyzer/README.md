@@ -131,7 +131,7 @@ source .venv/bin/activate
 ### ✅ Modelo 1:
 
 ```bash
-python3 sentiment_analyzer.py
+python3 sentiment_analyzer_v1.py
 Modelos disponíveis:
 1 - nlptown/bert-base-multilingual-uncased-sentiment
 2 - pysentimiento/robertuito-sentiment-analysis
