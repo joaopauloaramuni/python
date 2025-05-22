@@ -185,7 +185,12 @@ Sentimento interpretado: positivo 🙂
 
 ### 🔧 Bibliotecas e Ferramentas
 
-- [Transformers (Hugging Face)](https://huggingface.co/transformers/) — Documentação oficial da biblioteca `transformers`, usada para criar pipelines como `sentiment-analysis`.
+
+- [PyTorch (Documentação Oficial)](https://pytorch.org/docs/) — Biblioteca de aprendizado profundo amplamente usada como backend para `transformers`.
+- [TensorFlow (Documentação Oficial)](https://www.tensorflow.org/learn) — Alternativa ao PyTorch, também compatível com `transformers`.
+
+- [Transformers (Hugging Face)](https://huggingface.co/transformers/) — Documentação oficial da biblioteca `transformers`, usada para criar pipelines como `sentiment-analysis`.  
+  > ⚠️ Requer que **PyTorch** ou **TensorFlow** esteja instalado como backend para execução dos modelos.
 - [emoji (Python Package)](https://pypi.org/project/emoji/) — Biblioteca Python para manipulação e visualização de emojis.
 
 ### 🤗 Modelos Pré-Treinados para Análise de Sentimentos
