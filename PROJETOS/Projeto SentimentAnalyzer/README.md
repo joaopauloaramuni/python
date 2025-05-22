@@ -136,6 +136,7 @@ Todas as versões utilizam os mesmos modelos base:
 **Créditos:** Renato Matos – Estudante do 5º período de Engenharia de Software da PUC Minas (Unidade Lourdes)
 
 🔗 [LinkedIn](https://www.linkedin.com/in/renato-matos-alves-penna-646108276/)
+
 🔗 [GitHub](https://github.com/RenatoMAP77)
 
 #### 🛠️ Características
