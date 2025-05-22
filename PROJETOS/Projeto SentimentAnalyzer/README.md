@@ -64,13 +64,13 @@ A biblioteca `transformers` da Hugging Face oferece **modelos pré-treinados de 
 
 ---
 
-# 🧠 Analisador de Sentimentos – Comparativo entre v1, v2 e v3
+## 🧠 Comparativo entre v1, v2 e v3
 
-Este documento apresenta as diferenças entre as versões `v1`, `v2` e `v3` do script `sentiment_analyzer.py`, que utiliza modelos da biblioteca `transformers` para análise de sentimentos.
+Veja abaixo as diferenças entre as versões `v1`, `v2` e `v3` do script:
 
 ---
 
-## 📦 Modelos Utilizados
+### 📦 Modelos utilizados
 
 Todas as versões utilizam os mesmos modelos base:
 
@@ -80,11 +80,11 @@ Todas as versões utilizam os mesmos modelos base:
 
 ---
 
-## 🔢 Versão v1
+### 🔢 Versão v1
 
 **Arquivo:** `sentiment_analyzer_v1.py`
 
-### 🛠️ Características
+#### 🛠️ Características
 
 - Estrutura totalmente **linear e procedural**.
 - O código realiza:
@@ -94,7 +94,7 @@ Todas as versões utilizam os mesmos modelos base:
 - Não há funções reutilizáveis.
 - Toda a lógica está concentrada em um único bloco.
 
-### 📉 Limitações
+#### 📉 Limitações
 
 - Difícil manutenção e leitura.
 - Baixa modularização.
@@ -102,11 +102,11 @@ Todas as versões utilizam os mesmos modelos base:
 
 ---
 
-## 🔁 Versão v2
+### 🔁 Versão v2
 
 **Arquivo:** `sentiment_analyzer_v2.py`
 
-### 🛠️ Características
+#### 🛠️ Características
 
 - **Modularização**: principais partes do código foram transformadas em funções:
   - `escolher_modelo()`
@@ -115,32 +115,32 @@ Todas as versões utilizam os mesmos modelos base:
 - Melhor **organização** do código.
 - Mais legível e reutilizável.
 
-### ✅ Melhorias
+#### ✅ Melhorias
 
 - Fácil de expandir ou testar cada função separadamente.
 - Ainda trabalha com **uma única entrada textual**.
 
-### 📉 Limitações
+#### 📉 Limitações
 
 - Não analisa múltiplas mensagens.
 - Não calcula sentimento geral para blocos de texto ou conversas.
 
 ---
 
-## 🧠 Versão v3
+### 🧠 Versão v3
 
 **Arquivo:** `sentiment_analyzer_v3.py`  
 **Créditos:** Renato Matos – Estudante de Engenharia de Software (PUC Minas)  
 🔗 [LinkedIn](https://www.linkedin.com/in/renato-matos-alves-penna-646108276/)
 
-### 🛠️ Características
+#### 🛠️ Características
 
 - Totalmente modular e orientado a funções.
 - Aceita **várias linhas de entrada** (multi-frases).
 - Calcula um **sentimento geral** da conversa com base na **média ponderada** dos scores.
 - Usa a biblioteca `statistics.mean` para média das confiabilidades.
 
-### ✅ Melhorias
+#### ✅ Melhorias
 
 - Ideal para analisar **conversas** ou **textos compostos**.
 - Exibe resultados linha a linha com interpretação e emoji.
@@ -148,7 +148,7 @@ Todas as versões utilizam os mesmos modelos base:
 
 ---
 
-## 📊 Comparativo Geral
+### 📊 Comparativo Geral
 
 | Recurso                            | v1  | v2  | v3  |
 |------------------------------------|-----|-----|-----|
