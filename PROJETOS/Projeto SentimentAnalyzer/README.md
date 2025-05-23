@@ -172,7 +172,7 @@ Todas as versões utilizam os mesmos modelos base:
 Para executar este projeto, você precisará instalar as seguintes bibliotecas:
 
 ```bash
-pip install transformers emoji
+pip install transformers torch emoji
 ```
 
 > ⚠️ **Importante**: a biblioteca `transformers` requer um backend de deep learning para funcionar corretamente.
