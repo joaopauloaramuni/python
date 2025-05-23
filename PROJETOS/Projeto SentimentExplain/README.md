@@ -46,7 +46,7 @@ No contexto deste projeto, o LIME mostra **as palavras que mais contribuíram** 
 
 ## 🖼️ Captura de tela
 
-| <img src="https://joaopauloaramuni.github.io/python-imgs/Projeto_SentimentExplain/imgs/html.png" alt="HTML" width="800"/> |
+| <img src="https://joaopauloaramuni.github.io/python-imgs/SentimentExplain/imgs/html.png" alt="HTML" width="800"/> |
 |:---------------------------------------------------------------:|
 |                        HTML explicativo                         |
 
