@@ -20,6 +20,30 @@ O projeto gera um arquivo HTML interativo (`explanation.html`) que mostra a infl
 
 ---
 
+## 🔍 Conceitos Importantes
+
+### 📘 O que é BERT?
+
+BERT (Bidirectional Encoder Representations from Transformers) é um modelo de **linguagem natural bidirecional** desenvolvido pelo Google em 2018. Ele entende o **contexto completo** de uma palavra observando as palavras anteriores e posteriores. É a base de muitos modelos de NLP atuais.
+
+### 🔄 O que é `transformers`?
+
+A biblioteca `transformers` da Hugging Face oferece **modelos pré-treinados de NLP** com desempenho de ponta. Ela permite o uso fácil de modelos como BERT, RoBERTa, GPT, etc., com apenas poucas linhas de código.
+
+### 🔌 O que é `pipeline`?
+
+`pipeline` é uma **interface de alto nível** da Hugging Face para executar tarefas como análise de sentimentos, tradução, resumo, etc., com o mínimo de configuração.
+
+### 🟢 O que é `LIME`?
+
+`LIME` (*Local Interpretable Model-agnostic Explanations*) é uma técnica de **interpretação de modelos de machine learning**. Ela ajuda a entender **por que** um modelo tomou determinada decisão, destacando quais partes da entrada (como palavras em um texto) mais influenciaram o resultado.
+
+No contexto deste projeto, o LIME mostra **as palavras que mais contribuíram** para que o modelo previsse sentimento positivo ou negativo, tornando a IA **mais transparente e explicável**. 🔍
+
+> LIME é particularmente útil para modelos complexos (como redes neurais), que normalmente são tratados como "caixas-pretas". Ele faz isso ao perturbar a entrada original e treinar modelos simples (como regressão linear) para simular o comportamento do modelo ao redor daquele exemplo.
+
+---
+
 ## 🖼️ Captura de tela
 
 | <img src="https://joaopauloaramuni.github.io/python-imgs/Projeto_SentimentExplain/imgs/html.png" alt="HTML" width="800"/> |
