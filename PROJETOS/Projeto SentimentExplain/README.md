@@ -116,8 +116,6 @@ source .venv/bin/activate
 
 ## 🖥️ Exemplo de uso no terminal
 
-### ✅ Modelo 1:
-
 ```bash
 (.venv) (base) joaopauloaramuni@MacBook-Pro-de-Joao Projeto SentimentExplain % python3 sentiment_explain.py
 No model was supplied, defaulted to distilbert/distilbert-base-uncased-finetuned-sst-2-english and revision 714eb0f (https://huggingface.co/distilbert/distilbert-base-uncased-finetuned-sst-2-english).
