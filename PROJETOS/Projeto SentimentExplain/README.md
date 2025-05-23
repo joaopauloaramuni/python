@@ -127,7 +127,11 @@ The: 0.0008
 
 ### 🤗 Modelo Pré-Treinado para Análise de Sentimentos
 
-[distilbert-base-uncased-finetuned-sst-2-english](https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english)
+- [distilbert-base-uncased-finetuned-sst-2-english](https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english) - Modelo baseado no DistilBERT, treinado especificamente para análise de sentimentos usando o dataset SST-2 (Stanford Sentiment Treebank). Ele é uma versão mais leve e rápida do BERT, ideal para tarefas de NLP com bom desempenho e eficiência.
+
+### 📄 Artigos Relevantes
+
+- [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding (Google)](https://arxiv.org/abs/1810.04805) — Artigo fundamental que introduz o modelo BERT, base para muitos modelos de NLP, incluindo os listados acima.
 
 ---
 
