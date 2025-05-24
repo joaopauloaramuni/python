@@ -97,6 +97,37 @@ Além da tradução, um compilador pode detectar erros, realizar otimizações e
   
   `re.compile(padrao)` — compila o padrão para uso repetido, melhorando performance.
 
+  No caso deste projeto, a biblioteca `re` **transforma a string do código-fonte em tokens** (unidades léxicas). Ela é essencial para reconhecer padrões no texto do código-fonte e transformá-lo em tokens que o parser vai processar.
+
+  Como funciona?
+
+  1. Definição dos padrões (`token_specification`)
+  
+  Cada token tem um nome e uma expressão regular que define seu padrão no texto, ex:
+  
+  - `'INT'`: `r'int\b'` — palavra-chave `int`
+  - `'ID'`: `r'[a-zA-Z_]\w*'` — identificadores
+  - `'NUMBER'`: `r'\d+(\.\d+)?'` — números inteiros ou decimais
+  - `'SKIP'`: `r'[ \t+'` — espaços e tabulações (ignorados)
+  - `'MISMATCH'`: `r'.'` — caractere inválido (gera erro)
+  
+  2. Combinação das expressões
+  
+  - Usando `|` (OU lógico), todas as regex são unidas em uma só com grupos nomeados:
+  
+  ```python
+  token_regex = '|'.join(f'(?P<{name}>{pattern})' for name, pattern in token_specification)
+  ```
+
+  3. Extração dos tokens com `re.finditer`
+  Percorre o código-fonte, encontrando cada trecho que bate com algum padrão.
+  
+  Identifica o tipo de token pelo grupo nomeado (match.lastgroup).
+  
+  Ignora espaços, quebras de linha e lança erro para caracteres inválidos.
+  
+  Retorna uma lista de tokens (tuplas do tipo e valor).
+
 ---
 
 ### 🧹 O que faz um Analisador Léxico (Lexer)?
