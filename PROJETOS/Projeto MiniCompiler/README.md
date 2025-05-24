@@ -29,7 +29,7 @@ Além da tradução, um compilador pode detectar erros, realizar otimizações e
 
 ---
 
-### 🗣️ O que é uma linguagem, uma gramática, uma sentença e uma expressão regular?
+### 🗣️ O que é uma linguagem, uma gramática e uma sentença?
 
 - **Linguagem de programação**: É um conjunto de regras sintáticas e semânticas que definem como escrever programas. Exemplo: Python, C, Java.
 
@@ -52,10 +52,12 @@ Além da tradução, um compilador pode detectar erros, realizar otimizações e
   int = x 42;
   ```
 
+### 🗣️ O que é uma expressão regular?
+
 - **Expressão regular**: Uma expressão regular (ou regex, de regular expression) é uma forma compacta de descrever padrões de texto. Ela permite que você procure, valide ou extraia partes de uma string com base em regras específicas.
 
-  Exemplo para uma máscara de telefone:
-  Suponha que você queira verificar se uma string contém um número de telefone no formato (99) 9999-9999.
+Exemplo para uma máscara de telefone: Suponha que você queira verificar se uma string contém um número de telefone no formato (99) 9999-9999.
+
   Você poderia usar uma expressão regular assim:
   
   ```python
@@ -83,35 +85,35 @@ Além da tradução, um compilador pode detectar erros, realizar otimizações e
   
   `\d{4}` — mais quatro dígitos.
 
-  Como funciona a `re` no Python:
+Como funciona a `re` no Python:
   
-  A biblioteca `re` fornece funções para usar expressões regulares, como:
-  
-  `re.search(padrao, texto)` — procura o padrão em qualquer parte da string;
-  
-  `re.match(padrao, texto)` — verifica se o padrão aparece no início da string;
-  
-  `re.findall(padrao, texto)` — retorna todas as ocorrências que combinam com o padrão;
-  
-  `re.sub(padrao, substituto, texto)` — substitui partes do texto que combinam com o padrão;
-  
-  `re.compile(padrao)` — compila o padrão para uso repetido, melhorando performance.
+A biblioteca `re` fornece funções para usar expressões regulares, como:
 
-  No caso deste projeto, a biblioteca `re` **transforma a string do código-fonte em tokens** (unidades léxicas). Ela é essencial para reconhecer padrões no texto do código-fonte e transformá-lo em tokens que o parser vai processar.
+`re.search(padrao, texto)` — procura o padrão em qualquer parte da string;
 
-  Como funciona?
+`re.match(padrao, texto)` — verifica se o padrão aparece no início da string;
 
-  1. Definição dos padrões (`token_specification`)
-  
-  Cada token tem um nome e uma expressão regular que define seu padrão no texto, ex:
+`re.findall(padrao, texto)` — retorna todas as ocorrências que combinam com o padrão;
+
+`re.sub(padrao, substituto, texto)` — substitui partes do texto que combinam com o padrão;
+
+`re.compile(padrao)` — compila o padrão para uso repetido, melhorando performance.
+
+No caso deste projeto, a biblioteca `re` **transforma a string do código-fonte em tokens** (unidades léxicas). Ela é essencial para reconhecer padrões no texto do código-fonte e transformá-lo em tokens que o parser vai processar.
+
+⚙️ Como funciona?
+
+1. Definição dos padrões (`token_specification`)
+
+Cada token tem um nome e uma expressão regular que define seu padrão no texto, ex:
   
   - `'INT'`: `r'int\b'` — palavra-chave `int`
   - `'ID'`: `r'[a-zA-Z_]\w*'` — identificadores
   - `'NUMBER'`: `r'\d+(\.\d+)?'` — números inteiros ou decimais
   - `'SKIP'`: `r'[ \t+'` — espaços e tabulações (ignorados)
   - `'MISMATCH'`: `r'.'` — caractere inválido (gera erro)
-  
-  2. Combinação das expressões
+
+2. Combinação das expressões
   
   - Usando `|` (OU lógico), todas as regex são unidas em uma só com grupos nomeados:
   
@@ -119,14 +121,15 @@ Além da tradução, um compilador pode detectar erros, realizar otimizações e
   token_regex = '|'.join(f'(?P<{name}>{pattern})' for name, pattern in token_specification)
   ```
 
-  3. Extração dos tokens com `re.finditer`
-  Percorre o código-fonte, encontrando cada trecho que bate com algum padrão.
-  
-  Identifica o tipo de token pelo grupo nomeado (match.lastgroup).
-  
-  Ignora espaços, quebras de linha e lança erro para caracteres inválidos.
-  
-  Retorna uma lista de tokens (tuplas do tipo e valor).
+3. Extração dos tokens com `re.finditer`
+
+Percorre o código-fonte, encontrando cada trecho que bate com algum padrão.
+
+Identifica o tipo de token pelo grupo nomeado (match.lastgroup).
+
+Ignora espaços, quebras de linha e lança erro para caracteres inválidos.
+
+Retorna uma lista de tokens (tuplas do tipo e valor).
 
 ---
 
