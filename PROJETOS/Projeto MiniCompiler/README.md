@@ -29,7 +29,7 @@ Além da tradução, um compilador pode detectar erros, realizar otimizações e
 
 ---
 
-### 🗣️ O que é uma linguagem, uma gramática e uma sentença?
+### 🗣️ O que é uma linguagem, uma gramática, uma sentença e uma expressão regular?
 
 - **Linguagem de programação**: É um conjunto de regras sintáticas e semânticas que definem como escrever programas. Exemplo: Python, C, Java.
 
@@ -51,6 +51,51 @@ Além da tradução, um compilador pode detectar erros, realizar otimizações e
   ```c
   int = x 42;
   ```
+
+- **Expressão regular**: Uma expressão regular (ou regex, de regular expression) é uma forma compacta de descrever padrões de texto. Ela permite que você procure, valide ou extraia partes de uma string com base em regras específicas.
+
+  Exemplo para uma máscara de telefone:
+  Suponha que você queira verificar se uma string contém um número de telefone no formato (99) 9999-9999.
+  Você poderia usar uma expressão regular assim:
+  
+  ```python
+  import re
+  
+  texto = "Meu telefone é (11) 1234-5678"
+  padrao = r"\(\d{2}\) \d{4}-\d{4}"
+  resultado = re.search(padrao, texto)
+  
+  if resultado:
+    print("Número encontrado:", resultado.group())
+  ```
+
+  Aqui, o padrão `\(\d{2}\) \d{4}-\d{4}` quer dizer:
+  
+  `\(` e `\)` — o parêntese literal;
+  
+  `\d{2}` — dois dígitos (para o DDD);
+  
+  espaço;
+  
+  `\d{4}` — quatro dígitos;
+  
+  `-`;
+  
+  `\d{4}` — mais quatro dígitos.
+
+  Como funciona a `re` no Python:
+  
+  A biblioteca `re` fornece funções para usar expressões regulares, como:
+  
+  `re.search(padrao, texto)` — procura o padrão em qualquer parte da string;
+  
+  `re.match(padrao, texto)` — verifica se o padrão aparece no início da string;
+  
+  `re.findall(padrao, texto)` — retorna todas as ocorrências que combinam com o padrão;
+  
+  `re.sub(padrao, substituto, texto)` — substitui partes do texto que combinam com o padrão;
+  
+  `re.compile(padrao)` — compila o padrão para uso repetido, melhorando performance.
 
 ---
 
@@ -133,7 +178,7 @@ int x = 42;
 Declaração válida!
 ```
 
-### ❌ Sentença inválida - Erro léxico:
+### ❌ Sentença inválida - Erro léxico (tem um @ em int@):
 
 ```
 >>> Código fonte:
@@ -163,7 +208,7 @@ Erro sintático: Esperado SEMICOLON, mas encontrei EOF
 
 ## 📦 Dependências
 
-Nenhuma biblioteca externa é necessária. O projeto usa apenas a biblioteca padrão `re` (expressões regulares).
+Nenhuma biblioteca externa é necessária. O projeto usa apenas a biblioteca padrão `re` para expressões regulares.
 
 ---
 
@@ -190,9 +235,9 @@ source .venv/bin/activate
 
 ## 📚 Documentação e Links Úteis
 
-- [Wikipedia: Compiler](https://en.wikipedia.org/wiki/Compiler)
 - [Python re Module (docs)](https://docs.python.org/3/library/re.html)
-- [Livro recomendado: Compiladores - Princípios, Técnicas e Ferramentas (Dragon Book)](https://pt.wikipedia.org/wiki/Compiladores:_Princ%C3%ADpios,_T%C3%A9cnicas_e_Ferramentas)
+- [Veja o material de compiladores do Prof. Aramuni aqui](https://github.com/joaopauloaramuni/compiladores/tree/main/PDF)
+- [Livro recomendado: Compiladores - Princípios, Técnicas e Ferramentas (Dragon Book)](https://www.amazon.com.br/Compiladores-princ%C3%ADpios-ferramentas-Alfred-Aho/dp/8588639246/)
 
 ---
 
