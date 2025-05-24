@@ -58,18 +58,18 @@ Além da tradução, um compilador pode detectar erros, realizar otimizações e
 
 - **Expressão regular**: Uma expressão regular (ou regex, de regular expression) é uma forma compacta de descrever padrões de texto. Ela permite que você procure, valide ou extraia partes de uma string com base em regras específicas.
 
-Exemplo para uma máscara de telefone: Suponha que você queira verificar se uma string contém um número de telefone no formato (99) 9999-9999.
+  Exemplo para uma máscara de telefone: Suponha que você queira verificar se uma string contém um número de telefone no formato (99) 9999-9999.
 
-```python
-import re
-
-texto = "Meu telefone é (11) 1234-5678"
-padrao = r"\(\d{2}\) \d{4}-\d{4}"
-resultado = re.search(padrao, texto)
-
-if resultado:
-  print("Número encontrado:", resultado.group())
-```
+  ```python
+  import re
+  
+  texto = "Meu telefone é (11) 1234-5678"
+  padrao = r"\(\d{2}\) \d{4}-\d{4}"
+  resultado = re.search(padrao, texto)
+  
+  if resultado:
+    print("Número encontrado:", resultado.group())
+  ```
 
 Aqui, o padrão `\(\d{2}\) \d{4}-\d{4}` quer dizer:
 
