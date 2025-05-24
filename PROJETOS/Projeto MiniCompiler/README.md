@@ -71,14 +71,14 @@ Além da tradução, um compilador pode detectar erros, realizar otimizações e
     print("Número encontrado:", resultado.group())
   ```
 
-Aqui, o padrão `\(\d{2}\) \d{4}-\d{4}` quer dizer:
-
-- `\(` e `\)` — o parêntese literal;
-- `\d{2}` — dois dígitos (para o DDD);
-- espaço;
-- `\d{4}` — quatro dígitos;
-- `-`;
-- `\d{4}` — mais quatro dígitos.
+  Aqui, o padrão `\(\d{2}\) \d{4}-\d{4}` quer dizer:
+  
+  - `\(` e `\)` — o parêntese literal;
+  - `\d{2}` — dois dígitos (para o DDD);
+  - espaço;
+  - `\d{4}` — quatro dígitos;
+  - `-`;
+  - `\d{4}` — mais quatro dígitos.
 
 ## ⚙️ Como funciona o módulo `re` no Python?
 
