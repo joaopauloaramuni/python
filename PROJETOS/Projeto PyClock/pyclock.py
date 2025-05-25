@@ -22,7 +22,7 @@ def atualizar_relogio(rotulo_hora, rotulo_data):
 def main():
     # Janela principal
     janela = tk.Tk()
-    janela.title('Relógio digital')
+    janela.title('Relógio Digital')
     janela.geometry('350x100')
     janela.resizable(False, False)
     janela.configure(bg='black')
