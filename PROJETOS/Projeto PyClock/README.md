@@ -24,7 +24,7 @@ O projeto usa apenas bibliotecas nativas do Python:
 
 ## 🖼️ Captura de tela
 
-| ![Home](https://joaopauloaramuni.github.io/python-imgs/PyClock/imgs/clock.png) |
+| <img src="https://joaopauloaramuni.github.io/python-imgs/PyClock/imgs/clock.png" alt="PyClock" width="600"/> |
 |:-----------------------:|
 |         PyClock         |
 
