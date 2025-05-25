@@ -1,5 +1,4 @@
-
-# 🕒 PyClock – Relógio Digital com Data em Python + Tkinter
+# 🕒 Projeto PyClock – Relógio Digital com data em Python + Tkinter
 
 O **PyClock** é um aplicativo simples de relógio digital com interface gráfica que mostra a **hora** e a **data atual**, incluindo o **dia da semana** por extenso. Feito com a biblioteca nativa `tkinter`, é uma ótima introdução à criação de interfaces gráficas em Python.
 
@@ -25,9 +24,9 @@ O projeto usa apenas bibliotecas nativas do Python:
 
 ## 🖼️ Captura de tela
 
-> *Adicione aqui uma imagem do relógio em funcionamento!*
-> Exemplo:
-> ![screenshot](screenshot.png)
+| ![Home](https://joaopauloaramuni.github.io/python-imgs/PyClock/imgs/clock.png) |
+|:-----------------------:|
+|         PyClock         |
 
 ---
 
