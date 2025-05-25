@@ -32,26 +32,28 @@ O projeto usa apenas bibliotecas nativas do Python:
 
 ## 🧪 Ambiente Virtual (Recomendado)
 
-É recomendável usar um ambiente virtual para isolar seu ambiente de desenvolvimento.
+### Passo 1: Criar e ativar o ambiente virtual
 
-1. Crie um ambiente virtual:
-```bash
-python3 -m venv .venv
-```
+É recomendado criar um ambiente virtual para isolar as dependências do projeto. Para configurar o ambiente virtual:
 
-2. Ative o ambiente virtual:
+1. **Criar o ambiente virtual**:
+   ```bash
+   python -m venv venv
+   ```
 
-- macOS e Linux:
-```bash
-source .venv/bin/activate
-```
+2. **Ativar o ambiente virtual**:
+   - No Windows:
+     ```bash
+     .venv\Scripts\activate
+     ```
+   - No macOS/Linux:
+     ```bash
+     source venv/bin/activate
+     ```
 
-- Windows:
-```bash
-.venv\Scripts\activate
-```
+### Passo 2: Executar o script
 
-3. Rode o programa normalmente:
+Após ativar o ambiente virtual, execute o script principal:
 ```bash
 python pyclock.py
 ```
