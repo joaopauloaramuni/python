@@ -26,7 +26,7 @@ Com poucos comandos, você transforma scripts Python em aplicações interativas
 
 ## Captura de tela:
 
-| <img src="https://joaopauloaramuni.github.io/python-imgs/IMC_Streamlit/imgs/Home.png" alt="Home" width="800"/> |
+| <img src="https://joaopauloaramuni.github.io/python-imgs/IMC_Streamlit/imgs/home.png" alt="Home" width="800"/> |
 |:--------------------:|
 |         Home         |
 
