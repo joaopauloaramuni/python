@@ -129,6 +129,11 @@ Ou até mesmo impedir o correto funcionamento da interface gráfica.
 
 ---
 
+📘 Leia sobre o protocolo do Ministério da Saúde:  
+[**PCDT Resumido de Sobrepeso e Obesidade**](PCDT_MS/PCDTResumidodeSobrepesoObesidade.pdf)
+
+---
+
 ## ✨ Exemplo de uso
 
 Digite seu peso e altura na interface e clique em **Calcular IMC**. Você verá o resultado e uma barra de progresso correspondente ao valor.
@@ -138,6 +143,8 @@ Digite seu peso e altura na interface e clique em **Calcular IMC**. Você verá 
 ## 👨‍💻 Autor
 
 Feito com ❤️ para fins educacionais.
+
+---
 
 ## 🪪 Licença
 
