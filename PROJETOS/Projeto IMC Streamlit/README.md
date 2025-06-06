@@ -129,8 +129,9 @@ Ou até mesmo impedir o correto funcionamento da interface gráfica.
 
 ---
 
-📘 Leia sobre o protocolo do Ministério da Saúde:  
-[**PCDT Resumido de Sobrepeso e Obesidade**](PCDT_MS/PCDTResumidodeSobrepesoObesidade.pdf)
+📘 Leia sobre o protocolo do Ministério da Saúde:
+
+- [**PCDT Resumido de Sobrepeso e Obesidade**](PCDT_MS/PCDTResumidodeSobrepesoObesidade.pdf)
 
 ---
 
