@@ -184,6 +184,22 @@ No código do analisador léxico, o `re` **transforma a string do código-fonte 
 
 Cada token tem um nome e uma expressão regular que define seu padrão no texto. Exemplos de tokens comuns:
 
+#### Versão 1
+
+| Nome do Token | Expressão Regular         | Significado                                 |
+|---------------|---------------------------|---------------------------------------------|
+| `'INT'`       | `r'int\b'`                | palavra-chave `int`                         |
+| `'FLOAT'`     | `r'float\b'`              | palavra-chave `float`                       |
+| `'ID'`        | `r'[a-zA-Z_]\w*'`         | identificador (nome de variável, etc.)      |
+| `'ASSIGN'`    | `r'='`                    | operador de atribuição                      |
+| `'NUMBER'`    | `r'\d+(\.\d+)?'`          | número inteiro ou de ponto flutuante        |
+| `'SEMICOLON'` | `r';'`                    | ponto e vírgula                             |
+| `'SKIP'`      | `r'[ \t]+'`               | espaços e tabulações (ignorados)            |
+| `'NEWLINE'`   | `r'\n'`                   | quebras de linha (ignoradas)                |
+| `'MISMATCH'`  | `r'.'`                    | qualquer caractere não reconhecido (erro)   |
+
+#### Versão 2 
+
 | Nome do Token | Expressão Regular         | Significado                                |
 |---------------|---------------------------|--------------------------------------------|
 | `'INT'`       | `r'int\b'`                | palavra-chave `int`                        |
