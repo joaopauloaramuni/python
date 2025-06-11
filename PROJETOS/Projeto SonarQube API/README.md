@@ -99,7 +99,7 @@ SONAR_TOKEN = "seu_token_aqui" # squ_0a771d466672b12431951af497d79e**********
 
 ### 🖼️ Captura de Tela
 
-| ![SonarQube](https://joaopauloaramuni.github.io/python-imgs/SonarQubeAPI/imgs/sonarqube.png) |
+| ![SonarQube](https://joaopauloaramuni.github.io/python-imgs/SonarQube_API/imgs/sonarqube.png) |
 |:-------------------------:|
 |         SonarQube         |
 
