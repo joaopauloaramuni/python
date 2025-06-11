@@ -226,6 +226,7 @@ python -m venv .venv
 ## 💻 Resultado no terminal
 
 **Repositório analisado:** `arieslab/jnose`
+
 **URL**: `https://github.com/arieslab/jnose`
 
 ```
