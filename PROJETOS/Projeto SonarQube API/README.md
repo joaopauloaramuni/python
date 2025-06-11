@@ -251,6 +251,9 @@ python -m venv .venv
 - **Repositório analisado:** `arieslab/jnose`
 - **URL**: `https://github.com/arieslab/jnose`
 
+<details>
+  <summary>Clique para exibir a saída do terminal</summary>
+
 ```
 (venv) (base) joaopauloaramuni@MacBook-Pro-de-Joao Projeto SonarQube API % python3 sonar.py
 ************ Projeto de Análise de Repositórios Java com SonarQube ************
@@ -498,6 +501,7 @@ vulnerabilities: 0
 ************ Análise concluída! ************
 (venv) (base) joaopauloaramuni@MacBook-Pro-de-Joao Projeto SonarQube API % 
 ```
+</details>
 
 ---
 
