@@ -477,6 +477,36 @@ vulnerabilities: 0
 
 ---
 
+## 📊 Resumo dos resultados
+
+| Métrica                      | Valor             | Explicação                                                                                  |
+|-----------------------------|-------------------|--------------------------------------------------------------------------------------------|
+| **Complexity**               | 511               | Soma da complexidade ciclomática das funções/métodos, indica complexidade do código.        |
+| **Duplicated Lines Density** | 0.6               | Percentual de linhas duplicadas em relação ao total de linhas do código.                    |
+| **Duplicated Lines**         | 197               | Número total de linhas duplicadas no código.                                               |
+| **Functions**                | 200               | Quantidade de funções/métodos presentes no projeto.                                        |
+| **Classes**                  | 33                | Quantidade de classes definidas no código.                                                |
+| **Statements**               | 1842              | Total de comandos ou instruções executáveis no código.                                    |
+| **SQALE Index**              | 2836              | Índice que indica a dívida técnica do código (quanto maior, pior).                        |
+| **Bugs**                    | 25                | Número estimado de defeitos ou erros no código.                                           |
+| **Lines to Cover**           | 2097              | Quantidade de linhas de código que deveriam ser cobertas por testes.                       |
+| **Duplicated Files**         | 6                 | Número de arquivos que possuem código duplicado.                                          |
+| **NCLOC (Non-Comment Lines of Code)** | 27,359    | Número de linhas de código sem contar comentários.                                       |
+| **Line Coverage**            | 0.0%              | Percentual de linhas efetivamente cobertas por testes automatizados.                      |
+| **Total Lines**              | 31,516            | Total de linhas presentes no projeto, incluindo código e comentários.                     |
+| **Coverage**                 | 0.0%              | Percentual geral de cobertura de testes (linhas, branches, etc.).                        |
+| **Code Smells**              | 364               | Número de “code smells” ou problemas de qualidade no código que podem indicar refatoração.|
+| **NCLOC Language Distribution** | `<null>`=18; CSS=22,312; Docker=8; Java=3,499; Web=1,030; XML=492 | Distribuição das linhas de código por linguagem/tecnologia.                          |
+| **Comment Lines Density**    | 1.6               | Percentual de linhas de comentário em relação ao total de linhas de código.                |
+| **Comment Lines**            | 454               | Quantidade total de linhas contendo comentários.                                          |
+| **Uncovered Lines**          | 2,097             | Linhas de código que não foram cobertas por testes.                                       |
+| **Cognitive Complexity**     | 347               | Medida da complexidade mental para entender o código, levando em conta estruturas e lógica.|
+| **Duplicated Blocks**        | 11                | Número de blocos de código duplicado identificados.                                       |
+| **Files**                   | 67                | Quantidade total de arquivos analisados.                                                  |
+| **Vulnerabilities**          | 0                 | Número de vulnerabilidades de segurança encontradas.                                     |
+
+---
+
 ## 📚 Documentação e links úteis
 
 - [📘 SonarQube Docs](https://docs.sonarsource.com/sonarqube-server/latest/)
