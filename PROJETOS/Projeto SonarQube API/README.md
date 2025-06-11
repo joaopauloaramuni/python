@@ -107,12 +107,35 @@ SONAR_TOKEN = "seu_token_aqui" # squ_0a771d466672b12431951af497d79e**********
 
 ## 🧩 Explicação das funções do código
 
-- `compilar_java(caminho_repo)`: Compila automaticamente o projeto Java utilizando Maven, Gradle ou `javac` puro. Retorna o caminho para os arquivos `.class`.
-- `get_sonar_metrics(project_key)`: Consulta a API do SonarQube e extrai métricas de qualidade com base na chave do projeto.
-- `aguardar_processamento(task_id)`: Aguarda o término da análise assíncrona no SonarQube antes de buscar as métricas.
-- `run_sonar_scanner(repo_path, project_key)`: Cria o arquivo de configuração `sonar-project.properties` e executa o `sonar-scanner`.
-- `clone_repo(github_url)`: Clona o repositório GitHub em uma pasta temporária.
-- `analisar_repositorio(github_url)`: Coordena todo o processo de análise (clone, build, scanner, consulta).
+- `compilar_java(caminho_repo)`  
+  🔧 Compila automaticamente o projeto Java localizado em `caminho_repo`.  
+  Detecta se o projeto utiliza **Maven**, **Gradle** ou `javac` e executa a compilação correspondente.  
+  Retorna o caminho para os arquivos `.class`, necessários para a análise do SonarQube.
+
+- `get_sonar_metrics(project_key)`  
+  📊 Consulta a API REST do SonarQube usando a `project_key` do projeto.  
+  Extrai um conjunto de métricas de qualidade, como complexidade, densidade de duplicação, cobertura de testes, número de bugs, code smells e vulnerabilidades.
+
+- `aguardar_processamento(task_id)`  
+  ⏳ Monitora o status da análise assíncrona no SonarQube, associada ao `task_id`.  
+  Aguarda até que a análise seja finalizada, garantindo que os dados coletados estejam completos.
+
+- `run_sonar_scanner(repo_path, project_key)`  
+  🚀 Gera o arquivo de configuração `sonar-project.properties` com os parâmetros necessários para análise.  
+  Executa o `sonar-scanner`, que faz a varredura do repositório localizado em `repo_path` e envia os dados ao servidor do SonarQube.
+
+- `clone_repo(github_url)`  
+  🧬 Clona o repositório GitHub indicado pela URL para um diretório temporário.  
+  Essa etapa isola o projeto localmente, permitindo a análise de qualquer repositório remoto sem alterações manuais.
+
+- `analisar_repositorio(github_url)`  
+  🧠 Função principal que coordena todo o fluxo de análise de qualidade:  
+  1. Clonagem do repositório remoto.  
+  2. Compilação do projeto Java.  
+  3. Geração e execução do `sonar-scanner`.  
+  4. Monitoramento da análise assíncrona.  
+  5. Coleta e retorno das métricas extraídas pela API.  
+  Tudo isso de forma automatizada, a partir de uma única URL de repositório.
 
 ---
 
