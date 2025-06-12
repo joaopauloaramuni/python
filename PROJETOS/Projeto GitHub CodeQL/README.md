@@ -104,6 +104,20 @@ Durante a execução do projeto, os seguintes diretórios são utilizados ou cri
 
 > ⚠️ Certifique-se de que o diretório `codeql/java/ql/src/codeql-suites/` exista e contenha os arquivos `.qls` necessários antes de rodar o script.
 
+Essa estrutura pressupõe que você **clonou o repositório oficial do CodeQL** diretamente do GitHub:
+
+```bash
+git clone https://github.com/github/codeql.git
+```
+
+Alternativamente, você pode usar o comando abaixo para **baixar os pacotes oficiais via CLI**, sem clonar o repositório:
+
+```bash
+codeql pack install
+```
+
+Esse comando resolve automaticamente as dependências e instala os pacotes CodeQL referenciados no arquivo `qlpack.yml`. Essa abordagem é recomendada quando você está usando a CLI em um projeto configurado com `qlpack.yml` e deseja evitar o clone manual do repositório.
+
 ---
 
 ## 📦 Dependências
@@ -116,12 +130,11 @@ Este projeto depende dos seguintes requisitos para funcionar corretamente:
 - **[CodeQL CLI](https://github.com/github/codeql-cli-binaries/releases)**  
   Ferramenta de análise estática desenvolvida pela GitHub, usada para identificar vulnerabilidades, bugs e problemas de qualidade em código-fonte.
 
-- **Query Suites do CodeQL**  
-  Os arquivos `.qls` contendo as consultas devem estar presentes na seguinte pasta:
-
-  ```
-  codeql/java/ql/src/codeql-suites/
-  ```
+- **Pacotes e Query Suites do CodeQL**  
+  Os arquivos `.qls` contendo as consultas devem estar disponíveis. Isso pode ser feito de duas formas:
+  
+  - Clonando o repositório oficial do CodeQL (estrutura esperada: `codeql/java/ql/src/codeql-suites/`), **ou**
+  - Utilizando o comando `codeql pack install`, que baixa os pacotes automaticamente com base no `qlpack.yml`.
 
 > Certifique-se de que o CodeQL CLI esteja instalado corretamente e disponível no terminal com:
 
@@ -224,8 +237,11 @@ O SARIF (Static Analysis Results Interchange Format) é um formato padrão para 
 - [CodeQL CLI – Introdução](https://docs.github.com/pt/enterprise-server@3.13/code-security/codeql-cli/getting-started-with-the-codeql-cli/about-the-codeql-cli)  
   Visão geral da CLI do CodeQL.
 
-- [CodeQL CLI - pack install](https://docs.github.com/en/code-security/codeql-cli/codeql-cli-manual/pack-install)  
+- [CodeQL CLI - pack install](https://docs.github.com/pt/code-security/codeql-cli/codeql-cli-manual/pack-install)  
   Comando `codeql pack install` e como usá-lo para gerenciar pacotes CodeQL.
+
+- [Criando e Trabalhando com CodeQL Packs](https://docs.github.com/pt/code-security/codeql-cli/using-the-advanced-functionality-of-the-codeql-cli/creating-and-working-with-codeql-packs)  
+  Explica como criar, estruturar e gerenciar pacotes (`packs`) personalizados no CodeQL.
 
 - [Preparando Código para CodeQL](https://docs.github.com/pt/enterprise-server@3.13/code-security/codeql-cli/getting-started-with-the-codeql-cli/preparing-your-code-for-codeql-analysis)  
   Como preparar seu projeto para análise com CodeQL.
