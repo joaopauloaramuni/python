@@ -212,8 +212,6 @@ O SARIF (Static Analysis Results Interchange Format) é um formato padrão para 
 
 ## 📚 Documentação e Links Úteis
 
-## 📚 Documentação e Recursos sobre CodeQL
-
 - [Documentação Geral do CodeQL](https://codeql.github.com/docs/)  
   Página principal com toda a documentação oficial do CodeQL.
 
