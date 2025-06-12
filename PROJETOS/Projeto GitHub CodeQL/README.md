@@ -212,12 +212,28 @@ O SARIF (Static Analysis Results Interchange Format) é um formato padrão para 
 
 ## 📚 Documentação e Links Úteis
 
-- [Documentação Geral do CodeQL](https://codeql.github.com/docs/)
-- [Sobre o CodeQL](https://codeql.github.com/docs/codeql-overview/about-codeql/)
-- [Sobre Queries CodeQL](https://codeql.github.com/docs/writing-codeql-queries/about-codeql-queries/)
-- [CodeQL CLI – Introdução](https://docs.github.com/pt/enterprise-server@3.13/code-security/codeql-cli/getting-started-with-the-codeql-cli/about-the-codeql-cli)
-- [Preparando Código para CodeQL](https://docs.github.com/pt/enterprise-server@3.13/code-security/codeql-cli/getting-started-with-the-codeql-cli/preparing-your-code-for-codeql-analysis)
-- [Formato SARIF – Detalhes](https://docs.github.com/en/code-security/codeql-cli/using-the-advanced-functionality-of-the-codeql-cli/sarif-output)
+## 📚 Documentação e Recursos sobre CodeQL
+
+- [Documentação Geral do CodeQL](https://codeql.github.com/docs/)  
+  Página principal com toda a documentação oficial do CodeQL.
+
+- [Sobre o CodeQL](https://codeql.github.com/docs/codeql-overview/about-codeql/)  
+  Visão geral do CodeQL: o que é, para que serve e como funciona.
+
+- [Sobre Queries CodeQL](https://codeql.github.com/docs/writing-codeql-queries/about-codeql-queries/)  
+  Introdução à escrita de consultas em CodeQL e à linguagem em si.
+
+- [CodeQL CLI – Introdução](https://docs.github.com/pt/enterprise-server@3.13/code-security/codeql-cli/getting-started-with-the-codeql-cli/about-the-codeql-cli)  
+  Visão geral da CLI do CodeQL.
+
+- [CodeQL CLI - pack install](https://docs.github.com/en/code-security/codeql-cli/codeql-cli-manual/pack-install)  
+  Comando `codeql pack install` e como usá-lo para gerenciar pacotes CodeQL.
+
+- [Preparando Código para CodeQL](https://docs.github.com/pt/enterprise-server@3.13/code-security/codeql-cli/getting-started-with-the-codeql-cli/preparing-your-code-for-codeql-analysis)  
+  Como preparar seu projeto para análise com CodeQL.
+
+- [Formato SARIF – Detalhes](https://docs.github.com/en/code-security/codeql-cli/using-the-advanced-functionality-of-the-codeql-cli/sarif-output)  
+  Informações detalhadas sobre o formato de saída SARIF utilizado nas análises.
 
 ---
 
