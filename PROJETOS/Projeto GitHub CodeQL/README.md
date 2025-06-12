@@ -83,7 +83,7 @@ Esse trecho executa a análise CodeQL:
 
 ---
 
-## 📁 Estrutura de diretórios
+## 📁 Estrutura de diretórios e arquivos
 
 Durante a execução do projeto, os seguintes diretórios são utilizados ou criados automaticamente:
 
@@ -117,6 +117,18 @@ codeql pack install
 ```
 
 Esse comando resolve automaticamente as dependências e instala os pacotes CodeQL referenciados no arquivo `qlpack.yml`. Essa abordagem é recomendada quando você está usando a CLI em um projeto configurado com `qlpack.yml` e deseja evitar o clone manual do repositório.
+
+🔧 Exemplo de `qlpack.yml` mínimo para análise com Java:
+
+```yaml
+name: meu-org/minha-analise-java
+version: 0.0.1
+dependencies:
+  codeql/java-queries: "*"
+extractor: java
+```
+
+Esse arquivo indica que você deseja usar as queries do pacote oficial `codeql/java-queries` e que o extrator utilizado será o de **Java**. Após isso, basta rodar `codeql pack install` para que tudo seja baixado automaticamente.
 
 ---
 
@@ -240,7 +252,7 @@ O SARIF (Static Analysis Results Interchange Format) é um formato padrão para 
 - [CodeQL CLI - pack install](https://docs.github.com/pt/code-security/codeql-cli/codeql-cli-manual/pack-install)  
   Comando `codeql pack install` e como usá-lo para gerenciar pacotes CodeQL.
 
-- [Criando e Trabalhando com CodeQL Packs](https://docs.github.com/pt/code-security/codeql-cli/using-the-advanced-functionality-of-the-codeql-cli/creating-and-working-with-codeql-packs)  
+- [CodeQL CLI - Criando e Trabalhando com CodeQL Packs](https://docs.github.com/pt/code-security/codeql-cli/using-the-advanced-functionality-of-the-codeql-cli/creating-and-working-with-codeql-packs)  
   Explica como criar, estruturar e gerenciar pacotes (`packs`) personalizados no CodeQL.
 
 - [Preparando Código para CodeQL](https://docs.github.com/pt/enterprise-server@3.13/code-security/codeql-cli/getting-started-with-the-codeql-cli/preparing-your-code-for-codeql-analysis)  
