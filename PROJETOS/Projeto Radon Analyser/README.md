@@ -215,6 +215,8 @@ Principais classes:
 
 ```text
 📄 Arquivo: ./repo_temp/rich/status.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ Status (linha 11): complexidade 2 - nota A
   ↳ __init__ (linha 23): complexidade 1 - nota A
   ↳ renderable (linha 45): complexidade 1 - nota A
@@ -234,6 +236,7 @@ Principais classes:
 
   [Maintainability Index]
     MI: 69.25 - nota A
+
 ```
 
 ---
