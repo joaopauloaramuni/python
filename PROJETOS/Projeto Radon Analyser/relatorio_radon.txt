@@ -1,6 +1,8 @@
 
   📄 Arquivo: ./repo_temp/setup.py
 
+  [Complexidade Ciclomática por Função/Método]
+
   [Métricas Brutas]
     LOC: 8 | LLOC: 3 | SLOC: 3 | Comentários: 2 | Blanks: 3
 
@@ -12,16 +14,20 @@
 
   📄 Arquivo: ./repo_temp/tools/profile_pretty.py
 
+  [Complexidade Ciclomática por Função/Método]
+
   [Métricas Brutas]
-    LOC: 23 | LLOC: 18 | SLOC: 17 | Comentários: 0 | Blanks: 6
+    LOC: 23 | LLOC: 17 | SLOC: 17 | Comentários: 0 | Blanks: 6
 
   [Halstead]
     Volume: 15.51 | Dificuldade: 1.00 | Esforço: 15.51 | Bugs estimados: 0.01
 
   [Maintainability Index]
-    MI: 64.15 - nota A
+    MI: 64.69 - nota A
 
   📄 Arquivo: ./repo_temp/tools/stress_test_pretty.py
+
+  [Complexidade Ciclomática por Função/Método]
 
   [Métricas Brutas]
     LOC: 21 | LLOC: 10 | SLOC: 20 | Comentários: 0 | Blanks: 1
@@ -33,6 +39,8 @@
     MI: 73.18 - nota A
 
   📄 Arquivo: ./repo_temp/tools/make_terminal_widths.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ make_widths_table (linha 13): complexidade 7 - nota B
   ↳ get_cell_size (linha 42): complexidade 5 - nota A
   ↳ test (linha 61): complexidade 3 - nota A
@@ -49,6 +57,8 @@
 
   📄 Arquivo: ./repo_temp/tools/profile_divide.py
 
+  [Complexidade Ciclomática por Função/Método]
+
   [Métricas Brutas]
     LOC: 14 | LLOC: 9 | SLOC: 8 | Comentários: 0 | Blanks: 6
 
@@ -60,6 +70,8 @@
 
   📄 Arquivo: ./repo_temp/tools/make_emoji.py
 
+  [Complexidade Ciclomática por Função/Método]
+
   [Métricas Brutas]
     LOC: 12 | LLOC: 10 | SLOC: 9 | Comentários: 0 | Blanks: 3
 
@@ -70,6 +82,8 @@
     MI: 73.04 - nota A
 
   📄 Arquivo: ./repo_temp/tests/test_pretty.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ test_install (linha 43): complexidade 3 - nota A
   ↳ test_install_max_depth (linha 52): complexidade 3 - nota A
   ↳ test_ipy_display_hook__repr_html (linha 61): complexidade 2 - nota A
@@ -136,6 +150,8 @@
     MI: 17.93 - nota B
 
   📄 Arquivo: ./repo_temp/tests/test_filesize.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ test_traditional (linha 4): complexidade 11 - nota C
   ↳ test_pick_unit_and_suffix (linha 17): complexidade 3 - nota A
 
@@ -149,6 +165,8 @@
     MI: 55.84 - nota A
 
   📄 Arquivo: ./repo_temp/tests/test_columns_align.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ render (linha 11): complexidade 1 - nota A
   ↳ test_align (linha 34): complexidade 2 - nota A
 
@@ -162,6 +180,8 @@
     MI: 68.15 - nota A
 
   📄 Arquivo: ./repo_temp/tests/conftest.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ reset_color_envvars (linha 5): complexidade 1 - nota A
 
   [Métricas Brutas]
@@ -174,6 +194,8 @@
     MI: 100.00 - nota A
 
   📄 Arquivo: ./repo_temp/tests/test_protocol.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ test_rich_cast (linha 14): complexidade 2 - nota A
   ↳ test_rich_cast_fake (linha 29): complexidade 2 - nota A
   ↳ test_rich_cast_container (linha 36): complexidade 2 - nota A
@@ -196,6 +218,8 @@
     MI: 45.79 - nota A
 
   📄 Arquivo: ./repo_temp/tests/test_getfileno.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ test_get_fileno (linha 4): complexidade 2 - nota A
   ↳ test_get_fileno_missing (linha 12): complexidade 2 - nota A
   ↳ test_get_fileno_broken (linha 19): complexidade 2 - nota A
@@ -210,6 +234,8 @@
     MI: 61.86 - nota A
 
   📄 Arquivo: ./repo_temp/tests/test_tree.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ test_render_single_node (linha 10): complexidade 2 - nota A
   ↳ test_render_single_branch (linha 18): complexidade 2 - nota A
   ↳ test_render_double_branch (linha 30): complexidade 2 - nota A
@@ -230,6 +256,8 @@
     MI: 39.45 - nota A
 
   📄 Arquivo: ./repo_temp/tests/test_logging.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ test_exception (linha 35): complexidade 6 - nota B
   ↳ test_exception_with_extra_lines (linha 64): complexidade 5 - nota A
   ↳ test_stderr_and_stdout_are_none (linha 94): complexidade 4 - nota A
@@ -245,6 +273,8 @@
     MI: 46.40 - nota A
 
   📄 Arquivo: ./repo_temp/tests/test_stack.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ test_stack (linha 4): complexidade 4 - nota A
 
   [Métricas Brutas]
@@ -257,6 +287,8 @@
     MI: 70.52 - nota A
 
   📄 Arquivo: ./repo_temp/tests/test_win32_console.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ test_windows_coordinates_to_ctype (linha 30): complexidade 3 - nota A
   ↳ win32_handle (linha 36): complexidade 1 - nota A
   ↳ win32_console_getters (linha 42): complexidade 1 - nota A
@@ -298,6 +330,8 @@
     MI: 31.46 - nota A
 
   📄 Arquivo: ./repo_temp/tests/test_console.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ test_dumb_terminal (linha 37): complexidade 5 - nota A
   ↳ test_soft_wrap (linha 48): complexidade 2 - nota A
   ↳ test_16color_terminal (linha 55): complexidade 2 - nota A
@@ -407,6 +441,8 @@
     MI: 7.67 - nota C
 
   📄 Arquivo: ./repo_temp/tests/test_constrain.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ test_width_of_none (linha 6): complexidade 3 - nota A
 
   [Métricas Brutas]
@@ -419,6 +455,8 @@
     MI: 71.22 - nota A
 
   📄 Arquivo: ./repo_temp/tests/test_measure.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ test_span (linha 9): complexidade 2 - nota A
   ↳ test_no_renderable (linha 14): complexidade 1 - nota A
   ↳ test_measure_renderables (linha 22): complexidade 3 - nota A
@@ -434,6 +472,8 @@
     MI: 54.74 - nota A
 
   📄 Arquivo: ./repo_temp/tests/test_syntax.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ test_blank_lines (linha 47): complexidade 2 - nota A
   ↳ test_python_render (linha 60): complexidade 2 - nota A
   ↳ test_python_render_simple (linha 79): complexidade 2 - nota A
@@ -469,6 +509,8 @@
     MI: 31.79 - nota A
 
   📄 Arquivo: ./repo_temp/tests/render.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ replace_link_ids (linha 10): complexidade 1 - nota A
   ↳ render (linha 18): complexidade 1 - nota A
 
@@ -482,6 +524,8 @@
     MI: 100.00 - nota A
 
   📄 Arquivo: ./repo_temp/tests/test_prompt.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ test_prompt_str (linha 7): complexidade 3 - nota A
   ↳ test_prompt_str_case_insensitive (linha 24): complexidade 3 - nota A
   ↳ test_prompt_str_default (linha 42): complexidade 3 - nota A
@@ -500,6 +544,8 @@
     MI: 42.09 - nota A
 
   📄 Arquivo: ./repo_temp/tests/test_table.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ render_tables (linha 16): complexidade 8 - nota B
   ↳ test_render_table (linha 89): complexidade 2 - nota A
   ↳ test_not_renderable (linha 96): complexidade 1 - nota A
@@ -524,6 +570,8 @@
     MI: 39.43 - nota A
 
   📄 Arquivo: ./repo_temp/tests/test_cells.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ test_cell_len_long_string (linha 7): complexidade 3 - nota A
   ↳ test_cell_len_short_string (linha 14): complexidade 3 - nota A
   ↳ test_set_cell_size (linha 21): complexidade 13 - nota C
@@ -543,6 +591,8 @@
     MI: 57.86 - nota A
 
   📄 Arquivo: ./repo_temp/tests/test_live_render.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ live_render (linha 9): complexidade 1 - nota A
   ↳ test_renderable (linha 13): complexidade 3 - nota A
   ↳ test_position_cursor (linha 19): complexidade 3 - nota A
@@ -559,6 +609,8 @@
     MI: 53.69 - nota A
 
   📄 Arquivo: ./repo_temp/tests/test_panel.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ render (linha 32): complexidade 1 - nota A
   ↳ test_render_panel (linha 41): complexidade 2 - nota A
   ↳ test_console_width (linha 45): complexidade 3 - nota A
@@ -576,6 +628,8 @@
     MI: 47.06 - nota A
 
   📄 Arquivo: ./repo_temp/tests/test_box.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ test_str (linha 19): complexidade 2 - nota A
   ↳ test_repr (linha 23): complexidade 2 - nota A
   ↳ test_get_top (linha 27): complexidade 2 - nota A
@@ -595,6 +649,8 @@
     MI: 41.96 - nota A
 
   📄 Arquivo: ./repo_temp/tests/test_styled.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ test_styled (linha 8): complexidade 3 - nota A
 
   [Métricas Brutas]
@@ -607,6 +663,8 @@
     MI: 68.04 - nota A
 
   📄 Arquivo: ./repo_temp/tests/test_palette.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ test_rich_cast (linha 5): complexidade 3 - nota A
 
   [Métricas Brutas]
@@ -619,6 +677,8 @@
     MI: 77.88 - nota A
 
   📄 Arquivo: ./repo_temp/tests/test_windows_renderer.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ legacy_term_mock (linha 19): complexidade 1 - nota A
   ↳ test_text_only (linha 23): complexidade 1 - nota A
   ↳ test_text_multiple_segments (linha 31): complexidade 2 - nota A
@@ -644,6 +704,8 @@
 
   📄 Arquivo: ./repo_temp/tests/__init__.py
 
+  [Complexidade Ciclomática por Função/Método]
+
   [Métricas Brutas]
     LOC: 0 | LLOC: 0 | SLOC: 0 | Comentários: 0 | Blanks: 0
 
@@ -654,6 +716,8 @@
     MI: 100.00 - nota A
 
   📄 Arquivo: ./repo_temp/tests/test_rich_print.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ test_get_console (linha 8): complexidade 2 - nota A
   ↳ test_reconfigure_console (linha 13): complexidade 2 - nota A
   ↳ test_rich_print (linha 18): complexidade 2 - nota A
@@ -672,6 +736,8 @@
     MI: 45.37 - nota A
 
   📄 Arquivo: ./repo_temp/tests/test_control.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ test_control (linha 5): complexidade 2 - nota A
   ↳ test_strip_control_codes (linha 10): complexidade 4 - nota A
   ↳ test_escape_control_codes (linha 16): complexidade 4 - nota A
@@ -690,6 +756,8 @@
     MI: 50.18 - nota A
 
   📄 Arquivo: ./repo_temp/tests/test_status.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ test_status (linha 8): complexidade 5 - nota A
   ↳ test_renderable (linha 27): complexidade 2 - nota A
 
@@ -703,6 +771,8 @@
     MI: 69.95 - nota A
 
   📄 Arquivo: ./repo_temp/tests/test_log.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ replace_link_ids (linha 12): complexidade 1 - nota A
   ↳ render_log (linha 23): complexidade 1 - nota A
   ↳ test_log (linha 38): complexidade 2 - nota A
@@ -719,6 +789,8 @@
     MI: 72.45 - nota A
 
   📄 Arquivo: ./repo_temp/tests/test_live.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ create_capture_console (linha 11): complexidade 1 - nota A
   ↳ test_live_state (linha 24): complexidade 6 - nota B
   ↳ test_growing_display (linha 38): complexidade 3 - nota A
@@ -741,6 +813,8 @@
     MI: 45.65 - nota A
 
   📄 Arquivo: ./repo_temp/tests/test_null_file.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ test_null_file (linha 4): complexidade 18 - nota C
 
   [Métricas Brutas]
@@ -753,6 +827,8 @@
     MI: 52.10 - nota A
 
   📄 Arquivo: ./repo_temp/tests/test_screen.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ test_screen (linha 5): complexidade 2 - nota A
 
   [Métricas Brutas]
@@ -765,6 +841,8 @@
     MI: 73.18 - nota A
 
   📄 Arquivo: ./repo_temp/tests/test_progress.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ test_bar_columns (linha 54): complexidade 5 - nota A
   ↳ test_text_column (linha 64): complexidade 3 - nota A
   ↳ test_time_elapsed_column (linha 76): complexidade 2 - nota A
@@ -816,6 +894,8 @@
     MI: 14.93 - nota B
 
   📄 Arquivo: ./repo_temp/tests/test_containers.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ test_renderables_measure (linha 7): complexidade 4 - nota A
   ↳ test_renderables_empty (linha 20): complexidade 3 - nota A
   ↳ test_lines_rich_console (linha 30): complexidade 2 - nota A
@@ -831,6 +911,8 @@
     MI: 49.50 - nota A
 
   📄 Arquivo: ./repo_temp/tests/test_ratio.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ test_ratio_reduce (linha 24): complexidade 2 - nota A
   ↳ test_ratio_resolve (linha 28): complexidade 11 - nota C
   ↳ Edge (linha 7): complexidade 1 - nota A
@@ -845,6 +927,8 @@
     MI: 53.06 - nota A
 
   📄 Arquivo: ./repo_temp/tests/test_text.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ test_span (linha 13): complexidade 3 - nota A
   ↳ test_span_split (linha 20): complexidade 4 - nota A
   ↳ test_span_move (linha 26): complexidade 2 - nota A
@@ -943,6 +1027,8 @@
     MI: 0.00 - nota C
 
   📄 Arquivo: ./repo_temp/tests/test_align.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ test_bad_align_legal (linha 10): complexidade 1 - nota A
   ↳ test_repr (linha 29): complexidade 1 - nota A
   ↳ test_align_left (linha 35): complexidade 2 - nota A
@@ -970,6 +1056,8 @@
     MI: 43.17 - nota A
 
   📄 Arquivo: ./repo_temp/tests/test_inspect.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ render (linha 52): complexidade 1 - nota A
   ↳ test_render (linha 92): complexidade 2 - nota A
   ↳ test_inspect_text (linha 104): complexidade 3 - nota A
@@ -1008,6 +1096,8 @@
     MI: 39.42 - nota A
 
   📄 Arquivo: ./repo_temp/tests/test_color.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ test_str (linha 16): complexidade 2 - nota A
   ↳ test_repr (linha 20): complexidade 2 - nota A
   ↳ test_color_system_repr (linha 24): complexidade 2 - nota A
@@ -1036,6 +1126,8 @@
     MI: 29.95 - nota A
 
   📄 Arquivo: ./repo_temp/tests/test_rule.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ test_rule (linha 10): complexidade 2 - nota A
   ↳ test_rule_error (linha 31): complexidade 1 - nota A
   ↳ test_rule_align (linha 37): complexidade 2 - nota A
@@ -1058,6 +1150,8 @@
     MI: 42.54 - nota A
 
   📄 Arquivo: ./repo_temp/tests/test_columns.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ render (linha 31): complexidade 1 - nota A
   ↳ test_render (linha 64): complexidade 2 - nota A
 
@@ -1071,6 +1165,8 @@
     MI: 64.07 - nota A
 
   📄 Arquivo: ./repo_temp/tests/test_repr.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ test_rich_repr (linha 92): complexidade 3 - nota A
   ↳ test_rich_repr_positional_only (linha 97): complexidade 2 - nota A
   ↳ test_rich_angular (linha 113): complexidade 3 - nota A
@@ -1108,6 +1204,8 @@
     MI: 37.57 - nota A
 
   📄 Arquivo: ./repo_temp/tests/test_card.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ replace_link_ids (linha 12): complexidade 1 - nota A
   ↳ render (linha 20): complexidade 1 - nota A
   ↳ test_card_render (linha 29): complexidade 2 - nota A
@@ -1122,6 +1220,8 @@
     MI: 80.01 - nota A
 
   📄 Arquivo: ./repo_temp/tests/test_file_proxy.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ test_empty_bytes (linha 10): complexidade 1 - nota A
   ↳ test_flush (linha 20): complexidade 3 - nota A
   ↳ test_new_lines (linha 30): complexidade 3 - nota A
@@ -1136,6 +1236,8 @@
     MI: 75.04 - nota A
 
   📄 Arquivo: ./repo_temp/tests/test_theme.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ test_inherit (linha 11): complexidade 3 - nota A
   ↳ test_config (linha 17): complexidade 2 - nota A
   ↳ test_from_file (linha 23): complexidade 2 - nota A
@@ -1152,6 +1254,8 @@
     MI: 48.64 - nota A
 
   📄 Arquivo: ./repo_temp/tests/test_style.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ test_str (linha 8): complexidade 10 - nota B
   ↳ test_ansi_codes (linha 38): complexidade 2 - nota A
   ↳ test_repr (linha 60): complexidade 2 - nota A
@@ -1190,6 +1294,8 @@
     MI: 24.95 - nota A
 
   📄 Arquivo: ./repo_temp/tests/test_markdown_no_hyperlinks.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ replace_link_ids (linha 75): complexidade 1 - nota A
   ↳ render (linha 83): complexidade 1 - nota A
   ↳ test_markdown_render (linha 92): complexidade 2 - nota A
@@ -1204,6 +1310,8 @@
     MI: 75.57 - nota A
 
   📄 Arquivo: ./repo_temp/tests/test_pick.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ test_pick_bool (linha 4): complexidade 11 - nota C
 
   [Métricas Brutas]
@@ -1216,6 +1324,8 @@
     MI: 60.66 - nota A
 
   📄 Arquivo: ./repo_temp/tests/test_rule_in_table.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ test_rule_in_unexpanded_table (linha 13): complexidade 2 - nota A
   ↳ test_rule_in_expanded_table (linha 35): complexidade 2 - nota A
   ↳ test_rule_in_ratio_table (linha 57): complexidade 2 - nota A
@@ -1230,6 +1340,8 @@
     MI: 53.58 - nota A
 
   📄 Arquivo: ./repo_temp/tests/test_emoji.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ test_no_emoji (linha 8): complexidade 1 - nota A
   ↳ test_str_repr (linha 13): complexidade 3 - nota A
   ↳ test_replace (linha 18): complexidade 2 - nota A
@@ -1247,6 +1359,8 @@
     MI: 53.42 - nota A
 
   📄 Arquivo: ./repo_temp/tests/test_color_triplet.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ test_hex (linha 4): complexidade 3 - nota A
   ↳ test_rgb (linha 9): complexidade 3 - nota A
   ↳ test_normalized (linha 14): complexidade 3 - nota A
@@ -1261,6 +1375,8 @@
     MI: 64.80 - nota A
 
   📄 Arquivo: ./repo_temp/tests/test_layout.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ test_no_layout (linha 10): complexidade 1 - nota A
   ↳ test_add_split (linha 16): complexidade 4 - nota A
   ↳ test_unsplit (linha 25): complexidade 3 - nota A
@@ -1278,6 +1394,8 @@
     MI: 42.81 - nota A
 
   📄 Arquivo: ./repo_temp/tests/test_padding.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ test_repr (linha 9): complexidade 2 - nota A
   ↳ test_indent (linha 14): complexidade 5 - nota A
   ↳ test_unpack (linha 22): complexidade 5 - nota A
@@ -1294,6 +1412,8 @@
     MI: 49.28 - nota A
 
   📄 Arquivo: ./repo_temp/tests/test_json.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ test_print_json_data_with_default (linha 5): complexidade 2 - nota A
 
   [Métricas Brutas]
@@ -1306,6 +1426,8 @@
     MI: 76.55 - nota A
 
   📄 Arquivo: ./repo_temp/tests/test_jupyter.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ test_jupyter (linha 4): complexidade 4 - nota A
   ↳ test_jupyter_columns_env (linha 11): complexidade 3 - nota A
   ↳ test_jupyter_lines_env (linha 23): complexidade 3 - nota A
@@ -1320,6 +1442,8 @@
     MI: 78.18 - nota A
 
   📄 Arquivo: ./repo_temp/tests/test_tools.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ test_loop_first (linha 5): complexidade 6 - nota B
   ↳ test_loop_last (linha 14): complexidade 6 - nota B
   ↳ test_loop_first_last (linha 23): complexidade 6 - nota B
@@ -1335,6 +1459,8 @@
     MI: 47.08 - nota A
 
   📄 Arquivo: ./repo_temp/tests/test_segment.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ test_repr (linha 10): complexidade 3 - nota A
   ↳ test_line (linha 19): complexidade 2 - nota A
   ↳ test_apply_style (linha 23): complexidade 3 - nota A
@@ -1376,6 +1502,8 @@
 
   📄 Arquivo: ./repo_temp/tests/_card_render.py
 
+  [Complexidade Ciclomática por Função/Método]
+
   [Métricas Brutas]
     LOC: 1 | LLOC: 1 | SLOC: 1 | Comentários: 0 | Blanks: 0
 
@@ -1386,6 +1514,8 @@
     MI: 100.00 - nota A
 
   📄 Arquivo: ./repo_temp/tests/test_highlighter.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ test_wrong_type (linha 16): complexidade 1 - nota A
   ↳ test_highlight_regex (linha 161): complexidade 2 - nota A
   ↳ test_highlight_json_with_indent (linha 170): complexidade 2 - nota A
@@ -1404,6 +1534,8 @@
     MI: 57.69 - nota A
 
   📄 Arquivo: ./repo_temp/tests/test_markdown.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ replace_link_ids (linha 81): complexidade 1 - nota A
   ↳ render (linha 89): complexidade 1 - nota A
   ↳ test_markdown_render (linha 99): complexidade 2 - nota A
@@ -1424,6 +1556,8 @@
     MI: 61.69 - nota A
 
   📄 Arquivo: ./repo_temp/tests/test_bar.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ test_init (linha 9): complexidade 2 - nota A
   ↳ test_update (linha 15): complexidade 7 - nota B
   ↳ test_render (linha 33): complexidade 3 - nota A
@@ -1442,6 +1576,8 @@
     MI: 50.69 - nota A
 
   📄 Arquivo: ./repo_temp/tests/test_ansi.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ test_decode (linha 9): complexidade 2 - nota A
   ↳ test_decode_example (linha 35): complexidade 2 - nota A
   ↳ test_decode_issue_2688 (linha 67): complexidade 2 - nota A
@@ -1457,6 +1593,8 @@
     MI: 63.48 - nota A
 
   📄 Arquivo: ./repo_temp/tests/test_traceback.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ test_handler (linha 13): complexidade 9 - nota B
   ↳ test_capture (linha 63): complexidade 3 - nota A
   ↳ test_no_exception (linha 71): complexidade 1 - nota A
@@ -1490,6 +1628,8 @@
     MI: 29.68 - nota A
 
   📄 Arquivo: ./repo_temp/tests/test_block_bar.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ test_repr (linha 14): complexidade 2 - nota A
   ↳ test_render (linha 19): complexidade 4 - nota A
   ↳ test_measure (linha 32): complexidade 3 - nota A
@@ -1505,6 +1645,8 @@
     MI: 64.81 - nota A
 
   📄 Arquivo: ./repo_temp/tests/test_spinner.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ test_spinner_create (linha 10): complexidade 1 - nota A
   ↳ test_spinner_render (linha 16): complexidade 2 - nota A
   ↳ test_spinner_update (linha 37): complexidade 2 - nota A
@@ -1521,6 +1663,8 @@
     MI: 47.10 - nota A
 
   📄 Arquivo: ./repo_temp/tests/test_markup.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ test_re_no_match (linha 9): complexidade 7 - nota B
   ↳ test_re_match (linha 18): complexidade 10 - nota B
   ↳ test_escape (linha 30): complexidade 8 - nota B
@@ -1554,6 +1698,8 @@
 
   📄 Arquivo: ./repo_temp/docs/source/conf.py
 
+  [Complexidade Ciclomática por Função/Método]
+
   [Métricas Brutas]
     LOC: 83 | LLOC: 20 | SLOC: 29 | Comentários: 31 | Blanks: 23
 
@@ -1564,6 +1710,8 @@
     MI: 91.20 - nota A
 
   📄 Arquivo: ./repo_temp/examples/dynamic_progress.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ run_steps (linha 23): complexidade 3 - nota A
 
   [Métricas Brutas]
@@ -1577,6 +1725,8 @@
 
   📄 Arquivo: ./repo_temp/examples/link.py
 
+  [Complexidade Ciclomática por Função/Método]
+
   [Métricas Brutas]
     LOC: 4 | LLOC: 3 | SLOC: 3 | Comentários: 0 | Blanks: 1
 
@@ -1587,6 +1737,8 @@
     MI: 100.00 - nota A
 
   📄 Arquivo: ./repo_temp/examples/screen.py
+
+  [Complexidade Ciclomática por Função/Método]
 
   [Métricas Brutas]
     LOC: 16 | LLOC: 10 | SLOC: 9 | Comentários: 0 | Blanks: 4
@@ -1599,6 +1751,8 @@
 
   📄 Arquivo: ./repo_temp/examples/file_progress.py
 
+  [Complexidade Ciclomática por Função/Método]
+
   [Métricas Brutas]
     LOC: 16 | LLOC: 9 | SLOC: 9 | Comentários: 3 | Blanks: 4
 
@@ -1609,6 +1763,8 @@
     MI: 100.00 - nota A
 
   📄 Arquivo: ./repo_temp/examples/tree.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ walk_directory (linha 16): complexidade 6 - nota B
 
   [Métricas Brutas]
@@ -1621,6 +1777,8 @@
     MI: 75.62 - nota A
 
   📄 Arquivo: ./repo_temp/examples/exception.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ divide_by (linha 11): complexidade 1 - nota A
   ↳ divide_all (linha 18): complexidade 4 - nota A
 
@@ -1634,6 +1792,8 @@
     MI: 82.81 - nota A
 
   📄 Arquivo: ./repo_temp/examples/recursive_error.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ foo (linha 12): complexidade 1 - nota A
   ↳ bar (linha 16): complexidade 1 - nota A
 
@@ -1648,6 +1808,8 @@
 
   📄 Arquivo: ./repo_temp/examples/justify.py
 
+  [Complexidade Ciclomática por Função/Método]
+
   [Métricas Brutas]
     LOC: 13 | LLOC: 8 | SLOC: 7 | Comentários: 0 | Blanks: 3
 
@@ -1658,6 +1820,8 @@
     MI: 100.00 - nota A
 
   📄 Arquivo: ./repo_temp/examples/group2.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ get_panels (linha 7): complexidade 1 - nota A
 
   [Métricas Brutas]
@@ -1670,6 +1834,8 @@
     MI: 100.00 - nota A
 
   📄 Arquivo: ./repo_temp/examples/print_calendar.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ print_calendar (linha 20): complexidade 9 - nota B
 
   [Métricas Brutas]
@@ -1682,6 +1848,8 @@
     MI: 71.22 - nota A
 
   📄 Arquivo: ./repo_temp/examples/downloader.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ handle_sigint (linha 40): complexidade 1 - nota A
   ↳ copy_url (linha 47): complexidade 3 - nota A
   ↳ download (linha 63): complexidade 2 - nota A
@@ -1697,6 +1865,8 @@
 
   📄 Arquivo: ./repo_temp/examples/save_table_svg.py
 
+  [Complexidade Ciclomática por Função/Método]
+
   [Métricas Brutas]
     LOC: 26 | LLOC: 17 | SLOC: 16 | Comentários: 0 | Blanks: 7
 
@@ -1707,6 +1877,8 @@
     MI: 100.00 - nota A
 
   📄 Arquivo: ./repo_temp/examples/table_movie.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ beat (linha 63): complexidade 1 - nota A
 
   [Métricas Brutas]
@@ -1719,6 +1891,8 @@
     MI: 45.09 - nota A
 
   📄 Arquivo: ./repo_temp/examples/log.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ test_locals (linha 53): complexidade 1 - nota A
   ↳ RequestHighlighter (linha 12): complexidade 1 - nota A
 
@@ -1733,6 +1907,8 @@
 
   📄 Arquivo: ./repo_temp/examples/cp_progress.py
 
+  [Complexidade Ciclomática por Função/Método]
+
   [Métricas Brutas]
     LOC: 19 | LLOC: 15 | SLOC: 14 | Comentários: 0 | Blanks: 2
 
@@ -1743,6 +1919,8 @@
     MI: 89.87 - nota A
 
   📄 Arquivo: ./repo_temp/examples/layout.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ Clock (linha 41): complexidade 2 - nota A
   ↳ __rich__ (linha 44): complexidade 1 - nota A
 
@@ -1757,6 +1935,8 @@
 
   📄 Arquivo: ./repo_temp/examples/overflow.py
 
+  [Complexidade Ciclomática por Função/Método]
+
   [Métricas Brutas]
     LOC: 11 | LLOC: 10 | SLOC: 9 | Comentários: 0 | Blanks: 2
 
@@ -1767,6 +1947,8 @@
     MI: 100.00 - nota A
 
   📄 Arquivo: ./repo_temp/examples/export.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ print_table (linha 11): complexidade 1 - nota A
 
   [Métricas Brutas]
@@ -1779,6 +1961,8 @@
     MI: 100.00 - nota A
 
   📄 Arquivo: ./repo_temp/examples/repr.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ Bird (linha 5): complexidade 3 - nota A
   ↳ __init__ (linha 6): complexidade 2 - nota A
 
@@ -1793,6 +1977,8 @@
 
   📄 Arquivo: ./repo_temp/examples/live_progress.py
 
+  [Complexidade Ciclomática por Função/Método]
+
   [Métricas Brutas]
     LOC: 45 | LLOC: 23 | SLOC: 32 | Comentários: 0 | Blanks: 10
 
@@ -1803,6 +1989,8 @@
     MI: 82.60 - nota A
 
   📄 Arquivo: ./repo_temp/examples/suppress.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ hello (linha 15): complexidade 2 - nota A
 
   [Métricas Brutas]
@@ -1816,6 +2004,8 @@
 
   📄 Arquivo: ./repo_temp/examples/jobs.py
 
+  [Complexidade Ciclomática por Função/Método]
+
   [Métricas Brutas]
     LOC: 31 | LLOC: 19 | SLOC: 26 | Comentários: 0 | Blanks: 5
 
@@ -1826,6 +2016,8 @@
     MI: 100.00 - nota A
 
   📄 Arquivo: ./repo_temp/examples/columns.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ get_content (linha 15): complexidade 1 - nota A
 
   [Métricas Brutas]
@@ -1839,6 +2031,8 @@
 
   📄 Arquivo: ./repo_temp/examples/spinners.py
 
+  [Complexidade Ciclomática por Função/Método]
+
   [Métricas Brutas]
     LOC: 23 | LLOC: 10 | SLOC: 20 | Comentários: 0 | Blanks: 3
 
@@ -1850,6 +2044,8 @@
 
   📄 Arquivo: ./repo_temp/examples/justify2.py
 
+  [Complexidade Ciclomática por Função/Método]
+
   [Métricas Brutas]
     LOC: 15 | LLOC: 10 | SLOC: 9 | Comentários: 0 | Blanks: 3
 
@@ -1860,6 +2056,8 @@
     MI: 100.00 - nota A
 
   📄 Arquivo: ./repo_temp/examples/fullscreen.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ make_layout (linha 20): complexidade 1 - nota A
   ↳ make_sponsor_message (linha 37): complexidade 1 - nota A
   ↳ make_syntax (linha 86): complexidade 1 - nota A
@@ -1876,6 +2074,8 @@
     MI: 63.43 - nota A
 
   📄 Arquivo: ./repo_temp/examples/highlighter.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ EmailHighlighter (linha 10): complexidade 1 - nota A
 
   [Métricas Brutas]
@@ -1889,6 +2089,8 @@
 
   📄 Arquivo: ./repo_temp/examples/group.py
 
+  [Complexidade Ciclomática por Função/Método]
+
   [Métricas Brutas]
     LOC: 9 | LLOC: 5 | SLOC: 8 | Comentários: 0 | Blanks: 1
 
@@ -1899,6 +2101,8 @@
     MI: 100.00 - nota A
 
   📄 Arquivo: ./repo_temp/examples/bars.py
+
+  [Complexidade Ciclomática por Função/Método]
 
   [Métricas Brutas]
     LOC: 21 | LLOC: 13 | SLOC: 12 | Comentários: 0 | Blanks: 6
@@ -1911,6 +2115,8 @@
 
   📄 Arquivo: ./repo_temp/examples/table.py
 
+  [Complexidade Ciclomática por Função/Método]
+
   [Métricas Brutas]
     LOC: 20 | LLOC: 13 | SLOC: 12 | Comentários: 0 | Blanks: 5
 
@@ -1921,6 +2127,8 @@
     MI: 100.00 - nota A
 
   📄 Arquivo: ./repo_temp/examples/top_lite_simulator.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ generate_process (linha 42): complexidade 2 - nota A
   ↳ create_process_table (linha 55): complexidade 3 - nota A
   ↳ Process (linha 20): complexidade 3 - nota A
@@ -1928,15 +2136,17 @@
   ↳ time_str (linha 38): complexidade 1 - nota A
 
   [Métricas Brutas]
-    LOC: 84 | LLOC: 55 | SLOC: 68 | Comentários: 0 | Blanks: 15
+    LOC: 84 | LLOC: 54 | SLOC: 68 | Comentários: 0 | Blanks: 15
 
   [Halstead]
     Volume: 169.22 | Dificuldade: 4.42 | Esforço: 748.11 | Bugs estimados: 0.06
 
   [Maintainability Index]
-    MI: 45.09 - nota A
+    MI: 45.26 - nota A
 
   📄 Arquivo: ./repo_temp/examples/attrs.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ Point3D (linha 12): complexidade 1 - nota A
   ↳ Triangle (linha 19): complexidade 1 - nota A
   ↳ Model (linha 26): complexidade 1 - nota A
@@ -1951,6 +2161,8 @@
     MI: 56.08 - nota A
 
   📄 Arquivo: ./repo_temp/examples/listdir.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ make_filename_text (linha 22): complexidade 2 - nota A
 
   [Métricas Brutas]
@@ -1964,6 +2176,8 @@
 
   📄 Arquivo: ./repo_temp/examples/padding.py
 
+  [Complexidade Ciclomática por Função/Método]
+
   [Métricas Brutas]
     LOC: 5 | LLOC: 4 | SLOC: 4 | Comentários: 0 | Blanks: 1
 
@@ -1975,6 +2189,8 @@
 
   📄 Arquivo: ./repo_temp/examples/status.py
 
+  [Complexidade Ciclomática por Função/Método]
+
   [Métricas Brutas]
     LOC: 13 | LLOC: 10 | SLOC: 10 | Comentários: 0 | Blanks: 3
 
@@ -1985,6 +2201,8 @@
     MI: 100.00 - nota A
 
   📄 Arquivo: ./repo_temp/examples/rainbow.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ RainbowHighlighter (linha 13): complexidade 3 - nota A
   ↳ highlight (linha 14): complexidade 2 - nota A
 
@@ -1999,6 +2217,8 @@
 
   📄 Arquivo: ./repo_temp/benchmarks/__init__.py
 
+  [Complexidade Ciclomática por Função/Método]
+
   [Métricas Brutas]
     LOC: 0 | LLOC: 0 | SLOC: 0 | Comentários: 0 | Blanks: 0
 
@@ -2010,6 +2230,8 @@
 
   📄 Arquivo: ./repo_temp/benchmarks/snippets.py
 
+  [Complexidade Ciclomática por Função/Método]
+
   [Métricas Brutas]
     LOC: 179 | LLOC: 6 | SLOC: 134 | Comentários: 0 | Blanks: 45
 
@@ -2020,6 +2242,8 @@
     MI: 100.00 - nota A
 
   📄 Arquivo: ./repo_temp/benchmarks/benchmarks.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ TextSuite (linha 14): complexidade 2 - nota A
   ↳ setup (linha 15): complexidade 1 - nota A
   ↳ time_wrapping (linha 22): complexidade 1 - nota A
@@ -2084,6 +2308,8 @@
 
   📄 Arquivo: ./repo_temp/rich/themes.py
 
+  [Complexidade Ciclomática por Função/Método]
+
   [Métricas Brutas]
     LOC: 5 | LLOC: 3 | SLOC: 3 | Comentários: 0 | Blanks: 2
 
@@ -2094,6 +2320,8 @@
     MI: 100.00 - nota A
 
   📄 Arquivo: ./repo_temp/rich/screen.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ Screen (linha 18): complexidade 5 - nota A
   ↳ __init__ (linha 28): complexidade 1 - nota A
   ↳ __rich_console__ (linha 40): complexidade 6 - nota B
@@ -2108,6 +2336,8 @@
     MI: 80.22 - nota A
 
   📄 Arquivo: ./repo_temp/rich/logging.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ divide (linha 283): complexidade 2 - nota A
   ↳ RichHandler (linha 18): complexidade 6 - nota B
   ↳ __init__ (linha 65): complexidade 3 - nota A
@@ -2126,6 +2356,8 @@
     MI: 60.65 - nota A
 
   📄 Arquivo: ./repo_temp/rich/measure.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ measure_renderables (linha 125): complexidade 3 - nota A
   ↳ Measurement (linha 11): complexidade 3 - nota A
   ↳ span (linha 20): complexidade 1 - nota A
@@ -2145,6 +2377,8 @@
     MI: 73.52 - nota A
 
   📄 Arquivo: ./repo_temp/rich/tree.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ Tree (linha 14): complexidade 9 - nota B
   ↳ __init__ (linha 37): complexidade 1 - nota A
   ↳ add (linha 55): complexidade 4 - nota A
@@ -2161,6 +2395,8 @@
     MI: 48.36 - nota A
 
   📄 Arquivo: ./repo_temp/rich/console.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ group (linha 495): complexidade 1 - nota A
   ↳ _is_jupyter (linha 517): complexidade 6 - nota B
   ↳ get_windows_console_features (linha 578): complexidade 2 - nota A
@@ -2296,6 +2532,8 @@
     MI: 0.00 - nota C
 
   📄 Arquivo: ./repo_temp/rich/live_render.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ LiveRender (linha 20): complexidade 3 - nota A
   ↳ __init__ (linha 28): complexidade 1 - nota A
   ↳ set_renderable (linha 39): complexidade 1 - nota A
@@ -2314,6 +2552,8 @@
 
   📄 Arquivo: ./repo_temp/rich/_emoji_codes.py
 
+  [Complexidade Ciclomática por Função/Método]
+
   [Métricas Brutas]
     LOC: 3610 | LLOC: 2 | SLOC: 3610 | Comentários: 0 | Blanks: 0
 
@@ -2324,6 +2564,8 @@
     MI: 100.00 - nota A
 
   📄 Arquivo: ./repo_temp/rich/box.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ Box (linha 16): complexidade 4 - nota A
   ↳ __init__ (linha 33): complexidade 1 - nota A
   ↳ __repr__ (linha 67): complexidade 1 - nota A
@@ -2344,6 +2586,8 @@
     MI: 53.74 - nota A
 
   📄 Arquivo: ./repo_temp/rich/color.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ parse_rgb_hex (linha 571): complexidade 2 - nota A
   ↳ blend_rgb (linha 580): complexidade 1 - nota A
   ↳ ColorSystem (linha 21): complexidade 2 - nota A
@@ -2377,18 +2621,22 @@
     MI: 30.47 - nota A
 
   📄 Arquivo: ./repo_temp/rich/_timer.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ timer (linha 13): complexidade 1 - nota A
 
   [Métricas Brutas]
-    LOC: 19 | LLOC: 13 | SLOC: 10 | Comentários: 0 | Blanks: 5
+    LOC: 19 | LLOC: 12 | SLOC: 10 | Comentários: 0 | Blanks: 5
 
   [Halstead]
     Volume: 15.51 | Dificuldade: 1.00 | Esforço: 15.51 | Bugs estimados: 0.01
 
   [Maintainability Index]
-    MI: 93.74 - nota A
+    MI: 94.49 - nota A
 
   📄 Arquivo: ./repo_temp/rich/_fileno.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ get_fileno (linha 6): complexidade 3 - nota A
 
   [Métricas Brutas]
@@ -2401,6 +2649,8 @@
     MI: 95.03 - nota A
 
   📄 Arquivo: ./repo_temp/rich/align.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ Align (linha 23): complexidade 4 - nota A
   ↳ __init__ (linha 39): complexidade 4 - nota A
   ↳ __repr__ (linha 66): complexidade 1 - nota A
@@ -2425,6 +2675,8 @@
     MI: 46.57 - nota A
 
   📄 Arquivo: ./repo_temp/rich/theme.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ Theme (linha 8): complexidade 3 - nota A
   ↳ __init__ (linha 18): complexidade 5 - nota A
   ↳ config (linha 31): complexidade 2 - nota A
@@ -2446,6 +2698,8 @@
     MI: 75.60 - nota A
 
   📄 Arquivo: ./repo_temp/rich/style.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ _Bit (linha 16): complexidade 3 - nota A
   ↳ __init__ (linha 21): complexidade 1 - nota A
   ↳ __get__ (linha 24): complexidade 2 - nota A
@@ -2501,6 +2755,8 @@
 
   📄 Arquivo: ./repo_temp/rich/default_styles.py
 
+  [Complexidade Ciclomática por Função/Método]
+
   [Métricas Brutas]
     LOC: 193 | LLOC: 22 | SLOC: 184 | Comentários: 3 | Blanks: 9
 
@@ -2511,6 +2767,8 @@
     MI: 72.95 - nota A
 
   📄 Arquivo: ./repo_temp/rich/_wrap.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ words (linha 12): complexidade 2 - nota A
   ↳ divide_line (linha 26): complexidade 11 - nota C
 
@@ -2524,6 +2782,8 @@
     MI: 74.66 - nota A
 
   📄 Arquivo: ./repo_temp/rich/_log_render.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ LogRender (linha 14): complexidade 10 - nota B
   ↳ __init__ (linha 15): complexidade 1 - nota A
   ↳ __call__ (linha 32): complexidade 17 - nota C
@@ -2538,6 +2798,8 @@
     MI: 51.11 - nota A
 
   📄 Arquivo: ./repo_temp/rich/emoji.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ NoEmoji (linha 23): complexidade 1 - nota A
   ↳ Emoji (linha 27): complexidade 2 - nota A
   ↳ __init__ (linha 32): complexidade 3 - nota A
@@ -2556,6 +2818,8 @@
     MI: 73.61 - nota A
 
   📄 Arquivo: ./repo_temp/rich/layout.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ LayoutRender (linha 32): complexidade 1 - nota A
   ↳ LayoutError (linha 43): complexidade 1 - nota A
   ↳ NoSplitter (linha 47): complexidade 1 - nota A
@@ -2601,6 +2865,8 @@
     MI: 45.81 - nota A
 
   📄 Arquivo: ./repo_temp/rich/containers.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ Renderables (linha 30): complexidade 3 - nota A
   ↳ __init__ (linha 33): complexidade 2 - nota A
   ↳ __rich_console__ (linha 40): complexidade 1 - nota A
@@ -2632,6 +2898,8 @@
     MI: 46.38 - nota A
 
   📄 Arquivo: ./repo_temp/rich/_emoji_replace.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ _emoji_replace (linha 12): complexidade 2 - nota A
 
   [Métricas Brutas]
@@ -2644,6 +2912,8 @@
     MI: 86.16 - nota A
 
   📄 Arquivo: ./repo_temp/rich/traceback.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ _iter_syntax_lines (linha 54): complexidade 5 - nota A
   ↳ install (linha 82): complexidade 5 - nota A
   ↳ bar (linha 862): complexidade 1 - nota A
@@ -2673,6 +2943,8 @@
     MI: 31.14 - nota A
 
   📄 Arquivo: ./repo_temp/rich/region.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ Region (linha 4): complexidade 1 - nota A
 
   [Métricas Brutas]
@@ -2685,6 +2957,8 @@
     MI: 100.00 - nota A
 
   📄 Arquivo: ./repo_temp/rich/protocol.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ is_renderable (linha 10): complexidade 3 - nota A
   ↳ rich_cast (linha 19): complexidade 5 - nota A
 
@@ -2698,6 +2972,8 @@
     MI: 84.99 - nota A
 
   📄 Arquivo: ./repo_temp/rich/_loop.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ loop_first (linha 6): complexidade 3 - nota A
   ↳ loop_last (linha 18): complexidade 3 - nota A
   ↳ loop_first_last (linha 31): complexidade 3 - nota A
@@ -2712,6 +2988,8 @@
     MI: 100.00 - nota A
 
   📄 Arquivo: ./repo_temp/rich/control.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ strip_control_codes (linha 187): complexidade 1 - nota A
   ↳ escape_control_codes (linha 201): complexidade 1 - nota A
   ↳ Control (linha 54): complexidade 2 - nota A
@@ -2738,20 +3016,24 @@
     MI: 66.96 - nota A
 
   📄 Arquivo: ./repo_temp/rich/filesize.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ _to_str (linha 18): complexidade 5 - nota A
   ↳ pick_unit_and_suffix (linha 43): complexidade 3 - nota A
   ↳ decimal (linha 52): complexidade 1 - nota A
 
   [Métricas Brutas]
-    LOC: 88 | LLOC: 24 | SLOC: 43 | Comentários: 1 | Blanks: 18
+    LOC: 88 | LLOC: 23 | SLOC: 43 | Comentários: 1 | Blanks: 18
 
   [Halstead]
     Volume: 108.00 | Dificuldade: 4.09 | Esforço: 441.82 | Bugs estimados: 0.04
 
   [Maintainability Index]
-    MI: 83.88 - nota A
+    MI: 84.28 - nota A
 
   📄 Arquivo: ./repo_temp/rich/_null_file.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ NullFile (linha 5): complexidade 2 - nota A
   ↳ close (linha 6): complexidade 1 - nota A
   ↳ isatty (linha 9): complexidade 1 - nota A
@@ -2784,6 +3066,8 @@
 
   📄 Arquivo: ./repo_temp/rich/_palettes.py
 
+  [Complexidade Ciclomática por Função/Método]
+
   [Métricas Brutas]
     LOC: 309 | LLOC: 4 | SLOC: 301 | Comentários: 3 | Blanks: 5
 
@@ -2794,6 +3078,8 @@
     MI: 100.00 - nota A
 
   📄 Arquivo: ./repo_temp/rich/__init__.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ get_console (linha 23): complexidade 2 - nota A
   ↳ reconfigure (linha 39): complexidade 1 - nota A
   ↳ print (linha 53): complexidade 2 - nota A
@@ -2810,6 +3096,8 @@
     MI: 78.20 - nota A
 
   📄 Arquivo: ./repo_temp/rich/_pick.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ pick_bool (linha 4): complexidade 4 - nota A
 
   [Métricas Brutas]
@@ -2822,6 +3110,8 @@
     MI: 100.00 - nota A
 
   📄 Arquivo: ./repo_temp/rich/file_proxy.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ FileProxy (linha 11): complexidade 3 - nota A
   ↳ __init__ (linha 14): complexidade 1 - nota A
   ↳ rich_proxied_file (linha 21): complexidade 1 - nota A
@@ -2840,6 +3130,8 @@
     MI: 53.99 - nota A
 
   📄 Arquivo: ./repo_temp/rich/palette.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ Palette (linha 11): complexidade 2 - nota A
   ↳ __init__ (linha 14): complexidade 1 - nota A
   ↳ __getitem__ (linha 17): complexidade 1 - nota A
@@ -2858,6 +3150,8 @@
     MI: 59.08 - nota A
 
   📄 Arquivo: ./repo_temp/rich/markup.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ escape (linha 48): complexidade 3 - nota A
   ↳ _parse (linha 73): complexidade 8 - nota B
   ↳ render (linha 106): complexidade 21 - nota D
@@ -2875,6 +3169,8 @@
     MI: 53.30 - nota A
 
   📄 Arquivo: ./repo_temp/rich/_ratio.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ ratio_resolve (linha 20): complexidade 18 - nota C
   ↳ ratio_reduce (linha 81): complexidade 7 - nota B
   ↳ ratio_distribute (linha 113): complexidade 8 - nota B
@@ -2891,6 +3187,8 @@
     MI: 62.54 - nota A
 
   📄 Arquivo: ./repo_temp/rich/repr.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ auto (linha 28): complexidade 1 - nota A
   ↳ auto (linha 33): complexidade 1 - nota A
   ↳ auto (linha 37): complexidade 2 - nota A
@@ -2911,6 +3209,8 @@
     MI: 53.70 - nota A
 
   📄 Arquivo: ./repo_temp/rich/constrain.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ Constrain (linha 10): complexidade 3 - nota A
   ↳ __init__ (linha 18): complexidade 1 - nota A
   ↳ __rich_console__ (linha 22): complexidade 2 - nota A
@@ -2926,6 +3226,8 @@
     MI: 85.59 - nota A
 
   📄 Arquivo: ./repo_temp/rich/pretty.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ _is_attr_object (linha 60): complexidade 2 - nota A
   ↳ _get_attr_fields (linha 65): complexidade 2 - nota A
   ↳ _is_dataclass_repr (linha 70): complexidade 2 - nota A
@@ -2962,15 +3264,17 @@
   ↳ __repr__ (linha 1013): complexidade 1 - nota A
 
   [Métricas Brutas]
-    LOC: 1016 | LLOC: 507 | SLOC: 766 | Comentários: 22 | Blanks: 119
+    LOC: 1016 | LLOC: 506 | SLOC: 766 | Comentários: 22 | Blanks: 119
 
   [Halstead]
     Volume: 2062.23 | Dificuldade: 9.69 | Esforço: 19977.88 | Bugs estimados: 0.69
 
   [Maintainability Index]
-    MI: 28.88 - nota A
+    MI: 28.89 - nota A
 
   📄 Arquivo: ./repo_temp/rich/diagnose.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ report (linha 10): complexidade 2 - nota A
 
   [Métricas Brutas]
@@ -2983,6 +3287,8 @@
     MI: 81.87 - nota A
 
   📄 Arquivo: ./repo_temp/rich/columns.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ Columns (linha 16): complexidade 9 - nota B
   ↳ __init__ (linha 31): complexidade 2 - nota A
   ↳ add_renderable (linha 54): complexidade 1 - nota A
@@ -2998,6 +3304,8 @@
     MI: 50.70 - nota A
 
   📄 Arquivo: ./repo_temp/rich/rule.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ Rule (linha 12): complexidade 4 - nota A
   ↳ __init__ (linha 23): complexidade 3 - nota A
   ↳ __repr__ (linha 46): complexidade 1 - nota A
@@ -3015,6 +3323,8 @@
     MI: 53.48 - nota A
 
   📄 Arquivo: ./repo_temp/rich/_inspect.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ _first_paragraph (linha 15): complexidade 1 - nota A
   ↳ get_object_types_mro (linha 236): complexidade 2 - nota A
   ↳ get_object_types_mro_as_strings (linha 245): complexidade 2 - nota A
@@ -3037,6 +3347,8 @@
     MI: 49.83 - nota A
 
   📄 Arquivo: ./repo_temp/rich/markdown.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ MarkdownElement (linha 30): complexidade 2 - nota A
   ↳ create (linha 34): complexidade 1 - nota A
   ↳ on_enter (linha 46): complexidade 1 - nota A
@@ -3124,6 +3436,8 @@
     MI: 19.71 - nota A
 
   📄 Arquivo: ./repo_temp/rich/pager.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ Pager (linha 5): complexidade 2 - nota A
   ↳ show (linha 9): complexidade 1 - nota A
   ↳ SystemPager (linha 17): complexidade 2 - nota A
@@ -3140,6 +3454,8 @@
     MI: 94.12 - nota A
 
   📄 Arquivo: ./repo_temp/rich/text.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ Span (linha 47): complexidade 2 - nota A
   ↳ __repr__ (linha 57): complexidade 1 - nota A
   ↳ __bool__ (linha 60): complexidade 1 - nota A
@@ -3214,6 +3530,8 @@
     MI: 6.43 - nota C
 
   📄 Arquivo: ./repo_temp/rich/highlighter.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ _combine_regex (linha 8): complexidade 1 - nota A
   ↳ Highlighter (linha 17): complexidade 3 - nota A
   ↳ __call__ (linha 20): complexidade 3 - nota A
@@ -3238,6 +3556,8 @@
 
   📄 Arquivo: ./repo_temp/rich/_spinners.py
 
+  [Complexidade Ciclomática por Função/Método]
+
   [Métricas Brutas]
     LOC: 482 | LLOC: 3 | SLOC: 461 | Comentários: 0 | Blanks: 1
 
@@ -3248,6 +3568,8 @@
     MI: 100.00 - nota A
 
   📄 Arquivo: ./repo_temp/rich/terminal_theme.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ TerminalTheme (linha 9): complexidade 3 - nota A
   ↳ __init__ (linha 20): complexidade 2 - nota A
 
@@ -3261,6 +3583,8 @@
     MI: 80.06 - nota A
 
   📄 Arquivo: ./repo_temp/rich/bar.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ Bar (linha 17): complexidade 3 - nota A
   ↳ __init__ (linha 29): complexidade 1 - nota A
   ↳ __repr__ (linha 45): complexidade 1 - nota A
@@ -3277,6 +3601,8 @@
     MI: 69.45 - nota A
 
   📄 Arquivo: ./repo_temp/rich/live.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ _RefreshThread (linha 16): complexidade 3 - nota A
   ↳ __init__ (linha 19): complexidade 1 - nota A
   ↳ stop (linha 25): complexidade 1 - nota A
@@ -3297,15 +3623,17 @@
   ↳ process_renderables (linha 249): complexidade 5 - nota A
 
   [Métricas Brutas]
-    LOC: 375 | LLOC: 219 | SLOC: 288 | Comentários: 11 | Blanks: 48
+    LOC: 375 | LLOC: 218 | SLOC: 288 | Comentários: 11 | Blanks: 48
 
   [Halstead]
     Volume: 745.99 | Dificuldade: 7.18 | Esforço: 5355.52 | Bugs estimados: 0.25
 
   [Maintainability Index]
-    MI: 38.92 - nota A
+    MI: 38.96 - nota A
 
   📄 Arquivo: ./repo_temp/rich/syntax.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ _get_code_index_for_syntax_position (linha 822): complexidade 3 - nota A
   ↳ SyntaxTheme (linha 122): complexidade 2 - nota A
   ↳ get_style_for_token (linha 126): complexidade 1 - nota A
@@ -3349,6 +3677,8 @@
     MI: 27.91 - nota A
 
   📄 Arquivo: ./repo_temp/rich/table.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ header (linha 967): complexidade 1 - nota A
   ↳ Column (linha 39): complexidade 2 - nota A
   ↳ copy (linha 117): complexidade 1 - nota A
@@ -3389,6 +3719,8 @@
 
   📄 Arquivo: ./repo_temp/rich/_export_format.py
 
+  [Complexidade Ciclomática por Função/Método]
+
   [Métricas Brutas]
     LOC: 76 | LLOC: 4 | SLOC: 68 | Comentários: 0 | Blanks: 8
 
@@ -3399,6 +3731,8 @@
     MI: 100.00 - nota A
 
   📄 Arquivo: ./repo_temp/rich/progress_bar.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ ProgressBar (linha 18): complexidade 6 - nota B
   ↳ __init__ (linha 33): complexidade 1 - nota A
   ↳ __repr__ (linha 57): complexidade 1 - nota A
@@ -3419,6 +3753,8 @@
     MI: 51.06 - nota A
 
   📄 Arquivo: ./repo_temp/rich/errors.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ ConsoleError (linha 1): complexidade 1 - nota A
   ↳ StyleError (linha 5): complexidade 1 - nota A
   ↳ StyleSyntaxError (linha 9): complexidade 1 - nota A
@@ -3439,6 +3775,8 @@
     MI: 100.00 - nota A
 
   📄 Arquivo: ./repo_temp/rich/prompt.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ PromptError (linha 11): complexidade 1 - nota A
   ↳ InvalidResponse (linha 15): complexidade 2 - nota A
   ↳ __init__ (linha 23): complexidade 1 - nota A
@@ -3475,6 +3813,8 @@
     MI: 55.96 - nota A
 
   📄 Arquivo: ./repo_temp/rich/segment.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ ControlType (linha 35): complexidade 1 - nota A
   ↳ Segment (linha 64): complexidade 5 - nota A
   ↳ cell_length (linha 82): complexidade 2 - nota A
@@ -3517,6 +3857,8 @@
     MI: 32.04 - nota A
 
   📄 Arquivo: ./repo_temp/rich/ansi.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ _ansi_tokenize (linha 28): complexidade 7 - nota B
   ↳ read (linha 224): complexidade 1 - nota A
   ↳ _AnsiToken (linha 20): complexidade 1 - nota A
@@ -3535,6 +3877,8 @@
     MI: 52.31 - nota A
 
   📄 Arquivo: ./repo_temp/rich/progress.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ track (linha 108): complexidade 3 - nota A
   ↳ wrap_file (linha 308): complexidade 3 - nota A
   ↳ open (linha 374): complexidade 1 - nota A
@@ -3652,15 +3996,17 @@
   ↳ remove_task (linha 1642): complexidade 1 - nota A
 
   [Métricas Brutas]
-    LOC: 1715 | LLOC: 763 | SLOC: 1139 | Comentários: 17 | Blanks: 257
+    LOC: 1715 | LLOC: 757 | SLOC: 1139 | Comentários: 17 | Blanks: 257
 
   [Halstead]
     Volume: 2780.81 | Dificuldade: 12.39 | Esforço: 34458.58 | Bugs estimados: 0.93
 
   [Maintainability Index]
-    MI: 8.54 - nota C
+    MI: 8.62 - nota C
 
   📄 Arquivo: ./repo_temp/rich/_stack.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ Stack (linha 6): complexidade 2 - nota A
   ↳ top (linha 10): complexidade 1 - nota A
   ↳ push (linha 14): complexidade 1 - nota A
@@ -3675,6 +4021,8 @@
     MI: 74.77 - nota A
 
   📄 Arquivo: ./repo_temp/rich/_windows.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ get_windows_console_features (linha 34): complexidade 1 - nota A
   ↳ get_windows_console_features (linha 40): complexidade 6 - nota B
   ↳ WindowsConsoleFeatures (linha 6): complexidade 1 - nota A
@@ -3690,6 +4038,8 @@
 
   📄 Arquivo: ./repo_temp/rich/_cell_widths.py
 
+  [Complexidade Ciclomática por Função/Método]
+
   [Métricas Brutas]
     LOC: 454 | LLOC: 1 | SLOC: 452 | Comentários: 1 | Blanks: 1
 
@@ -3700,6 +4050,8 @@
     MI: 98.50 - nota A
 
   📄 Arquivo: ./repo_temp/rich/cells.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ cached_cell_len (linha 34): complexidade 2 - nota A
   ↳ cell_len (linha 51): complexidade 3 - nota A
   ↳ get_character_cell_size (linha 68): complexidade 6 - nota B
@@ -3716,6 +4068,8 @@
     MI: 60.57 - nota A
 
   📄 Arquivo: ./repo_temp/rich/_win32_console.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ GetStdHandle (linha 78): complexidade 1 - nota A
   ↳ GetConsoleMode (linha 95): complexidade 2 - nota A
   ↳ FillConsoleOutputCharacter (linha 128): complexidade 1 - nota A
@@ -3761,6 +4115,8 @@
     MI: 49.42 - nota A
 
   📄 Arquivo: ./repo_temp/rich/panel.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ Panel (linha 17): complexidade 5 - nota A
   ↳ __init__ (linha 40): complexidade 1 - nota A
   ↳ fit (linha 74): complexidade 1 - nota A
@@ -3779,6 +4135,8 @@
     MI: 48.00 - nota A
 
   📄 Arquivo: ./repo_temp/rich/styled.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ Styled (linha 11): complexidade 2 - nota A
   ↳ __init__ (linha 19): complexidade 1 - nota A
   ↳ __rich_console__ (linha 23): complexidade 1 - nota A
@@ -3794,6 +4152,8 @@
     MI: 89.28 - nota A
 
   📄 Arquivo: ./repo_temp/rich/spinner.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ Spinner (linha 13): complexidade 4 - nota A
   ↳ __init__ (linha 26): complexidade 3 - nota A
   ↳ __rich_console__ (linha 50): complexidade 1 - nota A
@@ -3811,6 +4171,8 @@
     MI: 66.64 - nota A
 
   📄 Arquivo: ./repo_temp/rich/_windows_renderer.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ legacy_windows_render (linha 7): complexidade 20 - nota C
 
   [Métricas Brutas]
@@ -3823,6 +4185,8 @@
     MI: 61.86 - nota A
 
   📄 Arquivo: ./repo_temp/rich/json.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ JSON (linha 9): complexidade 3 - nota A
   ↳ __init__ (linha 25): complexidade 2 - nota A
   ↳ from_data (linha 54): complexidade 2 - nota A
@@ -3838,6 +4202,8 @@
     MI: 79.76 - nota A
 
   📄 Arquivo: ./repo_temp/rich/padding.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ Padding (linha 19): complexidade 4 - nota A
   ↳ __init__ (linha 33): complexidade 1 - nota A
   ↳ indent (linha 47): complexidade 1 - nota A
@@ -3856,6 +4222,8 @@
     MI: 59.88 - nota A
 
   📄 Arquivo: ./repo_temp/rich/__main__.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ make_test_card (linha 39): complexidade 1 - nota A
   ↳ ColorBox (linha 18): complexidade 3 - nota A
   ↳ __rich_console__ (linha 19): complexidade 3 - nota A
@@ -3871,6 +4239,8 @@
     MI: 44.37 - nota A
 
   📄 Arquivo: ./repo_temp/rich/scope.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ render_scope (linha 14): complexidade 4 - nota A
   ↳ test (linha 75): complexidade 1 - nota A
 
@@ -3884,6 +4254,8 @@
     MI: 82.64 - nota A
 
   📄 Arquivo: ./repo_temp/rich/_extension.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ load_ipython_extension (linha 4): complexidade 1 - nota A
 
   [Métricas Brutas]
@@ -3896,6 +4268,8 @@
     MI: 100.00 - nota A
 
   📄 Arquivo: ./repo_temp/rich/status.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ Status (linha 11): complexidade 2 - nota A
   ↳ __init__ (linha 23): complexidade 1 - nota A
   ↳ renderable (linha 45): complexidade 1 - nota A
@@ -3917,6 +4291,8 @@
     MI: 69.25 - nota A
 
   📄 Arquivo: ./repo_temp/rich/abc.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ RichRenderable (linha 4): complexidade 3 - nota A
   ↳ __subclasshook__ (linha 16): complexidade 2 - nota A
   ↳ Foo (linha 28): complexidade 1 - nota A
@@ -3931,6 +4307,8 @@
     MI: 93.17 - nota A
 
   📄 Arquivo: ./repo_temp/rich/jupyter.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ _render_segments (linha 59): complexidade 6 - nota B
   ↳ display (linha 84): complexidade 2 - nota A
   ↳ print (linha 98): complexidade 1 - nota A
@@ -3950,16 +4328,18 @@
     MI: 55.65 - nota A
 
   📄 Arquivo: ./repo_temp/rich/color_triplet.py
+
+  [Complexidade Ciclomática por Função/Método]
   ↳ ColorTriplet (linha 4): complexidade 2 - nota A
   ↳ hex (linha 15): complexidade 1 - nota A
   ↳ rgb (linha 21): complexidade 1 - nota A
   ↳ normalized (linha 31): complexidade 1 - nota A
 
   [Métricas Brutas]
-    LOC: 38 | LLOC: 28 | SLOC: 17 | Comentários: 0 | Blanks: 8
+    LOC: 38 | LLOC: 27 | SLOC: 17 | Comentários: 0 | Blanks: 8
 
   [Halstead]
     Volume: 20.90 | Dificuldade: 0.75 | Esforço: 15.67 | Bugs estimados: 0.01
 
   [Maintainability Index]
-    MI: 87.56 - nota A
+    MI: 87.91 - nota A
