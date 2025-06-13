@@ -62,9 +62,11 @@ def gerar_relatorio(blocos, raw, halstead, mi, arquivo):
     print(f"\n==== Relatório de Análise do Arquivo ====")
     print(f"\n  📄 [INFO] Arquivo: {arquivo}")
 
-    for bloco in blocos:
-        rank = cc_rank(bloco.complexity)
-        print(f"  ↳ {bloco.name} (linha {bloco.lineno}): complexidade {bloco.complexity} - nota {rank}")
+    if blocos:
+        print("\n  [Complexidade Ciclomática por Função/Método]")
+        for bloco in blocos:
+            rank = cc_rank(bloco.complexity)
+            print(f"  ↳ {bloco.name} (linha {bloco.lineno}): complexidade {bloco.complexity} - nota {rank}")
 
     if raw:
         print("\n  [Métricas Brutas]")
@@ -90,6 +92,7 @@ def exportar_relatorio_txt(blocos, raw, halstead, mi, arquivo, arquivo_saida):
     with open(arquivo_saida, "a", encoding="utf-8") as f:
         f.write(f"\n  📄 Arquivo: {arquivo}\n")
 
+        f.write("\n  [Complexidade Ciclomática por Função/Método]\n")
         for bloco in blocos:
             rank = cc_rank(bloco.complexity)
             f.write(f"  ↳ {bloco.name} (linha {bloco.lineno}): complexidade {bloco.complexity} - nota {rank}\n")
