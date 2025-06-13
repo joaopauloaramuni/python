@@ -1,4 +1,4 @@
-# 🚀 Projeto Radon Analyser
+# Projeto Radon Analyser
 
 ## 📋 O que é este projeto?
 
@@ -86,7 +86,7 @@ source .venv/bin/activate
 
 ---
 
-## 📊 Métricas Disponíveis
+## 📊 Métricas disponíveis
 
 ### 🔁 Complexidade Ciclomática (Cyclomatic Complexity)
 
