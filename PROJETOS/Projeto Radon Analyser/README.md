@@ -3,6 +3,7 @@
 ## 📋 O que é este projeto?
 
 Este projeto é uma ferramenta simples para analisar a **complexidade ciclomatica** de códigos Python em repositórios GitHub usando a biblioteca [Radon](https://pypi.org/project/radon/).  
+
 Ele clona um repositório, busca os arquivos `.py`, calcula a complexidade de cada função, classe ou bloco, gera um relatório no console e salva um arquivo de texto com os resultados.
 
 ---
