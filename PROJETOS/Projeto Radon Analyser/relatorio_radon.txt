@@ -1,0 +1,3965 @@
+
+  📄 Arquivo: ./repo_temp/setup.py
+
+  [Métricas Brutas]
+    LOC: 8 | LLOC: 3 | SLOC: 3 | Comentários: 2 | Blanks: 3
+
+  [Halstead]
+    Volume: 4.75 | Dificuldade: 0.50 | Esforço: 2.38 | Bugs estimados: 0.00
+
+  [Maintainability Index]
+    MI: 100.00 - nota A
+
+  📄 Arquivo: ./repo_temp/tools/profile_pretty.py
+
+  [Métricas Brutas]
+    LOC: 23 | LLOC: 18 | SLOC: 17 | Comentários: 0 | Blanks: 6
+
+  [Halstead]
+    Volume: 15.51 | Dificuldade: 1.00 | Esforço: 15.51 | Bugs estimados: 0.01
+
+  [Maintainability Index]
+    MI: 64.15 - nota A
+
+  📄 Arquivo: ./repo_temp/tools/stress_test_pretty.py
+
+  [Métricas Brutas]
+    LOC: 21 | LLOC: 10 | SLOC: 20 | Comentários: 0 | Blanks: 1
+
+  [Halstead]
+    Volume: 4.75 | Dificuldade: 0.50 | Esforço: 2.38 | Bugs estimados: 0.00
+
+  [Maintainability Index]
+    MI: 73.18 - nota A
+
+  📄 Arquivo: ./repo_temp/tools/make_terminal_widths.py
+  ↳ make_widths_table (linha 13): complexidade 7 - nota B
+  ↳ get_cell_size (linha 42): complexidade 5 - nota A
+  ↳ test (linha 61): complexidade 3 - nota A
+  ↳ run (linha 73): complexidade 1 - nota A
+
+  [Métricas Brutas]
+    LOC: 89 | LLOC: 60 | SLOC: 68 | Comentários: 0 | Blanks: 21
+
+  [Halstead]
+    Volume: 310.20 | Dificuldade: 5.71 | Esforço: 1772.55 | Bugs estimados: 0.10
+
+  [Maintainability Index]
+    MI: 41.88 - nota A
+
+  📄 Arquivo: ./repo_temp/tools/profile_divide.py
+
+  [Métricas Brutas]
+    LOC: 14 | LLOC: 9 | SLOC: 8 | Comentários: 0 | Blanks: 6
+
+  [Halstead]
+    Volume: 15.51 | Dificuldade: 1.00 | Esforço: 15.51 | Bugs estimados: 0.01
+
+  [Maintainability Index]
+    MI: 70.44 - nota A
+
+  📄 Arquivo: ./repo_temp/tools/make_emoji.py
+
+  [Métricas Brutas]
+    LOC: 12 | LLOC: 10 | SLOC: 9 | Comentários: 0 | Blanks: 3
+
+  [Halstead]
+    Volume: 4.75 | Dificuldade: 0.50 | Esforço: 2.38 | Bugs estimados: 0.00
+
+  [Maintainability Index]
+    MI: 73.04 - nota A
+
+  📄 Arquivo: ./repo_temp/tests/test_pretty.py
+  ↳ test_install (linha 43): complexidade 3 - nota A
+  ↳ test_install_max_depth (linha 52): complexidade 3 - nota A
+  ↳ test_ipy_display_hook__repr_html (linha 61): complexidade 2 - nota A
+  ↳ test_ipy_display_hook__multiple_special_reprs (linha 75): complexidade 2 - nota A
+  ↳ test_ipy_display_hook__no_special_repr_methods (linha 97): complexidade 2 - nota A
+  ↳ test_ipy_display_hook__special_repr_raises_exception (linha 109): complexidade 2 - nota A
+  ↳ test_ipy_display_hook__console_renderables_on_newline (linha 133): complexidade 2 - nota A
+  ↳ test_pretty (linha 140): complexidade 2 - nota A
+  ↳ test_pretty_dataclass (linha 170): complexidade 4 - nota A
+  ↳ test_empty_dataclass (linha 190): complexidade 3 - nota A
+  ↳ test_pretty_namedtuple (linha 203): complexidade 2 - nota A
+  ↳ test_pretty_namedtuple_length_one_no_trailing_comma (linha 230): complexidade 2 - nota A
+  ↳ test_pretty_namedtuple_empty (linha 235): complexidade 2 - nota A
+  ↳ test_pretty_namedtuple_custom_repr (linha 240): complexidade 2 - nota A
+  ↳ test_pretty_namedtuple_fields_invalid_type (linha 248): complexidade 2 - nota A
+  ↳ test_pretty_namedtuple_max_depth (linha 257): complexidade 2 - nota A
+  ↳ test_small_width (linha 263): complexidade 2 - nota A
+  ↳ test_ansi_in_pretty_repr (linha 270): complexidade 2 - nota A
+  ↳ test_broken_repr (linha 284): complexidade 2 - nota A
+  ↳ test_broken_getattr (linha 295): complexidade 2 - nota A
+  ↳ test_reference_cycle_container (linha 308): complexidade 4 - nota A
+  ↳ test_reference_cycle_namedtuple (linha 326): complexidade 3 - nota A
+  ↳ test_reference_cycle_dataclass (linha 343): complexidade 4 - nota A
+  ↳ test_reference_cycle_attrs (linha 366): complexidade 4 - nota A
+  ↳ test_reference_cycle_custom_repr (linha 389): complexidade 4 - nota A
+  ↳ test_max_depth (linha 416): complexidade 8 - nota B
+  ↳ test_max_depth_rich_repr (linha 438): complexidade 2 - nota A
+  ↳ test_max_depth_attrs (linha 459): complexidade 2 - nota A
+  ↳ test_max_depth_dataclass (linha 474): complexidade 2 - nota A
+  ↳ test_defaultdict (linha 489): complexidade 2 - nota A
+  ↳ test_deque (linha 495): complexidade 9 - nota B
+  ↳ test_array (linha 522): complexidade 2 - nota A
+  ↳ test_tuple_of_one (linha 528): complexidade 2 - nota A
+  ↳ test_node (linha 532): complexidade 2 - nota A
+  ↳ test_indent_lines (linha 537): complexidade 2 - nota A
+  ↳ test_pprint (linha 553): complexidade 2 - nota A
+  ↳ test_pprint_max_values (linha 560): complexidade 2 - nota A
+  ↳ test_pprint_max_items (linha 567): complexidade 2 - nota A
+  ↳ test_pprint_max_string (linha 574): complexidade 2 - nota A
+  ↳ test_tuples (linha 581): complexidade 2 - nota A
+  ↳ test_newline (linha 596): complexidade 2 - nota A
+  ↳ test_empty_repr (linha 605): complexidade 2 - nota A
+  ↳ test_attrs (linha 613): complexidade 2 - nota A
+  ↳ test_attrs_empty (linha 627): complexidade 2 - nota A
+  ↳ test_attrs_broken (linha 642): complexidade 2 - nota A
+  ↳ test_attrs_broken_310 (linha 657): complexidade 3 - nota A
+  ↳ test_user_dict (linha 673): complexidade 3 - nota A
+  ↳ test_lying_attribute (linha 691): complexidade 2 - nota A
+  ↳ test_measure_pretty (linha 703): complexidade 2 - nota A
+  ↳ test_tuple_rich_repr (linha 713): complexidade 2 - nota A
+  ↳ test_tuple_rich_repr_default (linha 725): complexidade 2 - nota A
+  ↳ test_dataclass_no_attribute (linha 737): complexidade 2 - nota A
+  ↳ ExampleDataclass (linha 157): complexidade 1 - nota A
+  ↳ Empty (linha 166): complexidade 1 - nota A
+  ↳ StockKeepingUnit (linha 195): complexidade 1 - nota A
+
+  [Métricas Brutas]
+    LOC: 754 | LLOC: 519 | SLOC: 547 | Comentários: 10 | Blanks: 180
+
+  [Halstead]
+    Volume: 2302.42 | Dificuldade: 4.29 | Esforço: 9881.24 | Bugs estimados: 0.77
+
+  [Maintainability Index]
+    MI: 17.93 - nota B
+
+  📄 Arquivo: ./repo_temp/tests/test_filesize.py
+  ↳ test_traditional (linha 4): complexidade 11 - nota C
+  ↳ test_pick_unit_and_suffix (linha 17): complexidade 3 - nota A
+
+  [Métricas Brutas]
+    LOC: 20 | LLOC: 16 | SLOC: 16 | Comentários: 0 | Blanks: 4
+
+  [Halstead]
+    Volume: 201.91 | Dificuldade: 1.08 | Esforço: 217.44 | Bugs estimados: 0.07
+
+  [Maintainability Index]
+    MI: 55.84 - nota A
+
+  📄 Arquivo: ./repo_temp/tests/test_columns_align.py
+  ↳ render (linha 11): complexidade 1 - nota A
+  ↳ test_align (linha 34): complexidade 2 - nota A
+
+  [Métricas Brutas]
+    LOC: 43 | LLOC: 30 | SLOC: 30 | Comentários: 1 | Blanks: 12
+
+  [Halstead]
+    Volume: 27.00 | Dificuldade: 1.00 | Esforço: 27.00 | Bugs estimados: 0.01
+
+  [Maintainability Index]
+    MI: 68.15 - nota A
+
+  📄 Arquivo: ./repo_temp/tests/conftest.py
+  ↳ reset_color_envvars (linha 5): complexidade 1 - nota A
+
+  [Métricas Brutas]
+    LOC: 8 | LLOC: 6 | SLOC: 5 | Comentários: 0 | Blanks: 2
+
+  [Halstead]
+    Volume: 0.00 | Dificuldade: 0.00 | Esforço: 0.00 | Bugs estimados: 0.00
+
+  [Maintainability Index]
+    MI: 100.00 - nota A
+
+  📄 Arquivo: ./repo_temp/tests/test_protocol.py
+  ↳ test_rich_cast (linha 14): complexidade 2 - nota A
+  ↳ test_rich_cast_fake (linha 29): complexidade 2 - nota A
+  ↳ test_rich_cast_container (linha 36): complexidade 2 - nota A
+  ↳ test_abc (linha 43): complexidade 7 - nota B
+  ↳ test_cast_deep (linha 53): complexidade 2 - nota A
+  ↳ test_cast_recursive (linha 67): complexidade 2 - nota A
+  ↳ Foo (linha 9): complexidade 2 - nota A
+  ↳ __rich__ (linha 10): complexidade 1 - nota A
+  ↳ Fake (linha 21): complexidade 2 - nota A
+  ↳ __getattr__ (linha 22): complexidade 1 - nota A
+  ↳ __repr__ (linha 25): complexidade 1 - nota A
+
+  [Métricas Brutas]
+    LOC: 84 | LLOC: 60 | SLOC: 60 | Comentários: 0 | Blanks: 24
+
+  [Halstead]
+    Volume: 82.04 | Dificuldade: 1.00 | Esforço: 82.04 | Bugs estimados: 0.03
+
+  [Maintainability Index]
+    MI: 45.79 - nota A
+
+  📄 Arquivo: ./repo_temp/tests/test_getfileno.py
+  ↳ test_get_fileno (linha 4): complexidade 2 - nota A
+  ↳ test_get_fileno_missing (linha 12): complexidade 2 - nota A
+  ↳ test_get_fileno_broken (linha 19): complexidade 2 - nota A
+
+  [Métricas Brutas]
+    LOC: 25 | LLOC: 16 | SLOC: 16 | Comentários: 0 | Blanks: 9
+
+  [Halstead]
+    Volume: 41.51 | Dificuldade: 1.50 | Esforço: 62.27 | Bugs estimados: 0.01
+
+  [Maintainability Index]
+    MI: 61.86 - nota A
+
+  📄 Arquivo: ./repo_temp/tests/test_tree.py
+  ↳ test_render_single_node (linha 10): complexidade 2 - nota A
+  ↳ test_render_single_branch (linha 18): complexidade 2 - nota A
+  ↳ test_render_double_branch (linha 30): complexidade 2 - nota A
+  ↳ test_render_ascii (linha 43): complexidade 2 - nota A
+  ↳ test_render_tree_non_win32 (linha 62): complexidade 2 - nota A
+  ↳ test_render_tree_win32 (linha 82): complexidade 2 - nota A
+  ↳ test_render_tree_hide_root_non_win32 (linha 102): complexidade 2 - nota A
+  ↳ test_render_tree_hide_root_win32 (linha 122): complexidade 2 - nota A
+  ↳ test_tree_measure (linha 139): complexidade 2 - nota A
+
+  [Métricas Brutas]
+    LOC: 145 | LLOC: 113 | SLOC: 119 | Comentários: 0 | Blanks: 26
+
+  [Halstead]
+    Volume: 114.69 | Dificuldade: 0.50 | Esforço: 57.35 | Bugs estimados: 0.04
+
+  [Maintainability Index]
+    MI: 39.45 - nota A
+
+  📄 Arquivo: ./repo_temp/tests/test_logging.py
+  ↳ test_exception (linha 35): complexidade 6 - nota B
+  ↳ test_exception_with_extra_lines (linha 64): complexidade 5 - nota A
+  ↳ test_stderr_and_stdout_are_none (linha 94): complexidade 4 - nota A
+  ↳ test_markup_and_highlight (linha 125): complexidade 11 - nota C
+
+  [Métricas Brutas]
+    LOC: 168 | LLOC: 93 | SLOC: 130 | Comentários: 4 | Blanks: 34
+
+  [Halstead]
+    Volume: 351.55 | Dificuldade: 4.50 | Esforço: 1582.00 | Bugs estimados: 0.12
+
+  [Maintainability Index]
+    MI: 46.40 - nota A
+
+  📄 Arquivo: ./repo_temp/tests/test_stack.py
+  ↳ test_stack (linha 4): complexidade 4 - nota A
+
+  [Métricas Brutas]
+    LOC: 10 | LLOC: 8 | SLOC: 8 | Comentários: 0 | Blanks: 2
+
+  [Halstead]
+    Volume: 20.90 | Dificuldade: 0.75 | Esforço: 15.67 | Bugs estimados: 0.01
+
+  [Maintainability Index]
+    MI: 70.52 - nota A
+
+  📄 Arquivo: ./repo_temp/tests/test_win32_console.py
+  ↳ test_windows_coordinates_to_ctype (linha 30): complexidade 3 - nota A
+  ↳ win32_handle (linha 36): complexidade 1 - nota A
+  ↳ win32_console_getters (linha 42): complexidade 1 - nota A
+  ↳ test_cursor_position (linha 59): complexidade 2 - nota A
+  ↳ test_screen_size (linha 63): complexidade 2 - nota A
+  ↳ test_write_text (linha 69): complexidade 2 - nota A
+  ↳ test_write_styled (linha 79): complexidade 7 - nota B
+  ↳ test_write_styled_bold (linha 106): complexidade 3 - nota A
+  ↳ test_write_styled_reverse (linha 123): complexidade 3 - nota A
+  ↳ test_write_styled_reverse (linha 140): complexidade 3 - nota A
+  ↳ test_write_styled_no_foreground_color (linha 157): complexidade 3 - nota A
+  ↳ test_write_styled_no_background_color (linha 174): complexidade 3 - nota A
+  ↳ test_erase_line (linha 194): complexidade 1 - nota A
+  ↳ test_erase_end_of_line (linha 212): complexidade 1 - nota A
+  ↳ test_erase_start_of_line (linha 233): complexidade 1 - nota A
+  ↳ test_move_cursor_to (linha 252): complexidade 1 - nota A
+  ↳ test_move_cursor_to_out_of_bounds_row (linha 263): complexidade 2 - nota A
+  ↳ test_move_cursor_to_out_of_bounds_col (linha 274): complexidade 2 - nota A
+  ↳ test_move_cursor_up (linha 285): complexidade 1 - nota A
+  ↳ test_move_cursor_down (linha 297): complexidade 1 - nota A
+  ↳ test_move_cursor_forward (linha 309): complexidade 1 - nota A
+  ↳ test_move_cursor_forward_newline_wrap (linha 321): complexidade 1 - nota A
+  ↳ test_move_cursor_to_column (linha 338): complexidade 1 - nota A
+  ↳ test_move_cursor_backward (linha 348): complexidade 1 - nota A
+  ↳ test_move_cursor_backward_prev_line_wrap (linha 358): complexidade 1 - nota A
+  ↳ test_hide_cursor (linha 375): complexidade 4 - nota A
+  ↳ test_show_cursor (linha 388): complexidade 4 - nota A
+  ↳ test_set_title (linha 401): complexidade 1 - nota A
+  ↳ test_set_title_too_long (linha 408): complexidade 1 - nota A
+  ↳ StubScreenBufferInfo (linha 23): complexidade 1 - nota A
+
+  [Métricas Brutas]
+    LOC: 412 | LLOC: 233 | SLOC: 330 | Comentários: 6 | Blanks: 81
+
+  [Halstead]
+    Volume: 932.87 | Dificuldade: 4.48 | Esforço: 4175.70 | Bugs estimados: 0.31
+
+  [Maintainability Index]
+    MI: 31.46 - nota A
+
+  📄 Arquivo: ./repo_temp/tests/test_console.py
+  ↳ test_dumb_terminal (linha 37): complexidade 5 - nota A
+  ↳ test_soft_wrap (linha 48): complexidade 2 - nota A
+  ↳ test_16color_terminal (linha 55): complexidade 2 - nota A
+  ↳ test_truecolor_terminal (linha 63): complexidade 2 - nota A
+  ↳ test_kitty_terminal (linha 73): complexidade 2 - nota A
+  ↳ test_console_options_update (linha 82): complexidade 4 - nota A
+  ↳ test_console_options_update_height (linha 106): complexidade 5 - nota A
+  ↳ test_init (linha 123): complexidade 3 - nota A
+  ↳ test_size (linha 131): complexidade 3 - nota A
+  ↳ test_size_can_fall_back_to_std_descriptors (linha 155): complexidade 2 - nota A
+  ↳ test_repr (linha 183): complexidade 3 - nota A
+  ↳ test_print (linha 189): complexidade 2 - nota A
+  ↳ test_print_multiple (linha 195): complexidade 2 - nota A
+  ↳ test_print_text (linha 201): complexidade 2 - nota A
+  ↳ test_print_text_multiple (linha 207): complexidade 2 - nota A
+  ↳ test_print_json (linha 213): complexidade 2 - nota A
+  ↳ test_print_json_error (linha 222): complexidade 1 - nota A
+  ↳ test_print_json_data (linha 228): complexidade 2 - nota A
+  ↳ test_print_json_ensure_ascii (linha 237): complexidade 2 - nota A
+  ↳ test_print_json_with_default_ensure_ascii (linha 246): complexidade 2 - nota A
+  ↳ test_print_json_indent_none (linha 255): complexidade 2 - nota A
+  ↳ test_console_null_file (linha 264): complexidade 2 - nota A
+  ↳ test_log (linha 273): complexidade 2 - nota A
+  ↳ test_log_milliseconds (linha 289): complexidade 2 - nota A
+  ↳ test_print_empty (linha 301): complexidade 2 - nota A
+  ↳ test_markup_highlight (linha 307): complexidade 2 - nota A
+  ↳ test_print_style (linha 316): complexidade 2 - nota A
+  ↳ test_show_cursor (linha 322): complexidade 2 - nota A
+  ↳ test_clear (linha 332): complexidade 2 - nota A
+  ↳ test_clear_no_terminal (linha 339): complexidade 2 - nota A
+  ↳ test_get_style (linha 346): complexidade 1 - nota A
+  ↳ test_get_style_default (linha 351): complexidade 1 - nota A
+  ↳ test_get_style_error (linha 356): complexidade 1 - nota A
+  ↳ test_render_error (linha 364): complexidade 1 - nota A
+  ↳ test_control (linha 370): complexidade 2 - nota A
+  ↳ test_capture (linha 377): complexidade 2 - nota A
+  ↳ test_input (linha 386): complexidade 3 - nota A
+  ↳ test_input_password (linha 398): complexidade 3 - nota A
+  ↳ test_status (linha 412): complexidade 2 - nota A
+  ↳ test_justify_none (linha 418): complexidade 2 - nota A
+  ↳ test_justify_left (linha 424): complexidade 2 - nota A
+  ↳ test_justify_center (linha 430): complexidade 2 - nota A
+  ↳ test_justify_right (linha 436): complexidade 2 - nota A
+  ↳ test_justify_renderable_none (linha 442): complexidade 2 - nota A
+  ↳ test_justify_renderable_left (linha 454): complexidade 2 - nota A
+  ↳ test_justify_renderable_center (linha 466): complexidade 2 - nota A
+  ↳ test_justify_renderable_right (linha 478): complexidade 2 - nota A
+  ↳ test_render_broken_renderable (linha 498): complexidade 1 - nota A
+  ↳ test_export_text (linha 505): complexidade 2 - nota A
+  ↳ test_export_html (linha 513): complexidade 2 - nota A
+  ↳ test_export_html_inline (linha 522): complexidade 2 - nota A
+  ↳ test_export_svg (linha 534): complexidade 2 - nota A
+  ↳ test_export_svg_specified_unique_id (linha 545): complexidade 2 - nota A
+  ↳ test_save_svg (linha 557): complexidade 2 - nota A
+  ↳ test_save_text (linha 569): complexidade 2 - nota A
+  ↳ test_save_html (linha 579): complexidade 2 - nota A
+  ↳ test_no_wrap (linha 592): complexidade 2 - nota A
+  ↳ test_soft_wrap (linha 598): complexidade 2 - nota A
+  ↳ test_unicode_error (linha 604): complexidade 5 - nota A
+  ↳ test_bell (linha 615): complexidade 2 - nota A
+  ↳ test_pager (linha 622): complexidade 3 - nota A
+  ↳ test_out (linha 644): complexidade 2 - nota A
+  ↳ test_render_group (linha 651): complexidade 3 - nota A
+  ↳ test_render_group_fit (linha 665): complexidade 3 - nota A
+  ↳ test_get_time (linha 681): complexidade 3 - nota A
+  ↳ test_console_style (linha 689): complexidade 2 - nota A
+  ↳ test_no_color (linha 699): complexidade 2 - nota A
+  ↳ test_quiet (linha 710): complexidade 2 - nota A
+  ↳ test_no_nested_live (linha 716): complexidade 1 - nota A
+  ↳ test_screen (linha 725): complexidade 2 - nota A
+  ↳ test_screen_update (linha 739): complexidade 2 - nota A
+  ↳ test_height (linha 754): complexidade 2 - nota A
+  ↳ test_columns_env (linha 759): complexidade 3 - nota A
+  ↳ test_lines_env (linha 769): complexidade 3 - nota A
+  ↳ test_screen_update_class (linha 779): complexidade 4 - nota A
+  ↳ test_is_alt_screen (linha 793): complexidade 5 - nota A
+  ↳ test_set_console_title (linha 803): complexidade 3 - nota A
+  ↳ test_update_screen (linha 815): complexidade 3 - nota A
+  ↳ test_update_screen_lines (linha 831): complexidade 2 - nota A
+  ↳ test_update_options_markup (linha 839): complexidade 3 - nota A
+  ↳ test_print_width_zero (linha 846): complexidade 2 - nota A
+  ↳ test_size_properties (linha 853): complexidade 5 - nota A
+  ↳ test_print_newline_start (linha 864): complexidade 2 - nota A
+  ↳ test_is_terminal_broken_file (linha 874): complexidade 2 - nota A
+  ↳ test_detect_color_system (linha 886): complexidade 2 - nota A
+  ↳ test_reset_height (linha 891): complexidade 2 - nota A
+  ↳ test_render_lines_height_minus_vertical_pad_is_negative (linha 917): complexidade 1 - nota A
+  ↳ test_recording_no_stdout_and_no_stderr_files (linha 932): complexidade 2 - nota A
+  ↳ test_capturing_no_stdout_and_no_stderr_files (linha 945): complexidade 2 - nota A
+  ↳ test_force_color (linha 955): complexidade 2 - nota A
+  ↳ test_force_color_jupyter (linha 962): complexidade 2 - nota A
+  ↳ test_force_color (linha 970): complexidade 2 - nota A
+  ↳ test_reenable_highlighting (linha 982): complexidade 3 - nota A
+  ↳ test_brokenpipeerror (linha 1009): complexidade 6 - nota B
+  ↳ test_capture_and_record (linha 1028): complexidade 3 - nota A
+  ↳ test_tty_compatible (linha 1049): complexidade 13 - nota C
+  ↳ BrokenRenderable (linha 493): complexidade 2 - nota A
+  ↳ __rich_console__ (linha 494): complexidade 1 - nota A
+
+  [Métricas Brutas]
+    LOC: 1112 | LLOC: 701 | SLOC: 820 | Comentários: 40 | Blanks: 250
+
+  [Halstead]
+    Volume: 2996.25 | Dificuldade: 5.06 | Esforço: 15168.54 | Bugs estimados: 1.00
+
+  [Maintainability Index]
+    MI: 7.67 - nota C
+
+  📄 Arquivo: ./repo_temp/tests/test_constrain.py
+  ↳ test_width_of_none (linha 6): complexidade 3 - nota A
+
+  [Métricas Brutas]
+    LOC: 13 | LLOC: 9 | SLOC: 11 | Comentários: 0 | Blanks: 2
+
+  [Halstead]
+    Volume: 12.00 | Dificuldade: 0.67 | Esforço: 8.00 | Bugs estimados: 0.00
+
+  [Maintainability Index]
+    MI: 71.22 - nota A
+
+  📄 Arquivo: ./repo_temp/tests/test_measure.py
+  ↳ test_span (linha 9): complexidade 2 - nota A
+  ↳ test_no_renderable (linha 14): complexidade 1 - nota A
+  ↳ test_measure_renderables (linha 22): complexidade 3 - nota A
+  ↳ test_clamp (linha 30): complexidade 6 - nota B
+
+  [Métricas Brutas]
+    LOC: 36 | LLOC: 24 | SLOC: 26 | Comentários: 0 | Blanks: 10
+
+  [Halstead]
+    Volume: 98.10 | Dificuldade: 0.50 | Esforço: 49.05 | Bugs estimados: 0.03
+
+  [Maintainability Index]
+    MI: 54.74 - nota A
+
+  📄 Arquivo: ./repo_temp/tests/test_syntax.py
+  ↳ test_blank_lines (linha 47): complexidade 2 - nota A
+  ↳ test_python_render (linha 60): complexidade 2 - nota A
+  ↳ test_python_render_simple (linha 79): complexidade 2 - nota A
+  ↳ test_python_render_simple_passing_lexer_instance (linha 94): complexidade 2 - nota A
+  ↳ test_python_render_simple_indent_guides (linha 110): complexidade 2 - nota A
+  ↳ test_python_render_line_range_indent_guides (linha 127): complexidade 2 - nota A
+  ↳ test_python_render_indent_guides (linha 144): complexidade 2 - nota A
+  ↳ test_pygments_syntax_theme_non_str (linha 164): complexidade 2 - nota A
+  ↳ test_pygments_syntax_theme (linha 171): complexidade 2 - nota A
+  ↳ test_get_line_color_none (linha 176): complexidade 2 - nota A
+  ↳ test_highlight_background_color (linha 192): complexidade 2 - nota A
+  ↳ test_get_number_styles (linha 206): complexidade 2 - nota A
+  ↳ test_get_style_for_token (linha 216): complexidade 2 - nota A
+  ↳ test_option_no_wrap (linha 237): complexidade 2 - nota A
+  ↳ test_syntax_highlight_ranges (linha 254): complexidade 3 - nota A
+  ↳ test_ansi_theme (linha 309): complexidade 3 - nota A
+  ↳ test_from_path (linha 322): complexidade 4 - nota A
+  ↳ test_from_path_unknown_lexer (linha 335): complexidade 3 - nota A
+  ↳ test_from_path_lexer_override (linha 347): complexidade 3 - nota A
+  ↳ test_from_path_lexer_override_invalid_lexer (linha 359): complexidade 3 - nota A
+  ↳ test_syntax_guess_lexer (linha 370): complexidade 6 - nota B
+  ↳ test_syntax_padding (linha 378): complexidade 2 - nota A
+  ↳ test_syntax_measure (linha 394): complexidade 5 - nota A
+  ↳ test_background_color_override_includes_padding (linha 409): complexidade 2 - nota A
+
+  [Métricas Brutas]
+    LOC: 441 | LLOC: 185 | SLOC: 373 | Comentários: 5 | Blanks: 65
+
+  [Halstead]
+    Volume: 762.91 | Dificuldade: 1.52 | Esforço: 1158.84 | Bugs estimados: 0.25
+
+  [Maintainability Index]
+    MI: 31.79 - nota A
+
+  📄 Arquivo: ./repo_temp/tests/render.py
+  ↳ replace_link_ids (linha 10): complexidade 1 - nota A
+  ↳ render (linha 18): complexidade 1 - nota A
+
+  [Métricas Brutas]
+    LOC: 24 | LLOC: 12 | SLOC: 13 | Comentários: 0 | Blanks: 8
+
+  [Halstead]
+    Volume: 0.00 | Dificuldade: 0.00 | Esforço: 0.00 | Bugs estimados: 0.00
+
+  [Maintainability Index]
+    MI: 100.00 - nota A
+
+  📄 Arquivo: ./repo_temp/tests/test_prompt.py
+  ↳ test_prompt_str (linha 7): complexidade 3 - nota A
+  ↳ test_prompt_str_case_insensitive (linha 24): complexidade 3 - nota A
+  ↳ test_prompt_str_default (linha 42): complexidade 3 - nota A
+  ↳ test_prompt_int (linha 58): complexidade 3 - nota A
+  ↳ test_prompt_confirm_no (linha 73): complexidade 3 - nota A
+  ↳ test_prompt_confirm_yes (linha 88): complexidade 3 - nota A
+  ↳ test_prompt_confirm_default (linha 103): complexidade 3 - nota A
+
+  [Métricas Brutas]
+    LOC: 113 | LLOC: 66 | SLOC: 98 | Comentários: 0 | Blanks: 15
+
+  [Halstead]
+    Volume: 206.09 | Dificuldade: 1.00 | Esforço: 206.09 | Bugs estimados: 0.07
+
+  [Maintainability Index]
+    MI: 42.09 - nota A
+
+  📄 Arquivo: ./repo_temp/tests/test_table.py
+  ↳ render_tables (linha 16): complexidade 8 - nota B
+  ↳ test_render_table (linha 89): complexidade 2 - nota A
+  ↳ test_not_renderable (linha 96): complexidade 1 - nota A
+  ↳ test_init_append_column (linha 105): complexidade 4 - nota A
+  ↳ test_rich_measure (linha 117): complexidade 3 - nota A
+  ↳ test_min_width (linha 128): complexidade 3 - nota A
+  ↳ test_no_columns (linha 143): complexidade 2 - nota A
+  ↳ test_get_row_style (linha 152): complexidade 3 - nota A
+  ↳ test_vertical_align_top (linha 161): complexidade 2 - nota A
+  ↳ test_table_show_header_false_substitution (linha 195): complexidade 2 - nota A
+  ↳ test_section (linha 212): complexidade 2 - nota A
+  ↳ test_placement_table_box_elements (linha 307): complexidade 2 - nota A
+  ↳ test_columns_highlight_added_by_add_row (linha 366): complexidade 4 - nota A
+
+  [Métricas Brutas]
+    LOC: 388 | LLOC: 179 | SLOC: 309 | Comentários: 8 | Blanks: 69
+
+  [Halstead]
+    Volume: 430.04 | Dificuldade: 1.70 | Esforço: 731.07 | Bugs estimados: 0.14
+
+  [Maintainability Index]
+    MI: 39.43 - nota A
+
+  📄 Arquivo: ./repo_temp/tests/test_cells.py
+  ↳ test_cell_len_long_string (linha 7): complexidade 3 - nota A
+  ↳ test_cell_len_short_string (linha 14): complexidade 3 - nota A
+  ↳ test_set_cell_size (linha 21): complexidade 13 - nota C
+  ↳ test_set_cell_size_infinite (linha 36): complexidade 3 - nota A
+  ↳ test_chop_cells (linha 48): complexidade 2 - nota A
+  ↳ test_chop_cells_double_width_boundary (linha 54): complexidade 2 - nota A
+  ↳ test_chop_cells_mixed_width (linha 60): complexidade 2 - nota A
+  ↳ test_is_single_cell_widths (linha 66): complexidade 10 - nota B
+
+  [Métricas Brutas]
+    LOC: 81 | LLOC: 48 | SLOC: 52 | Comentários: 5 | Blanks: 21
+
+  [Halstead]
+    Volume: 486.87 | Dificuldade: 2.29 | Esforço: 1112.85 | Bugs estimados: 0.16
+
+  [Maintainability Index]
+    MI: 57.86 - nota A
+
+  📄 Arquivo: ./repo_temp/tests/test_live_render.py
+  ↳ live_render (linha 9): complexidade 1 - nota A
+  ↳ test_renderable (linha 13): complexidade 3 - nota A
+  ↳ test_position_cursor (linha 19): complexidade 3 - nota A
+  ↳ test_restore_cursor (linha 25): complexidade 3 - nota A
+  ↳ test_rich_console (linha 31): complexidade 3 - nota A
+
+  [Métricas Brutas]
+    LOC: 45 | LLOC: 27 | SLOC: 35 | Comentários: 0 | Blanks: 10
+
+  [Halstead]
+    Volume: 96.00 | Dificuldade: 0.53 | Esforço: 51.20 | Bugs estimados: 0.03
+
+  [Maintainability Index]
+    MI: 53.69 - nota A
+
+  📄 Arquivo: ./repo_temp/tests/test_panel.py
+  ↳ render (linha 32): complexidade 1 - nota A
+  ↳ test_render_panel (linha 41): complexidade 2 - nota A
+  ↳ test_console_width (linha 45): complexidade 3 - nota A
+  ↳ test_fixed_width (linha 53): complexidade 3 - nota A
+  ↳ test_render_size (linha 61): complexidade 2 - nota A
+  ↳ test_title_text (linha 105): complexidade 2 - nota A
+
+  [Métricas Brutas]
+    LOC: 135 | LLOC: 54 | SLOC: 116 | Comentários: 0 | Blanks: 19
+
+  [Halstead]
+    Volume: 93.77 | Dificuldade: 0.57 | Esforço: 53.58 | Bugs estimados: 0.03
+
+  [Maintainability Index]
+    MI: 47.06 - nota A
+
+  📄 Arquivo: ./repo_temp/tests/test_box.py
+  ↳ test_str (linha 19): complexidade 2 - nota A
+  ↳ test_repr (linha 23): complexidade 2 - nota A
+  ↳ test_get_top (linha 27): complexidade 2 - nota A
+  ↳ test_get_row (linha 32): complexidade 4 - nota A
+  ↳ test_get_bottom (linha 46): complexidade 2 - nota A
+  ↳ test_box_substitute_for_same_box (linha 51): complexidade 7 - nota B
+  ↳ test_box_substitute_for_different_box_legacy_windows (linha 70): complexidade 7 - nota B
+  ↳ test_box_substitute_for_different_box_ascii_encoding (linha 89): complexidade 7 - nota B
+
+  [Métricas Brutas]
+    LOC: 105 | LLOC: 46 | SLOC: 82 | Comentários: 0 | Blanks: 23
+
+  [Halstead]
+    Volume: 406.97 | Dificuldade: 0.60 | Esforço: 242.24 | Bugs estimados: 0.14
+
+  [Maintainability Index]
+    MI: 41.96 - nota A
+
+  📄 Arquivo: ./repo_temp/tests/test_styled.py
+  ↳ test_styled (linha 8): complexidade 3 - nota A
+
+  [Métricas Brutas]
+    LOC: 15 | LLOC: 12 | SLOC: 12 | Comentários: 0 | Blanks: 3
+
+  [Halstead]
+    Volume: 13.93 | Dificuldade: 0.50 | Esforço: 6.97 | Bugs estimados: 0.00
+
+  [Maintainability Index]
+    MI: 68.04 - nota A
+
+  📄 Arquivo: ./repo_temp/tests/test_palette.py
+  ↳ test_rich_cast (linha 5): complexidade 3 - nota A
+
+  [Métricas Brutas]
+    LOC: 8 | LLOC: 6 | SLOC: 6 | Comentários: 0 | Blanks: 2
+
+  [Halstead]
+    Volume: 4.75 | Dificuldade: 0.50 | Esforço: 2.38 | Bugs estimados: 0.00
+
+  [Maintainability Index]
+    MI: 77.88 - nota A
+
+  📄 Arquivo: ./repo_temp/tests/test_windows_renderer.py
+  ↳ legacy_term_mock (linha 19): complexidade 1 - nota A
+  ↳ test_text_only (linha 23): complexidade 1 - nota A
+  ↳ test_text_multiple_segments (linha 31): complexidade 2 - nota A
+  ↳ test_text_with_style (linha 41): complexidade 1 - nota A
+  ↳ test_control_cursor_move_to (linha 51): complexidade 1 - nota A
+  ↳ test_control_carriage_return (linha 61): complexidade 1 - nota A
+  ↳ test_control_home (linha 69): complexidade 1 - nota A
+  ↳ test_control_cursor_single_cell_movement (linha 86): complexidade 1 - nota A
+  ↳ test_control_erase_line (linha 104): complexidade 1 - nota A
+  ↳ test_control_show_cursor (linha 112): complexidade 1 - nota A
+  ↳ test_control_hide_cursor (linha 120): complexidade 1 - nota A
+  ↳ test_control_cursor_move_to_column (linha 128): complexidade 1 - nota A
+  ↳ test_control_set_terminal_window_title (linha 136): complexidade 1 - nota A
+
+  [Métricas Brutas]
+    LOC: 141 | LLOC: 67 | SLOC: 89 | Comentários: 1 | Blanks: 51
+
+  [Halstead]
+    Volume: 15.51 | Dificuldade: 1.00 | Esforço: 15.51 | Bugs estimados: 0.01
+
+  [Maintainability Index]
+    MI: 57.80 - nota A
+
+  📄 Arquivo: ./repo_temp/tests/__init__.py
+
+  [Métricas Brutas]
+    LOC: 0 | LLOC: 0 | SLOC: 0 | Comentários: 0 | Blanks: 0
+
+  [Halstead]
+    Volume: 0.00 | Dificuldade: 0.00 | Esforço: 0.00 | Bugs estimados: 0.00
+
+  [Maintainability Index]
+    MI: 100.00 - nota A
+
+  📄 Arquivo: ./repo_temp/tests/test_rich_print.py
+  ↳ test_get_console (linha 8): complexidade 2 - nota A
+  ↳ test_reconfigure_console (linha 13): complexidade 2 - nota A
+  ↳ test_rich_print (linha 18): complexidade 2 - nota A
+  ↳ test_rich_print_json (linha 32): complexidade 2 - nota A
+  ↳ test_rich_print_json_round_trip (linha 42): complexidade 2 - nota A
+  ↳ test_rich_print_json_no_truncation (linha 53): complexidade 3 - nota A
+  ↳ test_rich_print_X (linha 63): complexidade 2 - nota A
+
+  [Métricas Brutas]
+    LOC: 74 | LLOC: 59 | SLOC: 59 | Comentários: 0 | Blanks: 15
+
+  [Halstead]
+    Volume: 129.66 | Dificuldade: 1.76 | Esforço: 228.81 | Bugs estimados: 0.04
+
+  [Maintainability Index]
+    MI: 45.37 - nota A
+
+  📄 Arquivo: ./repo_temp/tests/test_control.py
+  ↳ test_control (linha 5): complexidade 2 - nota A
+  ↳ test_strip_control_codes (linha 10): complexidade 4 - nota A
+  ↳ test_escape_control_codes (linha 16): complexidade 4 - nota A
+  ↳ test_control_move_to (linha 22): complexidade 2 - nota A
+  ↳ test_control_move (linha 30): complexidade 3 - nota A
+  ↳ test_move_to_column (linha 41): complexidade 3 - nota A
+  ↳ test_title (linha 56): complexidade 2 - nota A
+
+  [Métricas Brutas]
+    LOC: 62 | LLOC: 29 | SLOC: 47 | Comentários: 0 | Blanks: 15
+
+  [Halstead]
+    Volume: 194.95 | Dificuldade: 1.08 | Esforço: 210.55 | Bugs estimados: 0.06
+
+  [Maintainability Index]
+    MI: 50.18 - nota A
+
+  📄 Arquivo: ./repo_temp/tests/test_status.py
+  ↳ test_status (linha 8): complexidade 5 - nota A
+  ↳ test_renderable (linha 27): complexidade 2 - nota A
+
+  [Métricas Brutas]
+    LOC: 34 | LLOC: 24 | SLOC: 26 | Comentários: 1 | Blanks: 7
+
+  [Halstead]
+    Volume: 33.69 | Dificuldade: 1.60 | Esforço: 53.90 | Bugs estimados: 0.01
+
+  [Maintainability Index]
+    MI: 69.95 - nota A
+
+  📄 Arquivo: ./repo_temp/tests/test_log.py
+  ↳ replace_link_ids (linha 12): complexidade 1 - nota A
+  ↳ render_log (linha 23): complexidade 1 - nota A
+  ↳ test_log (linha 38): complexidade 2 - nota A
+  ↳ test_log_caller_frame_info (linha 47): complexidade 3 - nota A
+  ↳ test_justify (linha 54): complexidade 2 - nota A
+
+  [Métricas Brutas]
+    LOC: 65 | LLOC: 33 | SLOC: 42 | Comentários: 1 | Blanks: 19
+
+  [Halstead]
+    Volume: 38.04 | Dificuldade: 0.50 | Esforço: 19.02 | Bugs estimados: 0.01
+
+  [Maintainability Index]
+    MI: 72.45 - nota A
+
+  📄 Arquivo: ./repo_temp/tests/test_live.py
+  ↳ create_capture_console (linha 11): complexidade 1 - nota A
+  ↳ test_live_state (linha 24): complexidade 6 - nota B
+  ↳ test_growing_display (linha 38): complexidade 3 - nota A
+  ↳ test_growing_display_transient (linha 54): complexidade 3 - nota A
+  ↳ test_growing_display_overflow_ellipsis (linha 69): complexidade 3 - nota A
+  ↳ test_growing_display_overflow_crop (linha 86): complexidade 3 - nota A
+  ↳ test_growing_display_overflow_visible (linha 101): complexidade 3 - nota A
+  ↳ test_growing_display_autorefresh (linha 116): complexidade 2 - nota A
+  ↳ test_growing_display_console_redirect (linha 130): complexidade 3 - nota A
+  ↳ test_growing_display_file_console (linha 146): complexidade 3 - nota A
+  ↳ test_live_screen (linha 161): complexidade 2 - nota A
+
+  [Métricas Brutas]
+    LOC: 169 | LLOC: 107 | SLOC: 138 | Comentários: 4 | Blanks: 27
+
+  [Halstead]
+    Volume: 288.64 | Dificuldade: 1.54 | Esforço: 445.32 | Bugs estimados: 0.10
+
+  [Maintainability Index]
+    MI: 45.65 - nota A
+
+  📄 Arquivo: ./repo_temp/tests/test_null_file.py
+  ↳ test_null_file (linha 4): complexidade 18 - nota C
+
+  [Métricas Brutas]
+    LOC: 23 | LLOC: 21 | SLOC: 21 | Comentários: 0 | Blanks: 2
+
+  [Halstead]
+    Volume: 237.74 | Dificuldade: 2.78 | Esforço: 661.55 | Bugs estimados: 0.08
+
+  [Maintainability Index]
+    MI: 52.10 - nota A
+
+  📄 Arquivo: ./repo_temp/tests/test_screen.py
+  ↳ test_screen (linha 5): complexidade 2 - nota A
+
+  [Métricas Brutas]
+    LOC: 12 | LLOC: 10 | SLOC: 10 | Comentários: 0 | Blanks: 2
+
+  [Halstead]
+    Volume: 4.75 | Dificuldade: 0.50 | Esforço: 2.38 | Bugs estimados: 0.00
+
+  [Maintainability Index]
+    MI: 73.18 - nota A
+
+  📄 Arquivo: ./repo_temp/tests/test_progress.py
+  ↳ test_bar_columns (linha 54): complexidade 5 - nota A
+  ↳ test_text_column (linha 64): complexidade 3 - nota A
+  ↳ test_time_elapsed_column (linha 76): complexidade 2 - nota A
+  ↳ test_time_remaining_column (linha 83): complexidade 3 - nota A
+  ↳ test_compact_time_remaining_column (linha 106): complexidade 2 - nota A
+  ↳ test_time_remaining_column_elapsed_when_finished (linha 113): complexidade 2 - nota A
+  ↳ test_renderable_column (linha 123): complexidade 2 - nota A
+  ↳ test_spinner_column (linha 129): complexidade 3 - nota A
+  ↳ test_download_progress_uses_decimal_units (linha 152): complexidade 2 - nota A
+  ↳ test_download_progress_uses_binary_units (linha 160): complexidade 2 - nota A
+  ↳ test_task_ids (linha 168): complexidade 2 - nota A
+  ↳ test_finished (linha 173): complexidade 2 - nota A
+  ↳ make_progress (linha 178): complexidade 1 - nota A
+  ↳ render_progress (linha 213): complexidade 1 - nota A
+  ↳ test_expand_bar (linha 223): complexidade 2 - nota A
+  ↳ test_progress_with_none_total_renders_a_pulsing_bar (linha 248): complexidade 2 - nota A
+  ↳ test_render (linha 273): complexidade 2 - nota A
+  ↳ test_track (linha 280): complexidade 4 - nota A
+  ↳ test_progress_track (linha 309): complexidade 4 - nota A
+  ↳ test_columns (linha 338): complexidade 3 - nota A
+  ↳ test_using_default_columns (linha 385): complexidade 3 - nota A
+  ↳ test_task_create (linha 411): complexidade 6 - nota B
+  ↳ test_task_start (linha 420): complexidade 5 - nota A
+  ↳ test_task_zero_total (linha 439): complexidade 2 - nota A
+  ↳ test_progress_create (linha 444): complexidade 4 - nota A
+  ↳ test_track_thread (linha 451): complexidade 3 - nota A
+  ↳ test_reset (linha 465): complexidade 8 - nota B
+  ↳ test_progress_max_refresh (linha 490): complexidade 3 - nota A
+  ↳ test_live_is_started_if_progress_is_enabled (linha 530): complexidade 2 - nota A
+  ↳ test_live_is_not_started_if_progress_is_disabled (linha 537): complexidade 2 - nota A
+  ↳ test_no_output_if_progress_is_disabled (linha 544): complexidade 4 - nota A
+  ↳ test_open (linha 568): complexidade 3 - nota A
+  ↳ test_open_text_mode (linha 592): complexidade 4 - nota A
+  ↳ test_wrap_file (linha 605): complexidade 8 - nota B
+  ↳ test_wrap_file_task_total (linha 623): complexidade 2 - nota A
+  ↳ test_task_progress_column_speed (linha 649): complexidade 5 - nota A
+  ↳ MockClock (linha 36): complexidade 2 - nota A
+  ↳ __init__ (linha 39): complexidade 1 - nota A
+  ↳ __call__ (linha 43): complexidade 2 - nota A
+  ↳ tick (linha 50): complexidade 1 - nota A
+
+  [Métricas Brutas]
+    LOC: 666 | LLOC: 399 | SLOC: 550 | Comentários: 4 | Blanks: 112
+
+  [Halstead]
+    Volume: 1535.46 | Dificuldade: 2.90 | Esforço: 4457.78 | Bugs estimados: 0.51
+
+  [Maintainability Index]
+    MI: 14.93 - nota B
+
+  📄 Arquivo: ./repo_temp/tests/test_containers.py
+  ↳ test_renderables_measure (linha 7): complexidade 4 - nota A
+  ↳ test_renderables_empty (linha 20): complexidade 3 - nota A
+  ↳ test_lines_rich_console (linha 30): complexidade 2 - nota A
+  ↳ test_lines_justify (linha 38): complexidade 5 - nota A
+
+  [Métricas Brutas]
+    LOC: 57 | LLOC: 38 | SLOC: 44 | Comentários: 0 | Blanks: 13
+
+  [Halstead]
+    Volume: 120.00 | Dificuldade: 0.67 | Esforço: 80.00 | Bugs estimados: 0.04
+
+  [Maintainability Index]
+    MI: 49.50 - nota A
+
+  📄 Arquivo: ./repo_temp/tests/test_ratio.py
+  ↳ test_ratio_reduce (linha 24): complexidade 2 - nota A
+  ↳ test_ratio_resolve (linha 28): complexidade 11 - nota C
+  ↳ Edge (linha 7): complexidade 1 - nota A
+
+  [Métricas Brutas]
+    LOC: 58 | LLOC: 24 | SLOC: 51 | Comentários: 0 | Blanks: 7
+
+  [Halstead]
+    Volume: 149.28 | Dificuldade: 0.50 | Esforço: 74.64 | Bugs estimados: 0.05
+
+  [Maintainability Index]
+    MI: 53.06 - nota A
+
+  📄 Arquivo: ./repo_temp/tests/test_text.py
+  ↳ test_span (linha 13): complexidade 3 - nota A
+  ↳ test_span_split (linha 20): complexidade 4 - nota A
+  ↳ test_span_move (linha 26): complexidade 2 - nota A
+  ↳ test_span_right_crop (linha 30): complexidade 3 - nota A
+  ↳ test_len (linha 35): complexidade 2 - nota A
+  ↳ test_cell_len (linha 39): complexidade 3 - nota A
+  ↳ test_bool (linha 44): complexidade 3 - nota A
+  ↳ test_str (linha 49): complexidade 2 - nota A
+  ↳ test_repr (linha 53): complexidade 2 - nota A
+  ↳ test_add (linha 57): complexidade 3 - nota A
+  ↳ test_eq (linha 63): complexidade 4 - nota A
+  ↳ test_contain (linha 69): complexidade 5 - nota A
+  ↳ test_plain_property (linha 77): complexidade 2 - nota A
+  ↳ test_plain_property_setter (linha 84): complexidade 4 - nota A
+  ↳ test_from_markup (linha 95): complexidade 3 - nota A
+  ↳ test_from_ansi (linha 101): complexidade 9 - nota B
+  ↳ test_copy (linha 119): complexidade 3 - nota A
+  ↳ test_rstrip (linha 129): complexidade 2 - nota A
+  ↳ test_rstrip_end (linha 135): complexidade 2 - nota A
+  ↳ test_stylize (linha 141): complexidade 3 - nota A
+  ↳ test_stylize_before (linha 149): complexidade 2 - nota A
+  ↳ test_stylize_negative_index (linha 156): complexidade 2 - nota A
+  ↳ test_highlight_regex (linha 162): complexidade 13 - nota C
+  ↳ test_highlight_regex_callable (linha 230): complexidade 11 - nota C
+  ↳ test_highlight_words (linha 266): complexidade 8 - nota B
+  ↳ test_set_length (linha 297): complexidade 4 - nota A
+  ↳ test_console_width (linha 316): complexidade 4 - nota A
+  ↳ test_join (linha 324): complexidade 3 - nota A
+  ↳ test_trim_spans (linha 330): complexidade 2 - nota A
+  ↳ test_pad_left (linha 337): complexidade 2 - nota A
+  ↳ test_pad_right (linha 343): complexidade 2 - nota A
+  ↳ test_append (linha 349): complexidade 4 - nota A
+  ↳ test_append_text (linha 364): complexidade 3 - nota A
+  ↳ test_end (linha 371): complexidade 2 - nota A
+  ↳ test_split (linha 378): complexidade 5 - nota A
+  ↳ test_split_spans (linha 397): complexidade 5 - nota A
+  ↳ test_divide (linha 406): complexidade 20 - nota C
+  ↳ test_right_crop (linha 449): complexidade 3 - nota A
+  ↳ test_wrap_3 (linha 457): complexidade 5 - nota A
+  ↳ test_wrap_4 (linha 467): complexidade 5 - nota A
+  ↳ test_wrap_wrapped_word_length_greater_than_available_width (linha 476): complexidade 2 - nota A
+  ↳ test_wrap_cjk (linha 486): complexidade 2 - nota A
+  ↳ test_wrap_cjk_width_mid_character (linha 495): complexidade 2 - nota A
+  ↳ test_wrap_cjk_mixed (linha 505): complexidade 2 - nota A
+  ↳ test_wrap_long (linha 519): complexidade 5 - nota A
+  ↳ test_wrap_overflow (linha 528): complexidade 5 - nota A
+  ↳ test_wrap_overflow_long (linha 537): complexidade 3 - nota A
+  ↳ test_wrap_long_words (linha 544): complexidade 2 - nota A
+  ↳ test_wrap_long_words_2 (linha 556): complexidade 2 - nota A
+  ↳ test_wrap_long_words_followed_by_other_words (linha 567): complexidade 2 - nota A
+  ↳ test_wrap_long_word_preceeded_by_word_of_full_line_length (linha 581): complexidade 2 - nota A
+  ↳ test_wrap_multiple_consecutive_spaces (linha 595): complexidade 2 - nota A
+  ↳ test_wrap_long_words_justify_left (linha 608): complexidade 6 - nota B
+  ↳ test_wrap_leading_and_trailing_whitespace (linha 619): complexidade 2 - nota A
+  ↳ test_no_wrap_no_crop (linha 630): complexidade 2 - nota A
+  ↳ test_fit (linha 644): complexidade 3 - nota A
+  ↳ test_wrap_tabs (linha 651): complexidade 4 - nota A
+  ↳ test_render (linha 659): complexidade 2 - nota A
+  ↳ test_render_simple (linha 670): complexidade 2 - nota A
+  ↳ test_print (linha 686): complexidade 2 - nota A
+  ↳ test_print_sep_end (linha 700): complexidade 2 - nota A
+  ↳ test_tabs_to_spaces (linha 706): complexidade 7 - nota B
+  ↳ test_tabs_to_spaces_spans (linha 805): complexidade 3 - nota A
+  ↳ test_markup_switch (linha 816): complexidade 2 - nota A
+  ↳ test_emoji (linha 823): complexidade 2 - nota A
+  ↳ test_emoji_switch (linha 830): complexidade 2 - nota A
+  ↳ test_assemble (linha 837): complexidade 3 - nota A
+  ↳ test_assemble_meta (linha 843): complexidade 4 - nota A
+  ↳ test_styled (linha 851): complexidade 4 - nota A
+  ↳ test_strip_control_codes (linha 858): complexidade 3 - nota A
+  ↳ test_get_style_at_offset (linha 865): complexidade 3 - nota A
+  ↳ test_truncate_ellipsis (linha 883): complexidade 2 - nota A
+  ↳ test_truncate_ellipsis_pad (linha 897): complexidade 2 - nota A
+  ↳ test_pad (linha 903): complexidade 2 - nota A
+  ↳ test_align_left (linha 909): complexidade 2 - nota A
+  ↳ test_align_right (linha 915): complexidade 2 - nota A
+  ↳ test_align_center (linha 921): complexidade 2 - nota A
+  ↳ test_detect_indentation (linha 927): complexidade 5 - nota A
+  ↳ test_indentation_guides (linha 943): complexidade 2 - nota A
+  ↳ test_slice (linha 965): complexidade 7 - nota B
+  ↳ test_wrap_invalid_style (linha 979): complexidade 1 - nota A
+  ↳ test_apply_meta (linha 986): complexidade 5 - nota A
+  ↳ test_on (linha 997): complexidade 4 - nota A
+  ↳ test_markup_property (linha 1007): complexidade 8 - nota B
+  ↳ test_extend_style (linha 1023): complexidade 7 - nota B
+  ↳ test_append_tokens (linha 1039): complexidade 2 - nota A
+  ↳ test_append_loop_regression (linha 1059): complexidade 3 - nota A
+
+  [Métricas Brutas]
+    LOC: 1067 | LLOC: 602 | SLOC: 806 | Comentários: 27 | Blanks: 229
+
+  [Halstead]
+    Volume: 5946.69 | Dificuldade: 5.37 | Esforço: 31916.98 | Bugs estimados: 1.98
+
+  [Maintainability Index]
+    MI: 0.00 - nota C
+
+  📄 Arquivo: ./repo_temp/tests/test_align.py
+  ↳ test_bad_align_legal (linha 10): complexidade 1 - nota A
+  ↳ test_repr (linha 29): complexidade 1 - nota A
+  ↳ test_align_left (linha 35): complexidade 2 - nota A
+  ↳ test_align_center (linha 41): complexidade 2 - nota A
+  ↳ test_align_right (linha 47): complexidade 2 - nota A
+  ↳ test_align_top (linha 53): complexidade 2 - nota A
+  ↳ test_align_middle (linha 62): complexidade 2 - nota A
+  ↳ test_align_bottom (linha 71): complexidade 2 - nota A
+  ↳ test_align_center_middle (linha 80): complexidade 2 - nota A
+  ↳ test_align_fit (linha 89): complexidade 2 - nota A
+  ↳ test_align_right_style (linha 95): complexidade 2 - nota A
+  ↳ test_measure (linha 107): complexidade 3 - nota A
+  ↳ test_align_no_pad (linha 114): complexidade 2 - nota A
+  ↳ test_align_width (linha 121): complexidade 2 - nota A
+  ↳ test_shortcuts (linha 130): complexidade 7 - nota B
+  ↳ test_vertical_center (linha 139): complexidade 3 - nota A
+
+  [Métricas Brutas]
+    LOC: 151 | LLOC: 106 | SLOC: 114 | Comentários: 2 | Blanks: 35
+
+  [Halstead]
+    Volume: 328.20 | Dificuldade: 0.58 | Esforço: 191.45 | Bugs estimados: 0.11
+
+  [Maintainability Index]
+    MI: 43.17 - nota A
+
+  📄 Arquivo: ./repo_temp/tests/test_inspect.py
+  ↳ render (linha 52): complexidade 1 - nota A
+  ↳ test_render (linha 92): complexidade 2 - nota A
+  ↳ test_inspect_text (linha 104): complexidade 3 - nota A
+  ↳ test_inspect_empty_dict (linha 121): complexidade 2 - nota A
+  ↳ test_inspect_builtin_function_except_python311 (linha 146): complexidade 2 - nota A
+  ↳ test_inspect_builtin_function_only_python311 (linha 166): complexidade 2 - nota A
+  ↳ test_inspect_coroutine (linha 184): complexidade 2 - nota A
+  ↳ test_inspect_integer (linha 196): complexidade 2 - nota A
+  ↳ test_inspect_integer_with_value (linha 211): complexidade 2 - nota A
+  ↳ test_inspect_integer_with_methods_python38_and_python39 (linha 222): complexidade 2 - nota A
+  ↳ test_inspect_integer_with_methods_python310only (linha 260): complexidade 2 - nota A
+  ↳ test_inspect_integer_with_methods_python311 (linha 302): complexidade 2 - nota A
+  ↳ test_broken_call_attr (linha 342): complexidade 3 - nota A
+  ↳ test_inspect_swig_edge_case (linha 360): complexidade 3 - nota A
+  ↳ test_inspect_module_with_class (linha 375): complexidade 2 - nota A
+  ↳ test_can_handle_special_characters_in_docstrings (linha 407): complexidade 2 - nota A
+  ↳ test_object_types_mro (linha 448): complexidade 2 - nota A
+  ↳ test_object_types_mro_as_strings (linha 467): complexidade 2 - nota A
+  ↳ test_object_is_one_of_types (linha 490): complexidade 2 - nota A
+  ↳ InspectError (linha 58): complexidade 2 - nota A
+  ↳ __str__ (linha 59): complexidade 1 - nota A
+  ↳ Foo (linha 63): complexidade 2 - nota A
+  ↳ __init__ (linha 69): complexidade 1 - nota A
+  ↳ broken (linha 74): complexidade 1 - nota A
+  ↳ method (linha 77): complexidade 1 - nota A
+  ↳ __dir__ (linha 84): complexidade 1 - nota A
+  ↳ FooSubclass (linha 88): complexidade 1 - nota A
+
+  [Métricas Brutas]
+    LOC: 493 | LLOC: 157 | SLOC: 408 | Comentários: 9 | Blanks: 72
+
+  [Halstead]
+    Volume: 620.22 | Dificuldade: 3.18 | Esforço: 1973.44 | Bugs estimados: 0.21
+
+  [Maintainability Index]
+    MI: 39.42 - nota A
+
+  📄 Arquivo: ./repo_temp/tests/test_color.py
+  ↳ test_str (linha 16): complexidade 2 - nota A
+  ↳ test_repr (linha 20): complexidade 2 - nota A
+  ↳ test_color_system_repr (linha 24): complexidade 2 - nota A
+  ↳ test_rich (linha 28): complexidade 2 - nota A
+  ↳ test_system (linha 38): complexidade 4 - nota A
+  ↳ test_windows (linha 44): complexidade 2 - nota A
+  ↳ test_truecolor (linha 48): complexidade 8 - nota B
+  ↳ test_parse_success (linha 62): complexidade 8 - nota B
+  ↳ test_from_triplet (linha 78): complexidade 2 - nota A
+  ↳ test_from_rgb (linha 84): complexidade 2 - nota A
+  ↳ test_from_ansi (linha 90): complexidade 2 - nota A
+  ↳ test_default (linha 94): complexidade 2 - nota A
+  ↳ test_parse_error (linha 98): complexidade 1 - nota A
+  ↳ test_get_ansi_codes (linha 115): complexidade 9 - nota B
+  ↳ test_downgrade (linha 126): complexidade 14 - nota C
+  ↳ test_parse_rgb_hex (linha 180): complexidade 2 - nota A
+  ↳ test_blend_rgb (linha 184): complexidade 2 - nota A
+
+  [Métricas Brutas]
+    LOC: 187 | LLOC: 88 | SLOC: 140 | Comentários: 0 | Blanks: 47
+
+  [Halstead]
+    Volume: 967.99 | Dificuldade: 0.52 | Esforço: 499.28 | Bugs estimados: 0.32
+
+  [Maintainability Index]
+    MI: 29.95 - nota A
+
+  📄 Arquivo: ./repo_temp/tests/test_rule.py
+  ↳ test_rule (linha 10): complexidade 2 - nota A
+  ↳ test_rule_error (linha 31): complexidade 1 - nota A
+  ↳ test_rule_align (linha 37): complexidade 2 - nota A
+  ↳ test_rule_cjk (linha 50): complexidade 2 - nota A
+  ↳ test_rule_not_enough_space_for_title_text (linha 72): complexidade 2 - nota A
+  ↳ test_rule_center_aligned_title_not_enough_space_for_rule (linha 78): complexidade 2 - nota A
+  ↳ test_rule_side_aligned_not_enough_space_for_rule (linha 85): complexidade 2 - nota A
+  ↳ test_rule_just_enough_width_available_for_title (linha 99): complexidade 2 - nota A
+  ↳ test_characters (linha 105): complexidade 2 - nota A
+  ↳ test_repr (linha 123): complexidade 2 - nota A
+  ↳ test_error (linha 128): complexidade 1 - nota A
+
+  [Métricas Brutas]
+    LOC: 130 | LLOC: 71 | SLOC: 105 | Comentários: 0 | Blanks: 25
+
+  [Halstead]
+    Volume: 176.42 | Dificuldade: 1.24 | Esforço: 218.42 | Bugs estimados: 0.06
+
+  [Maintainability Index]
+    MI: 42.54 - nota A
+
+  📄 Arquivo: ./repo_temp/tests/test_columns.py
+  ↳ render (linha 31): complexidade 1 - nota A
+  ↳ test_render (linha 64): complexidade 2 - nota A
+
+  [Métricas Brutas]
+    LOC: 72 | LLOC: 41 | SLOC: 61 | Comentários: 1 | Blanks: 10
+
+  [Halstead]
+    Volume: 13.93 | Dificuldade: 0.50 | Esforço: 6.97 | Bugs estimados: 0.00
+
+  [Maintainability Index]
+    MI: 64.07 - nota A
+
+  📄 Arquivo: ./repo_temp/tests/test_repr.py
+  ↳ test_rich_repr (linha 92): complexidade 3 - nota A
+  ↳ test_rich_repr_positional_only (linha 97): complexidade 2 - nota A
+  ↳ test_rich_angular (linha 113): complexidade 3 - nota A
+  ↳ test_rich_repr_auto (linha 118): complexidade 3 - nota A
+  ↳ test_rich_repr_auto_angular (linha 128): complexidade 2 - nota A
+  ↳ test_broken_egg (linha 132): complexidade 1 - nota A
+  ↳ test_rich_pretty (linha 137): complexidade 2 - nota A
+  ↳ test_rich_pretty_angular (linha 146): complexidade 2 - nota A
+  ↳ Foo (linha 12): complexidade 2 - nota A
+  ↳ __init__ (linha 13): complexidade 1 - nota A
+  ↳ __rich_repr__ (linha 18): complexidade 1 - nota A
+  ↳ Egg (linha 26): complexidade 2 - nota A
+  ↳ __init__ (linha 27): complexidade 1 - nota A
+  ↳ BrokenEgg (linha 34): complexidade 2 - nota A
+  ↳ __init__ (linha 35): complexidade 1 - nota A
+  ↳ AngularEgg (linha 42): complexidade 2 - nota A
+  ↳ __init__ (linha 43): complexidade 1 - nota A
+  ↳ Bar (linha 50): complexidade 2 - nota A
+  ↳ __rich_repr__ (linha 51): complexidade 1 - nota A
+  ↳ StupidClass (linha 60): complexidade 3 - nota A
+  ↳ __init__ (linha 61): complexidade 1 - nota A
+  ↳ __eq__ (linha 64): complexidade 3 - nota A
+  ↳ __ne__ (linha 72): complexidade 1 - nota A
+  ↳ NotStupid (linha 76): complexidade 1 - nota A
+  ↳ Bird (linha 81): complexidade 2 - nota A
+  ↳ __init__ (linha 82): complexidade 1 - nota A
+
+  [Métricas Brutas]
+    LOC: 152 | LLOC: 99 | SLOC: 113 | Comentários: 0 | Blanks: 39
+
+  [Halstead]
+    Volume: 180.69 | Dificuldade: 1.56 | Esforço: 282.32 | Bugs estimados: 0.06
+
+  [Maintainability Index]
+    MI: 37.57 - nota A
+
+  📄 Arquivo: ./repo_temp/tests/test_card.py
+  ↳ replace_link_ids (linha 12): complexidade 1 - nota A
+  ↳ render (linha 20): complexidade 1 - nota A
+  ↳ test_card_render (linha 29): complexidade 2 - nota A
+
+  [Métricas Brutas]
+    LOC: 41 | LLOC: 25 | SLOC: 26 | Comentários: 0 | Blanks: 12
+
+  [Halstead]
+    Volume: 13.93 | Dificuldade: 0.50 | Esforço: 6.97 | Bugs estimados: 0.00
+
+  [Maintainability Index]
+    MI: 80.01 - nota A
+
+  📄 Arquivo: ./repo_temp/tests/test_file_proxy.py
+  ↳ test_empty_bytes (linha 10): complexidade 1 - nota A
+  ↳ test_flush (linha 20): complexidade 3 - nota A
+  ↳ test_new_lines (linha 30): complexidade 3 - nota A
+
+  [Métricas Brutas]
+    LOC: 37 | LLOC: 28 | SLOC: 28 | Comentários: 3 | Blanks: 8
+
+  [Halstead]
+    Volume: 38.04 | Dificuldade: 0.50 | Esforço: 19.02 | Bugs estimados: 0.01
+
+  [Maintainability Index]
+    MI: 75.04 - nota A
+
+  📄 Arquivo: ./repo_temp/tests/test_theme.py
+  ↳ test_inherit (linha 11): complexidade 3 - nota A
+  ↳ test_config (linha 17): complexidade 2 - nota A
+  ↳ test_from_file (linha 23): complexidade 2 - nota A
+  ↳ test_read (linha 33): complexidade 2 - nota A
+  ↳ test_theme_stack (linha 43): complexidade 4 - nota A
+
+  [Métricas Brutas]
+    LOC: 53 | LLOC: 46 | SLOC: 40 | Comentários: 0 | Blanks: 13
+
+  [Halstead]
+    Volume: 96.00 | Dificuldade: 1.14 | Esforço: 109.71 | Bugs estimados: 0.03
+
+  [Maintainability Index]
+    MI: 48.64 - nota A
+
+  📄 Arquivo: ./repo_temp/tests/test_style.py
+  ↳ test_str (linha 8): complexidade 10 - nota B
+  ↳ test_ansi_codes (linha 38): complexidade 2 - nota A
+  ↳ test_repr (linha 60): complexidade 2 - nota A
+  ↳ test_eq (linha 67): complexidade 4 - nota A
+  ↳ test_hash (linha 73): complexidade 2 - nota A
+  ↳ test_empty (linha 77): complexidade 2 - nota A
+  ↳ test_bool (linha 81): complexidade 5 - nota A
+  ↳ test_color_property (linha 88): complexidade 2 - nota A
+  ↳ test_bgcolor_property (linha 92): complexidade 2 - nota A
+  ↳ test_parse (linha 96): complexidade 6 - nota B
+  ↳ test_link_id (linha 118): complexidade 6 - nota B
+  ↳ test_get_html_style (linha 127): complexidade 2 - nota A
+  ↳ test_chain (linha 144): complexidade 2 - nota A
+  ↳ test_copy (linha 150): complexidade 3 - nota A
+  ↳ test_render (linha 156): complexidade 4 - nota A
+  ↳ test_test (linha 165): complexidade 1 - nota A
+  ↳ test_add (linha 169): complexidade 2 - nota A
+  ↳ test_iadd (linha 173): complexidade 3 - nota A
+  ↳ test_style_stack (linha 181): complexidade 4 - nota A
+  ↳ test_pick_first (linha 191): complexidade 1 - nota A
+  ↳ test_background_style (linha 196): complexidade 2 - nota A
+  ↳ test_without_color (linha 202): complexidade 5 - nota A
+  ↳ test_meta (linha 212): complexidade 4 - nota A
+  ↳ test_from_meta (linha 223): complexidade 3 - nota A
+  ↳ test_on (linha 229): complexidade 2 - nota A
+  ↳ test_clear_meta_and_links (linha 234): complexidade 13 - nota C
+  ↳ test_clear_meta_and_links_clears_hash (linha 256): complexidade 3 - nota A
+
+  [Métricas Brutas]
+    LOC: 267 | LLOC: 150 | SLOC: 202 | Comentários: 1 | Blanks: 64
+
+  [Halstead]
+    Volume: 1521.44 | Dificuldade: 4.13 | Esforço: 6285.28 | Bugs estimados: 0.51
+
+  [Maintainability Index]
+    MI: 24.95 - nota A
+
+  📄 Arquivo: ./repo_temp/tests/test_markdown_no_hyperlinks.py
+  ↳ replace_link_ids (linha 75): complexidade 1 - nota A
+  ↳ render (linha 83): complexidade 1 - nota A
+  ↳ test_markdown_render (linha 92): complexidade 2 - nota A
+
+  [Métricas Brutas]
+    LOC: 104 | LLOC: 25 | SLOC: 64 | Comentários: 1 | Blanks: 36
+
+  [Halstead]
+    Volume: 13.93 | Dificuldade: 0.50 | Esforço: 6.97 | Bugs estimados: 0.00
+
+  [Maintainability Index]
+    MI: 75.57 - nota A
+
+  📄 Arquivo: ./repo_temp/tests/test_pick.py
+  ↳ test_pick_bool (linha 4): complexidade 11 - nota C
+
+  [Métricas Brutas]
+    LOC: 14 | LLOC: 12 | SLOC: 12 | Comentários: 0 | Blanks: 2
+
+  [Halstead]
+    Volume: 111.01 | Dificuldade: 0.83 | Esforço: 92.51 | Bugs estimados: 0.04
+
+  [Maintainability Index]
+    MI: 60.66 - nota A
+
+  📄 Arquivo: ./repo_temp/tests/test_rule_in_table.py
+  ↳ test_rule_in_unexpanded_table (linha 13): complexidade 2 - nota A
+  ↳ test_rule_in_expanded_table (linha 35): complexidade 2 - nota A
+  ↳ test_rule_in_ratio_table (linha 57): complexidade 2 - nota A
+
+  [Métricas Brutas]
+    LOC: 76 | LLOC: 45 | SLOC: 68 | Comentários: 0 | Blanks: 8
+
+  [Halstead]
+    Volume: 25.27 | Dificuldade: 0.50 | Esforço: 12.63 | Bugs estimados: 0.01
+
+  [Maintainability Index]
+    MI: 53.58 - nota A
+
+  📄 Arquivo: ./repo_temp/tests/test_emoji.py
+  ↳ test_no_emoji (linha 8): complexidade 1 - nota A
+  ↳ test_str_repr (linha 13): complexidade 3 - nota A
+  ↳ test_replace (linha 18): complexidade 2 - nota A
+  ↳ test_render (linha 22): complexidade 2 - nota A
+  ↳ test_variant (linha 27): complexidade 5 - nota A
+  ↳ test_variant_non_default (linha 35): complexidade 2 - nota A
+
+  [Métricas Brutas]
+    LOC: 37 | LLOC: 23 | SLOC: 23 | Comentários: 0 | Blanks: 14
+
+  [Halstead]
+    Volume: 165.06 | Dificuldade: 1.09 | Esforço: 180.06 | Bugs estimados: 0.06
+
+  [Maintainability Index]
+    MI: 53.42 - nota A
+
+  📄 Arquivo: ./repo_temp/tests/test_color_triplet.py
+  ↳ test_hex (linha 4): complexidade 3 - nota A
+  ↳ test_rgb (linha 9): complexidade 3 - nota A
+  ↳ test_normalized (linha 14): complexidade 3 - nota A
+
+  [Métricas Brutas]
+    LOC: 16 | LLOC: 10 | SLOC: 10 | Comentários: 0 | Blanks: 6
+
+  [Halstead]
+    Volume: 59.79 | Dificuldade: 0.67 | Esforço: 39.86 | Bugs estimados: 0.02
+
+  [Maintainability Index]
+    MI: 64.80 - nota A
+
+  📄 Arquivo: ./repo_temp/tests/test_layout.py
+  ↳ test_no_layout (linha 10): complexidade 1 - nota A
+  ↳ test_add_split (linha 16): complexidade 4 - nota A
+  ↳ test_unsplit (linha 25): complexidade 3 - nota A
+  ↳ test_render (linha 35): complexidade 6 - nota B
+  ↳ test_tree (linha 70): complexidade 2 - nota A
+  ↳ test_refresh_screen (linha 87): complexidade 2 - nota A
+
+  [Métricas Brutas]
+    LOC: 100 | LLOC: 73 | SLOC: 73 | Comentários: 0 | Blanks: 27
+
+  [Halstead]
+    Volume: 129.66 | Dificuldade: 0.53 | Esforço: 68.24 | Bugs estimados: 0.04
+
+  [Maintainability Index]
+    MI: 42.81 - nota A
+
+  📄 Arquivo: ./repo_temp/tests/test_padding.py
+  ↳ test_repr (linha 9): complexidade 2 - nota A
+  ↳ test_indent (linha 14): complexidade 5 - nota A
+  ↳ test_unpack (linha 22): complexidade 5 - nota A
+  ↳ test_expand_false (linha 31): complexidade 2 - nota A
+  ↳ test_rich_console (linha 38): complexidade 3 - nota A
+
+  [Métricas Brutas]
+    LOC: 60 | LLOC: 34 | SLOC: 48 | Comentários: 0 | Blanks: 12
+
+  [Halstead]
+    Volume: 167.18 | Dificuldade: 1.64 | Esforço: 273.57 | Bugs estimados: 0.06
+
+  [Maintainability Index]
+    MI: 49.28 - nota A
+
+  📄 Arquivo: ./repo_temp/tests/test_json.py
+  ↳ test_print_json_data_with_default (linha 5): complexidade 2 - nota A
+
+  [Métricas Brutas]
+    LOC: 8 | LLOC: 7 | SLOC: 6 | Comentários: 0 | Blanks: 2
+
+  [Halstead]
+    Volume: 4.75 | Dificuldade: 0.50 | Esforço: 2.38 | Bugs estimados: 0.00
+
+  [Maintainability Index]
+    MI: 76.55 - nota A
+
+  📄 Arquivo: ./repo_temp/tests/test_jupyter.py
+  ↳ test_jupyter (linha 4): complexidade 4 - nota A
+  ↳ test_jupyter_columns_env (linha 11): complexidade 3 - nota A
+  ↳ test_jupyter_lines_env (linha 23): complexidade 3 - nota A
+
+  [Métricas Brutas]
+    LOC: 32 | LLOC: 24 | SLOC: 22 | Comentários: 4 | Blanks: 6
+
+  [Halstead]
+    Volume: 77.71 | Dificuldade: 0.58 | Esforço: 45.33 | Bugs estimados: 0.03
+
+  [Maintainability Index]
+    MI: 78.18 - nota A
+
+  📄 Arquivo: ./repo_temp/tests/test_tools.py
+  ↳ test_loop_first (linha 5): complexidade 6 - nota B
+  ↳ test_loop_last (linha 14): complexidade 6 - nota B
+  ↳ test_loop_first_last (linha 23): complexidade 6 - nota B
+  ↳ test_ratio_distribute (linha 32): complexidade 7 - nota B
+
+  [Métricas Brutas]
+    LOC: 38 | LLOC: 30 | SLOC: 30 | Comentários: 0 | Blanks: 8
+
+  [Halstead]
+    Volume: 341.85 | Dificuldade: 0.50 | Esforço: 170.93 | Bugs estimados: 0.11
+
+  [Maintainability Index]
+    MI: 47.08 - nota A
+
+  📄 Arquivo: ./repo_temp/tests/test_segment.py
+  ↳ test_repr (linha 10): complexidade 3 - nota A
+  ↳ test_line (linha 19): complexidade 2 - nota A
+  ↳ test_apply_style (linha 23): complexidade 3 - nota A
+  ↳ test_split_lines (linha 32): complexidade 2 - nota A
+  ↳ test_split_and_crop_lines (linha 37): complexidade 2 - nota A
+  ↳ test_adjust_line_length (linha 47): complexidade 4 - nota A
+  ↳ test_get_line_length (linha 61): complexidade 2 - nota A
+  ↳ test_get_shape (linha 65): complexidade 3 - nota A
+  ↳ test_set_shape (linha 70): complexidade 3 - nota A
+  ↳ test_simplify (linha 80): complexidade 4 - nota A
+  ↳ test_filter_control (linha 92): complexidade 3 - nota A
+  ↳ test_strip_styles (linha 101): complexidade 2 - nota A
+  ↳ test_strip_links (linha 106): complexidade 2 - nota A
+  ↳ test_remove_color (linha 111): complexidade 2 - nota A
+  ↳ test_is_control (linha 122): complexidade 4 - nota A
+  ↳ test_segments_renderable (linha 128): complexidade 3 - nota A
+  ↳ test_divide (linha 139): complexidade 7 - nota B
+  ↳ test_divide_complex (linha 170): complexidade 2 - nota A
+  ↳ test_divide_emoji (linha 197): complexidade 6 - nota B
+  ↳ test_divide_edge (linha 224): complexidade 2 - nota A
+  ↳ test_divide_edge_2 (linha 235): complexidade 2 - nota A
+  ↳ test_split_cells_emoji (linha 284): complexidade 2 - nota A
+  ↳ test_split_cells_mixed (linha 301): complexidade 5 - nota A
+  ↳ test_split_cells_doubles (linha 314): complexidade 4 - nota A
+  ↳ test_split_cells_single (linha 323): complexidade 4 - nota A
+  ↳ test_segment_lines_renderable (linha 332): complexidade 3 - nota A
+  ↳ test_align_top (linha 353): complexidade 3 - nota A
+  ↳ test_align_middle (linha 363): complexidade 3 - nota A
+  ↳ test_align_bottom (linha 373): complexidade 3 - nota A
+
+  [Métricas Brutas]
+    LOC: 380 | LLOC: 146 | SLOC: 302 | Comentários: 3 | Blanks: 73
+
+  [Halstead]
+    Volume: 1367.19 | Dificuldade: 3.17 | Esforço: 4334.99 | Bugs estimados: 0.46
+
+  [Maintainability Index]
+    MI: 28.49 - nota A
+
+  📄 Arquivo: ./repo_temp/tests/_card_render.py
+
+  [Métricas Brutas]
+    LOC: 1 | LLOC: 1 | SLOC: 1 | Comentários: 0 | Blanks: 0
+
+  [Halstead]
+    Volume: 0.00 | Dificuldade: 0.00 | Esforço: 0.00 | Bugs estimados: 0.00
+
+  [Maintainability Index]
+    MI: 100.00 - nota A
+
+  📄 Arquivo: ./repo_temp/tests/test_highlighter.py
+  ↳ test_wrong_type (linha 16): complexidade 1 - nota A
+  ↳ test_highlight_regex (linha 161): complexidade 2 - nota A
+  ↳ test_highlight_json_with_indent (linha 170): complexidade 2 - nota A
+  ↳ test_highlight_json_string_only (linha 187): complexidade 2 - nota A
+  ↳ test_highlight_json_empty_string_only (linha 195): complexidade 2 - nota A
+  ↳ test_highlight_json_no_indent (linha 203): complexidade 2 - nota A
+  ↳ test_highlight_iso8601_regex (linha 457): complexidade 2 - nota A
+
+  [Métricas Brutas]
+    LOC: 463 | LLOC: 54 | SLOC: 440 | Comentários: 10 | Blanks: 20
+
+  [Halstead]
+    Volume: 62.27 | Dificuldade: 0.60 | Esforço: 37.36 | Bugs estimados: 0.02
+
+  [Maintainability Index]
+    MI: 57.69 - nota A
+
+  📄 Arquivo: ./repo_temp/tests/test_markdown.py
+  ↳ replace_link_ids (linha 81): complexidade 1 - nota A
+  ↳ render (linha 89): complexidade 1 - nota A
+  ↳ test_markdown_render (linha 99): complexidade 2 - nota A
+  ↳ test_inline_code (linha 106): complexidade 2 - nota A
+  ↳ test_markdown_table (linha 119): complexidade 2 - nota A
+  ↳ test_inline_styles_in_table (linha 136): complexidade 2 - nota A
+  ↳ test_inline_styles_with_justification (linha 151): complexidade 2 - nota A
+  ↳ test_partial_table (linha 169): complexidade 2 - nota A
+  ↳ test_table_with_empty_cells (linha 177): complexidade 2 - nota A
+
+  [Métricas Brutas]
+    LOC: 206 | LLOC: 62 | SLOC: 142 | Comentários: 1 | Blanks: 52
+
+  [Halstead]
+    Volume: 98.10 | Dificuldade: 0.50 | Esforço: 49.05 | Bugs estimados: 0.03
+
+  [Maintainability Index]
+    MI: 61.69 - nota A
+
+  📄 Arquivo: ./repo_temp/tests/test_bar.py
+  ↳ test_init (linha 9): complexidade 2 - nota A
+  ↳ test_update (linha 15): complexidade 7 - nota B
+  ↳ test_render (linha 33): complexidade 3 - nota A
+  ↳ test_measure (linha 42): complexidade 3 - nota A
+  ↳ test_zero_total (linha 50): complexidade 1 - nota A
+  ↳ test_pulse (linha 56): complexidade 2 - nota A
+  ↳ test_get_pulse_segments (linha 64): complexidade 2 - nota A
+
+  [Métricas Brutas]
+    LOC: 101 | LLOC: 55 | SLOC: 81 | Comentários: 1 | Blanks: 19
+
+  [Halstead]
+    Volume: 192.57 | Dificuldade: 0.61 | Esforço: 117.22 | Bugs estimados: 0.06
+
+  [Maintainability Index]
+    MI: 50.69 - nota A
+
+  📄 Arquivo: ./repo_temp/tests/test_ansi.py
+  ↳ test_decode (linha 9): complexidade 2 - nota A
+  ↳ test_decode_example (linha 35): complexidade 2 - nota A
+  ↳ test_decode_issue_2688 (linha 67): complexidade 2 - nota A
+  ↳ test_strip_private_escape_sequences (linha 74): complexidade 2 - nota A
+
+  [Métricas Brutas]
+    LOC: 84 | LLOC: 41 | SLOC: 65 | Comentários: 2 | Blanks: 19
+
+  [Halstead]
+    Volume: 38.04 | Dificuldade: 0.50 | Esforço: 19.02 | Bugs estimados: 0.01
+
+  [Maintainability Index]
+    MI: 63.48 - nota A
+
+  📄 Arquivo: ./repo_temp/tests/test_traceback.py
+  ↳ test_handler (linha 13): complexidade 9 - nota B
+  ↳ test_capture (linha 63): complexidade 3 - nota A
+  ↳ test_no_exception (linha 71): complexidade 1 - nota A
+  ↳ get_exception (linha 76): complexidade 3 - nota A
+  ↳ test_print_exception (linha 93): complexidade 3 - nota A
+  ↳ test_print_exception_no_msg (linha 103): complexidade 4 - nota A
+  ↳ test_print_exception_locals (linha 114): complexidade 5 - nota A
+  ↳ test_syntax_error (linha 127): complexidade 3 - nota A
+  ↳ test_nested_exception (linha 138): complexidade 6 - nota B
+  ↳ test_caused_exception (linha 165): complexidade 6 - nota B
+  ↳ test_filename_with_bracket (linha 192): complexidade 3 - nota A
+  ↳ test_filename_not_a_file (linha 202): complexidade 3 - nota A
+  ↳ test_traceback_console_theme_applies (linha 213): complexidade 3 - nota A
+  ↳ test_broken_str (linha 236): complexidade 3 - nota A
+  ↳ test_guess_lexer (linha 251): complexidade 4 - nota A
+  ↳ test_guess_lexer_yaml_j2 (linha 258): complexidade 2 - nota A
+  ↳ test_recursive (linha 268): complexidade 4 - nota A
+  ↳ test_suppress (linha 286): complexidade 5 - nota A
+  ↳ test_rich_traceback_omit_optional_local_flag (linha 305): complexidade 5 - nota A
+  ↳ test_traceback_finely_grained_missing (linha 335): complexidade 3 - nota A
+  ↳ test_traceback_finely_grained (linha 348): complexidade 6 - nota B
+  ↳ test_notes (linha 366): complexidade 3 - nota A
+
+  [Métricas Brutas]
+    LOC: 375 | LLOC: 248 | SLOC: 293 | Comentários: 9 | Blanks: 70
+
+  [Halstead]
+    Volume: 1204.81 | Dificuldade: 6.13 | Esforço: 7391.02 | Bugs estimados: 0.40
+
+  [Maintainability Index]
+    MI: 29.68 - nota A
+
+  📄 Arquivo: ./repo_temp/tests/test_block_bar.py
+  ↳ test_repr (linha 14): complexidade 2 - nota A
+  ↳ test_render (linha 19): complexidade 4 - nota A
+  ↳ test_measure (linha 32): complexidade 3 - nota A
+  ↳ test_zero_total (linha 40): complexidade 1 - nota A
+
+  [Métricas Brutas]
+    LOC: 55 | LLOC: 36 | SLOC: 40 | Comentários: 2 | Blanks: 13
+
+  [Halstead]
+    Volume: 77.71 | Dificuldade: 0.58 | Esforço: 45.33 | Bugs estimados: 0.03
+
+  [Maintainability Index]
+    MI: 64.81 - nota A
+
+  📄 Arquivo: ./repo_temp/tests/test_spinner.py
+  ↳ test_spinner_create (linha 10): complexidade 1 - nota A
+  ↳ test_spinner_render (linha 16): complexidade 2 - nota A
+  ↳ test_spinner_update (linha 37): complexidade 2 - nota A
+  ↳ test_rich_measure (linha 61): complexidade 3 - nota A
+  ↳ test_spinner_markup (linha 69): complexidade 3 - nota A
+
+  [Métricas Brutas]
+    LOC: 72 | LLOC: 52 | SLOC: 54 | Comentários: 0 | Blanks: 18
+
+  [Halstead]
+    Volume: 118.59 | Dificuldade: 1.50 | Esforço: 177.89 | Bugs estimados: 0.04
+
+  [Maintainability Index]
+    MI: 47.10 - nota A
+
+  📄 Arquivo: ./repo_temp/tests/test_markup.py
+  ↳ test_re_no_match (linha 9): complexidade 7 - nota B
+  ↳ test_re_match (linha 18): complexidade 10 - nota B
+  ↳ test_escape (linha 30): complexidade 8 - nota B
+  ↳ test_escape_backslash_end (linha 47): complexidade 5 - nota A
+  ↳ test_render_escape (linha 59): complexidade 2 - nota A
+  ↳ test_parse (linha 70): complexidade 2 - nota A
+  ↳ test_parse_link (linha 85): complexidade 2 - nota A
+  ↳ test_render (linha 95): complexidade 3 - nota A
+  ↳ test_render_not_tags (linha 101): complexidade 3 - nota A
+  ↳ test_render_link (linha 107): complexidade 3 - nota A
+  ↳ test_render_combine (linha 113): complexidade 3 - nota A
+  ↳ test_render_overlap (linha 122): complexidade 3 - nota A
+  ↳ test_adjoint (linha 131): complexidade 2 - nota A
+  ↳ test_render_close (linha 137): complexidade 3 - nota A
+  ↳ test_render_close_ambiguous (linha 143): complexidade 3 - nota A
+  ↳ test_markup_error (linha 149): complexidade 4 - nota A
+  ↳ test_markup_escape (linha 158): complexidade 2 - nota A
+  ↳ test_escape_escape (linha 163): complexidade 7 - nota B
+  ↳ test_events (linha 188): complexidade 2 - nota A
+  ↳ test_events_broken (linha 193): complexidade 1 - nota A
+  ↳ test_render_meta (linha 201): complexidade 6 - nota B
+
+  [Métricas Brutas]
+    LOC: 219 | LLOC: 134 | SLOC: 153 | Comentários: 10 | Blanks: 56
+
+  [Halstead]
+    Volume: 956.65 | Dificuldade: 1.10 | Esforço: 1053.39 | Bugs estimados: 0.32
+
+  [Maintainability Index]
+    MI: 39.30 - nota A
+
+  📄 Arquivo: ./repo_temp/docs/source/conf.py
+
+  [Métricas Brutas]
+    LOC: 83 | LLOC: 20 | SLOC: 29 | Comentários: 31 | Blanks: 23
+
+  [Halstead]
+    Volume: 4.75 | Dificuldade: 0.50 | Esforço: 2.38 | Bugs estimados: 0.00
+
+  [Maintainability Index]
+    MI: 91.20 - nota A
+
+  📄 Arquivo: ./repo_temp/examples/dynamic_progress.py
+  ↳ run_steps (linha 23): complexidade 3 - nota A
+
+  [Métricas Brutas]
+    LOC: 117 | LLOC: 37 | SLOC: 70 | Comentários: 21 | Blanks: 20
+
+  [Halstead]
+    Volume: 36.00 | Dificuldade: 0.57 | Esforço: 20.57 | Bugs estimados: 0.01
+
+  [Maintainability Index]
+    MI: 82.22 - nota A
+
+  📄 Arquivo: ./repo_temp/examples/link.py
+
+  [Métricas Brutas]
+    LOC: 4 | LLOC: 3 | SLOC: 3 | Comentários: 0 | Blanks: 1
+
+  [Halstead]
+    Volume: 0.00 | Dificuldade: 0.00 | Esforço: 0.00 | Bugs estimados: 0.00
+
+  [Maintainability Index]
+    MI: 100.00 - nota A
+
+  📄 Arquivo: ./repo_temp/examples/screen.py
+
+  [Métricas Brutas]
+    LOC: 16 | LLOC: 10 | SLOC: 9 | Comentários: 0 | Blanks: 4
+
+  [Halstead]
+    Volume: 0.00 | Dificuldade: 0.00 | Esforço: 0.00 | Bugs estimados: 0.00
+
+  [Maintainability Index]
+    MI: 100.00 - nota A
+
+  📄 Arquivo: ./repo_temp/examples/file_progress.py
+
+  [Métricas Brutas]
+    LOC: 16 | LLOC: 9 | SLOC: 9 | Comentários: 3 | Blanks: 4
+
+  [Halstead]
+    Volume: 0.00 | Dificuldade: 0.00 | Esforço: 0.00 | Bugs estimados: 0.00
+
+  [Maintainability Index]
+    MI: 100.00 - nota A
+
+  📄 Arquivo: ./repo_temp/examples/tree.py
+  ↳ walk_directory (linha 16): complexidade 6 - nota B
+
+  [Métricas Brutas]
+    LOC: 55 | LLOC: 36 | SLOC: 43 | Comentários: 2 | Blanks: 6
+
+  [Halstead]
+    Volume: 15.51 | Dificuldade: 1.00 | Esforço: 15.51 | Bugs estimados: 0.01
+
+  [Maintainability Index]
+    MI: 75.62 - nota A
+
+  📄 Arquivo: ./repo_temp/examples/exception.py
+  ↳ divide_by (linha 11): complexidade 1 - nota A
+  ↳ divide_all (linha 18): complexidade 4 - nota A
+
+  [Métricas Brutas]
+    LOC: 41 | LLOC: 20 | SLOC: 25 | Comentários: 1 | Blanks: 10
+
+  [Halstead]
+    Volume: 25.27 | Dificuldade: 1.20 | Esforço: 30.32 | Bugs estimados: 0.01
+
+  [Maintainability Index]
+    MI: 82.81 - nota A
+
+  📄 Arquivo: ./repo_temp/examples/recursive_error.py
+  ↳ foo (linha 12): complexidade 1 - nota A
+  ↳ bar (linha 16): complexidade 1 - nota A
+
+  [Métricas Brutas]
+    LOC: 25 | LLOC: 11 | SLOC: 10 | Comentários: 0 | Blanks: 11
+
+  [Halstead]
+    Volume: 0.00 | Dificuldade: 0.00 | Esforço: 0.00 | Bugs estimados: 0.00
+
+  [Maintainability Index]
+    MI: 100.00 - nota A
+
+  📄 Arquivo: ./repo_temp/examples/justify.py
+
+  [Métricas Brutas]
+    LOC: 13 | LLOC: 8 | SLOC: 7 | Comentários: 0 | Blanks: 3
+
+  [Halstead]
+    Volume: 0.00 | Dificuldade: 0.00 | Esforço: 0.00 | Bugs estimados: 0.00
+
+  [Maintainability Index]
+    MI: 100.00 - nota A
+
+  📄 Arquivo: ./repo_temp/examples/group2.py
+  ↳ get_panels (linha 7): complexidade 1 - nota A
+
+  [Métricas Brutas]
+    LOC: 12 | LLOC: 8 | SLOC: 8 | Comentários: 0 | Blanks: 4
+
+  [Halstead]
+    Volume: 0.00 | Dificuldade: 0.00 | Esforço: 0.00 | Bugs estimados: 0.00
+
+  [Maintainability Index]
+    MI: 100.00 - nota A
+
+  📄 Arquivo: ./repo_temp/examples/print_calendar.py
+  ↳ print_calendar (linha 20): complexidade 9 - nota B
+
+  [Métricas Brutas]
+    LOC: 70 | LLOC: 44 | SLOC: 49 | Comentários: 0 | Blanks: 13
+
+  [Halstead]
+    Volume: 55.51 | Dificuldade: 2.22 | Esforço: 123.35 | Bugs estimados: 0.02
+
+  [Maintainability Index]
+    MI: 71.22 - nota A
+
+  📄 Arquivo: ./repo_temp/examples/downloader.py
+  ↳ handle_sigint (linha 40): complexidade 1 - nota A
+  ↳ copy_url (linha 47): complexidade 3 - nota A
+  ↳ download (linha 63): complexidade 2 - nota A
+
+  [Métricas Brutas]
+    LOC: 81 | LLOC: 43 | SLOC: 57 | Comentários: 3 | Blanks: 16
+
+  [Halstead]
+    Volume: 11.61 | Dificuldade: 1.00 | Esforço: 11.61 | Bugs estimados: 0.00
+
+  [Maintainability Index]
+    MI: 74.31 - nota A
+
+  📄 Arquivo: ./repo_temp/examples/save_table_svg.py
+
+  [Métricas Brutas]
+    LOC: 26 | LLOC: 17 | SLOC: 16 | Comentários: 0 | Blanks: 7
+
+  [Halstead]
+    Volume: 0.00 | Dificuldade: 0.00 | Esforço: 0.00 | Bugs estimados: 0.00
+
+  [Maintainability Index]
+    MI: 100.00 - nota A
+
+  📄 Arquivo: ./repo_temp/examples/table_movie.py
+  ↳ beat (linha 63): complexidade 1 - nota A
+
+  [Métricas Brutas]
+    LOC: 196 | LLOC: 100 | SLOC: 149 | Comentários: 0 | Blanks: 46
+
+  [Halstead]
+    Volume: 30.00 | Dificuldade: 1.80 | Esforço: 54.00 | Bugs estimados: 0.01
+
+  [Maintainability Index]
+    MI: 45.09 - nota A
+
+  📄 Arquivo: ./repo_temp/examples/log.py
+  ↳ test_locals (linha 53): complexidade 1 - nota A
+  ↳ RequestHighlighter (linha 12): complexidade 1 - nota A
+
+  [Métricas Brutas]
+    LOC: 77 | LLOC: 26 | SLOC: 57 | Comentários: 0 | Blanks: 17
+
+  [Halstead]
+    Volume: 0.00 | Dificuldade: 0.00 | Esforço: 0.00 | Bugs estimados: 0.00
+
+  [Maintainability Index]
+    MI: 100.00 - nota A
+
+  📄 Arquivo: ./repo_temp/examples/cp_progress.py
+
+  [Métricas Brutas]
+    LOC: 19 | LLOC: 15 | SLOC: 14 | Comentários: 0 | Blanks: 2
+
+  [Halstead]
+    Volume: 13.93 | Dificuldade: 0.50 | Esforço: 6.97 | Bugs estimados: 0.00
+
+  [Maintainability Index]
+    MI: 89.87 - nota A
+
+  📄 Arquivo: ./repo_temp/examples/layout.py
+  ↳ Clock (linha 41): complexidade 2 - nota A
+  ↳ __rich__ (linha 44): complexidade 1 - nota A
+
+  [Métricas Brutas]
+    LOC: 55 | LLOC: 25 | SLOC: 35 | Comentários: 0 | Blanks: 16
+
+  [Halstead]
+    Volume: 0.00 | Dificuldade: 0.00 | Esforço: 0.00 | Bugs estimados: 0.00
+
+  [Maintainability Index]
+    MI: 100.00 - nota A
+
+  📄 Arquivo: ./repo_temp/examples/overflow.py
+
+  [Métricas Brutas]
+    LOC: 11 | LLOC: 10 | SLOC: 9 | Comentários: 0 | Blanks: 2
+
+  [Halstead]
+    Volume: 0.00 | Dificuldade: 0.00 | Esforço: 0.00 | Bugs estimados: 0.00
+
+  [Maintainability Index]
+    MI: 100.00 - nota A
+
+  📄 Arquivo: ./repo_temp/examples/export.py
+  ↳ print_table (linha 11): complexidade 1 - nota A
+
+  [Métricas Brutas]
+    LOC: 56 | LLOC: 32 | SLOC: 31 | Comentários: 8 | Blanks: 14
+
+  [Halstead]
+    Volume: 0.00 | Dificuldade: 0.00 | Esforço: 0.00 | Bugs estimados: 0.00
+
+  [Maintainability Index]
+    MI: 100.00 - nota A
+
+  📄 Arquivo: ./repo_temp/examples/repr.py
+  ↳ Bird (linha 5): complexidade 3 - nota A
+  ↳ __init__ (linha 6): complexidade 2 - nota A
+
+  [Métricas Brutas]
+    LOC: 23 | LLOC: 12 | SLOC: 15 | Comentários: 2 | Blanks: 6
+
+  [Halstead]
+    Volume: 0.00 | Dificuldade: 0.00 | Esforço: 0.00 | Bugs estimados: 0.00
+
+  [Maintainability Index]
+    MI: 100.00 - nota A
+
+  📄 Arquivo: ./repo_temp/examples/live_progress.py
+
+  [Métricas Brutas]
+    LOC: 45 | LLOC: 23 | SLOC: 32 | Comentários: 0 | Blanks: 10
+
+  [Halstead]
+    Volume: 4.00 | Dificuldade: 1.00 | Esforço: 4.00 | Bugs estimados: 0.00
+
+  [Maintainability Index]
+    MI: 82.60 - nota A
+
+  📄 Arquivo: ./repo_temp/examples/suppress.py
+  ↳ hello (linha 15): complexidade 2 - nota A
+
+  [Métricas Brutas]
+    LOC: 23 | LLOC: 17 | SLOC: 16 | Comentários: 0 | Blanks: 6
+
+  [Halstead]
+    Volume: 15.51 | Dificuldade: 1.00 | Esforço: 15.51 | Bugs estimados: 0.01
+
+  [Maintainability Index]
+    MI: 64.28 - nota A
+
+  📄 Arquivo: ./repo_temp/examples/jobs.py
+
+  [Métricas Brutas]
+    LOC: 31 | LLOC: 19 | SLOC: 26 | Comentários: 0 | Blanks: 5
+
+  [Halstead]
+    Volume: 0.00 | Dificuldade: 0.00 | Esforço: 0.00 | Bugs estimados: 0.00
+
+  [Maintainability Index]
+    MI: 100.00 - nota A
+
+  📄 Arquivo: ./repo_temp/examples/columns.py
+  ↳ get_content (linha 15): complexidade 1 - nota A
+
+  [Métricas Brutas]
+    LOC: 28 | LLOC: 16 | SLOC: 14 | Comentários: 0 | Blanks: 9
+
+  [Halstead]
+    Volume: 0.00 | Dificuldade: 0.00 | Esforço: 0.00 | Bugs estimados: 0.00
+
+  [Maintainability Index]
+    MI: 100.00 - nota A
+
+  📄 Arquivo: ./repo_temp/examples/spinners.py
+
+  [Métricas Brutas]
+    LOC: 23 | LLOC: 10 | SLOC: 20 | Comentários: 0 | Blanks: 3
+
+  [Halstead]
+    Volume: 0.00 | Dificuldade: 0.00 | Esforço: 0.00 | Bugs estimados: 0.00
+
+  [Maintainability Index]
+    MI: 100.00 - nota A
+
+  📄 Arquivo: ./repo_temp/examples/justify2.py
+
+  [Métricas Brutas]
+    LOC: 15 | LLOC: 10 | SLOC: 9 | Comentários: 0 | Blanks: 3
+
+  [Halstead]
+    Volume: 0.00 | Dificuldade: 0.00 | Esforço: 0.00 | Bugs estimados: 0.00
+
+  [Maintainability Index]
+    MI: 100.00 - nota A
+
+  📄 Arquivo: ./repo_temp/examples/fullscreen.py
+  ↳ make_layout (linha 20): complexidade 1 - nota A
+  ↳ make_sponsor_message (linha 37): complexidade 1 - nota A
+  ↳ make_syntax (linha 86): complexidade 1 - nota A
+  ↳ Header (linha 72): complexidade 2 - nota A
+  ↳ __rich__ (linha 75): complexidade 1 - nota A
+
+  [Métricas Brutas]
+    LOC: 176 | LLOC: 69 | SLOC: 141 | Comentários: 0 | Blanks: 29
+
+  [Halstead]
+    Volume: 4.00 | Dificuldade: 1.00 | Esforço: 4.00 | Bugs estimados: 0.00
+
+  [Maintainability Index]
+    MI: 63.43 - nota A
+
+  📄 Arquivo: ./repo_temp/examples/highlighter.py
+  ↳ EmailHighlighter (linha 10): complexidade 1 - nota A
+
+  [Métricas Brutas]
+    LOC: 20 | LLOC: 12 | SLOC: 9 | Comentários: 0 | Blanks: 7
+
+  [Halstead]
+    Volume: 0.00 | Dificuldade: 0.00 | Esforço: 0.00 | Bugs estimados: 0.00
+
+  [Maintainability Index]
+    MI: 100.00 - nota A
+
+  📄 Arquivo: ./repo_temp/examples/group.py
+
+  [Métricas Brutas]
+    LOC: 9 | LLOC: 5 | SLOC: 8 | Comentários: 0 | Blanks: 1
+
+  [Halstead]
+    Volume: 0.00 | Dificuldade: 0.00 | Esforço: 0.00 | Bugs estimados: 0.00
+
+  [Maintainability Index]
+    MI: 100.00 - nota A
+
+  📄 Arquivo: ./repo_temp/examples/bars.py
+
+  [Métricas Brutas]
+    LOC: 21 | LLOC: 13 | SLOC: 12 | Comentários: 0 | Blanks: 6
+
+  [Halstead]
+    Volume: 132.00 | Dificuldade: 3.67 | Esforço: 484.00 | Bugs estimados: 0.04
+
+  [Maintainability Index]
+    MI: 85.74 - nota A
+
+  📄 Arquivo: ./repo_temp/examples/table.py
+
+  [Métricas Brutas]
+    LOC: 20 | LLOC: 13 | SLOC: 12 | Comentários: 0 | Blanks: 5
+
+  [Halstead]
+    Volume: 0.00 | Dificuldade: 0.00 | Esforço: 0.00 | Bugs estimados: 0.00
+
+  [Maintainability Index]
+    MI: 100.00 - nota A
+
+  📄 Arquivo: ./repo_temp/examples/top_lite_simulator.py
+  ↳ generate_process (linha 42): complexidade 2 - nota A
+  ↳ create_process_table (linha 55): complexidade 3 - nota A
+  ↳ Process (linha 20): complexidade 3 - nota A
+  ↳ memory_str (linha 30): complexidade 3 - nota A
+  ↳ time_str (linha 38): complexidade 1 - nota A
+
+  [Métricas Brutas]
+    LOC: 84 | LLOC: 55 | SLOC: 68 | Comentários: 0 | Blanks: 15
+
+  [Halstead]
+    Volume: 169.22 | Dificuldade: 4.42 | Esforço: 748.11 | Bugs estimados: 0.06
+
+  [Maintainability Index]
+    MI: 45.09 - nota A
+
+  📄 Arquivo: ./repo_temp/examples/attrs.py
+  ↳ Point3D (linha 12): complexidade 1 - nota A
+  ↳ Triangle (linha 19): complexidade 1 - nota A
+  ↳ Model (linha 26): complexidade 1 - nota A
+
+  [Métricas Brutas]
+    LOC: 53 | LLOC: 39 | SLOC: 40 | Comentários: 0 | Blanks: 13
+
+  [Halstead]
+    Volume: 18.09 | Dificuldade: 1.00 | Esforço: 18.09 | Bugs estimados: 0.01
+
+  [Maintainability Index]
+    MI: 56.08 - nota A
+
+  📄 Arquivo: ./repo_temp/examples/listdir.py
+  ↳ make_filename_text (linha 22): complexidade 2 - nota A
+
+  [Métricas Brutas]
+    LOC: 35 | LLOC: 23 | SLOC: 23 | Comentários: 0 | Blanks: 7
+
+  [Halstead]
+    Volume: 2.00 | Dificuldade: 0.50 | Esforço: 1.00 | Bugs estimados: 0.00
+
+  [Maintainability Index]
+    MI: 91.30 - nota A
+
+  📄 Arquivo: ./repo_temp/examples/padding.py
+
+  [Métricas Brutas]
+    LOC: 5 | LLOC: 4 | SLOC: 4 | Comentários: 0 | Blanks: 1
+
+  [Halstead]
+    Volume: 0.00 | Dificuldade: 0.00 | Esforço: 0.00 | Bugs estimados: 0.00
+
+  [Maintainability Index]
+    MI: 100.00 - nota A
+
+  📄 Arquivo: ./repo_temp/examples/status.py
+
+  [Métricas Brutas]
+    LOC: 13 | LLOC: 10 | SLOC: 10 | Comentários: 0 | Blanks: 3
+
+  [Halstead]
+    Volume: 0.00 | Dificuldade: 0.00 | Esforço: 0.00 | Bugs estimados: 0.00
+
+  [Maintainability Index]
+    MI: 100.00 - nota A
+
+  📄 Arquivo: ./repo_temp/examples/rainbow.py
+  ↳ RainbowHighlighter (linha 13): complexidade 3 - nota A
+  ↳ highlight (linha 14): complexidade 2 - nota A
+
+  [Métricas Brutas]
+    LOC: 20 | LLOC: 10 | SLOC: 9 | Comentários: 0 | Blanks: 8
+
+  [Halstead]
+    Volume: 4.75 | Dificuldade: 0.50 | Esforço: 2.38 | Bugs estimados: 0.00
+
+  [Maintainability Index]
+    MI: 100.00 - nota A
+
+  📄 Arquivo: ./repo_temp/benchmarks/__init__.py
+
+  [Métricas Brutas]
+    LOC: 0 | LLOC: 0 | SLOC: 0 | Comentários: 0 | Blanks: 0
+
+  [Halstead]
+    Volume: 0.00 | Dificuldade: 0.00 | Esforço: 0.00 | Bugs estimados: 0.00
+
+  [Maintainability Index]
+    MI: 100.00 - nota A
+
+  📄 Arquivo: ./repo_temp/benchmarks/snippets.py
+
+  [Métricas Brutas]
+    LOC: 179 | LLOC: 6 | SLOC: 134 | Comentários: 0 | Blanks: 45
+
+  [Halstead]
+    Volume: 0.00 | Dificuldade: 0.00 | Esforço: 0.00 | Bugs estimados: 0.00
+
+  [Maintainability Index]
+    MI: 100.00 - nota A
+
+  📄 Arquivo: ./repo_temp/benchmarks/benchmarks.py
+  ↳ TextSuite (linha 14): complexidade 2 - nota A
+  ↳ setup (linha 15): complexidade 1 - nota A
+  ↳ time_wrapping (linha 22): complexidade 1 - nota A
+  ↳ time_indent_guides (linha 25): complexidade 1 - nota A
+  ↳ time_fit (linha 28): complexidade 1 - nota A
+  ↳ time_split (linha 31): complexidade 1 - nota A
+  ↳ time_divide (linha 34): complexidade 1 - nota A
+  ↳ time_align_center (linha 37): complexidade 1 - nota A
+  ↳ time_render (linha 40): complexidade 1 - nota A
+  ↳ time_wrapping_unicode_heavy (linha 43): complexidade 1 - nota A
+  ↳ time_fit_unicode_heavy (linha 46): complexidade 1 - nota A
+  ↳ time_split_unicode_heavy (linha 49): complexidade 1 - nota A
+  ↳ time_divide_unicode_heavy (linha 52): complexidade 1 - nota A
+  ↳ time_align_center_unicode_heavy (linha 55): complexidade 1 - nota A
+  ↳ time_render_unicode_heavy (linha 60): complexidade 1 - nota A
+  ↳ TextHotCacheSuite (linha 64): complexidade 3 - nota A
+  ↳ setup (linha 65): complexidade 1 - nota A
+  ↳ time_wrapping_unicode_heavy_warm_cache (linha 70): complexidade 2 - nota A
+  ↳ SyntaxWrappingSuite (linha 75): complexidade 2 - nota A
+  ↳ setup (linha 76): complexidade 1 - nota A
+  ↳ time_text_thin_terminal_heavy_wrapping (linha 84): complexidade 1 - nota A
+  ↳ time_text_thin_terminal_medium_wrapping (linha 87): complexidade 1 - nota A
+  ↳ time_text_wide_terminal_no_wrapping (linha 90): complexidade 1 - nota A
+  ↳ _print_with_width (linha 93): complexidade 1 - nota A
+  ↳ TableSuite (linha 97): complexidade 2 - nota A
+  ↳ time_table_no_wrapping (linha 98): complexidade 1 - nota A
+  ↳ time_table_heavy_wrapping (linha 101): complexidade 1 - nota A
+  ↳ _print_table (linha 104): complexidade 1 - nota A
+  ↳ PrettySuite (linha 129): complexidade 2 - nota A
+  ↳ setup (linha 130): complexidade 1 - nota A
+  ↳ time_pretty (linha 135): complexidade 1 - nota A
+  ↳ time_pretty_indent_guides (linha 139): complexidade 1 - nota A
+  ↳ time_pretty_justify_center (linha 143): complexidade 1 - nota A
+  ↳ StyleSuite (linha 148): complexidade 2 - nota A
+  ↳ setup (linha 149): complexidade 1 - nota A
+  ↳ time_parse_ansi (linha 156): complexidade 1 - nota A
+  ↳ time_parse_hex (linha 159): complexidade 1 - nota A
+  ↳ time_parse_mixed_complex_style (linha 162): complexidade 1 - nota A
+  ↳ time_style_add (linha 165): complexidade 1 - nota A
+  ↳ ColorSuite (linha 169): complexidade 2 - nota A
+  ↳ setup (linha 170): complexidade 1 - nota A
+  ↳ time_downgrade_to_eight_bit (linha 176): complexidade 1 - nota A
+  ↳ time_downgrade_to_standard (linha 179): complexidade 1 - nota A
+  ↳ time_downgrade_to_windows (linha 182): complexidade 1 - nota A
+  ↳ ColorSuiteCached (linha 186): complexidade 2 - nota A
+  ↳ setup (linha 187): complexidade 1 - nota A
+  ↳ time_downgrade_to_eight_bit (linha 197): complexidade 1 - nota A
+  ↳ time_downgrade_to_standard (linha 200): complexidade 1 - nota A
+  ↳ time_downgrade_to_windows (linha 203): complexidade 1 - nota A
+  ↳ SegmentSuite (linha 207): complexidade 2 - nota A
+  ↳ setup (linha 208): complexidade 1 - nota A
+  ↳ test_divide_complex (linha 217): complexidade 1 - nota A
+
+  [Métricas Brutas]
+    LOC: 218 | LLOC: 128 | SLOC: 164 | Comentários: 1 | Blanks: 53
+
+  [Halstead]
+    Volume: 39.86 | Dificuldade: 1.00 | Esforço: 39.86 | Bugs estimados: 0.01
+
+  [Maintainability Index]
+    MI: 41.48 - nota A
+
+  📄 Arquivo: ./repo_temp/rich/themes.py
+
+  [Métricas Brutas]
+    LOC: 5 | LLOC: 3 | SLOC: 3 | Comentários: 0 | Blanks: 2
+
+  [Halstead]
+    Volume: 0.00 | Dificuldade: 0.00 | Esforço: 0.00 | Bugs estimados: 0.00
+
+  [Maintainability Index]
+    MI: 100.00 - nota A
+
+  📄 Arquivo: ./repo_temp/rich/screen.py
+  ↳ Screen (linha 18): complexidade 5 - nota A
+  ↳ __init__ (linha 28): complexidade 1 - nota A
+  ↳ __rich_console__ (linha 40): complexidade 6 - nota B
+
+  [Métricas Brutas]
+    LOC: 54 | LLOC: 26 | SLOC: 39 | Comentários: 0 | Blanks: 10
+
+  [Halstead]
+    Volume: 11.61 | Dificuldade: 1.00 | Esforço: 11.61 | Bugs estimados: 0.00
+
+  [Maintainability Index]
+    MI: 80.22 - nota A
+
+  📄 Arquivo: ./repo_temp/rich/logging.py
+  ↳ divide (linha 283): complexidade 2 - nota A
+  ↳ RichHandler (linha 18): complexidade 6 - nota B
+  ↳ __init__ (linha 65): complexidade 3 - nota A
+  ↳ get_level_text (linha 117): complexidade 1 - nota A
+  ↳ emit (linha 132): complexidade 11 - nota C
+  ↳ render_message (linha 182): complexidade 5 - nota A
+  ↳ render (linha 207): complexidade 4 - nota A
+
+  [Métricas Brutas]
+    LOC: 297 | LLOC: 122 | SLOC: 208 | Comentários: 5 | Blanks: 32
+
+  [Halstead]
+    Volume: 196.73 | Dificuldade: 4.88 | Esforço: 959.07 | Bugs estimados: 0.07
+
+  [Maintainability Index]
+    MI: 60.65 - nota A
+
+  📄 Arquivo: ./repo_temp/rich/measure.py
+  ↳ measure_renderables (linha 125): complexidade 3 - nota A
+  ↳ Measurement (linha 11): complexidade 3 - nota A
+  ↳ span (linha 20): complexidade 1 - nota A
+  ↳ normalize (linha 24): complexidade 1 - nota A
+  ↳ with_maximum (linha 34): complexidade 1 - nota A
+  ↳ with_minimum (linha 46): complexidade 1 - nota A
+  ↳ clamp (linha 59): complexidade 3 - nota A
+  ↳ get (linha 79): complexidade 6 - nota B
+
+  [Métricas Brutas]
+    LOC: 151 | LLOC: 69 | SLOC: 80 | Comentários: 0 | Blanks: 25
+
+  [Halstead]
+    Volume: 78.14 | Dificuldade: 2.36 | Esforço: 184.69 | Bugs estimados: 0.03
+
+  [Maintainability Index]
+    MI: 73.52 - nota A
+
+  📄 Arquivo: ./repo_temp/rich/tree.py
+  ↳ Tree (linha 14): complexidade 9 - nota B
+  ↳ __init__ (linha 37): complexidade 1 - nota A
+  ↳ add (linha 55): complexidade 4 - nota A
+  ↳ __rich_console__ (linha 86): complexidade 23 - nota D
+  ↳ __rich_measure__ (linha 176): complexidade 5 - nota A
+
+  [Métricas Brutas]
+    LOC: 257 | LLOC: 142 | SLOC: 198 | Comentários: 1 | Blanks: 36
+
+  [Halstead]
+    Volume: 510.74 | Dificuldade: 8.43 | Esforço: 4304.83 | Bugs estimados: 0.17
+
+  [Maintainability Index]
+    MI: 48.36 - nota A
+
+  📄 Arquivo: ./repo_temp/rich/console.py
+  ↳ group (linha 495): complexidade 1 - nota A
+  ↳ _is_jupyter (linha 517): complexidade 6 - nota B
+  ↳ get_windows_console_features (linha 578): complexidade 2 - nota A
+  ↳ detect_legacy_windows (linha 588): complexidade 2 - nota A
+  ↳ _svg_hash (linha 2610): complexidade 1 - nota A
+  ↳ NoChange (linha 85): complexidade 1 - nota A
+  ↳ ConsoleDimensions (linha 115): complexidade 1 - nota A
+  ↳ ConsoleOptions (linha 125): complexidade 3 - nota A
+  ↳ ascii_only (linha 155): complexidade 1 - nota A
+  ↳ copy (linha 159): complexidade 1 - nota A
+  ↳ update (linha 169): complexidade 12 - nota C
+  ↳ update_width (linha 206): complexidade 1 - nota A
+  ↳ update_height (linha 219): complexidade 1 - nota A
+  ↳ reset_height (linha 232): complexidade 1 - nota A
+  ↳ update_dimensions (linha 242): complexidade 1 - nota A
+  ↳ RichCast (linha 259): complexidade 2 - nota A
+  ↳ __rich__ (linha 262): complexidade 1 - nota A
+  ↳ ConsoleRenderable (linha 269): complexidade 2 - nota A
+  ↳ __rich_console__ (linha 272): complexidade 1 - nota A
+  ↳ CaptureError (linha 288): complexidade 1 - nota A
+  ↳ NewLine (linha 292): complexidade 2 - nota A
+  ↳ __init__ (linha 295): complexidade 1 - nota A
+  ↳ __rich_console__ (linha 298): complexidade 1 - nota A
+  ↳ ScreenUpdate (linha 304): complexidade 3 - nota A
+  ↳ __init__ (linha 307): complexidade 1 - nota A
+  ↳ __rich_console__ (linha 312): complexidade 2 - nota A
+  ↳ Capture (linha 322): complexidade 2 - nota A
+  ↳ __init__ (linha 330): complexidade 1 - nota A
+  ↳ __enter__ (linha 334): complexidade 1 - nota A
+  ↳ __exit__ (linha 338): complexidade 1 - nota A
+  ↳ get (linha 346): complexidade 2 - nota A
+  ↳ ThemeContext (linha 355): complexidade 2 - nota A
+  ↳ __init__ (linha 358): complexidade 1 - nota A
+  ↳ __enter__ (linha 363): complexidade 1 - nota A
+  ↳ __exit__ (linha 367): complexidade 1 - nota A
+  ↳ PagerContext (linha 376): complexidade 3 - nota A
+  ↳ __init__ (linha 379): complexidade 2 - nota A
+  ↳ __enter__ (linha 391): complexidade 1 - nota A
+  ↳ __exit__ (linha 395): complexidade 4 - nota A
+  ↳ ScreenContext (linha 415): complexidade 4 - nota A
+  ↳ __init__ (linha 418): complexidade 1 - nota A
+  ↳ update (linha 426): complexidade 4 - nota A
+  ↳ __enter__ (linha 444): complexidade 3 - nota A
+  ↳ __exit__ (linha 450): complexidade 3 - nota A
+  ↳ Group (linha 462): complexidade 2 - nota A
+  ↳ __init__ (linha 470): complexidade 1 - nota A
+  ↳ renderables (linha 476): complexidade 2 - nota A
+  ↳ __rich_measure__ (linha 481): complexidade 2 - nota A
+  ↳ __rich_console__ (linha 489): complexidade 1 - nota A
+  ↳ ConsoleThreadLocals (linha 548): complexidade 1 - nota A
+  ↳ RenderHook (linha 556): complexidade 2 - nota A
+  ↳ process_renderables (linha 560): complexidade 1 - nota A
+  ↳ Console (linha 593): complexidade 5 - nota A
+  ↳ __init__ (linha 631): complexidade 28 - nota D
+  ↳ __repr__ (linha 757): complexidade 1 - nota A
+  ↳ file (linha 761): complexidade 4 - nota A
+  ↳ file (linha 770): complexidade 1 - nota A
+  ↳ _buffer (linha 775): complexidade 1 - nota A
+  ↳ _buffer_index (linha 780): complexidade 1 - nota A
+  ↳ _buffer_index (linha 785): complexidade 1 - nota A
+  ↳ _theme_stack (linha 789): complexidade 1 - nota A
+  ↳ _detect_color_system (linha 793): complexidade 8 - nota B
+  ↳ _enter_buffer (linha 817): complexidade 1 - nota A
+  ↳ _exit_buffer (linha 821): complexidade 1 - nota A
+  ↳ set_live (linha 826): complexidade 2 - nota A
+  ↳ clear_live (linha 840): complexidade 1 - nota A
+  ↳ push_render_hook (linha 845): complexidade 1 - nota A
+  ↳ pop_render_hook (linha 854): complexidade 1 - nota A
+  ↳ __enter__ (linha 859): complexidade 1 - nota A
+  ↳ __exit__ (linha 864): complexidade 1 - nota A
+  ↳ begin_capture (linha 868): complexidade 1 - nota A
+  ↳ end_capture (linha 872): complexidade 1 - nota A
+  ↳ push_theme (linha 883): complexidade 1 - nota A
+  ↳ pop_theme (linha 894): complexidade 1 - nota A
+  ↳ use_theme (linha 898): complexidade 1 - nota A
+  ↳ color_system (linha 911): complexidade 2 - nota A
+  ↳ encoding (linha 924): complexidade 2 - nota A
+  ↳ is_terminal (linha 933): complexidade 10 - nota B
+  ↳ is_dumb_terminal (linha 981): complexidade 2 - nota A
+  ↳ options (linha 993): complexidade 1 - nota A
+  ↳ size (linha 1006): complexidade 16 - nota C
+  ↳ size (linha 1047): complexidade 1 - nota A
+  ↳ width (linha 1058): complexidade 1 - nota A
+  ↳ width (linha 1067): complexidade 1 - nota A
+  ↳ height (linha 1076): complexidade 1 - nota A
+  ↳ height (linha 1085): complexidade 1 - nota A
+  ↳ bell (linha 1093): complexidade 1 - nota A
+  ↳ capture (linha 1097): complexidade 1 - nota A
+  ↳ pager (linha 1114): complexidade 1 - nota A
+  ↳ line (linha 1137): complexidade 2 - nota A
+  ↳ clear (linha 1147): complexidade 2 - nota A
+  ↳ status (linha 1158): complexidade 1 - nota A
+  ↳ show_cursor (linha 1191): complexidade 2 - nota A
+  ↳ set_alt_screen (linha 1202): complexidade 3 - nota A
+  ↳ is_alt_screen (linha 1224): complexidade 1 - nota A
+  ↳ set_window_title (linha 1232): complexidade 2 - nota A
+  ↳ screen (linha 1264): complexidade 2 - nota A
+  ↳ measure (linha 1278): complexidade 2 - nota A
+  ↳ render (linha 1295): complexidade 9 - nota B
+  ↳ render_lines (linha 1346): complexidade 7 - nota B
+  ↳ render_str (linha 1410): complexidade 12 - nota C
+  ↳ get_style (linha 1471): complexidade 6 - nota B
+  ↳ _collect_renderables (linha 1501): complexidade 12 - nota C
+  ↳ rule (linha 1580): complexidade 1 - nota A
+  ↳ control (linha 1601): complexidade 3 - nota A
+  ↳ out (linha 1611): complexidade 2 - nota A
+  ↳ print (linha 1643): complexidade 16 - nota C
+  ↳ print_json (linha 1742): complexidade 3 - nota A
+  ↳ update_screen (linha 1803): complexidade 5 - nota A
+  ↳ update_screen_lines (linha 1837): complexidade 2 - nota A
+  ↳ print_exception (linha 1857): complexidade 1 - nota A
+  ↳ _caller_frame_info (linha 1893): complexidade 5 - nota A
+  ↳ log (linha 1927): complexidade 11 - nota C
+  ↳ on_broken_pipe (linha 2008): complexidade 1 - nota A
+  ↳ _check_buffer (linha 2022): complexidade 3 - nota A
+  ↳ _write_buffer (linha 2037): complexidade 18 - nota C
+  ↳ _render_buffer (linha 2110): complexidade 7 - nota B
+  ↳ input (linha 2134): complexidade 4 - nota A
+  ↳ export_text (linha 2168): complexidade 8 - nota B
+  ↳ save_text (linha 2200): complexidade 1 - nota A
+  ↳ export_html (linha 2214): complexidade 15 - nota C
+  ↳ save_html (linha 2289): complexidade 1 - nota A
+  ↳ export_svg (linha 2320): complexidade 19 - nota C
+  ↳ save_svg (linha 2571): complexidade 1 - nota A
+
+  [Métricas Brutas]
+    LOC: 2675 | LLOC: 1232 | SLOC: 1709 | Comentários: 42 | Blanks: 378
+
+  [Halstead]
+    Volume: 5625.88 | Dificuldade: 12.19 | Esforço: 68558.89 | Bugs estimados: 1.88
+
+  [Maintainability Index]
+    MI: 0.00 - nota C
+
+  📄 Arquivo: ./repo_temp/rich/live_render.py
+  ↳ LiveRender (linha 20): complexidade 3 - nota A
+  ↳ __init__ (linha 28): complexidade 1 - nota A
+  ↳ set_renderable (linha 39): complexidade 1 - nota A
+  ↳ position_cursor (linha 47): complexidade 2 - nota A
+  ↳ restore_cursor (linha 68): complexidade 2 - nota A
+  ↳ __rich_console__ (linha 82): complexidade 6 - nota B
+
+  [Métricas Brutas]
+    LOC: 112 | LLOC: 59 | SLOC: 78 | Comentários: 1 | Blanks: 17
+
+  [Halstead]
+    Volume: 148.60 | Dificuldade: 4.08 | Esforço: 606.80 | Bugs estimados: 0.05
+
+  [Maintainability Index]
+    MI: 68.81 - nota A
+
+  📄 Arquivo: ./repo_temp/rich/_emoji_codes.py
+
+  [Métricas Brutas]
+    LOC: 3610 | LLOC: 2 | SLOC: 3610 | Comentários: 0 | Blanks: 0
+
+  [Halstead]
+    Volume: 0.00 | Dificuldade: 0.00 | Esforço: 0.00 | Bugs estimados: 0.00
+
+  [Maintainability Index]
+    MI: 100.00 - nota A
+
+  📄 Arquivo: ./repo_temp/rich/box.py
+  ↳ Box (linha 16): complexidade 4 - nota A
+  ↳ __init__ (linha 33): complexidade 1 - nota A
+  ↳ __repr__ (linha 67): complexidade 1 - nota A
+  ↳ __str__ (linha 70): complexidade 1 - nota A
+  ↳ substitute (linha 73): complexidade 5 - nota A
+  ↳ get_plain_headed_box (linha 91): complexidade 1 - nota A
+  ↳ get_top (linha 101): complexidade 3 - nota A
+  ↳ get_row (linha 121): complexidade 9 - nota B
+  ↳ get_bottom (linha 170): complexidade 3 - nota A
+
+  [Métricas Brutas]
+    LOC: 480 | LLOC: 162 | SLOC: 359 | Comentários: 15 | Blanks: 63
+
+  [Halstead]
+    Volume: 197.10 | Dificuldade: 2.83 | Esforço: 557.03 | Bugs estimados: 0.07
+
+  [Maintainability Index]
+    MI: 53.74 - nota A
+
+  📄 Arquivo: ./repo_temp/rich/color.py
+  ↳ parse_rgb_hex (linha 571): complexidade 2 - nota A
+  ↳ blend_rgb (linha 580): complexidade 1 - nota A
+  ↳ ColorSystem (linha 21): complexidade 2 - nota A
+  ↳ __repr__ (linha 29): complexidade 1 - nota A
+  ↳ __str__ (linha 32): complexidade 1 - nota A
+  ↳ ColorType (linha 36): complexidade 2 - nota A
+  ↳ __repr__ (linha 45): complexidade 1 - nota A
+  ↳ ColorParseError (linha 288): complexidade 1 - nota A
+  ↳ Color (linha 303): complexidade 6 - nota B
+  ↳ __rich__ (linha 315): complexidade 1 - nota A
+  ↳ __rich_repr__ (linha 326): complexidade 1 - nota A
+  ↳ system (linha 333): complexidade 2 - nota A
+  ↳ is_system_defined (linha 340): complexidade 1 - nota A
+  ↳ is_default (linha 345): complexidade 1 - nota A
+  ↳ get_truecolor (linha 349): complexidade 12 - nota C
+  ↳ from_ansi (linha 381): complexidade 2 - nota A
+  ↳ from_triplet (linha 397): complexidade 1 - nota A
+  ↳ from_rgb (linha 409): complexidade 1 - nota A
+  ↳ default (linha 423): complexidade 1 - nota A
+  ↳ parse (linha 433): complexidade 12 - nota C
+  ↳ get_ansi_codes (linha 485): complexidade 16 - nota C
+  ↳ downgrade (linha 513): complexidade 20 - nota C
+
+  [Métricas Brutas]
+    LOC: 621 | LLOC: 246 | SLOC: 496 | Comentários: 11 | Blanks: 74
+
+  [Halstead]
+    Volume: 1881.93 | Dificuldade: 12.81 | Esforço: 24101.14 | Bugs estimados: 0.63
+
+  [Maintainability Index]
+    MI: 30.47 - nota A
+
+  📄 Arquivo: ./repo_temp/rich/_timer.py
+  ↳ timer (linha 13): complexidade 1 - nota A
+
+  [Métricas Brutas]
+    LOC: 19 | LLOC: 13 | SLOC: 10 | Comentários: 0 | Blanks: 5
+
+  [Halstead]
+    Volume: 15.51 | Dificuldade: 1.00 | Esforço: 15.51 | Bugs estimados: 0.01
+
+  [Maintainability Index]
+    MI: 93.74 - nota A
+
+  📄 Arquivo: ./repo_temp/rich/_fileno.py
+  ↳ get_fileno (linha 6): complexidade 3 - nota A
+
+  [Métricas Brutas]
+    LOC: 24 | LLOC: 12 | SLOC: 10 | Comentários: 3 | Blanks: 5
+
+  [Halstead]
+    Volume: 13.93 | Dificuldade: 1.33 | Esforço: 18.58 | Bugs estimados: 0.00
+
+  [Maintainability Index]
+    MI: 95.03 - nota A
+
+  📄 Arquivo: ./repo_temp/rich/align.py
+  ↳ Align (linha 23): complexidade 4 - nota A
+  ↳ __init__ (linha 39): complexidade 4 - nota A
+  ↳ __repr__ (linha 66): complexidade 1 - nota A
+  ↳ left (linha 70): complexidade 1 - nota A
+  ↳ center (linha 92): complexidade 1 - nota A
+  ↳ right (linha 114): complexidade 1 - nota A
+  ↳ __rich_console__ (linha 135): complexidade 11 - nota C
+  ↳ __rich_measure__ (linha 227): complexidade 1 - nota A
+  ↳ VerticalCenter (linha 234): complexidade 3 - nota A
+  ↳ __init__ (linha 246): complexidade 1 - nota A
+  ↳ __repr__ (linha 254): complexidade 1 - nota A
+  ↳ __rich_console__ (linha 257): complexidade 6 - nota B
+  ↳ __rich_measure__ (linha 284): complexidade 1 - nota A
+
+  [Métricas Brutas]
+    LOC: 312 | LLOC: 149 | SLOC: 248 | Comentários: 7 | Blanks: 37
+
+  [Halstead]
+    Volume: 731.73 | Dificuldade: 11.45 | Esforço: 8381.60 | Bugs estimados: 0.24
+
+  [Maintainability Index]
+    MI: 46.57 - nota A
+
+  📄 Arquivo: ./repo_temp/rich/theme.py
+  ↳ Theme (linha 8): complexidade 3 - nota A
+  ↳ __init__ (linha 18): complexidade 5 - nota A
+  ↳ config (linha 31): complexidade 2 - nota A
+  ↳ from_file (linha 39): complexidade 2 - nota A
+  ↳ read (linha 59): complexidade 1 - nota A
+  ↳ ThemeStackError (linha 76): complexidade 1 - nota A
+  ↳ ThemeStack (linha 80): complexidade 3 - nota A
+  ↳ __init__ (linha 87): complexidade 1 - nota A
+  ↳ push_theme (linha 91): complexidade 2 - nota A
+  ↳ pop_theme (linha 105): complexidade 2 - nota A
+
+  [Métricas Brutas]
+    LOC: 115 | LLOC: 56 | SLOC: 58 | Comentários: 1 | Blanks: 24
+
+  [Halstead]
+    Volume: 76.15 | Dificuldade: 2.40 | Esforço: 182.75 | Bugs estimados: 0.03
+
+  [Maintainability Index]
+    MI: 75.60 - nota A
+
+  📄 Arquivo: ./repo_temp/rich/style.py
+  ↳ _Bit (linha 16): complexidade 3 - nota A
+  ↳ __init__ (linha 21): complexidade 1 - nota A
+  ↳ __get__ (linha 24): complexidade 2 - nota A
+  ↳ Style (linha 31): complexidade 6 - nota B
+  ↳ __init__ (linha 122): complexidade 49 - nota F
+  ↳ null (linha 199): complexidade 1 - nota A
+  ↳ from_color (linha 204): complexidade 2 - nota A
+  ↳ from_meta (linha 228): complexidade 1 - nota A
+  ↳ on (linha 249): complexidade 3 - nota A
+  ↳ link_id (linha 281): complexidade 1 - nota A
+  ↳ __str__ (linha 285): complexidade 35 - nota E
+  ↳ __bool__ (linha 331): complexidade 1 - nota A
+  ↳ _make_ansi_codes (linha 335): complexidade 15 - nota C
+  ↳ normalize (linha 380): complexidade 2 - nota A
+  ↳ pick_first (linha 396): complexidade 3 - nota A
+  ↳ __rich_repr__ (linha 403): complexidade 2 - nota A
+  ↳ __eq__ (linha 422): complexidade 2 - nota A
+  ↳ __ne__ (linha 427): complexidade 2 - nota A
+  ↳ __hash__ (linha 432): complexidade 2 - nota A
+  ↳ color (linha 448): complexidade 1 - nota A
+  ↳ bgcolor (linha 453): complexidade 1 - nota A
+  ↳ link (linha 458): complexidade 1 - nota A
+  ↳ transparent_background (linha 463): complexidade 2 - nota A
+  ↳ background_style (linha 468): complexidade 1 - nota A
+  ↳ meta (linha 473): complexidade 2 - nota A
+  ↳ without_color (linha 478): complexidade 3 - nota A
+  ↳ parse (linha 498): complexidade 13 - nota C
+  ↳ get_html_style (linha 564): complexidade 12 - nota C
+  ↳ combine (linha 601): complexidade 1 - nota A
+  ↳ chain (linha 614): complexidade 1 - nota A
+  ↳ copy (linha 626): complexidade 3 - nota A
+  ↳ clear_meta_and_links (linha 649): complexidade 2 - nota A
+  ↳ update_link (linha 671): complexidade 2 - nota A
+  ↳ render (linha 694): complexidade 7 - nota B
+  ↳ test (linha 720): complexidade 2 - nota A
+  ↳ _add (linha 733): complexidade 11 - nota C
+  ↳ __add__ (linha 757): complexidade 2 - nota A
+  ↳ StyleStack (linha 765): complexidade 2 - nota A
+  ↳ __init__ (linha 770): complexidade 1 - nota A
+  ↳ __repr__ (linha 773): complexidade 1 - nota A
+  ↳ current (linha 777): complexidade 1 - nota A
+  ↳ push (linha 781): complexidade 1 - nota A
+  ↳ pop (linha 789): complexidade 1 - nota A
+
+  [Métricas Brutas]
+    LOC: 796 | LLOC: 491 | SLOC: 573 | Comentários: 2 | Blanks: 98
+
+  [Halstead]
+    Volume: 3554.39 | Dificuldade: 11.52 | Esforço: 40932.85 | Bugs estimados: 1.18
+
+  [Maintainability Index]
+    MI: 12.91 - nota B
+
+  📄 Arquivo: ./repo_temp/rich/default_styles.py
+
+  [Métricas Brutas]
+    LOC: 193 | LLOC: 22 | SLOC: 184 | Comentários: 3 | Blanks: 9
+
+  [Halstead]
+    Volume: 4.75 | Dificuldade: 0.50 | Esforço: 2.38 | Bugs estimados: 0.00
+
+  [Maintainability Index]
+    MI: 72.95 - nota A
+
+  📄 Arquivo: ./repo_temp/rich/_wrap.py
+  ↳ words (linha 12): complexidade 2 - nota A
+  ↳ divide_line (linha 26): complexidade 11 - nota C
+
+  [Métricas Brutas]
+    LOC: 93 | LLOC: 57 | SLOC: 54 | Comentários: 10 | Blanks: 17
+
+  [Halstead]
+    Volume: 100.08 | Dificuldade: 5.09 | Esforço: 509.49 | Bugs estimados: 0.03
+
+  [Maintainability Index]
+    MI: 74.66 - nota A
+
+  📄 Arquivo: ./repo_temp/rich/_log_render.py
+  ↳ LogRender (linha 14): complexidade 10 - nota B
+  ↳ __init__ (linha 15): complexidade 1 - nota A
+  ↳ __call__ (linha 32): complexidade 17 - nota C
+
+  [Métricas Brutas]
+    LOC: 94 | LLOC: 60 | SLOC: 81 | Comentários: 1 | Blanks: 13
+
+  [Halstead]
+    Volume: 98.10 | Dificuldade: 2.46 | Esforço: 241.47 | Bugs estimados: 0.03
+
+  [Maintainability Index]
+    MI: 51.11 - nota A
+
+  📄 Arquivo: ./repo_temp/rich/emoji.py
+  ↳ NoEmoji (linha 23): complexidade 1 - nota A
+  ↳ Emoji (linha 27): complexidade 2 - nota A
+  ↳ __init__ (linha 32): complexidade 3 - nota A
+  ↳ replace (linha 58): complexidade 1 - nota A
+  ↳ __repr__ (linha 69): complexidade 1 - nota A
+  ↳ __str__ (linha 72): complexidade 1 - nota A
+  ↳ __rich_console__ (linha 75): complexidade 1 - nota A
+
+  [Métricas Brutas]
+    LOC: 96 | LLOC: 50 | SLOC: 56 | Comentários: 2 | Blanks: 26
+
+  [Halstead]
+    Volume: 75.06 | Dificuldade: 3.00 | Esforço: 225.18 | Bugs estimados: 0.03
+
+  [Maintainability Index]
+    MI: 73.61 - nota A
+
+  📄 Arquivo: ./repo_temp/rich/layout.py
+  ↳ LayoutRender (linha 32): complexidade 1 - nota A
+  ↳ LayoutError (linha 43): complexidade 1 - nota A
+  ↳ NoSplitter (linha 47): complexidade 1 - nota A
+  ↳ _Placeholder (linha 51): complexidade 3 - nota A
+  ↳ __init__ (linha 56): complexidade 1 - nota A
+  ↳ __rich_console__ (linha 60): complexidade 3 - nota A
+  ↳ Splitter (linha 80): complexidade 2 - nota A
+  ↳ get_tree_icon (linha 86): complexidade 1 - nota A
+  ↳ divide (linha 90): complexidade 1 - nota A
+  ↳ RowSplitter (linha 101): complexidade 3 - nota A
+  ↳ get_tree_icon (linha 106): complexidade 1 - nota A
+  ↳ divide (linha 109): complexidade 2 - nota A
+  ↳ ColumnSplitter (linha 121): complexidade 3 - nota A
+  ↳ get_tree_icon (linha 126): complexidade 1 - nota A
+  ↳ divide (linha 129): complexidade 2 - nota A
+  ↳ Layout (linha 142): complexidade 3 - nota A
+  ↳ __init__ (linha 156): complexidade 2 - nota A
+  ↳ __rich_repr__ (linha 177): complexidade 1 - nota A
+  ↳ renderable (linha 184): complexidade 2 - nota A
+  ↳ children (linha 189): complexidade 3 - nota A
+  ↳ map (linha 194): complexidade 1 - nota A
+  ↳ get (linha 198): complexidade 4 - nota A
+  ↳ __getitem__ (linha 216): complexidade 2 - nota A
+  ↳ tree (linha 223): complexidade 1 - nota A
+  ↳ split (linha 261): complexidade 5 - nota A
+  ↳ add_split (linha 286): complexidade 3 - nota A
+  ↳ split_row (linha 299): complexidade 1 - nota A
+  ↳ split_column (linha 307): complexidade 1 - nota A
+  ↳ unsplit (linha 315): complexidade 1 - nota A
+  ↳ update (linha 319): complexidade 1 - nota A
+  ↳ refresh_screen (linha 328): complexidade 1 - nota A
+  ↳ _make_region_map (linha 345): complexidade 5 - nota A
+  ↳ render (linha 366): complexidade 5 - nota A
+  ↳ __rich_console__ (linha 395): complexidade 7 - nota B
+
+  [Métricas Brutas]
+    LOC: 442 | LLOC: 246 | SLOC: 291 | Comentários: 0 | Blanks: 84
+
+  [Halstead]
+    Volume: 223.47 | Dificuldade: 4.77 | Esforço: 1066.55 | Bugs estimados: 0.07
+
+  [Maintainability Index]
+    MI: 45.81 - nota A
+
+  📄 Arquivo: ./repo_temp/rich/containers.py
+  ↳ Renderables (linha 30): complexidade 3 - nota A
+  ↳ __init__ (linha 33): complexidade 2 - nota A
+  ↳ __rich_console__ (linha 40): complexidade 1 - nota A
+  ↳ __rich_measure__ (linha 46): complexidade 5 - nota A
+  ↳ append (linha 59): complexidade 1 - nota A
+  ↳ __iter__ (linha 62): complexidade 1 - nota A
+  ↳ Lines (linha 66): complexidade 3 - nota A
+  ↳ __init__ (linha 69): complexidade 1 - nota A
+  ↳ __repr__ (linha 72): complexidade 1 - nota A
+  ↳ __iter__ (linha 75): complexidade 1 - nota A
+  ↳ __getitem__ (linha 79): complexidade 1 - nota A
+  ↳ __getitem__ (linha 83): complexidade 1 - nota A
+  ↳ __getitem__ (linha 86): complexidade 1 - nota A
+  ↳ __setitem__ (linha 89): complexidade 1 - nota A
+  ↳ __len__ (linha 93): complexidade 1 - nota A
+  ↳ __rich_console__ (linha 96): complexidade 1 - nota A
+  ↳ append (linha 102): complexidade 1 - nota A
+  ↳ extend (linha 105): complexidade 1 - nota A
+  ↳ pop (linha 108): complexidade 1 - nota A
+  ↳ justify (linha 111): complexidade 17 - nota C
+
+  [Métricas Brutas]
+    LOC: 167 | LLOC: 99 | SLOC: 128 | Comentários: 0 | Blanks: 28
+
+  [Halstead]
+    Volume: 396.12 | Dificuldade: 7.27 | Esforço: 2880.85 | Bugs estimados: 0.13
+
+  [Maintainability Index]
+    MI: 46.38 - nota A
+
+  📄 Arquivo: ./repo_temp/rich/_emoji_replace.py
+  ↳ _emoji_replace (linha 12): complexidade 2 - nota A
+
+  [Métricas Brutas]
+    LOC: 32 | LLOC: 20 | SLOC: 24 | Comentários: 3 | Blanks: 7
+
+  [Halstead]
+    Volume: 4.75 | Dificuldade: 0.50 | Esforço: 2.38 | Bugs estimados: 0.00
+
+  [Maintainability Index]
+    MI: 86.16 - nota A
+
+  📄 Arquivo: ./repo_temp/rich/traceback.py
+  ↳ _iter_syntax_lines (linha 54): complexidade 5 - nota A
+  ↳ install (linha 82): complexidade 5 - nota A
+  ↳ bar (linha 862): complexidade 1 - nota A
+  ↳ foo (linha 868): complexidade 1 - nota A
+  ↳ error (linha 881): complexidade 1 - nota A
+  ↳ Frame (linha 212): complexidade 1 - nota A
+  ↳ _SyntaxError (linha 222): complexidade 1 - nota A
+  ↳ Stack (linha 232): complexidade 1 - nota A
+  ↳ Trace (linha 244): complexidade 1 - nota A
+  ↳ PathHighlighter (linha 248): complexidade 1 - nota A
+  ↳ Traceback (linha 252): complexidade 11 - nota C
+  ↳ __init__ (linha 283): complexidade 10 - nota B
+  ↳ from_exception (linha 337): complexidade 1 - nota A
+  ↳ extract (linha 410): complexidade 30 - nota D
+  ↳ __rich_console__ (linha 588): complexidade 2 - nota A
+  ↳ _render_syntax_error (linha 691): complexidade 3 - nota A
+  ↳ _guess_lexer (linha 714): complexidade 7 - nota B
+  ↳ _render_stack (linha 730): complexidade 22 - nota D
+
+  [Métricas Brutas]
+    LOC: 884 | LLOC: 389 | SLOC: 683 | Comentários: 29 | Blanks: 94
+
+  [Halstead]
+    Volume: 1739.55 | Dificuldade: 10.19 | Esforço: 17732.14 | Bugs estimados: 0.58
+
+  [Maintainability Index]
+    MI: 31.14 - nota A
+
+  📄 Arquivo: ./repo_temp/rich/region.py
+  ↳ Region (linha 4): complexidade 1 - nota A
+
+  [Métricas Brutas]
+    LOC: 10 | LLOC: 11 | SLOC: 6 | Comentários: 0 | Blanks: 3
+
+  [Halstead]
+    Volume: 0.00 | Dificuldade: 0.00 | Esforço: 0.00 | Bugs estimados: 0.00
+
+  [Maintainability Index]
+    MI: 100.00 - nota A
+
+  📄 Arquivo: ./repo_temp/rich/protocol.py
+  ↳ is_renderable (linha 10): complexidade 3 - nota A
+  ↳ rich_cast (linha 19): complexidade 5 - nota A
+
+  [Métricas Brutas]
+    LOC: 42 | LLOC: 23 | SLOC: 24 | Comentários: 2 | Blanks: 10
+
+  [Halstead]
+    Volume: 43.02 | Dificuldade: 2.00 | Esforço: 86.04 | Bugs estimados: 0.01
+
+  [Maintainability Index]
+    MI: 84.99 - nota A
+
+  📄 Arquivo: ./repo_temp/rich/_loop.py
+  ↳ loop_first (linha 6): complexidade 3 - nota A
+  ↳ loop_last (linha 18): complexidade 3 - nota A
+  ↳ loop_first_last (linha 31): complexidade 3 - nota A
+
+  [Métricas Brutas]
+    LOC: 43 | LLOC: 36 | SLOC: 33 | Comentários: 0 | Blanks: 7
+
+  [Halstead]
+    Volume: 0.00 | Dificuldade: 0.00 | Esforço: 0.00 | Bugs estimados: 0.00
+
+  [Maintainability Index]
+    MI: 100.00 - nota A
+
+  📄 Arquivo: ./repo_temp/rich/control.py
+  ↳ strip_control_codes (linha 187): complexidade 1 - nota A
+  ↳ escape_control_codes (linha 201): complexidade 1 - nota A
+  ↳ Control (linha 54): complexidade 2 - nota A
+  ↳ __init__ (linha 64): complexidade 4 - nota A
+  ↳ bell (linha 75): complexidade 1 - nota A
+  ↳ home (linha 80): complexidade 1 - nota A
+  ↳ move (linha 85): complexidade 1 - nota A
+  ↳ move_to_column (linha 114): complexidade 3 - nota A
+  ↳ move_to (linha 138): complexidade 1 - nota A
+  ↳ clear (linha 151): complexidade 1 - nota A
+  ↳ show_cursor (linha 156): complexidade 2 - nota A
+  ↳ alt_screen (linha 161): complexidade 2 - nota A
+  ↳ title (linha 169): complexidade 1 - nota A
+  ↳ __str__ (linha 177): complexidade 1 - nota A
+  ↳ __rich_console__ (linha 180): complexidade 2 - nota A
+
+  [Métricas Brutas]
+    LOC: 225 | LLOC: 91 | SLOC: 132 | Comentários: 8 | Blanks: 44
+
+  [Halstead]
+    Volume: 133.78 | Dificuldade: 2.94 | Esforço: 393.48 | Bugs estimados: 0.04
+
+  [Maintainability Index]
+    MI: 66.96 - nota A
+
+  📄 Arquivo: ./repo_temp/rich/filesize.py
+  ↳ _to_str (linha 18): complexidade 5 - nota A
+  ↳ pick_unit_and_suffix (linha 43): complexidade 3 - nota A
+  ↳ decimal (linha 52): complexidade 1 - nota A
+
+  [Métricas Brutas]
+    LOC: 88 | LLOC: 24 | SLOC: 43 | Comentários: 1 | Blanks: 18
+
+  [Halstead]
+    Volume: 108.00 | Dificuldade: 4.09 | Esforço: 441.82 | Bugs estimados: 0.04
+
+  [Maintainability Index]
+    MI: 83.88 - nota A
+
+  📄 Arquivo: ./repo_temp/rich/_null_file.py
+  ↳ NullFile (linha 5): complexidade 2 - nota A
+  ↳ close (linha 6): complexidade 1 - nota A
+  ↳ isatty (linha 9): complexidade 1 - nota A
+  ↳ read (linha 12): complexidade 1 - nota A
+  ↳ readable (linha 15): complexidade 1 - nota A
+  ↳ readline (linha 18): complexidade 1 - nota A
+  ↳ readlines (linha 21): complexidade 1 - nota A
+  ↳ seek (linha 24): complexidade 1 - nota A
+  ↳ seekable (linha 27): complexidade 1 - nota A
+  ↳ tell (linha 30): complexidade 1 - nota A
+  ↳ truncate (linha 33): complexidade 1 - nota A
+  ↳ writable (linha 36): complexidade 1 - nota A
+  ↳ writelines (linha 39): complexidade 1 - nota A
+  ↳ __next__ (linha 42): complexidade 1 - nota A
+  ↳ __iter__ (linha 45): complexidade 1 - nota A
+  ↳ __enter__ (linha 48): complexidade 1 - nota A
+  ↳ __exit__ (linha 51): complexidade 1 - nota A
+  ↳ write (linha 59): complexidade 1 - nota A
+  ↳ flush (linha 62): complexidade 1 - nota A
+  ↳ fileno (linha 65): complexidade 1 - nota A
+
+  [Métricas Brutas]
+    LOC: 69 | LLOC: 42 | SLOC: 47 | Comentários: 0 | Blanks: 22
+
+  [Halstead]
+    Volume: 2.00 | Dificuldade: 0.50 | Esforço: 1.00 | Bugs estimados: 0.00
+
+  [Maintainability Index]
+    MI: 59.79 - nota A
+
+  📄 Arquivo: ./repo_temp/rich/_palettes.py
+
+  [Métricas Brutas]
+    LOC: 309 | LLOC: 4 | SLOC: 301 | Comentários: 3 | Blanks: 5
+
+  [Halstead]
+    Volume: 0.00 | Dificuldade: 0.00 | Esforço: 0.00 | Bugs estimados: 0.00
+
+  [Maintainability Index]
+    MI: 100.00 - nota A
+
+  📄 Arquivo: ./repo_temp/rich/__init__.py
+  ↳ get_console (linha 23): complexidade 2 - nota A
+  ↳ reconfigure (linha 39): complexidade 1 - nota A
+  ↳ print (linha 53): complexidade 2 - nota A
+  ↳ print_json (linha 77): complexidade 1 - nota A
+  ↳ inspect (linha 120): complexidade 5 - nota A
+
+  [Métricas Brutas]
+    LOC: 177 | LLOC: 43 | SLOC: 89 | Comentários: 5 | Blanks: 32
+
+  [Halstead]
+    Volume: 98.10 | Dificuldade: 1.71 | Esforço: 168.17 | Bugs estimados: 0.03
+
+  [Maintainability Index]
+    MI: 78.20 - nota A
+
+  📄 Arquivo: ./repo_temp/rich/_pick.py
+  ↳ pick_bool (linha 4): complexidade 4 - nota A
+
+  [Métricas Brutas]
+    LOC: 17 | LLOC: 8 | SLOC: 7 | Comentários: 0 | Blanks: 4
+
+  [Halstead]
+    Volume: 4.75 | Dificuldade: 0.50 | Esforço: 2.38 | Bugs estimados: 0.00
+
+  [Maintainability Index]
+    MI: 100.00 - nota A
+
+  📄 Arquivo: ./repo_temp/rich/file_proxy.py
+  ↳ FileProxy (linha 11): complexidade 3 - nota A
+  ↳ __init__ (linha 14): complexidade 1 - nota A
+  ↳ rich_proxied_file (linha 21): complexidade 1 - nota A
+  ↳ __getattr__ (linha 25): complexidade 1 - nota A
+  ↳ write (linha 28): complexidade 6 - nota B
+  ↳ flush (linha 50): complexidade 2 - nota A
+  ↳ fileno (linha 56): complexidade 1 - nota A
+
+  [Métricas Brutas]
+    LOC: 57 | LLOC: 48 | SLOC: 45 | Comentários: 0 | Blanks: 10
+
+  [Halstead]
+    Volume: 11.61 | Dificuldade: 1.00 | Esforço: 11.61 | Bugs estimados: 0.00
+
+  [Maintainability Index]
+    MI: 53.99 - nota A
+
+  📄 Arquivo: ./repo_temp/rich/palette.py
+  ↳ Palette (linha 11): complexidade 2 - nota A
+  ↳ __init__ (linha 14): complexidade 1 - nota A
+  ↳ __getitem__ (linha 17): complexidade 1 - nota A
+  ↳ __rich__ (linha 20): complexidade 2 - nota A
+  ↳ match (linha 45): complexidade 1 - nota A
+  ↳ ColorBox (linha 83): complexidade 4 - nota A
+  ↳ __rich_console__ (linha 84): complexidade 3 - nota A
+
+  [Métricas Brutas]
+    LOC: 100 | LLOC: 59 | SLOC: 74 | Comentários: 2 | Blanks: 17
+
+  [Halstead]
+    Volume: 557.51 | Dificuldade: 4.57 | Esforço: 2548.60 | Bugs estimados: 0.19
+
+  [Maintainability Index]
+    MI: 59.08 - nota A
+
+  📄 Arquivo: ./repo_temp/rich/markup.py
+  ↳ escape (linha 48): complexidade 3 - nota A
+  ↳ _parse (linha 73): complexidade 8 - nota B
+  ↳ render (linha 106): complexidade 21 - nota D
+  ↳ Tag (linha 20): complexidade 3 - nota A
+  ↳ __str__ (linha 28): complexidade 2 - nota A
+  ↳ markup (linha 34): complexidade 2 - nota A
+
+  [Métricas Brutas]
+    LOC: 251 | LLOC: 148 | SLOC: 174 | Comentários: 11 | Blanks: 47
+
+  [Halstead]
+    Volume: 287.38 | Dificuldade: 6.64 | Esforço: 1907.64 | Bugs estimados: 0.10
+
+  [Maintainability Index]
+    MI: 53.30 - nota A
+
+  📄 Arquivo: ./repo_temp/rich/_ratio.py
+  ↳ ratio_resolve (linha 20): complexidade 18 - nota C
+  ↳ ratio_reduce (linha 81): complexidade 7 - nota B
+  ↳ ratio_distribute (linha 113): complexidade 8 - nota B
+  ↳ Edge (linha 12): complexidade 1 - nota A
+  ↳ E (linha 153): complexidade 1 - nota A
+
+  [Métricas Brutas]
+    LOC: 159 | LLOC: 92 | SLOC: 92 | Comentários: 13 | Blanks: 25
+
+  [Halstead]
+    Volume: 516.55 | Dificuldade: 11.01 | Esforço: 5689.26 | Bugs estimados: 0.17
+
+  [Maintainability Index]
+    MI: 62.54 - nota A
+
+  📄 Arquivo: ./repo_temp/rich/repr.py
+  ↳ auto (linha 28): complexidade 1 - nota A
+  ↳ auto (linha 33): complexidade 1 - nota A
+  ↳ auto (linha 37): complexidade 2 - nota A
+  ↳ rich_repr (linha 105): complexidade 1 - nota A
+  ↳ rich_repr (linha 110): complexidade 1 - nota A
+  ↳ rich_repr (linha 114): complexidade 2 - nota A
+  ↳ ReprError (linha 23): complexidade 1 - nota A
+  ↳ Foo (linha 126): complexidade 2 - nota A
+  ↳ __rich_repr__ (linha 127): complexidade 1 - nota A
+
+  [Métricas Brutas]
+    LOC: 149 | LLOC: 99 | SLOC: 112 | Comentários: 6 | Blanks: 33
+
+  [Halstead]
+    Volume: 168.26 | Dificuldade: 3.14 | Esforço: 527.72 | Bugs estimados: 0.06
+
+  [Maintainability Index]
+    MI: 53.70 - nota A
+
+  📄 Arquivo: ./repo_temp/rich/constrain.py
+  ↳ Constrain (linha 10): complexidade 3 - nota A
+  ↳ __init__ (linha 18): complexidade 1 - nota A
+  ↳ __rich_console__ (linha 22): complexidade 2 - nota A
+  ↳ __rich_measure__ (linha 31): complexidade 2 - nota A
+
+  [Métricas Brutas]
+    LOC: 37 | LLOC: 21 | SLOC: 24 | Comentários: 0 | Blanks: 8
+
+  [Halstead]
+    Volume: 15.51 | Dificuldade: 1.00 | Esforço: 15.51 | Bugs estimados: 0.01
+
+  [Maintainability Index]
+    MI: 85.59 - nota A
+
+  📄 Arquivo: ./repo_temp/rich/pretty.py
+  ↳ _is_attr_object (linha 60): complexidade 2 - nota A
+  ↳ _get_attr_fields (linha 65): complexidade 2 - nota A
+  ↳ _is_dataclass_repr (linha 70): complexidade 2 - nota A
+  ↳ _has_default_namedtuple_repr (linha 93): complexidade 2 - nota A
+  ↳ _ipy_display_hook (linha 113): complexidade 6 - nota B
+  ↳ _safe_isinstance (linha 161): complexidade 2 - nota A
+  ↳ install (linha 171): complexidade 5 - nota A
+  ↳ _get_braces_for_defaultdict (linha 357): complexidade 1 - nota A
+  ↳ _get_braces_for_deque (linha 365): complexidade 2 - nota A
+  ↳ _get_braces_for_array (linha 375): complexidade 1 - nota A
+  ↳ is_expandable (linha 398): complexidade 5 - nota A
+  ↳ _is_namedtuple (linha 561): complexidade 3 - nota A
+  ↳ traverse (linha 580): complexidade 1 - nota A
+  ↳ pretty_repr (linha 878): complexidade 2 - nota A
+  ↳ pprint (linha 918): complexidade 2 - nota A
+  ↳ Pretty (linha 253): complexidade 5 - nota A
+  ↳ __init__ (linha 273): complexidade 2 - nota A
+  ↳ __rich_console__ (linha 304): complexidade 8 - nota B
+  ↳ __rich_measure__ (linha 339): complexidade 3 - nota A
+  ↳ Node (linha 409): complexidade 6 - nota B
+  ↳ iter_tokens (linha 424): complexidade 10 - nota B
+  ↳ check_length (linha 446): complexidade 3 - nota A
+  ↳ __str__ (linha 463): complexidade 1 - nota A
+  ↳ render (linha 467): complexidade 7 - nota B
+  ↳ _Line (linha 494): complexidade 5 - nota A
+  ↳ expandable (linha 507): complexidade 2 - nota A
+  ↳ check_length (linha 511): complexidade 2 - nota A
+  ↳ expand (linha 519): complexidade 8 - nota B
+  ↳ __str__ (linha 552): complexidade 4 - nota A
+  ↳ BrokenRepr (linha 957): complexidade 2 - nota A
+  ↳ __repr__ (linha 958): complexidade 1 - nota A
+  ↳ StockKeepingUnit (linha 964): complexidade 1 - nota A
+  ↳ Thing (linha 1012): complexidade 2 - nota A
+  ↳ __repr__ (linha 1013): complexidade 1 - nota A
+
+  [Métricas Brutas]
+    LOC: 1016 | LLOC: 507 | SLOC: 766 | Comentários: 22 | Blanks: 119
+
+  [Halstead]
+    Volume: 2062.23 | Dificuldade: 9.69 | Esforço: 19977.88 | Bugs estimados: 0.69
+
+  [Maintainability Index]
+    MI: 28.88 - nota A
+
+  📄 Arquivo: ./repo_temp/rich/diagnose.py
+  ↳ report (linha 10): complexidade 2 - nota A
+
+  [Métricas Brutas]
+    LOC: 38 | LLOC: 19 | SLOC: 30 | Comentários: 2 | Blanks: 7
+
+  [Halstead]
+    Volume: 4.75 | Dificuldade: 0.50 | Esforço: 2.38 | Bugs estimados: 0.00
+
+  [Maintainability Index]
+    MI: 81.87 - nota A
+
+  📄 Arquivo: ./repo_temp/rich/columns.py
+  ↳ Columns (linha 16): complexidade 9 - nota B
+  ↳ __init__ (linha 31): complexidade 2 - nota A
+  ↳ add_renderable (linha 54): complexidade 1 - nota A
+  ↳ __rich_console__ (linha 62): complexidade 21 - nota D
+
+  [Métricas Brutas]
+    LOC: 187 | LLOC: 122 | SLOC: 150 | Comentários: 2 | Blanks: 20
+
+  [Halstead]
+    Volume: 586.96 | Dificuldade: 10.74 | Esforço: 6302.11 | Bugs estimados: 0.20
+
+  [Maintainability Index]
+    MI: 50.70 - nota A
+
+  📄 Arquivo: ./repo_temp/rich/rule.py
+  ↳ Rule (linha 12): complexidade 4 - nota A
+  ↳ __init__ (linha 23): complexidade 3 - nota A
+  ↳ __repr__ (linha 46): complexidade 1 - nota A
+  ↳ __rich_console__ (linha 49): complexidade 10 - nota B
+  ↳ _rule_line (linha 105): complexidade 1 - nota A
+  ↳ __rich_measure__ (linha 111): complexidade 1 - nota A
+
+  [Métricas Brutas]
+    LOC: 130 | LLOC: 82 | SLOC: 101 | Comentários: 1 | Blanks: 21
+
+  [Halstead]
+    Volume: 547.24 | Dificuldade: 6.59 | Esforço: 3607.98 | Bugs estimados: 0.18
+
+  [Maintainability Index]
+    MI: 53.48 - nota A
+
+  📄 Arquivo: ./repo_temp/rich/_inspect.py
+  ↳ _first_paragraph (linha 15): complexidade 1 - nota A
+  ↳ get_object_types_mro (linha 236): complexidade 2 - nota A
+  ↳ get_object_types_mro_as_strings (linha 245): complexidade 2 - nota A
+  ↳ is_object_one_of_types (linha 258): complexidade 3 - nota A
+  ↳ Inspect (linha 21): complexidade 9 - nota B
+  ↳ __init__ (linha 37): complexidade 5 - nota A
+  ↳ _make_title (linha 64): complexidade 4 - nota A
+  ↳ __rich__ (linha 74): complexidade 1 - nota A
+  ↳ _get_signature (linha 82): complexidade 8 - nota B
+  ↳ _render (linha 121): complexidade 28 - nota D
+  ↳ _get_formatted_doc (linha 214): complexidade 3 - nota A
+
+  [Métricas Brutas]
+    LOC: 268 | LLOC: 156 | SLOC: 188 | Comentários: 4 | Blanks: 38
+
+  [Halstead]
+    Volume: 383.27 | Dificuldade: 4.51 | Esforço: 1729.61 | Bugs estimados: 0.13
+
+  [Maintainability Index]
+    MI: 49.83 - nota A
+
+  📄 Arquivo: ./repo_temp/rich/markdown.py
+  ↳ MarkdownElement (linha 30): complexidade 2 - nota A
+  ↳ create (linha 34): complexidade 1 - nota A
+  ↳ on_enter (linha 46): complexidade 1 - nota A
+  ↳ on_text (linha 53): complexidade 1 - nota A
+  ↳ on_leave (linha 60): complexidade 1 - nota A
+  ↳ on_child_close (linha 67): complexidade 1 - nota A
+  ↳ __rich_console__ (linha 81): complexidade 1 - nota A
+  ↳ UnknownElement (linha 87): complexidade 1 - nota A
+  ↳ TextElement (linha 96): complexidade 2 - nota A
+  ↳ on_enter (linha 101): complexidade 1 - nota A
+  ↳ on_text (linha 105): complexidade 2 - nota A
+  ↳ on_leave (linha 108): complexidade 1 - nota A
+  ↳ Paragraph (linha 112): complexidade 2 - nota A
+  ↳ create (linha 119): complexidade 2 - nota A
+  ↳ __init__ (linha 122): complexidade 1 - nota A
+  ↳ __rich_console__ (linha 125): complexidade 1 - nota A
+  ↳ Heading (linha 132): complexidade 2 - nota A
+  ↳ create (linha 136): complexidade 1 - nota A
+  ↳ on_enter (linha 139): complexidade 1 - nota A
+  ↳ __init__ (linha 143): complexidade 1 - nota A
+  ↳ __rich_console__ (linha 148): complexidade 3 - nota A
+  ↳ CodeBlock (linha 167): complexidade 3 - nota A
+  ↳ create (linha 173): complexidade 3 - nota A
+  ↳ __init__ (linha 178): complexidade 1 - nota A
+  ↳ __rich_console__ (linha 182): complexidade 1 - nota A
+  ↳ BlockQuote (linha 192): complexidade 2 - nota A
+  ↳ __init__ (linha 197): complexidade 1 - nota A
+  ↳ on_child_close (linha 200): complexidade 1 - nota A
+  ↳ __rich_console__ (linha 204): complexidade 2 - nota A
+  ↳ HorizontalRule (linha 218): complexidade 2 - nota A
+  ↳ __rich_console__ (linha 223): complexidade 1 - nota A
+  ↳ TableElement (linha 230): complexidade 5 - nota A
+  ↳ __init__ (linha 233): complexidade 1 - nota A
+  ↳ on_child_close (linha 237): complexidade 3 - nota A
+  ↳ __rich_console__ (linha 246): complexidade 7 - nota B
+  ↳ TableHeaderElement (linha 263): complexidade 3 - nota A
+  ↳ __init__ (linha 266): complexidade 1 - nota A
+  ↳ on_child_close (linha 269): complexidade 2 - nota A
+  ↳ TableBodyElement (linha 275): complexidade 3 - nota A
+  ↳ __init__ (linha 278): complexidade 1 - nota A
+  ↳ on_child_close (linha 281): complexidade 2 - nota A
+  ↳ TableRowElement (linha 287): complexidade 3 - nota A
+  ↳ __init__ (linha 290): complexidade 1 - nota A
+  ↳ on_child_close (linha 293): complexidade 2 - nota A
+  ↳ TableDataElement (linha 299): complexidade 4 - nota A
+  ↳ create (linha 304): complexidade 6 - nota B
+  ↳ __init__ (linha 320): complexidade 1 - nota A
+  ↳ on_text (linha 324): complexidade 2 - nota A
+  ↳ ListElement (linha 330): complexidade 3 - nota A
+  ↳ create (linha 334): complexidade 1 - nota A
+  ↳ __init__ (linha 337): complexidade 1 - nota A
+  ↳ on_child_close (linha 342): complexidade 2 - nota A
+  ↳ __rich_console__ (linha 347): complexidade 5 - nota A
+  ↳ ListItem (linha 362): complexidade 3 - nota A
+  ↳ __init__ (linha 367): complexidade 1 - nota A
+  ↳ on_child_close (linha 370): complexidade 1 - nota A
+  ↳ render_bullet (linha 374): complexidade 3 - nota A
+  ↳ render_number (linha 387): complexidade 3 - nota A
+  ↳ Link (linha 404): complexidade 2 - nota A
+  ↳ create (linha 406): complexidade 1 - nota A
+  ↳ __init__ (linha 410): complexidade 1 - nota A
+  ↳ ImageItem (linha 415): complexidade 3 - nota A
+  ↳ create (linha 421): complexidade 1 - nota A
+  ↳ __init__ (linha 433): complexidade 1 - nota A
+  ↳ on_enter (linha 439): complexidade 1 - nota A
+  ↳ __rich_console__ (linha 444): complexidade 5 - nota A
+  ↳ MarkdownContext (linha 455): complexidade 2 - nota A
+  ↳ __init__ (linha 458): complexidade 2 - nota A
+  ↳ current_style (linha 476): complexidade 1 - nota A
+  ↳ on_text (linha 480): complexidade 3 - nota A
+  ↳ enter_style (linha 491): complexidade 1 - nota A
+  ↳ leave_style (linha 497): complexidade 1 - nota A
+  ↳ Markdown (linha 503): complexidade 14 - nota C
+  ↳ __init__ (linha 539): complexidade 2 - nota A
+  ↳ _flatten_tokens (linha 559): complexidade 5 - nota A
+  ↳ __rich_console__ (linha 569): complexidade 33 - nota E
+
+  [Métricas Brutas]
+    LOC: 784 | LLOC: 460 | SLOC: 557 | Comentários: 12 | Blanks: 147
+
+  [Halstead]
+    Volume: 1512.61 | Dificuldade: 9.58 | Esforço: 14483.95 | Bugs estimados: 0.50
+
+  [Maintainability Index]
+    MI: 19.71 - nota A
+
+  📄 Arquivo: ./repo_temp/rich/pager.py
+  ↳ Pager (linha 5): complexidade 2 - nota A
+  ↳ show (linha 9): complexidade 1 - nota A
+  ↳ SystemPager (linha 17): complexidade 2 - nota A
+  ↳ _pager (linha 20): complexidade 1 - nota A
+  ↳ show (linha 23): complexidade 1 - nota A
+
+  [Métricas Brutas]
+    LOC: 34 | LLOC: 20 | SLOC: 16 | Comentários: 2 | Blanks: 11
+
+  [Halstead]
+    Volume: 4.75 | Dificuldade: 0.50 | Esforço: 2.38 | Bugs estimados: 0.00
+
+  [Maintainability Index]
+    MI: 94.12 - nota A
+
+  📄 Arquivo: ./repo_temp/rich/text.py
+  ↳ Span (linha 47): complexidade 2 - nota A
+  ↳ __repr__ (linha 57): complexidade 1 - nota A
+  ↳ __bool__ (linha 60): complexidade 1 - nota A
+  ↳ split (linha 63): complexidade 3 - nota A
+  ↳ move (linha 76): complexidade 1 - nota A
+  ↳ right_crop (linha 88): complexidade 2 - nota A
+  ↳ extend (linha 102): complexidade 2 - nota A
+  ↳ Text (linha 118): complexidade 5 - nota A
+  ↳ __init__ (linha 144): complexidade 2 - nota A
+  ↳ __len__ (linha 167): complexidade 1 - nota A
+  ↳ __bool__ (linha 170): complexidade 1 - nota A
+  ↳ __str__ (linha 173): complexidade 1 - nota A
+  ↳ __repr__ (linha 176): complexidade 1 - nota A
+  ↳ __add__ (linha 179): complexidade 2 - nota A
+  ↳ __eq__ (linha 186): complexidade 3 - nota A
+  ↳ __contains__ (linha 191): complexidade 3 - nota A
+  ↳ __getitem__ (linha 198): complexidade 3 - nota A
+  ↳ cell_len (linha 225): complexidade 1 - nota A
+  ↳ markup (linha 230): complexidade 7 - nota B
+  ↳ from_markup (linha 260): complexidade 1 - nota A
+  ↳ from_ansi (linha 294): complexidade 2 - nota A
+  ↳ styled (linha 332): complexidade 1 - nota A
+  ↳ assemble (linha 357): complexidade 4 - nota A
+  ↳ plain (linha 403): complexidade 2 - nota A
+  ↳ plain (linha 410): complexidade 3 - nota A
+  ↳ spans (linha 421): complexidade 1 - nota A
+  ↳ spans (linha 426): complexidade 1 - nota A
+  ↳ blank_copy (linha 430): complexidade 1 - nota A
+  ↳ copy (linha 443): complexidade 1 - nota A
+  ↳ stylize (linha 457): complexidade 7 - nota B
+  ↳ stylize_before (linha 483): complexidade 7 - nota B
+  ↳ apply_meta (linha 509): complexidade 1 - nota A
+  ↳ on (linha 523): complexidade 3 - nota A
+  ↳ remove_suffix (linha 543): complexidade 2 - nota A
+  ↳ get_style_at_offset (linha 552): complexidade 4 - nota A
+  ↳ extend_style (linha 572): complexidade 5 - nota A
+  ↳ highlight_regex (linha 593): complexidade 10 - nota B
+  ↳ highlight_words (linha 633): complexidade 4 - nota A
+  ↳ rstrip (linha 662): complexidade 1 - nota A
+  ↳ rstrip_end (linha 666): complexidade 3 - nota A
+  ↳ set_length (linha 680): complexidade 3 - nota A
+  ↳ __rich_console__ (linha 689): complexidade 7 - nota B
+  ↳ __rich_measure__ (linha 708): complexidade 5 - nota A
+  ↳ render (linha 720): complexidade 10 - nota B
+  ↳ join (linha 779): complexidade 4 - nota A
+  ↳ expand_tabs (linha 818): complexidade 9 - nota B
+  ↳ truncate (linha 860): complexidade 8 - nota B
+  ↳ _trim_spans (linha 887): complexidade 4 - nota A
+  ↳ pad (linha 901): complexidade 4 - nota A
+  ↳ pad_left (linha 918): complexidade 4 - nota A
+  ↳ pad_right (linha 934): complexidade 3 - nota A
+  ↳ align (linha 945): complexidade 4 - nota A
+  ↳ append (linha 965): complexidade 9 - nota B
+  ↳ append_text (linha 1009): complexidade 3 - nota A
+  ↳ append_tokens (linha 1031): complexidade 3 - nota A
+  ↳ copy_styles (linha 1055): complexidade 1 - nota A
+  ↳ split (linha 1063): complexidade 9 - nota B
+  ↳ divide (linha 1107): complexidade 15 - nota C
+  ↳ right_crop (linha 1186): complexidade 4 - nota A
+  ↳ wrap (linha 1202): complexidade 12 - nota C
+  ↳ fit (linha 1250): complexidade 2 - nota A
+  ↳ detect_indentation (linha 1266): complexidade 6 - nota B
+  ↳ with_indent_guides (linha 1287): complexidade 7 - nota B
+
+  [Métricas Brutas]
+    LOC: 1361 | LLOC: 733 | SLOC: 890 | Comentários: 7 | Blanks: 193
+
+  [Halstead]
+    Volume: 4292.97 | Dificuldade: 14.25 | Esforço: 61174.79 | Bugs estimados: 1.43
+
+  [Maintainability Index]
+    MI: 6.43 - nota C
+
+  📄 Arquivo: ./repo_temp/rich/highlighter.py
+  ↳ _combine_regex (linha 8): complexidade 1 - nota A
+  ↳ Highlighter (linha 17): complexidade 3 - nota A
+  ↳ __call__ (linha 20): complexidade 3 - nota A
+  ↳ highlight (linha 42): complexidade 1 - nota A
+  ↳ NullHighlighter (linha 50): complexidade 2 - nota A
+  ↳ highlight (linha 57): complexidade 1 - nota A
+  ↳ RegexHighlighter (linha 61): complexidade 3 - nota A
+  ↳ highlight (linha 67): complexidade 2 - nota A
+  ↳ ReprHighlighter (linha 80): complexidade 1 - nota A
+  ↳ JSONHighlighter (linha 106): complexidade 6 - nota B
+  ↳ highlight (linha 123): complexidade 5 - nota A
+  ↳ ISO8601Highlighter (linha 143): complexidade 1 - nota A
+
+  [Métricas Brutas]
+    LOC: 232 | LLOC: 92 | SLOC: 155 | Comentários: 38 | Blanks: 44
+
+  [Halstead]
+    Volume: 95.91 | Dificuldade: 3.75 | Esforço: 359.66 | Bugs estimados: 0.03
+
+  [Maintainability Index]
+    MI: 69.81 - nota A
+
+  📄 Arquivo: ./repo_temp/rich/_spinners.py
+
+  [Métricas Brutas]
+    LOC: 482 | LLOC: 3 | SLOC: 461 | Comentários: 0 | Blanks: 1
+
+  [Halstead]
+    Volume: 0.00 | Dificuldade: 0.00 | Esforço: 0.00 | Bugs estimados: 0.00
+
+  [Maintainability Index]
+    MI: 100.00 - nota A
+
+  📄 Arquivo: ./repo_temp/rich/terminal_theme.py
+  ↳ TerminalTheme (linha 9): complexidade 3 - nota A
+  ↳ __init__ (linha 20): complexidade 2 - nota A
+
+  [Métricas Brutas]
+    LOC: 153 | LLOC: 15 | SLOC: 135 | Comentários: 0 | Blanks: 10
+
+  [Halstead]
+    Volume: 13.93 | Dificuldade: 1.33 | Esforço: 18.58 | Bugs estimados: 0.00
+
+  [Maintainability Index]
+    MI: 80.06 - nota A
+
+  📄 Arquivo: ./repo_temp/rich/bar.py
+  ↳ Bar (linha 17): complexidade 3 - nota A
+  ↳ __init__ (linha 29): complexidade 1 - nota A
+  ↳ __repr__ (linha 45): complexidade 1 - nota A
+  ↳ __rich_console__ (linha 48): complexidade 5 - nota A
+  ↳ __rich_measure__ (linha 86): complexidade 2 - nota A
+
+  [Métricas Brutas]
+    LOC: 93 | LLOC: 44 | SLOC: 62 | Comentários: 5 | Blanks: 17
+
+  [Halstead]
+    Volume: 338.53 | Dificuldade: 6.52 | Esforço: 2206.73 | Bugs estimados: 0.11
+
+  [Maintainability Index]
+    MI: 69.45 - nota A
+
+  📄 Arquivo: ./repo_temp/rich/live.py
+  ↳ _RefreshThread (linha 16): complexidade 3 - nota A
+  ↳ __init__ (linha 19): complexidade 1 - nota A
+  ↳ stop (linha 25): complexidade 1 - nota A
+  ↳ run (linha 28): complexidade 3 - nota A
+  ↳ Live (linha 35): complexidade 5 - nota A
+  ↳ __init__ (linha 51): complexidade 4 - nota A
+  ↳ is_started (linha 92): complexidade 1 - nota A
+  ↳ get_renderable (linha 96): complexidade 3 - nota A
+  ↳ start (linha 104): complexidade 6 - nota B
+  ↳ stop (linha 134): complexidade 13 - nota C
+  ↳ __enter__ (linha 165): complexidade 1 - nota A
+  ↳ __exit__ (linha 169): complexidade 1 - nota A
+  ↳ _enable_redirect_io (linha 177): complexidade 7 - nota B
+  ↳ _disable_redirect_io (linha 187): complexidade 3 - nota A
+  ↳ renderable (linha 197): complexidade 2 - nota A
+  ↳ update (linha 206): complexidade 3 - nota A
+  ↳ refresh (linha 220): complexidade 9 - nota B
+  ↳ process_renderables (linha 249): complexidade 5 - nota A
+
+  [Métricas Brutas]
+    LOC: 375 | LLOC: 219 | SLOC: 288 | Comentários: 11 | Blanks: 48
+
+  [Halstead]
+    Volume: 745.99 | Dificuldade: 7.18 | Esforço: 5355.52 | Bugs estimados: 0.25
+
+  [Maintainability Index]
+    MI: 38.92 - nota A
+
+  📄 Arquivo: ./repo_temp/rich/syntax.py
+  ↳ _get_code_index_for_syntax_position (linha 822): complexidade 3 - nota A
+  ↳ SyntaxTheme (linha 122): complexidade 2 - nota A
+  ↳ get_style_for_token (linha 126): complexidade 1 - nota A
+  ↳ get_background_style (linha 131): complexidade 1 - nota A
+  ↳ PygmentsSyntaxTheme (linha 136): complexidade 4 - nota A
+  ↳ __init__ (linha 139): complexidade 3 - nota A
+  ↳ get_style_for_token (linha 152): complexidade 6 - nota B
+  ↳ get_background_style (linha 174): complexidade 1 - nota A
+  ↳ ANSISyntaxTheme (linha 178): complexidade 3 - nota A
+  ↳ __init__ (linha 181): complexidade 1 - nota A
+  ↳ get_style_for_token (linha 187): complexidade 4 - nota A
+  ↳ get_background_style (linha 207): complexidade 1 - nota A
+  ↳ _SyntaxHighlightRange (linha 214): complexidade 1 - nota A
+  ↳ Syntax (linha 227): complexidade 5 - nota A
+  ↳ get_theme (linha 252): complexidade 3 - nota A
+  ↳ __init__ (linha 263): complexidade 3 - nota A
+  ↳ from_path (linha 302): complexidade 2 - nota A
+  ↳ guess_lexer (linha 365): complexidade 8 - nota B
+  ↳ _get_base_style (linha 406): complexidade 1 - nota A
+  ↳ _get_token_color (linha 411): complexidade 1 - nota A
+  ↳ lexer (linha 424): complexidade 3 - nota A
+  ↳ default_lexer (linha 443): complexidade 1 - nota A
+  ↳ highlight (linha 452): complexidade 8 - nota B
+  ↳ stylize_range (linha 537): complexidade 1 - nota A
+  ↳ _get_line_numbers_color (linha 558): complexidade 6 - nota B
+  ↳ _numbers_column_width (linha 574): complexidade 2 - nota A
+  ↳ _get_number_styles (linha 584): complexidade 3 - nota A
+  ↳ __rich_measure__ (linha 607): complexidade 5 - nota A
+  ↳ __rich_console__ (linha 625): complexidade 2 - nota A
+  ↳ _get_syntax (linha 634): complexidade 26 - nota D
+  ↳ _apply_stylized_ranges (linha 768): complexidade 6 - nota B
+  ↳ _process_code (linha 801): complexidade 3 - nota A
+
+  [Métricas Brutas]
+    LOC: 966 | LLOC: 421 | SLOC: 727 | Comentários: 18 | Blanks: 105
+
+  [Halstead]
+    Volume: 1760.93 | Dificuldade: 8.94 | Esforço: 15750.57 | Bugs estimados: 0.59
+
+  [Maintainability Index]
+    MI: 27.91 - nota A
+
+  📄 Arquivo: ./repo_temp/rich/table.py
+  ↳ header (linha 967): complexidade 1 - nota A
+  ↳ Column (linha 39): complexidade 2 - nota A
+  ↳ copy (linha 117): complexidade 1 - nota A
+  ↳ cells (linha 122): complexidade 1 - nota A
+  ↳ flexible (linha 127): complexidade 1 - nota A
+  ↳ Row (linha 133): complexidade 1 - nota A
+  ↳ _Cell (linha 143): complexidade 1 - nota A
+  ↳ Table (linha 154): complexidade 9 - nota B
+  ↳ __init__ (linha 189): complexidade 6 - nota B
+  ↳ grid (linha 254): complexidade 1 - nota A
+  ↳ expand (linha 287): complexidade 2 - nota A
+  ↳ expand (linha 292): complexidade 1 - nota A
+  ↳ _extra_width (linha 297): complexidade 4 - nota A
+  ↳ row_count (linha 307): complexidade 1 - nota A
+  ↳ get_row_style (linha 311): complexidade 3 - nota A
+  ↳ __rich_measure__ (linha 321): complexidade 7 - nota B
+  ↳ padding (linha 355): complexidade 1 - nota A
+  ↳ padding (linha 360): complexidade 1 - nota A
+  ↳ add_column (linha 365): complexidade 5 - nota A
+  ↳ add_row (linha 423): complexidade 7 - nota B
+  ↳ add_section (linha 470): complexidade 2 - nota A
+  ↳ __rich_console__ (linha 476): complexidade 5 - nota A
+  ↳ _calculate_column_widths (linha 523): complexidade 29 - nota D
+  ↳ _collapse_widths (linha 588): complexidade 14 - nota C
+  ↳ _get_cells (linha 626): complexidade 12 - nota C
+  ↳ _get_padding_width (linha 699): complexidade 3 - nota A
+  ↳ _measure_column (linha 707): complexidade 8 - nota B
+  ↳ _render (linha 747): complexidade 49 - nota F
+
+  [Métricas Brutas]
+    LOC: 1006 | LLOC: 519 | SLOC: 743 | Comentários: 5 | Blanks: 119
+
+  [Halstead]
+    Volume: 2938.28 | Dificuldade: 10.70 | Esforço: 31446.21 | Bugs estimados: 0.98
+
+  [Maintainability Index]
+    MI: 14.80 - nota B
+
+  📄 Arquivo: ./repo_temp/rich/_export_format.py
+
+  [Métricas Brutas]
+    LOC: 76 | LLOC: 4 | SLOC: 68 | Comentários: 0 | Blanks: 8
+
+  [Halstead]
+    Volume: 0.00 | Dificuldade: 0.00 | Esforço: 0.00 | Bugs estimados: 0.00
+
+  [Maintainability Index]
+    MI: 100.00 - nota A
+
+  📄 Arquivo: ./repo_temp/rich/progress_bar.py
+  ↳ ProgressBar (linha 18): complexidade 6 - nota B
+  ↳ __init__ (linha 33): complexidade 1 - nota A
+  ↳ __repr__ (linha 57): complexidade 1 - nota A
+  ↳ percentage_completed (linha 61): complexidade 2 - nota A
+  ↳ _get_pulse_segments (linha 70): complexidade 8 - nota B
+  ↳ update (linha 116): complexidade 2 - nota A
+  ↳ _render_pulse (linha 126): complexidade 2 - nota A
+  ↳ __rich_console__ (linha 156): complexidade 21 - nota D
+  ↳ __rich_measure__ (linha 200): complexidade 2 - nota A
+
+  [Métricas Brutas]
+    LOC: 223 | LLOC: 121 | SLOC: 162 | Comentários: 2 | Blanks: 29
+
+  [Halstead]
+    Volume: 1043.76 | Dificuldade: 11.15 | Esforço: 11633.54 | Bugs estimados: 0.35
+
+  [Maintainability Index]
+    MI: 51.06 - nota A
+
+  📄 Arquivo: ./repo_temp/rich/errors.py
+  ↳ ConsoleError (linha 1): complexidade 1 - nota A
+  ↳ StyleError (linha 5): complexidade 1 - nota A
+  ↳ StyleSyntaxError (linha 9): complexidade 1 - nota A
+  ↳ MissingStyle (linha 13): complexidade 1 - nota A
+  ↳ StyleStackError (linha 17): complexidade 1 - nota A
+  ↳ NotRenderableError (linha 21): complexidade 1 - nota A
+  ↳ MarkupError (linha 25): complexidade 1 - nota A
+  ↳ LiveError (linha 29): complexidade 1 - nota A
+  ↳ NoAltScreen (linha 33): complexidade 1 - nota A
+
+  [Métricas Brutas]
+    LOC: 34 | LLOC: 18 | SLOC: 9 | Comentários: 0 | Blanks: 16
+
+  [Halstead]
+    Volume: 0.00 | Dificuldade: 0.00 | Esforço: 0.00 | Bugs estimados: 0.00
+
+  [Maintainability Index]
+    MI: 100.00 - nota A
+
+  📄 Arquivo: ./repo_temp/rich/prompt.py
+  ↳ PromptError (linha 11): complexidade 1 - nota A
+  ↳ InvalidResponse (linha 15): complexidade 2 - nota A
+  ↳ __init__ (linha 23): complexidade 1 - nota A
+  ↳ __rich__ (linha 26): complexidade 1 - nota A
+  ↳ PromptBase (linha 30): complexidade 3 - nota A
+  ↳ __init__ (linha 54): complexidade 4 - nota A
+  ↳ ask (linha 80): complexidade 1 - nota A
+  ↳ ask (linha 97): complexidade 1 - nota A
+  ↳ ask (linha 112): complexidade 1 - nota A
+  ↳ render_default (linha 151): complexidade 1 - nota A
+  ↳ make_prompt (linha 162): complexidade 6 - nota B
+  ↳ get_input (linha 194): complexidade 1 - nota A
+  ↳ check_choice (linha 213): complexidade 4 - nota A
+  ↳ process_response (linha 227): complexidade 6 - nota B
+  ↳ on_validate_error (linha 258): complexidade 1 - nota A
+  ↳ pre_prompt (linha 267): complexidade 1 - nota A
+  ↳ __call__ (linha 271): complexidade 1 - nota A
+  ↳ __call__ (linha 275): complexidade 1 - nota A
+  ↳ __call__ (linha 280): complexidade 6 - nota B
+  ↳ Prompt (linha 304): complexidade 1 - nota A
+  ↳ IntPrompt (linha 316): complexidade 1 - nota A
+  ↳ FloatPrompt (linha 328): complexidade 1 - nota A
+  ↳ Confirm (linha 340): complexidade 3 - nota A
+  ↳ render_default (linha 353): complexidade 2 - nota A
+  ↳ process_response (linha 358): complexidade 2 - nota A
+
+  [Métricas Brutas]
+    LOC: 400 | LLOC: 161 | SLOC: 223 | Comentários: 2 | Blanks: 81
+
+  [Halstead]
+    Volume: 344.38 | Dificuldade: 5.54 | Esforço: 1908.08 | Bugs estimados: 0.11
+
+  [Maintainability Index]
+    MI: 55.96 - nota A
+
+  📄 Arquivo: ./repo_temp/rich/segment.py
+  ↳ ControlType (linha 35): complexidade 1 - nota A
+  ↳ Segment (linha 64): complexidade 5 - nota A
+  ↳ cell_length (linha 82): complexidade 2 - nota A
+  ↳ __rich_repr__ (linha 91): complexidade 3 - nota A
+  ↳ __bool__ (linha 100): complexidade 1 - nota A
+  ↳ is_control (linha 105): complexidade 1 - nota A
+  ↳ _split_cells (linha 111): complexidade 9 - nota B
+  ↳ split_cells (linha 158): complexidade 4 - nota A
+  ↳ line (linha 185): complexidade 1 - nota A
+  ↳ apply_style (linha 190): complexidade 8 - nota B
+  ↳ filter_control (linha 231): complexidade 2 - nota A
+  ↳ split_lines (linha 250): complexidade 8 - nota B
+  ↳ split_and_crop_lines (linha 279): complexidade 9 - nota B
+  ↳ adjust_line_length (linha 326): complexidade 8 - nota B
+  ↳ get_line_length (linha 371): complexidade 3 - nota A
+  ↳ get_shape (linha 384): complexidade 3 - nota A
+  ↳ set_shape (linha 398): complexidade 5 - nota A
+  ↳ align_top (linha 434): complexidade 3 - nota A
+  ↳ align_bottom (linha 463): complexidade 3 - nota A
+  ↳ align_middle (linha 492): complexidade 3 - nota A
+  ↳ simplify (linha 523): complexidade 5 - nota A
+  ↳ strip_links (linha 550): complexidade 5 - nota A
+  ↳ strip_styles (linha 567): complexidade 2 - nota A
+  ↳ remove_color (linha 580): complexidade 4 - nota A
+  ↳ divide (linha 602): complexidade 13 - nota C
+  ↳ Segments (linha 671): complexidade 3 - nota A
+  ↳ __init__ (linha 680): complexidade 1 - nota A
+  ↳ __rich_console__ (linha 684): complexidade 3 - nota A
+  ↳ SegmentLines (linha 696): complexidade 4 - nota A
+  ↳ __init__ (linha 697): complexidade 1 - nota A
+  ↳ __rich_console__ (linha 708): complexidade 4 - nota A
+
+  [Métricas Brutas]
+    LOC: 752 | LLOC: 398 | SLOC: 467 | Comentários: 2 | Blanks: 115
+
+  [Halstead]
+    Volume: 2024.72 | Dificuldade: 13.57 | Esforço: 27483.04 | Bugs estimados: 0.67
+
+  [Maintainability Index]
+    MI: 32.04 - nota A
+
+  📄 Arquivo: ./repo_temp/rich/ansi.py
+  ↳ _ansi_tokenize (linha 28): complexidade 7 - nota B
+  ↳ read (linha 224): complexidade 1 - nota A
+  ↳ _AnsiToken (linha 20): complexidade 1 - nota A
+  ↳ AnsiDecoder (linha 120): complexidade 9 - nota B
+  ↳ __init__ (linha 123): complexidade 1 - nota A
+  ↳ decode (linha 126): complexidade 2 - nota A
+  ↳ decode_line (linha 138): complexidade 22 - nota D
+
+  [Métricas Brutas]
+    LOC: 241 | LLOC: 112 | SLOC: 182 | Comentários: 7 | Blanks: 33
+
+  [Halstead]
+    Volume: 452.93 | Dificuldade: 7.50 | Esforço: 3396.99 | Bugs estimados: 0.15
+
+  [Maintainability Index]
+    MI: 52.31 - nota A
+
+  📄 Arquivo: ./repo_temp/rich/progress.py
+  ↳ track (linha 108): complexidade 3 - nota A
+  ↳ wrap_file (linha 308): complexidade 3 - nota A
+  ↳ open (linha 374): complexidade 1 - nota A
+  ↳ open (linha 399): complexidade 1 - nota A
+  ↳ open (linha 423): complexidade 3 - nota A
+  ↳ _TrackThread (linha 68): complexidade 3 - nota A
+  ↳ __init__ (linha 71): complexidade 1 - nota A
+  ↳ run (linha 80): complexidade 4 - nota A
+  ↳ __enter__ (linha 94): complexidade 1 - nota A
+  ↳ __exit__ (linha 98): complexidade 1 - nota A
+  ↳ _Reader (linha 184): complexidade 2 - nota A
+  ↳ __init__ (linha 187): complexidade 1 - nota A
+  ↳ __enter__ (linha 200): complexidade 1 - nota A
+  ↳ __exit__ (linha 204): complexidade 1 - nota A
+  ↳ __iter__ (linha 212): complexidade 1 - nota A
+  ↳ __next__ (linha 215): complexidade 1 - nota A
+  ↳ closed (linha 221): complexidade 1 - nota A
+  ↳ fileno (linha 224): complexidade 1 - nota A
+  ↳ isatty (linha 227): complexidade 1 - nota A
+  ↳ mode (linha 231): complexidade 1 - nota A
+  ↳ name (linha 235): complexidade 1 - nota A
+  ↳ readable (linha 238): complexidade 1 - nota A
+  ↳ seekable (linha 241): complexidade 1 - nota A
+  ↳ writable (linha 244): complexidade 1 - nota A
+  ↳ read (linha 247): complexidade 1 - nota A
+  ↳ readinto (linha 252): complexidade 1 - nota A
+  ↳ readline (linha 257): complexidade 1 - nota A
+  ↳ readlines (linha 262): complexidade 1 - nota A
+  ↳ close (linha 267): complexidade 2 - nota A
+  ↳ seek (linha 272): complexidade 1 - nota A
+  ↳ tell (linha 277): complexidade 1 - nota A
+  ↳ write (linha 280): complexidade 1 - nota A
+  ↳ writelines (linha 283): complexidade 1 - nota A
+  ↳ _ReadContext (linha 287): complexidade 2 - nota A
+  ↳ __init__ (linha 290): complexidade 1 - nota A
+  ↳ __enter__ (linha 294): complexidade 1 - nota A
+  ↳ __exit__ (linha 298): complexidade 1 - nota A
+  ↳ ProgressColumn (linha 509): complexidade 3 - nota A
+  ↳ __init__ (linha 514): complexidade 1 - nota A
+  ↳ get_table_column (linha 519): complexidade 2 - nota A
+  ↳ __call__ (linha 523): complexidade 6 - nota B
+  ↳ render (linha 547): complexidade 1 - nota A
+  ↳ RenderableColumn (linha 551): complexidade 2 - nota A
+  ↳ __init__ (linha 558): complexidade 1 - nota A
+  ↳ render (linha 564): complexidade 1 - nota A
+  ↳ SpinnerColumn (linha 568): complexidade 3 - nota A
+  ↳ __init__ (linha 578): complexidade 2 - nota A
+  ↳ set_spinner (linha 594): complexidade 1 - nota A
+  ↳ render (linha 609): complexidade 2 - nota A
+  ↳ TextColumn (linha 618): complexidade 4 - nota A
+  ↳ __init__ (linha 621): complexidade 2 - nota A
+  ↳ render (linha 637): complexidade 3 - nota A
+  ↳ BarColumn (linha 648): complexidade 3 - nota A
+  ↳ __init__ (linha 659): complexidade 1 - nota A
+  ↳ render (linha 675): complexidade 3 - nota A
+  ↳ TimeElapsedColumn (linha 690): complexidade 4 - nota A
+  ↳ render (linha 693): complexidade 3 - nota A
+  ↳ TaskProgressColumn (linha 702): complexidade 4 - nota A
+  ↳ __init__ (linha 716): complexidade 1 - nota A
+  ↳ render_speed (linha 739): complexidade 2 - nota A
+  ↳ render (linha 758): complexidade 7 - nota B
+  ↳ TimeRemainingColumn (linha 774): complexidade 6 - nota B
+  ↳ __init__ (linha 785): complexidade 1 - nota A
+  ↳ render (linha 795): complexidade 8 - nota B
+  ↳ FileSizeColumn (linha 822): complexidade 2 - nota A
+  ↳ render (linha 825): complexidade 1 - nota A
+  ↳ TotalFileSizeColumn (linha 831): complexidade 3 - nota A
+  ↳ render (linha 834): complexidade 2 - nota A
+  ↳ MofNCompleteColumn (linha 840): complexidade 3 - nota A
+  ↳ __init__ (linha 852): complexidade 1 - nota A
+  ↳ render (linha 856): complexidade 2 - nota A
+  ↳ DownloadColumn (linha 867): complexidade 4 - nota A
+  ↳ __init__ (linha 874): complexidade 1 - nota A
+  ↳ render (linha 880): complexidade 5 - nota A
+  ↳ TransferSpeedColumn (linha 916): complexidade 4 - nota A
+  ↳ render (linha 919): complexidade 3 - nota A
+  ↳ ProgressSample (linha 928): complexidade 1 - nota A
+  ↳ Task (linha 938): complexidade 3 - nota A
+  ↳ get_time (linha 985): complexidade 1 - nota A
+  ↳ started (linha 990): complexidade 1 - nota A
+  ↳ remaining (linha 995): complexidade 2 - nota A
+  ↳ elapsed (linha 1002): complexidade 3 - nota A
+  ↳ finished (linha 1011): complexidade 1 - nota A
+  ↳ percentage (linha 1016): complexidade 2 - nota A
+  ↳ speed (linha 1025): complexidade 5 - nota A
+  ↳ time_remaining (linha 1043): complexidade 4 - nota A
+  ↳ _reset (linha 1056): complexidade 1 - nota A
+  ↳ Progress (linha 1063): complexidade 4 - nota A
+  ↳ __init__ (linha 1079): complexidade 5 - nota A
+  ↳ get_default_columns (linha 1116): complexidade 1 - nota A
+  ↳ console (linha 1147): complexidade 1 - nota A
+  ↳ tasks (linha 1151): complexidade 1 - nota A
+  ↳ task_ids (linha 1157): complexidade 1 - nota A
+  ↳ finished (linha 1163): complexidade 3 - nota A
+  ↳ start (linha 1170): complexidade 2 - nota A
+  ↳ stop (linha 1175): complexidade 3 - nota A
+  ↳ __enter__ (linha 1181): complexidade 1 - nota A
+  ↳ __exit__ (linha 1185): complexidade 1 - nota A
+  ↳ track (linha 1193): complexidade 7 - nota B
+  ↳ wrap_file (linha 1236): complexidade 5 - nota A
+  ↳ open (linha 1279): complexidade 1 - nota A
+  ↳ open (linha 1295): complexidade 1 - nota A
+  ↳ open (linha 1310): complexidade 10 - nota B
+  ↳ start_task (linha 1387): complexidade 2 - nota A
+  ↳ stop_task (linha 1401): complexidade 2 - nota A
+  ↳ update (linha 1416): complexidade 14 - nota C
+  ↳ reset (linha 1477): complexidade 6 - nota B
+  ↳ advance (linha 1516): complexidade 7 - nota B
+  ↳ refresh (linha 1546): complexidade 3 - nota A
+  ↳ get_renderable (linha 1551): complexidade 1 - nota A
+  ↳ get_renderables (linha 1556): complexidade 1 - nota A
+  ↳ make_tasks_table (linha 1561): complexidade 7 - nota B
+  ↳ __rich__ (linha 1594): complexidade 1 - nota A
+  ↳ add_task (linha 1599): complexidade 2 - nota A
+  ↳ remove_task (linha 1642): complexidade 1 - nota A
+
+  [Métricas Brutas]
+    LOC: 1715 | LLOC: 763 | SLOC: 1139 | Comentários: 17 | Blanks: 257
+
+  [Halstead]
+    Volume: 2780.81 | Dificuldade: 12.39 | Esforço: 34458.58 | Bugs estimados: 0.93
+
+  [Maintainability Index]
+    MI: 8.54 - nota C
+
+  📄 Arquivo: ./repo_temp/rich/_stack.py
+  ↳ Stack (linha 6): complexidade 2 - nota A
+  ↳ top (linha 10): complexidade 1 - nota A
+  ↳ push (linha 14): complexidade 1 - nota A
+
+  [Métricas Brutas]
+    LOC: 16 | LLOC: 11 | SLOC: 8 | Comentários: 0 | Blanks: 5
+
+  [Halstead]
+    Volume: 2.00 | Dificuldade: 0.50 | Esforço: 1.00 | Bugs estimados: 0.00
+
+  [Maintainability Index]
+    MI: 74.77 - nota A
+
+  📄 Arquivo: ./repo_temp/rich/_windows.py
+  ↳ get_windows_console_features (linha 34): complexidade 1 - nota A
+  ↳ get_windows_console_features (linha 40): complexidade 6 - nota B
+  ↳ WindowsConsoleFeatures (linha 6): complexidade 1 - nota A
+
+  [Métricas Brutas]
+    LOC: 71 | LLOC: 47 | SLOC: 48 | Comentários: 1 | Blanks: 15
+
+  [Halstead]
+    Volume: 120.40 | Dificuldade: 3.38 | Esforço: 406.37 | Bugs estimados: 0.04
+
+  [Maintainability Index]
+    MI: 65.74 - nota A
+
+  📄 Arquivo: ./repo_temp/rich/_cell_widths.py
+
+  [Métricas Brutas]
+    LOC: 454 | LLOC: 1 | SLOC: 452 | Comentários: 1 | Blanks: 1
+
+  [Halstead]
+    Volume: 4.00 | Dificuldade: 1.00 | Esforço: 4.00 | Bugs estimados: 0.00
+
+  [Maintainability Index]
+    MI: 98.50 - nota A
+
+  📄 Arquivo: ./repo_temp/rich/cells.py
+  ↳ cached_cell_len (linha 34): complexidade 2 - nota A
+  ↳ cell_len (linha 51): complexidade 3 - nota A
+  ↳ get_character_cell_size (linha 68): complexidade 6 - nota B
+  ↳ set_cell_size (linha 96): complexidade 11 - nota C
+  ↳ chop_cells (linha 131): complexidade 4 - nota A
+
+  [Métricas Brutas]
+    LOC: 174 | LLOC: 99 | SLOC: 104 | Comentários: 11 | Blanks: 35
+
+  [Halstead]
+    Volume: 761.99 | Dificuldade: 8.40 | Esforço: 6400.71 | Bugs estimados: 0.25
+
+  [Maintainability Index]
+    MI: 60.57 - nota A
+
+  📄 Arquivo: ./repo_temp/rich/_win32_console.py
+  ↳ GetStdHandle (linha 78): complexidade 1 - nota A
+  ↳ GetConsoleMode (linha 95): complexidade 2 - nota A
+  ↳ FillConsoleOutputCharacter (linha 128): complexidade 1 - nota A
+  ↳ FillConsoleOutputAttribute (linha 169): complexidade 1 - nota A
+  ↳ SetConsoleTextAttribute (linha 204): complexidade 1 - nota A
+  ↳ GetConsoleScreenBufferInfo (linha 228): complexidade 1 - nota A
+  ↳ SetConsoleCursorPosition (linha 252): complexidade 1 - nota A
+  ↳ GetConsoleCursorInfo (linha 275): complexidade 1 - nota A
+  ↳ SetConsoleCursorInfo (linha 299): complexidade 1 - nota A
+  ↳ SetConsoleTitle (linha 319): complexidade 1 - nota A
+  ↳ LegacyWindowsError (linha 29): complexidade 1 - nota A
+  ↳ WindowsCoordinates (linha 33): complexidade 2 - nota A
+  ↳ from_param (linha 44): complexidade 1 - nota A
+  ↳ CONSOLE_SCREEN_BUFFER_INFO (linha 57): complexidade 1 - nota A
+  ↳ CONSOLE_CURSOR_INFO (linha 67): complexidade 1 - nota A
+  ↳ LegacyWindowsTerm (linha 331): complexidade 2 - nota A
+  ↳ __init__ (linha 362): complexidade 1 - nota A
+  ↳ cursor_position (linha 377): complexidade 1 - nota A
+  ↳ screen_size (linha 387): complexidade 1 - nota A
+  ↳ write_text (linha 396): complexidade 1 - nota A
+  ↳ write_styled (linha 405): complexidade 10 - nota B
+  ↳ move_cursor_to (linha 444): complexidade 3 - nota A
+  ↳ erase_line (linha 454): complexidade 1 - nota A
+  ↳ erase_end_of_line (linha 470): complexidade 1 - nota A
+  ↳ erase_start_of_line (linha 484): complexidade 1 - nota A
+  ↳ move_cursor_up (linha 493): complexidade 1 - nota A
+  ↳ move_cursor_down (linha 503): complexidade 1 - nota A
+  ↳ move_cursor_forward (linha 514): complexidade 2 - nota A
+  ↳ move_cursor_to_column (linha 526): complexidade 1 - nota A
+  ↳ move_cursor_backward (linha 535): complexidade 2 - nota A
+  ↳ hide_cursor (linha 547): complexidade 1 - nota A
+  ↳ show_cursor (linha 553): complexidade 1 - nota A
+  ↳ set_title (linha 559): complexidade 2 - nota A
+  ↳ _get_cursor_size (linha 568): complexidade 1 - nota A
+
+  [Métricas Brutas]
+    LOC: 661 | LLOC: 312 | SLOC: 389 | Comentários: 22 | Blanks: 132
+
+  [Halstead]
+    Volume: 549.88 | Dificuldade: 10.24 | Esforço: 5629.40 | Bugs estimados: 0.18
+
+  [Maintainability Index]
+    MI: 49.42 - nota A
+
+  📄 Arquivo: ./repo_temp/rich/panel.py
+  ↳ Panel (linha 17): complexidade 5 - nota A
+  ↳ __init__ (linha 40): complexidade 1 - nota A
+  ↳ fit (linha 74): complexidade 1 - nota A
+  ↳ _title (linha 110): complexidade 3 - nota A
+  ↳ _subtitle (linha 126): complexidade 3 - nota A
+  ↳ __rich_console__ (linha 141): complexidade 16 - nota C
+  ↳ __rich_measure__ (linha 278): complexidade 3 - nota A
+
+  [Métricas Brutas]
+    LOC: 318 | LLOC: 139 | SLOC: 256 | Comentários: 1 | Blanks: 32
+
+  [Halstead]
+    Volume: 782.66 | Dificuldade: 9.10 | Esforço: 7122.25 | Bugs estimados: 0.26
+
+  [Maintainability Index]
+    MI: 48.00 - nota A
+
+  📄 Arquivo: ./repo_temp/rich/styled.py
+  ↳ Styled (linha 11): complexidade 2 - nota A
+  ↳ __init__ (linha 19): complexidade 1 - nota A
+  ↳ __rich_console__ (linha 23): complexidade 1 - nota A
+  ↳ __rich_measure__ (linha 31): complexidade 1 - nota A
+
+  [Métricas Brutas]
+    LOC: 42 | LLOC: 23 | SLOC: 26 | Comentários: 1 | Blanks: 11
+
+  [Halstead]
+    Volume: 4.75 | Dificuldade: 0.50 | Esforço: 2.38 | Bugs estimados: 0.00
+
+  [Maintainability Index]
+    MI: 89.28 - nota A
+
+  📄 Arquivo: ./repo_temp/rich/spinner.py
+  ↳ Spinner (linha 13): complexidade 4 - nota A
+  ↳ __init__ (linha 26): complexidade 3 - nota A
+  ↳ __rich_console__ (linha 50): complexidade 1 - nota A
+  ↳ __rich_measure__ (linha 55): complexidade 1 - nota A
+  ↳ render (linha 61): complexidade 6 - nota B
+  ↳ update (linha 95): complexidade 5 - nota A
+
+  [Métricas Brutas]
+    LOC: 138 | LLOC: 69 | SLOC: 95 | Comentários: 1 | Blanks: 22
+
+  [Halstead]
+    Volume: 137.89 | Dificuldade: 4.75 | Esforço: 654.99 | Bugs estimados: 0.05
+
+  [Maintainability Index]
+    MI: 66.64 - nota A
+
+  📄 Arquivo: ./repo_temp/rich/_windows_renderer.py
+  ↳ legacy_windows_render (linha 7): complexidade 20 - nota C
+
+  [Métricas Brutas]
+    LOC: 56 | LLOC: 49 | SLOC: 47 | Comentários: 0 | Blanks: 4
+
+  [Halstead]
+    Volume: 256.76 | Dificuldade: 2.64 | Esforço: 678.57 | Bugs estimados: 0.09
+
+  [Maintainability Index]
+    MI: 61.86 - nota A
+
+  📄 Arquivo: ./repo_temp/rich/json.py
+  ↳ JSON (linha 9): complexidade 3 - nota A
+  ↳ __init__ (linha 25): complexidade 2 - nota A
+  ↳ from_data (linha 54): complexidade 2 - nota A
+  ↳ __rich__ (linha 101): complexidade 1 - nota A
+
+  [Métricas Brutas]
+    LOC: 139 | LLOC: 46 | SLOC: 94 | Comentários: 0 | Blanks: 16
+
+  [Halstead]
+    Volume: 22.46 | Dificuldade: 1.00 | Esforço: 22.46 | Bugs estimados: 0.01
+
+  [Maintainability Index]
+    MI: 79.76 - nota A
+
+  📄 Arquivo: ./repo_temp/rich/padding.py
+  ↳ Padding (linha 19): complexidade 4 - nota A
+  ↳ __init__ (linha 33): complexidade 1 - nota A
+  ↳ indent (linha 47): complexidade 1 - nota A
+  ↳ unpack (linha 61): complexidade 5 - nota A
+  ↳ __repr__ (linha 76): complexidade 1 - nota A
+  ↳ __rich_console__ (linha 79): complexidade 11 - nota C
+  ↳ __rich_measure__ (linha 125): complexidade 2 - nota A
+
+  [Métricas Brutas]
+    LOC: 141 | LLOC: 78 | SLOC: 103 | Comentários: 1 | Blanks: 20
+
+  [Halstead]
+    Volume: 359.45 | Dificuldade: 5.37 | Esforço: 1929.06 | Bugs estimados: 0.12
+
+  [Maintainability Index]
+    MI: 59.88 - nota A
+
+  📄 Arquivo: ./repo_temp/rich/__main__.py
+  ↳ make_test_card (linha 39): complexidade 1 - nota A
+  ↳ ColorBox (linha 18): complexidade 3 - nota A
+  ↳ __rich_console__ (linha 19): complexidade 3 - nota A
+  ↳ __rich_measure__ (linha 33): complexidade 1 - nota A
+
+  [Métricas Brutas]
+    LOC: 273 | LLOC: 97 | SLOC: 234 | Comentários: 2 | Blanks: 37
+
+  [Halstead]
+    Volume: 272.40 | Dificuldade: 3.21 | Esforço: 875.56 | Bugs estimados: 0.09
+
+  [Maintainability Index]
+    MI: 44.37 - nota A
+
+  📄 Arquivo: ./repo_temp/rich/scope.py
+  ↳ render_scope (linha 14): complexidade 4 - nota A
+  ↳ test (linha 75): complexidade 1 - nota A
+
+  [Métricas Brutas]
+    LOC: 86 | LLOC: 33 | SLOC: 60 | Comentários: 1 | Blanks: 13
+
+  [Halstead]
+    Volume: 11.61 | Dificuldade: 1.00 | Esforço: 11.61 | Bugs estimados: 0.00
+
+  [Maintainability Index]
+    MI: 82.64 - nota A
+
+  📄 Arquivo: ./repo_temp/rich/_extension.py
+  ↳ load_ipython_extension (linha 4): complexidade 1 - nota A
+
+  [Métricas Brutas]
+    LOC: 10 | LLOC: 6 | SLOC: 6 | Comentários: 2 | Blanks: 3
+
+  [Halstead]
+    Volume: 0.00 | Dificuldade: 0.00 | Esforço: 0.00 | Bugs estimados: 0.00
+
+  [Maintainability Index]
+    MI: 100.00 - nota A
+
+  📄 Arquivo: ./repo_temp/rich/status.py
+  ↳ Status (linha 11): complexidade 2 - nota A
+  ↳ __init__ (linha 23): complexidade 1 - nota A
+  ↳ renderable (linha 45): complexidade 1 - nota A
+  ↳ console (linha 49): complexidade 1 - nota A
+  ↳ update (linha 53): complexidade 5 - nota A
+  ↳ start (linha 85): complexidade 1 - nota A
+  ↳ stop (linha 89): complexidade 1 - nota A
+  ↳ __rich__ (linha 93): complexidade 1 - nota A
+  ↳ __enter__ (linha 96): complexidade 1 - nota A
+  ↳ __exit__ (linha 100): complexidade 1 - nota A
+
+  [Métricas Brutas]
+    LOC: 131 | LLOC: 65 | SLOC: 94 | Comentários: 1 | Blanks: 18
+
+  [Halstead]
+    Volume: 47.55 | Dificuldade: 1.43 | Esforço: 67.93 | Bugs estimados: 0.02
+
+  [Maintainability Index]
+    MI: 69.25 - nota A
+
+  📄 Arquivo: ./repo_temp/rich/abc.py
+  ↳ RichRenderable (linha 4): complexidade 3 - nota A
+  ↳ __subclasshook__ (linha 16): complexidade 2 - nota A
+  ↳ Foo (linha 28): complexidade 1 - nota A
+
+  [Métricas Brutas]
+    LOC: 33 | LLOC: 17 | SLOC: 15 | Comentários: 1 | Blanks: 11
+
+  [Halstead]
+    Volume: 15.51 | Dificuldade: 1.00 | Esforço: 15.51 | Bugs estimados: 0.01
+
+  [Maintainability Index]
+    MI: 93.17 - nota A
+
+  📄 Arquivo: ./repo_temp/rich/jupyter.py
+  ↳ _render_segments (linha 59): complexidade 6 - nota B
+  ↳ display (linha 84): complexidade 2 - nota A
+  ↳ print (linha 98): complexidade 1 - nota A
+  ↳ JupyterRenderable (linha 18): complexidade 5 - nota A
+  ↳ __init__ (linha 21): complexidade 1 - nota A
+  ↳ _repr_mimebundle_ (linha 25): complexidade 7 - nota B
+  ↳ JupyterMixin (linha 36): complexidade 8 - nota B
+  ↳ _repr_mimebundle_ (linha 41): complexidade 7 - nota B
+
+  [Métricas Brutas]
+    LOC: 101 | LLOC: 75 | SLOC: 72 | Comentários: 2 | Blanks: 22
+
+  [Halstead]
+    Volume: 27.86 | Dificuldade: 2.67 | Esforço: 74.30 | Bugs estimados: 0.01
+
+  [Maintainability Index]
+    MI: 55.65 - nota A
+
+  📄 Arquivo: ./repo_temp/rich/color_triplet.py
+  ↳ ColorTriplet (linha 4): complexidade 2 - nota A
+  ↳ hex (linha 15): complexidade 1 - nota A
+  ↳ rgb (linha 21): complexidade 1 - nota A
+  ↳ normalized (linha 31): complexidade 1 - nota A
+
+  [Métricas Brutas]
+    LOC: 38 | LLOC: 28 | SLOC: 17 | Comentários: 0 | Blanks: 8
+
+  [Halstead]
+    Volume: 20.90 | Dificuldade: 0.75 | Esforço: 15.67 | Bugs estimados: 0.01
+
+  [Maintainability Index]
+    MI: 87.56 - nota A
