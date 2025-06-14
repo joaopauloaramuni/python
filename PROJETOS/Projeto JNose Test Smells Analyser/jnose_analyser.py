@@ -26,59 +26,71 @@ def clone_repo(repo_url, local_path):
     print("✅ Clone concluído.")
 
 def compilar_projeto_java(repo_path):
-    """
-    Detecta se o projeto usa Maven ou Gradle e realiza a compilação Java correspondente.
-    """
     print("🔧 Compilando projeto Java clonado...")
 
-    if os.path.exists(os.path.join(repo_path, "pom.xml")):
-        # Projeto usa Maven
-        print("🛠️ Projeto Maven detectado.")
-        resultado = subprocess.run(
-            ["mvn", "compile"],
-            cwd=repo_path,
-            capture_output=True,
-            text=True,
-            timeout=TIMEOUT
-        )
-    elif os.path.exists(os.path.join(repo_path, "build.gradle")) or os.path.exists(os.path.join(repo_path, "build.gradle.kts")):
-        # Projeto usa Gradle
-        print("🛠️ Projeto Gradle detectado.")
-        gradlew = os.path.join(repo_path, "gradlew")
-        if os.path.exists(gradlew):
-            # Torna o gradlew executável (caso esteja no projeto)
-            os.chmod(gradlew, os.stat(gradlew).st_mode | stat.S_IEXEC)
-            cmd = ["./gradlew", "compileJava", "--no-daemon", "--info"]
+    try:
+        if os.path.exists(os.path.join(repo_path, "pom.xml")):
+            print("🛠️ Projeto Maven detectado.")
+            resultado = subprocess.run(
+                ["mvn", "compile"],
+                cwd=repo_path,
+                capture_output=True,
+                text=True,
+                timeout=TIMEOUT
+            )
+            print("[Maven][STDOUT]:", resultado.stdout)
+            print("[Maven][STDERR]:", resultado.stderr)
+
+            if resultado.returncode != 0:
+                print("❌ [Maven] Falha na compilação do JNose.")
+                return False
+            print("✅ [Maven] Compilação JNose concluída com sucesso.")
+
+        elif os.path.exists(os.path.join(repo_path, "build.gradle")) or os.path.exists(os.path.join(repo_path, "build.gradle.kts")):
+            print("🛠️ Projeto Gradle detectado.")
+            gradlew = os.path.join(repo_path, "gradlew")
+            if os.path.exists(gradlew):
+                os.chmod(gradlew, os.stat(gradlew).st_mode | stat.S_IEXEC)
+                cmd = ["./gradlew", "compileJava", "--no-daemon", "--info"]
+            else:
+                cmd = ["gradle", "compileJava", "--no-daemon", "--info"]
+
+            resultado = subprocess.run(
+                cmd,
+                cwd=repo_path,
+                capture_output=True,
+                text=True,
+                timeout=TIMEOUT
+            )
+            print("[Gradle][STDOUT]:", resultado.stdout)
+            print("[Gradle][STDERR]:", resultado.stderr)
+
+            if resultado.returncode != 0:
+                print("❌ [Gradle] Falha na compilação do JNose.")
+                return False
+            print("✅ [Gradle] Compilação JNose concluída com sucesso.")
         else:
-            # Usa o Gradle global do sistema
-            cmd = ["gradle", "compileJava", "--no-daemon", "--info"]
-        resultado = subprocess.run(
-            cmd,
-            cwd=repo_path,
-            capture_output=True,
-            text=True,
-            timeout=TIMEOUT
-        )
-    else:
-        raise RuntimeError("❌ Nenhum build tool detectado (pom.xml ou build.gradle).")
+            print("❌ Nenhum build tool detectado.")
+            return False
 
-    # Exibe os logs de compilação
-    print("🔍 STDOUT:")
-    print(resultado.stdout)
-    print("🔍 STDERR:")
-    print(resultado.stderr)
+        # Verifica se o build gerou classes
+        build_dirs = [
+            "target/classes",
+            "build/classes/java/main",
+            "buildSrc/build/classes/kotlin/main"
+        ]
+        if not any(os.path.exists(os.path.join(repo_path, d)) for d in build_dirs):
+            print("⚠️ Projeto compilado, mas diretórios de classes não encontrados.")
+            return False
 
-    if resultado.returncode != 0:
-        raise RuntimeError("❌ Falha ao compilar o projeto Java.")
+        return True
 
-    # Verifica se algum diretório comum de build foi gerado
-    build_dirs = [
-        "target/classes",                      # Diretório comum em projetos Maven
-        "build/classes/java/main",             # Diretório comum em projetos Gradle
-        "buildSrc/build/classes/kotlin/main"   # Caso especial usado por alguns projetos Gradle com Kotlin
-    ]
-    if not any(os.path.exists(os.path.join(repo_path, d)) for d in build_dirs):
-        raise RuntimeError("⚠️ Projeto compilado, mas diretórios de classes não encontrados.")
+    except subprocess.TimeoutExpired:
+        print("⏱️ Timeout durante a compilação.")
+        return False
+    except Exception as e:
+        print(f"❌ Erro inesperado na compilação: {e}")
+        return False
 
 def rodar_jnose(projeto_java, output_csv):
     """
@@ -108,7 +120,9 @@ def main():
         clone_repo(REPO_URL, CLONE_DIR)
 
         # 2. Compila o projeto Java clonado (Maven ou Gradle)
-        compilar_projeto_java(CLONE_DIR)
+        if not compilar_projeto_java(CLONE_DIR):
+            print("❌ Abortando execução de JNose devido à falha na compilação.")
+            return
 
         # 3. Cria a pasta de saída (se ainda não existir)
         os.makedirs(OUTPUT_DIR, exist_ok=True)
