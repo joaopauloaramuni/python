@@ -103,7 +103,8 @@ def rodar_jnose(projeto_java, output_csv):
         "mvn", "exec:java",
         "-Dexec.mainClass=br.ufba.jnose.JNoseCLI",
         f"-Dexec.args={args}",
-        "-Dexec.jvmArgs=-Xmx512m"
+        "-Dexec.jvmArgs=-Xmx512m",
+        "--batch-mode"
     ]
 
     # Executa o JNose via Maven no diretório do projeto JNose
