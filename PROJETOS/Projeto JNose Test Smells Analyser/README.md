@@ -51,6 +51,23 @@ Proceedings of the XXXIII Brazilian Symposium on Software Engineering
 - **Teste Repetitivo:** Código duplicado nos testes, que torna a manutenção mais trabalhosa e aumenta o risco de erros.
 - **Setup Complexo:** Quando o cenário necessário para rodar o teste é muito complexo, tornando o teste difícil de entender e manter.
 
+### Por que se preocupar com Test Smells?
+
+Além de dificultarem manutenção e legibilidade, *test smells* podem:
+
+- Levar a **falsos positivos ou falsos negativos** nos testes.
+- Diminuir a **confiabilidade** da suíte de testes.
+- Tornar a identificação de **regressões reais** mais difícil.
+- Impactar a **confiança da equipe** nos testes automatizados, levando ao seu abandono.
+
+### Outros exemplos comuns de Test Smells:
+
+- **Eager Test:** Quando um único teste verifica comportamentos demais, violando o princípio de que cada teste deve ter um foco específico.
+- **Assertion Roulette:** Muitos `asserts` num mesmo teste sem mensagens claras, dificultando identificar qual falhou.
+- **Mystery Guest:** Uso de recursos externos (como arquivos ou bancos de dados) sem transparência no teste, tornando o comportamento imprevisível.
+- **Conditional Test Logic:** Lógica condicional (`if`, `switch`, etc.) dentro dos testes, que pode esconder comportamentos inesperados.
+- **Resource Optimism:** Quando o teste assume que recursos externos (ex: conexões, arquivos) estarão sempre disponíveis, causando falhas intermitentes.
+
 Detectar e corrigir *Test Smells* ajuda a garantir uma suíte de testes mais confiável, eficiente e fácil de evoluir.
 
 ---
