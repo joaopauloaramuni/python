@@ -20,22 +20,22 @@ Autores: Tássio Virgínio (Federal Institute of Tocantins), Luana Martins, Rail
 
 ### 📚 Referências
 
-2021 — `On the test smells detection: an empirical study on the JNose Test accuracy`
-Journal of Software Engineering Research and Development
-https://doi.org/10.5753/jserd.2021.1893
+**2021** — `On the test smells detection: an empirical study on the JNose Test accuracy`  
+*Journal of Software Engineering Research and Development*  
+https://doi.org/10.5753/jserd.2021.1893  
 
-2020 - `JNose: Java Test Smell Detector`
-Congresso Brasileiro de Software: Teoria e Prática (CBSoft - 2020)
-http://cbsoft2020.imd.ufrn.br/artigos.php?evento=sbes-ferramentas - Ferramentas
+**2020** — `JNose: Java Test Smell Detector`  
+*Congresso Brasileiro de Software: Teoria e Prática (CBSoft - 2020) — Trilha de Ferramentas*  
+http://cbsoft2020.imd.ufrn.br/artigos.php?evento=sbes-ferramentas  
 
-2020 - `An Empirical Study of Automatically-Generated Tests from the Perspective of Test Smells`
-Congresso Brasileiro de Software: Teoria e Prática (CBSoft - 2020) - Pesquisa
-http://cbsoft2020.imd.ufrn.br/artigos.php?evento=sbes-pesquisa
+**2020** — `An Empirical Study of Automatically-Generated Tests from the Perspective of Test Smells`  
+*Congresso Brasileiro de Software: Teoria e Prática (CBSoft - 2020) — Trilha de Pesquisa*  
+http://cbsoft2020.imd.ufrn.br/artigos.php?evento=sbes-pesquisa  
 
-2019 — `On the influence of Test Smells on Test Coverage`
-33º Simpósio Brasileiro de Engenharia de Software (SBES - 2019)
-Proceedings of the XXXIII Brazilian Symposium on Software Engineering
-https://dl.acm.org/doi/10.1145/3350768.3350775
+**2019** — `On the influence of Test Smells on Test Coverage`  
+*33º Simpósio Brasileiro de Engenharia de Software (SBES - 2019)*  
+Proceedings of the XXXIII Brazilian Symposium on Software Engineering  
+[https://dl.acm.org/doi/10.1145/3350768.3350775](https://dl.acm.org/doi/10.1145/3350768.3350775)
 
 ---
 
