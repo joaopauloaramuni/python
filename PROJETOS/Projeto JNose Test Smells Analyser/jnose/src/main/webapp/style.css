@@ -1,0 +1,14 @@
+.material-icons.orange600 { color: #FB8C00; }
+.material-icons.red { color: red; }
+.material-icons.green { color: green; }
+
+.menu{
+    background-color: black;
+    color: white;
+    align-content: center;
+    text-align: center;
+}
+
+.table-hover tbody tr:hover {
+  background-color: #e6f2ff !important; ;
+}

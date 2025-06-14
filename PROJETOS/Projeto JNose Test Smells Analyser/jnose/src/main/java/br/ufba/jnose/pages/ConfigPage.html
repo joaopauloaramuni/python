@@ -1,0 +1,316 @@
+<wicket:extend xmlns:wicket="http://wicket.apache.org">
+    <div class="container">
+
+        <form wicket:id="form">
+            <div style="position: fixed;left: 30px;width: 140px; font-size:12px;">
+                <input class="btn btn-danger btn-sm" style="width: 100%;" type="submit" value="Save"/><br><br>
+                <button class="btn btn-success btn-sm" style="width: 100%;" wicket:id="btAll">Select all</button><br><br>
+                <button class="btn btn-warning btn-sm" style="width: 100%;" wicket:id="btDAll">Deselect All</button>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Test Smells</h5>
+                    <br>
+                    <!-- Default unchecked -->
+                    <div class="custom-control custom-checkbox">
+                        <div class="card" style="background-color: #f5f5f5;">
+                            <div class="card-body">
+                                <input wicket:id="cbAssertionRoulette" type="checkbox">
+                                <label style="color: #000dfd;">AssertionRoulette: </label>
+                                This test smell occurs when the test method has a series of assertions without a description. If an assertion fails, it is not known which one generated the failure and its reason.
+                                <br>
+                                <div style="position: absolute;bottom: 2px;right: 0;width: 55px; font-size:12px;">
+                                    <a class="btn btn-danger btn-sm" style="height:20px; font-size: 10px;" target="_blank" wicket:id="lkSourceAssertionRoulette" href="">Source</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="custom-control custom-checkbox">
+                        <div class="card" style="background-color: #f5f5f5;">
+                            <div class="card-body">
+                                <input wicket:id="cbConditionalTestLogic" type="checkbox">
+                                <label style="color: #000dfd;">ConditionalTestLogic: </label>
+                                Tests containing conditional logic (IF instructions or loops).
+                                <br>
+                                <div style="position: absolute;bottom: 2px;right: 0;width: 55px; font-size:12px;">
+                                    <a class="btn btn-danger btn-sm" style="height:20px; font-size: 10px;" target="_blank" wicket:id="lkSourceConditionalTestLogic" href="">Source</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="custom-control custom-checkbox">
+                        <div class="card" style="background-color: #f5f5f5;">
+                            <div class="card-body">
+                                <input wicket:id="cbConstructorInitialization" type="checkbox">
+                                <label style="color: #000dfd;">ConstructorInitialization: </label>
+                                Test methods that feature a constructor. Ideally, the test suite should not have a constructor. The initialization of the fields must be in the setUp () method. Developers who are unaware of the purpose of the setUp () method would allow this test smell by creating a constructor for the test suite.
+                                <br>
+                                <div style="position: absolute;bottom: 2px;right: 0;width: 55px; font-size:12px;">
+                                    <a class="btn btn-danger btn-sm" style="height:20px; font-size: 10px;" target="_blank" wicket:id="lkSourceConstructorInitialization" href="">Source</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="custom-control custom-checkbox">
+                        <div class="card" style="background-color: #f5f5f5;">
+                            <div class="card-body">
+                                <input wicket:id="cbDefaultTest" type="checkbox">
+                                <label style="color: #000dfd;">DefaultTest: </label>
+                                By default, an IDE creates standard test classes when a project is created. These model test classes should serve as an example for developers when writing unit tests and should be removed or renamed. The presence of these files in the project will cause developers to start adding test methods to these files, making the standard test class a container for all test cases and violating good test practices. Problems would also arise when classes needed to be renamed in the future.
+                                <br>
+                                <div style="position: absolute;bottom: 2px;right: 0;width: 55px; font-size:12px;">
+                                    <a class="btn btn-danger btn-sm" style="height:20px; font-size: 10px;" target="_blank" wicket:id="lkSourceDefaultTest" href="">Source</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="custom-control custom-checkbox">
+                        <div class="card" style="background-color: #f5f5f5;">
+                            <div class="card-body">
+                                <input wicket:id="cbDependentTest" type="checkbox">
+                                <label style="color: #000dfd;">DependentTest: </label>
+                                When a test fails, several other tests fail for no apparent reason, because they depend on the side effects of a test previously performed. Tests cannot be performed alone and are difficult to maintain.
+                                <br>
+                                <div style="position: absolute;bottom: 2px;right: 0;width: 55px; font-size:12px;">
+                                    <a class="btn btn-danger btn-sm" style="height:20px; font-size: 10px;" target="_blank" wicket:id="lkSourceDependentTest" href="">Source</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="custom-control custom-checkbox">
+                        <div class="card" style="background-color: #f5f5f5;">
+                            <div class="card-body">
+                                <input wicket:id="cbDuplicateAssert" type="checkbox">
+                                <label style="color: #000dfd;">DuplicateAssert: </label>
+                                This smell occurs when a test method tests the same condition several times on the same test method.
+                                <br>
+                                <div style="position: absolute;bottom: 2px;right: 0;width: 55px; font-size:12px;">
+                                    <a class="btn btn-danger btn-sm" style="height:20px; font-size: 10px;" target="_blank" wicket:id="lkSourceDuplicateAssert" href="">Source</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="custom-control custom-checkbox">
+                        <div class="card" style="background-color: #f5f5f5;">
+                            <div class="card-body">
+                                <input wicket:id="cbEagerTest" type="checkbox">
+                                <label style="color: #000dfd;">EagerTest: </label>
+                                When a test method checks several methods of the object to be tested, it is difficult to read and understand and, therefore, it is more difficult to use as documentation. In addition, it makes tests more dependent on each other and more difficult to maintain.
+                                <br>
+                                <div style="position: absolute;bottom: 2px;right: 0;width: 55px; font-size:12px;">
+                                    <a class="btn btn-danger btn-sm" style="height:20px; font-size: 10px;" target="_blank" wicket:id="lkSourceEagerTest" href="">Source</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="custom-control custom-checkbox">
+                        <div class="card" style="background-color: #f5f5f5;">
+                            <div class="card-body">
+                                <input wicket:id="cbEmptyTest" type="checkbox">
+                                <label style="color: #000dfd;">EmptyTest: </label>
+                                Test methods that do not contain executable instructions.
+                                <br>
+                                <div style="position: absolute;bottom: 2px;right: 0;width: 55px; font-size:12px;">
+                                    <a class="btn btn-danger btn-sm" style="height:20px; font-size: 10px;" target="_blank" wicket:id="lkSourceEmptyTest" href="">Source</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="custom-control custom-checkbox">
+                        <div class="card" style="background-color: #f5f5f5;">
+                            <div class="card-body">
+                                <input wicket:id="cbExceptionCatchingThrowing" type="checkbox">
+                                <label style="color: #000dfd;">ExceptionCatchingThrowing: </label>
+                                This test smell occurs when the approval or disapproval of a test method explicitly depends on the production method that generates an exception.
+                                <br>
+                                <div style="position: absolute;bottom: 2px;right: 0;width: 55px; font-size:12px;">
+                                    <a class="btn btn-danger btn-sm" style="height:20px; font-size: 10px;" target="_blank" wicket:id="lkSourceExceptionCatchingThrowing" href="">Source</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="custom-control custom-checkbox">
+                        <div class="card" style="background-color: #f5f5f5;">
+                            <div class="card-body">
+                                <input wicket:id="cbGeneralFixture" type="checkbox">
+                                <label style="color: #000dfd;">GeneralFixture: </label>
+                                In the JUnit framework, a programmer can write a \ textit {setUp} method that will be executed before each test method to create an environment for the tests to be run. The test smell becomes evident when the \ textit {setUp} environment is very general and the tests only need part of this configuration. The \ textit {setUp} methods start to get big and their understanding is reduced, and with the addition of functions, it starts to get slow. The danger of having a test that takes too long to complete, interfering with the development process, encourages programmers not to run the tests.
+                                <br>
+                                <div style="position: absolute;bottom: 2px;right: 0;width: 55px; font-size:12px;">
+                                    <a class="btn btn-danger btn-sm" style="height:20px; font-size: 10px;" target="_blank" wicket:id="lkSourceGeneralFixture" href="">Source</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="custom-control custom-checkbox">
+                        <div class="card" style="background-color: #f5f5f5;">
+                            <div class="card-body">
+                                <input wicket:id="cbIgnoredTest" type="checkbox">
+                                <label style="color: #000dfd;">IgnoredTest: </label>
+                                Starting with JUnit 4, developers are provided with the ability to prevent the execution of test methods. However, these ignored test methods result in overhead in terms of compilation time and an increase in code complexity and understanding time.
+                                <br>
+                                <div style="position: absolute;bottom: 2px;right: 0;width: 55px; font-size:12px;">
+                                    <a class="btn btn-danger btn-sm" style="height:20px; font-size: 10px;" target="_blank" wicket:id="IgnoredTest" href="">Source</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="custom-control custom-checkbox">
+                        <div class="card" style="background-color: #f5f5f5;">
+                            <div class="card-body">
+                                <input wicket:id="cbLazyTest" type="checkbox">
+                                <label style="color: #000dfd;">LazyTest: </label>
+                                This test smell occurs when several test methods check the same method using the same equipment (but, for example, they check the values of different instance variables). These tests are usually meaningful only when considered together.
+                                <br>
+                                <div style="position: absolute;bottom: 2px;right: 0;width: 55px; font-size:12px;">
+                                    <a class="btn btn-danger btn-sm" style="height:20px; font-size: 10px;" target="_blank" wicket:id="LazyTest" href="">Source</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="custom-control custom-checkbox">
+                        <div class="card" style="background-color: #f5f5f5;">
+                            <div class="card-body">
+                                <input wicket:id="cbMagicNumberTest" type="checkbox">
+                                <label style="color: #000dfd;">MagicNumberTest: </label>
+                                Many `` Magic Numbers '' or Strings used when creating objects that are likely to result in an unrepeatable test.
+                                <br>
+                                <div style="position: absolute;bottom: 2px;right: 0;width: 55px; font-size:12px;">
+                                    <a class="btn btn-danger btn-sm" style="height:20px; font-size: 10px;" target="_blank" wicket:id="MagicNumberTest" href="">Source</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="custom-control custom-checkbox">
+                        <div class="card" style="background-color: #f5f5f5;">
+                            <div class="card-body">
+                                <input wicket:id="cbMysteryGuest" type="checkbox">
+                                <label style="color: #000dfd;">MysteryGuest: </label>
+                                When a test uses external resources, such as a file necessary for its execution, this external resource does not make the test autonomous. Consequently, there is not enough information to understand the tested functionality, making it difficult to use this test as documentation. In addition, these external resources can be shared. And its use introduces hidden dependencies: if any force changes or excludes this feature, the tests begin to fail.
+                                <br>
+                                <div style="position: absolute;bottom: 2px;right: 0;width: 55px; font-size:12px;">
+                                    <a class="btn btn-danger btn-sm" style="height:20px; font-size: 10px;" target="_blank" wicket:id="MysteryGuest" href="">Source</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="custom-control custom-checkbox">
+                        <div class="card" style="background-color: #f5f5f5;">
+                            <div class="card-body">
+                                <input wicket:id="cbPrintStatement" type="checkbox">
+                                <label style="color: #000dfd;">PrintStatement (???): </label>
+                                The printing instructions in the unit tests are redundant, as the unit tests are performed as part of an automated script. It consumes resources or increases the execution time.
+                                <br>
+                                <div style="position: absolute;bottom: 2px;right: 0;width: 55px; font-size:12px;">
+                                    <a class="btn btn-danger btn-sm" style="height:20px; font-size: 10px;" target="_blank" wicket:id="PrintStatement" href="">Source</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="custom-control custom-checkbox">
+                        <div class="card" style="background-color: #f5f5f5;">
+                            <div class="card-body">
+                                <input wicket:id="cbRedundantAssertion" type="checkbox">
+                                <label style="color: #000dfd;">RedundantAssertion: </label>
+                                This smell occurs when the test methods contain assertion statements that are always true or false. A test is intended to return a binary result, regardless of whether the desired result is correct or not, and must not return the same output, regardless of the input.
+                                <br>
+                                <div style="position: absolute;bottom: 2px;right: 0;width: 55px; font-size:12px;">
+                                    <a class="btn btn-danger btn-sm" style="height:20px; font-size: 10px;" target="_blank" wicket:id="RedundantAssertion" href="">Source</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="custom-control custom-checkbox">
+                        <div class="card" style="background-color: #f5f5f5;">
+                            <div class="card-body">
+                                <input wicket:id="cbResourceOptimism" type="checkbox">
+                                <label style="color: #000dfd;">ResourceOptimism: </label>
+                                Test code that makes optimistic assumptions about the existence or absence of a particular external resource, and the state of that external resource (such as private directories or database tables) can cause non-deterministic behavior in the test results. The situation in which the tests run well at one time and fail at another is not a situation that the test should take place.
+                                <br>
+                                <div style="position: absolute;bottom: 2px;right: 0;width: 55px; font-size:12px;">
+                                    <a class="btn btn-danger btn-sm" style="height:20px; font-size: 10px;" target="_blank" wicket:id="ResourceOptimism" href="">Source</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="custom-control custom-checkbox">
+                        <div class="card" style="background-color: #f5f5f5;">
+                            <div class="card-body">
+                                <input wicket:id="cbSensitiveEquality" type="checkbox">
+                                <label style="color: #000dfd;">SensitiveEquality: </label>
+                                It is quick and easy to write equality checks using \ textit {string}. A typical way is to calculate a real result, map it to a string, which is then compared to a literal string that represents the expected value. Such tests, however, can depend on many irrelevant details, such as commas, quotes, spaces, etc. Whenever a \ textit {string} is changed, the tests start to fail. The solution is to replace the equality checks using \ textit {string} with real equality checks;
+                                <br>
+                                <div style="position: absolute;bottom: 2px;right: 0;width: 55px; font-size:12px;">
+                                    <a class="btn btn-danger btn-sm" style="height:20px; font-size: 10px;" target="_blank" wicket:id="SensitiveEquality" href="">Source</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="custom-control custom-checkbox">
+                        <div class="card" style="background-color: #f5f5f5;">
+                            <div class="card-body">
+                                <input wicket:id="cbSleepyTest" type="checkbox">
+                                <label style="color: #000dfd;">SleepyTest: </label>
+                                Developers introduce this test smell when they need to pause the execution of instructions in a test method for a certain period and continue the execution.
+                                <br>
+                                <div style="position: absolute;bottom: 2px;right: 0;width: 55px; font-size:12px;">
+                                    <a class="btn btn-danger btn-sm" style="height:20px; font-size: 10px;" target="_blank" wicket:id="SleepyTest" href="">Source</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="custom-control custom-checkbox">
+                        <div class="card" style="background-color: #f5f5f5;">
+                            <div class="card-body">
+                                <input wicket:id="cbUnknownTest" type="checkbox">
+                                <label style="color: #000dfd;">UnknownTest: </label>
+                                A test method without a \ textit {assertion} condition, the test will always be valid, not resulting in an exception. This programming practice makes it difficult to understand the test.
+                                <br>
+                                <div style="position: absolute;bottom: 2px;right: 0;width: 55px; font-size:12px;">
+                                    <a class="btn btn-danger btn-sm" style="height:20px; font-size: 10px;" target="_blank" wicket:id="UnknownTest" href="">Source</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="custom-control custom-checkbox">
+                        <div class="card" style="background-color: #f5f5f5;">
+                            <div class="card-body">
+                                <input wicket:id="cbVerboseTest" type="checkbox">
+                                <label style="color: #000dfd;">VerboseTest: </label>
+                                Excess test code or Conditional Test Logic. Difficult to verify its accuracy and more likely to contain errors.
+                                <br>
+                                Max Statements: <input wicket:id="verboseTestMaxStatements" type="text"/>
+                                <br>
+                                <div style="position: absolute;bottom: 2px;right: 0;width: 55px; font-size:12px;">
+                                    <a class="btn btn-danger btn-sm" style="height:20px; font-size: 10px;" target="_blank" wicket:id="VerboseTest" href="">Source</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+
+
+    </div>
+</wicket:extend>

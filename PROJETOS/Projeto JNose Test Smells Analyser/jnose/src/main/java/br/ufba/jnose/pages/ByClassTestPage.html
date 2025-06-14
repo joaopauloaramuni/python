@@ -1,0 +1,120 @@
+<wicket:extend xmlns:wicket="http://wicket.apache.org">
+
+    <div class="container">
+
+        <input wicket:id="acbCobertura" type="checkbox">
+        <label style="color: #e71616;">Coverage: </label> Enable coverage flow.
+
+        <div class="card">
+            <div class="card-body">
+                <table id="example" class="table table-striped table-bordered table-sm"
+                       style="width:100%; font-size: 14px;">
+                    <thead>
+                    <tr>
+                        <th scope="col"></th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Path</th>
+                        <th scope="col">Concluded</th>
+                        <th scope="col" style="width:15%;">%</th>
+                        <th scope="col" style="width:9%;"></th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr wicket:id="lvProjetos">
+                        <td scope="row">
+                            <input type="checkbox" wicket:id="paraProcessarACB"/>
+                        </td>
+                        <td>
+                            <span wicket:id="nomeProjeto"></span>
+                        </td>
+                        <td>
+                            <span wicket:id="projeto"></span>
+                        </td>
+                        <td>
+                                <span wicket:id="iconProcessado" style="color:green">
+                                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-check"
+                                         fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                      <path fill-rule="evenodd"
+                                            d="M10.97 4.97a.75.75 0 0 1 1.071 1.05l-3.992 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.236.236 0 0 1 .02-.022z"/>
+                                    </svg>
+                                </span>
+                            <span wicket:id="iconNaoProcessado" style="color:red">
+                                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-x"
+                                         fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                      <path fill-rule="evenodd"
+                                            d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                                    </svg>
+                                </span>
+                        </td>
+                        <td>
+                            <div class="progress">
+                                <div wicket:id="progressProject" class="progress-bar" role="progressbar"
+                                     style="width: 25%"
+                                     aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                    <span wicket:id="lbPorcentagem"></span>
+                                </div>
+                            </div>
+                        </td>
+
+                        <td>
+                            <a wicket:id="lkResultado" target="_blank" class="btn btn-warning btn-sm" href="#">
+                                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-file-earmark-text"
+                                     fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M4 0h5.5v1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4.5h1V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2z"/>
+                                    <path d="M9.5 3V0L14 4.5h-3A1.5 1.5 0 0 1 9.5 3z"/>
+                                    <path fill-rule="evenodd"
+                                          d="M5 11.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z"/>
+                                </svg>
+                            </a>
+                            <a wicket:id="lkCharts" target="_blank" class="btn btn-info btn-sm" href="#">
+                                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-pie-chart"
+                                     fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                          d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                                    <path fill-rule="evenodd"
+                                          d="M7.5 7.793V1h1v6.5H15v1H8.207l-4.853 4.854-.708-.708L7.5 7.793z"/>
+                                </svg>
+                            </a>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+
+                <div style="width:100%;text-align: center;">
+                    <a wicket:id="processarTodos" class="btn btn-success btn-sm">
+                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-search" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"/>
+                            <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/>
+                        </svg> Analyze</a>
+                    <a target="_blank" href="#" wicket:id="lkResultado" class="btn btn-warning btn-sm">
+                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-file-earmark-text"
+                             fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M4 0h5.5v1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4.5h1V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2z"/>
+                            <path d="M9.5 3V0L14 4.5h-3A1.5 1.5 0 0 1 9.5 3z"/>
+                            <path fill-rule="evenodd"
+                                  d="M5 11.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z"/>
+                        </svg> Result of All
+                    </a>
+                    <a href="#" wicket:id="lkCharts" class="btn btn-warning" style="color:white;">
+                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-bar-chart-line" fill="currentColor"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                  d="M11 2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v12h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1v-3a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3h1V7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7h1V2zm1 12h2V2h-2v12zm-3 0V7H7v7h2zm-5 0v-3H2v3h2z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+
+    <div wicket:id="feedback" style="width: 360px;"></div>
+
+    <div class="container">
+        <div style="width:100%;height:90px;background-color: black;color:white;overflow: auto;font-size: 12px;">
+            <span wicket:id="taLog" style="width:100%;height:100%;background-color: black;color:white;"></span>
+        </div>
+    </div>
+
+
+</wicket:extend>
