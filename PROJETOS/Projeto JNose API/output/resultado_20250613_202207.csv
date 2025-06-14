@@ -1,0 +1,225 @@
+App,TestFileName,ProductionFileName,LOC,numberMethods,Assertion Roulette,Eager Test,Mystery Guest,Sleepy Test,Unknown Test,Redundant Assertion,Dependent Test,Magic Number Test,Conditional Test Logic,EmptyTest,General Fixture,IgnoredTest,Sensitive Equality,Verbose Test,Default Test,Resource Optimism,Duplicate Assert,Exception Catching Throwing,Constructor Initialization,Print Statement,Lazy Test
+repo_clonado,ArraySorterTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/ArraySorter.java,113,9,9,0,0,0,0,0,0,0,0,0,0,9,0,0,0,0,0,0,0,0,1
+repo_clonado,StringUtilsAbbreviateTest,,245,9,0,0,0,0,0,1,0,91,0,0,0,7,0,3,0,0,0,0,0,0,0
+repo_clonado,MutableDoubleTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/mutable/MutableDouble.java,284,26,33,24,0,0,0,4,0,44,0,0,0,26,3,0,0,0,1,0,0,0,10
+repo_clonado,MutableShortTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/mutable/MutableShort.java,257,22,47,21,0,0,0,4,0,13,0,0,0,22,3,0,0,0,0,0,0,0,8
+repo_clonado,MutableBooleanTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/mutable/MutableBoolean.java,144,9,34,7,0,0,0,4,0,4,0,0,0,9,4,0,0,0,2,0,0,0,4
+repo_clonado,MutableLongTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/mutable/MutableLong.java,275,25,51,23,0,0,0,4,0,34,0,0,0,25,3,0,0,0,0,0,0,0,9
+repo_clonado,MutableFloatTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/mutable/MutableFloat.java,285,26,32,24,0,0,0,4,0,44,0,0,0,26,3,0,0,0,2,0,0,0,10
+repo_clonado,MutableByteTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/mutable/MutableByte.java,271,25,47,23,0,0,0,4,0,13,0,0,0,25,3,0,0,0,0,0,0,0,10
+repo_clonado,MutableIntTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/mutable/MutableInt.java,281,26,50,23,0,0,1,4,0,43,0,0,0,26,3,0,0,0,0,0,0,0,9
+repo_clonado,MutableObjectTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/mutable/MutableObject.java,103,5,25,1,0,0,0,5,0,1,0,0,0,5,3,0,0,0,0,0,0,0,1
+repo_clonado,LocaleUtilsTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/LocaleUtils.java,566,34,26,2,0,0,0,0,0,1,5,0,0,19,0,2,0,0,1,0,0,0,2
+repo_clonado,CharSetTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/CharSet.java,471,15,189,10,0,0,0,6,0,40,0,0,0,15,14,7,0,0,30,0,0,0,4
+repo_clonado,ClassLoaderUtilsTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/ClassLoaderUtils.java,66,4,2,0,0,0,0,0,0,0,0,0,0,4,4,0,0,0,0,2,0,0,1
+repo_clonado,ConversionTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/Conversion.java,1765,45,484,1,0,0,0,0,0,409,3,0,0,43,0,18,0,0,0,0,0,0,4
+repo_clonado,ClassUtilsOssFuzzTest,,50,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+repo_clonado,SystemUtilsTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/SystemUtils.java,1477,26,1101,0,4,0,0,0,0,1,41,0,0,24,0,6,0,0,127,0,0,1,1
+repo_clonado,StringsTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/Strings.java,104,8,20,2,0,0,0,0,0,0,0,0,0,7,0,0,0,0,0,0,0,0,4
+repo_clonado,AnnotationUtilsTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/AnnotationUtils.java,522,23,20,0,0,0,0,0,0,0,5,0,0,10,2,1,0,0,0,0,0,0,1
+repo_clonado,StringUtilsStartsEndsWithTest,,196,12,0,0,0,0,0,0,0,0,0,0,0,6,0,1,0,0,0,0,0,0,0
+repo_clonado,StreamsTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/Streams.java,188,10,6,5,0,0,0,0,0,5,2,0,0,5,0,0,0,0,0,0,0,0,3
+repo_clonado,DeeplyNested,,1535,0,0,0,0,0,0,0,0,41,0,0,0,66,2,10,0,0,0,0,0,0,0
+repo_clonado,FluentBitSetTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/util/FluentBitSet.java,1828,48,0,38,0,0,0,0,0,236,107,0,0,43,8,15,0,0,25,13,0,0,16
+repo_clonado,IterableStringTokenizerTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/util/IterableStringTokenizer.java,170,18,25,12,0,0,0,0,0,0,0,0,0,14,0,0,0,0,1,0,0,0,3
+repo_clonado,Testable,,1104,29,0,0,0,0,47,0,0,10,0,0,0,55,0,0,0,0,0,0,0,0,0
+repo_clonado,ArrayUtilsInsertTest,,249,9,0,0,0,0,0,0,0,67,0,0,0,9,0,0,0,0,0,0,0,0,0
+repo_clonado,TripleTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/tuple/Triple.java,154,13,21,8,0,0,0,0,0,19,0,0,0,13,2,0,0,0,0,0,0,0,3
+repo_clonado,PairTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/tuple/Pair.java,325,21,49,14,0,0,2,4,0,15,0,0,0,18,2,1,0,0,4,0,0,0,8
+repo_clonado,ImmutablePairTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/tuple/ImmutablePair.java,260,24,39,12,0,0,0,5,0,15,3,0,0,24,6,0,0,0,0,0,0,0,6
+repo_clonado,MutablePairTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/tuple/MutablePair.java,155,12,25,7,0,0,0,3,0,7,2,0,0,12,4,0,0,0,0,0,0,0,3
+repo_clonado,ImmutableTripleTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/tuple/ImmutableTriple.java,202,17,37,8,0,0,0,5,0,10,1,0,0,17,7,0,0,0,0,0,0,0,5
+repo_clonado,MutableTripleTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/tuple/MutableTriple.java,138,11,28,6,0,0,0,3,0,6,0,0,0,11,7,0,0,0,0,0,0,0,4
+repo_clonado,SystemPropertiesTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/SystemProperties.java,731,51,22,5,0,0,2,0,0,4,3,0,0,49,0,2,0,0,1,3,0,0,4
+repo_clonado,ArrayUtilsSetTest,,61,2,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0
+repo_clonado,StringUtilsTrimStripTest,,281,17,0,0,0,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,0,0
+repo_clonado,StringEscapeUtilsTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/StringEscapeUtils.java,549,40,46,7,0,0,2,5,0,1,5,0,0,32,2,0,0,0,0,0,0,0,8
+repo_clonado,ArrayUtilsAddTest,,674,22,0,0,0,0,0,0,0,6,0,0,0,22,0,4,0,0,0,0,0,0,0
+repo_clonado,NotImplementedExceptionTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/NotImplementedException.java,58,2,0,1,0,0,0,0,0,0,0,0,0,1,2,0,0,0,0,0,0,0,0
+repo_clonado,StreamsTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/Streams.java,270,24,21,7,0,0,0,0,0,32,2,0,0,19,0,0,0,0,0,0,0,0,3
+repo_clonado,Fixture,,270,3,0,0,0,0,0,0,0,0,0,0,0,17,0,0,0,0,0,0,0,0,0
+repo_clonado,FailableStreamTest,,96,9,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0
+repo_clonado,IntStreamsTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/stream/IntStreams.java,46,3,2,3,0,0,0,0,0,3,0,0,0,3,0,0,0,0,0,0,0,0,0
+repo_clonado,TypeLiteralTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/reflect/TypeLiteral.java,68,4,4,0,0,0,0,2,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0
+repo_clonado,TestMutable,,1123,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+repo_clonado,TestBean,,245,14,0,0,0,0,2,0,0,0,0,0,0,8,16,0,0,0,0,0,0,0,0
+repo_clonado,InheritanceUtilsTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/reflect/InheritanceUtils.java,80,9,3,0,0,0,0,0,0,11,0,0,0,9,0,0,0,0,0,0,0,0,1
+repo_clonado,Lang1703Test,,35,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+repo_clonado,FieldUtilsTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/reflect/FieldUtils.java,1235,80,174,18,0,0,0,0,0,17,8,0,3,68,2,14,0,0,6,0,0,0,15
+repo_clonado,This,,1078,0,0,0,0,0,2,0,0,6,0,0,0,44,18,6,0,0,0,0,0,0,0
+repo_clonado,CharRangeTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/CharRange.java,381,17,158,16,0,0,0,6,0,0,1,0,0,17,8,2,0,0,6,0,0,0,10
+repo_clonado,Fixture,,142,3,0,0,0,0,0,2,0,0,0,0,0,7,12,0,0,0,0,0,0,0,0
+repo_clonado,RegExUtilsTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/RegExUtils.java,382,19,179,3,0,0,0,0,0,0,0,0,0,19,0,0,0,0,0,0,0,0,7
+repo_clonado,MethodInvokersFailableSupplierTest,,44,2,0,0,0,0,0,0,0,0,0,0,0,2,1,0,0,0,0,0,0,0,0
+repo_clonado,TriFunctionTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/function/TriFunction.java,74,2,6,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0
+repo_clonado,FunctionsTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/function/Functions.java,54,2,3,1,0,0,0,0,0,0,0,0,0,2,1,0,0,0,0,0,0,0,0
+repo_clonado,MethodInvokersSupplierTest,,48,2,0,0,0,0,0,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0,0
+repo_clonado,TriConsumerTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/function/TriConsumer.java,72,2,4,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0
+repo_clonado,IntToCharFunctionTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/function/IntToCharFunction.java,35,1,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0
+repo_clonado,BooleanConsumerTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/function/BooleanConsumer.java,80,3,4,1,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0
+repo_clonado,PredicatesTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/function/Predicates.java,49,2,6,2,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0
+repo_clonado,FailableSupplierTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/function/FailableSupplier.java,48,4,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,1
+repo_clonado,MethodInvokersBiFunctionTest,,65,5,0,0,0,0,0,0,0,1,0,0,0,5,1,0,0,0,0,0,0,0,0
+repo_clonado,ToBooleanBiFunctionTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/function/ToBooleanBiFunction.java,35,1,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0
+repo_clonado,MethodInvokersFunctionTest,,101,8,0,0,0,0,1,0,0,2,0,0,0,8,1,0,0,0,0,0,0,0,0
+repo_clonado,Testable,,2757,31,0,0,0,0,38,0,0,72,0,0,0,181,0,0,0,0,0,0,0,0,0
+repo_clonado,MethodInvokersFailableBiFunctionTest,,69,5,0,0,0,0,0,0,0,0,0,0,0,5,1,0,0,0,0,0,0,0,0
+repo_clonado,MethodInvokersFailableBiConsumerTest,,62,5,0,0,0,0,0,0,0,0,0,0,0,5,1,0,0,0,0,0,0,0,0
+repo_clonado,ConsumersTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/function/Consumers.java,63,2,0,1,0,0,1,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0
+repo_clonado,MethodInvokersFailableFunctionTest,,84,6,0,0,0,0,1,0,0,1,0,0,0,6,1,0,0,0,0,0,0,0,0
+repo_clonado,TestableSupplier,,141,5,0,0,0,0,0,0,0,0,0,0,0,4,0,1,0,0,0,0,0,0,0
+repo_clonado,SuppliersTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/function/Suppliers.java,43,1,3,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+repo_clonado,MethodInvokersBiConsumerTest,,56,3,0,0,0,0,0,0,0,0,0,0,0,3,2,0,0,0,0,0,0,0,0
+repo_clonado,MockRandom,,95,5,0,0,0,0,0,0,0,14,0,0,0,1,0,1,0,0,0,0,0,0,0
+repo_clonado,BitFieldTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/BitField.java,259,18,80,5,0,0,0,0,0,53,9,0,0,15,0,0,0,0,0,0,0,0,7
+repo_clonado,LongRangeTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/LongRange.java,434,36,126,2,0,0,1,6,0,14,0,0,4,29,2,3,0,0,4,1,0,0,2
+repo_clonado,FractionTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/math/Fraction.java,1132,27,308,24,0,0,0,2,0,272,4,0,0,26,7,15,0,0,63,0,0,0,8
+repo_clonado,NumberUtilsTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,1898,139,304,11,0,0,12,0,0,372,4,0,0,121,9,9,0,0,1,0,0,0,17
+repo_clonado,IEEE754rUtilsTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/math/IEEE754rUtils.java,105,3,1,2,0,0,1,0,0,12,0,0,0,3,0,1,0,0,2,0,0,0,2
+repo_clonado,StringUtilsEmptyBlankTest,,184,12,0,0,0,0,0,0,0,0,0,0,0,12,0,0,0,0,0,0,0,0,0
+repo_clonado,CalendarUtilsTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/time/CalendarUtils.java,147,10,29,8,0,0,0,0,0,4,0,0,0,10,1,0,0,0,0,0,0,0,2
+repo_clonado,FastDateParserTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/time/FastDateParser.java,747,61,37,2,0,0,6,0,0,0,6,0,0,33,2,2,0,0,1,2,0,0,3
+repo_clonado,FastTimeZoneTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/time/FastTimeZone.java,101,14,15,9,0,0,0,0,0,1,0,0,0,10,0,0,0,0,0,0,0,0,2
+repo_clonado,DateUtilsFragmentTest,,478,66,0,0,0,0,0,0,0,33,0,0,0,57,0,0,0,0,0,0,0,0,0
+repo_clonado,DateUtilsRoundingTest,,733,40,0,0,0,0,22,0,0,0,0,0,0,22,0,3,0,0,0,0,0,0,0
+repo_clonado,TimeZonesTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/time/TimeZones.java,39,2,2,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+repo_clonado,DurationFormatUtilsTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/time/DurationFormatUtils.java,730,38,150,1,0,0,2,2,0,11,5,0,0,33,3,7,0,0,12,0,0,0,6
+repo_clonado,FastDatePrinterTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/time/FastDatePrinter.java,449,34,48,2,0,0,0,0,0,0,1,0,0,23,8,1,0,0,0,0,0,0,2
+repo_clonado,StopWatchTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/time/StopWatch.java,506,35,52,25,0,0,0,0,0,26,0,0,0,26,5,1,0,0,11,0,0,0,20
+repo_clonado,FastDateFormatTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java,388,26,49,11,0,0,3,3,0,0,0,0,0,20,0,0,0,0,0,0,0,0,7
+repo_clonado,FastDatePrinterTimeZonesTest,,50,3,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+repo_clonado,DateUtilsTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/time/DateUtils.java,1576,106,42,6,0,0,4,0,0,84,2,0,15,68,0,8,0,0,40,0,0,0,11
+repo_clonado,GmtTimeZoneTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/time/GmtTimeZone.java,92,11,5,9,0,0,0,0,0,6,0,0,0,11,1,0,0,0,0,0,0,0,3
+repo_clonado,WeekYearTest,,82,3,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0
+repo_clonado,FastDateParserSDFTest,,219,10,0,0,0,0,6,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,0
+repo_clonado,FastDateParser_MoreOrLessTest,,116,8,0,0,0,0,0,0,0,13,0,0,0,7,0,0,0,0,0,0,0,0,0
+repo_clonado,DateFormatUtilsTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/time/DateFormatUtils.java,248,18,14,0,0,0,5,0,0,2,0,0,0,15,8,1,0,0,0,0,0,0,1
+repo_clonado,DurationUtilsTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/time/DurationUtils.java,158,12,53,4,0,0,0,0,0,34,0,0,0,12,0,0,0,0,0,0,0,0,2
+repo_clonado,Java15BugFastDateParserTest,,154,13,0,0,0,0,12,0,0,0,0,0,0,12,0,0,0,0,0,0,0,0,0
+repo_clonado,FastDateParser_TimeZoneStrategyTest,,229,15,0,0,0,0,6,0,0,0,0,0,0,9,1,1,0,0,0,0,0,0,0
+repo_clonado,ArrayUtilsRemoveTest,,776,37,0,0,0,0,0,0,0,52,0,0,0,37,0,0,0,0,0,0,0,0,0
+repo_clonado,ArrayFillTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/ArrayFill.java,218,19,14,0,0,0,0,0,0,0,10,0,0,19,0,0,0,0,0,0,0,0,1
+repo_clonado,BooleanUtilsTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/BooleanUtils.java,1173,90,152,7,0,0,0,0,0,27,0,0,0,90,21,8,0,0,5,0,0,0,12
+repo_clonado,ClassPathUtilsTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/ClassPathUtils.java,135,15,8,0,0,0,0,0,0,1,0,0,0,15,0,0,0,0,0,0,0,0,2
+repo_clonado,CharSetUtilsTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/CharSetUtils.java,247,11,131,0,0,0,0,0,0,27,0,0,0,11,0,0,0,0,2,0,0,0,5
+repo_clonado,StringUtilsValueOfTest,,41,3,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0
+repo_clonado,RandomStringUtilsTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/RandomStringUtils.java,818,42,4,2,0,0,0,0,0,43,67,0,0,38,0,2,0,0,8,0,0,0,10
+repo_clonado,ArchUtilsTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/ArchUtils.java,217,19,29,0,0,0,0,0,0,0,2,0,0,6,1,3,0,0,16,0,0,0,1
+repo_clonado,ConcurrentUtilsTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/concurrent/ConcurrentUtils.java,496,41,12,7,0,0,2,0,0,6,0,0,0,41,0,0,0,0,0,0,0,0,14
+repo_clonado,GetThread,,145,5,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0
+repo_clonado,AtomicSafeInitializerSupplierTest,,95,7,0,0,0,0,0,0,0,1,0,0,0,2,0,0,0,0,0,0,0,0,0
+repo_clonado,UncheckedExecutionExceptionTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/concurrent/UncheckedExecutionException.java,35,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+repo_clonado,LockingVisitorsTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/concurrent/locks/LockingVisitors.java,158,13,4,2,0,0,0,0,0,2,0,0,0,6,0,0,0,0,0,0,0,0,2
+repo_clonado,AtomicSafeInitializerTestImpl,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/concurrent/AtomicSafeInitializer.java,97,2,1,0,0,0,0,0,0,1,0,0,0,2,0,0,0,0,1,0,0,0,1
+repo_clonado,MethodBackgroundInitializerTestImpl,,392,3,0,0,0,0,1,0,0,0,0,0,0,16,0,0,0,0,0,0,0,0,0
+repo_clonado,MethodChildBackgroundInitializer,,528,1,0,0,0,1,1,0,0,0,0,0,0,18,0,1,0,0,0,0,0,0,0
+repo_clonado,FutureTasksTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/concurrent/FutureTasks.java,41,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+repo_clonado,MemoizerFunctionTest,,109,8,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,0
+repo_clonado,CloseableObject,,183,3,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,0
+repo_clonado,AtomicInitializerObjectTest,,62,2,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+repo_clonado,CircuitBreakingExceptionTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/concurrent/CircuitBreakingException.java,91,7,4,0,0,0,0,0,0,0,0,0,0,7,0,0,0,0,0,0,0,0,1
+repo_clonado,TestFuture,,124,6,0,0,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0,0,0,0,0
+repo_clonado,LazyInitializerTestImpl,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/concurrent/LazyInitializer.java,66,1,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+repo_clonado,SupplierChildBackgroundInitializer,,260,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+repo_clonado,EventCountCircuitBreakerTestImpl,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/concurrent/EventCountCircuitBreaker.java,414,4,0,16,0,0,4,0,0,1,9,0,0,18,0,0,0,0,0,0,0,0,8
+repo_clonado,AtomicInitializerNonObjectTest,,61,2,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+repo_clonado,UncheckedTimeoutExceptionTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/concurrent/UncheckedTimeoutException.java,35,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+repo_clonado,ConstantInitializerTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/concurrent/ConstantInitializer.java,143,12,0,1,0,0,3,0,0,1,0,0,1,8,0,0,0,0,0,0,0,0,2
+repo_clonado,LazyInitializerAnonClassTest,,52,2,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+repo_clonado,TestCallable,,107,2,0,0,0,0,0,0,0,1,0,0,0,4,0,0,0,0,0,0,0,0,0
+repo_clonado,LazyInitializerTestImpl,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/concurrent/LazyInitializer.java,58,1,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+repo_clonado,SupplierBackgroundInitializerTestImpl,,147,4,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0
+repo_clonado,BasicThreadFactoryTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/concurrent/BasicThreadFactory.java,330,22,1,11,0,0,4,0,0,1,2,0,1,17,0,0,0,0,0,0,0,0,10
+repo_clonado,LazyInitializerCloserTest,,54,3,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+repo_clonado,TryAcquireThread,,553,5,0,0,0,1,2,0,0,10,0,0,0,17,0,0,0,0,0,0,0,0,0
+repo_clonado,ThresholdCircuitBreakerTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/concurrent/ThresholdCircuitBreaker.java,88,7,0,5,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,2
+repo_clonado,LazyInitializerFailableCloserTest,,72,5,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+repo_clonado,MemoizerComputableTest,,107,8,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,0
+repo_clonado,EnumUtilsTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/EnumUtils.java,653,48,210,2,0,0,1,0,0,56,0,0,0,47,0,3,0,0,3,1,0,0,9
+repo_clonado,ArrayUtilsRemoveMultipleTest,,1327,56,0,0,0,0,0,0,0,11,0,0,0,55,0,18,0,0,0,0,0,0,0
+repo_clonado,CharEncodingTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/CharEncoding.java,84,6,12,0,0,0,1,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,1
+repo_clonado,Thing,,74,3,0,0,0,0,0,0,0,2,0,0,0,3,0,0,0,0,0,0,0,0,0
+repo_clonado,C_is_0,,474,5,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0
+repo_clonado,RandomUtilsTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/RandomUtils.java,563,61,20,0,0,0,0,0,0,36,2,0,0,59,0,0,0,0,0,0,0,0,10
+repo_clonado,StringUtilsTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/StringUtils.java,3249,195,1155,23,0,0,0,0,0,429,39,0,0,155,24,17,0,0,55,1,0,0,35
+repo_clonado,StringUtilsContainsTest,,468,23,0,0,0,0,0,0,0,23,0,0,0,23,0,1,0,0,0,0,0,0,0
+repo_clonado,WithMessage,,1642,5,0,0,0,0,73,0,0,7,0,0,0,0,0,0,0,0,0,0,0,0,0
+repo_clonado,StringUtilsIsTest,,174,8,0,0,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0,0,0,0,0
+repo_clonado,TestClass,,6642,0,0,0,0,0,0,2,0,1129,0,0,0,344,17,24,0,0,0,0,0,0,0
+repo_clonado,IntegerRangeTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/IntegerRange.java,419,35,117,3,0,0,1,6,0,44,0,0,4,28,2,3,0,0,4,1,0,0,2
+repo_clonado,SerializationUtilsTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/SerializationUtils.java,386,34,34,1,0,0,0,0,0,1,1,0,3,28,0,0,0,0,3,9,0,0,3
+repo_clonado,RuntimeEnvironmentTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/RuntimeEnvironment.java,85,7,0,0,0,0,1,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0
+repo_clonado,StrLookupTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/text/StrLookup.java,112,6,11,6,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,2,0,0,3
+repo_clonado,StrMatcherTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/text/StrMatcher.java,202,16,76,14,0,0,0,0,0,75,0,0,0,14,0,0,0,0,0,0,0,0,4
+repo_clonado,WordUtilsTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/text/WordUtils.java,432,16,198,0,0,0,2,0,0,45,0,0,0,16,0,3,0,0,18,0,0,0,5
+repo_clonado,OctalUnescaperTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/text/translate/OctalUnescaper.java,84,1,0,1,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0
+repo_clonado,LookupTranslatorTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/text/translate/LookupTranslator.java,53,2,0,2,0,0,0,0,0,2,0,0,0,2,2,0,0,0,0,0,0,0,2
+repo_clonado,UnicodeEscaperTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/text/translate/UnicodeEscaper.java,57,3,0,3,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,1
+repo_clonado,UnicodeUnpairedSurrogateRemoverTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/text/translate/UnicodeUnpairedSurrogateRemover.java,51,4,4,0,0,0,0,0,0,2,0,0,0,2,0,0,0,0,0,0,0,0,1
+repo_clonado,NumericEntityEscaperTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/text/translate/NumericEntityEscaper.java,70,4,0,4,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,1
+repo_clonado,UnicodeUnescaperTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/text/translate/UnicodeUnescaper.java,60,3,0,3,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,2
+repo_clonado,EntityArraysTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/text/translate/EntityArrays.java,73,3,0,0,0,0,1,0,0,0,4,0,0,3,0,0,0,0,0,0,0,2,0
+repo_clonado,NumericEntityUnescaperTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/text/translate/NumericEntityUnescaper.java,77,3,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,1
+repo_clonado,StrTokenizerTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/text/StrTokenizer.java,848,61,169,52,0,0,6,0,0,20,9,0,0,58,10,1,0,0,24,0,0,0,21
+repo_clonado,CompositeFormatTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/text/CompositeFormat.java,89,2,1,2,0,0,0,0,0,0,0,0,0,2,0,1,0,0,0,0,0,0,3
+repo_clonado,UpperCaseFormatFactory,,496,2,0,0,0,0,3,0,0,0,0,0,0,11,2,1,0,0,0,0,0,0,0
+repo_clonado,StrSubstitutorTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/text/StrSubstitutor.java,714,46,15,19,0,0,17,0,0,1,0,0,1,41,2,1,0,0,7,0,0,0,5
+repo_clonado,StrBuilderAppendInsertTest,,1449,53,0,0,0,0,0,0,0,27,0,0,0,51,214,11,0,0,0,0,0,0,0
+repo_clonado,FormattableUtilsTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/text/FormattableUtils.java,118,5,56,4,0,0,0,0,0,0,0,0,0,5,60,0,0,0,0,0,0,0,1
+repo_clonado,MockReadable,,1854,3,0,0,0,0,0,0,0,291,0,0,0,91,190,13,0,0,0,0,0,0,0
+repo_clonado,CharsetsTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/Charsets.java,51,3,5,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,1
+repo_clonado,StringUtilsSubstringTest,,385,22,0,0,0,0,0,0,0,102,0,0,0,17,0,1,0,0,0,0,0,0,0
+repo_clonado,DerivedComparableB,,446,0,0,0,0,0,1,6,0,59,0,0,0,28,2,3,0,0,0,0,0,0,0
+repo_clonado,DoubleRangeTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/DoubleRange.java,412,34,118,4,0,0,1,6,0,43,0,0,4,27,3,3,0,0,4,0,0,0,2
+repo_clonado,CharUtilsTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/CharUtils.java,350,27,113,0,0,0,0,4,0,31,20,0,0,24,7,0,0,0,3,0,0,0,5
+repo_clonado,TestFeature,,239,5,0,0,0,0,18,0,0,0,0,0,0,20,2,0,0,0,0,0,0,0,0
+repo_clonado,StandardToStringStyleTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/builder/StandardToStringStyle.java,230,26,41,9,0,0,0,0,0,0,0,0,0,20,44,0,0,0,0,0,0,0,1
+repo_clonado,IDKeyTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/builder/IDKey.java,37,1,2,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+repo_clonado,MyTemporalAmount,,295,11,0,0,0,0,0,0,0,0,0,0,0,2,4,0,0,0,0,0,0,0,0
+repo_clonado,CustomReflectionToStringBuilder,,55,3,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+repo_clonado,ConversionTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/Conversion.java,43,3,1,0,0,0,0,0,0,2,0,0,0,3,0,0,0,0,0,0,0,0,1
+repo_clonado,ShortPrefixToStringStyleTest,,154,15,0,0,0,0,0,0,0,0,0,0,0,11,44,0,0,0,0,0,0,0,0
+repo_clonado,ToStringStyleImpl,,137,1,0,0,0,0,0,0,0,0,0,0,0,12,0,0,0,0,0,0,0,0,0
+repo_clonado,TestFixture,,165,3,0,0,0,0,0,0,0,0,0,0,0,5,38,0,0,0,0,0,0,0,0
+repo_clonado,NoFieldNamesToStringStyleTest,,154,15,0,0,0,0,0,0,0,0,0,0,0,11,44,0,0,0,0,0,0,0,0
+repo_clonado,TypeTestClass,,600,23,0,0,0,0,0,0,0,41,0,0,0,39,2,0,0,0,0,0,0,0,0
+repo_clonado,NoClassNameToStringStyleTest,,152,14,0,0,0,0,0,0,0,0,0,0,0,11,44,0,0,0,0,0,0,0,0
+repo_clonado,SimpleClass,,180,4,0,0,0,0,0,0,0,1,0,0,0,11,4,0,0,0,0,0,0,0,0
+repo_clonado,TestTTSubObject,,1494,2,0,0,0,0,2,4,0,0,0,0,0,62,0,2,0,0,0,0,0,0,0
+repo_clonado,MultiLineToStringStyleTest,,154,15,0,0,0,0,0,0,0,0,0,0,0,11,44,0,0,0,0,0,0,0,0
+repo_clonado,CollectionHolder,,117,2,0,0,0,0,3,0,0,0,0,0,0,4,0,1,0,0,0,0,0,0,0
+repo_clonado,TestFixture,,56,2,0,0,0,0,0,0,0,0,0,0,0,1,4,0,0,0,0,0,0,0,0
+repo_clonado,TestFixture,,107,6,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+repo_clonado,Person,,163,4,0,0,0,0,0,0,0,0,0,0,0,8,34,0,0,0,0,0,0,0,0
+repo_clonado,TestFixture,,138,2,0,0,0,0,11,0,0,0,0,0,0,11,0,0,0,0,0,0,0,0,0
+repo_clonado,TypeTestClass,,297,30,0,0,0,0,0,0,0,23,0,0,0,16,0,0,0,0,0,0,0,0,0
+repo_clonado,ReflectionToStringBuilderSummaryTest,,38,3,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+repo_clonado,ReflectionToStringBuilderTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/builder/ReflectionToStringBuilder.java,34,1,0,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+repo_clonado,TestSubObject,,635,6,0,0,0,0,0,1,0,107,0,0,0,46,0,0,0,0,0,0,0,0,0
+repo_clonado,SimpleReflectionTestFixture,,1205,4,0,0,0,0,1,0,0,1,0,0,0,95,228,0,0,0,0,0,0,0,0
+repo_clonado,TestFixture,,146,5,0,0,0,0,4,0,0,7,0,0,0,7,0,0,0,0,0,0,0,0,0
+repo_clonado,BooleanDiff,,71,4,0,0,0,0,0,0,0,0,0,0,0,4,1,0,0,0,0,0,0,0,0
+repo_clonado,TestTransientSubObject,,1173,2,0,0,0,0,1,0,0,307,0,0,0,49,0,0,0,0,0,0,0,0,0
+repo_clonado,DefaultToStringStyleTest,,154,15,0,0,0,0,0,0,0,0,0,0,0,11,44,0,0,0,0,0,0,0,0
+repo_clonado,CollectionHolder,,109,2,0,0,0,0,4,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0
+repo_clonado,WithArrays,,310,9,0,0,0,0,0,0,0,0,0,0,0,1,14,0,0,0,0,0,0,0,0
+repo_clonado,Teacher,,634,4,0,0,0,0,0,0,0,0,0,0,0,29,102,1,0,0,0,0,0,0,0
+repo_clonado,SimpleToStringStyleTest,,152,14,0,0,0,0,0,0,0,0,0,0,0,11,44,0,0,0,0,0,0,0,0
+repo_clonado,UncheckedIllegalAccessExceptionTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/exception/UncheckedIllegalAccessException.java,35,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+repo_clonado,UncheckedReflectiveOperationExceptionTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/exception/UncheckedReflectiveOperationException.java,35,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+repo_clonado,ContextedExceptionTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/exception/ContextedException.java,118,9,12,7,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0,0,0,0,2
+repo_clonado,ContextedRuntimeExceptionTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/exception/ContextedRuntimeException.java,117,8,12,7,0,0,0,0,0,0,0,0,0,7,0,0,0,0,0,0,0,0,2
+repo_clonado,UncheckedExceptionTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/exception/UncheckedException.java,35,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+repo_clonado,ObjectWithFaultyToString,,189,1,0,0,0,0,0,0,0,13,0,0,0,7,0,1,0,0,0,0,0,0,0
+repo_clonado,TestThrowable,,938,1,0,0,0,0,1,0,0,173,0,0,0,64,1,0,0,0,0,0,0,0,0
+repo_clonado,CloneFailedExceptionTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/exception/CloneFailedException.java,83,6,4,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,1
+repo_clonado,DefaultExceptionContextTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/exception/DefaultExceptionContext.java,70,4,4,3,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,3
+repo_clonado,UncheckedInterruptedExceptionTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/exception/UncheckedInterruptedException.java,35,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+repo_clonado,WrapperString,,314,8,0,0,0,0,4,0,0,9,0,0,0,11,3,1,0,0,0,0,0,0,0
+repo_clonado,EventListenerSupportTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/event/EventListenerSupport.java,282,14,20,10,0,0,1,0,0,17,5,0,0,12,0,1,0,0,4,1,0,0,5
+repo_clonado,PropertyChangeSource,,224,6,0,0,0,0,0,0,0,11,0,0,0,8,0,0,0,0,0,0,0,0,0
+repo_clonado,JavaVersionTest,/Users/joaopauloaramuni/Downloads/Projeto JNose API/repo_clonado/src/main/java/org/apache/commons/lang3/JavaVersion.java,80,3,14,0,0,0,0,0,0,0,0,0,0,3,1,1,0,0,0,0,0,0,0
+repo_clonado,CustomCharSequence,,828,8,0,0,0,0,0,1,0,410,0,0,0,37,7,4,0,0,0,0,0,0,0
+repo_clonado,TestThread,,423,5,0,0,0,0,2,0,0,25,0,0,0,32,0,1,0,0,0,0,0,0,0
+repo_clonado,UncloneableString,,910,2,0,0,0,0,0,0,0,36,0,0,0,58,24,2,0,0,0,0,0,0,0
+repo_clonado,AbstractLangTest,,38,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
