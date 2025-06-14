@@ -6,17 +6,34 @@ Este projeto automatiza o processo de análise de **Test Smells** em projetos Ja
 
 ---
 
-## 🤖 O que é o JNose?
+## 👃 O que é o JNose?
 
 O **JNose** é uma ferramenta de análise estática para identificar *Test Smells* em testes automatizados escritos em Java. Ele avalia a qualidade dos testes para detectar padrões que podem indicar problemas, como testes frágeis, repetitivos ou difíceis de manter.
 
 O JNose Test é uma ferramenta desenvolvida para detectar automaticamente test smells no código de teste e coletar métricas de cobertura. O JNose Test foi baseado no tsDetect. Além de apresentar o número de test smells detectados por classe, a ferramenta mostra a coleção de métricas de código e cobertura de teste usando a biblioteca JaCoCo; um resultado unificado para todos os projetos em análise; e uma interface gráfica. Além disso, o projeto usa o Apache Maven para gerenciar todas as dependências da biblioteca e oferecer suporte à compilação e execução da ferramenta JNose Test.
 
-O JNose foi apresentado na `CBSoft’20 — Congresso Brasileiro de Software`, na trilha `SBES Tools Track`, onde recebeu o prêmio Best Paper. A pesquisa associada está publicada no Journal of Software Engineering Research and Development (JSERD) no artigo: "On the test smells detection: an empirical study on the JNose Test accuracy".
+O JNose foi apresentado na `CBSoft’20 — Congresso Brasileiro de Software`, na trilha `SBES Tools Track`, onde recebeu o prêmio `Best Paper` 🏆.
 
 Autores: Tássio Virgínio (Federal Institute of Tocantins), Luana Martins, Railana Santana, Larissa Rocha, Ivan Machado (Federal University of Bahia), Adriana Cruz, Heitor Costa (Federal University of Lavras)
 
-- DOI: https://doi.org/10.5753/jserd.2021.1893
+### 📚 Referências
+
+2021 — `On the test smells detection: an empirical study on the JNose Test accuracy`
+Journal of Software Engineering Research and Development
+https://doi.org/10.5753/jserd.2021.1893
+
+2020 - `JNose: Java Test Smell Detector`
+Congresso Brasileiro de Software: Teoria e Prática (CBSoft - 2020)
+http://cbsoft2020.imd.ufrn.br/artigos.php?evento=sbes-ferramentas - Ferramentas
+
+2020 - `An Empirical Study of Automatically-Generated Tests from the Perspective of Test Smells`
+Congresso Brasileiro de Software: Teoria e Prática (CBSoft - 2020) - Pesquisa
+http://cbsoft2020.imd.ufrn.br/artigos.php?evento=sbes-pesquisa
+
+2019 — `On the influence of Test Smells on Test Coverage`
+33º Simpósio Brasileiro de Engenharia de Software (SBES - 2019)
+Proceedings of the XXXIII Brazilian Symposium on Software Engineering
+https://dl.acm.org/doi/10.1145/3350768.3350775
 
 ---
 
@@ -47,6 +64,12 @@ O **JNose** e o **JNose-Core** são projetos relacionados, mas com focos e funci
 - Gerencia a análise de projetos Java completos, integrando detecção de *test smells*, métricas de cobertura (via JaCoCo) e métricas de código.
 - Facilita o uso para usuários finais, oferecendo uma experiência “pronta para uso”.
 - Normalmente usado para execução direta e análise de projetos.
+
+#### 🖼️ Interface Gráfica
+
+| ![Interface](https://joaopauloaramuni.github.io/python-imgs/JNose_Test_Smells_Analyser/imgs/home.png) |
+|:------------------------:|
+|         Interface        |
 
 ### JNose-Core
 
@@ -155,7 +178,7 @@ Para rodar este projeto, você precisa das seguintes dependências instaladas e 
 
 ---
 
-### Observação importante
+### 🔭 Observação importante
 
 - Certifique-se que o comando `mvn` e `gradle` estejam disponíveis no PATH do seu sistema.  
 - O projeto JNose (pasta `jnose`) e sua dependência `jnose-core` devem estar presentes na mesma pasta do script para a execução correta.
