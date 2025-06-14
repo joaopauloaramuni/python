@@ -208,15 +208,39 @@ source .venv/bin/activate
 
 ## 📚 Documentação e Links úteis
 
+### :octocat: GitHub
+
 - [Site oficial do JNose](https://jnosetest.github.io/)
 - [Repositório GitHub do JNose Core](https://github.com/arieslab/jnose-core)
 - [Repositório GitHub do JNose](https://github.com/arieslab/jnose)
 - [Tutorial em Português do JNose](https://github.com/arieslab/jnose/blob/main/TUTORIAL_pt-br.md)
-- [Artigo na SBC sobre JNose](https://journals-sol.sbc.org.br/index.php/jserd/article/view/1893)
-- [PDF do Artigo - Online](https://journals-sol.sbc.org.br/index.php/jserd/article/view/1893/1798)
-- [PDF do Artigo - Local](https://github.com/joaopauloaramuni/python/tree/main/PROJETOS/Projeto%20JNose%20Test%20Smells%20Analyser/artigo/1893-Article-7403-2-10-20220214.pdf)
+
+### ▶️ Vídeos
+
 - [Apresentação do JNose Test por Luana Martins](https://www.youtube.com/watch?v=6qrglBetOSc&ab_channel=LuanaMartins)
 - [Demonstração do JNose Test por Tássio Virgínio](https://www.youtube.com/watch?v=BfYtwqQeqHc&ab_channel=T%C3%A1ssioVirg%C3%ADnio)
+
+### 📄 Publicações
+
+**2021** — `On the test smells detection: an empirical study on the JNose Test accuracy`  
+*Journal of Software Engineering Research and Development*  
+🔗 [Versão SBC](https://journals-sol.sbc.org.br/index.php/jserd/article/view/1893)  
+🔗 [Versão online (PDF SBC)](https://journals-sol.sbc.org.br/index.php/jserd/article/view/1893/1798)  
+📁 [Versão local (PDF)](https://github.com/joaopauloaramuni/python/tree/main/PROJETOS/Projeto%20JNose%20Test%20Smells%20Analyser/artigo/1893-Article-7403-2-10-20220214.pdf)  
+🔗 [DOI](https://doi.org/10.5753/jserd.2021.1893)  
+
+**2020** — `JNose: Java Test Smell Detector`  
+*Congresso Brasileiro de Software: Teoria e Prática (CBSoft - 2020) — Trilha de Ferramentas*  
+🔗 [http://cbsoft2020.imd.ufrn.br/artigos.php?evento=sbes-ferramentas](http://cbsoft2020.imd.ufrn.br/artigos.php?evento=sbes-ferramentas)  
+
+**2020** — `An Empirical Study of Automatically-Generated Tests from the Perspective of Test Smells`  
+*Congresso Brasileiro de Software: Teoria e Prática (CBSoft - 2020) — Trilha de Pesquisa*  
+🔗 [http://cbsoft2020.imd.ufrn.br/artigos.php?evento=sbes-pesquisa](http://cbsoft2020.imd.ufrn.br/artigos.php?evento=sbes-pesquisa)  
+
+**2019** — `On the influence of Test Smells on Test Coverage`  
+*33º Simpósio Brasileiro de Engenharia de Software (SBES - 2019)*  
+Proceedings of the XXXIII Brazilian Symposium on Software Engineering  
+🔗 [https://dl.acm.org/doi/10.1145/3350768.3350775](https://dl.acm.org/doi/10.1145/3350768.3350775)  
 
 ---
 
