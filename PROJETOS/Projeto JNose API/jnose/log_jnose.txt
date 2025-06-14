@@ -1,1 +1,0 @@
-20250613-20:39:44 - repo_clonado - <font style='color:yellow'>TestSmellDetector novo</font> <br>
