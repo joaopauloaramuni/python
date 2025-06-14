@@ -4,6 +4,8 @@
 
 Este projeto automatiza o processo de análise de **Test Smells** em projetos Java usando a ferramenta **JNose**. Ele realiza o clone de um repositório público, compila o projeto (suportando Maven e Gradle) e executa o JNose para gerar um arquivo CSV contendo métricas relacionadas aos testes do projeto.
 
+<p align="center"><img src="https://joaopauloaramuni.github.io/python-imgs/JNose_Test_Smells_Analyser/imgs/logo_jnose.png?raw=true" width="70"></p>
+
 ---
 
 ## 👃 O que é o JNose?
