@@ -12,7 +12,7 @@ BASE_DIR = os.path.abspath(".")                     # Diretório base onde o scr
 JNOSE_DIR = os.path.join(BASE_DIR, "jnose")         # Caminho local do projeto JNose
 OUTPUT_DIR = os.path.join(BASE_DIR, "output")       # Pasta onde será salvo o CSV de saída
 caminho = urlparse(REPO_URL).path                   # Extrai o caminho da URL (ex: /apache/commons-lang)
-NOME_REPO = os.path.basename(caminho)               # Extrai o nome do repositório (último segmento do caminho)     
+NOME_REPO = os.path.basename(caminho)               # Extrai o nome do repositório (último segmento do caminho)           
 CLONE_DIR = os.path.join(BASE_DIR, NOME_REPO)       # Caminho onde o repositório será clonado
 TIMEOUT = 300                                       # Tempo limite (em segundos) para operações demoradas
 
