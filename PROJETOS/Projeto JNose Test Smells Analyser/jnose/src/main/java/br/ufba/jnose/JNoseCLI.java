@@ -36,9 +36,12 @@ public class JNoseCLI {
             System.out.println("📄 Log de execução:");
             System.out.println(logRetorno.toString());
 
+            System.exit(0);
+
         } catch (Exception e) {
             System.err.println("❌ Erro ao processar: " + e.getMessage());
             e.printStackTrace();
+            System.exit(1);
         }
     }
 }
