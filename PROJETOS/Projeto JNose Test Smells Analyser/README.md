@@ -128,6 +128,19 @@ Ambas as pastas são essenciais:
 
 Certifique-se de clonar ou copiar esses dois diretórios para o local correto antes de executar o projeto para evitar erros de compilação ou execução.
 
+### 🛠️ Compilando o JNose antes de usar
+
+Antes de executar o script principal, é necessário **compilar o projeto JNose** para que a pasta `target/` (com os arquivos `.class`) seja gerada corretamente.
+
+Execute o seguinte comando dentro da pasta `jnose`:
+
+```bash
+cd jnose
+mvn clean compile
+```
+
+Esse passo garante que a ferramenta esteja devidamente compilada e pronta para executar a análise dos Test Smells.
+
 ---
 
 ## 🛠️ Explicação das Funções do Script
