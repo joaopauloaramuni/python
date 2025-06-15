@@ -3,15 +3,18 @@ import os
 import subprocess
 import stat
 from datetime import datetime
+from urllib.parse import urlparse
 
 # ========== CONFIGURAÇÕES ==========
 REPO_URL = "https://github.com/apache/commons-lang" # Maven
-# REPO_URL = "https://github.com/mockito/mockito" # Gradle
-BASE_DIR = os.path.abspath(".")
-JNOSE_DIR = os.path.join(BASE_DIR, "jnose")             # Caminho local do projeto JNose
-OUTPUT_DIR = os.path.join(BASE_DIR, "output")           # Pasta onde será salvo o CSV de saída
-CLONE_DIR = os.path.join(BASE_DIR, "repo_clonado")      # Caminho onde o repositório será clonado
-TIMEOUT = 300                                           # Tempo limite (em segundos) para operações demoradas
+# REPO_URL = "https://github.com/mockito/mockito"   # Gradle
+BASE_DIR = os.path.abspath(".")                     # Diretório base onde o script está localizado  
+JNOSE_DIR = os.path.join(BASE_DIR, "jnose")         # Caminho local do projeto JNose
+OUTPUT_DIR = os.path.join(BASE_DIR, "output")       # Pasta onde será salvo o CSV de saída
+caminho = urlparse(REPO_URL).path                   # Extrai o caminho da URL (ex: /apache/commons-lang)
+NOME_REPO = os.path.basename(caminho)               # Extrai o nome do repositório (último segmento do caminho)     
+CLONE_DIR = os.path.join(BASE_DIR, NOME_REPO)       # Caminho onde o repositório será clonado
+TIMEOUT = 300                                       # Tempo limite (em segundos) para operações demoradas
 
 # ========== FUNÇÕES ==========
 def clone_repo(repo_url, local_path):
