@@ -8,7 +8,7 @@ from datetime import datetime
 REPO_URL = "https://github.com/apache/commons-lang" # Maven
 # REPO_URL = "https://github.com/mockito/mockito" # Gradle
 BASE_DIR = os.path.abspath(".")
-JNose_DIR = os.path.join(BASE_DIR, "jnose")             # Caminho local do projeto JNose
+JNOSE_DIR = os.path.join(BASE_DIR, "jnose")             # Caminho local do projeto JNose
 OUTPUT_DIR = os.path.join(BASE_DIR, "output")           # Pasta onde será salvo o CSV de saída
 CLONE_DIR = os.path.join(BASE_DIR, "repo_clonado")      # Caminho onde o repositório será clonado
 TIMEOUT = 300                                           # Tempo limite (em segundos) para operações demoradas
@@ -27,7 +27,7 @@ def clone_repo(repo_url, local_path):
 
 def compilar_projeto_java(repo_path):
     print("🔧 Compilando projeto Java clonado...")
-
+    start_time = datetime.now()
     try:
         if os.path.exists(os.path.join(repo_path, "pom.xml")):
             print("🛠️ Projeto Maven detectado.")
@@ -91,12 +91,15 @@ def compilar_projeto_java(repo_path):
     except Exception as e:
         print(f"❌ Erro inesperado na compilação: {e}")
         return False
+    finally:
+        print(f"⏰ Duração: {datetime.now() - start_time}")
 
 def rodar_jnose(projeto_java, output_csv):
     """
     Executa o JNose com o caminho do projeto Java e o destino do arquivo CSV de saída.
     """
     print("🚀 Rodando JNose...")
+    start_time = datetime.now()
     args = f'"{projeto_java}" "{output_csv}"'
 
     comando = [
@@ -106,13 +109,45 @@ def rodar_jnose(projeto_java, output_csv):
         "-Dexec.jvmArgs=-Xmx512m",
         "--batch-mode"
     ]
-
-    # Executa o JNose via Maven no diretório do projeto JNose
-    resultado = subprocess.run(comando, cwd=JNose_DIR, timeout=TIMEOUT)
-    if resultado.returncode != 0:
-        raise RuntimeError("❌ Erro ao executar JNose.")
-    print(resultado.stdout)
-    print("✅ JNose finalizado.")
+    
+    print(f"[DEBUG] Comando: {' '.join(comando)}")
+    try:
+        print("▶️ Executando Maven subprocess...")
+        # Executa o JNose via Maven no diretório do projeto JNose
+        resultado = subprocess.run(
+            comando, 
+            cwd=JNOSE_DIR, 
+            timeout=TIMEOUT,
+            check=True  # levanta exceções se retornar código de erro
+        )
+        
+        if resultado.returncode != 0:
+            raise RuntimeError("❌ Erro ao executar JNose.")
+        
+        print("✅ Subprocesso finalizado.")
+        
+        print("[Maven][STDOUT]:", resultado.stdout)
+        print("[Maven][STDERR]:", resultado.stderr)
+        
+        if os.path.exists(output_csv):
+            if os.path.getsize(output_csv) > 0:
+                status = "Concluído"
+            else:
+                print(f"⚠️ Arquivo CSV gerado mas está vazio: {output_csv}")
+                status = "Falhou"
+        else:
+            status = "Falhou"
+        
+        print(f"✅ JNose Concluído {projeto_java}: {status}")
+        
+    except subprocess.TimeoutExpired:
+        print(f"⏱️ Timeout ao rodar em {projeto_java}")
+        print([projeto_java, "Timeout", datetime.now().isoformat()])
+    except Exception as e:
+        print(f"❌ Erro ao rodar em {projeto_java}: {e}")
+        print([projeto_java, f"Erro: {str(e)}", datetime.now().isoformat()])
+    finally:
+        print(f"⏰ Duração: {datetime.now() - start_time}")
 
 # ========== EXECUÇÃO ==========
 def main():
@@ -122,8 +157,7 @@ def main():
 
         # 2. Compila o projeto Java clonado (Maven ou Gradle)
         if not compilar_projeto_java(CLONE_DIR):
-            print("❌ Abortando execução de JNose devido à falha na compilação.")
-            return
+            raise RuntimeError("❌ Falha na compilação do projeto. Abortando execução de JNose.")
 
         # 3. Cria a pasta de saída (se ainda não existir)
         os.makedirs(OUTPUT_DIR, exist_ok=True)
@@ -137,9 +171,12 @@ def main():
         # 6. Informa o caminho final do arquivo gerado
         print(f"📁 Resultado salvo em: {output_csv}")
 
+    except RuntimeError as re:
+        # Captura erros de execução previstos, como falhas na compilação
+        print(f"❌ Erro de execução: {re}")
     except Exception as e:
         # Captura e exibe qualquer erro que ocorrer no processo
-        print(f"❌ Erro geral: {e}")
+        print(f"❌ Erro geral inesperado: {e}")
 
 # Executa o programa
 if __name__ == "__main__":
