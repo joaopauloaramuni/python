@@ -1,0 +1,441 @@
+App,TestFileName,ProductionFileName,LOC,numberMethods,Assertion Roulette,Eager Test,Mystery Guest,Sleepy Test,Unknown Test,Redundant Assertion,Dependent Test,Magic Number Test,Conditional Test Logic,EmptyTest,General Fixture,IgnoredTest,Sensitive Equality,Verbose Test,Default Test,Resource Optimism,Duplicate Assert,Exception Catching Throwing,Constructor Initialization,Print Statement,Lazy Test
+mockito,PluginTest,,25,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,MockitoAnyIncorrectPrimitiveTypeTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-extensions/mockito-errorprone/src/main/java/org/mockito/errorprone/bugpatterns/MockitoAnyIncorrectPrimitiveType.java,176,7,0,0,0,0,4,0,0,0,0,0,2,0,0,1,0,0,0,0,0,0,0
+mockito,MockitoNotExtensibleTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-extensions/mockito-errorprone/src/main/java/org/mockito/errorprone/bugpatterns/MockitoNotExtensible.java,69,5,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,MockitoAnyClassWithPrimitiveTypeTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-extensions/mockito-errorprone/src/main/java/org/mockito/errorprone/bugpatterns/MockitoAnyClassWithPrimitiveType.java,178,7,0,0,0,0,4,0,0,0,0,0,2,0,0,1,0,0,0,0,0,0,0
+mockito,MockitoInternalUsageTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-extensions/mockito-errorprone/src/main/java/org/mockito/errorprone/bugpatterns/MockitoInternalUsage.java,106,5,0,0,0,0,3,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+mockito,UnderTestWithSingleTypeParam,,429,2,0,0,0,0,0,0,0,0,0,0,0,11,0,0,0,0,0,0,0,0,0
+mockito,JunitJupiterTest,,170,17,0,0,0,0,0,0,0,2,0,0,0,0,1,0,0,0,0,0,0,0,0
+mockito,NestedSkipBeforeEachMockito,,65,3,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,Foo,,37,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,UnderTestWithMultipleCandidatesByType,,65,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+mockito,Level2Class,,42,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,StrictStubs,,211,2,0,0,0,0,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,InjectMocksTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/InjectMocks.java,95,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,MocksTest,,131,7,0,0,0,0,0,0,0,0,0,0,0,0,2,1,0,0,0,0,0,0,0
+mockito,NoJUnitDependenciesTest,,59,1,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+mockito,NoByteCodeDependenciesTest,,56,1,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+mockito,DeferMockMakersClassLoadingTest,,96,4,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,AnnotationsAreCopiedFromMockedTypeTest,,140,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,PrematureGarbageCollectionTest,,45,4,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+mockito,TestClass,,71,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,TestableJUnitRunner,,45,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,InOrderImplTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/InOrderImpl.java,37,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,MatcherApplicationStrategyTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/invocation/MatcherApplicationStrategy.java,387,31,1,17,0,0,0,3,0,0,0,1,1,0,0,1,0,0,0,0,0,0,16
+mockito,MockWeakReferenceTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/invocation/mockref/MockWeakReference.java,26,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+mockito,SerializableMethodTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/invocation/SerializableMethod.java,74,12,0,2,0,0,1,0,0,0,0,0,2,0,6,0,0,0,0,0,0,0,2
+mockito,InvocationMarkerTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/invocation/InvocationMarker.java,70,3,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+mockito,InvocationMatcherTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/invocation/InvocationMatcher.java,204,16,5,7,0,0,1,0,0,4,0,0,1,0,2,0,0,0,0,0,0,0,3
+mockito,InvocationsFinderTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/invocation/InvocationsFinder.java,250,22,11,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,2,0,0,0,5
+mockito,TypeSafeMatchingTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/invocation/TypeSafeMatching.java,161,13,2,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,14
+mockito,MockHandlerImplTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/handler/MockHandlerImpl.java,107,4,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,4
+mockito,InvocationNotifierHandlerTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/handler/InvocationNotifierHandler.java,149,17,1,1,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,2
+mockito,MockHandlerFactoryTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/handler/MockHandlerFactory.java,64,3,1,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,1
+mockito,InsaneEdgeCase,,153,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+mockito,PluralizerTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/reporting/Pluralizer.java,28,2,5,0,0,0,0,0,0,7,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,MockAnnotationProcessorTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/configuration/MockAnnotationProcessor.java,69,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+mockito,MockInjectionTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/configuration/injection/MockInjection.java,135,16,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,15
+mockito,DefaultMockitoPluginsTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/configuration/plugins/DefaultMockitoPlugins.java,76,5,7,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+mockito,PluginLoaderTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/configuration/plugins/PluginLoader.java,242,27,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+mockito,PluginFinderTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/configuration/plugins/PluginFinder.java,138,11,2,0,7,0,0,0,0,0,0,0,0,0,0,0,0,7,0,1,0,0,0
+mockito,PluginFileReaderTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/configuration/plugins/PluginFileReader.java,48,4,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,GlobalConfigurationTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/configuration/GlobalConfiguration.java,54,3,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,SimpleArgumentResolverTest,,68,4,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,ConstructorInjectionTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/configuration/injection/ConstructorInjection.java,55,8,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,ClassPathLoaderTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/configuration/ClassPathLoader.java,31,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,MockingProgressImplTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/progress/MockingProgressImpl.java,113,8,3,2,0,0,1,0,0,0,0,0,1,0,0,0,0,0,2,1,0,0,4
+mockito,AtLeastTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/verification/AtLeast.java,31,2,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+mockito,TimesTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/verification/Times.java,24,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,ThreadSafeMockingProgressTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/progress/ThreadSafeMockingProgress.java,47,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+mockito,MockNameImplTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/util/MockNameImpl.java,72,8,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6
+mockito,DefaultMockingDetailsTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/util/DefaultMockingDetails.java,237,25,20,2,0,0,0,0,0,5,0,0,0,0,2,0,0,0,1,4,0,0,24
+mockito,MockSettingsTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/MockSettings.java,43,2,4,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+mockito,HasCompare,,63,4,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0
+mockito,MockCreationValidatorTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/util/MockCreationValidator.java,74,6,1,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,1
+mockito,IOUtilTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/util/io/IOUtil.java,38,3,0,2,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+mockito,PrimitivesTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/util/Primitives.java,88,6,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+mockito,MockUtilTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/util/MockUtil.java,111,12,9,3,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,12
+mockito,StringUtilTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/util/StringUtil.java,61,7,5,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+mockito,TimerTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/util/Timer.java,55,4,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3
+mockito,SimpleMockitoLoggerTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/test/java/org/mockito/internal/util/SimpleMockitoLogger.java,23,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,ChecksTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/util/Checks.java,43,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+mockito,IdentitySetTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/util/collections/IdentitySet.java,47,4,3,2,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2
+mockito,HashCodeAndEqualsSafeSetTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/util/collections/HashCodeAndEqualsSafeSet.java,185,20,4,12,0,0,2,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,10
+mockito,PlatformTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/util/Platform.java,118,4,6,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0
+mockito,AbstractInner,,463,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+mockito,Foo,,36,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,ParameterizedConstructorInstantiatorTest,,170,20,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,GenericArrayReturnTypeTest,,39,3,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,HashMapNumberString,,89,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,FieldInitializerTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/util/reflection/FieldInitializer.java,245,37,10,7,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,28
+mockito,MemberAccessorTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/plugins/MemberAccessor.java,159,17,0,0,0,0,1,0,0,0,1,0,0,1,0,0,0,0,0,0,1,0,0
+mockito,SomeOtherObject,,172,0,0,0,0,0,2,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,BeanPropertySetterTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/util/reflection/BeanPropertySetter.java,165,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,SuperTypesLastSorterTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/util/reflection/SuperTypesLastSorter.java,136,19,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,SecondGeneric,,98,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+mockito,DefaultMockitoFrameworkTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/framework/DefaultMockitoFramework.java,271,16,7,2,0,0,4,0,0,0,0,0,0,0,0,0,0,0,2,2,0,0,6
+mockito,ExceptionFactoryTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/junit/ExceptionFactory.java,92,11,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0
+mockito,UnusedStubbingsTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/junit/UnusedStubbings.java,71,3,0,2,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,2
+mockito,ArgMismatchFinderTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/junit/ArgMismatchFinder.java,133,11,2,0,0,0,0,0,0,7,0,0,0,0,3,0,0,0,0,0,0,0,0
+mockito,JUnitRuleTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/junit/JUnitRule.java,54,6,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,StubbingArgMismatchesTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/junit/StubbingArgMismatches.java,86,5,0,2,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,2
+mockito,WarningsFinderTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/debugging/WarningsFinder.java,75,5,0,3,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2
+mockito,LoggingListenerTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/debugging/LoggingListener.java,135,7,3,6,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,5
+mockito,VerboseMockInvocationLoggerTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/debugging/VerboseMockInvocationLogger.java,111,14,2,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,1,0,0,0,2
+mockito,ScenarioPrinterTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/exceptions/util/ScenarioPrinter.java,47,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+mockito,ReporterTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/exceptions/Reporter.java,202,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,ConditionalStackTraceFilterTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/exceptions/stacktrace/ConditionalStackTraceFilter.java,49,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+mockito,StackTraceFilterTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/exceptions/stacktrace/StackTraceFilter.java,189,11,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1
+mockito,NumberOfInvocationsInOrderCheckerTest,,235,19,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,AtLeastXNumberOfInvocationsCheckerTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/verification/checkers/AtLeastXNumberOfInvocationsChecker.java,90,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+mockito,NumberOfInvocationsCheckerTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/verification/checkers/NumberOfInvocationsChecker.java,217,16,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,2
+mockito,MissingInvocationCheckerTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/verification/checkers/MissingInvocationChecker.java,220,16,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2
+mockito,MissingInvocationInOrderCheckerTest,,117,13,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,VerificationDataImplTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/verification/VerificationDataImpl.java,27,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+mockito,VerificationWithDescriptionTest,,41,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,VerificationDataStub,,136,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,SmartPrinterTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/reporting/SmartPrinter.java,82,8,4,4,0,0,0,0,0,0,4,0,2,0,0,0,0,0,0,0,0,0,3
+mockito,NoMoreInteractionsTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/verification/NoMoreInteractions.java,123,7,3,0,0,0,1,0,0,0,0,0,0,0,2,0,0,0,0,4,0,0,1
+mockito,DefaultRegisteredInvocationsTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/verification/DefaultRegisteredInvocations.java,36,3,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+mockito,ArgumentMatchingToolTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/verification/argumentmatching/ArgumentMatchingTool.java,184,9,1,0,0,0,0,0,0,9,0,0,0,0,0,1,0,0,0,0,0,0,3
+mockito,DescriptionTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/verification/Description.java,78,5,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,2
+mockito,NoInteractionsTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/verification/NoInteractions.java,41,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0
+mockito,VerificationOverTimeImplTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/verification/VerificationOverTimeImpl.java,70,7,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+mockito,SubclassByteBuddyMockMakerTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/SubclassByteBuddyMockMaker.java,217,15,17,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,6
+mockito,InlineByteBuddyMockMakerTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/InlineByteBuddyMockMaker.java,48,2,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,ByteBuddyMockMakerTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/ByteBuddyMockMaker.java,38,2,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,InlineDelegateByteBuddyMockMakerTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/InlineDelegateByteBuddyMockMaker.java,710,54,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,TypeCachingMockBytecodeGeneratorTest,,362,17,0,0,0,0,4,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0
+mockito,PlatformUtilsTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/PlatformUtils.java,90,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,AbstractByteBuddyMockMakerTest,,157,18,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,ProxyMockMakerTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/creation/proxy/ProxyMockMaker.java,101,8,6,3,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,4
+mockito,AbstractMockMakerTest,,102,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,DelegatingMethodTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/creation/DelegatingMethod.java,61,9,0,2,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,4
+mockito,SomeClass3,,103,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,MockSettingsImplTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/creation/MockSettingsImpl.java,269,22,10,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,5
+mockito,CloneableInterface,,26,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,AllInvocationsFinderTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/invocation/finder/AllInvocationsFinder.java,95,8,1,1,0,0,0,0,0,9,0,0,1,0,0,0,0,0,0,0,0,0,2
+mockito,DefaultInternalRunnerTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/runners/DefaultInternalRunner.java,118,11,0,3,0,0,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8
+mockito,HasTests,,29,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,RunnerProviderTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/runners/util/RunnerProvider.java,26,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,CallsRealMethodsTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/stubbing/answers/CallsRealMethods.java,54,3,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1
+mockito,InvocationInfoExceptionTest,,95,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,DoesNothingTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/stubbing/answers/DoesNothing.java,81,12,2,4,0,0,3,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,6
+mockito,ThrowsExceptionTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/stubbing/answers/ThrowsException.java,134,11,3,2,0,0,2,0,0,0,0,0,0,0,0,0,0,0,2,5,0,0,2
+mockito,DefaultAnswerValidatorTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/stubbing/answers/DefaultAnswerValidator.java,40,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1
+mockito,AnswersWithDelayTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/stubbing/answers/AnswersWithDelay.java,69,4,0,4,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3
+mockito,ReturnsArgumentAtTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/stubbing/answers/ReturnsArgumentAt.java,234,14,8,12,0,0,3,0,0,0,0,0,0,0,0,1,0,0,1,7,0,0,3
+mockito,ReturnsTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/stubbing/answers/Returns.java,121,6,0,6,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2
+mockito,ThrowsExceptionForClassTypeTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/stubbing/answers/ThrowsExceptionForClassType.java,30,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2
+mockito,DeepStubReturnsEnumJava11Test,,71,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,InvocationInfoTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/stubbing/answers/InvocationInfo.java,198,12,10,10,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,2
+mockito,AbstractThrowsExceptionTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/stubbing/answers/AbstractThrowsException.java,129,12,1,1,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3
+mockito,InvocationContainerImplStubbingTest,,115,11,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,Baz,,102,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,FooImpl,,41,1,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,GenericsNest,,211,8,0,0,0,0,6,0,0,2,0,0,0,0,0,1,0,0,0,0,0,0,0
+mockito,ReturnsDeepStubsConcurrentTest,,29,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,ReturnsMoreEmptyValuesTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/stubbing/defaultanswers/ReturnsMoreEmptyValues.java,28,3,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,ReturnsEmptyValuesTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/stubbing/defaultanswers/ReturnsEmptyValues.java,190,18,21,0,0,0,8,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,1
+mockito,Type,,154,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,ReturnsSmartNullsTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/stubbing/defaultanswers/ReturnsSmartNulls.java,373,25,16,0,0,0,0,0,0,3,0,0,0,0,7,0,0,0,0,2,0,0,3
+mockito,InvocationContainerImplTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/stubbing/InvocationContainerImpl.java,154,13,2,5,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4
+mockito,StringMatchersTest,,76,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,MatchersPrinterTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/matchers/text/MatchersPrinter.java,81,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2
+mockito,InstanceOfTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/matchers/InstanceOf.java,66,4,26,4,0,0,0,0,0,6,0,0,0,0,3,0,0,0,0,0,0,0,2
+mockito,EqualityTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/matchers/Equality.java,41,2,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,MatchersToStringTest,,120,17,0,0,0,0,0,0,0,0,0,0,0,0,18,0,0,0,0,0,0,0,0
+mockito,EqualsTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/matchers/Equals.java,118,14,6,14,0,0,0,2,0,3,0,0,0,0,0,0,0,0,0,0,0,0,5
+mockito,OrTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/matchers/Or.java,62,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3
+mockito,CapturingMatcherTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/matchers/CapturingMatcher.java,74,4,1,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,3
+mockito,EqualsBuilderTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/matchers/apachecommons/EqualsBuilder.java,1118,58,188,45,0,0,1,0,0,0,22,1,0,2,0,2,0,0,21,0,0,0,20
+mockito,ComparableMatchersTest,,59,6,0,0,0,0,4,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+mockito,AndTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/matchers/And.java,62,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3
+mockito,MatcherWithInheritedDescription,,83,1,0,0,0,0,0,0,0,0,0,0,0,0,7,0,0,0,0,0,0,0,0
+mockito,ValuePrinterTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/matchers/text/ValuePrinter.java,68,4,15,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,3
+mockito,SameTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/matchers/Same.java,25,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2
+mockito,StubbingLookupNotifierTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/listeners/StubbingLookupNotifier.java,70,7,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2
+mockito,VerificationStartedNotifierTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/listeners/VerificationStartedNotifier.java,130,7,4,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,1
+mockito,DefaultMockitoSessionBuilderTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/session/DefaultMockitoSessionBuilder.java,148,8,2,3,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9
+mockito,InvalidStateDetectionTest,,245,19,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,MockitoTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/Mockito.java,241,19,1,18,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,12
+mockito,StackTraceCleanerTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/exceptions/stacktrace/StackTraceCleaner.java,51,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,MockitoSerializationIssueTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/exceptions/base/MockitoSerializationIssue.java,47,2,2,2,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,3
+mockito,MockitoAssertionErrorTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/exceptions/base/MockitoAssertionError.java,36,3,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+mockito,MockitoExceptionTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/exceptions/base/MockitoException.java,28,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+mockito,MockitoClearTest,,24,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,TimeoutTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/verification/Timeout.java,82,8,0,4,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,2
+mockito,NegativeDurationTest,,34,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,StrictnessToMockStrictnessTest,,58,4,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,StaticMockingExperimentTest,,344,14,0,0,0,0,1,0,0,0,0,0,0,0,1,6,0,0,0,0,0,0,0
+mockito,DescriptionTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/verification/Description.java,66,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,MockitoEnvTest,,59,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,ArgumentCaptorTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/ArgumentCaptor.java,68,5,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2
+mockito,ThreadVerifiesContinuouslyInteractingMockTest,,53,3,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,ThreadsShareGenerouslyStubbedMockTest,,62,3,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,AllTestsRunner,,199,3,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,VerificationInOrderFromMultipleThreadsTest,,50,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,ThreadsShareAMockTest,,42,3,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,PotentialStubbingSensitivityTest,,62,5,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,StrictnessPerMockTest,,130,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,StrictnessPerStubbingWithRunnerTest,,51,3,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,StrictnessWithRulesTest,,53,4,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,StrictnessWhenRuleStrictnessIsUpdatedTest,,68,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,StrictnessPerStubbingTest,,297,17,0,0,0,0,1,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,LenientMockAnnotationTest,,46,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,StrictnessWithSettingsTest,,57,8,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,StrictStubsTest,,73,5,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,ClassCacheVersusClassReloadingTest,,83,8,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,JLS_15_12_2_5_Java6_Java7_Test,,271,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,BDDMockitoTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/BDDMockito.java,433,40,10,31,0,0,6,0,0,0,0,0,0,0,0,0,0,0,3,10,0,0,80
+mockito,MutableStrictJUnitTestRuleTest,,82,5,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,StubbingWarningsJUnitRuleTest,,216,15,0,0,0,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,LenientJUnitRuleTest,,44,6,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,VerificationCollectorImplTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/junit/VerificationCollectorImpl.java,188,9,7,6,0,0,3,0,0,0,0,0,0,0,0,0,0,0,2,2,0,0,6
+mockito,StubbingWarningsMultiThreadingTest,,74,5,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,RuleTestWithFactoryMethodTest,,42,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,MockitoJUnitTestRuleTest,,44,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,MutableStrictJUnitRuleTest,,77,5,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,RuleTestWithParameterConstructorTest,,42,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,InvalidTargetMockitoJUnitRuleTest,,39,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,StrictJUnitRuleTest,,188,13,0,0,0,0,10,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+mockito,JUnitTestRuleIntegratesWithRuleChainTest,,104,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,MockitoJUnitRuleTest,,44,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,SpiesWithRealEqualsAndInOrderTest,,29,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,SpyingOnInterfacesTest,,106,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,Name,,209,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,SpyAsDefaultMockUsageTest,,51,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,Foo,,43,3,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,SpyingOnRealObjectsTest,,195,17,0,0,0,0,3,0,0,8,0,0,0,0,1,0,0,0,0,0,0,0,0
+mockito,MockitoPluginsTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/plugins/MockitoPlugins.java,34,2,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,CleaningUpPotentialStubbingTest,,55,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,InvalidUsageTest,,226,19,0,0,0,0,2,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+mockito,RestrictedObjectMethodsTest,,64,6,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,WithFinal,,100,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,WithFinal,,48,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,ExplicitFrameworkValidationTest,,56,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,Foo,,171,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,DummyClass,,73,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0
+mockito,IBar,,124,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,ResetInvocationsTest,,68,6,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,MocksSerializationForAnnotationTest,,377,38,0,0,0,0,10,0,0,2,0,0,0,0,1,0,0,0,0,0,0,0,0
+mockito,MocksSerializationTest,,414,31,0,0,0,0,11,0,0,2,0,0,0,0,2,0,0,0,0,0,0,0,0
+mockito,IVarArgs,,183,5,0,0,0,0,2,0,0,14,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,ResetTest,,136,14,0,0,0,0,4,0,0,1,0,0,0,0,2,0,0,0,0,0,0,0,0
+mockito,HasPrivateConstructor,,131,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,MockAccessTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/creation/bytebuddy/access/MockAccess.java,33,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,Foo,,49,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,AcrossClassLoaderSerializationTest,,110,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,DeepStubsSerializableTest,,130,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,StrictStubsSerializableTest,,48,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,ParallelSerializationTest,,110,2,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+mockito,InvocationsPrinterTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/debugging/InvocationsPrinter.java,98,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+mockito,StubbingLookupListenerCallbackTest,,206,13,0,0,0,0,7,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,VerboseLoggingOfInvocationsOnMockTest,,180,16,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,InvocationListenerCallbackTest,,150,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,VerificationListenerCallBackTest,,190,12,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,UnusedStubbingsFinderTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/junit/UnusedStubbingsFinder.java,155,12,8,5,0,0,0,0,0,14,0,0,0,0,3,0,0,0,0,0,0,0,2
+mockito,LocationFactoryTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/debugging/LocationFactory.java,38,2,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0
+mockito,ThreadLocalTest,,66,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,GenericsMockitoAnnotationsTest,,42,4,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+mockito,NPEWithCertainMatchersTest,,86,8,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,SpyShouldHaveNiceNameTest,,35,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,ShouldMocksCompareToBeConsistentWithEqualsTest,,72,4,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,Fun,,45,2,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,TestMock,,52,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+mockito,ReturnsString,,55,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,ShouldNotDeadlockAnswerExecutionTest,,113,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,DeepStubsWronglyReportsSerializationProblemsTest,,37,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,MyClass3,,30,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,ImplementsGenericMethodOfAbstract,,34,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,MockitoRunnerBreaksWhenNoTestMethodsTest,,59,3,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,MyIterator,,80,0,0,0,0,0,1,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,ToMock,,99,2,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+mockito,FinalHashCodeAndEqualsRaiseNPEInInitMocksTest,,32,6,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,DiamondInheritanceIsConfusingMockitoTest,,49,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,PackagePrivateClass,,210,0,0,0,0,0,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,PublicMethodInParentWithNonPublicTypeInSignatureTest,,25,3,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,WithDumbMethod,,76,3,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,MockClassWithMissingStaticDepTest,,85,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,ShouldAllowInlineMockCreationTest,,28,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,ConfusedSignatureTest,,50,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,CompareMatcherTest,,132,11,0,0,0,0,1,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,InjectionByTypeShouldFirstLookForExactTypeThenAncestorTest,,73,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,ChildWithSameParentFieldInjectionTest,,51,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,InjectMocksShouldTryPropertySettersFirstBeforeFieldAccessTest,,47,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,Issue353InjectionMightNotHappenInCertainConfigurationTest,,41,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,ExampleService,,39,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,ParentTestMockInjectionTest,,69,6,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+mockito,ArgumentCaptorDontCapturePreviouslyVerifiedTest,,32,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,NewStackTraceException,,65,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,Fun,,37,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,StubbingMocksThatAreConfiguredToReturnMocksTest,,27,2,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,Extended,,67,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,ShouldOnlyModeAllowCapturingArgumentsTest,,34,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,MockitoStubbedCallInAnswerTest,,118,8,0,0,0,0,0,0,0,8,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,EqualsWithDeltaTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/matchers/EqualsWithDelta.java,44,5,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1
+mockito,ListenersLostOnResetMockTest,,28,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,VerifyingWithAnExtraCallToADifferentMockTest,,38,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,IProgressMonitor,,34,3,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,ConcurrentModificationExceptionOnMultiThreadedVerificationTest,,82,10,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,Foo,,25,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,TableBuilder,,52,1,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,Foo,,29,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,DummyException,,34,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,MultipleInOrdersTest,,38,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,IOOBExceptionShouldNotBeThrownWhenNotCodingFluentlyTest,,40,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,EnabledMockingInterfaceCloneMethodTest,,24,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,MockInjectionUsingConstructorTest,,232,21,0,0,0,0,1,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,0
+mockito,MockInjectionUsingSetterOrPropertyTest,,208,39,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,SubClass,,63,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,WrongSetOfAnnotationsTest,,120,8,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,SpyAnnotationTest,,347,30,0,0,0,0,1,0,0,3,0,0,0,0,2,0,0,0,0,0,0,0,0
+mockito,PeopleRepository,,107,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,MockInterface,,137,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,HasSpy,,33,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,DoNotMockTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/DoNotMock.java,206,26,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,AnnotationsTest,,136,19,0,0,0,0,1,0,0,2,0,0,0,0,2,0,0,0,0,0,0,0,0
+mockito,CaptorAnnotationUnhappyPathTest,,42,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,MockInjectionUsingConstructorIssue421Test,,43,4,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,InjectionOfInlinedMockDeclarationTest,,68,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,StrictStubsRunnerTest,,84,5,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,StubbingWarningsJUnitRunnerTest,,150,12,0,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,StrictRunnerTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/internal/runners/StrictRunner.java,248,19,0,0,0,0,4,0,0,4,0,2,0,0,0,0,0,0,0,0,0,0,12
+mockito,JUnit45RunnerTest,,53,6,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,ModellingVerboseMockitoTest,,58,4,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0
+mockito,DeepStubbingWithJUnitRunnerTest,,44,7,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,HasUnnecessaryStubs,,61,5,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,SilentRunnerTest,,140,11,0,0,0,0,2,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,FindingRedundantInvocationsInOrderTest,,125,9,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,Boo,,142,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,NoMoreInteractionsVerificationTest,,162,11,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,BasicVerificationInOrderTest,,392,30,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,VerificationWithAfterTest,,332,25,0,0,0,0,6,0,0,2,0,0,0,2,0,0,0,0,0,0,0,0,0
+mockito,DescriptiveMessagesWhenTimesXVerificationFailsTest,,61,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,OnlyVerificationTest,,97,10,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,VerificationExcludingStubsTest,,89,5,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,VerificationInOrderWithTimeoutTest,,225,17,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,VerificationUsingMatchersTest,,102,5,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+mockito,DescriptiveMessagesOnVerificationInOrderErrorsTest,,189,12,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+mockito,OrdinaryVerificationPrintsAllInteractionsTest,,79,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,VerificationOnMultipleMocksUsingMatchersTest,,63,2,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,VerificationInOrderWithCallsTest,,505,27,0,0,0,0,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,VerificationWithTimeoutTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/verification/VerificationWithTimeout.java,253,21,0,0,0,0,5,0,0,0,0,0,1,3,0,0,0,0,0,0,0,0,0
+mockito,RelaxedVerificationInOrderTest,,319,32,0,0,0,0,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,VerificationInOrderMixedWithOrdinaryVerificationTest,,183,15,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,DescriptiveMessagesWhenVerificationFailsTest,,552,32,0,0,0,0,0,0,0,0,0,0,0,3,0,4,0,0,0,0,0,0,0
+mockito,AtLeastXVerificationTest,,57,4,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,SelectedMocksInOrderVerificationTest,,194,19,0,0,0,0,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,ExactNumberOfTimesVerificationTest,,127,10,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,VerificationStartedListenerTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/listeners/VerificationStartedListener.java,153,5,2,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,2,0,0,0
+mockito,AtMostXVerificationTest,,129,10,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,VerificationWithAfterAndCaptorTest,,95,8,0,0,0,0,0,0,0,1,0,0,0,2,0,0,0,0,0,0,0,0,0
+mockito,BasicVerificationTest,,137,10,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,VerificationInOrderTest,,104,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,VerifyPrintsAllInvocationsOnErrorTest,,35,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,Bar,,25,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,Sub,,46,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,Sub,,70,1,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,ExampleTest,,95,9,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,PlaygroundWithDemoOfUnclonedParametersProblemTest,,187,11,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,CompilationWarningsTest,,198,5,0,0,0,0,3,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+mockito,Boo,,101,2,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+mockito,SmartNullsStubbingTest,,152,14,0,0,0,0,1,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,StubbingWithAdditionalAnswersTest,,736,36,0,0,0,0,12,0,0,19,0,0,0,0,0,1,0,0,0,0,0,0,0
+mockito,StubbingWarningsTest,,147,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,StubbingReturnsSelfTest,,165,14,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,MisusingStubbingTest,,33,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,StubbingWithThrowablesTest,,464,39,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+mockito,StubbingConsecutiveAnswersTest,,326,17,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0
+mockito,SuperOfReversedGenerics,,379,0,0,0,0,0,5,2,0,1,0,0,0,0,2,0,0,0,0,0,0,0,0
+mockito,ReturningDefaultValuesTest,,88,6,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,BasicStubbingTest,,184,16,0,0,0,0,3,0,0,4,0,0,0,0,3,0,0,0,0,0,0,0,0
+mockito,StubbingWithBadThrowablesTest,,40,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,StubbingUsingDoReturnTest,,277,25,0,0,0,0,2,0,0,2,0,0,0,0,1,0,0,0,0,0,0,0,0
+mockito,StrictStubbingEndToEndTest,,205,13,0,0,0,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,CloningParameterTest,,130,7,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,TestedObject,,75,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,SmartNullsGenericBugTest,,78,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,StubbingWithExtraAnswersTest,,65,4,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,FakeListWithWrongMethods,,205,2,0,0,0,0,1,0,0,5,0,0,0,0,3,0,0,0,0,0,0,0,0
+mockito,FooImpl,,46,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,StrictStubbingTest,,120,10,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,StubbingWithCustomAnswerTest,,134,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,AnyXMatchersAcceptNullsTest,,54,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,Foo,,43,1,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,IsZeroOrOne,,164,1,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,ContainsX,,164,2,0,0,0,0,6,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,VerificationAndStubbingUsingMatchersTest,,82,6,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,EmailService,,528,1,0,0,0,0,4,0,0,8,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,MatchersMixedWithRawArgumentsTest,,45,2,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+mockito,MatchersTest,,696,43,0,0,0,0,5,0,0,61,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,CustomMatcherDoesYieldCCETest,,44,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,VarargsTest,,587,66,0,0,0,0,34,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0
+mockito,Foo,,37,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,NewMatchersTest,,79,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,MockMe,,162,1,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,InvalidUseOfMatchersTest,,125,9,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,MoreMatchersTest,,60,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,PointingStackTraceToActualInvocationInOrderTest,,128,14,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,PointingStackTraceToActualInvocationChunkInOrderTest,,108,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,ModellingDescriptiveMessagesTest,,206,27,0,0,0,0,25,0,0,0,0,0,0,25,0,0,0,0,0,0,0,0,0
+mockito,ClickableStackTracesWhenFrameworkMisusedTest,,80,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,ClickableStackTracesTest,,42,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,PointingStackTraceToActualInvocationTest,,71,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,StackTraceFilteringTest,,157,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,StubOnlyAvoidMemoryConsumptionTest,,34,2,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+mockito,LoadsOfMocksTest,,39,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+mockito,InnerClass,,467,0,0,0,0,0,1,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,MockitoSessionTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/MockitoSession.java,309,19,1,0,0,0,3,1,0,0,0,2,0,0,2,0,0,0,0,0,0,0,0
+mockito,AsyncTestingTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/testFixtures/java/org/mockitoutil/async/AsyncTesting.java,55,4,1,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,SafeJUnitRuleTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/testFixtures/java/org/mockitoutil/SafeJUnitRule.java,184,10,3,5,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,4
+mockito,ClassLoadersTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/testFixtures/java/org/mockitoutil/ClassLoaders.java,377,23,14,16,0,0,1,0,0,0,0,0,0,0,0,1,0,0,2,7,0,0,52
+mockito,TestBase,,130,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,TestBaseTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/testFixtures/java/org/mockitoutil/TestBase.java,28,1,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,TestMethodsFinder,,24,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,ParallelBugTest,,80,12,0,0,0,0,7,0,0,0,0,0,0,7,0,0,0,0,0,0,0,0,0
+mockito,NestedTest,,82,8,0,0,0,0,7,0,0,0,0,0,0,7,0,0,0,0,0,0,0,0,0
+mockito,DoNotmockEnforcerTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/plugins/DoNotMockEnforcer.java,97,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,MockitoLoggerTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/plugins/MockitoLogger.java,49,4,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,PluginSwitchTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/plugins/PluginSwitch.java,54,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+mockito,InstantiatorProviderTest,,36,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,PluginStackTraceFilteringTest,,64,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,MockResolverTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/mockito/mockito-core/src/main/java/org/mockito/plugins/MockResolver.java,50,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,StubbingLocationTest,,39,2,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,PluginTest,,25,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,StaticMockTest,,250,18,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,SpyWithConstructorTest,,42,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,SuperCallTest,,33,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,ConstructionMockRuleTest,,41,5,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,StaticRunnerTest,,27,2,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,StaticStr,,55,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,SelfSpyReferenceMemoryLeakTest,,34,3,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,CyclicMockMethodArgumentMemoryLeakTest,,38,4,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,ConstructionMockTest,,203,13,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,HierarchyPreInitializationTest,,43,4,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,RecursionTest,,21,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,TestClass,,38,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,InitializationTest,,25,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,InOrderVerificationTest,,224,12,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,OneLinerStubTestClass,,43,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,SubconstructorMockTest,,47,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,StaticRuleTest,,29,3,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,StaticMockRuleTest,,40,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,EnumMockingTest,,33,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,FinalClassMockingTest,,19,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,LocationFactoryAllocationRateTest,,76,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,ShouldNotStarveMemoryOnLargeStackTraceInvocationsTest,,55,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,NoExtendsTest,,23,2,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,NonPublicClass,,19,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,NonPublicClass,,22,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,MockClassInOtherBundleTest,,22,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,SimpleMockTest,,23,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,OsgiTest,,155,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,ModuleHandlingTest,,320,12,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0
+mockito,ModuleAccessTest,,118,4,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,DeepStubReturnsEnumJava21Test,,141,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,NoExtendsTest,,40,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,CloseOnDemandTest,,41,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,ModuleUseTest,,71,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,ProgrammaticMockMakerTest,,201,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+mockito,ProgrammaticMockMakerAnnotationTest,,48,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0

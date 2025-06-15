@@ -1,0 +1,225 @@
+App,TestFileName,ProductionFileName,LOC,numberMethods,Assertion Roulette,Eager Test,Mystery Guest,Sleepy Test,Unknown Test,Redundant Assertion,Dependent Test,Magic Number Test,Conditional Test Logic,EmptyTest,General Fixture,IgnoredTest,Sensitive Equality,Verbose Test,Default Test,Resource Optimism,Duplicate Assert,Exception Catching Throwing,Constructor Initialization,Print Statement,Lazy Test
+commons-lang,ArraySorterTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/ArraySorter.java,113,9,9,0,0,0,0,0,0,0,0,0,0,9,0,0,0,0,0,0,0,0,1
+commons-lang,StringUtilsAbbreviateTest,,245,9,0,0,0,0,0,1,0,91,0,0,0,7,0,3,0,0,0,0,0,0,0
+commons-lang,MutableDoubleTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/mutable/MutableDouble.java,288,26,37,24,0,0,0,4,0,48,0,0,0,26,3,0,0,0,1,0,0,0,10
+commons-lang,MutableShortTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/mutable/MutableShort.java,261,22,51,21,0,0,0,4,0,13,0,0,0,22,3,0,0,0,0,0,0,0,8
+commons-lang,MutableBooleanTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/mutable/MutableBoolean.java,145,9,35,7,0,0,0,4,0,4,0,0,0,9,4,0,0,0,2,0,0,0,4
+commons-lang,MutableLongTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/mutable/MutableLong.java,279,25,55,23,0,0,0,4,0,38,0,0,0,25,3,0,0,0,0,0,0,0,9
+commons-lang,MutableFloatTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/mutable/MutableFloat.java,289,26,36,24,0,0,0,4,0,48,0,0,0,26,3,0,0,0,2,0,0,0,10
+commons-lang,MutableByteTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/mutable/MutableByte.java,275,25,51,23,0,0,0,4,0,13,0,0,0,25,3,0,0,0,0,0,0,0,10
+commons-lang,MutableIntTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/mutable/MutableInt.java,285,26,54,23,0,0,1,4,0,47,0,0,0,26,3,0,0,0,0,0,0,0,9
+commons-lang,MutableObjectTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/mutable/MutableObject.java,107,5,29,1,0,0,0,5,0,1,0,0,0,5,3,0,0,0,0,0,0,0,0
+commons-lang,LocaleUtilsTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/LocaleUtils.java,566,34,26,2,0,0,0,0,0,1,5,0,0,19,0,2,0,0,1,0,0,0,2
+commons-lang,CharSetTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/CharSet.java,471,15,189,10,0,0,0,6,0,40,0,0,0,15,14,7,0,0,30,0,0,0,4
+commons-lang,ClassLoaderUtilsTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/ClassLoaderUtils.java,66,4,2,0,0,0,0,0,0,0,0,0,0,4,4,0,0,0,0,2,0,0,1
+commons-lang,ConversionTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/Conversion.java,1765,45,484,1,0,0,0,0,0,409,3,0,0,43,0,18,0,0,0,0,0,0,4
+commons-lang,ClassUtilsOssFuzzTest,,50,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+commons-lang,SystemUtilsTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/SystemUtils.java,1890,26,1500,0,4,0,0,0,0,1,53,0,0,24,0,6,0,0,143,0,0,1,1
+commons-lang,StringsTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/Strings.java,104,8,20,2,0,0,0,0,0,0,0,0,0,7,0,0,0,0,0,0,0,0,4
+commons-lang,AnnotationUtilsTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/AnnotationUtils.java,522,23,20,0,0,0,0,0,0,0,5,0,0,10,2,1,0,0,0,0,0,0,1
+commons-lang,StringUtilsStartsEndsWithTest,,196,12,0,0,0,0,0,0,0,0,0,0,0,6,0,1,0,0,0,0,0,0,0
+commons-lang,StreamsTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/Streams.java,188,10,6,5,0,0,0,0,0,5,2,0,0,5,0,0,0,0,0,0,0,0,3
+commons-lang,DeeplyNested,,1535,0,0,0,0,0,0,0,0,41,0,0,0,66,2,10,0,0,0,0,0,0,0
+commons-lang,FluentBitSetTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/util/FluentBitSet.java,1828,48,0,38,0,0,0,0,0,236,107,0,0,43,8,15,0,0,25,13,0,0,16
+commons-lang,IterableStringTokenizerTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/util/IterableStringTokenizer.java,170,18,25,12,0,0,0,0,0,0,0,0,0,14,0,0,0,0,1,0,0,0,3
+commons-lang,Testable,,1104,29,0,0,0,0,47,0,0,10,0,0,0,55,0,0,0,0,0,0,0,0,0
+commons-lang,ArrayUtilsInsertTest,,249,9,0,0,0,0,0,0,0,67,0,0,0,9,0,0,0,0,0,0,0,0,0
+commons-lang,TripleTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/tuple/Triple.java,154,13,21,8,0,0,0,0,0,19,0,0,0,13,2,0,0,0,0,0,0,0,3
+commons-lang,PairTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/tuple/Pair.java,326,21,49,14,0,0,2,4,0,15,0,0,0,18,2,1,0,0,4,0,0,0,8
+commons-lang,ImmutablePairTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/tuple/ImmutablePair.java,261,24,40,12,0,0,0,5,0,15,3,0,0,24,6,0,0,0,0,0,0,0,6
+commons-lang,MutablePairTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/tuple/MutablePair.java,157,12,27,7,0,0,0,3,0,7,2,0,0,12,4,0,0,0,0,0,0,0,3
+commons-lang,ImmutableTripleTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/tuple/ImmutableTriple.java,206,17,41,8,0,0,0,5,0,13,1,0,0,17,7,0,0,0,0,0,0,0,5
+commons-lang,MutableTripleTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/tuple/MutableTriple.java,138,11,28,6,0,0,0,3,0,6,0,0,0,11,7,0,0,0,0,0,0,0,4
+commons-lang,SystemPropertiesTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/SystemProperties.java,731,51,22,5,0,0,2,0,0,4,3,0,0,49,0,2,0,0,1,3,0,0,4
+commons-lang,ArrayUtilsSetTest,,61,2,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0
+commons-lang,StringUtilsTrimStripTest,,281,17,0,0,0,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,0,0
+commons-lang,StringEscapeUtilsTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/StringEscapeUtils.java,549,40,46,7,0,0,2,5,0,1,5,0,0,32,2,0,0,0,0,0,0,0,8
+commons-lang,ArrayUtilsAddTest,,674,22,0,0,0,0,0,0,0,6,0,0,0,22,0,4,0,0,0,0,0,0,0
+commons-lang,NotImplementedExceptionTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/NotImplementedException.java,58,2,0,1,0,0,0,0,0,0,0,0,0,1,2,0,0,0,0,0,0,0,0
+commons-lang,StreamsTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/Streams.java,342,34,33,10,0,0,0,0,0,40,2,0,0,29,1,0,0,0,2,0,0,0,6
+commons-lang,Fixture,,270,3,0,0,0,0,0,0,0,0,0,0,0,17,0,0,0,0,0,0,0,0,0
+commons-lang,FailableStreamTest,,96,9,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0
+commons-lang,IntStreamsTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/stream/IntStreams.java,54,4,2,3,0,0,0,0,0,3,0,0,0,4,1,0,0,0,0,0,0,0,0
+commons-lang,TypeLiteralTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/reflect/TypeLiteral.java,68,4,4,0,0,0,0,2,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0
+commons-lang,TestMutable,,1123,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+commons-lang,TestBean,,245,14,0,0,0,0,2,0,0,0,0,0,0,8,16,0,0,0,0,0,0,0,0
+commons-lang,InheritanceUtilsTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/reflect/InheritanceUtils.java,80,9,3,0,0,0,0,0,0,11,0,0,0,9,0,0,0,0,0,0,0,0,1
+commons-lang,Lang1703Test,,35,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+commons-lang,FieldUtilsTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/reflect/FieldUtils.java,1235,80,174,18,0,0,0,0,0,17,8,0,3,68,2,14,0,0,6,0,0,0,15
+commons-lang,This,,1078,0,0,0,0,0,2,0,0,6,0,0,0,44,18,6,0,0,0,0,0,0,0
+commons-lang,CharRangeTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/CharRange.java,381,17,158,16,0,0,0,6,0,0,1,0,0,17,8,2,0,0,6,0,0,0,10
+commons-lang,Fixture,,142,3,0,0,0,0,0,2,0,0,0,0,0,7,12,0,0,0,0,0,0,0,0
+commons-lang,RegExUtilsTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/RegExUtils.java,382,19,179,3,0,0,0,0,0,0,0,0,0,19,0,0,0,0,0,0,0,0,7
+commons-lang,MethodInvokersFailableSupplierTest,,44,2,0,0,0,0,0,0,0,0,0,0,0,2,1,0,0,0,0,0,0,0,0
+commons-lang,TriFunctionTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/function/TriFunction.java,74,2,6,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0
+commons-lang,FunctionsTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/function/Functions.java,54,2,3,1,0,0,0,0,0,0,0,0,0,2,1,0,0,0,0,0,0,0,0
+commons-lang,MethodInvokersSupplierTest,,48,2,0,0,0,0,0,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0,0
+commons-lang,TriConsumerTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/function/TriConsumer.java,72,2,4,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0
+commons-lang,IntToCharFunctionTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/function/IntToCharFunction.java,35,1,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0
+commons-lang,BooleanConsumerTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/function/BooleanConsumer.java,80,3,4,1,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0
+commons-lang,PredicatesTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/function/Predicates.java,49,2,6,2,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0
+commons-lang,FailableSupplierTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/function/FailableSupplier.java,48,4,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,1
+commons-lang,MethodInvokersBiFunctionTest,,65,5,0,0,0,0,0,0,0,1,0,0,0,5,1,0,0,0,0,0,0,0,0
+commons-lang,ToBooleanBiFunctionTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/function/ToBooleanBiFunction.java,35,1,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0
+commons-lang,MethodInvokersFunctionTest,,101,8,0,0,0,0,1,0,0,2,0,0,0,8,1,0,0,0,0,0,0,0,0
+commons-lang,Testable,,2757,31,0,0,0,0,38,0,0,72,0,0,0,181,0,0,0,0,0,0,0,0,0
+commons-lang,MethodInvokersFailableBiFunctionTest,,69,5,0,0,0,0,0,0,0,0,0,0,0,5,1,0,0,0,0,0,0,0,0
+commons-lang,MethodInvokersFailableBiConsumerTest,,62,5,0,0,0,0,0,0,0,0,0,0,0,5,1,0,0,0,0,0,0,0,0
+commons-lang,ConsumersTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/function/Consumers.java,63,2,0,1,0,0,1,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0
+commons-lang,MethodInvokersFailableFunctionTest,,84,6,0,0,0,0,1,0,0,1,0,0,0,6,1,0,0,0,0,0,0,0,0
+commons-lang,TestableSupplier,,141,5,0,0,0,0,0,0,0,0,0,0,0,4,0,1,0,0,0,0,0,0,0
+commons-lang,SuppliersTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/function/Suppliers.java,43,1,3,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+commons-lang,MethodInvokersBiConsumerTest,,56,3,0,0,0,0,0,0,0,0,0,0,0,3,2,0,0,0,0,0,0,0,0
+commons-lang,MockRandom,,95,5,0,0,0,0,0,0,0,14,0,0,0,1,0,1,0,0,0,0,0,0,0
+commons-lang,BitFieldTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/BitField.java,259,18,80,5,0,0,0,0,0,53,9,0,0,15,0,0,0,0,0,0,0,0,7
+commons-lang,LongRangeTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/LongRange.java,434,36,126,2,0,0,1,6,0,14,0,0,4,29,2,3,0,0,4,1,0,0,2
+commons-lang,FractionTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/math/Fraction.java,1132,27,308,24,0,0,0,2,0,272,4,0,0,26,7,15,0,0,63,0,0,0,8
+commons-lang,NumberUtilsTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/math/NumberUtils.java,1898,139,304,11,0,0,12,0,0,372,4,0,0,121,9,9,0,0,1,0,0,0,17
+commons-lang,IEEE754rUtilsTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/math/IEEE754rUtils.java,105,3,1,2,0,0,1,0,0,12,0,0,0,3,0,1,0,0,2,0,0,0,2
+commons-lang,StringUtilsEmptyBlankTest,,184,12,0,0,0,0,0,0,0,0,0,0,0,12,0,0,0,0,0,0,0,0,0
+commons-lang,CalendarUtilsTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/time/CalendarUtils.java,147,10,29,8,0,0,0,0,0,4,0,0,0,10,1,0,0,0,0,0,0,0,2
+commons-lang,FastDateParserTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/time/FastDateParser.java,747,61,37,2,0,0,6,0,0,0,6,0,0,33,2,2,0,0,1,2,0,0,3
+commons-lang,FastTimeZoneTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/time/FastTimeZone.java,101,14,15,9,0,0,0,0,0,1,0,0,0,10,0,0,0,0,0,0,0,0,2
+commons-lang,DateUtilsFragmentTest,,478,66,0,0,0,0,0,0,0,33,0,0,0,57,0,0,0,0,0,0,0,0,0
+commons-lang,DateUtilsRoundingTest,,733,40,0,0,0,0,22,0,0,0,0,0,0,22,0,3,0,0,0,0,0,0,0
+commons-lang,TimeZonesTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/time/TimeZones.java,39,2,2,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+commons-lang,DurationFormatUtilsTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/time/DurationFormatUtils.java,730,38,150,1,0,0,2,2,0,11,5,0,0,33,3,7,0,0,12,0,0,0,6
+commons-lang,FastDatePrinterTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/time/FastDatePrinter.java,449,34,48,2,0,0,0,0,0,0,1,0,0,23,8,1,0,0,0,0,0,0,2
+commons-lang,StopWatchTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/time/StopWatch.java,506,35,52,25,0,0,0,0,0,26,0,0,0,26,5,1,0,0,11,0,0,0,20
+commons-lang,FastDateFormatTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/time/FastDateFormat.java,388,26,49,11,0,0,3,3,0,0,0,0,0,20,0,0,0,0,0,0,0,0,7
+commons-lang,FastDatePrinterTimeZonesTest,,50,3,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+commons-lang,DateUtilsTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/time/DateUtils.java,1576,106,42,6,0,0,4,0,0,84,2,0,15,68,0,8,0,0,40,0,0,0,11
+commons-lang,GmtTimeZoneTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/time/GmtTimeZone.java,92,11,5,9,0,0,0,0,0,6,0,0,0,11,1,0,0,0,0,0,0,0,3
+commons-lang,WeekYearTest,,82,3,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0
+commons-lang,FastDateParserSDFTest,,219,10,0,0,0,0,6,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,0
+commons-lang,FastDateParser_MoreOrLessTest,,116,8,0,0,0,0,0,0,0,13,0,0,0,7,0,0,0,0,0,0,0,0,0
+commons-lang,DateFormatUtilsTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/time/DateFormatUtils.java,248,18,14,0,0,0,5,0,0,2,0,0,0,15,8,1,0,0,0,0,0,0,1
+commons-lang,DurationUtilsTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/time/DurationUtils.java,158,12,53,4,0,0,0,0,0,34,0,0,0,12,0,0,0,0,0,0,0,0,2
+commons-lang,Java15BugFastDateParserTest,,154,13,0,0,0,0,12,0,0,0,0,0,0,12,0,0,0,0,0,0,0,0,0
+commons-lang,FastDateParser_TimeZoneStrategyTest,,229,15,0,0,0,0,6,0,0,0,0,0,0,9,1,1,0,0,0,0,0,0,0
+commons-lang,ArrayUtilsRemoveTest,,776,37,0,0,0,0,0,0,0,52,0,0,0,37,0,0,0,0,0,0,0,0,0
+commons-lang,ArrayFillTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/ArrayFill.java,218,19,14,0,0,0,0,0,0,0,10,0,0,19,0,0,0,0,0,0,0,0,1
+commons-lang,BooleanUtilsTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/BooleanUtils.java,1173,90,152,7,0,0,0,0,0,27,0,0,0,90,21,8,0,0,5,0,0,0,12
+commons-lang,ClassPathUtilsTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/ClassPathUtils.java,135,15,8,0,0,0,0,0,0,1,0,0,0,15,0,0,0,0,0,0,0,0,2
+commons-lang,CharSetUtilsTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/CharSetUtils.java,247,11,131,0,0,0,0,0,0,27,0,0,0,11,0,0,0,0,2,0,0,0,5
+commons-lang,StringUtilsValueOfTest,,41,3,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0
+commons-lang,RandomStringUtilsTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/RandomStringUtils.java,818,42,4,2,0,0,0,0,0,43,67,0,0,38,0,2,0,0,8,0,0,0,10
+commons-lang,ArchUtilsTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/ArchUtils.java,217,19,29,0,0,0,0,0,0,0,2,0,0,6,1,3,0,0,16,0,0,0,1
+commons-lang,ConcurrentUtilsTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/concurrent/ConcurrentUtils.java,496,41,12,7,0,0,2,0,0,6,0,0,0,41,0,0,0,0,0,0,0,0,14
+commons-lang,GetThread,,145,5,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0
+commons-lang,AtomicSafeInitializerSupplierTest,,95,7,0,0,0,0,0,0,0,1,0,0,0,2,0,0,0,0,0,0,0,0,0
+commons-lang,UncheckedExecutionExceptionTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/concurrent/UncheckedExecutionException.java,35,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+commons-lang,LockingVisitorsTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/concurrent/locks/LockingVisitors.java,165,14,4,2,0,0,0,0,0,2,0,0,0,7,1,0,0,0,0,0,0,0,2
+commons-lang,AtomicSafeInitializerTestImpl,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/concurrent/AtomicSafeInitializer.java,97,2,1,0,0,0,0,0,0,1,0,0,0,2,0,0,0,0,1,0,0,0,1
+commons-lang,MethodBackgroundInitializerTestImpl,,426,3,0,0,0,0,1,0,0,0,0,0,0,18,0,0,0,0,0,0,0,0,0
+commons-lang,MethodChildBackgroundInitializer,,528,1,0,0,0,1,1,0,0,0,0,0,0,18,0,1,0,0,0,0,0,0,0
+commons-lang,FutureTasksTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/concurrent/FutureTasks.java,41,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+commons-lang,MemoizerFunctionTest,,109,8,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,0
+commons-lang,CloseableObject,,185,3,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,0
+commons-lang,AtomicInitializerObjectTest,,62,2,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+commons-lang,CircuitBreakingExceptionTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/concurrent/CircuitBreakingException.java,91,7,4,0,0,0,0,0,0,0,0,0,0,7,0,0,0,0,0,0,0,0,1
+commons-lang,TestFuture,,124,6,0,0,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0,0,0,0,0
+commons-lang,LazyInitializerTestImpl,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/concurrent/LazyInitializer.java,66,1,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+commons-lang,SupplierChildBackgroundInitializer,,260,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+commons-lang,EventCountCircuitBreakerTestImpl,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/concurrent/EventCountCircuitBreaker.java,414,4,0,16,0,0,4,0,0,1,9,0,0,18,0,0,0,0,0,0,0,0,8
+commons-lang,AtomicInitializerNonObjectTest,,61,2,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+commons-lang,UncheckedTimeoutExceptionTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/concurrent/UncheckedTimeoutException.java,35,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+commons-lang,ConstantInitializerTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/concurrent/ConstantInitializer.java,143,12,0,1,0,0,3,0,0,1,0,0,1,8,0,0,0,0,0,0,0,0,2
+commons-lang,LazyInitializerAnonClassTest,,52,2,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+commons-lang,TestCallable,,107,2,0,0,0,0,0,0,0,1,0,0,0,4,0,0,0,0,0,0,0,0,0
+commons-lang,LazyInitializerTestImpl,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/concurrent/LazyInitializer.java,58,1,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+commons-lang,SupplierBackgroundInitializerTestImpl,,147,4,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0
+commons-lang,BasicThreadFactoryTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/concurrent/BasicThreadFactory.java,330,22,1,11,0,0,4,0,0,1,2,0,1,17,0,0,0,0,0,0,0,0,10
+commons-lang,LazyInitializerCloserTest,,54,3,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+commons-lang,TryAcquireThread,,553,5,0,0,0,1,2,0,0,10,0,0,0,17,0,0,0,0,0,0,0,0,0
+commons-lang,ThresholdCircuitBreakerTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/concurrent/ThresholdCircuitBreaker.java,88,7,0,5,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,2
+commons-lang,LazyInitializerFailableCloserTest,,72,5,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+commons-lang,MemoizerComputableTest,,107,8,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,0
+commons-lang,EnumUtilsTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/EnumUtils.java,653,48,210,2,0,0,1,0,0,56,0,0,0,47,0,3,0,0,3,1,0,0,9
+commons-lang,ArrayUtilsRemoveMultipleTest,,1327,56,0,0,0,0,0,0,0,11,0,0,0,55,0,18,0,0,0,0,0,0,0
+commons-lang,CharEncodingTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/CharEncoding.java,84,6,12,0,0,0,1,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,1
+commons-lang,Thing,,74,3,0,0,0,0,0,0,0,2,0,0,0,3,0,0,0,0,0,0,0,0,0
+commons-lang,C_is_0,,474,5,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0
+commons-lang,RandomUtilsTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/RandomUtils.java,563,61,20,0,0,0,0,0,0,36,2,0,0,59,0,0,0,0,0,0,0,0,10
+commons-lang,StringUtilsTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/StringUtils.java,3249,195,1155,23,0,0,0,0,0,429,39,0,0,155,24,17,0,0,55,1,0,0,35
+commons-lang,StringUtilsContainsTest,,468,23,0,0,0,0,0,0,0,23,0,0,0,23,0,1,0,0,0,0,0,0,0
+commons-lang,WithMessage,,1642,5,0,0,0,0,73,0,0,7,0,0,0,0,0,0,0,0,0,0,0,0,0
+commons-lang,StringUtilsIsTest,,174,8,0,0,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0,0,0,0,0
+commons-lang,TestClass,,6642,0,0,0,0,0,0,2,0,1129,0,0,0,344,17,24,0,0,0,0,0,0,0
+commons-lang,IntegerRangeTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/IntegerRange.java,419,35,117,3,0,0,1,6,0,44,0,0,4,28,2,3,0,0,4,1,0,0,2
+commons-lang,SerializationUtilsTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/SerializationUtils.java,386,34,34,1,0,0,0,0,0,1,1,0,3,28,0,0,0,0,3,9,0,0,3
+commons-lang,RuntimeEnvironmentTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/RuntimeEnvironment.java,85,7,0,0,0,0,1,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0
+commons-lang,StrLookupTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/text/StrLookup.java,112,6,11,6,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,2,0,0,3
+commons-lang,StrMatcherTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/text/StrMatcher.java,202,16,76,14,0,0,0,0,0,75,0,0,0,14,0,0,0,0,0,0,0,0,4
+commons-lang,WordUtilsTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/text/WordUtils.java,432,16,198,0,0,0,2,0,0,45,0,0,0,16,0,3,0,0,18,0,0,0,5
+commons-lang,OctalUnescaperTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/text/translate/OctalUnescaper.java,84,1,0,1,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0
+commons-lang,LookupTranslatorTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/text/translate/LookupTranslator.java,53,2,0,2,0,0,0,0,0,2,0,0,0,2,2,0,0,0,0,0,0,0,2
+commons-lang,UnicodeEscaperTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/text/translate/UnicodeEscaper.java,57,3,0,3,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,1
+commons-lang,UnicodeUnpairedSurrogateRemoverTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/text/translate/UnicodeUnpairedSurrogateRemover.java,51,4,4,0,0,0,0,0,0,2,0,0,0,2,0,0,0,0,0,0,0,0,1
+commons-lang,NumericEntityEscaperTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/text/translate/NumericEntityEscaper.java,70,4,0,4,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,1
+commons-lang,UnicodeUnescaperTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/text/translate/UnicodeUnescaper.java,60,3,0,3,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,2
+commons-lang,EntityArraysTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/text/translate/EntityArrays.java,73,3,0,0,0,0,1,0,0,0,4,0,0,3,0,0,0,0,0,0,0,2,0
+commons-lang,NumericEntityUnescaperTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/text/translate/NumericEntityUnescaper.java,77,3,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,1
+commons-lang,StrTokenizerTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/text/StrTokenizer.java,848,61,169,52,0,0,6,0,0,20,9,0,0,58,10,1,0,0,24,0,0,0,21
+commons-lang,CompositeFormatTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/text/CompositeFormat.java,89,2,1,2,0,0,0,0,0,0,0,0,0,2,0,1,0,0,0,0,0,0,3
+commons-lang,UpperCaseFormatFactory,,496,2,0,0,0,0,3,0,0,0,0,0,0,11,2,1,0,0,0,0,0,0,0
+commons-lang,StrSubstitutorTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/text/StrSubstitutor.java,714,46,15,19,0,0,17,0,0,1,0,0,1,41,2,1,0,0,7,0,0,0,5
+commons-lang,StrBuilderAppendInsertTest,,1449,53,0,0,0,0,0,0,0,27,0,0,0,51,214,11,0,0,0,0,0,0,0
+commons-lang,FormattableUtilsTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/text/FormattableUtils.java,118,5,56,4,0,0,0,0,0,0,0,0,0,5,60,0,0,0,0,0,0,0,1
+commons-lang,MockReadable,,1854,3,0,0,0,0,0,0,0,291,0,0,0,91,190,13,0,0,0,0,0,0,0
+commons-lang,CharsetsTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/Charsets.java,51,3,5,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,1
+commons-lang,StringUtilsSubstringTest,,385,22,0,0,0,0,0,0,0,102,0,0,0,17,0,1,0,0,0,0,0,0,0
+commons-lang,DerivedComparableB,,446,0,0,0,0,0,1,6,0,59,0,0,0,28,2,3,0,0,0,0,0,0,0
+commons-lang,DoubleRangeTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/DoubleRange.java,412,34,118,4,0,0,1,6,0,43,0,0,4,27,3,3,0,0,4,0,0,0,2
+commons-lang,CharUtilsTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/CharUtils.java,350,27,113,0,0,0,0,4,0,31,20,0,0,24,7,0,0,0,3,0,0,0,5
+commons-lang,TestFeature,,239,5,0,0,0,0,18,0,0,0,0,0,0,20,2,0,0,0,0,0,0,0,0
+commons-lang,StandardToStringStyleTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/builder/StandardToStringStyle.java,230,26,41,9,0,0,0,0,0,0,0,0,0,20,44,0,0,0,0,0,0,0,1
+commons-lang,IDKeyTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/builder/IDKey.java,37,1,2,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+commons-lang,MyTemporalAmount,,295,11,0,0,0,0,0,0,0,0,0,0,0,2,4,0,0,0,0,0,0,0,0
+commons-lang,CustomReflectionToStringBuilder,,55,3,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+commons-lang,ConversionTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/Conversion.java,43,3,1,0,0,0,0,0,0,2,0,0,0,3,0,0,0,0,0,0,0,0,1
+commons-lang,ShortPrefixToStringStyleTest,,154,15,0,0,0,0,0,0,0,0,0,0,0,11,44,0,0,0,0,0,0,0,0
+commons-lang,ToStringStyleImpl,,137,1,0,0,0,0,0,0,0,0,0,0,0,12,0,0,0,0,0,0,0,0,0
+commons-lang,TestFixture,,165,3,0,0,0,0,0,0,0,0,0,0,0,5,38,0,0,0,0,0,0,0,0
+commons-lang,NoFieldNamesToStringStyleTest,,154,15,0,0,0,0,0,0,0,0,0,0,0,11,44,0,0,0,0,0,0,0,0
+commons-lang,TypeTestClass,,600,23,0,0,0,0,0,0,0,41,0,0,0,39,2,0,0,0,0,0,0,0,0
+commons-lang,NoClassNameToStringStyleTest,,152,14,0,0,0,0,0,0,0,0,0,0,0,11,44,0,0,0,0,0,0,0,0
+commons-lang,SimpleClass,,180,4,0,0,0,0,0,0,0,1,0,0,0,11,4,0,0,0,0,0,0,0,0
+commons-lang,TestTTSubObject,,1494,2,0,0,0,0,2,4,0,0,0,0,0,62,0,2,0,0,0,0,0,0,0
+commons-lang,MultiLineToStringStyleTest,,154,15,0,0,0,0,0,0,0,0,0,0,0,11,44,0,0,0,0,0,0,0,0
+commons-lang,CollectionHolder,,117,2,0,0,0,0,3,0,0,0,0,0,0,4,0,1,0,0,0,0,0,0,0
+commons-lang,TestFixture,,56,2,0,0,0,0,0,0,0,0,0,0,0,1,4,0,0,0,0,0,0,0,0
+commons-lang,TestFixture,,107,6,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+commons-lang,Person,,163,4,0,0,0,0,0,0,0,0,0,0,0,8,34,0,0,0,0,0,0,0,0
+commons-lang,TestFixture,,138,2,0,0,0,0,11,0,0,0,0,0,0,11,0,0,0,0,0,0,0,0,0
+commons-lang,TypeTestClass,,297,30,0,0,0,0,0,0,0,23,0,0,0,16,0,0,0,0,0,0,0,0,0
+commons-lang,ReflectionToStringBuilderSummaryTest,,38,3,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+commons-lang,ReflectionToStringBuilderTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/builder/ReflectionToStringBuilder.java,34,1,0,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+commons-lang,TestSubObject,,635,6,0,0,0,0,0,1,0,107,0,0,0,46,0,0,0,0,0,0,0,0,0
+commons-lang,SimpleReflectionTestFixture,,1205,4,0,0,0,0,1,0,0,1,0,0,0,95,228,0,0,0,0,0,0,0,0
+commons-lang,TestFixture,,146,5,0,0,0,0,4,0,0,7,0,0,0,7,0,0,0,0,0,0,0,0,0
+commons-lang,BooleanDiff,,71,4,0,0,0,0,0,0,0,0,0,0,0,4,1,0,0,0,0,0,0,0,0
+commons-lang,TestTransientSubObject,,1173,2,0,0,0,0,1,0,0,307,0,0,0,49,0,0,0,0,0,0,0,0,0
+commons-lang,DefaultToStringStyleTest,,154,15,0,0,0,0,0,0,0,0,0,0,0,11,44,0,0,0,0,0,0,0,0
+commons-lang,CollectionHolder,,109,2,0,0,0,0,4,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0
+commons-lang,WithArrays,,310,9,0,0,0,0,0,0,0,0,0,0,0,1,14,0,0,0,0,0,0,0,0
+commons-lang,Teacher,,634,4,0,0,0,0,0,0,0,0,0,0,0,29,102,1,0,0,0,0,0,0,0
+commons-lang,SimpleToStringStyleTest,,152,14,0,0,0,0,0,0,0,0,0,0,0,11,44,0,0,0,0,0,0,0,0
+commons-lang,UncheckedIllegalAccessExceptionTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/exception/UncheckedIllegalAccessException.java,35,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+commons-lang,UncheckedReflectiveOperationExceptionTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/exception/UncheckedReflectiveOperationException.java,35,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+commons-lang,ContextedExceptionTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/exception/ContextedException.java,118,9,12,7,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0,0,0,0,2
+commons-lang,ContextedRuntimeExceptionTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/exception/ContextedRuntimeException.java,117,8,12,7,0,0,0,0,0,0,0,0,0,7,0,0,0,0,0,0,0,0,2
+commons-lang,UncheckedExceptionTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/exception/UncheckedException.java,35,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+commons-lang,ObjectWithFaultyToString,,189,1,0,0,0,0,0,0,0,13,0,0,0,7,0,1,0,0,0,0,0,0,0
+commons-lang,TestThrowable,,938,1,0,0,0,0,1,0,0,173,0,0,0,64,1,0,0,0,0,0,0,0,0
+commons-lang,CloneFailedExceptionTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/exception/CloneFailedException.java,83,6,4,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,1
+commons-lang,DefaultExceptionContextTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/exception/DefaultExceptionContext.java,70,4,4,3,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,3
+commons-lang,UncheckedInterruptedExceptionTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/exception/UncheckedInterruptedException.java,35,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+commons-lang,WrapperString,,314,8,0,0,0,0,4,0,0,9,0,0,0,11,3,1,0,0,0,0,0,0,0
+commons-lang,EventListenerSupportTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/event/EventListenerSupport.java,282,14,20,10,0,0,1,0,0,17,5,0,0,12,0,1,0,0,4,1,0,0,5
+commons-lang,PropertyChangeSource,,224,6,0,0,0,0,0,0,0,11,0,0,0,8,0,0,0,0,0,0,0,0,0
+commons-lang,JavaVersionTest,/Users/joaopauloaramuni/Downloads/Projeto JNose Test Smells Analyser/commons-lang/src/main/java/org/apache/commons/lang3/JavaVersion.java,81,3,15,0,0,0,0,0,0,0,0,0,0,3,1,1,0,0,0,0,0,0,0
+commons-lang,CustomCharSequence,,828,8,0,0,0,0,0,1,0,410,0,0,0,37,7,4,0,0,0,0,0,0,0
+commons-lang,TestThread,,423,5,0,0,0,0,2,0,0,25,0,0,0,32,0,1,0,0,0,0,0,0,0
+commons-lang,UncloneableString,,910,2,0,0,0,0,0,0,0,36,0,0,0,58,24,2,0,0,0,0,0,0,0
+commons-lang,AbstractLangTest,,38,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
