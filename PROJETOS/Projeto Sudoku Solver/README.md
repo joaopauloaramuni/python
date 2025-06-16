@@ -56,6 +56,6 @@ Da mesma forma, para desmarcar o valor `num`, desfaça os bits definidos no pass
 
 ## Referências
 
-- [Algoritmo para resolver Sudoku | Sudoku Solver - GeeksforGeeks](https://www.geeksforgeeks.org/dsa/sudoku-backtracking-7/)
+- [Algoritmo resolvedor de Sudoku | Sudoku Solver - GeeksforGeeks](https://www.geeksforgeeks.org/dsa/sudoku-backtracking-7/)
 
 ---
