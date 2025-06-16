@@ -16,7 +16,7 @@ Uma solução de Sudoku deve satisfazer todas as seguintes regras:
 
 ## Exemplos:
 
-| <img src="https://joaopauloaramuni.github.io/python-imgs/Sudoku_Solver_With_Backtracking/imgs/Suduko-example-question.png" alt="Input" width="600"/> | <img src="https://joaopauloaramuni.github.io/python-imgs/Sudoku_Solver_With_Backtracking/imgs/Suduko-example-answer.png" alt="Output" width="600"/> |
+| <img src="https://joaopauloaramuni.github.io/python-imgs/Sudoku_Solver/imgs/Suduko-example-question.png" alt="Input" width="600"/> | <img src="https://joaopauloaramuni.github.io/python-imgs/Sudoku_Solver/imgs/Suduko-example-answer.png" alt="Output" width="600"/> |
 |:------:|:-----:|
 | Input | Output | 
 
