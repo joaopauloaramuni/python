@@ -53,3 +53,9 @@ Da mesma forma, para desmarcar o valor `num`, desfaça os bits definidos no pass
 **Espaço Auxiliar:** `O(n)`
 
 ---
+
+## Referências
+
+- [Algoritmo para resolver Sudoku | Sudoku Solver - GeeksforGeeks](https://www.geeksforgeeks.org/dsa/sudoku-backtracking-7/)
+
+---
