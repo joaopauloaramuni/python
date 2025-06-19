@@ -16,9 +16,15 @@ Este projeto realiza a raspagem de dados do curso de **Engenharia de Software** 
 
 ## 🚀 O que é o Selenium?
 
-O **Selenium** é uma ferramenta de automação de navegadores 🧭. Com ele, você pode simular cliques, preenchimento de formulários, navegação e extração de dados diretamente de páginas web.
+O **Selenium** é uma poderosa ferramenta de automação para navegadores web.  
+Ela permite que programas controlem navegadores automaticamente, simulando interações humanas como clicar em botões, preencher formulários, navegar entre páginas e extrair dados de sites.  
+Isso é muito útil para testes automatizados de aplicações web, raspagem de dados (web scraping) e qualquer tarefa repetitiva que envolva navegação na internet.
 
-Já o **ChromeDriver** é um driver específico para o Google Chrome que permite ao Selenium controlar o navegador.
+O Selenium suporta vários navegadores, como Chrome, Firefox, Edge e Safari,  
+e pode ser usado com várias linguagens de programação, como Python, Java, C# e JavaScript.
+
+Para controlar um navegador específico, como o Google Chrome, o Selenium utiliza um componente chamado **ChromeDriver**.  
+Esse driver atua como uma ponte entre o código automatizado e o navegador, permitindo que o Selenium envie comandos e receba respostas do Chrome de forma programática.
 
 ---
 
