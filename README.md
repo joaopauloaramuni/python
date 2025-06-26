@@ -87,6 +87,62 @@ O Tkinter é a biblioteca padrão do Python para criação de interfaces gráfic
 
 -----
 
+##### 🧪 Testes e qualidade de software
+
+###### 🔍 pytest, unittest, tox  
+Frameworks de teste ajudam a automatizar verificações de comportamento, identificar regressões e garantir a qualidade do código. Ferramentas como **pytest**, **unittest** e **tox** são essenciais para testar aplicações Python de forma robusta e modular.
+
+- [📘 Documentação do pytest](https://docs.pytest.org/en/stable/)
+- [📙 Documentação do unittest (módulo padrão)](https://docs.python.org/3/library/unittest.html)
+- [🧪 tox - Test Automation](https://tox.readthedocs.io/)
+
+-----
+
+##### 📦 Gerenciamento de pacotes e ambientes
+
+###### 🧰 pip, venv, Poetry  
+Gerenciadores de pacotes e ambientes virtuais permitem isolar dependências, evitar conflitos e manter projetos organizados. O **pip** é o instalador padrão, **venv** cria ambientes virtuais e **Poetry** oferece uma abordagem moderna para dependências e publicação.
+
+- [📦 pip - Instalador de pacotes](https://pip.pypa.io/en/stable/)
+- [📂 venv - Ambientes virtuais (módulo nativo)](https://docs.python.org/3/library/venv.html)
+- [🎼 Poetry - Gerenciador moderno](https://python-poetry.org/)
+
+-----
+
+##### 🔐 Segurança e boas práticas
+
+###### 🛡️ Bandit, flake8, black  
+Ferramentas de análise estática ajudam a identificar vulnerabilidades, má formatação e problemas de estilo. **Bandit** foca em segurança, **flake8** em estilo e erros, e **Black** em formatação automática consistente.
+
+- [🕵️‍♂️ Bandit - Segurança Estática](https://bandit.readthedocs.io/en/latest/)
+- [📏 flake8 - Linting e Estilo](https://flake8.pycqa.org/en/latest/)
+- [🖤 Black - Formatador automático](https://black.readthedocs.io/en/stable/)
+
+-----
+
+##### ☁️ Hospedagem e Deploy de projetos python
+
+###### 🌐 Plataformas para publicação de aplicações e APIs  
+Serviços como **Replit**, **Render**, **Railway** e **PythonAnywhere** permitem publicar projetos Python com facilidade, ideais para protótipos, bots, APIs e aplicações educacionais.
+
+- [🧪 Replit - IDE online](https://replit.com/)
+- [🚀 Render - Deploy rápido](https://render.com/)
+- [⚙️ Railway - Infra simples para apps](https://railway.app/)
+- [🖥️ PythonAnywhere - Execução online](https://www.pythonanywhere.com/)
+
+-----
+
+##### 💻 Sites com exercícios e prática de programação
+
+###### 🧠 Exercism, LeetCode, HackerRank  
+Praticar algoritmos, estruturas de dados e resolução de problemas em Python é essencial para consolidar o aprendizado. Plataformas como **Exercism**, **LeetCode** e **HackerRank** oferecem desafios variados com feedback automático.
+
+- [📚 Exercism - Trilha Python](https://exercism.org/tracks/python)
+- [🎯 LeetCode - Problemas em Python](https://leetcode.com/problemset/all/?language=Python)
+- [🏆 HackerRank - Python](https://www.hackerrank.com/domains/tutorials/10-days-of-python)
+
+-----
+
 ##### 🔌 APIs e acesso a dados
 
 ###### 🐙 GitHub REST API
@@ -186,17 +242,68 @@ Ferramentas para análise estatística de código, detecção de *code smells*, 
 #### Comandos úteis
 
 ```python
+# Criar e ativar ambiente virtual (Linux/macOS)
 python3 -m venv .venv
 source .venv/bin/activate
-pip3 install scrapy
-python3 quotes.py # (ou scrapy startproject quotes_scrapy e em seguida scrapy crawl quotes -o quotes.json)
-# Opcional:
-pip3 install beautifulsoup4 lxml
+
+# Ativar ambiente virtual (Windows)
+.venv\Scripts\activate
+
+# Atualizar pip
+pip install --upgrade pip
+
+# Instalar pacotes a partir de requirements.txt
+pip install -r requirements.txt
+
+# Gerar requirements.txt com os pacotes do ambiente atual
+pip freeze > requirements.txt
+
+# Instalar pacotes comuns de scraping
+pip install scrapy beautifulsoup4 lxml requests
+
+# Criar projeto Scrapy
+scrapy startproject meu_projeto
+
+# Executar spider Scrapy e salvar resultado em JSON
+scrapy crawl nome_spider -o resultado.json
+
+# Executar script Python normalmente
+python script.py
+
+# Executar notebook Jupyter (instalar antes com pip install notebook)
+jupyter notebook
+
+# Rodar testes com pytest
+pytest
+
+# Rodar análise de estilo com flake8
+flake8 nome_do_arquivo.py
+
+# Rodar análise de segurança com bandit
+bandit nome_do_arquivo.py
+
+# Rodar o Black para formatar o código
+black nome_do_arquivo.py
+
+# Rodar um script diretamente de dentro do ambiente virtual
+python -m nome_modulo
 ```
 
 -----
 
 #### Cursos sugeridos
+
+<div>
+
+[PUC Minas - Ciência de Dados e Inteligência Artificial](https://www.pucminas.br/campus/lourdes/ensino/graduacao/Paginas/Ciencia-de-Dados-e-Inteligencia-Artificial.aspx)  
+
+<a href="https://www.pucminas.br/campus/lourdes/ensino/graduacao/Paginas/Ciencia-de-Dados-e-Inteligencia-Artificial.aspx">
+  <img width="400px" alt="trybe" src="https://github.com/joaopauloaramuni/joaopauloaramuni/blob/main/img/trybe-header2.jpg?raw=true"/>
+</a>
+
+</div>
+
+-----
 
 <div>
 
@@ -207,6 +314,8 @@ pip3 install beautifulsoup4 lxml
 </a>
 
 </div>
+
+-----
 
 <div>
 
