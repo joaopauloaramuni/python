@@ -100,8 +100,6 @@ Desde a versão 6.0.0, as regras internas do PMD estão organizadas em oito cate
 
 ---
 
----
-
 ## 🔧 Como funciona o script da **versão 2**?
 
 1. 📋 **Lê** uma lista de URLs de repositórios Java a partir de um arquivo CSV (`repos.csv`)
