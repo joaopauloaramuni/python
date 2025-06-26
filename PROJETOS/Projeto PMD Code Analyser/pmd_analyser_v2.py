@@ -64,7 +64,7 @@ def cleanup_repo(clone_dir):
 # -----------------------------------
 # Função para exportar o relatório PMD para PDF
 # -----------------------------------
-def export_report_to_pdf(report_text, output_pdf_path="pmd_report.pdf"):
+def export_report_to_pdf(report_text, output_pdf_path="reports/pmd_report.pdf"):
     print("📄 Exportando relatório para PDF...\n")
     pdf = FPDF()
     pdf.add_page()
