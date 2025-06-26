@@ -298,7 +298,7 @@ python -m nome_modulo
 [PUC Minas - Ciência de Dados e Inteligência Artificial](https://www.pucminas.br/campus/lourdes/ensino/graduacao/Paginas/Ciencia-de-Dados-e-Inteligencia-Artificial.aspx)  
 
 <a href="https://www.pucminas.br/campus/lourdes/ensino/graduacao/Paginas/Ciencia-de-Dados-e-Inteligencia-Artificial.aspx">
-  <img width="400px" alt="trybe" src="https://github.com/joaopauloaramuni/joaopauloaramuni/blob/main/img/trybe-header2.jpg?raw=true"/>
+  <img width="400px" alt="trybe" src="https://github.com/joaopauloaramuni/joaopauloaramuni/blob/main/img/dadospuc.jpg?raw=true"/>
 </a>
 
 </div>
