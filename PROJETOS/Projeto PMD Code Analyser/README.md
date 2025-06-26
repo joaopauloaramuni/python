@@ -81,21 +81,46 @@ Desde a versão 6.0.0, as regras internas do PMD estão organizadas em oito cate
 
 ---
 
-## 🔧 Como funciona o script?
+## 🔧 Como funciona o script da **versão 1**?
 
 1. 🧬 **Clona** o repositório Java do GitHub
 2. 🧪 **Executa** o PMD na pasta `src` do projeto
 3. 📄 **Gera um relatório** com os resultados
-4. 🖨️ **Exporta o relatório para PDF**
-5. 🧹 **Remove** o repositório clonado
+4. 🖨️ **Exporta o relatório para PDF** na pasta `reports`
+5. 🧹 **Remove** o repositório clonado para manter a pasta limpa
 
 ---
 
-## 🧠 Explicação das funções
+## 🧠 Explicação das funções da **versão 1**
 
-- `run_pmd`: Executa a ferramenta PMD na pasta `src` do repositório clonado, captura o relatório e exporta para PDF.
-- `cleanup_repo`: Remove a pasta clonada após a análise, mantendo o ambiente limpo.
-- `export_report_to_pdf`: Converte o texto do relatório gerado pelo PMD para um arquivo PDF usando a biblioteca `fpdf`.
+- `clone_repo()`: Verifica se o diretório do repositório já existe localmente, remove-o caso exista para evitar conflitos, e clona o repositório Git do endereço definido em `REPO_URL`.
+- `run_pmd()`: Executa o PMD na pasta `src` dentro do repositório clonado, captura o relatório gerado (stdout), imprime o relatório no console, e chama a função para exportar o relatório para PDF. Também captura e imprime possíveis mensagens de erro (stderr).
+- `export_report_to_pdf(report_text, output_pdf_path)`: Converte o texto do relatório PMD para um arquivo PDF, usando a biblioteca `fpdf`. Quebra o texto em linhas para respeitar a largura da página e salva o arquivo no caminho especificado (`reports/pmd_report.pdf` por padrão).
+- `cleanup_repo()`: Remove a pasta do repositório clonado localmente para manter o ambiente limpo após a análise.
+
+---
+
+---
+
+## 🔧 Como funciona o script da **versão 2**?
+
+1. 📋 **Lê** uma lista de URLs de repositórios Java a partir de um arquivo CSV (`repos.csv`)
+2. 🔄 Para cada repositório:
+   - 🧬 **Clona** o repositório localmente
+   - 🧪 **Executa** o PMD na pasta `src` do projeto
+   - 📄 **Gera um relatório** com os resultados
+   - 🖨️ **Exporta o relatório para PDF** na pasta `reports`, nomeando o arquivo conforme o repositório
+   - 🧹 **Remove** o repositório clonado para manter o ambiente limpo
+
+---
+
+## 🧠 Explicação das funções da **versão 2**
+
+- `read_repositories(csv_path)`: Abre o arquivo CSV especificado, lê linha a linha e retorna uma lista de URLs dos repositórios a serem analisados.
+- `clone_repo(repo_url, clone_dir)`: Recebe a URL do repositório e o nome do diretório para clonagem; remove o diretório caso já exista para evitar conflitos e clona o repositório Git localmente.
+- `run_pmd(clone_dir, pdf_name)`: Executa o PMD na pasta `src` dentro do repositório clonado (`clone_dir`), captura o relatório gerado, imprime no console e chama `export_report_to_pdf` para salvar o relatório em PDF com o nome especificado (`pdf_name`).
+- `export_report_to_pdf(report_text, output_pdf_path)`: Converte o texto do relatório para PDF, usando `fpdf`. Divide o texto em linhas para melhor formatação e salva no caminho indicado.
+- `cleanup_repo(clone_dir)`: Remove a pasta do repositório clonado para manter o ambiente limpo após a análise.
 
 ---
 
@@ -143,7 +168,7 @@ pip install fpdf
 
 ---
 
-## 💻 Resultado no terminal
+## 💻 Resultado no terminal da v1
 
 - **Repositório analisado:** `arieslab/jnose`
 - **URL**: `https://github.com/arieslab/jnose`
