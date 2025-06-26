@@ -39,6 +39,24 @@ IDE (Ambiente de Desenvolvimento Integrado) e editores especializados ajudam a e
 
 -----
 
+###### 🎓 Como obter o PyCharm Professional gratuitamente com o GitHub Student Pack
+
+Ao se cadastrar no **GitHub Student Developer Pack**, você garante acesso gratuito à **versão profissional das ferramentas da JetBrains**, como o **PyCharm Professional** 🧠💻. Essa é uma excelente oportunidade para utilizar recursos avançados de desenvolvimento, como depuração visual, análise de código, suporte a frameworks e muito mais — tudo **sem custo** para estudantes! 🚀
+
+###### ✅ Passo a passo:
+
+1️⃣ **Adicione seu e-mail institucional** da PUC Minas (terminado em `@sga.pucminas.br`) como **e-mail secundário** na sua conta do GitHub em [https://github.com/settings/emails](https://github.com/settings/emails)  
+2️⃣ Acesse a caixa de entrada do e-mail e **clique no link de confirmação** enviado pelo GitHub.  
+3️⃣ Ao acessar o [GitHub Student Pack](https://education.github.com/pack), **permita que o navegador compartilhe sua localização atual** 🌍.  
+4️⃣ **Selecione "PUC Minas"** como sua instituição e aguarde até **2 dias úteis** para que o selo **GitHub Pro** 🏅 seja ativado na sua conta.  
+5️⃣ Acesse: [https://www.jetbrains.com/shop/eform/students](https://www.jetbrains.com/shop/eform/students)  
+ ➡ Vá até a aba **GitHub** e clique em **"Authorize with GitHub"** 🔑.  
+6️⃣ **Instale o PyCharm** e **faça login com sua conta do GitHub** para ativar a versão Professional automaticamente 🎉.
+
+Pronto! Agora você pode aproveitar todos os benefícios do GitHub Pro, como os recursos premium do PyCharm e de outras ferramentas da JetBrains para turbinar seu aprendizado e produtividade. 💼💻
+
+-----
+
 ##### 📚 Documentação Oficial
 
 ###### 🧾 Fontes confiáveis e completas sobre a linguagem e suas bibliotecas  
