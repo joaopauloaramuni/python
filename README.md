@@ -51,9 +51,21 @@ Ao se cadastrar no **GitHub Student Developer Pack**, você garante acesso gratu
 4️⃣ **Selecione "PUC Minas"** como sua instituição e aguarde até **2 dias úteis** para que o selo **GitHub Pro** 🏅 seja ativado na sua conta.  
 5️⃣ Acesse: [https://www.jetbrains.com/shop/eform/students](https://www.jetbrains.com/shop/eform/students)  
  ➡ Vá até a aba **GitHub** e clique em **"Authorize with GitHub"** 🔑.  
-6️⃣ **Instale o PyCharm** e **faça login com sua conta do GitHub** para ativar a versão Professional automaticamente 🎉.
+6️⃣ **Instale o PyCharm** e, ao abrir o programa, vá em **"Ativar licença"**. Escolha a opção **"Log in with GitHub"**, faça login com sua conta GitHub (que já tem o selo GitHub Pro), e a **licença será ativada automaticamente** 🎉.
 
-Pronto! Agora você pode aproveitar todos os benefícios do GitHub Pro, como os recursos premium do PyCharm e de outras ferramentas da JetBrains para turbinar seu aprendizado e produtividade. 💼💻
+Pronto! Agora você pode aproveitar todos os benefícios do **GitHub Pro** 🏅, incluindo:
+
+- Acesso gratuito às **ferramentas profissionais da JetBrains**, como o **PyCharm Professional** 🧠💻  
+- **GitHub Copilot** com sugestões inteligentes de código (com testes gratuitos por tempo limitado) 🤖  
+- Repositórios privados ilimitados 🔒  
+- **Insights avançados de contribuições**, métricas e estatísticas dos seus projetos 📊  
+- Ferramentas de CI/CD integradas com GitHub Actions ⚙️  
+- Integrações com dezenas de serviços e ferramentas educacionais 🧩
+
+Esses recursos ajudam a **elevar seu aprendizado, organizar seus projetos e turbinar sua produtividade como desenvolvedor** 💼🚀
+
+🔗 Confira todos os detalhes do plano GitHub Pro para estudantes aqui:  
+[https://docs.github.com/pt/get-started/learning-about-github/githubs-plans#github-pro](https://docs.github.com/pt/get-started/learning-about-github/githubs-plans#github-pro)
 
 -----
 
