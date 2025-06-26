@@ -74,7 +74,7 @@ def cleanup_repo():
 # -----------------------------------
 # Função para exportar o relatório PMD para PDF
 # -----------------------------------
-def export_report_to_pdf(report_text, output_pdf_path="pmd_report.pdf"):
+def export_report_to_pdf(report_text, output_pdf_path="reports/pmd_report.pdf"):
     """
     Gera um PDF simples contendo o texto do relatório PMD.
     Usa a biblioteca fpdf para criar o arquivo PDF.
