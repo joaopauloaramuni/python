@@ -46,7 +46,7 @@ A documentação oficial é a principal referência para aprender, consultar fun
 - [📘 Documentação Oficial do Tkinter (pt-BR)](https://docs.python.org/pt-br/3/library/tkinter.html)
 - [📗 Documentação Oficial do Tkinter (en)](https://docs.python.org/3/library/tkinter.html)
 
------d
+-----
 
 ##### 📚 Livros Recomendados
 
