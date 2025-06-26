@@ -295,7 +295,7 @@ python -m nome_modulo
 
 <div>
 
-[PUC Minas - Bacharelado em Ciência de Dados e Inteligência Artificial](https://www.pucminas.br/campus/lourdes/ensino/graduacao/Paginas/Ciencia-de-Dados-e-Inteligencia-Artificial.aspx)  
+[(Graduação) PUC Minas - Bacharelado em Ciência de Dados e Inteligência Artificial](https://www.pucminas.br/campus/lourdes/ensino/graduacao/Paginas/Ciencia-de-Dados-e-Inteligencia-Artificial.aspx)  
 
 <a href="https://www.pucminas.br/campus/lourdes/ensino/graduacao/Paginas/Ciencia-de-Dados-e-Inteligencia-Artificial.aspx">
   <img width="400px" alt="trybe" src="https://github.com/joaopauloaramuni/joaopauloaramuni/blob/main/img/dadospuc.jpg?raw=true"/>
@@ -307,7 +307,7 @@ python -m nome_modulo
 
 <div>
 
-[Curso livre - Trybe - Formação Python para Dev Web](https://betrybe.com/programacao/curso-python-desenvolvimento-web)  
+[(Curso livre) Trybe - Formação Python para Dev Web](https://betrybe.com/programacao/curso-python-desenvolvimento-web)  
 
 <a href="https://betrybe.com/programacao/curso-python-desenvolvimento-web">
   <img width="400px" alt="trybe" src="https://github.com/joaopauloaramuni/joaopauloaramuni/blob/main/img/trybe-header2.jpg?raw=true"/>
@@ -319,7 +319,7 @@ python -m nome_modulo
 
 <div>
 
-[Curso livre - Asimov Academy - A maior escola de programação em Python](https://asimov.academy/)
+[(Curso livre) Asimov Academy - A maior escola de programação em Python](https://asimov.academy/)
 
 <a href="https://asimov.academy/">
   <img width="400px" alt="Asimov" src="https://github.com/joaopauloaramuni/joaopauloaramuni/blob/main/img/asimov2.png?raw=true"/>
