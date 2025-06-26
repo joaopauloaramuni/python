@@ -6,7 +6,6 @@ from fpdf import FPDF
 # -----------------------------------
 # Configurações principais
 # -----------------------------------
-
 PMD_CMD = "pmd-bin-7.14.0/bin/pmd"  # Caminho relativo para o executável PMD
 REPO_URL = "https://github.com/arieslab/jnose.git"  # Repositório Java a ser analisado
 CLONE_DIR = os.path.basename(REPO_URL).removesuffix(".git") # Pasta onde o repositório será clonado localmente
