@@ -65,7 +65,7 @@ Ao se cadastrar no **GitHub Student Developer Pack**, você garante acesso gratu
 Esses recursos ajudam a **elevar seu aprendizado, organizar seus projetos e turbinar sua produtividade como desenvolvedor** 💼🚀
 
 🔗 Confira todos os detalhes do plano GitHub Pro para estudantes aqui:  
-[https://docs.github.com/pt/get-started/learning-about-github/githubs-plans#github-pro](https://docs.github.com/pt/get-started/learning-about-github/githubs-plans#github-pro)
+- [https://docs.github.com/pt/get-started/learning-about-github/githubs-plans#github-pro](https://docs.github.com/pt/get-started/learning-about-github/githubs-plans#github-pro)
 
 -----
 
