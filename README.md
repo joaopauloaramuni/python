@@ -27,27 +27,45 @@
 #### Links úteis
 
 ##### 🛠️ IDEs e Ferramentas
+
+###### ⚙️ Ambientes de desenvolvimento para produtividade e depuração  
+IDE (Ambiente de Desenvolvimento Integrado) e editores especializados ajudam a escrever, depurar e manter código com mais eficiência. Ferramentas como **PyCharm**, **VS Code** e **Python Tutor** oferecem recursos como autocompletar, depuração visual, linting, integração com Git e visualização de execução passo a passo.
+
 - [💡 PyCharm - IDE da JetBrains](https://www.jetbrains.com/pt-br/pycharm/)
+- [🧩 Visual Studio Code - Editor leve e extensível da Microsoft](https://code.visualstudio.com/)
 - [🔍 Python Tutor - Visualizador de Código Python](https://pythontutor.com/python-compiler.html)
 
 -----
 
 ##### 📚 Documentação Oficial
+
+###### 🧾 Fontes confiáveis e completas sobre a linguagem e suas bibliotecas  
+A documentação oficial é a principal referência para aprender, consultar funcionalidades e entender o comportamento da linguagem Python e suas bibliotecas padrão. Essencial tanto para iniciantes quanto para desenvolvedores experientes que desejam usar recursos da linguagem da forma correta e atualizada.
+
 - [📖 Documentação Oficial do Python](https://docs.python.org/3/)
 - [📘 Documentação Oficial do Tkinter (pt-BR)](https://docs.python.org/pt-br/3/library/tkinter.html)
 - [📗 Documentação Oficial do Tkinter (en)](https://docs.python.org/3/library/tkinter.html)
 
------
+-----d
 
 ##### 📚 Livros Recomendados
+
+###### 📖 Leituras essenciais para aprender e dominar Python  
+A leitura de bons livros é uma forma sólida e aprofundada de aprender Python, desde os fundamentos até tópicos avançados como orientação a objetos, scraping, boas práticas e uso idiomático da linguagem. A lista a seguir inclui títulos para iniciantes, intermediários e profissionais que desejam escrever código mais limpo e eficaz.
+
 - [📘 Python Fluente - Programação Concisa e Eficaz](https://www.amazon.com.br/Python-Fluente-Programação-Concisa-Eficaz/dp/857522462X)
 - [📙 Pense em Python - Como um Cientista da Computação](https://www.amazon.com.br/Pense-Python-Como-Cientista-Computação/dp/8575225081)
 - [📒 Python Essential Reference (David Beazley)](https://www.amazon.com.br/Python-Essential-Reference-David-Beazley-dp-0134173279/dp/0134173279)
 - [📕 Web Scraping com Python - Coletando Dados da Web](https://www.amazon.com.br/Web-Scraping-Com-Python-Coletando/dp/8575227300)
+- [📗 Guia do Mochileiro Python (Felipe Furtado)](https://python-guide-pt-br.readthedocs.io/pt-br/latest/)
 
 -----
 
 ##### 🐍 Web Scraping
+
+###### 🌐 Coleta de dados estruturados da web  
+Web Scraping é a técnica de extrair informações de páginas web de forma automatizada. Utilizando bibliotecas como **Beautiful Soup**, **Scrapy** e **lxml**, é possível navegar pelo HTML de sites, coletar dados, armazenar em formatos úteis (como CSV ou JSON) e até automatizar buscas e atualizações. É amplamente usado em projetos de análise de dados, monitoramento de preços, pesquisa acadêmica e muito mais.
+
 - [🕷️ Scrapy](https://scrapy.org/)
 - [💬 Quotes to Scrape (site para testes)](http://quotes.toscrape.com/)
 - [📚 Books to Scrape (site para testes)](http://books.toscrape.com/)
@@ -59,6 +77,10 @@
 -----
 
 ##### 🖼️ GUI com Tkinter
+
+###### 🧰 Tkinter (GUI nativa do Python)  
+O Tkinter é a biblioteca padrão do Python para criação de interfaces gráficas (GUI). Ele fornece uma maneira simples e rápida de construir janelas, botões, menus, caixas de texto e outros componentes visuais diretamente com Python. Ideal para aplicações desktop leves, ferramentas utilitárias e protótipos educacionais.
+
 - [📚 Documentação Oficial do Tkinter (pt-BR)](https://docs.python.org/pt-br/3/library/tkinter.html)
 - [📘 Documentação Oficial do Tkinter (en)](https://docs.python.org/3/library/tkinter.html)
 - [🌐 Repositórios Tkinter no GitHub](https://github.com/topics/tkinter-python)
@@ -198,7 +220,7 @@ pip3 install beautifulsoup4 lxml
 
 -----
 
-### Spiders para crawlers
+#### Spiders para crawlers
 
 **Spider1:**
 
