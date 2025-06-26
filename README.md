@@ -51,7 +51,7 @@ Ao se cadastrar no **GitHub Student Developer Pack**, você garante acesso gratu
 4️⃣ **Selecione "PUC Minas"** como sua instituição, envie um **print da sua carteirinha digital do app PUC Mobile** ou um **comprovante de matrícula recente** como forma de verificação. Depois, aguarde até **2 dias úteis** para que o selo **GitHub Pro** 🏅 seja ativado na sua conta.  
 5️⃣ Acesse: [https://www.jetbrains.com/shop/eform/students](https://www.jetbrains.com/shop/eform/students)  
  ➡ Vá até a aba **GitHub** e clique em **"Authorize with GitHub"** 🔑.  
-6️⃣ **Instale o PyCharm** e, ao abrir o programa, vá em **"Ativar licença"**. Escolha a opção **"Log in with GitHub"**, faça login com sua conta GitHub (que já tem o selo GitHub Pro), e a **licença será ativada automaticamente** 🎉.
+6️⃣ **Instale o PyCharm** e, ao abrir o programa, vá em **"Ativar licença"**. Escolha a opção **"Log in with GitHub"**, faça login com sua conta GitHub (que já possui o selo **GitHub Pro** 🏅 e que você autorizou previamente no site da JetBrains — [passo 5](https://www.jetbrains.com/shop/eform/students)), e a **licença Professional será ativada automaticamente** 🎉.
 
 🏁 Pronto! Agora você pode aproveitar todos os benefícios do **GitHub Pro** 🏅, incluindo:
 
