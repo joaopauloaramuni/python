@@ -69,18 +69,16 @@ Esses recursos ajudam a **elevar seu aprendizado, organizar seus projetos e turb
 
 -----
 
-##### 📚 Documentação Oficial
+##### 📚 Documentação oficial
 
 ###### 🧾 Fontes confiáveis e completas sobre a linguagem e suas bibliotecas  
 A documentação oficial é a principal referência para aprender, consultar funcionalidades e entender o comportamento da linguagem Python e suas bibliotecas padrão. Essencial tanto para iniciantes quanto para desenvolvedores experientes que desejam usar recursos da linguagem da forma correta e atualizada.
 
 - [📖 Documentação Oficial do Python](https://docs.python.org/3/)
-- [📘 Documentação Oficial do Tkinter (pt-BR)](https://docs.python.org/pt-br/3/library/tkinter.html)
-- [📗 Documentação Oficial do Tkinter (en)](https://docs.python.org/3/library/tkinter.html)
 
 -----
 
-##### 📚 Livros Recomendados
+##### 📚 Livros recomendados
 
 ###### 📖 Leituras essenciais para aprender e dominar Python  
 A leitura de bons livros é uma forma sólida e aprofundada de aprender Python, desde os fundamentos até tópicos avançados como orientação a objetos, scraping, boas práticas e uso idiomático da linguagem. A lista a seguir inclui títulos para iniciantes, intermediários e profissionais que desejam escrever código mais limpo e eficaz.
