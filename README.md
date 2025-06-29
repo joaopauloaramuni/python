@@ -26,7 +26,7 @@
 - [Projetos](https://github.com/joaopauloaramuni/python/tree/main/PROJETOS)
 - [Desafios](https://github.com/joaopauloaramuni/python/tree/main/DESAFIOS)
 
-#### Links úteis
+#### Links úteis:
 
 ##### 🛠️ IDEs e Ferramentas
 
