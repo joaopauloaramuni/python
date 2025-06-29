@@ -197,8 +197,9 @@ GraphQL é uma linguagem de consulta desenvolvida pelo Facebook que permite soli
 Pandas é uma biblioteca poderosa de Python para análise de dados, oferecendo estruturas de dados como DataFrames e ferramentas para manipulação, limpeza, agregação e exportação de dados.
 
 - [Documentação Oficial do Pandas](https://pandas.pydata.org/)
-- [Tutorial de Pandas - W3Schools](https://www.w3schools.com/python/pandas/default.asp)
 - [Pacote Pandas no PyPI](https://pypi.org/project/pandas/)
+- [Tutorial de Pandas - W3Schools](https://www.w3schools.com/python/pandas/default.asp)
+- [Tutorial - Ensinando Pandas (17 episódios) – Canal Téo me Why](https://www.youtube.com/watch?v=9Cw7iIjFlBc&list=PLvlkVRRKOYFQHnDhjTmXLEz3HU5WTgOcF)
 
 ###### 📊 Matplotlib
 Matplotlib é uma biblioteca de visualização de dados em Python que permite criar gráficos estáticos, animados e interativos de forma altamente personalizável.
