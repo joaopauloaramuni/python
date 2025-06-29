@@ -251,7 +251,6 @@ Flourish é uma plataforma de visualização de dados que permite criar gráfico
 -----
 
 ##### 🧹 Análise de Código
-
 Ferramentas para análise estatística de código, detecção de *code smells*, métricas de qualidade e identificação de más práticas de programação.
 
 - **PMD**: Ferramenta que verifica problemas comuns em código Java, como variáveis não utilizadas, duplicação de código e estilos de codificação.
