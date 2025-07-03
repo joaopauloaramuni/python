@@ -400,7 +400,7 @@ def print_spider1():
 ```
 
 <details>
-  <summary>Veja mais</summary>
+  <summary>Veja mais ⬇️</summary>
 
 **Spider2:**
 
