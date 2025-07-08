@@ -47,7 +47,7 @@ Quando o jogo terminar:
 
 🎉 **Divirta-se jogando!**
 
-🧑‍💻 Inspirado no jogo [Snake Game](https://github.com/flaviojuniordev/snake-game) do Flavio Júnior, aluno do quarto período de Engenharia de Software da PUC Minas - Campus Coração Eucarístico.
+🧑‍💻 Inspirado no jogo [Snake Game](https://github.com/flaviojuniordev/snake-game) do [Flávio Junior](https://github.com/flaviojuniordev), aluno do quarto período de Engenharia de Software da PUC Minas - Campus Coração Eucarístico.
 
 ## 📦 Dependências
 
