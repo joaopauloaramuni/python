@@ -47,6 +47,8 @@ Quando o jogo terminar:
 
 🎉 **Divirta-se jogando!**
 
+🧑‍💻 Inspirado no jogo [Snake Game](https://github.com/flaviojuniordev/snake-game) do Flavio Júnior, aluno do quarto período de Engenharia de Software da PUC Minas - Campus Coração Eucarístico.
+
 ## 📦 Dependências
 
 Para rodar o jogo, instale a biblioteca Pygame:
