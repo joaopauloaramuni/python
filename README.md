@@ -81,10 +81,11 @@ A documentação oficial é a principal referência para aprender, consultar fun
 ###### 📖 Leituras essenciais para aprender e dominar Python  
 A leitura de bons livros é uma forma sólida e aprofundada de aprender Python, desde os fundamentos até tópicos avançados como orientação a objetos, scraping, boas práticas e uso idiomático da linguagem. A lista a seguir inclui títulos para iniciantes, intermediários e profissionais que desejam escrever código mais limpo e eficaz.
 
-- [📘 Python Fluente - Programação Concisa e Eficaz](https://www.amazon.com.br/Python-Fluente-Programação-Concisa-Eficaz/dp/857522462X)
-- [📙 Pense em Python - Como um Cientista da Computação](https://www.amazon.com.br/Pense-Python-Como-Cientista-Computação/dp/8575225081)
+- [📕 Python para Análise de Dados (Wes McKinney)](https://www.amazon.com.br/Python-Para-An%C3%A1lise-Dados-Tratamento/dp/8575228412)
+- [📘 Python Fluente - Programação Concisa e Eficaz (Luciano Ramalho)](https://www.amazon.com.br/Python-Fluente-Programação-Concisa-Eficaz/dp/857522462X)
+- [📙 Pense em Python - Como um Cientista da Computação (Allen B. Downey)](https://www.amazon.com.br/Pense-Python-Como-Cientista-Computação/dp/8575225081)
 - [📒 Python Essential Reference (David Beazley)](https://www.amazon.com.br/Python-Essential-Reference-David-Beazley-dp-0134173279/dp/0134173279)
-- [📕 Web Scraping com Python - Coletando Dados da Web](https://www.amazon.com.br/Web-Scraping-Com-Python-Coletando/dp/8575227300)
+- [📕 Web Scraping com Python - Coletando Dados da Web (Ryan Mitchell)](https://www.amazon.com.br/Web-Scraping-Com-Python-Coletando/dp/8575227300)
 - [📗 Guia do Mochileiro Python (Felipe Furtado)](https://python-guide-pt-br.readthedocs.io/pt-br/latest/)
 
 -----
