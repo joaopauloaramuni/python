@@ -32,9 +32,9 @@ A inteligência artificial da máquina utiliza uma **estratégia aleatória**: e
 
 ## 📷 Capturas de Tela
 
-| ![Tela Inicial](https://joaopauloaramuni.github.io/python-imgs/JogodaVelha/imgs/home.png) | ![Tela do Jogo](https://joaopauloaramuni.github.io/python-imgs/JogodaVelha/imgs/game.png) |
-|:--:|:--:|
-| 🏠 Tela Inicial | 🕹️ Tela do Jogo |
+| ![Tela Inicial](https://joaopauloaramuni.github.io/python-imgs/JogodaVelha/imgs/home.png) | ![Tela do Jogo](https://joaopauloaramuni.github.io/python-imgs/JogodaVelha/imgs/game.png) | ![Tela do Vencedor](https://joaopauloaramuni.github.io/python-imgs/JogodaVelha/imgs/game_winner.png) |
+|:--:|:--:|:--:|
+| 🏠 Tela Inicial | 🕹️ Tela do Jogo | 🏁 Tela do Vencedor |
 
 ---
 
