@@ -19,23 +19,29 @@
 -----
 
 <div>
-  <details>
-    <summary>
-      <img height="20" alt="GIF" src="https://joaopauloaramuni.github.io/image/calendar.gif?raw=true" />
-      &nbsp;Outros eventos
-    </summary>
-    <br />
-    <div align="center">
-      <div>
-        📅 DevFest 2025 - GDG - PUC Minas - Unidade Lourdes:
-        <div align="center">
-          <a href="https://www.instagram.com/p/DMFmRNYOryz/">
-            <img height="675px" alt="devfest" src="https://joaopauloaramuni.github.io/image/devfest2.jpeg?raw=true" />
-          </a>
-        </div>
-      </div>
-    </div>
-  </details>
+
+<details>
+<summary><img height="20" alt="GIF" src="https://joaopauloaramuni.github.io/image/calendar.gif?raw=true"/>&nbsp;Outros eventos
+</summary>
+<br />
+<div align="center">
+
+<div>
+
+📅 DevFest 2025 - GDG - PUC Minas - Unidade Lourdes:
+
+<div align="center">
+<a href="https://www.instagram.com/p/DMFmRNYOryz/">
+  <img height="675px" alt="devfest" src="https://joaopauloaramuni.github.io/image/devfest2.jpeg?raw=true"/>
+</a>
+</div>
+
+</div>
+
+</div>
+
+</details>
+
 </div>
 
 -----
