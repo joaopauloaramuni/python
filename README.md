@@ -109,6 +109,7 @@ A documentação oficial é a principal referência para aprender, consultar fun
 ###### 📖 Leituras essenciais para aprender e dominar Python  
 A leitura de bons livros é uma forma sólida e aprofundada de aprender Python, desde os fundamentos até tópicos avançados como orientação a objetos, scraping, boas práticas e uso idiomático da linguagem. A lista a seguir inclui títulos para iniciantes, intermediários e profissionais que desejam escrever código mais limpo e eficaz.
 
+- [📗 Introdução a Algoritmos e Programação com Python - Uma Abordagem Dirigida Por Testes (Raul Sidnei Wazlawick)](https://www.amazon.com.br/Introdu%C3%A7%C3%A3o-Algoritmos-Programa%C3%A7%C3%A3o-com-Python-ebook/dp/B09T4GSMQW)
 - [📕 Python para Análise de Dados (Wes McKinney)](https://www.amazon.com.br/Python-Para-An%C3%A1lise-Dados-Tratamento/dp/8575228412)
 - [📘 Python Fluente - Programação Concisa e Eficaz (Luciano Ramalho)](https://www.amazon.com.br/Python-Fluente-Programação-Concisa-Eficaz/dp/857522462X)
 - [📙 Pense em Python - Como um Cientista da Computação (Allen B. Downey)](https://www.amazon.com.br/Pense-Python-Como-Cientista-Computação/dp/8575225081)
