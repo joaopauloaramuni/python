@@ -311,6 +311,19 @@ Ferramentas para análise estatística de código, detecção de *code smells*, 
 
 -----
 
+##### 📊 Tendências e pesquisas
+
+###### 📈 Relatórios e estudos sobre o mercado de tecnologia e comportamento de desenvolvedores  
+Relatórios anuais e pesquisas globais ajudam a entender as principais linguagens, ferramentas, salários, preferências e tendências no mercado de desenvolvimento de software. São ótimos para orientar decisões de carreira e identificar habilidades em alta.
+
+- [DevSkiller Report 2025](https://devskiller.com/it-skills-report/)
+  - [PDF - DevSkiller Future Skills Report 2025](https://github.com/joaopauloaramuni/projeto-de-software/blob/main/ARTIGOS/DevSkiller-Future-Skills-Report-2025.pdf)
+- [Stack Overflow Developer Survey 2025](https://survey.stackoverflow.co/2025/)
+- [Stack Overflow Developer Survey 2024](https://survey.stackoverflow.co/2024/)
+- [JetBrains Developer Ecosystem 2024](https://www.jetbrains.com/pt-br/lp/devecosystem-2024/)
+
+-----
+
 #### Comandos úteis
 
 ```python
