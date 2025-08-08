@@ -21,7 +21,7 @@ Este projeto é um exemplo prático para criação e salvamento de diversos grá
 
 ## 🖼️ Gráficos gerados
 
-| <img src="https://joaopauloaramuni.github.io/python-imgs/SeabornSamples/imgs/grafico_barras.png" alt="grafico_barras" width="100"/> | <img src="https://joaopauloaramuni.github.io/python-imgs/SeabornSamples/imgs/grafico_pizza.png" alt="grafico_pizza" width="100"/> | <img src="https://joaopauloaramuni.github.io/python-imgs/SeabornSamples/imgs/grafico_linha.png" alt="grafico_linha" width="100"/> | <img src="https://joaopauloaramuni.github.io/python-imgs/SeabornSamples/imgs/grafico_histograma.png" alt="grafico_histograma" width="100"/> | <img src="https://joaopauloaramuni.github.io/python-imgs/SeabornSamples/imgs/grafico_dispersao.png" alt="grafico_dispersao" width="100"/> |
+| <img src="https://joaopauloaramuni.github.io/python-imgs/SeabornSamples/imgs/grafico_barras.png" alt="grafico_barras" width="200"/> | <img src="https://joaopauloaramuni.github.io/python-imgs/SeabornSamples/imgs/grafico_pizza.png" alt="grafico_pizza" width="200"/> | <img src="https://joaopauloaramuni.github.io/python-imgs/SeabornSamples/imgs/grafico_linha.png" alt="grafico_linha" width="200"/> | <img src="https://joaopauloaramuni.github.io/python-imgs/SeabornSamples/imgs/grafico_histograma.png" alt="grafico_histograma" width="200"/> | <img src="https://joaopauloaramuni.github.io/python-imgs/SeabornSamples/imgs/grafico_dispersao.png" alt="grafico_dispersao" width="200"/> |
 |:---------------------------------:|:---------------------------------:|:---------------------------------:|:---------------------------------:|:---------------------------------:|
 | grafico_barras.png | grafico_pizza.png | grafico_linha.png | grafico_histograma.png | grafico_dispersao.png |
 
