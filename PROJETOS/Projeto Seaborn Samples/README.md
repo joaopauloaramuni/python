@@ -19,6 +19,18 @@ Este projeto é um exemplo prático para criação e salvamento de diversos grá
 
 ---
 
+## 🖼️ Gráficos gerados
+
+| <img src="https://joaopauloaramuni.github.io/python-imgs/SeabornSamples/imgs/grafico_barras.png" alt="grafico_barras" width="100"/> | <img src="https://joaopauloaramuni.github.io/python-imgs/SeabornSamples/imgs/grafico_pizza.png" alt="grafico_pizza" width="100"/> | <img src="https://joaopauloaramuni.github.io/python-imgs/SeabornSamples/imgs/grafico_linha.png" alt="grafico_linha" width="100"/> | <img src="https://joaopauloaramuni.github.io/python-imgs/SeabornSamples/imgs/grafico_histograma.png" alt="grafico_histograma" width="100"/> | <img src="https://joaopauloaramuni.github.io/python-imgs/SeabornSamples/imgs/grafico_dispersao.png" alt="grafico_dispersao" width="100"/> |
+|:---------------------------------:|:---------------------------------:|:---------------------------------:|:---------------------------------:|:---------------------------------:|
+| grafico_barras.png | grafico_pizza.png | grafico_linha.png | grafico_histograma.png | grafico_dispersao.png |
+
+| <img src="https://joaopauloaramuni.github.io/python-imgs/SeabornSamples/imgs/grafico_boxplot.png" alt="grafico_boxplot" width="100"/> | <img src="https://joaopauloaramuni.github.io/python-imgs/SeabornSamples/imgs/grafico_heatmap.png" alt="grafico_heatmap" width="100"/> | <img src="https://joaopauloaramuni.github.io/python-imgs/SeabornSamples/imgs/grafico_pairplot.png" alt="grafico_pairplot" width="100"/> | <img src="https://joaopauloaramuni.github.io/python-imgs/SeabornSamples/imgs/grafico_violin.png" alt="grafico_violin" width="100"/> | <img src="https://joaopauloaramuni.github.io/python-imgs/SeabornSamples/imgs/grafico_barras_empilhadas.png" alt="grafico_barras_empilhadas" width="100"/> |
+|:---------------------------------:|:---------------------------------:|:---------------------------------:|:---------------------------------:|:---------------------------------:|
+| grafico_boxplot.png | grafico_heatmap.png | grafico_pairplot.png | grafico_violin.png | grafico_barras_empilhadas.png |
+
+---
+
 ## 📦 Instalação das Dependências
 
 Para rodar este projeto, instale as bibliotecas necessárias usando o comando:
