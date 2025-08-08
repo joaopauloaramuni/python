@@ -33,7 +33,7 @@ pip install pandas seaborn matplotlib
 
 Para usar este projeto, recomendamos criar e ativar um ambiente virtual Python:
 
-bash
+```bash
 # Crie o ambiente virtual
 python -m venv .venv
 
@@ -44,6 +44,7 @@ python -m venv .venv
 
 # Linux/macOS:
 source .venv/bin/activate
+```
 
 ---
 
