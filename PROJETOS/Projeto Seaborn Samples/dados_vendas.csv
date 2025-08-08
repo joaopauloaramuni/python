@@ -1,0 +1,301 @@
+Data,Produto,Regiao,Estado,Vendas,Lucro
+2025-05-24,Tablet,Norte,RO,400.83,135.95
+2025-07-01,Tablet,Norte,RO,3248.64,1185.52
+2025-06-26,Smartphone,Nordeste,CE,520.54,173.02
+2025-04-09,Tablet,Sudeste,MG,400.35,150.75
+2025-03-07,Fone de Ouvido,Sudeste,ES,2216.89,732.56
+2025-03-31,Fone de Ouvido,Sudeste,MG,2179.22,310.49
+2025-06-03,Fone de Ouvido,Nordeste,PB,327.75,41.75
+2025-04-14,Smartphone,Centro-Oeste,MS,3657.8,1222.16
+2025-02-25,Smartphone,Sudeste,ES,4993.45,1340.61
+2025-01-13,Fone de Ouvido,Centro-Oeste,MT,382.08,151.23
+2025-01-22,Smartphone,Centro-Oeste,MS,2639.29,591.64
+2025-06-12,Fone de Ouvido,Nordeste,PB,3892.32,391.35
+2025-07-16,Smartphone,Centro-Oeste,GO,1990.28,701.36
+2025-02-04,Smartphone,Sul,RS,1551.97,254.73
+2025-01-12,Tablet,Norte,PA,4107.61,810.34
+2025-06-23,Notebook,Sul,SC,2067.49,728.01
+2025-04-18,Smartphone,Centro-Oeste,GO,2469.63,876.7
+2025-06-18,Fone de Ouvido,Nordeste,CE,831.78,303.26
+2025-03-29,Monitor,Sul,PR,880.69,123.16
+2025-05-18,Smartphone,Sudeste,ES,4962.37,1643.0
+2025-02-08,Smartphone,Sul,SC,4696.9,649.82
+2025-01-05,Monitor,Sul,SC,247.71,32.32
+2025-07-05,Monitor,Sul,RS,1423.6,510.85
+2025-02-23,Notebook,Sul,RS,1912.88,419.87
+2025-02-27,Tablet,Sudeste,SP,3872.46,863.77
+2025-02-20,Notebook,Sudeste,RJ,2476.29,788.57
+2025-05-11,Tablet,Sudeste,SP,4185.8,753.85
+2025-07-09,Smartphone,Sudeste,MG,1413.63,216.46
+2025-03-15,Notebook,Sul,PR,4739.29,1616.58
+2025-01-29,Smartphone,Sudeste,MG,778.77,192.04
+2025-03-27,Smartphone,Sudeste,RJ,4891.02,569.03
+2025-02-15,Tablet,Norte,PA,3684.62,1181.22
+2025-03-14,Monitor,Sudeste,RJ,4669.39,1013.61
+2025-03-18,Tablet,Nordeste,MA,3297.75,1029.7
+2025-03-04,Fone de Ouvido,Centro-Oeste,GO,774.08,89.74
+2025-05-28,Smartphone,Centro-Oeste,MT,1210.79,188.37
+2025-04-04,Monitor,Sul,SC,3201.78,1097.1
+2025-05-19,Notebook,Norte,AC,3700.07,730.53
+2025-05-08,Smartphone,Norte,RO,3164.56,1039.4
+2025-03-25,Notebook,Norte,RO,3517.9,797.44
+2025-07-16,Tablet,Norte,PA,1873.62,369.3
+2025-03-27,Tablet,Centro-Oeste,MT,3455.88,419.58
+2025-05-27,Monitor,Centro-Oeste,GO,4699.89,1421.63
+2025-07-06,Tablet,Centro-Oeste,GO,2066.52,793.75
+2025-07-14,Tablet,Norte,RR,4669.7,1308.44
+2025-03-17,Smartphone,Sudeste,ES,3183.3,656.71
+2025-05-16,Tablet,Sudeste,ES,4974.18,1909.56
+2025-04-07,Notebook,Nordeste,MA,1401.57,547.67
+2025-04-23,Monitor,Sudeste,ES,1138.7,451.06
+2025-03-29,Fone de Ouvido,Centro-Oeste,GO,4338.73,952.84
+2025-02-06,Tablet,Sul,SC,244.44,96.06
+2025-01-29,Smartphone,Centro-Oeste,MS,1451.37,435.88
+2025-07-10,Smartphone,Sul,SC,3361.85,900.05
+2025-01-07,Fone de Ouvido,Sudeste,MG,4301.29,828.5
+2025-01-14,Fone de Ouvido,Sudeste,ES,3792.25,966.15
+2025-07-07,Monitor,Sul,RS,2618.41,281.26
+2025-05-23,Monitor,Sul,PR,2260.04,583.64
+2025-01-25,Monitor,Nordeste,PB,3633.51,593.79
+2025-05-25,Notebook,Sudeste,ES,1520.54,434.02
+2025-04-10,Tablet,Norte,AM,2197.17,819.74
+2025-06-17,Smartphone,Centro-Oeste,MS,700.61,179.23
+2025-05-16,Notebook,Sul,RS,3122.55,1131.21
+2025-04-24,Tablet,Sudeste,SP,1545.27,499.1
+2025-05-26,Monitor,Sul,RS,3175.35,999.88
+2025-04-04,Smartphone,Nordeste,MA,2245.25,500.75
+2025-01-05,Smartphone,Sudeste,ES,3505.99,777.73
+2025-06-03,Tablet,Sul,SC,3113.82,955.86
+2025-02-17,Tablet,Nordeste,CE,3892.52,678.23
+2025-04-07,Tablet,Sul,SC,205.46,66.31
+2025-03-25,Smartphone,Nordeste,BA,4101.99,1330.95
+2025-06-19,Fone de Ouvido,Nordeste,BA,941.09,289.47
+2025-03-19,Fone de Ouvido,Nordeste,PB,2723.93,321.97
+2025-02-10,Smartphone,Norte,PA,695.35,84.53
+2025-05-14,Tablet,Sudeste,RJ,1133.37,298.61
+2025-01-31,Monitor,Sul,SC,3567.56,804.32
+2025-07-03,Notebook,Nordeste,PE,4224.9,1012.15
+2025-01-18,Notebook,Centro-Oeste,MT,306.35,49.2
+2025-01-25,Fone de Ouvido,Sudeste,MG,2487.2,672.41
+2025-06-03,Monitor,Centro-Oeste,MS,1761.98,621.87
+2025-02-07,Smartphone,Sudeste,RJ,2026.66,756.09
+2025-06-14,Notebook,Centro-Oeste,MT,3291.97,865.1
+2025-02-19,Monitor,Norte,AC,2082.52,787.33
+2025-03-17,Notebook,Centro-Oeste,MS,4338.22,867.79
+2025-01-28,Monitor,Norte,PA,888.79,279.97
+2025-02-11,Tablet,Sudeste,MG,4397.05,1015.3
+2025-03-03,Tablet,Sul,RS,2466.79,342.36
+2025-04-12,Notebook,Centro-Oeste,GO,473.85,153.1
+2025-04-04,Fone de Ouvido,Nordeste,CE,4785.71,1080.54
+2025-06-03,Tablet,Sul,RS,3347.38,434.02
+2025-01-07,Monitor,Sudeste,ES,4580.01,1681.0
+2025-04-24,Fone de Ouvido,Norte,AM,485.68,112.92
+2025-06-30,Tablet,Sudeste,SP,238.51,73.18
+2025-02-23,Smartphone,Centro-Oeste,GO,3680.0,535.92
+2025-06-17,Fone de Ouvido,Centro-Oeste,GO,3525.62,802.55
+2025-01-15,Fone de Ouvido,Nordeste,PE,1632.01,560.31
+2025-04-11,Monitor,Nordeste,PE,462.78,156.95
+2025-06-03,Tablet,Norte,PA,2201.4,705.77
+2025-04-05,Fone de Ouvido,Centro-Oeste,GO,2737.41,668.95
+2025-04-13,Smartphone,Sudeste,SP,2405.76,432.61
+2025-07-10,Notebook,Centro-Oeste,GO,4777.97,1729.72
+2025-06-23,Notebook,Sudeste,MG,1385.71,274.4
+2025-04-05,Tablet,Nordeste,MA,1284.09,234.06
+2025-05-22,Monitor,Centro-Oeste,GO,2633.45,668.69
+2025-03-22,Smartphone,Centro-Oeste,MT,4383.63,1539.09
+2025-05-28,Fone de Ouvido,Norte,AM,4806.07,1589.87
+2025-02-02,Fone de Ouvido,Nordeste,PB,1325.72,466.42
+2025-03-21,Notebook,Nordeste,BA,2997.95,1060.59
+2025-05-25,Smartphone,Norte,AM,3536.75,969.58
+2025-04-04,Tablet,Sudeste,SP,1288.15,398.82
+2025-07-18,Tablet,Sul,PR,2496.13,690.49
+2025-03-25,Smartphone,Centro-Oeste,GO,2754.6,631.95
+2025-03-09,Fone de Ouvido,Nordeste,PE,147.46,35.85
+2025-05-19,Tablet,Norte,AM,2707.69,848.44
+2025-03-23,Fone de Ouvido,Nordeste,PE,4397.71,1031.53
+2025-07-15,Notebook,Norte,RR,2230.26,594.69
+2025-05-21,Monitor,Sudeste,RJ,2656.18,824.51
+2025-04-18,Monitor,Sudeste,RJ,4352.37,856.23
+2025-07-19,Fone de Ouvido,Nordeste,CE,2875.86,1063.59
+2025-02-18,Fone de Ouvido,Norte,RR,666.87,148.15
+2025-04-14,Smartphone,Sudeste,SP,1930.45,684.33
+2025-01-12,Tablet,Sul,RS,2030.03,798.09
+2025-02-15,Tablet,Nordeste,CE,2298.39,602.22
+2025-04-28,Tablet,Norte,RO,3461.82,1051.9
+2025-05-28,Monitor,Norte,PA,388.17,108.05
+2025-05-21,Notebook,Centro-Oeste,MS,3809.26,981.58
+2025-04-21,Monitor,Norte,RO,4662.12,1063.53
+2025-05-09,Smartphone,Norte,PA,3727.13,868.18
+2025-07-16,Monitor,Centro-Oeste,GO,2164.47,220.08
+2025-07-18,Tablet,Centro-Oeste,DF,1327.47,177.42
+2025-04-10,Notebook,Norte,RR,1092.16,268.84
+2025-05-21,Notebook,Nordeste,BA,1100.44,197.3
+2025-03-20,Fone de Ouvido,Nordeste,PB,3288.73,1011.94
+2025-03-17,Tablet,Sudeste,MG,2134.27,323.18
+2025-01-23,Monitor,Centro-Oeste,GO,1295.0,362.45
+2025-01-10,Fone de Ouvido,Sul,PR,1175.14,363.07
+2025-05-05,Monitor,Norte,AC,307.29,114.39
+2025-02-04,Smartphone,Norte,RO,2593.33,1032.38
+2025-07-02,Notebook,Norte,RR,1020.15,160.71
+2025-06-10,Fone de Ouvido,Sul,RS,2462.25,366.69
+2025-06-07,Fone de Ouvido,Norte,PA,2820.23,329.22
+2025-01-05,Fone de Ouvido,Sul,SC,171.05,22.53
+2025-02-01,Notebook,Sudeste,RJ,3921.25,431.42
+2025-06-23,Notebook,Sul,RS,4844.97,1838.29
+2025-07-19,Notebook,Sul,SC,1193.44,307.28
+2025-06-04,Notebook,Nordeste,PB,2294.29,832.15
+2025-06-12,Fone de Ouvido,Nordeste,CE,1723.57,568.49
+2025-03-13,Monitor,Centro-Oeste,DF,416.05,75.51
+2025-02-09,Fone de Ouvido,Sudeste,SP,1370.93,447.54
+2025-06-21,Fone de Ouvido,Sudeste,ES,2913.69,830.57
+2025-06-16,Tablet,Sudeste,RJ,3996.69,995.39
+2025-04-23,Smartphone,Nordeste,PB,4826.0,1444.37
+2025-06-15,Notebook,Sudeste,SP,4315.74,1063.12
+2025-05-17,Fone de Ouvido,Nordeste,BA,2587.99,614.37
+2025-06-16,Tablet,Centro-Oeste,DF,4280.15,1371.81
+2025-04-18,Notebook,Sul,PR,2348.67,342.48
+2025-04-27,Tablet,Sudeste,RJ,813.97,112.84
+2025-03-30,Notebook,Centro-Oeste,MT,2453.46,554.73
+2025-03-27,Fone de Ouvido,Centro-Oeste,DF,4600.12,1511.88
+2025-02-03,Fone de Ouvido,Sul,RS,3090.39,992.54
+2025-07-05,Monitor,Centro-Oeste,MS,3502.14,447.54
+2025-04-19,Smartphone,Nordeste,PB,2724.35,897.87
+2025-04-07,Monitor,Nordeste,BA,2786.94,449.55
+2025-01-18,Notebook,Sul,SC,850.02,115.27
+2025-02-12,Monitor,Sul,SC,4181.16,1300.62
+2025-04-24,Notebook,Nordeste,BA,1161.98,267.43
+2025-01-04,Tablet,Sudeste,RJ,3730.9,1219.82
+2025-02-12,Smartphone,Norte,PA,1901.21,580.52
+2025-07-04,Tablet,Norte,AC,3250.25,713.54
+2025-04-20,Tablet,Centro-Oeste,GO,4609.02,1755.84
+2025-03-23,Notebook,Norte,AC,2862.91,353.89
+2025-04-22,Monitor,Norte,AC,484.08,179.39
+2025-01-26,Monitor,Centro-Oeste,MS,989.09,380.79
+2025-04-11,Fone de Ouvido,Nordeste,PE,2450.01,807.95
+2025-01-07,Monitor,Centro-Oeste,MT,3735.89,1188.94
+2025-07-17,Fone de Ouvido,Centro-Oeste,MS,317.35,113.06
+2025-03-27,Fone de Ouvido,Nordeste,CE,2524.4,686.15
+2025-02-23,Smartphone,Nordeste,CE,1350.79,427.56
+2025-01-10,Smartphone,Norte,PA,4385.84,1354.16
+2025-06-10,Notebook,Sul,SC,1966.62,386.44
+2025-06-20,Tablet,Sul,PR,2335.02,797.76
+2025-06-08,Smartphone,Norte,RO,581.34,100.9
+2025-05-31,Tablet,Sul,SC,4746.41,1460.84
+2025-05-10,Smartphone,Sul,PR,2795.01,1064.19
+2025-07-01,Notebook,Sudeste,RJ,994.43,120.22
+2025-07-01,Tablet,Norte,PA,1694.07,289.4
+2025-05-22,Monitor,Sul,RS,1471.57,312.19
+2025-04-13,Smartphone,Sudeste,ES,2067.06,781.78
+2025-05-22,Tablet,Sul,PR,2361.19,262.65
+2025-03-18,Smartphone,Centro-Oeste,GO,1600.88,205.21
+2025-07-14,Smartphone,Sul,PR,3463.86,1173.47
+2025-05-10,Tablet,Sul,PR,4067.15,958.16
+2025-05-23,Smartphone,Norte,PA,4632.32,1266.32
+2025-06-11,Monitor,Norte,AC,2154.46,419.25
+2025-02-25,Fone de Ouvido,Sudeste,ES,4469.14,1261.94
+2025-04-21,Notebook,Centro-Oeste,DF,310.36,78.81
+2025-03-22,Fone de Ouvido,Nordeste,CE,4334.71,585.31
+2025-05-30,Tablet,Nordeste,CE,381.06,76.01
+2025-03-05,Monitor,Centro-Oeste,DF,3288.42,1089.32
+2025-07-15,Tablet,Sudeste,ES,2858.18,361.18
+2025-04-06,Notebook,Nordeste,PE,3129.41,1161.9
+2025-03-29,Smartphone,Sul,SC,4169.02,694.4
+2025-01-29,Smartphone,Sul,SC,3006.54,367.41
+2025-02-27,Tablet,Norte,AC,4802.85,1764.66
+2025-03-29,Notebook,Sudeste,ES,4252.29,1177.74
+2025-05-22,Monitor,Centro-Oeste,MT,1794.91,411.98
+2025-05-13,Notebook,Centro-Oeste,MT,3158.79,694.22
+2025-04-07,Notebook,Centro-Oeste,DF,4106.62,582.32
+2025-06-19,Tablet,Norte,RR,4783.93,825.56
+2025-01-18,Smartphone,Nordeste,CE,3549.42,826.75
+2025-02-21,Tablet,Sudeste,ES,752.16,217.46
+2025-01-19,Notebook,Centro-Oeste,GO,4252.52,1301.64
+2025-02-26,Notebook,Sudeste,ES,3248.41,1142.23
+2025-06-25,Monitor,Sul,RS,4402.25,736.12
+2025-05-30,Monitor,Sudeste,SP,1813.92,525.23
+2025-05-30,Smartphone,Nordeste,PB,392.51,152.39
+2025-02-02,Fone de Ouvido,Sudeste,SP,853.75,281.74
+2025-04-29,Smartphone,Norte,RO,1558.81,450.77
+2025-01-06,Monitor,Norte,PA,1430.84,519.17
+2025-06-18,Notebook,Centro-Oeste,DF,3448.45,737.06
+2025-03-19,Monitor,Sudeste,ES,2873.9,772.79
+2025-05-01,Fone de Ouvido,Norte,AM,4324.34,1466.81
+2025-02-18,Smartphone,Sul,SC,4583.38,1207.93
+2025-06-14,Fone de Ouvido,Nordeste,PE,2640.94,661.73
+2025-02-14,Fone de Ouvido,Sudeste,RJ,3818.95,1481.13
+2025-01-05,Notebook,Centro-Oeste,MT,3922.99,415.22
+2025-05-30,Notebook,Sudeste,ES,3826.1,677.13
+2025-02-07,Fone de Ouvido,Norte,AM,2819.67,1007.41
+2025-04-20,Fone de Ouvido,Centro-Oeste,MS,720.44,194.4
+2025-01-31,Monitor,Centro-Oeste,GO,370.27,100.88
+2025-05-04,Tablet,Sudeste,MG,3818.93,395.43
+2025-01-25,Tablet,Sudeste,ES,2548.04,932.83
+2025-01-12,Monitor,Centro-Oeste,DF,706.98,97.95
+2025-01-08,Tablet,Nordeste,CE,128.79,13.05
+2025-01-05,Smartphone,Sudeste,ES,3138.53,615.47
+2025-02-05,Fone de Ouvido,Norte,PA,1237.28,346.19
+2025-05-08,Fone de Ouvido,Sudeste,RJ,2036.28,646.21
+2025-05-22,Smartphone,Sul,SC,3933.21,490.66
+2025-04-08,Fone de Ouvido,Norte,RO,369.16,147.53
+2025-03-26,Tablet,Sul,RS,692.37,78.71
+2025-04-22,Tablet,Norte,AC,3877.14,906.46
+2025-07-11,Smartphone,Sudeste,ES,2928.75,524.57
+2025-06-07,Smartphone,Sul,PR,1355.83,513.32
+2025-06-11,Notebook,Centro-Oeste,MT,4585.54,1187.95
+2025-02-28,Tablet,Norte,AM,324.09,70.29
+2025-07-18,Tablet,Sudeste,ES,3471.12,1045.61
+2025-02-05,Smartphone,Sul,RS,189.78,44.74
+2025-06-23,Monitor,Sudeste,ES,3332.63,561.95
+2025-05-26,Fone de Ouvido,Sudeste,ES,844.88,281.51
+2025-02-17,Notebook,Sul,SC,2826.34,770.74
+2025-01-25,Notebook,Centro-Oeste,MT,1133.34,395.88
+2025-05-01,Fone de Ouvido,Sudeste,RJ,3148.32,1243.15
+2025-02-24,Tablet,Sul,RS,1580.96,463.78
+2025-01-05,Monitor,Norte,AC,2468.34,884.16
+2025-04-01,Smartphone,Nordeste,CE,2411.44,480.04
+2025-03-07,Notebook,Sudeste,RJ,375.12,69.91
+2025-03-02,Fone de Ouvido,Sul,PR,2076.98,761.2
+2025-03-17,Tablet,Norte,RO,418.61,114.34
+2025-01-05,Monitor,Nordeste,BA,1458.45,451.31
+2025-02-26,Monitor,Centro-Oeste,MT,581.37,146.87
+2025-01-02,Tablet,Sudeste,RJ,111.98,44.61
+2025-06-29,Monitor,Centro-Oeste,DF,1369.45,327.2
+2025-05-27,Tablet,Sul,SC,2859.84,1105.3
+2025-04-14,Fone de Ouvido,Sul,RS,4552.83,1255.78
+2025-07-09,Monitor,Sudeste,ES,4068.64,614.87
+2025-04-30,Monitor,Nordeste,CE,2148.89,551.26
+2025-07-20,Fone de Ouvido,Centro-Oeste,GO,2953.63,479.19
+2025-06-03,Fone de Ouvido,Sul,RS,183.1,37.8
+2025-06-10,Monitor,Sudeste,MG,917.09,204.59
+2025-05-25,Smartphone,Centro-Oeste,DF,384.86,100.05
+2025-02-22,Smartphone,Centro-Oeste,MS,1137.31,259.44
+2025-01-02,Tablet,Norte,AC,4486.57,778.56
+2025-02-14,Monitor,Sul,SC,3556.17,1320.11
+2025-06-29,Smartphone,Norte,AC,2764.55,1058.91
+2025-06-30,Notebook,Norte,RR,3153.33,1213.73
+2025-02-18,Smartphone,Norte,PA,3438.03,620.36
+2025-01-31,Monitor,Norte,RR,2254.27,769.32
+2025-02-11,Notebook,Nordeste,PB,4582.82,901.8
+2025-06-12,Monitor,Centro-Oeste,GO,2375.57,906.89
+2025-03-19,Notebook,Nordeste,PB,990.87,339.56
+2025-01-10,Fone de Ouvido,Nordeste,MA,3377.39,649.06
+2025-01-12,Smartphone,Norte,AC,2263.51,576.76
+2025-04-12,Smartphone,Nordeste,PB,2460.5,791.76
+2025-07-19,Notebook,Norte,AC,4470.19,1763.71
+2025-02-16,Monitor,Centro-Oeste,GO,4204.03,1288.16
+2025-07-11,Smartphone,Centro-Oeste,DF,2463.01,391.01
+2025-01-22,Fone de Ouvido,Nordeste,MA,384.57,93.4
+2025-07-13,Fone de Ouvido,Norte,RO,3238.2,772.23
+2025-05-04,Fone de Ouvido,Sudeste,SP,260.72,53.9
+2025-04-20,Tablet,Sudeste,RJ,4002.69,407.8
+2025-05-14,Tablet,Sudeste,ES,3343.11,406.3
+2025-03-29,Fone de Ouvido,Sul,PR,647.85,203.65
+2025-04-08,Fone de Ouvido,Nordeste,BA,1138.01,204.4
+2025-05-09,Smartphone,Sul,PR,4553.74,634.05
+2025-02-04,Smartphone,Norte,AM,1340.63,404.74
+2025-04-21,Smartphone,Sudeste,ES,4461.2,1430.43
+2025-07-12,Tablet,Centro-Oeste,MT,3547.14,1266.89
+2025-03-26,Notebook,Sudeste,RJ,378.82,52.65
+2025-01-09,Monitor,Norte,AC,1530.56,287.24
+2025-01-02,Monitor,Norte,RO,1429.05,251.97
+2025-01-20,Notebook,Centro-Oeste,DF,3927.75,935.82
