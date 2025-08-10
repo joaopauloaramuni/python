@@ -1,4 +1,4 @@
-# 🚀 Projeto GraphQL vs REST
+# Projeto GraphQL vs REST
 
 Este projeto tem como objetivo **comparar o tempo de resposta** entre duas requisições feitas para a API do GitHub: uma usando **GraphQL** e outra usando **REST**.  
 Ele mede e calcula o tempo médio de execução para identificar qual abordagem é mais rápida.
