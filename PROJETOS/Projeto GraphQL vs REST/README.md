@@ -66,7 +66,6 @@ source .venv/bin/activate
 ## 🖥️ Exemplo de saída no terminal
 
 ```text
-
 Executando 10 requisições REST...
 Executando 10 requisições GraphQL...
 
@@ -74,7 +73,6 @@ Executando 10 requisições GraphQL...
 Tempo médio REST: 0.3830 segundos
 Tempo médio GraphQL: 0.3011 segundos
 ✅ GraphQL foi mais rápido.
-
 ```
 
 ---
