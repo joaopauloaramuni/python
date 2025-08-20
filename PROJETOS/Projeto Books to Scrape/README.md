@@ -37,6 +37,8 @@ Para executar o projeto, use o seguinte comando:
 
 ```bash
 scrapy crawl books
+ou
+scrapy runspider books.py
 ```
 
 Os dados raspados serão salvos no arquivo `books.json`.
