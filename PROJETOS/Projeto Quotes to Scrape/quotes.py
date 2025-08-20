@@ -30,6 +30,6 @@ class QuotesSpider(scrapy.Spider):
                 json.dump(self.quotes_list, f, ensure_ascii=False, indent=4)
 
 # Executa o spider
-process = CrawlerProcess()
-process.crawl(QuotesSpider)
-process.start()
+# process = CrawlerProcess()
+# process.crawl(QuotesSpider)
+# process.start()
