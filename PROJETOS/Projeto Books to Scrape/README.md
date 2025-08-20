@@ -36,9 +36,8 @@ scrapy-books/
 Para executar o projeto, use o seguinte comando:
 
 ```bash
-scrapy crawl books
-ou
-scrapy runspider books.py
+scrapy runspider books.py  # roda um spider diretamente de um arquivo Python
+scrapy crawl books         # roda um spider dentro de um projeto Scrapy
 ```
 
 Os dados raspados serão salvos no arquivo `books.json`.
