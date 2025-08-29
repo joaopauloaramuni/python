@@ -8,7 +8,7 @@ Este projeto em Python permite buscar e exibir cartas de Pokémon diretamente da
 
 ### 🔥 Capturas de Tela
 
-| <img src="https://joaopauloaramuni.github.io/python-imgs/PokemonTCG/imgs/Charizard.png" alt="Charizard" width="200"/> | <img src="https://joaopauloaramuni.github.io/python-imgs/PokemonTCG/imgs/Pikachu.png" alt="Pikachu" width="200"/> | <img src="https://joaopauloaramuni.github.io/python-imgs/PokemonTCG/imgs/Mewtwo.png" alt="Mewtwo" width="200"/> | <img src="https://joaopauloaramuni.github.io/python-imgs/PokemonTCG/imgs/Bulbasaur.png" alt="Bulbasaur" width="200"/> |
+| <img src="https://joaopauloaramuni.github.io/python-imgs/PokemonTCG/imgs/Charizard.png" alt="Charizard" width="250"/> | <img src="https://joaopauloaramuni.github.io/python-imgs/PokemonTCG/imgs/Pikachu.png" alt="Pikachu" width="250"/> | <img src="https://joaopauloaramuni.github.io/python-imgs/PokemonTCG/imgs/Mewtwo.png" alt="Mewtwo" width="250"/> | <img src="https://joaopauloaramuni.github.io/python-imgs/PokemonTCG/imgs/Bulbasaur.png" alt="Bulbasaur" width="250"/> |
 |:---:|:---:|:---:|:---:|
 | 🔥 **Charizard - swsh4-25** | ⚡ **Pikachu - smp-SM109** | 🧠 **Mewtwo - basep-3** | 🌱 **Bulbasaur - ex4-39** |
 
