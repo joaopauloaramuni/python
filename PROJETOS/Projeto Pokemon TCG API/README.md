@@ -8,16 +8,9 @@ Este projeto em Python permite buscar e exibir cartas de Pokémon diretamente da
 
 ### 🔥 Capturas de Tela
 
-<div align="center">
-
-| <img src="https://joaopauloaramuni.github.io/python-imgs/PokemonTCG/imgs/Charizard.png" alt="Charizard" width="300"/> |
-| <img src="https://joaopauloaramuni.github.io/python-imgs/PokemonTCG/imgs/Pikachu.png" alt="Pikachu" width="300"/> |
-| <img src="https://joaopauloaramuni.github.io/python-imgs/PokemonTCG/imgs/Mewtwo.png" alt="Mewtwo" width="300"/> |
-| <img src="https://joaopauloaramuni.github.io/python-imgs/PokemonTCG/imgs/Bulbasaur.png" alt="Bulbasaur" width="300"/> |
-|:-----------------------:|:--------------------:|:-------------------:|:---------------------:|
-| 🔥 Charizard - swsh4-25 | ⚡ Pikachu - smp-SM109 | 🧠 Mewtwo - basep-3 | 🌱 ex4-39 — Bulbasaur |
-
-</div>
+| <img src="https://joaopauloaramuni.github.io/python-imgs/PokemonTCG/imgs/Charizard.png" alt="Charizard" width="200"/> | <img src="https://joaopauloaramuni.github.io/python-imgs/PokemonTCG/imgs/Pikachu.png" alt="Pikachu" width="200"/> | <img src="https://joaopauloaramuni.github.io/python-imgs/PokemonTCG/imgs/Mewtwo.png" alt="Mewtwo" width="200"/> | <img src="https://joaopauloaramuni.github.io/python-imgs/PokemonTCG/imgs/Bulbasaur.png" alt="Bulbasaur" width="200"/> |
+|:---:|:---:|:---:|:---:|
+| 🔥 **Charizard - swsh4-25** | ⚡ **Pikachu - smp-SM109** | 🧠 **Mewtwo - basep-3** | 🌱 **Bulbasaur - ex4-39** |
 
 ---
 
