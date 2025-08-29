@@ -4,13 +4,17 @@
 
 Este projeto em Python permite buscar e exibir cartas de Pokémon diretamente da API oficial da Pokémon TCG. Ele cria uma interface gráfica simples com  **Tkinter** , baixa imagens de cartas usando **Pillow** e obtém informações detalhadas das cartas por meio da biblioteca  **requests** . É ideal para fãs de Pokémon e desenvolvedores que querem experimentar dados reais do TCG.
 
+---
+
 ### 🔥 Captura de Tela
 
 | <img src="https://joaopauloaramuni.github.io/python-imgs/PokemonTCG/imgs/Charizard.png" alt="Charizard" width="400"/> |
 |:-------------------------:|
 |         Charizard         |
 
-### Pokémon TCG API 📦
+---
+
+### 📦 Pokémon TCG API 
 
 A Pokémon TCG API é uma API oficial que fornece informações detalhadas sobre cartas do Pokémon Trading Card Game. Com ela, é possível obter dados como:
 
@@ -21,13 +25,17 @@ A Pokémon TCG API é uma API oficial que fornece informações detalhadas sobre
 * Artista e raridade
 * Imagens das cartas (pequenas ou grandes)
 
-### Bibliotecas utilizadas 🛠️
+---
+
+### 🛠️ Bibliotecas utilizadas
 
 * **requests** : Permite fazer requisições HTTP para obter dados da API.
 * **Pillow (PIL)** : Permite abrir, manipular e exibir imagens das cartas.
 * **Tkinter** : Biblioteca padrão do Python para criar interfaces gráficas de maneira simples.
 
-### Criando uma API_KEY 🔑
+---
+
+### 🔑 Criando uma API_KEY
 
 Para acessar a Pokémon TCG API, você precisa de uma API_KEY:
 
@@ -36,13 +44,17 @@ Para acessar a Pokémon TCG API, você precisa de uma API_KEY:
 3. Deslogue e faça login novamente.
 4. Copie a sua **API_KEY** e substitua no código do projeto.
 
-### URL da API 🌐
+---
+
+### 🌐 URL da API
 
 ```python
 API_URL = "https://api.pokemontcg.io/v2/cards/{}"
 ```
 
-### Como buscar um Pokémon 🕵️‍♂️
+---
+
+### 🕵️‍♂️ Como buscar um Pokémon
 
 Você pode buscar cartas pelo ID ou pelo nome. Exemplo de busca pelo nome:
 
@@ -56,7 +68,9 @@ Exemplo de IDs de cartas para testar:
 * xy12-34 (Bulbasaur)
 * sm10-20 (Eevee)
 
-### Dependências 📥
+---
+
+### 📥 Dependências
 
 Instale as bibliotecas necessárias com o pip:
 
@@ -65,6 +79,8 @@ pip install requests pillow
 ```
 
 > O Tkinter já faz parte do Python padrão, então não precisa instalar.
+
+---
 
 ## ⚙️ Ambiente virtual
 
@@ -90,10 +106,18 @@ python -m venv .venv
 source .venv/bin/activate
 ```
 
-## Documentação e links úteis 📚
+---
+
+## 📚 Documentação e links úteis
 
 * [GitHub Pokémon TCG](https://github.com/PokemonTCG)
 * [Pokémon TCG](https://pokemontcg.io/)
 * [Documentação da API](https://docs.pokemontcg.io/getting-started/authentication)
 * [Dashboard da API](https://dev.pokemontcg.io/dashboard)
 * [API Developers](https://dev.pokemontcg.io/)
+
+---
+
+## 🪪 Licença
+
+Este projeto está licenciado sob a **Licença MIT**.
