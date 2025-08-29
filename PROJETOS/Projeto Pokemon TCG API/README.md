@@ -6,13 +6,16 @@ Este projeto em Python permite buscar e exibir cartas de Pokémon diretamente da
 
 ---
 
-### 🔥 Captura de Tela
+### 🔥 Capturas de Tela
 
 <div align="center">
 
-| <img src="https://joaopauloaramuni.github.io/python-imgs/PokemonTCG/imgs/Charizard.png" alt="Charizard" width="400"/> |
-|:-------------------------:|
-|         Charizard         |
+| <img src="https://joaopauloaramuni.github.io/python-imgs/PokemonTCG/imgs/Charizard.png" alt="Charizard" width="300"/> |
+| <img src="https://joaopauloaramuni.github.io/python-imgs/PokemonTCG/imgs/Pikachu.png" alt="Pikachu" width="300"/> |
+| <img src="https://joaopauloaramuni.github.io/python-imgs/PokemonTCG/imgs/Mewtwo.png" alt="Mewtwo" width="300"/> |
+| <img src="https://joaopauloaramuni.github.io/python-imgs/PokemonTCG/imgs/Bulbasaur.png" alt="Bulbasaur" width="300"/> |
+|:-----------------------:|:--------------------:|:-------------------:|:---------------------:|
+| 🔥 Charizard - swsh4-25 | ⚡ Pikachu - smp-SM109 | 🧠 Mewtwo - basep-3 | 🌱 ex4-39 — Bulbasaur |
 
 </div>
 
@@ -66,11 +69,12 @@ Você pode buscar cartas pelo ID ou pelo nome. Exemplo de busca pelo nome:
 
 Exemplo de IDs de cartas para testar:
 
-* swsh4-25 (Charizard)
-* xy7-54 (Pikachu)
-* sm3-12 (Mewtwo)
-* xy12-34 (Bulbasaur)
-* sm10-20 (Eevee)
+* swsh4-25 — Charizard 🔥
+* smp-SM109 — Pikachu ⚡
+* basep-3 — Mewtwo 🧠
+* xy8-64 - Mewtwo-EX 🧠
+* ex4-39 — Bulbasaur 🌱
+* dp5-62 — Eevee ✨
 
 ---
 
@@ -119,6 +123,7 @@ source .venv/bin/activate
 * [Documentação da API](https://docs.pokemontcg.io/getting-started/authentication)
 * [Dashboard da API](https://dev.pokemontcg.io/dashboard)
 * [API Developers](https://dev.pokemontcg.io/)
+* [Pokemon Card](https://pokemoncard.io/)
 
 ---
 
