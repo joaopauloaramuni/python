@@ -4,7 +4,7 @@ import tkinter as tk
 from PIL import Image, ImageTk
 
 # https://dev.pokemontcg.io/dashboard
-API_KEY = "e8553b3b-e159-4d48-b0d3-059842760d9c"
+API_KEY = "SUA_API_KEY_AQUI"
 API_URL = "https://api.pokemontcg.io/v2/cards/{}"
 
 def get_card_data(card_id: str) -> dict:
