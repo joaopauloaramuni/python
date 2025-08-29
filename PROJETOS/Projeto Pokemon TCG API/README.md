@@ -1,12 +1,12 @@
-# Pokémon TCG API 🃏
+# 🃏 Projeto Pokémon TCG API
 
-## Sobre o projeto 🚀
+## 🚀 Sobre o projeto
 
 Este projeto em Python permite buscar e exibir cartas de Pokémon diretamente da API oficial da Pokémon TCG. Ele cria uma interface gráfica simples com  **Tkinter** , baixa imagens de cartas usando **Pillow** e obtém informações detalhadas das cartas por meio da biblioteca  **requests** . É ideal para fãs de Pokémon e desenvolvedores que querem experimentar dados reais do TCG.
 
-### Captura de Tela
+### 🔥 Captura de Tela
 
-| <img src="https://joaopauloaramuni.github.io/python-imgs/PokemonTCG/imgs/Charizard.png" alt="Charizard" width="600"/> |
+| <img src="https://joaopauloaramuni.github.io/python-imgs/PokemonTCG/imgs/Charizard.png" alt="Charizard" width="400"/> |
 |:-------------------------:|
 |         Charizard         |
 
