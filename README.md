@@ -6,7 +6,7 @@
 
 # Repo Python
 
-![GitHub repo size](https://img.shields.io/github/repo-size/joaopauloaramuni/python?style=for-the-badge) ![GitHub stars](https://img.shields.io/github/stars/joaopauloaramuni/python?style=for-the-badge) ![GitHub forks](https://img.shields.io/github/forks/joaopauloaramuni/python?style=for-the-badge) ![GitHub language count](https://img.shields.io/github/languages/count/joaopauloaramuni/python?style=for-the-badge) ![GitHub license](https://img.shields.io/github/license/joaopauloaramuni/python?style=for-the-badge&color=007ec6) ![GitHub last commit](https://img.shields.io/github/last-commit/joaopauloaramuni/python?style=for-the-badge)  
+![GitHub repo size](https://img.shields.io/github/repo-size/joaopauloaramuni/python?style=for-the-badge) ![GitHub stars](https://img.shields.io/github/stars/joaopauloaramuni/python?style=for-the-badge) ![GitHub forks](https://img.shields.io/github/forks/joaopauloaramuni/python?style=for-the-badge) ![GitHub language count](https://img.shields.io/github/languages/count/joaopauloaramuni/python?style=for-the-badge) ![GitHub license](https://img.shields.io/github/license/joaopauloaramuni/python?style=for-the-badge&color=007ec6) ![GitHub last commit](https://img.shields.io/github/last-commit/joaopauloaramuni/python?style=for-the-badge) ![Views Counter](https://views-counter.vercel.app/badge?pageId=https%3A%2F%2Fgithub%2Ecom%2Fjoaopauloaramuni%2Fpython&leftColor=555555&rightColor=007ec6&type=total&label=Visitors&style=none)  
 
 -----
 
