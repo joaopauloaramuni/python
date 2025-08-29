@@ -8,9 +8,13 @@ Este projeto em Python permite buscar e exibir cartas de Pokémon diretamente da
 
 ### 🔥 Captura de Tela
 
+<div align="center">
+
 | <img src="https://joaopauloaramuni.github.io/python-imgs/PokemonTCG/imgs/Charizard.png" alt="Charizard" width="400"/> |
 |:-------------------------:|
 |         Charizard         |
+
+</div>
 
 ---
 
