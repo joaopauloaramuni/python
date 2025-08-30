@@ -52,8 +52,6 @@
 
 -----
 
-# Repo Python
-
 ### Sumário:
 - [Aulas em PDF](https://github.com/joaopauloaramuni/python/tree/main/PDF)
 - [Exercícios](https://github.com/joaopauloaramuni/python/tree/main/EXERCICIOS)
@@ -329,6 +327,19 @@ Relatórios anuais e pesquisas globais ajudam a entender as principais linguagen
 - [Stack Overflow Developer Survey 2024](https://survey.stackoverflow.co/2024/)
 - [JetBrains Developer Ecosystem 2024](https://www.jetbrains.com/pt-br/lp/devecosystem-2024/)
 - [GitHub Octoverse 2024](https://github.blog/news-insights/octoverse/octoverse-2024/)
+
+-----
+
+##### 📰 Notícias
+
+###### 🗞️ Atualizações e novidades sobre tecnologia e inteligência artificial  
+Principais notícias e artigos que destacam avanços recentes no uso de IA, web scraping e segurança digital em 2025.  
+
+- **August 19, 2025**  
+  [New Fastly Threat Research Reveals AI Crawlers Make Up Almost 80% of AI Bot Traffic](https://www.fastly.com/press/press-releases/new-fastly-threat-research-reveals-ai-crawlers-make-up-almost-80-of-ai-bot)
+
+- **January 10, 2025**  
+  [From Code to Intelligence: How AI is Revolutionizing Web Scraping in 2025](https://medium.datadriveninvestor.com/from-code-to-intelligence-how-ai-is-revolutionizing-web-scraping-in-2025-6468af5cff14)
 
 -----
 
