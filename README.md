@@ -376,6 +376,14 @@ Seleção de revistas e blogs que trazem análises, tendências, reportagens apr
 
 - [**TechRadar**](https://www.techradar.com/): Portal de notícias e análises sobre tecnologia, gadgets, tendências digitais e inovação, com enfoque em consumidores e profissionais de TI.
 
+- [**VentureBeat**](https://venturebeat.com/): Portal especializado em inteligência artificial, inovação em negócios digitais, startups e tendências de mercado em tecnologia.  
+
+- [**GigaOm**](https://gigaom.com/): Publicação focada em pesquisas, análises e relatórios técnicos sobre infraestrutura digital, cloud computing, IA e transformação empresarial.  
+
+- [**CIO**](https://www.cio.com/): Revista voltada para líderes de tecnologia, cobrindo estratégias de TI, segurança, inovação corporativa e tendências em gestão digital.  
+
+- [**Recode (Vox Media)**](https://www.vox.com/recode): Publicação que analisa o impacto da tecnologia na economia, política e sociedade, com reportagens e entrevistas aprofundadas.  
+
 -----
 
 #### Comandos úteis
