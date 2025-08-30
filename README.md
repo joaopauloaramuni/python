@@ -336,10 +336,16 @@ Relatórios anuais e pesquisas globais ajudam a entender as principais linguagen
 Principais notícias e artigos que destacam avanços recentes no uso de IA, web scraping e segurança digital em 2025.  
 
 - **August 19, 2025**  
-  [New Fastly Threat Research Reveals AI Crawlers Make Up Almost 80% of AI Bot Traffic](https://www.fastly.com/press/press-releases/new-fastly-threat-research-reveals-ai-crawlers-make-up-almost-80-of-ai-bot)
+  [New Fastly Threat Research Reveals AI Crawlers Make Up Almost 80% of AI Bot Traffic](https://www.fastly.com/press/press-releases/new-fastly-threat-research-reveals-ai-crawlers-make-up-almost-80-of-ai-bot)  
+  Relatório da Fastly mostra que crawlers de IA representam quase 80% do tráfego de bots, destacando o impacto crescente de agentes automatizados na web e a importância de estratégias de defesa avançadas.
+
+- **August 14, 2025**  
+  [From Crawlers to AI Agents: Why Untangling the New AI-Powered Web Takes an Intent-Based Approach](https://www.techradar.com/pro/from-crawlers-to-ai-agents-why-untangling-the-new-ai-powered-web-takes-an-intent-based-approach)  
+  Artigo detalha como agentes de IA estão substituindo crawlers tradicionais, exigindo novas abordagens de segurança baseadas em análise de intenção para distinguir tráfego legítimo de comportamento automatizado malicioso.
 
 - **January 10, 2025**  
-  [From Code to Intelligence: How AI is Revolutionizing Web Scraping in 2025](https://medium.datadriveninvestor.com/from-code-to-intelligence-how-ai-is-revolutionizing-web-scraping-in-2025-6468af5cff14)
+  [From Code to Intelligence: How AI is Revolutionizing Web Scraping in 2025](https://medium.datadriveninvestor.com/from-code-to-intelligence-how-ai-is-revolutionizing-web-scraping-in-2025-6468af5cff14)  
+  Exploração de como a IA está transformando o web scraping, permitindo extração de dados mais inteligente e eficiente, com técnicas avançadas que vão além dos métodos tradicionais de raspagem.
 
 -----
 
@@ -367,6 +373,8 @@ Seleção de revistas e blogs que trazem análises, tendências, reportagens apr
 - [**Ars Technica**](https://arstechnica.com/): Publicação digital reconhecida por artigos detalhados sobre tecnologia, ciência, política digital, segurança e análise de produtos.  
 
 - [**ZDNet**](https://www.zdnet.com/): Portal global com foco em tecnologia corporativa, inovação em TI, segurança digital e transformação empresarial.  
+
+- [**TechRadar**](https://www.techradar.com/): Portal de notícias e análises sobre tecnologia, gadgets, tendências digitais e inovação, com enfoque em consumidores e profissionais de TI.
 
 -----
 
