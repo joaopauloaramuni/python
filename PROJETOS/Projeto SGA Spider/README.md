@@ -142,7 +142,16 @@ Atualmente, os cookies estão definidos em **dois lugares** no código:
   3. Abra o DevTools (F12) → aba **Application/Armazenamento** → **Cookies**.
   4. Copie os valores atualizados e substitua nos dois locais do código mencionados acima.
 
-### 3. Execução do código
+### 3. Responder questionários de CPA ou outros questionários pop-up no SGA
+
+Para que a raspagem de dados funcione corretamente, é importante responder qualquer questionário pendente que apareça em pop-ups no SGA.  
+
+**Passos recomendados:**
+1. Faça login no SGA utilizando o navegador de sua preferência.  
+2. Verifique se há questionários pendentes, como CPA ou outros formulários.  
+3. Complete os questionários, pois essas janelas abertas podem interferir na execução do script de extração de dados.  
+
+### 4. Execução do código
 
 Para executar o código e gerar a imagem a partir do texto especificado, basta utilizar o seguinte comando no terminal:
 
@@ -152,7 +161,7 @@ python3 sga_v3.py
 
 Certifique-se de que você esteja no diretório onde o arquivo sga.py está localizado e que o ambiente virtual esteja ativado, caso você esteja usando um.
 
-### 4. Saídas
+### 5. Saídas
 
 Os arquivos `faltas.json`, `notas.json` e `credenciais.json` serão gerados na pasta do projeto contendo as informações do SGA.
 
