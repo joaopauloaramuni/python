@@ -5,7 +5,7 @@ Este projeto, dividido em duas versões, realiza uma raspagem de dados para extr
 ## Captura de Tela
 
 | <img src="https://joaopauloaramuni.github.io/python-imgs/SGA_Spider/imgs/sga.png" width="1000px" alt="SGA"> |
-|:--------------------------------------------:|
+|:-------------------------------------:|
 | **Sistema de Gestão Acadêmica (SGA)** |
 
 ## Como funciona
@@ -25,15 +25,15 @@ Este projeto é uma aplicação Python que automatiza a consulta de informaçõe
 
 **Exemplo de Faltas**:
 
-| Disciplina | Carga Horária | Faltas | Observação |
-|------------|---------------|--------|------------|
-| DESENVOLVIMENTO WEB FULL STACK - 4139.1.01 | 40 aula(s) | 0 falta(s) (0.00%) |  |
-| INTERAÇÃO HUMANO-COMPUTADOR - 3172.1.00 | 80 aula(s) | 2 falta(s) (2.50%) |  |
-| LABORATÓRIO DE DESENVOLVIMENTO DE SOFTWARE - 3134.1.01 | 40 aula(s) | 0 falta(s) (0.00%) |  |
-| PROJETO DE SOFTWARE - 3133.1.00 | 80 aula(s) | 0 falta(s) (0.00%) |  |
-| REDES DE COMPUTADORES - 3138.1.00 | 80 aula(s) | 2 falta(s) (2.50%) |  |
-| TEORIA DOS GRAFOS E COMPUTABILIDADE - 3132.1.01 | 80 aula(s) | 0 falta(s) (0.00%) |  |
-| TRABALHO INTERDISCIPLINAR: APLICAÇÕES PARA SUSTENTABILIDADE - 3170.1.02 | 40 aula(s) | 0 falta(s) (0.00%) |  |
+| Disciplina | Carga Horária | Faltas |
+|------------|---------------|--------|
+| DESENVOLVIMENTO WEB FULL STACK - 4139.1.01 | 40 aula(s) | 0 falta(s) (0.00%) |
+| INTERAÇÃO HUMANO-COMPUTADOR - 3172.1.00 | 80 aula(s) | 2 falta(s) (2.50%) |
+| LABORATÓRIO DE DESENVOLVIMENTO DE SOFTWARE - 3134.1.01 | 40 aula(s) | 0 falta(s) (0.00%) |
+| PROJETO DE SOFTWARE - 3133.1.00 | 80 aula(s) | 0 falta(s) (0.00%) |
+| REDES DE COMPUTADORES - 3138.1.00 | 80 aula(s) | 2 falta(s) (2.50%) |
+| TEORIA DOS GRAFOS E COMPUTABILIDADE - 3132.1.01 | 80 aula(s) | 0 falta(s) (0.00%) |
+| TRABALHO INTERDISCIPLINAR: APLICAÇÕES PARA SUSTENTABILIDADE - 3170.1.02 | 40 aula(s) | 0 falta(s) (0.00%) |
 
 ---
 
