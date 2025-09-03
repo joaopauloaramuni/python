@@ -87,7 +87,8 @@ class FaltasSpider:
         # Listas para armazenar faltas e notas
         materias_faltas = []
         notas = []
-        
+        titulos = []
+        i = 0
         # Extraindo faltas
         for idx, tabela in enumerate(tabelas, start=1):
             primeira_tr = tabela.find('tr')
@@ -95,33 +96,39 @@ class FaltasSpider:
                 tds = primeira_tr.find_all('td')
                 valores = [td.get_text(strip=True).replace('\n', ' ') for td in tds]
                 materias_faltas.append(valores)
-        
+                primeira_td = tds[0] if tds else None
+                titulo = primeira_td.find('p').get_text(strip=True) if primeira_td else None
+                titulos.append(titulo)
+                i+= 1
+       
         # NOVA ABORDAGEM PARA EXTRAIR NOTAS
         # Vamos usar o mesmo método original, mas com um controle para evitar duplicações
-        
+       
         # Conjunto para armazenar notas já processadas
         notas_processadas = set()
-        
+       
         # Encontrando todas as células com a classe "smc-grid-totalizador"
         total_cells = soup.find_all('td', class_='smc-grid-totalizador')
-        
+       
         # Vamos processar em grupos de 4 (assumindo que cada nota tem 4 colunas)
         # Isso ajuda a agrupar as células corretamente mesmo se houver várias tabelas
         i = 0
+        j = 0
         while i + 3 < len(total_cells):
             # Extrair os 4 valores da nota
             data = total_cells[i].get_text(strip=True).replace('\n', ' ')
             descricao = total_cells[i+1].get_text(strip=True).replace('\n', ' ')
             valor_max = total_cells[i+2].get_text(strip=True).replace('\n', ' ')
             valor_obtido = total_cells[i+3].get_text(strip=True).replace('\n', ' ').replace('\t', ' ')
-            
+           
             # Criar identificador único para esta nota
             nota_key = f"{data}|{descricao}|{valor_max}|{valor_obtido}"
-            
+           
             # Verificar se já processamos esta nota
             if nota_key not in notas_processadas:
                 # Adicionar à lista em formato estruturado
                 nota = {
+                    "titulo": titulos[j],
                     "data": data,
                     "descricao": descricao,
                     "valor_maximo": valor_max,
@@ -129,7 +136,7 @@ class FaltasSpider:
                 }
                 notas.append(nota)
                 notas_processadas.add(nota_key)
-            
+            j += 1
             # Avançar para o próximo grupo de 4 células
             i += 4
         
