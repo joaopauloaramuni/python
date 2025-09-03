@@ -193,6 +193,12 @@ Os arquivos `faltas.json`, `notas.json` e `credenciais.json` serão gerados na p
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull requests.
 
+### Agradecimentos especiais pelas contribuições
+
+- v1 -> Estêvão Rodrigues - https://github.com/EstevaoFR10
+- v2 -> Renato Matos - https://github.com/RenatoMAP77
+- v3 -> Diogo Brunoro - https://github.com/DiogoBrunoro
+
 ## Licença
 
 Este projeto é distribuído sob a MIT License.
