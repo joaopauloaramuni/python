@@ -1,0 +1,51 @@
+[
+    {
+        "titulo": "DESENVOLVIMENTO WEB FULL STACK - 4139.1.01",
+        "data": "03/09/2025",
+        "descricao": "Somatório das Avaliações",
+        "valor_maximo": "98.00",
+        "valor_obtido": "0.00     ( 0 % )"
+    },
+    {
+        "titulo": "INTERAÇÃO HUMANO-COMPUTADOR - 3172.1.00",
+        "data": "03/09/2025",
+        "descricao": "Somatório das Avaliações",
+        "valor_maximo": "100.00",
+        "valor_obtido": "17.00     ( 17 % )"
+    },
+    {
+        "titulo": "LABORATÓRIO DE DESENVOLVIMENTO DE SOFTWARE - 3134.1.01",
+        "data": "03/09/2025",
+        "descricao": "Somatório das Avaliações",
+        "valor_maximo": "95.00",
+        "valor_obtido": "0.00     ( 0 % )"
+    },
+    {
+        "titulo": "PROJETO DE SOFTWARE - 3133.1.00",
+        "data": "03/09/2025",
+        "descricao": "Somatório das Avaliações",
+        "valor_maximo": "35.00",
+        "valor_obtido": "0.00     ( 0 % )"
+    },
+    {
+        "titulo": "REDES DE COMPUTADORES - 3138.1.00",
+        "data": "03/09/2025",
+        "descricao": "Somatório das Avaliações",
+        "valor_maximo": "5.00",
+        "valor_obtido": "0.00     ( 0 % )"
+    },
+    {
+        "titulo": "TEORIA DOS GRAFOS E COMPUTABILIDADE - 3132.1.01",
+        "data": "03/09/2025",
+        "descricao": "Somatório das Avaliações",
+        "valor_maximo": "75.00",
+        "valor_obtido": "0.00     ( 0 % )"
+    },
+    {
+        "titulo": "TRABALHO INTERDISCIPLINAR: APLICAÇÕES PARA SUSTENTABILIDADE - 3170.1.02",
+        "data": "03/09/2025",
+        "descricao": "Somatório das Avaliações",
+        "valor_maximo": "100.00",
+        "valor_obtido": "0.00     ( 0 % )"
+    }
+]
