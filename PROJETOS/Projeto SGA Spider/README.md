@@ -104,7 +104,45 @@ pip install requests beautifulsoup4 lxml
 
 Substitua SUA MATRICULA e SUA SENHA na variável formdata com as credenciais do SGA.
 
-### 2. Execução do código
+### 2. Atualização de Cookies no Código
+
+Este projeto utiliza web scraping para acessar o SGA da PUC Minas e extrair informações de faltas, notas e credenciais. Para que as requisições HTTP funcionem corretamente, é **necessário manter os cookies atualizados**, pois o SGA depende deles para autenticação e sessão.
+
+Atualmente, os cookies estão definidos em **dois lugares** no código:
+
+1. **Durante o POST de login**  
+   No dicionário `headers` dentro da função `start_requests()`. É neste local que a requisição de login envia os cookies necessários para autenticação:
+
+   ```python
+   headers = {
+       ...
+       'cookie': '_gcl_au=1.1.566669173.1756326589; ...',
+       ...
+   }
+   ```
+
+2. **Durante os GETs após login**  
+   No dicionário `basic_headers` dentro da função `after_login()`. Aqui, os cookies precisam estar atualizados para que as páginas de notas, faltas e credenciais sejam acessadas corretamente:
+
+   ```python
+   basic_headers = {
+       ...
+       'cookie': '_gcl_au=1.1.566669173.1756326589; ...',
+       ...
+   }
+   ```
+}
+
+#### Observações importantes
+
+- Os cookies expiram ou são invalidados periodicamente, portanto **se você tentar rodar o código depois de algum tempo, precisará atualizar os cookies**.
+- Para obter os novos cookies:
+  1. Acesse o SGA no navegador.
+  2. Faça login normalmente.
+  3. Abra o DevTools (F12) → aba **Application/Armazenamento** → **Cookies**.
+  4. Copie os valores atualizados e substitua nos dois locais do código mencionados acima.
+
+### 3. Execução do código
 
 Para executar o código e gerar a imagem a partir do texto especificado, basta utilizar o seguinte comando no terminal:
 
@@ -114,7 +152,7 @@ python3 sga_v3.py
 
 Certifique-se de que você esteja no diretório onde o arquivo sga.py está localizado e que o ambiente virtual esteja ativado, caso você esteja usando um.
 
-### 3. Saídas
+### 4. Saídas
 
 Os arquivos `faltas.json`, `notas.json` e `credenciais.json` serão gerados na pasta do projeto contendo as informações do SGA.
 
