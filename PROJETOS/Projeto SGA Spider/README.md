@@ -111,7 +111,7 @@ Este projeto é uma aplicação Python que automatiza a consulta de informaçõe
 
 ### Captura de Tela - Interface Tkinter
 
-| <img src="https://joaopauloaramuni.github.io/python-imgs/SGA_Spider/imgs/tkinter.png" width="1000px" alt="Interface Tkinter"> |
+| <img src="https://joaopauloaramuni.github.io/python-imgs/SGA_Spider/imgs/tkinterUI.png" width="1000px" alt="Interface Tkinter"> |
 |:-------------------------------------:|
 | **Interface gráfica em Tkinter (Faltas, Notas e Credenciais em abas)** |
 
