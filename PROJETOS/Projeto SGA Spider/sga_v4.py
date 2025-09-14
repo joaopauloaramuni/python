@@ -206,7 +206,7 @@ class FaltasSpider:
         # ----------------- INTERFACE -----------------
         root = tk.Tk()
         root.title("SGA - Faltas, Notas e Credenciais")
-        root.geometry("1000x600")
+        root.geometry("1000x400")
 
         # Notebook (abas)
         notebook = ttk.Notebook(root)
@@ -258,4 +258,5 @@ class FaltasSpider:
 if __name__ == "__main__":
     spider = FaltasSpider()
     spider.start_requests()
+
     spider.criar_interface_tkinter()
