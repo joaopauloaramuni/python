@@ -2,11 +2,15 @@
 
 Este projeto, dividido em duas versões, realiza uma raspagem de dados para extrair as informações de notas e faltas dos alunos de graduação da PUC Minas, diretamente da página do Sistema de Gestão Acadêmica [SGA](https://www.sistemas.pucminas.br/sgaaluno4/SilverStream/Pages/pgAln_LoginSSL.html).
 
-## Captura de Tela
+---
+
+## Captura de Tela - SGA
 
 | <img src="https://joaopauloaramuni.github.io/python-imgs/SGA_Spider/imgs/sga.png" width="1000px" alt="SGA"> |
 |:-------------------------------------:|
 | **Sistema de Gestão Acadêmica (SGA)** |
+
+---
 
 ## Como funciona
 
@@ -85,6 +89,34 @@ Este projeto é uma aplicação Python que automatiza a consulta de informaçõe
 | Laboratórios acadêmicos | Login: matricula |
 | Microsoft Azure Dev Tools For Teaching | Login: Usuário de e-mail@sga.pucminas.br. Em caso de problemas acesse: [http://icei.pucminas.br/microsoft-azure/](http://icei.pucminas.br/microsoft-azure/) |
 
+---
+
+## Funcionalidades da versão 4 - **Interface Gráfica com Tkinter**
+
+- **Login Automático**: Realiza login no portal do estudante da PUC Minas.
+- **Extração de Dados**:
+  - Navega até a página de notas, frequência e credenciais.
+  - Extrai informações de disciplinas, faltas, notas e credenciais de serviços institucionais.
+- **Cálculo Automático**:
+  - Soma as notas de cada disciplina, facilitando a visualização do desempenho total.
+- **Exportação**:
+  - Gera arquivos `faltas.json`, `notas.json` e `credenciais.json`.
+- **Interface Gráfica (Tkinter)**:
+  - Cria uma janela interativa com três abas principais:
+    - **Faltas**: exibe disciplinas, carga horária e número de faltas.
+    - **Notas**: exibe avaliações com data, descrição, valor máximo e valor obtido.
+    - **Credenciais**: exibe logins dos serviços institucionais da PUC Minas.
+
+---
+
+### Captura de Tela - Interface Tkinter
+
+| <img src="https://joaopauloaramuni.github.io/python-imgs/SGA_Spider/imgs/tkinter.png" width="1000px" alt="Interface Tkinter"> |
+|:-------------------------------------:|
+| **Interface gráfica em Tkinter (Faltas, Notas e Credenciais em abas)** |
+
+---
+
 ## Requisitos
 
 - Python 3.8 ou superior
@@ -97,6 +129,8 @@ Você pode instalar as dependências com o comando:
 ```bash
 pip install requests beautifulsoup4 lxml
 ```
+
+---
 
 ## Como utilizar
 
@@ -165,6 +199,8 @@ Certifique-se de que você esteja no diretório onde o arquivo sga.py está loca
 
 Os arquivos `faltas.json`, `notas.json` e `credenciais.json` serão gerados na pasta do projeto contendo as informações do SGA.
 
+---
+
 ## Ambiente Virtual
 
 É recomendável usar um ambiente virtual para gerenciar suas dependências. Siga os passos abaixo para configurar um ambiente virtual:
@@ -183,11 +219,19 @@ Os arquivos `faltas.json`, `notas.json` e `credenciais.json` serão gerados na p
         .venv\Scripts\activate
         ```
 
+---
+
 ## Documentação e links úteis
 
-- [Requests - PyPI](https://pypi.org/project/requests/)
-- [Beautiful Soup 4 - PyPI](https://pypi.org/project/beautifulsoup4/)
-- [Documentação oficial do Beautiful Soup 4](https://beautiful-soup-4.readthedocs.io/en/latest/)
+- **[Requests](https://pypi.org/project/requests/)**: utilizada para enviar requisições HTTP e acessar páginas do SGA.
+- **[Beautiful Soup 4](https://pypi.org/project/beautifulsoup4/)**: utilizada para fazer o parsing do HTML e extrair informações das páginas.
+- **[Documentação oficial do Beautiful Soup 4](https://beautiful-soup-4.readthedocs.io/en/latest/)**: referência completa sobre métodos, seletores e exemplos de uso do Beautiful Soup.
+- **[lxml](https://pypi.org/project/lxml/)**: parser eficiente para HTML/XML, usado junto com o Beautiful Soup.
+- **[Tkinter](https://docs.python.org/3/library/tkinter.html)**: biblioteca padrão do Python para criar interfaces gráficas.
+- **[json](https://docs.python.org/3/library/json.html)**: usada para ler e escrever os arquivos `faltas.json`, `notas.json` e `credenciais.json`.
+- **[os](https://docs.python.org/3/library/os.html)**: usada para manipulação de caminhos de arquivos e diretórios.
+
+---
 
 ## Contribuição
 
@@ -198,6 +242,8 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull r
 - v1 -> Estêvão Rodrigues - https://github.com/EstevaoFR10
 - v2 -> Renato Matos - https://github.com/RenatoMAP77
 - v3 -> Diogo Brunoro - https://github.com/DiogoBrunoro
+
+---
 
 ## Licença
 
