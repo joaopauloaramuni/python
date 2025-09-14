@@ -161,7 +161,6 @@ class FaltasSpider:
             print("Exemplo da primeira nota:", notas[0])
         print("Dados extraídos e salvos em faltas.json e notas.json")
 
-
     def extract_credentials(self, soup):
 
         credenciasArray = []
