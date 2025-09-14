@@ -23,7 +23,7 @@ Este projeto é uma aplicação Python que automatiza a consulta de informaçõe
 - **Login Automático**: Realiza login no portal do estudante da PUC Minas.
 - **Extração de dados**:
   - Navega até a página de notas e frequência.
-  - Extrai informações de faltas.
+  - Extrai informações de **faltas**.
 - **Exportação**:
   - Gera um arquivo `faltas.json` com informações de frequência.
 
@@ -46,9 +46,7 @@ Este projeto é uma aplicação Python que automatiza a consulta de informaçõe
 - **Login Automático**: Realiza login no portal do estudante da PUC Minas.
 - **Extração de Dados**:
   - Navega até a página de notas e frequência.
-  - Extrai informações de disciplinas, faltas e notas.
-- **Cálculo Automático**:
-  - Soma as notas de cada disciplina, facilitando a visualização do desempenho total.
+  - Extrai informações de faltas e **notas**.
 - **Exportação**:
   - Gera arquivos `faltas.json` e `notas.json` com informações de frequência e notas.
 
@@ -71,9 +69,7 @@ Este projeto é uma aplicação Python que automatiza a consulta de informaçõe
 - **Login Automático**: Realiza login no portal do estudante da PUC Minas.
 - **Extração de Dados**:
   - Navega até a página de notas, frequência e credenciais.
-  - Extrai informações de disciplinas, faltas, notas e credenciais de serviços institucionais.
-- **Cálculo Automático**:
-  - Soma as notas de cada disciplina, facilitando a visualização do desempenho total.
+  - Extrai informações de faltas, notas e **credenciais** de serviços institucionais.
 - **Exportação**:
   - Gera arquivos `faltas.json`, `notas.json` e `credenciais.json` com todas as informações.
 - **Credenciais de Serviços**:
@@ -97,12 +93,10 @@ Este projeto é uma aplicação Python que automatiza a consulta de informaçõe
 - **Extração de Dados**:
   - Navega até a página de notas, frequência e credenciais.
   - Extrai informações de disciplinas, faltas, notas e credenciais de serviços institucionais.
-- **Cálculo Automático**:
-  - Soma as notas de cada disciplina, facilitando a visualização do desempenho total.
 - **Exportação**:
   - Gera arquivos `faltas.json`, `notas.json` e `credenciais.json`.
 - **Interface Gráfica (Tkinter)**:
-  - Cria uma janela interativa com três abas principais:
+  - Cria uma **janela interativa** com três abas principais:
     - **Faltas**: exibe disciplinas, carga horária e número de faltas.
     - **Notas**: exibe avaliações com data, descrição, valor máximo e valor obtido.
     - **Credenciais**: exibe logins dos serviços institucionais da PUC Minas.
