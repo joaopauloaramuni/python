@@ -258,5 +258,4 @@ class FaltasSpider:
 if __name__ == "__main__":
     spider = FaltasSpider()
     spider.start_requests()
-
     spider.criar_interface_tkinter()
