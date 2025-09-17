@@ -205,6 +205,11 @@ class FaltasSpider:
 
         # ----------------- INTERFACE -----------------
         root = tk.Tk()
+        style = ttk.Style()
+
+        # Escolher um tema
+        style.theme_use("aqua")  # ('aqua', 'clam', 'alt', 'default', 'classic')
+        
         root.title("SGA - Faltas, Notas e Credenciais")
         root.geometry("1000x400")
 
@@ -259,3 +264,4 @@ if __name__ == "__main__":
     spider = FaltasSpider()
     spider.start_requests()
     spider.criar_interface_tkinter()
+
