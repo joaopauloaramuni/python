@@ -82,14 +82,14 @@ Este projeto é uma aplicação Python que automatiza a consulta de informaçõe
 
   * Permite visualizar facilmente os logins de diversos serviços da PUC Minas, como:
 
-| Título                                 | Credencial                                                                                                                                                                                   |
-| -------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| PUC Mail                               | Login: [matricula@sga.pucminas.br](mailto:matricula@sga.pucminas.br)                                                                                                                         |
-| Office 365/Teams                       | Login: [matricula@sga.pucminas.br](mailto:matricula@sga.pucminas.br)                                                                                                                         |
-| Canvas                                 | Login Microsoft: [matricula@sga.pucminas.br](mailto:matricula@sga.pucminas.br)                                                                                                               |
-| Rede Wifi                              | Login: [matricula@pucminas.br](mailto:matricula@pucminas.br)                                                                                                                                 |
-| Portal CAPES                           | Login: matricula                                                                                                                                                                             |
-| Laboratórios acadêmicos                | Login: matricula                                                                                                                                                                             |
+| Título                                 | Credencial |
+|----------------------------------------|------------|
+| PUC Mail                               | Login: [matricula@sga.pucminas.br](mailto:matricula@sga.pucminas.br) |
+| Office 365/Teams                       | Login: [matricula@sga.pucminas.br](mailto:matricula@sga.pucminas.br) |
+| Canvas                                 | Login Microsoft: [matricula@sga.pucminas.br](mailto:matricula@sga.pucminas.br) |
+| Rede Wifi                              | Login: [matricula@pucminas.br](mailto:matricula@pucminas.br) |
+| Portal CAPES                           | Login: matricula |
+| Laboratórios acadêmicos                | Login: matricula |
 | Microsoft Azure Dev Tools For Teaching | Login: Usuário de [e-mail@sga.pucminas.br](mailto:e-mail@sga.pucminas.br). Em caso de problemas acesse: [http://icei.pucminas.br/microsoft-azure/](http://icei.pucminas.br/microsoft-azure/) |
 
 ---
