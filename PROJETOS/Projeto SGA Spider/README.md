@@ -285,7 +285,7 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull r
 * v1 -> Estêvão Rodrigues - [https://github.com/EstevaoFR10](https://github.com/EstevaoFR10)
 * v2 -> Renato Matos - [https://github.com/RenatoMAP77](https://github.com/RenatoMAP77)
 * v3 -> Diogo Brunoro - [https://github.com/DiogoBrunoro](https://github.com/DiogoBrunoro)
-* v4 -> Aramuni, Diogo Brunoro e Filipe Faria Melo
+* v4 -> Aramuni, Diogo Brunoro e Filipe Faria Melo - [https://github.com/ffmelo-coder](https://github.com/ffmelo-coder)
 
 ---
 
