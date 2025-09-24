@@ -18,10 +18,10 @@ PdfCracker é uma ferramenta simples para tentativa de quebra de senha de arquiv
 
 ## Estrutura do Projeto
 
-protected.pdf   # Arquivo PDF protegido que será testado.
-rockyou.txt     # Wordlist com as possíveis senhas.
-main.py         # Script principal para tentativa de quebra de senha.
-oldmain.py      # Versão anterior com PyPDF2 para fins de comparação.
+- protected.pdf   # Arquivo PDF protegido que será testado.
+- rockyou.txt     # Wordlist com as possíveis senhas.
+- main.py         # Script principal para tentativa de quebra de senha.
+- oldmain.py      # Versão anterior com PyPDF2 para fins de comparação.
 
 ## Execução
 
