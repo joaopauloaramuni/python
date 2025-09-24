@@ -34,7 +34,7 @@ oldmain.py      # Versão anterior com PyPDF2 para fins de comparação.
 
 5. Caso a senha seja encontrada, ela será exibida no console.
 
-## Notas Técnicas
+## Notas técnicas
 
 - O **pikepdf** é utilizado por ser mais performático e rápido que o **PyPDF2** em operações de leitura e tentativa de senha em PDFs.
 - O **tqdm** adiciona uma barra de progresso para visualizar a taxa de testes de senhas.
