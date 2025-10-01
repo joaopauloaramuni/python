@@ -23,6 +23,15 @@ PdfCracker é uma ferramenta simples para tentativa de quebra de senha de arquiv
 - main.py         # Script principal para tentativa de quebra de senha.
 - oldmain.py      # Versão anterior com PyPDF2 para fins de comparação.
 
+## Wordlist
+
+1. **Baixe o arquivo `rockyou.txt`**:
+   - O arquivo `rockyou.txt` tem 133,4 MB e pode ser baixado nos seguintes links:
+     - [Kaggle: Common Password List](https://www.kaggle.com/datasets/wjburns/common-password-list-rockyoutxt)
+     - [GitHub: rockyou.txt](https://github.com/brannondorsey/naive-hashcat/releases/download/data/rockyou.txt)
+
+2. **Coloque o arquivo `rockyou.txt` e o arquivo PDF protegido no diretório do projeto.**
+
 ## Execução
 
 1. Coloque o arquivo PDF protegido na mesma pasta do script.
@@ -33,6 +42,10 @@ PdfCracker é uma ferramenta simples para tentativa de quebra de senha de arquiv
    ```
 
 5. Caso a senha seja encontrada, ela será exibida no console.
+
+## Aviso
+
+Este projeto é **para fins didáticos** apenas. O uso deste código para tentar quebrar senhas de arquivos sem permissão é **ilegal** e não é incentivado de forma alguma. O autor não se responsabiliza pelo uso indevido deste código.
 
 ## Notas técnicas
 
