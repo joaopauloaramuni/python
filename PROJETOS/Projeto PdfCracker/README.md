@@ -35,7 +35,7 @@ PdfCracker é uma ferramenta simples para tentativa de quebra de senha de arquiv
 ## Execução
 
 1. Coloque o arquivo PDF protegido na mesma pasta do script.
-2. Forneça uma wordlist no formato .txt contendo as possíveis senhas.
+2. Coloque uma wordlist (rockyou.txt) no formato .txt contendo as possíveis senhas na mesma pasta do script.
 3. Execute o script principal:
    ```bash
    python main.py
