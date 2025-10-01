@@ -54,7 +54,7 @@ pip install tqdm
   pip install tqdm
   ```
 
-## Como usar
+## Wordlist
 
 1. **Baixe o arquivo `rockyou.txt`**:
    - O arquivo `rockyou.txt` tem 133,4 MB e pode ser baixado nos seguintes links:
@@ -63,7 +63,16 @@ pip install tqdm
 
 2. **Coloque o arquivo `rockyou.txt` e o arquivo ZIP protegido no diretório do projeto.**
 
-3. **Execute o código** para tentar descobrir a senha do arquivo ZIP.
+## Execução
+
+1. Coloque o arquivo ZIP protegido na mesma pasta do script.
+2. Coloque uma wordlist (rockyou.txt) no formato .txt contendo as possíveis senhas na mesma pasta do script.
+3. Execute o script principal:
+   ```bash
+   python main.py
+   ```
+
+5. Caso a senha seja encontrada, ela será exibida no console.
 
 ## Aviso
 
