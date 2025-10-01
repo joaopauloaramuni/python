@@ -12,9 +12,42 @@ O projeto tenta desbloquear um arquivo ZIP protegido por senha utilizando um alg
 
 No código, o arquivo ZIP é iterado e tentamos cada senha da lista até que a senha correta seja encontrada ou todas as senhas tenham sido testadas.
 
+## Pré-requisitos
+
+- Python 3.7 ou superior.
+- Instalar as dependências necessárias:
+  ```bash
+  pip install tqdm
+  ```
+- Baixar uma wordlist como o `rockyou.txt`.
+
+## Ambiente virtual
+
+1. **Crie o ambiente virtual:**
+```bash
+python -m venv .venv
+```
+
+2. **Ative o ambiente virtual:**
+
+- **Windows:**
+```bash
+.venv\Scripts\activate
+```
+
+- **Linux/macOS:**
+```bash
+source .venv/bin/activate
+```
+
+3. **Instale as dependências:**
+```bash
+pip install tqdm
+```
+
 ## Dependências
 
-### 1. `tqdm`
+### `tqdm`
 - **O que é**: A biblioteca `tqdm` é usada para exibir uma barra de progresso enquanto o código está testando as senhas. Isso facilita o acompanhamento do progresso, especialmente quando se trabalha com listas grandes de senhas.
 - **Instalação**:
   ```
