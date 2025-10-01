@@ -41,6 +41,21 @@ source .venv/bin/activate
 pip install tqdm pikepdf
 ```
 
+## Dependências
+
+### 1. `tqdm`
+- **O que é**: A biblioteca `tqdm` é usada para exibir uma barra de progresso enquanto o código está testando as senhas. Isso facilita o acompanhamento do progresso, especialmente quando se trabalha com listas grandes de senhas.
+- **Instalação**:
+  ```
+  pip install tqdm
+  ```
+### 2. `pikepdf`
+- **O que é**: A biblioteca `pikepdf` permite ler, manipular e escrever arquivos PDF em Python. No contexto de testes de senha, ela é usada para abrir PDFs protegidos e tentar desbloqueá-los programaticamente.
+- **Instalação**:
+  ```
+  pip install pikepdf
+  ```
+
 ## Estrutura do Projeto
 
 - protected.pdf   # Arquivo PDF protegido que será testado.
