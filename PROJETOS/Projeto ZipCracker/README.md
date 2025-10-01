@@ -74,6 +74,14 @@ pip install tqdm
 
 5. Caso a senha seja encontrada, ela será exibida no console.
 
+## Exemplo de saída
+
+[2] Total de senhas a testar: 14,344,392
+  50%|███████████████        | 7,172,196/14,344,392 [00:10<00:10, 703,499 words/s]
+[+] Senha encontrada: hello090
+
+[!] Senha não encontrada. Tente com outra wordlist.
+
 ## Aviso
 
 Este projeto é **para fins didáticos** apenas. O uso deste código para tentar quebrar senhas de arquivos sem permissão é **ilegal** e não é incentivado de forma alguma. O autor não se responsabiliza pelo uso indevido deste código.
