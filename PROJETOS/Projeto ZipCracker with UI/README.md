@@ -12,8 +12,7 @@ O **Projeto ZipCracker with UI** é uma versão com interface gráfica (Tkinter)
 
 ## Funcionalidades principais
 - Teste de senhas a partir de uma *wordlist* fornecida pelo usuário.
-- Feedback visual do progresso (porcentagem, tentativas por segundo, tempo estimado).
-- Registro de tentativas e possibilidade de salvar resultados.
+- Feedback visual do progresso (porcentagem e tentativas por segundo).
 - Tratamento de exceções e mensagens de erro amigáveis na interface.
 
 ## Como funciona
