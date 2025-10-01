@@ -17,6 +17,35 @@ PdfCracker é uma ferramenta simples para tentativa de quebra de senha de arquiv
   ```bash
   pip install tqdm pikepdf
   ```
+- Baixar uma wordlist como o `rockyou.txt`.
+
+---
+
+## Ambiente virtual
+
+1. **Crie o ambiente virtual:**
+```bash
+python -m venv .venv
+```
+
+2. **Ative o ambiente virtual:**
+
+- **Windows:**
+```bash
+.venv\Scripts\activate
+```
+
+- **Linux/macOS:**
+```bash
+source .venv/bin/activate
+```
+
+3. **Instale as dependências:**
+```bash
+pip install tqdm pikepdf
+```
+
+---
 
 ## Estrutura do Projeto
 
