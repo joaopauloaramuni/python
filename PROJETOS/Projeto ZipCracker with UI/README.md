@@ -9,11 +9,16 @@ O **Projeto ZipCracker with UI** é uma versão com interface gráfica (Tkinter)
 - Botão **Iniciar** para controlar o início da execução.
 - Barra de progresso e logs em tempo real (utilizando `tqdm` ou componente visual equivalente).
 - Notificações claras ao encontrar a senha ou ao finalizar a lista de tentativas.
+- Aviso sonoro opcional ao encontrar a senha (arquivo `task_complete.mp3).
 
 ## Funcionalidades principais
-- Teste de senhas a partir de uma *wordlist* fornecida pelo usuário.
-- Feedback visual do progresso (porcentagem e tentativas por segundo).
-- Tratamento de exceções e mensagens de erro amigáveis na interface.
+- Teste de senhas a partir de uma *wordlist* fornecida pelo usuário.  
+- Seleção do arquivo ZIP e da wordlist via diálogos de arquivo.  
+- Barra de progresso e feedback em tempo real (porcentagem e tentativas/segundo).  
+- Interface responsiva (threading) — a UI não congela durante o processo.  
+- Tratamento de erros e mensagens amigáveis (ZIP inválido, wordlist vazia, etc.).  
+- Notificação ao encontrar a senha (exibição na UI e `messagebox`).  
+- Som de finalização opcional (reprodução de `task_complete.mp3` com `pygame`).
 
 ## Como funciona
 
@@ -30,7 +35,7 @@ No código, o arquivo ZIP é iterado e tentamos cada senha da lista até que a s
 - Python 3.7 ou superior.
 - Instalar as dependências necessárias:
   ```bash
-  pip install tqdm
+  pip install tqdm pygame
   ```
 - Baixar uma wordlist como o `rockyou.txt`.
 - `tkinter` — geralmente incluído na instalação padrão do Python (GUI).
@@ -61,12 +66,20 @@ pip install tqdm
 
 ## Dependências
 
-### `tqdm`
+### 1. `tqdm`
 - **O que é**: A biblioteca `tqdm` é usada para exibir uma barra de progresso enquanto o código está testando as senhas. Isso facilita o acompanhamento do progresso, especialmente quando se trabalha com listas grandes de senhas.
 - **Instalação**:
   ```
   pip install tqdm
   ```
+
+### 2. `pygame`
+- **O que é**: `pygame` é uma biblioteca usada para reproduzir o som de notificação (`task_complete.mp3`) quando a senha correta é encontrada.  
+- **Instalação**:
+  ```
+  pip install pygame
+  ```
+> **Observação:** em sistemas Linux, `pygame` pode depender de bibliotecas do sistema (ex.: `libsdl2`, `libportaudio`, `alsa`). Se houver erro ao inicializar o mixer, instale as dependências do sistema antes de instalar o `pygame`.
 
 ## Wordlist
 
@@ -105,6 +118,13 @@ pip install tqdm
 ## Aviso
 
 Este projeto é **para fins didáticos** apenas. O uso deste código para tentar quebrar senhas de arquivos sem permissão é **ilegal** e não é incentivado de forma alguma. O autor não se responsabiliza pelo uso indevido deste código.
+
+## Documentação e Links Úteis
+
+- [MyInstants — efeitos sonoros online](https://www.myinstants.com/pt/index/br/) — para baixar sons como `task_complete.mp3`.
+- [Documentação do pygame](https://www.pygame.org/docs/) — informações sobre mixer e reprodução de áudio.
+- [Tkinter Documentation](https://docs.python.org/3/library/tkinter.html) — documentação oficial da biblioteca GUI usada no projeto.
+- [tqdm Documentation](https://tqdm.github.io/) — documentação oficial para barras de progresso.
 
 ## Licença
 
