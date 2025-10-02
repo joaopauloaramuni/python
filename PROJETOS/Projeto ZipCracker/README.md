@@ -86,6 +86,11 @@ pip install tqdm
 
 Este projeto é **para fins didáticos** apenas. O uso deste código para tentar quebrar senhas de arquivos sem permissão é **ilegal** e não é incentivado de forma alguma. O autor não se responsabiliza pelo uso indevido deste código.
 
+## Documentação e Links Úteis
+
+- [Tkinter Documentation](https://docs.python.org/3/library/tkinter.html) — documentação oficial da biblioteca GUI usada no projeto.
+- [tqdm Documentation](https://tqdm.github.io/) — documentação oficial para barras de progresso.
+
 ## Licença
 
 Este projeto está licenciado sob a Licença MIT.
