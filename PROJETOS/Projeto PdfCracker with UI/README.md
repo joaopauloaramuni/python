@@ -109,6 +109,14 @@ pip install tqdm pikepdf
 
 Durante os testes, o **pikepdf** se mostrou significativamente mais rápido do que o **PyPDF2**. Por esse motivo, a implementação padrão utiliza o **pikepdf**, enquanto a versão anterior com **PyPDF2** está disponível no arquivo `oldmain.py`.
 
+## Documentação e Links Úteis
+
+- [Tkinter Documentation](https://docs.python.org/3/library/tkinter.html) — documentação oficial da biblioteca GUI usada no projeto.
+- [tqdm Documentation](https://tqdm.github.io/) — documentação oficial para barras de progresso.
+- [pikepdf — documentação (Read the Docs)](https://pikepdf.readthedocs.io/) — referência principal para uso, exemplos e instalação.  
+- [pikepdf no PyPI](https://pypi.org/project/pikepdf/) — página do pacote para instalação via `pip`.  
+- [pikepdf no GitHub](https://github.com/pikepdf/pikepdf) — repositório com código-fonte e issues.
+
 ## Licença
 
 Este projeto está licenciado sob a Licença MIT.
