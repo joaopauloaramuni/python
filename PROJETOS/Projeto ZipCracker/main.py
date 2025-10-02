@@ -28,6 +28,7 @@ def crack_password():
 
             else:
                 print('\n[+] Senha encontrada:', word.decode().strip())
+                # tqdm.write(f'\n[+] Senha encontrada: {word.decode(errors="ignore").strip()}')
                 exit(0)
 
     print("\n[!] Senha não encontrada. Tente com outra wordlist.")
