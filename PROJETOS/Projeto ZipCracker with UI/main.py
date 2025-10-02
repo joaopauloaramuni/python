@@ -6,6 +6,7 @@ from pathlib import Path
 import threading
 from zipfile import ZipFile, BadZipFile
 from tqdm import tqdm
+import pygame
 
 class ZipCrackerApp:
     def __init__(self, root):
@@ -14,6 +15,18 @@ class ZipCrackerApp:
         self.root.geometry("550x300")
         self.root.resizable(False, False)
 
+        try:
+            pygame.mixer.init()
+            # opcional: setar volume padrão
+            pygame.mixer.music.set_volume(0.7)
+            # carregar o arquivo (ajuste o caminho se necessário)
+            if Path("task_complete.mp3").exists():
+                pygame.mixer.music.load("task_complete.mp3")
+            else:
+                print("Aviso: 'task_complete.mp3' não encontrado — som desabilitado.")
+        except Exception as e:
+            print(f"Não foi possível inicializar o som: {e}")
+        
         self.word_list_path = None
         self.zip_file_path = None
         self.stop_flag = False
@@ -143,7 +156,15 @@ class ZipCrackerApp:
                         found = True
                         self.result_label.config(text=f"✅ Senha encontrada: {password}")
                         print(f"\n[+] Senha encontrada: {password}")
+                        # tqdm.write(f'\n[+] Senha encontrada: {password.strip()}')
+
+                        try:
+                            pygame.mixer.music.play()
+                        except Exception as e:
+                            print("Falha ao tocar som:", e)
+                        
                         messagebox.showinfo("Senha encontrada", f"Senha: {password}")
+                        
                         return
 
         finally:
@@ -160,4 +181,4 @@ if __name__ == "__main__":
     app = ZipCrackerApp(root)
     root.mainloop()
 
-# pip install tqdm
+# pip install tqdm pygame
