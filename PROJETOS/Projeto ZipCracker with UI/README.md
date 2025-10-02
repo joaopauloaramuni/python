@@ -9,7 +9,7 @@ O **Projeto ZipCracker with UI** é uma versão com interface gráfica (Tkinter)
 - Botão **Iniciar** para controlar o início da execução.
 - Barra de progresso e logs em tempo real (utilizando `tqdm` ou componente visual equivalente).
 - Notificações claras ao encontrar a senha ou ao finalizar a lista de tentativas.
-- Aviso sonoro opcional ao encontrar a senha (arquivo `task_complete.mp3).
+- Aviso sonoro opcional ao encontrar a senha (arquivo `task_complete.mp3`).
 
 ## Funcionalidades principais
 - Teste de senhas a partir de uma *wordlist* fornecida pelo usuário.  
