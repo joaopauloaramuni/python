@@ -15,8 +15,6 @@ Instalação (exemplo):
 pip install faker
 ```
 
-> Observação: o repositório exemplo mostrava `tqdm` e uma wordlist (rockyou) — esses itens pertencem a outro tipo de projeto (ex.: ferramentas de auditoria). **Não incluímos instruções para uso de wordlists ou ataques**. Este repositório é somente para geração de dados de teste legítimos.
-
 ## 🛠️ Pré-requisitos
 - Python 3.7+ instalado.
 - Recomenda-se criar e ativar um ambiente virtual antes de instalar dependências (veja seção abaixo).
@@ -70,9 +68,9 @@ source .venv/bin/activate   # ou .venv\Scripts\activate no Windows
 pip install faker
 ```
 
-2. Execute o script principal (supondo que o arquivo se chame `main.py` ou `gerador.py`):
+2. Execute o script principal:
 ```bash
-python main.py
+python faker_generator.py
 ```
 
 3. Ao terminar, você terá os arquivos gerados, por exemplo:
