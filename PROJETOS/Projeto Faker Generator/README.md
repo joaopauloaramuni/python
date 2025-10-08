@@ -3,7 +3,7 @@
 ## 🚀 O que é o projeto
 Este projeto é um gerador simples de **dados falsos** para testes de software, usando a biblioteca **Faker**. Ele produz registros realistas (nomes, CPFs, e-mails, endereços, cargos, salários etc.) e salva em arquivos CSV e JSON. O objetivo é facilitar a criação de massa de dados para testes locais, demonstrações e prototipagem.
 
-## 🧠 Técnica: o que é usar o Faker
+## 🧠 O que é a lib Faker
 **Faker** é uma biblioteca Python que gera dados falsos realistas para diversas localidades (ex.: `pt_BR`, `en_US`). Em vez de criar dados manualmente ou copiar listas, o Faker permite produzir rapidamente grandes quantidades de entradas plausíveis (nomes, endereços, empresas, documentos) que parecem reais, mas são fictícias. Isso é útil para testar pipelines de ingestão, interfaces, validações e cargas de dados sem expor informações reais de usuários.
 
 ## 📦 Dependências do projeto
