@@ -132,6 +132,28 @@ Total de 100 registros criados com sucesso.
 
 ---
 
+## 📚 Documentação e Links Úteis
+
+- 🧩 [Documentação oficial do módulo `csv`](https://docs.python.org/3/library/csv.html)  
+  → Leitura e escrita de arquivos CSV em Python.  
+
+- 📜 [Documentação oficial do módulo `json`](https://docs.python.org/3/library/json.html)  
+  → Conversão entre objetos Python e JSON (serialização e desserialização).  
+
+- 🗂️ [Documentação oficial do módulo `os`](https://docs.python.org/3/library/os.html)  
+  → Funções para interação com o sistema operacional (arquivos, diretórios, paths, etc).  
+
+- 🧠 [Documentação oficial do módulo `typing`](https://docs.python.org/3/library/typing.html)  
+  → Tipagem estática opcional em Python (`List`, `Dict`, `Any`, etc).  
+
+- 🧑‍💻 [Documentação oficial do Faker](https://faker.readthedocs.io/en/master/)  
+  → Geração de dados falsos realistas (nomes, endereços, CPFs, empresas, etc).  
+
+- 📦 [Pacote Faker no PyPI](https://pypi.org/project/Faker/)  
+  → Página oficial do pacote para instalação e informações de versão.
+
+---
+
 ## 🧾 Licença
 Este projeto é disponibilizado sob a licença **MIT**.
 
