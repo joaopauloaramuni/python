@@ -93,8 +93,8 @@ python faker_generator.py
 ```
 
 3. Ao terminar, você terá os arquivos gerados, por exemplo:
-- `dados_falsos.csv`
-- `dados_falsos.json`
+- [dados_falsos.csv](https://github.com/joaopauloaramuni/python/blob/main/PROJETOS/Projeto%20Faker%20Generator/dados_falsos.csv)
+- [dados_falsos.json](https://github.com/joaopauloaramuni/python/blob/main/PROJETOS/Projeto%20Faker%20Generator/dados_falsos.json)
 
 ---
 
