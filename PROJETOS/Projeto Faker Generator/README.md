@@ -1,4 +1,3 @@
-
 # 🧪 Projeto Faker Generator
 
 ## 🚀 O que é o projeto
@@ -80,6 +79,31 @@ python main.py
 - `dados_falsos.csv`
 - `dados_falsos.json`
 
+## 🖥️ Exemplo de saída no terminal
+```
+(.venv) (base) joaopauloaramuni@MacBook-Pro-de-Joao Projeto Faker Generator % python faker_generator.py 
+Iniciando o Gerador de Dados Falsos (CSV e JSON)...
+
+Gerando 100 registros...
+Progresso: 10/100...
+Progresso: 20/100...
+Progresso: 30/100...
+Progresso: 40/100...
+Progresso: 50/100...
+Progresso: 60/100...
+Progresso: 70/100...
+Progresso: 80/100...
+Progresso: 90/100...
+Progresso: 100/100...
+
+--- Processo de Salvamento ---
+-> CSV criado com sucesso: /Users/joaopauloaramuni/Documents/WORKSPACE-VSCODE/python/Projeto Faker Generator/dados_falsos.csv
+-> JSON criado com sucesso: /Users/joaopauloaramuni/Documents/WORKSPACE-VSCODE/python/Projeto Faker Generator/dados_falsos.json
+
+--- FIM ---
+Total de 100 registros criados com sucesso.
+```
+
 ## 📝 Boas práticas e sugestões rápidas
 - Se for gerar grandes volumes, considere desabilitar `fake.unique` para evitar exceções por esgotamento de valores únicos.  
 - Para reprodutibilidade durante desenvolvimento, adicione suporte a uma `seed` (semente) e use `random.seed(seed)` / `Faker.seed(seed)`.  
@@ -89,24 +113,3 @@ python main.py
 Este projeto é disponibilizado sob a licença **MIT**.
 
 ---
-MIT License
-
-Copyright (c) 2025
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the \"Software\"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
