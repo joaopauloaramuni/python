@@ -3,8 +3,19 @@
 ## 🚀 O que é o projeto
 Este projeto é um gerador simples de **dados falsos** para testes de software, usando a biblioteca **Faker**. Ele produz registros realistas (nomes, CPFs, e-mails, endereços, cargos, salários etc.) e salva em arquivos CSV e JSON. O objetivo é facilitar a criação de massa de dados para testes locais, demonstrações e prototipagem.
 
-## 🧠 O que é a lib Faker
-**Faker** é uma biblioteca Python que gera dados falsos realistas para diversas localidades (ex.: `pt_BR`, `en_US`). Em vez de criar dados manualmente ou copiar listas, o Faker permite produzir rapidamente grandes quantidades de entradas plausíveis (nomes, endereços, empresas, documentos) que parecem reais, mas são fictícias. Isso é útil para testar pipelines de ingestão, interfaces, validações e cargas de dados sem expor informações reais de usuários.
+---
+
+## 🧩 O que é a biblioteca Faker
+**Faker** é uma biblioteca Python utilizada para gerar dados falsos realistas em diferentes localidades (ex.: `pt_BR`, `en_US`).  
+Ela fornece métodos prontos para criar nomes, e-mails, endereços, empresas, documentos e muito mais, facilitando a geração automática de dados fictícios, porém coerentes.
+
+---
+
+## 🧠 O que é a técnica de uso do Faker
+A técnica consiste em empregar a biblioteca **Faker** para criar massas de dados sintéticos que simulam informações reais.  
+Esses dados são ideais para **testes de software**, **prototipagem**, **validação de formulários**, **treinamento de modelos de IA** e **demonstrações**, evitando o uso de informações sensíveis ou de usuários reais.
+
+---
 
 ## 📦 Dependências do projeto
 - Python 3.7 ou superior
@@ -15,9 +26,13 @@ Instalação (exemplo):
 pip install faker
 ```
 
+---
+
 ## 🛠️ Pré-requisitos
 - Python 3.7+ instalado.
 - Recomenda-se criar e ativar um ambiente virtual antes de instalar dependências (veja seção abaixo).
+
+---
 
 ## 🐍 Ambiente virtual (recomendado)
 1. **Crie o ambiente virtual:**
@@ -42,6 +57,8 @@ source .venv/bin/activate
 pip install faker
 ```
 
+---
+
 ## 🔎 O que cada função faz
 Abaixo seguem as assinaturas das funções presentes no script e uma explicação curta do propósito de cada uma — **sem** incluir o código.
 
@@ -60,6 +77,8 @@ Abaixo seguem as assinaturas das funções presentes no script e uma explicaçã
 - `main()`  
   Função principal que coordena o fluxo: configura o Faker, gera N registros (conforme constante ou configuração), exibe progresso simples, e chama as funções de persistência (CSV e JSON).
 
+---
+
 ## ⚙️ Execução (exemplo)
 1. Ative o ambiente virtual (opcional) e instale dependências:
 ```bash
@@ -76,6 +95,8 @@ python faker_generator.py
 3. Ao terminar, você terá os arquivos gerados, por exemplo:
 - `dados_falsos.csv`
 - `dados_falsos.json`
+
+---
 
 ## 🖥️ Exemplo de saída no terminal
 ```
@@ -102,10 +123,14 @@ Progresso: 100/100...
 Total de 100 registros criados com sucesso.
 ```
 
+---
+
 ## 📝 Boas práticas e sugestões rápidas
 - Se for gerar grandes volumes, considere desabilitar `fake.unique` para evitar exceções por esgotamento de valores únicos.  
 - Para reprodutibilidade durante desenvolvimento, adicione suporte a uma `seed` (semente) e use `random.seed(seed)` / `Faker.seed(seed)`.  
 - Se precisar de tipos brasileiros adicionais (ex.: CNPJ, telefone formatado), é possível estender a função `gerar_dados_usuario` ou adicionar novos campos no script.
+
+---
 
 ## 🧾 Licença
 Este projeto é disponibilizado sob a licença **MIT**.
