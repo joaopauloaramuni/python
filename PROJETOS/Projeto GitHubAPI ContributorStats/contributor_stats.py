@@ -186,7 +186,7 @@ def main(repo_url: str):
     print("\n--- TOP 10 Contribuidores (Console) ---")
     for i, contributor in enumerate(ranking[:10]):
         print(f"{i+1}. {contributor['Nome de Usuário']} ({contributor['URL Perfil']})")
-        print(f"   -> Commits: {contributor['Commits Totais']} | Inserções: {contributor['Linhas Inseridas']} | Deletas: {contributor['Linhas Deletadas']} | Impacto Líquido: {contributor['Impacto Líquido (Ins - Del)']}")
+        print(f"   -> Commits: {contributor['Commits Totais']} | Inseridas: {contributor['Linhas Inseridas']} | Deletadas: {contributor['Linhas Deletadas']} | Impacto Líquido: {contributor['Impacto Líquido (Ins - Del)']}")
 
 # --------------------------------------------------------------------------------------
 # Execução
