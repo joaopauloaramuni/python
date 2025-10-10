@@ -15,23 +15,25 @@ O objetivo principal é fornecer uma visão clara de quem mais contribuiu para u
 
 ---
 
-## 🐍 Ambiente Virtual (Recomendado)
-
-O uso de um ambiente virtual isola as dependências do projeto.
-
-1.  **Crie o ambiente virtual:**
+## 🐍 Ambiente virtual (recomendado)
+1. **Crie o ambiente virtual:**
 ```bash
 python -m venv .venv
 ```
 
-2.  **Ative o ambiente virtual:**
+2. **Ative o ambiente virtual:**
 
-| Sistema Operacional | Comando |
-| :--- | :--- |
-| **Windows** | `.\venv\Scripts\activate` |
-| **Linux/macOS** | `source .venv/bin/activate` |
+- **Windows:**
+```bash
+.venv\Scripts\activate
+```
 
-3.  **Instale as dependências:**
+- **Linux/macOS:**
+```bash
+source .venv/bin/activate
+```
+
+3. **Instale as dependências:**
 ```bash
 pip install requests
 ```
@@ -106,8 +108,9 @@ Abaixo seguem as assinaturas das funções presentes no script e uma explicaçã
 
 ## 📚 Documentação e Links Úteis
 
-- 🧩 **Documentação oficial da API do GitHub (Estatísticas):** [REST API Endpoints for Repository Statistics](https://docs.github.com/en/rest/metrics/statistics?apiVersion=2022-11-28)
+- 🔑 **Página de Geração de Tokens (PATs) no GitHub:** [github.com/settings/tokens](https://github.com/settings/tokens)
 - 🔑 **Como criar seu Personal Access Token (PAT):** [Managing your personal access tokens](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens)
+- 🧩 **Documentação oficial da API do GitHub (Estatísticas):** [REST API Endpoints for Repository Statistics](https://docs.github.com/en/rest/metrics/statistics?apiVersion=2022-11-28)
 - 🐍 **Documentação oficial do módulo `requests`:** [Python Requests](https://docs.python-requests.org/en/latest/)
 
 ---
@@ -115,3 +118,5 @@ Abaixo seguem as assinaturas das funções presentes no script e uma explicaçã
 ## 🧾 Licença
 
 Este projeto é disponibilizado sob a licença **MIT**.
+
+---
