@@ -74,21 +74,21 @@ As métricas são: Commits Totais, Linhas Inseridas, Linhas Deletadas e Impacto 
 
 --- TOP 10 Contribuidores (Console) ---
 1. aluno1 (https://github.com/aluno1)
-   -> Commits: 77 | Inserções: 39 | Deletas: 34 | Impacto Líquido: 5
+   -> Commits: 77 | Inseridas: 39 | Deletadas: 34 | Impacto Líquido: 5
 2. aluno2 (https://github.com/aluno2)
-   -> Commits: 29 | Inserções: 1495 | Deletas: 884 | Impacto Líquido: 611
+   -> Commits: 29 | Inseridas: 1495 | Deletadas: 884 | Impacto Líquido: 611
 3. aluno3 (https://github.com/aluno3)
-   -> Commits: 23 | Inserções: 2186 | Deletas: 305 | Impacto Líquido: 1881
+   -> Commits: 23 | Inseridas: 2186 | Deletadas: 305 | Impacto Líquido: 1881
 4. aluno4 (https://github.com/aluno4)
-   -> Commits: 14 | Inserções: 66 | Deletas: 29 | Impacto Líquido: 37
+   -> Commits: 14 | Inseridas: 66 | Deletadas: 29 | Impacto Líquido: 37
 5. aluno5 (https://github.com/aluno5)
-   -> Commits: 10 | Inserções: 196 | Deletas: 7 | Impacto Líquido: 189
+   -> Commits: 10 | Inseridas: 196 | Deletadas: 7 | Impacto Líquido: 189
 6. aluno6 (https://github.com/aluno6)
-   -> Commits: 9 | Inserções: 19020 | Deletas: 17984 | Impacto Líquido: 1036
+   -> Commits: 9 | Inseridas: 19020 | Deletadas: 17984 | Impacto Líquido: 1036
 7. professor1 (https://github.com/professor1)
-   -> Commits: 5 | Inserções: 10 | Deletas: 5 | Impacto Líquido: 5
+   -> Commits: 5 | Inseridas: 10 | Deletadas: 5 | Impacto Líquido: 5
 8. github-classroom[bot] (https://github.com/apps/github-classroom)
-   -> Commits: 2 | Inserções: 476 | Deletas: 0 | Impacto Líquido: 476
+   -> Commits: 2 | Inseridas: 476 | Deletadas: 0 | Impacto Líquido: 476
 ...
 ```
 
