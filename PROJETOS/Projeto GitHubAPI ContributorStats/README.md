@@ -64,7 +64,9 @@ python contributor_stats.py
 A ferramenta exibe o progresso do *pooling* da API e, após o sucesso, mostra o Top 10 no console:
 
 ```
-Buscando estatísticas (Tentativa 1/6) de: [https://api.github.com/repos/ICEI-PUC-Minas-PMGES-TI/](https://api.github.com/repos/ICEI-PUC-Minas-PMGES-TI/)...
+(.venv) (base) joaopauloaramuni@MacBook-Pro-de-Joao Projeto GitHubAPI ContributorStats % python contributor_stats.py
+
+Buscando estatísticas (Tentativa 1/6) de: https://api.github.com/repos/ICEI-PUC-Minas-PMGES-TI/pmg-es-2025-2-ti3-9577100-repoexemplo/stats/contributors
 Dados de contribuição recebidos com sucesso.
 
 ✅ Sucesso! Ranking exportado para: ranking_contribuicao_pmg-es-2025-2-ti3-9577100-repoexemplo.csv
