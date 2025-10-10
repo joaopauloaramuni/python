@@ -60,7 +60,7 @@ pip install faker
 ---
 
 ## 🔎 O que cada função faz
-Abaixo seguem as assinaturas das funções presentes no script e uma explicação curta do propósito de cada uma — **sem** incluir o código.
+Abaixo seguem as assinaturas das funções presentes no script e uma explicação curta do propósito de cada uma.
 
 - `configurar_faker(locale: str = 'pt_BR') -> Faker`  
   Inicializa e retorna uma instância da classe `Faker` com o locale informado (por padrão `pt_BR`), que será usada para gerar dados no formato local apropriado.
