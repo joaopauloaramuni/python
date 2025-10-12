@@ -110,7 +110,6 @@ python sql_schemagen.py
 ```
 
 4. Ao terminar, você terá o arquivo gerado:
-- `database_schema_and_seed.sql`
 - [database_schema_and_seed.sql](https://github.com/joaopauloaramuni/python/blob/main/PROJETOS/Projeto%20SQL%20SchemaGen/database_schema_and_seed.sql)
 
 ---
