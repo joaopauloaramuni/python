@@ -65,7 +65,6 @@ A ferramenta exibe o progresso do *pooling* da API e, após o sucesso, mostra o 
 
 ```
 (.venv) (base) joaopauloaramuni@MacBook-Pro-de-Joao Projeto GitHubAPI ContributorStats % python contributor_stats.py
-
 Buscando estatísticas (Tentativa 1/6) de: https://api.github.com/repos/ICEI-PUC-Minas-PMGES-TI/pmg-es-2025-2-ti3-9577100-repoexemplo/stats/contributors
 Dados de contribuição recebidos com sucesso.
 
@@ -74,21 +73,21 @@ As métricas são: Commits Totais, Linhas Inseridas, Linhas Deletadas e Impacto 
 
 --- TOP 10 Contribuidores (Console) ---
 1. aluno1 (https://github.com/aluno1)
-   -> Commits: 77 | Inseridas: 39 | Deletadas: 34 | Impacto Líquido: 5
+   -> Commits: 77 | Inseridas: 39 | Deletadas: 34 | Impacto Líquido: 5 | Último Commit: 30/09/2025
 2. aluno2 (https://github.com/aluno2)
-   -> Commits: 29 | Inseridas: 1495 | Deletadas: 884 | Impacto Líquido: 611
+   -> Commits: 62 | Inseridas: 14322 | Deletadas: 11677 | Impacto Líquido: 2645 | Último Commit: 20/10/2025
 3. aluno3 (https://github.com/aluno3)
-   -> Commits: 23 | Inseridas: 2186 | Deletadas: 305 | Impacto Líquido: 1881
+   -> Commits: 29 | Inseridas: 25055 | Deletadas: 19293 | Impacto Líquido: 5762 | Último Commit: 19/10/2025
 4. aluno4 (https://github.com/aluno4)
-   -> Commits: 14 | Inseridas: 66 | Deletadas: 29 | Impacto Líquido: 37
+   -> Commits: 29 | Inseridas: 1495 | Deletadas: 884 | Impacto Líquido: 611 | Último Commit: 09/10/2025
 5. aluno5 (https://github.com/aluno5)
-   -> Commits: 10 | Inseridas: 196 | Deletadas: 7 | Impacto Líquido: 189
+   -> Commits: 25 | Inseridas: 567 | Deletadas: 214 | Impacto Líquido: 353 | Último Commit: 20/10/2025
 6. aluno6 (https://github.com/aluno6)
-   -> Commits: 9 | Inseridas: 19020 | Deletadas: 17984 | Impacto Líquido: 1036
-7. professor1 (https://github.com/professor1)
-   -> Commits: 5 | Inseridas: 10 | Deletadas: 5 | Impacto Líquido: 5
+   -> Commits: 14 | Inseridas: 19198 | Deletadas: 18097 | Impacto Líquido: 1101 | Último Commit: 18/10/2025
+7. professor1 (https://github.com/joaopauloaramuni)
+   -> Commits: 5 | Inseridas: 10 | Deletadas: 5 | Impacto Líquido: 5 | Último Commit: 22/08/2025
 8. github-classroom[bot] (https://github.com/apps/github-classroom)
-   -> Commits: 2 | Inseridas: 476 | Deletadas: 0 | Impacto Líquido: 476
+   -> Commits: 2 | Inseridas: 476 | Deletadas: 0 | Impacto Líquido: 476 | Último Commit: N/A
 ...
 ```
 
@@ -100,11 +99,12 @@ Abaixo seguem as assinaturas das funções presentes no script e uma explicaçã
 
 | Função | Assinatura | Propósito |
 | :--- | :--- | :--- |
-| **`parse_repo_url`** | `(repo_url: str) -> tuple[str, str]` | Extrai o **dono** e o **nome** do repositório a partir da URL. |
-| **`fetch_contributors_stats`** | `(owner: str, repo_name: str) -> list` | Faz requisições à API, implementando um **loop de retentativa** para lidar com o processamento de dados (`202 Accepted`). |
-| **`generate_ranking`** | `(contributors_data: list) -> list` | Processa os dados brutos, calcula o **Impacto Líquido** (`Inseridas - Deletadas`) e ordena os colaboradores. |
+| **`parse_repo_url`** | `(repo_url: str) -> tuple[str, str] | None` | Extrai o **dono** e o **nome** do repositório a partir da URL. |
+| **`fetch_contributors_stats`** | `(owner: str, repo_name: str) -> list | None` | Faz requisições à API, implementando um **loop de retentativa** para lidar com o processamento de dados (`202 Accepted`). |
+| **`fetch_last_commit_date`** | `(owner: str, repo_name: str, username: str) -> str` | Busca a **data exata do último commit** de um usuário no repositório, retornando no formato `DD/MM/YYYY`. |
+| **`generate_ranking`** | `(contributors_data: list, owner: str, repo_name: str) -> list` | Processa os dados brutos, calcula o **Impacto Líquido** (`Inseridas - Deletadas`) e ordena os colaboradores. |
 | **`export_to_csv`** | `(ranking: list, repo_name: str)` | Cria e salva um arquivo CSV com o ranking final, usando ponto e vírgula (`;`) como delimitador. |
-| **`main`** | `(repo_url: str)` | Função principal que coordena a execução do script. |
+| **`main`** | `(repo_url: str)` | Função principal que coordena a execução do script: analisa contribuições, gera ranking e exporta CSV. |
 
 ---
 
