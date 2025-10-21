@@ -3,6 +3,7 @@ import csv
 import sys
 import time
 from urllib.parse import urlparse
+from datetime import datetime, timezone
 
 # --- Configuração ---
 # Seu Token de Acesso Pessoal (PAT) do GitHub.
@@ -87,33 +88,43 @@ def fetch_contributors_stats(owner: str, repo_name: str) -> list | None:
 # 2. Funções de Análise e Geração de Saída
 # --------------------------------------------------------------------------------------
 
+from datetime import datetime
+
 def generate_ranking(contributors_data: list) -> list:
     """
     Processa os dados brutos da API para criar um ranking ordenado e sumarizado.
-    Métricas consideradas: total de commits, adições (linhas inseridas) e deleções.
+    Métricas consideradas: total de commits, adições (linhas inseridas), deleções e data do último commit.
     """
     ranking = []
     
     for contributor in contributors_data:
-        # Pega as informações do usuário
         username = contributor['author']['login']
         user_profile_url = contributor['author']['html_url']
         
-        # O total de 'weeks' contém a soma total de commits, adições e deleções
         total_commits = contributor['total']
         total_additions = sum(week['a'] for week in contributor['weeks'])
         total_deletions = sum(week['d'] for week in contributor['weeks'])
-        
-        # Calcula o impacto líquido das linhas
         net_impact = total_additions - total_deletions
 
+        # Encontrar a semana mais recente com commits
+        last_commit_timestamp = max(
+            (week['w'] for week in contributor['weeks'] if week['c'] > 0),
+            default=None
+        )
+        last_commit_date = (
+            datetime.fromtimestamp(last_commit_timestamp, tz=timezone.utc)
+            .strftime('%d/%m/%Y')
+            if last_commit_timestamp else "N/A"
+        )
+        
         ranking.append({
             'Nome de Usuário': username,
             'URL Perfil': user_profile_url,
             'Commits Totais': total_commits,
             'Linhas Inseridas': total_additions,
             'Linhas Deletadas': total_deletions,
-            'Impacto Líquido (Ins - Del)': net_impact
+            'Impacto Líquido (Ins - Del)': net_impact,
+            'Último Commit': last_commit_date
         })
 
     # Ordena o ranking usando o número de commits como métrica principal e o impacto líquido como desempate.
@@ -186,7 +197,11 @@ def main(repo_url: str):
     print("\n--- TOP 10 Contribuidores (Console) ---")
     for i, contributor in enumerate(ranking[:10]):
         print(f"{i+1}. {contributor['Nome de Usuário']} ({contributor['URL Perfil']})")
-        print(f"   -> Commits: {contributor['Commits Totais']} | Inseridas: {contributor['Linhas Inseridas']} | Deletadas: {contributor['Linhas Deletadas']} | Impacto Líquido: {contributor['Impacto Líquido (Ins - Del)']}")
+        print(f"   -> Commits: {contributor['Commits Totais']} | "
+            f"Inseridas: {contributor['Linhas Inseridas']} | "
+            f"Deletadas: {contributor['Linhas Deletadas']} | "
+            f"Impacto Líquido: {contributor['Impacto Líquido (Ins - Del)']} | "
+            f"Último Commit: {contributor['Último Commit']}")
 
 # --------------------------------------------------------------------------------------
 # Execução
@@ -194,7 +209,7 @@ def main(repo_url: str):
 
 if __name__ == "__main__":
     # URL do repositório
-    repo_to_analyze = "https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2025-2-ti3-9577100-repoexemplo"
+    repo_to_analyze = "https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2025-2-ti4-3126100-misbela"
     
     # Caso o usuário queira passar a URL como argumento de linha de comando
     if len(sys.argv) > 1:
