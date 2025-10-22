@@ -13,7 +13,7 @@ O objetivo é fornecer uma base **simples**, **segura** e **reproduzível** para
 
 ## 🖼️ Captura de Tela
 
-| <img src="https://joaopauloaramuni.github.io/python-imgs/ZapSender/imgs/Zap.png" alt="ZapSender" width="1000"/> |
+| <img src="https://joaopauloaramuni.github.io/python-imgs/ZapSender/imgs/ZapSender.png" alt="ZapSender" width="1000"/> |
 |:---------:|
 | ZapSender |
 
