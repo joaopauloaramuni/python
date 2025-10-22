@@ -6,7 +6,7 @@ import requests
 # O seu token de acesso (mantido aqui, mas deve ser armazenado com segurança)
 ACCESS_TOKEN = "#################"
 PHONE_NUMBER_ID = "#################"
-API_URL = f"https://graph.facebook.com/v22.0/{PHONE_NUMBER_ID}/messages"
+API_URL = f"https://graph.facebook.com/v24.0/{PHONE_NUMBER_ID}/messages"
 
 
 # ==========================================
