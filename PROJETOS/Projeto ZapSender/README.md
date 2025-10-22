@@ -17,6 +17,14 @@ O objetivo é fornecer uma base **simples**, **segura** e **reproduzível** para
 |:---------:|
 | ZapSender |
 
+🖥️ No terminal:
+
+```bash
+📩 Payload recebido: {'object': 'whatsapp_business_account', 'entry': [{'id': '788244184191501', 'changes': [{'value': {'messaging_product': 'whatsapp', 'metadata': {'display_phone_number': '15551438086', 'phone_number_id': '836567342875521'}, 'contacts': [{'profile': {'name': 'João Paulo Aramuni'}, 'wa_id': '553180402103'}], 'messages': [{'from': '553180402103', 'id': 'wamid.HBgMNTUzMTgwNDAyMTAzFQIAEhgUM0JFNzE0NjRDNDJEMUEwREVGQUUA', 'timestamp': '1761175291', 'text': {'body': 'Mensagem de teste'}, 'type': 'text'}]}, 'field': 'messages'}]}]}
+Mensagem recebida de 553180402103: Mensagem de teste
+INFO:     2a03:2880:22ff:8:::0 - "POST /webhook HTTP/1.1" 200 OK
+```
+
 ---
 
 ## 💡 Estrutura do Projeto
