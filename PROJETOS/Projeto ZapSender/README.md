@@ -143,7 +143,7 @@ Esta é a requisição HTTP pura que o código Python está executando (com plac
 
 ```bash
 curl -i -X POST \
-  https://graph.facebook.com/v22.0/{PHONE_NUMBER_ID}/messages \
+  https://graph.facebook.com/v24.0/{PHONE_NUMBER_ID}/messages \
   -H 'Authorization: Bearer {ACCESS_TOKEN}' \
   -H 'Content-Type: application/json' \
   -d '{ "messaging_product": "whatsapp", "to": "{numero_destino}", "type": "template", "template": { "name": "hello_world", "language": { "code": "en_US" } } }'
