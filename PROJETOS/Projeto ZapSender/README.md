@@ -1,26 +1,63 @@
-# 🤖 ZapSender: Envio de Mensagens via WhatsApp Cloud API
+# 🤖 ZapSender: Envio e Recebimento de Mensagens via WhatsApp Cloud API
 
-Este projeto em Python demonstra como enviar mensagens de template do WhatsApp utilizando a **Cloud API da Meta**, a maneira oficial e escalável de automatizar a comunicação.
+O **ZapSender** é um projeto em **Python** que demonstra, de forma prática, como integrar-se à **WhatsApp Cloud API** (Meta for Developers) para **enviar** e **receber** mensagens de forma automatizada.
+
+Ele contém dois scripts independentes e complementares:
+
+- 🟢 **`zapsender.py`** — envia mensagens de *template* pré-aprovadas (como `hello_world`) para contatos via API oficial da Meta.  
+- 🟣 **`webhook.py`** — implementa um servidor **FastAPI** capaz de receber e processar notificações e mensagens enviadas pelo WhatsApp por meio de **Webhooks**.
+
+O objetivo é fornecer uma base **simples**, **segura** e **reproduzível** para entender o fluxo completo de automação com a WhatsApp Cloud API — desde o envio de templates até o recebimento de mensagens e eventos em tempo real.
 
 ---
 
-## 💡 O que é este Projeto?
+## 🖼️ Captura de Tela
 
-O **ZapSender** é um script Python (`zapsender.py`) simples, mas funcional, projetado para interagir com a API de Nuvem do WhatsApp (Meta for Developers). Ele encapsula a lógica necessária para construir o payload JSON e enviar requisições HTTP POST para o endpoint da Meta, permitindo o envio programático de mensagens pré-aprovadas (Templates) para números específicos.
+| <img src="https://joaopauloaramuni.github.io/python-imgs/ZapSender/imgs/Zap.png" alt="ZapSender" width="1000"/> |
+|:---------:|
+| ZapSender |
+
+---
+
+## 💡 Estrutura do Projeto
+
+### 🟢 `zapsender.py`
+Script responsável por **enviar mensagens de template** (pré-aprovadas pela Meta) para números de WhatsApp específicos.  
+Ele realiza uma requisição **HTTP POST** diretamente para o endpoint oficial da Cloud API, autenticando-se via **Access Token**.
+
+Ideal para testar o **envio automatizado de mensagens** sem precisar configurar um servidor.
+
+### 🟣 `webhook.py`
+Script que cria um **servidor FastAPI** para **receber mensagens e eventos** enviados pela Cloud API via **Webhook**.  
+É usado para capturar mensagens de usuários, testar interações bidirecionais e depurar callbacks em tempo real.
+
+Durante o desenvolvimento local, o servidor pode ser exposto à internet com o **ngrok**, que fornece uma **URL HTTPS temporária** para uso como “Callback URL” na **Meta for Developers**.
+
+---
+
+Esses scripts são **independentes**, ou seja, você pode:
+- Executar apenas o `zapsender.py` para enviar mensagens, ou  
+- Rodar o `webhook.py` para receber e inspecionar mensagens recebidas.
 
 ---
 
 ## 📘 Meta for Developers e a Cloud API
 
-### O que é Meta for Developers?
-É a plataforma que fornece as ferramentas, APIs e documentação necessárias para desenvolvedores criarem aplicativos que se integram aos produtos da Meta (Facebook, Instagram, WhatsApp). Para usar a API do WhatsApp, é necessário criar um aplicativo aqui.
+### O que é o Meta for Developers?
+É a plataforma oficial da **Meta** que fornece APIs, SDKs e ferramentas para desenvolvedores criarem integrações com produtos como **Facebook**, **Instagram** e **WhatsApp**.
 
-## 🚀 Passo a passo para criar o App no Meta for Developers
-
-Antes de enviar mensagens com a **Cloud API do WhatsApp**, é necessário **criar um aplicativo** no **Meta for Developers** e vinculá-lo a uma **Conta Comercial (Business Portfolio)**.  
-Esse vínculo é essencial para que o produto **WhatsApp** esteja disponível no seu app.
+Para utilizar a **WhatsApp Cloud API**, é necessário:
+1. Criar um aplicativo dentro do [Meta for Developers](https://developers.facebook.com/).  
+2. Adicionar o **produto WhatsApp** ao seu app.  
+3. Obter um **Access Token** e um **Phone Number ID**.  
+4. (Opcional) Configurar um **Webhook** para receber mensagens e eventos automaticamente.
 
 ---
+
+## 🚀 Passo a Passo para Criar o App no Meta for Developers
+
+Antes de enviar mensagens com a **WhatsApp Cloud API**, é necessário criar um **aplicativo** e vinculá-lo a uma **Conta Comercial (Business Portfolio)**.  
+Esse vínculo habilita o produto **WhatsApp** no seu app e permite gerar as credenciais necessárias (Access Token, ID do telefone e endpoint da API).
 
 ### 🧩 1. Criar o aplicativo
 
@@ -56,7 +93,8 @@ Para que o produto **WhatsApp** apareça como opção no seu app:
 ## 📝 Mensagens de Template (Message Templates)
 
 ### O que é um Template?
-Templates (ou Modelos de Mensagem) são mensagens pré-aprovadas que devem ser usadas para iniciar conversas ou enviar notificações fora da janela de 24 horas de atendimento. Para usar a Cloud API, a primeira mensagem para um novo contato deve ser um Template, como o `hello_world` usado neste projeto.
+Templates (ou Modelos de Mensagem) são mensagens pré-aprovadas que devem ser usadas para iniciar conversas ou enviar notificações fora da janela de 24 horas de atendimento.  
+Para usar a Cloud API, a primeira mensagem para um novo contato deve ser um Template, como o `hello_world` usado neste projeto.
 
 ### Passo a passo para criar um Template
 1.  Acesse o **Gerenciador do WhatsApp** através do link: [Gerenciador de Templates](https://business.facebook.com/latest/whatsapp_manager/message_templates).
@@ -68,23 +106,128 @@ Templates (ou Modelos de Mensagem) são mensagens pré-aprovadas que devem ser u
 
 ---
 
+## 🌐 Criando e Configurando o Webhook
+
+O **Webhook** é o mecanismo usado pela Meta para **enviar notificações e mensagens recebidas** para o seu servidor.  
+Quando alguém envia uma mensagem para o seu número do WhatsApp Business, a Meta faz uma requisição `POST` para a **URL de callback** configurada no seu app.
+
+---
+
+### ⚙️ 4. Criar o Webhook no Meta for Developers
+
+1. No painel do seu aplicativo, vá em **Produtos → WhatsApp → Configurações**.  
+2. Na seção **Webhook**, clique em **“Configurar Webhook”**.  
+3. Você verá dois campos:
+   - **Callback URL:** o endereço público do seu servidor que receberá os eventos.  
+     Exemplo (usando ngrok): `https://1234abcd.ngrok.io/webhook`
+   - **Verify Token:** uma senha personalizada que você escolhe (ex.: `joaopauloaramuni`).  
+     Esse token deve **coincidir com o valor da variável `VERIFY_TOKEN`** no arquivo `webhook.py`.
+
+4. Clique em **Verificar e Salvar**.  
+   O Meta enviará uma requisição `GET` ao seu endpoint `/webhook` com parâmetros de verificação.  
+   Se o seu servidor (`webhook.py`) estiver rodando corretamente, ele retornará o `hub.challenge` e a verificação será concluída com sucesso.
+
+---
+
+### 🔔 5. Assinar o Campo “messages”
+
+Após configurar o Webhook:
+
+1. Ainda no painel de **Webhooks**, clique em **“Gerenciar campos”**.  
+2. Marque a opção **`messages`** para que seu servidor receba notificações sempre que novas mensagens forem enviadas ou recebidas.  
+3. Clique em **Salvar alterações**.
+
+> 💡 **Importante:** sem assinar o campo `messages`, o seu endpoint `/webhook` não receberá nenhum evento de mensagem.
+
+---
+
+### 🧪 Testando o Webhook
+
+1. Execute o servidor diretamente com:
+   python webhook.py
+
+2. Configure seu ngrok com o token pessoal (somente na primeira execução):
+   ngrok config add-authtoken SEU_TOKEN_AQUI
+
+3. Inicie o túnel HTTPS para expor a porta local 8000:
+   ngrok http 8000
+
+4. Copie o link HTTPS gerado e adicione **`/webhook`** ao final.  
+   Use esse endereço completo como **Callback URL** no painel da Meta.  
+   Exemplo final: `https://1234abcd.ngrok.io/webhook`
+
+5. Envie uma mensagem para o número de teste configurado.  
+   Você verá o **payload JSON** aparecer no terminal, confirmando que o webhook está recebendo os dados corretamente.
+
+---
+
 ## ⚙️ Explicação do Código Python
 
-O script `zapsender.py` é dividido em funções claras para gerenciamento do envio:
+O projeto é dividido em **dois scripts independentes**, cada um com responsabilidades claras:
+
+### 🟢 `zapsender.py` — Envio de Templates
+
+Este script é responsável por **enviar mensagens de template pré-aprovadas** via API oficial da Meta.  
+Ele é estruturado em funções que organizam o fluxo de criação do payload e envio da requisição:
 
 | Assinatura da Função | Descrição |
 | :--- | :--- |
-| `criar_payload_template(nome_template: str, codigo_idioma: str, numero_destino: str) -> dict` | Responsável por montar o corpo JSON da requisição, garantindo que o nome do template, o código de idioma e o número de destino estejam no formato exigido pela API da Meta. |
-| `enviar_requisicao(payload: dict) -> dict` | Cuida da comunicação HTTP. Esta função realiza a chamada `POST` para a API da Meta, incluindo o **ACCESS_TOKEN** nos *headers* de autorização e o payload JSON no corpo da requisição. |
-| `enviar_template(numero_destino: str, nome_template: str, codigo_idioma: str)` | É a função de orquestração. Ela chama `criar_payload_template` e `enviar_requisicao`, e então verifica a resposta da API, exibindo uma mensagem de sucesso ou um erro no terminal. |
+| `criar_payload_template(nome_template: str, codigo_idioma: str, numero_destino: str) -> dict` | Monta o corpo JSON da requisição, garantindo que o nome do template, o código do idioma e o número de destino estejam no formato exigido pela API. |
+| `enviar_requisicao(payload: dict) -> dict` | Realiza a chamada `POST` para a API da Meta, incluindo o **ACCESS_TOKEN** nos headers e o payload JSON no corpo da requisição. Retorna a resposta da API. |
+| `enviar_template(numero_destino: str, nome_template: str, codigo_idioma: str)` | Função de orquestração. Cria o payload e envia a requisição, exibindo no terminal uma mensagem de sucesso ou erro, de acordo com a resposta da API. |
+
+> 💡 Ideal para testar o envio automatizado de mensagens sem precisar de um servidor web.
+
+---
+
+### 🟣 `webhook.py` — Recebimento de Mensagens
+
+Este script implementa um **servidor FastAPI** capaz de **receber mensagens e eventos** enviados pela WhatsApp Cloud API:
+
+| Função / Endpoint | Descrição |
+| :--- | :--- |
+| `enviar_hello_world(numero_destino: str)` | Envia um template `hello_world` para um número específico, útil para testes de webhook ou de envio de mensagens. |
+| `@app.get("/webhook")` | Endpoint de **verificação do webhook**. O Meta envia uma requisição GET com `hub.challenge` para validar a URL e o `VERIFY_TOKEN`. |
+| `@app.post("/webhook")` | Endpoint para **receber mensagens e notificações**. Processa o payload JSON enviado pelo Meta, exibindo informações como remetente e conteúdo da mensagem no terminal. |
+
+> 💡 Durante o desenvolvimento, o servidor pode ser exposto à internet com **ngrok**, permitindo que a Meta envie notificações para o seu endpoint local.
 
 ---
 
 ## 🛠️ Pré-requisitos
 
+Para rodar os scripts do projeto, você precisará:
+
+### 🟢 Para `zapsender.py` (envio de templates)
 - **Python 3.7+** instalado.
 - **ACCESS_TOKEN**: Token de acesso da Meta for Developers.
 - **PHONE_NUMBER_ID**: O ID do número de telefone (sandbox ou oficial) usado para enviar a mensagem.
+- **Biblioteca requests**: para enviar requisições HTTP.
+
+Instalação:
+```bash
+pip install requests
+```
+
+---
+
+### 🟣 Para `webhook.py` (recebimento de mensagens)
+- **Python 3.7+** instalado.
+- **ACCESS_TOKEN** e **PHONE_NUMBER_ID** (opcional, se quiser testar envio de hello_world).
+- **VERIFY_TOKEN**: token para validação do webhook no Meta.
+- **Bibliotecas FastAPI e uvicorn**: para rodar o servidor web.
+- **requests**: para enviar mensagens de teste, se necessário.
+- **ngrok**: para expor o servidor local à internet e obter a URL HTTPS de callback.
+
+Instalação:
+```bash
+pip install fastapi uvicorn requests
+```
+
+Instalação do ngrok:
+- Baixe e instale o ngrok via [site oficial](https://ngrok.com/download)
+- Configure seu token pessoal (somente na primeira execução):
+ngrok config add-authtoken SEU_TOKEN_AQUI
 
 ---
 
@@ -108,33 +251,92 @@ source .venv/bin/activate
 
 3. **Instale as dependências:**
 ```bash
-pip install requests
+pip install requests # zapsender.py
+pip install fastapi uvicorn requests # webhook.py
 ```
 
 ---
 
 ## ⚙️ Execução
 
-### 1. Configuração
+### 🟢 1. Configuração do `zapsender.py`
 
-No arquivo `zapsender.py`, substitua os *placeholders* na seção `CONFIGURAÇÕES` pelos seus valores obtidos na plataforma Meta Developers:
+No arquivo `zapsender.py`, substitua os *placeholders* na seção `CONFIGURAÇÕES` pelos valores obtidos na plataforma Meta Developers:
 
 - **`ACCESS_TOKEN`**: Seu token de acesso de usuário (deve ser tratado com segurança em produção).
 - **`PHONE_NUMBER_ID`**: O ID do número de telefone de teste/produção.
 
-### 2. Comando Principal
+### 🟢 2. Executando o `zapsender.py`
 
-Execute o script principal:
+Execute o script principal para enviar um template de teste:
 
-```bash
 python zapsender.py
-```
 
-### 3. Exemplo de Saída no Terminal
+---
+
+### 🟣 3. Configuração do `webhook.py`
+
+No arquivo `webhook.py`, verifique:
+
+- **`VERIFY_TOKEN`**: Token que será usado para validar o webhook na Meta.
+- **`ACCESS_TOKEN`**: Necessário se quiser testar o envio de `hello_world` diretamente do webhook.
+- **`PHONE_NUMBER_ID`**: Necessário se quiser testar o envio de `hello_world` diretamente do webhook.
+
+---
+
+### 🟣 4. Expondo o servidor com ngrok
+
+1. Configure seu token pessoal do ngrok (somente na primeira execução):
+
+ngrok config add-authtoken SEU_TOKEN_AQUI
+
+2. Inicie o túnel HTTPS para expor a porta local 8000:
+
+ngrok http 8000
+
+3. Copie a URL HTTPS gerada e adicione `/webhook` ao final.  
+   Exemplo: `https://1234abcd.ngrok.io/webhook`
+
+4. Use essa URL como **Callback URL** no painel da Meta, junto com o **Verify Token** configurado.
+
+---
+
+### 🟣 5. Executando o `webhook.py`
+
+Execute o servidor localmente:
+
+python webhook.py
+
+Agora, quando alguém enviar uma mensagem para o número configurado no WhatsApp Business, você verá o payload JSON aparecer no terminal.
+
+> 💡 O webhook está pronto para receber notificações, e você pode combinar o envio de `hello_world` para testar a comunicação bidirecional.
+
+---
+
+### 6. Exemplo de Saída no Terminal
+
+zapsender.py
 
 ```bash
 (.venv) (base) joaopauloaramuni@MacBook-Pro-de-Joao Projeto ZapSender % python zapsender.py
 ✅ Template 'hello_world' enviado com sucesso!
+```
+
+webhook.py
+
+```bash
+(.venv) (base) joaopauloaramuni@MacBook-Pro-de-Joao Projeto ZapSender % python webhook.py                   
+Servidor iniciado!
+✅ Hello World enviado para 5531980402103
+INFO:     Started server process [82146]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     2a03:2880:10ff:3:::0 - "GET /webhook?hub.mode=subscribe&hub.challenge=360027070&hub.verify_token=joaopauloaramuni HTTP/1.1" 200 OK
+INFO:     2a03:2880:10ff:44:::0 - "GET /webhook?hub.mode=subscribe&hub.challenge=1070723611&hub.verify_token=joaopauloaramuni HTTP/1.1" 200 OK
+📩 Payload recebido: {'object': 'whatsapp_business_account', 'entry': [{'id': '788244184191501', 'changes': [{'value': {'messaging_product': 'whatsapp', 'metadata': {'display_phone_number': '15551438086', 'phone_number_id': '836567342875521'}, 'contacts': [{'profile': {'name': 'João Paulo Aramuni'}, 'wa_id': '553180402103'}], 'messages': [{'from': '553180402103', 'id': 'wamid.HBgMNTUzMTgwNDAyMTAzFQIAEhgUM0JFNzE0NjRDNDJEMUEwREVGQUUA', 'timestamp': '1761175291', 'text': {'body': 'Mensagem de teste'}, 'type': 'text'}]}, 'field': 'messages'}]}]}
+Mensagem recebida de 553180402103: Mensagem de teste
+INFO:     2a03:2880:22ff:8:::0 - "POST /webhook HTTP/1.1" 200 OK
 ```
 
 ### Exemplo de requisição cURL (Formato E.164)
@@ -143,7 +345,7 @@ Esta é a requisição HTTP pura que o código Python está executando (com plac
 
 ```bash
 curl -i -X POST \
-  https://graph.facebook.com/v24.0/{PHONE_NUMBER_ID}/messages \
+  https://graph.facebook.com/v22.0/{PHONE_NUMBER_ID}/messages \
   -H 'Authorization: Bearer {ACCESS_TOKEN}' \
   -H 'Content-Type: application/json' \
   -d '{ "messaging_product": "whatsapp", "to": "{numero_destino}", "type": "template", "template": { "name": "hello_world", "language": { "code": "en_US" } } }'
@@ -159,6 +361,10 @@ curl -i -X POST \
 | **Gerenciador de Templates** | Onde você cria e gerencia todos os seus modelos de mensagem. | https://business.facebook.com/latest/whatsapp_manager/message_templates |
 | **Guia de Introdução** | Documentação oficial para configurar a Cloud API. | https://developers.facebook.com/docs/whatsapp/cloud-api/get-started |
 | **Guia de Envio** | Detalhes sobre o envio de diferentes tipos de mensagens. | https://developers.facebook.com/docs/whatsapp/cloud-api/guides/send-messages |
+| **Webhooks** | Documentação oficial sobre como configurar Webhooks para receber mensagens e eventos. | https://developers.facebook.com/docs/whatsapp/cloud-api/guides/webhooks |
+| **ngrok** | Ferramenta para expor o servidor local à internet via URL HTTPS, usada para testes de webhook. | https://ngrok.com/ |
+| **ngrok Auth Token** | Página para obter o token de autenticação necessário para configurar ngrok. | https://dashboard.ngrok.com/get-started/your-authtoken |
+| **FastAPI Docs** | Documentação oficial do FastAPI, usada para criar servidores web e acessar a interface `/docs`. | https://fastapi.tiangolo.com/ |
 
 ---
 
