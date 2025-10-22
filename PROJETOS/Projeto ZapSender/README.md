@@ -207,7 +207,7 @@ Este script implementa um **servidor FastAPI** capaz de **receber mensagens e ev
 Para rodar os scripts do projeto, você precisará:
 
 ### 🟢 Para `zapsender.py` (envio de templates)
-- **Python 3.7+** instalado.
+- **Python 3.12+** instalado.
 - **ACCESS_TOKEN**: Token de acesso da Meta for Developers.
 - **PHONE_NUMBER_ID**: O ID do número de telefone (sandbox ou oficial) usado para enviar a mensagem.
 - **Biblioteca requests**: para enviar requisições HTTP.
@@ -220,7 +220,7 @@ pip install requests
 ---
 
 ### 🟣 Para `webhook.py` (recebimento de mensagens)
-- **Python 3.7+** instalado.
+- **Python 3.12+** instalado.
 - **ACCESS_TOKEN** e **PHONE_NUMBER_ID** (opcional, se quiser testar envio de hello_world).
 - **VERIFY_TOKEN**: token para validação do webhook no Meta.
 - **Bibliotecas FastAPI e uvicorn**: para rodar o servidor web.
