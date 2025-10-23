@@ -21,7 +21,6 @@ pergunta_enviada = {}
 # FUNÇÃO: Enviar template hello_world
 # -------------------------------
 def enviar_hello_world(numero_destino: str):
-    # ... (código da função enviar_hello_world permanece o mesmo)
     payload = {
         "messaging_product": "whatsapp",
         "to": numero_destino,
