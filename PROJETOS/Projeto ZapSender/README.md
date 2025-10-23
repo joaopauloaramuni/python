@@ -22,7 +22,7 @@ O objetivo é fornecer uma base **simples**, **segura** e **reproduzível** para
 - [⚙️ Explicação do Código Python](#-explicação-do-código-python)
 - [🛠️ Pré-requisitos](#-pré-requisitos)
 - [🐍 Ambiente virtual (recomendado)](#-ambiente-virtual-recomendado)
-- [⚙️ Execução](#execução)
+- [⚙️ Execução](#-execução)
 - [📚 Documentação e Links Úteis](#-documentação-e-links-úteis)
 - [🤝 Contribuição](#-contribuição)
 - [🧾 Licença](#-licença)
@@ -306,7 +306,7 @@ pip install fastapi uvicorn requests # webhook.py
 
 ---
 
-## 🤝 Execução
+## ▶️ Execução
 
 ### 🟢 1. Configuração do `zapsender.py`
 
