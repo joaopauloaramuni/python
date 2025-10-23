@@ -24,7 +24,7 @@ O objetivo é fornecer uma base **simples**, **segura** e **reproduzível** para
 - [🐍 Ambiente virtual (recomendado)](#-ambiente-virtual-recomendado)
 - [⚙️ Execução](#-execução)
 - [📚 Documentação e Links Úteis](#-documentação-e-links-úteis)
-- [🤝 Contribuição](#contribuição)
+- [🤝 Contribuição](#-contribuição)
 - [🧾 Licença](#-licença)
 
 ---
