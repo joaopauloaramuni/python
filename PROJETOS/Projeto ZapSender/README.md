@@ -19,10 +19,10 @@ O objetivo é fornecer uma base **simples**, **segura** e **reproduzível** para
 - [🚀 Passo a Passo para Criar o App no Meta for Developers](#-passo-a-passo-para-criar-o-app-no-meta-for-developers)
 - [📝 Mensagens de Template (Message Templates)](#-mensagens-de-template-message-templates)
 - [🌐 Criando e Configurando o Webhook](#-criando-e-configurando-o-webhook)
-- [⚙️ Explicação do Código Python](#-explicação-do-código-python)
-- [🛠️ Pré-requisitos](#-pré-requisitos)
+- [📝 Explicação do Código Python](#-explicação-do-código-python)
+- [📌 Pré-requisitos](#-pré-requisitos)
 - [🐍 Ambiente virtual (recomendado)](#-ambiente-virtual-recomendado)
-- [⚙️ Execução](#-execução)
+- [🚀 Execução](#-execução)
 - [📚 Documentação e Links Úteis](#-documentação-e-links-úteis)
 - [🤝 Contribuição](#-contribuição)
 - [🧾 Licença](#-licença)
@@ -209,7 +209,7 @@ Após configurar o Webhook:
 
 ---
 
-## ⚙️ Explicação do Código Python
+## 📝 Explicação do Código Python
 
 O projeto é dividido em **dois scripts independentes**, cada um com responsabilidades claras:
 
@@ -243,7 +243,7 @@ Este script implementa um **servidor FastAPI** capaz de **receber mensagens e ev
 
 ---
 
-## 🛠️ Pré-requisitos
+## 📌 Pré-requisitos
 
 Para rodar os scripts do projeto, você precisará:
 
