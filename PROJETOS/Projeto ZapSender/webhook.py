@@ -8,9 +8,9 @@ app = FastAPI()
 # -------------------------------
 # CONFIGURAÇÕES
 # -------------------------------
-VERIFY_TOKEN = "joaopauloaramuni"
-ACCESS_TOKEN = "EAFgZBMwBC8F0BPZCwmw5tYeabeM8So6SkX0pyin24sHF6evkBsKwtyTwAB5ktsObJJnXFvpU7Rw3ug52AXIPyy7ZCjOaOJqJyDUZABTWvXZBIcc6wMoOs4MnYdKlb63tFQZBRMbTEWXWXkPEGruC5nfJ41gXZC3SYyHnIW7bmL0kVEM5I5T937KWnB2OvDMDkKrSl1dhB4WZAdaUiaAIbfCLovVrJZA7HqiKakCQSaiYQ7TZA0roF6edJvsfjm6IZAWI7WLrPulBUa8GQjnxIAEGyh3ZCQZDZD"
-PHONE_NUMBER_ID = "836567342875521"
+VERIFY_TOKEN = "#################"
+ACCESS_TOKEN = "#################"
+PHONE_NUMBER_ID = "#################"
 API_URL = f"https://graph.facebook.com/v24.0/{PHONE_NUMBER_ID}/messages"
 
 # Variável para rastrear se a pergunta já foi enviada
