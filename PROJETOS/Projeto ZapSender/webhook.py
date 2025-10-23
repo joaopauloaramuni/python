@@ -105,7 +105,7 @@ async def handle_webhook(request: Request):
                     
                     # 1. Se a pergunta ainda não foi enviada para este número
                     if phone not in pergunta_enviada:
-                        pergunta = "Olá! Já que iniciamos a conversa, me diga: de 0 a 10, o que você achou da oficina de Python? Sua opinião é muito importante!"
+                        pergunta = "Olá! Já que iniciamos a conversa, me diga: de 0 a 10, o que você achou da oficina do DevLabs? Sua opinião é muito importante!"
                         enviar_mensagem_texto(phone, pergunta)
                         pergunta_enviada[phone] = True # Marca como enviada
                         
