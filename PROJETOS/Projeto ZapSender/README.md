@@ -306,7 +306,7 @@ pip install fastapi uvicorn requests # webhook.py
 
 ---
 
-## 🏃‍♂️ Execução
+## 🚀 Execução
 
 ### 🟢 1. Configuração do `zapsender.py`
 
