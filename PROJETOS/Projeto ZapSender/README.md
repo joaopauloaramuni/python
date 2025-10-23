@@ -442,7 +442,7 @@ curl -i -X POST \
 
 ---
 
-## Contribuição 🤝 
+## 🤝 Contribuição
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull requests. 
 
