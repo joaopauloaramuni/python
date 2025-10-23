@@ -29,20 +29,29 @@ O objetivo é fornecer uma base **simples**, **segura** e **reproduzível** para
 
 ---
 
-## 💬 Fluxo Interativo: Avaliação da Oficina
+## 💬 Fluxo Interativo: Avaliação da Oficina (WhatsApp + FastAPI)
 
-O **`webhook.py`** permite um **diálogo automatizado** com o usuário.  
-Após o primeiro contato (mensagem enviada pelo usuário), o sistema responde automaticamente com uma pergunta de avaliação.
+O arquivo **`webhook.py`** implementa um bot automatizado via **WhatsApp Business API**, permitindo que o usuário avalie a oficina do DevLabs de forma **interativa** e **flexível**.
+
+---
 
 ### 🧠 Lógica de Funcionamento
 
-1. O usuário envia qualquer mensagem inicial para o número do bot.  
-2. O bot responde:  
+1. O bot envia automaticamente **o template “Hello World”** ao iniciar o fluxo.
+2. Em seguida, envia uma **mensagem interativa com botões**:  
+   > "Olá! Me diga: o que você achou da oficina do DevLabs? Sua opinião é muito importante!"  
+   Botões disponíveis:  
+   - 🟢 Ótima  
+   - 🟡 Boa  
+   - 🔵 Regular  
+3. O usuário **responde clicando em um botão**, e o bot confirma:  
+   > "Você escolheu: [opção]. Agradeço muito seu feedback! 😊"  
+4. O usuário **pode iniciar uma nova conversa** a qualquer momento enviando “Oi” ou qualquer outra mensagem.
+5. Ao iniciar uma nova conversa, o bot envia uma **pergunta de texto solicitando uma nota de 0 a 10**:  
    > "Olá! Já que iniciamos a conversa, me diga: de 0 a 10, o que você achou da oficina do DevLabs? Sua opinião é muito importante!"  
-3. O usuário responde com uma nota entre 0 e 10.  
-4. O bot confirma o recebimento e agradece:  
-   > "Entendido! Agradeço muito seu feedback. Qualquer coisa estou à disposição! 😊"  
-5. A nota é registrada no terminal (ou pode ser armazenada em um banco de dados, caso desejado).
+6. O usuário responde com **uma nota de 0 a 10**, e o bot confirma:  
+   > "Você escolheu: [nota]! Agradeço muito seu feedback. Qualquer coisa estou à disposição! 😊"  
+7. A resposta (opção de botão ou nota) é **registrada no terminal** e pode ser **armazenada em banco de dados** futuramente.
 
 ---
 
@@ -57,6 +66,9 @@ Após o primeiro contato (mensagem enviada pelo usuário), o sistema responde au
 ```bash
 📩 Payload recebido: {'object': 'whatsapp_business_account', 'entry': [{'id': '788244184191501', 'changes': [{'value': {'messaging_product': 'whatsapp', 'metadata': {'display_phone_number': '15551438086', 'phone_number_id': '836567342875521'}, 'contacts': [{'profile': {'name': 'João Paulo Aramuni'}, 'wa_id': '553180402103'}], 'messages': [{'from': '553180402103', 'id': 'wamid.HBgMNTUzMTgwNDAyMTAzFQIAEhgUM0JFNzE0NjRDNDJEMUEwREVGQUUA', 'timestamp': '1761175291', 'text': {'body': 'Mensagem de teste'}, 'type': 'text'}]}, 'field': 'messages'}]}]}
 Mensagem recebida de 553180402103: Mensagem de teste
+✅ Mensagem de texto enviada para 553180402103
+...
+📌 553180402103 clicou na opção: Ótima
 ✅ Mensagem de texto enviada para 553180402103
 ...
 Mensagem recebida de 553180402103: 10
