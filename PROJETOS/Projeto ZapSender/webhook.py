@@ -131,9 +131,7 @@ async def handle_webhook(request: Request):
                 messages = value.get("messages", [])
                 for message in messages:
                     phone = message["from"]
-                    text = message.get("text", {}).get("body", "").strip()
-                    print(f"Mensagem recebida de {phone}: {text}")
-                    
+
                     # --- Lógica de Resposta com Botões ---
 
                     # Verifica se é resposta de botão
@@ -151,6 +149,9 @@ async def handle_webhook(request: Request):
                             continue  # pula o restante da lógica de texto
                     
                     # --- Lógica de Resposta com Texto ---
+                    
+                    text = message.get("text", {}).get("body", "").strip()
+                    print(f"Mensagem recebida de {phone}: {text}")
                     
                     # 1. Se a pergunta ainda não foi enviada para este número
                     if phone not in pergunta_enviada:
