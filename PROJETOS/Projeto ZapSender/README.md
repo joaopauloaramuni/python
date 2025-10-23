@@ -11,6 +11,24 @@ O objetivo é fornecer uma base **simples**, **segura** e **reproduzível** para
 
 ---
 
+## 📖 Sumário
+
+- [💬 Fluxo Interativo: Avaliação da Oficina](#-fluxo-interativo-avaliação-da-oficina)
+- [💡 Estrutura do Projeto](#-estrutura-do-projeto)
+- [📘 Meta for Developers e a Cloud API](#-meta-for-developers-e-a-cloud-api)
+- [🚀 Passo a Passo para Criar o App no Meta for Developers](#-passo-a-passo-para-criar-o-app-no-meta-for-developers)
+- [📝 Mensagens de Template (Message Templates)](#-mensagens-de-template-message-templates)
+- [🌐 Criando e Configurando o Webhook](#-criando-e-configurando-o-webhook)
+- [⚙️ Explicação do Código Python](#-explicação-do-código-python)
+- [🛠️ Pré-requisitos](#-pré-requisitos)
+- [🐍 Ambiente virtual (recomendado)](#-ambiente-virtual-recomendado)
+- [⚙️ Execução](#-execução)
+- [📚 Documentação e Links Úteis](#-documentação-e-links-úteis)
+- [🤝 Contribuição](#-contribuição)
+- [🧾 Licença](#-licença)
+
+---
+
 ## 💬 Fluxo Interativo: Avaliação da Oficina
 
 O **`webhook.py`** permite um **diálogo automatizado** com o usuário.  
