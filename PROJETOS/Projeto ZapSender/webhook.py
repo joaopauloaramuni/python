@@ -167,7 +167,7 @@ async def handle_webhook(request: Request):
                                 print(f"⭐️ Nota recebida de {phone}: {nota}")
                                 
                                 # Resposta de confirmação
-                                agradecer = "Entendido! Agradeço muito seu feedback. Qualquer coisa estou à disposição! 😊"
+                                agradecer = f"Você escolheu: {nota}! Agradeço muito seu feedback. Qualquer coisa estou à disposição! 😊"
                                 enviar_mensagem_texto(phone, agradecer)
                                 
                                 # Poderia marcar como "resposta_recebida" se fosse um sistema mais complexo
