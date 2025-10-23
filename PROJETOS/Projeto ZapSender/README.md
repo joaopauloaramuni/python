@@ -376,6 +376,19 @@ curl -i -X POST \
 
 ---
 
+## Contribuição 🤝 
+
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull requests. 
+
+Agradecimentos especiais pelas contribuições
+
+- :octocat: GitHub: [João Vitor Santana](https://github.com/JoaoSantanaLopes)  
+- ☁️ Portfólio: [joao-santana.vercel.app](https://joao-santana.vercel.app/)  
+
+Projeto desenvolvido durante as **Oficinas do DevLabs** para o curso de **Engenharia de Software** da **PUC Minas**.
+
+---
+
 ## 🧾 Licença
 
 Este projeto é disponibilizado sob a licença **MIT**.
