@@ -11,9 +11,26 @@ O objetivo é fornecer uma base **simples**, **segura** e **reproduzível** para
 
 ---
 
+## 💬 Novo Fluxo Interativo: Avaliação da Oficina
+
+A partir da versão mais recente, o **`webhook.py`** foi aprimorado para permitir um **diálogo automatizado** com o usuário.  
+Após o primeiro contato (mensagem enviada pelo usuário), o sistema responde automaticamente com uma pergunta de avaliação.
+
+### 🧠 Lógica de Funcionamento
+
+1. O usuário envia qualquer mensagem inicial para o número do bot.
+2. O bot responde:
+   > "Olá! Já que iniciamos a conversa, me diga: de 0 a 10, o que você achou da oficina do DevLabs? Sua opinião é muito importante!"
+3. O usuário responde com uma nota entre 0 e 10.
+4. O bot confirma o recebimento e agradece:
+   > "Entendido! Agradeço muito seu feedback. Qualquer coisa estou à disposição! 😊"
+5. A nota é registrada no terminal (ou poderia ser armazenada em um banco de dados, caso desejado).
+
+---
+
 ## 🖼️ Captura de Tela
 
-| <img src="https://joaopauloaramuni.github.io/python-imgs/ZapSender/imgs/ZapSender.png" alt="ZapSender" width="1000"/> |
+| <img src="https://joaopauloaramuni.github.io/python-imgs/ZapSender/imgs/ZapSenderChat.png" alt="ZapSender" width="1000"/> |
 |:---------:|
 | ZapSender |
 
@@ -22,7 +39,12 @@ O objetivo é fornecer uma base **simples**, **segura** e **reproduzível** para
 ```bash
 📩 Payload recebido: {'object': 'whatsapp_business_account', 'entry': [{'id': '788244184191501', 'changes': [{'value': {'messaging_product': 'whatsapp', 'metadata': {'display_phone_number': '15551438086', 'phone_number_id': '836567342875521'}, 'contacts': [{'profile': {'name': 'João Paulo Aramuni'}, 'wa_id': '553180402103'}], 'messages': [{'from': '553180402103', 'id': 'wamid.HBgMNTUzMTgwNDAyMTAzFQIAEhgUM0JFNzE0NjRDNDJEMUEwREVGQUUA', 'timestamp': '1761175291', 'text': {'body': 'Mensagem de teste'}, 'type': 'text'}]}, 'field': 'messages'}]}]}
 Mensagem recebida de 553180402103: Mensagem de teste
-INFO:     2a03:2880:22ff:8:::0 - "POST /webhook HTTP/1.1" 200 OK
+✅ Mensagem de texto enviada para 553180402103
+...
+Mensagem recebida de 553180402103: 10
+⭐️ Nota recebida de 553180402103: 10
+✅ Mensagem de texto enviada para 553180402103
+...
 ```
 
 ---
@@ -194,9 +216,10 @@ Este script implementa um **servidor FastAPI** capaz de **receber mensagens e ev
 
 | Função / Endpoint | Descrição |
 | :--- | :--- |
-| `enviar_hello_world(numero_destino: str)` | Envia um template `hello_world` para um número específico, útil para testes de webhook ou de envio de mensagens. |
+| `enviar_hello_world(numero_destino: str)` | Envia um template `hello_world` para um número específico, útil para testes de webhook ou de envio de mensagens iniciadas pelo bot (requer aprovação prévia do template pela Meta). |
+| `enviar_mensagem_texto(numero_destino: str, texto: str)` | Envia uma mensagem de texto livre para um número de WhatsApp. Essa função é usada **dentro de uma conversa já iniciada pelo usuário**, sem necessidade de template aprovado. |
 | `@app.get("/webhook")` | Endpoint de **verificação do webhook**. O Meta envia uma requisição GET com `hub.challenge` para validar a URL e o `VERIFY_TOKEN`. |
-| `@app.post("/webhook")` | Endpoint para **receber mensagens e notificações**. Processa o payload JSON enviado pelo Meta, exibindo informações como remetente e conteúdo da mensagem no terminal. |
+| `@app.post("/webhook")` | Endpoint para **receber mensagens e notificações**. Processa o payload JSON enviado pelo Meta, exibindo informações como remetente e conteúdo da mensagem no terminal. Implementa também a lógica de feedback: ao receber a primeira mensagem do usuário, envia a pergunta “De 0 a 10, o que achou da oficina de Python?”, e em seguida valida e registra a nota. |
 
 > 💡 Durante o desenvolvimento, o servidor pode ser exposto à internet com **ngrok**, permitindo que a Meta envie notificações para o seu endpoint local.
 
@@ -345,6 +368,31 @@ INFO:     2a03:2880:10ff:44:::0 - "GET /webhook?hub.mode=subscribe&hub.challenge
 📩 Payload recebido: {'object': 'whatsapp_business_account', 'entry': [{'id': '788244184191501', 'changes': [{'value': {'messaging_product': 'whatsapp', 'metadata': {'display_phone_number': '15551438086', 'phone_number_id': '836567342875521'}, 'contacts': [{'profile': {'name': 'João Paulo Aramuni'}, 'wa_id': '553180402103'}], 'messages': [{'from': '553180402103', 'id': 'wamid.HBgMNTUzMTgwNDAyMTAzFQIAEhgUM0JFNzE0NjRDNDJEMUEwREVGQUUA', 'timestamp': '1761175291', 'text': {'body': 'Mensagem de teste'}, 'type': 'text'}]}, 'field': 'messages'}]}]}
 Mensagem recebida de 553180402103: Mensagem de teste
 INFO:     2a03:2880:22ff:8:::0 - "POST /webhook HTTP/1.1" 200 OK
+✅ Mensagem de texto enviada para 553180402103
+INFO:     2a03:2880:10ff:4:::0 - "POST /webhook HTTP/1.1" 200 OK
+📩 Payload recebido: {'object': 'whatsapp_business_account', 'entry': [{'id': '788244184191501', 'changes': [{'value': {'messaging_product': 'whatsapp', 'metadata': {'display_phone_number': '15551438086', 'phone_number_id': '836567342875521'}, 'statuses': [{'id': 'wamid.HBgMNTUzMTgwNDAyMTAzFQIAERgSQTE2QTQ2MkNFNzNDODdDQ0M5AA==', 'status': 'sent', 'timestamp': '1761187318', 'recipient_id': '553180402103', 'pricing': {'billable': False, 'pricing_model': 'PMP', 'category': 'service', 'type': 'free_customer_service'}}]}, 'field': 'messages'}]}]}
+Status de mensagem recebido (entregue, lido, etc.). Ignorando.
+INFO:     2a03:2880:10ff:73:::0 - "POST /webhook HTTP/1.1" 200 OK
+📩 Payload recebido: {'object': 'whatsapp_business_account', 'entry': [{'id': '788244184191501', 'changes': [{'value': {'messaging_product': 'whatsapp', 'metadata': {'display_phone_number': '15551438086', 'phone_number_id': '836567342875521'}, 'statuses': [{'id': 'wamid.HBgMNTUzMTgwNDAyMTAzFQIAERgSQTE2QTQ2MkNFNzNDODdDQ0M5AA==', 'status': 'delivered', 'timestamp': '1761187318', 'recipient_id': '553180402103', 'pricing': {'billable': False, 'pricing_model': 'PMP', 'category': 'service', 'type': 'free_customer_service'}}]}, 'field': 'messages'}]}]}
+Status de mensagem recebido (entregue, lido, etc.). Ignorando.
+INFO:     2a03:2880:10ff:72:::0 - "POST /webhook HTTP/1.1" 200 OK
+📩 Payload recebido: {'object': 'whatsapp_business_account', 'entry': [{'id': '788244184191501', 'changes': [{'value': {'messaging_product': 'whatsapp', 'metadata': {'display_phone_number': '15551438086', 'phone_number_id': '836567342875521'}, 'statuses': [{'id': 'wamid.HBgMNTUzMTgwNDAyMTAzFQIAERgSQTE2QTQ2MkNFNzNDODdDQ0M5AA==', 'status': 'read', 'timestamp': '1761187322', 'recipient_id': '553180402103', 'pricing': {'billable': False, 'pricing_model': 'PMP', 'category': 'service', 'type': 'free_customer_service'}}]}, 'field': 'messages'}]}]}
+Status de mensagem recebido (entregue, lido, etc.). Ignorando.
+INFO:     2a03:2880:22ff:2:::0 - "POST /webhook HTTP/1.1" 200 OK
+📩 Payload recebido: {'object': 'whatsapp_business_account', 'entry': [{'id': '788244184191501', 'changes': [{'value': {'messaging_product': 'whatsapp', 'metadata': {'display_phone_number': '15551438086', 'phone_number_id': '836567342875521'}, 'contacts': [{'profile': {'name': 'João Paulo Aramuni'}, 'wa_id': '553180402103'}], 'messages': [{'from': '553180402103', 'id': 'wamid.HBgMNTUzMTgwNDAyMTAzFQIAEhgUM0I1ODE5REVCNzNGQUVENTJGMTQA', 'timestamp': '1761187323', 'text': {'body': '10'}, 'type': 'text'}]}, 'field': 'messages'}]}]}
+Mensagem recebida de 553180402103: 10
+⭐️ Nota recebida de 553180402103: 10
+✅ Mensagem de texto enviada para 553180402103
+INFO:     2a03:2880:12ff:8:::0 - "POST /webhook HTTP/1.1" 200 OK
+📩 Payload recebido: {'object': 'whatsapp_business_account', 'entry': [{'id': '788244184191501', 'changes': [{'value': {'messaging_product': 'whatsapp', 'metadata': {'display_phone_number': '15551438086', 'phone_number_id': '836567342875521'}, 'statuses': [{'id': 'wamid.HBgMNTUzMTgwNDAyMTAzFQIAERgSOTZENjc2RTgwODQxNkY5NzU1AA==', 'status': 'sent', 'timestamp': '1761187325', 'recipient_id': '553180402103', 'pricing': {'billable': False, 'pricing_model': 'PMP', 'category': 'service', 'type': 'free_customer_service'}}]}, 'field': 'messages'}]}]}
+Status de mensagem recebido (entregue, lido, etc.). Ignorando.
+INFO:     2a03:2880:10ff:2:::0 - "POST /webhook HTTP/1.1" 200 OK
+📩 Payload recebido: {'object': 'whatsapp_business_account', 'entry': [{'id': '788244184191501', 'changes': [{'value': {'messaging_product': 'whatsapp', 'metadata': {'display_phone_number': '15551438086', 'phone_number_id': '836567342875521'}, 'statuses': [{'id': 'wamid.HBgMNTUzMTgwNDAyMTAzFQIAERgSOTZENjc2RTgwODQxNkY5NzU1AA==', 'status': 'delivered', 'timestamp': '1761187326', 'recipient_id': '553180402103', 'pricing': {'billable': False, 'pricing_model': 'PMP', 'category': 'service', 'type': 'free_customer_service'}}]}, 'field': 'messages'}]}]}
+Status de mensagem recebido (entregue, lido, etc.). Ignorando.
+INFO:     2a03:2880:22ff:5:::0 - "POST /webhook HTTP/1.1" 200 OK
+📩 Payload recebido: {'object': 'whatsapp_business_account', 'entry': [{'id': '788244184191501', 'changes': [{'value': {'messaging_product': 'whatsapp', 'metadata': {'display_phone_number': '15551438086', 'phone_number_id': '836567342875521'}, 'statuses': [{'id': 'wamid.HBgMNTUzMTgwNDAyMTAzFQIAERgSOTZENjc2RTgwODQxNkY5NzU1AA==', 'status': 'delivered', 'timestamp': '1761187326', 'recipient_id': '553180402103', 'pricing': {'billable': False, 'pricing_model': 'PMP', 'category': 'service', 'type': 'free_customer_service'}}]}, 'field': 'messages'}]}]}
+Status de mensagem recebido (entregue, lido, etc.). Ignorando.
+INFO:     2a03:2880:22ff:5:::0 - "POST /webhook HTTP/1.1" 200 OK
 ```
 
 ### Exemplo de requisição cURL (Formato E.164)
