@@ -8,9 +8,9 @@ app = FastAPI()
 # -------------------------------
 # CONFIGURAÇÕES
 # -------------------------------
-VERIFY_TOKEN = "#################"
-ACCESS_TOKEN = "#################"
-PHONE_NUMBER_ID = "#################"
+VERIFY_TOKEN = "joaopauloaramuni"
+ACCESS_TOKEN = "EAFgZBMwBC8F0BPZCwmw5tYeabeM8So6SkX0pyin24sHF6evkBsKwtyTwAB5ktsObJJnXFvpU7Rw3ug52AXIPyy7ZCjOaOJqJyDUZABTWvXZBIcc6wMoOs4MnYdKlb63tFQZBRMbTEWXWXkPEGruC5nfJ41gXZC3SYyHnIW7bmL0kVEM5I5T937KWnB2OvDMDkKrSl1dhB4WZAdaUiaAIbfCLovVrJZA7HqiKakCQSaiYQ7TZA0roF6edJvsfjm6IZAWI7WLrPulBUa8GQjnxIAEGyh3ZCQZDZD"
+PHONE_NUMBER_ID = "836567342875521"
 API_URL = f"https://graph.facebook.com/v24.0/{PHONE_NUMBER_ID}/messages"
 
 # Variável para rastrear se a pergunta já foi enviada
@@ -62,7 +62,40 @@ def enviar_mensagem_texto(numero_destino: str, texto: str):
         print(f"✅ Mensagem de texto enviada para {numero_destino}")
     else:
         print(f"⚠️ Erro ao enviar mensagem de texto: {response.text}")
- 
+
+# -------------------------------
+# FUNÇÃO: Enviar mensagem com botões de opinião
+# -------------------------------
+def enviar_pergunta_com_botoes(numero_destino: str):
+    payload = {
+        "messaging_product": "whatsapp",
+        "to": numero_destino,
+        "type": "interactive",
+        "interactive": {
+            "type": "button",
+            "body": {
+                "text": "Olá! Me diga: o que você achou da oficina do DevLabs? Sua opinião é muito importante!"
+            },
+            "action": {
+                "buttons": [
+                    {"type": "reply", "reply": {"id": "opcao_otima", "title": "Ótima"}},
+                    {"type": "reply", "reply": {"id": "opcao_boa", "title": "Boa"}},
+                    {"type": "reply", "reply": {"id": "opcao_regular", "title": "Regular"}}
+                ]
+            }
+        }
+    }
+
+    headers = {
+        "Authorization": f"Bearer {ACCESS_TOKEN}",
+        "Content-Type": "application/json",
+    }
+    response = requests.post(API_URL, headers=headers, json=payload)
+    if response.status_code == 200:
+        print(f"✅ Pergunta com botões enviada para {numero_destino}")
+    else:
+        print(f"⚠️ Erro ao enviar pergunta com botões: {response.text}")
+
 # -------------------------------
 # ROTA DE VERIFICAÇÃO DO WEBHOOK
 # -------------------------------
@@ -101,7 +134,23 @@ async def handle_webhook(request: Request):
                     text = message.get("text", {}).get("body", "").strip()
                     print(f"Mensagem recebida de {phone}: {text}")
                     
-                    # --- Lógica de Resposta ---
+                    # --- Lógica de Resposta com Botões ---
+
+                    # Verifica se é resposta de botão
+                    interactive = message.get("interactive", {})
+                    if interactive:
+                        button_reply = interactive.get("button_reply", {})
+                        if button_reply:
+                            escolha = button_reply.get("title")  # Título do botão clicado
+                            print(f"📌 {phone} clicou na opção: {escolha}")
+
+                            # Responder de forma confirmatória
+                            agradecer = f"Você escolheu: {escolha}. Agradeço muito seu feedback! 😊"
+                            enviar_mensagem_texto(phone, agradecer)
+
+                            continue  # pula o restante da lógica de texto
+                    
+                    # --- Lógica de Resposta com Texto ---
                     
                     # 1. Se a pergunta ainda não foi enviada para este número
                     if phone not in pergunta_enviada:
@@ -133,7 +182,6 @@ async def handle_webhook(request: Request):
                             nao_entendi = "Não entendi sua resposta. Você poderia me dizer a nota (de 0 a 10) para a oficina de Python?"
                             enviar_mensagem_texto(phone, nao_entendi)
 
-
     except Exception as e:
         print("Erro processando webhook:", e)
  
@@ -149,6 +197,7 @@ if __name__ == "__main__":
     numero_destino = "5531980402103"  # Seu número no WhatsApp (no formato internacional)
     # A linha abaixo inicia a conversa com o template "Hello World"
     enviar_hello_world(numero_destino)
+    enviar_pergunta_com_botoes(numero_destino)
     # Note que se o template for enviado e você responder, a lógica de feedback será acionada.
     uvicorn.run(app, host="127.0.0.1", port=8000)
 
