@@ -152,6 +152,10 @@ Para usar a Cloud API, a primeira mensagem para um novo contato deve ser um Temp
 5.  Crie o corpo da mensagem.
 6.  Envie o template para aprovação (em ambientes de teste, templates básicos são aprovados instantaneamente).
 
+### ⏳ Prazo de Aprovação
+O prazo de aprovação de um novo modelo de mensagem pela **Meta** pode levar **até 24 horas**.  
+Esse tempo é necessário para que a equipe da Meta analise o conteúdo e garanta que o template esteja em conformidade com as **políticas do WhatsApp Business API**.
+
 ---
 
 ## 🌐 Criando e Configurando o Webhook
