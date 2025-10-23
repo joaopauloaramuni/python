@@ -11,20 +11,20 @@ O objetivo é fornecer uma base **simples**, **segura** e **reproduzível** para
 
 ---
 
-## 💬 Novo Fluxo Interativo: Avaliação da Oficina
+## 💬 Fluxo Interativo: Avaliação da Oficina
 
-A partir da versão mais recente, o **`webhook.py`** foi aprimorado para permitir um **diálogo automatizado** com o usuário.  
+O **`webhook.py`** permite um **diálogo automatizado** com o usuário.  
 Após o primeiro contato (mensagem enviada pelo usuário), o sistema responde automaticamente com uma pergunta de avaliação.
 
 ### 🧠 Lógica de Funcionamento
 
-1. O usuário envia qualquer mensagem inicial para o número do bot.
-2. O bot responde:
-   > "Olá! Já que iniciamos a conversa, me diga: de 0 a 10, o que você achou da oficina do DevLabs? Sua opinião é muito importante!"
-3. O usuário responde com uma nota entre 0 e 10.
-4. O bot confirma o recebimento e agradece:
-   > "Entendido! Agradeço muito seu feedback. Qualquer coisa estou à disposição! 😊"
-5. A nota é registrada no terminal (ou poderia ser armazenada em um banco de dados, caso desejado).
+1. O usuário envia qualquer mensagem inicial para o número do bot.  
+2. O bot responde:  
+   > "Olá! Já que iniciamos a conversa, me diga: de 0 a 10, o que você achou da oficina do DevLabs? Sua opinião é muito importante!"  
+3. O usuário responde com uma nota entre 0 e 10.  
+4. O bot confirma o recebimento e agradece:  
+   > "Entendido! Agradeço muito seu feedback. Qualquer coisa estou à disposição! 😊"  
+5. A nota é registrada no terminal (ou pode ser armazenada em um banco de dados, caso desejado).
 
 ---
 
