@@ -48,7 +48,7 @@ Após o primeiro contato (mensagem enviada pelo usuário), o sistema responde au
 
 ## 🖼️ Captura de Tela
 
-| <img src="https://joaopauloaramuni.github.io/python-imgs/ZapSender/imgs/ZapSenderChat.png" alt="ZapSender" width="1000"/> |
+| <img src="https://joaopauloaramuni.github.io/python-imgs/ZapSender/imgs/Chat.png" alt="ZapSender" width="1000"/> |
 |:---------:|
 | ZapSender |
 
