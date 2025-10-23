@@ -252,6 +252,7 @@ Este script implementa um **servidor FastAPI** capaz de **receber mensagens e ev
 | :--- | :--- |
 | `enviar_hello_world(numero_destino: str)` | Envia um template `hello_world` para um número específico, útil para testes de webhook ou de envio de mensagens iniciadas pelo bot (requer aprovação prévia do template pela Meta). |
 | `enviar_mensagem_texto(numero_destino: str, texto: str)` | Envia uma mensagem de texto livre para um número de WhatsApp. Essa função é usada **dentro de uma conversa já iniciada pelo usuário**, sem necessidade de template aprovado. |
+| `enviar_pergunta_com_botoes(numero_destino: str)` | Envia uma **mensagem interativa com botões** para o usuário, permitindo respostas rápidas como "Ótima", "Boa" ou "Regular". A função trata o envio do payload correto para o WhatsApp Cloud API e deve ser usada **após o Hello World** ou em pontos estratégicos da conversa. |
 | `@app.get("/webhook")` | Endpoint de **verificação do webhook**. O Meta envia uma requisição GET com `hub.challenge` para validar a URL e o `VERIFY_TOKEN`. |
 | `@app.post("/webhook")` | Endpoint para **receber mensagens e notificações**. Processa o payload JSON enviado pelo Meta, exibindo informações como remetente e conteúdo da mensagem no terminal. Implementa também a lógica de feedback: ao receber a primeira mensagem do usuário, envia a pergunta “De 0 a 10, o que achou da oficina de Python?”, e em seguida valida e registra a nota. |
 
@@ -390,43 +391,33 @@ zapsender.py
 webhook.py
 
 ```bash
-(.venv) (base) joaopauloaramuni@MacBook-Pro-de-Joao Projeto ZapSender % python webhook.py                   
+(.venv) (base) joaopauloaramuni@MacBook-Pro-de-Joao Projeto ZapSender % python webhook.py
 Servidor iniciado!
 ✅ Hello World enviado para 5531980402103
-INFO:     Started server process [82146]
+✅ Pergunta com botões enviada para 5531980402103
+INFO:     Started server process [82605]
 INFO:     Waiting for application startup.
 INFO:     Application startup complete.
 INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
-INFO:     2a03:2880:10ff:3:::0 - "GET /webhook?hub.mode=subscribe&hub.challenge=360027070&hub.verify_token=joaopauloaramuni HTTP/1.1" 200 OK
-INFO:     2a03:2880:10ff:44:::0 - "GET /webhook?hub.mode=subscribe&hub.challenge=1070723611&hub.verify_token=joaopauloaramuni HTTP/1.1" 200 OK
-📩 Payload recebido: {'object': 'whatsapp_business_account', 'entry': [{'id': '788244184191501', 'changes': [{'value': {'messaging_product': 'whatsapp', 'metadata': {'display_phone_number': '15551438086', 'phone_number_id': '836567342875521'}, 'contacts': [{'profile': {'name': 'João Paulo Aramuni'}, 'wa_id': '553180402103'}], 'messages': [{'from': '553180402103', 'id': 'wamid.HBgMNTUzMTgwNDAyMTAzFQIAEhgUM0JFNzE0NjRDNDJEMUEwREVGQUUA', 'timestamp': '1761175291', 'text': {'body': 'Mensagem de teste'}, 'type': 'text'}]}, 'field': 'messages'}]}]}
-Mensagem recebida de 553180402103: Mensagem de teste
-INFO:     2a03:2880:22ff:8:::0 - "POST /webhook HTTP/1.1" 200 OK
+
+# Recebimento de payloads de status de mensagens
+📩 Payload recebido: {... 'status': 'read', ...}
+Status de mensagem recebido (entregue, lido, etc.). Ignorando.
+
+# Recebimento de interação com botão
+📩 Payload recebido: {... 'button_reply': {'id': 'opcao_otima', 'title': 'Ótima'}}...
+📌 553180402103 clicou na opção: Ótima
 ✅ Mensagem de texto enviada para 553180402103
-INFO:     2a03:2880:10ff:4:::0 - "POST /webhook HTTP/1.1" 200 OK
-📩 Payload recebido: {'object': 'whatsapp_business_account', 'entry': [{'id': '788244184191501', 'changes': [{'value': {'messaging_product': 'whatsapp', 'metadata': {'display_phone_number': '15551438086', 'phone_number_id': '836567342875521'}, 'statuses': [{'id': 'wamid.HBgMNTUzMTgwNDAyMTAzFQIAERgSQTE2QTQ2MkNFNzNDODdDQ0M5AA==', 'status': 'sent', 'timestamp': '1761187318', 'recipient_id': '553180402103', 'pricing': {'billable': False, 'pricing_model': 'PMP', 'category': 'service', 'type': 'free_customer_service'}}]}, 'field': 'messages'}]}]}
-Status de mensagem recebido (entregue, lido, etc.). Ignorando.
-INFO:     2a03:2880:10ff:73:::0 - "POST /webhook HTTP/1.1" 200 OK
-📩 Payload recebido: {'object': 'whatsapp_business_account', 'entry': [{'id': '788244184191501', 'changes': [{'value': {'messaging_product': 'whatsapp', 'metadata': {'display_phone_number': '15551438086', 'phone_number_id': '836567342875521'}, 'statuses': [{'id': 'wamid.HBgMNTUzMTgwNDAyMTAzFQIAERgSQTE2QTQ2MkNFNzNDODdDQ0M5AA==', 'status': 'delivered', 'timestamp': '1761187318', 'recipient_id': '553180402103', 'pricing': {'billable': False, 'pricing_model': 'PMP', 'category': 'service', 'type': 'free_customer_service'}}]}, 'field': 'messages'}]}]}
-Status de mensagem recebido (entregue, lido, etc.). Ignorando.
-INFO:     2a03:2880:10ff:72:::0 - "POST /webhook HTTP/1.1" 200 OK
-📩 Payload recebido: {'object': 'whatsapp_business_account', 'entry': [{'id': '788244184191501', 'changes': [{'value': {'messaging_product': 'whatsapp', 'metadata': {'display_phone_number': '15551438086', 'phone_number_id': '836567342875521'}, 'statuses': [{'id': 'wamid.HBgMNTUzMTgwNDAyMTAzFQIAERgSQTE2QTQ2MkNFNzNDODdDQ0M5AA==', 'status': 'read', 'timestamp': '1761187322', 'recipient_id': '553180402103', 'pricing': {'billable': False, 'pricing_model': 'PMP', 'category': 'service', 'type': 'free_customer_service'}}]}, 'field': 'messages'}]}]}
-Status de mensagem recebido (entregue, lido, etc.). Ignorando.
-INFO:     2a03:2880:22ff:2:::0 - "POST /webhook HTTP/1.1" 200 OK
-📩 Payload recebido: {'object': 'whatsapp_business_account', 'entry': [{'id': '788244184191501', 'changes': [{'value': {'messaging_product': 'whatsapp', 'metadata': {'display_phone_number': '15551438086', 'phone_number_id': '836567342875521'}, 'contacts': [{'profile': {'name': 'João Paulo Aramuni'}, 'wa_id': '553180402103'}], 'messages': [{'from': '553180402103', 'id': 'wamid.HBgMNTUzMTgwNDAyMTAzFQIAEhgUM0I1ODE5REVCNzNGQUVENTJGMTQA', 'timestamp': '1761187323', 'text': {'body': '10'}, 'type': 'text'}]}, 'field': 'messages'}]}]}
-Mensagem recebida de 553180402103: 10
+
+# Recebimento de mensagem de texto
+📩 Payload recebido: {... 'text': {'body': 'Oi'}}...
+Mensagem recebida de 553180402103: Oi
+✅ Mensagem de texto enviada para 553180402103
+
+# Recebimento de nota do usuário
+📩 Payload recebido: {... 'text': {'body': '10'}}...
 ⭐️ Nota recebida de 553180402103: 10
 ✅ Mensagem de texto enviada para 553180402103
-INFO:     2a03:2880:12ff:8:::0 - "POST /webhook HTTP/1.1" 200 OK
-📩 Payload recebido: {'object': 'whatsapp_business_account', 'entry': [{'id': '788244184191501', 'changes': [{'value': {'messaging_product': 'whatsapp', 'metadata': {'display_phone_number': '15551438086', 'phone_number_id': '836567342875521'}, 'statuses': [{'id': 'wamid.HBgMNTUzMTgwNDAyMTAzFQIAERgSOTZENjc2RTgwODQxNkY5NzU1AA==', 'status': 'sent', 'timestamp': '1761187325', 'recipient_id': '553180402103', 'pricing': {'billable': False, 'pricing_model': 'PMP', 'category': 'service', 'type': 'free_customer_service'}}]}, 'field': 'messages'}]}]}
-Status de mensagem recebido (entregue, lido, etc.). Ignorando.
-INFO:     2a03:2880:10ff:2:::0 - "POST /webhook HTTP/1.1" 200 OK
-📩 Payload recebido: {'object': 'whatsapp_business_account', 'entry': [{'id': '788244184191501', 'changes': [{'value': {'messaging_product': 'whatsapp', 'metadata': {'display_phone_number': '15551438086', 'phone_number_id': '836567342875521'}, 'statuses': [{'id': 'wamid.HBgMNTUzMTgwNDAyMTAzFQIAERgSOTZENjc2RTgwODQxNkY5NzU1AA==', 'status': 'delivered', 'timestamp': '1761187326', 'recipient_id': '553180402103', 'pricing': {'billable': False, 'pricing_model': 'PMP', 'category': 'service', 'type': 'free_customer_service'}}]}, 'field': 'messages'}]}]}
-Status de mensagem recebido (entregue, lido, etc.). Ignorando.
-INFO:     2a03:2880:22ff:5:::0 - "POST /webhook HTTP/1.1" 200 OK
-📩 Payload recebido: {'object': 'whatsapp_business_account', 'entry': [{'id': '788244184191501', 'changes': [{'value': {'messaging_product': 'whatsapp', 'metadata': {'display_phone_number': '15551438086', 'phone_number_id': '836567342875521'}, 'statuses': [{'id': 'wamid.HBgMNTUzMTgwNDAyMTAzFQIAERgSOTZENjc2RTgwODQxNkY5NzU1AA==', 'status': 'delivered', 'timestamp': '1761187326', 'recipient_id': '553180402103', 'pricing': {'billable': False, 'pricing_model': 'PMP', 'category': 'service', 'type': 'free_customer_service'}}]}, 'field': 'messages'}]}]}
-Status de mensagem recebido (entregue, lido, etc.). Ignorando.
-INFO:     2a03:2880:22ff:5:::0 - "POST /webhook HTTP/1.1" 200 OK
 ```
 
 ### Exemplo de requisição cURL (Formato E.164)
