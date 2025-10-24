@@ -29,7 +29,7 @@ O objetivo é fornecer uma base **simples**, **segura** e **reproduzível** para
 
 ---
 
-## 💬 Fluxo Interativo: Avaliação da Oficina (WhatsApp + FastAPI)
+## 💬 Fluxo Interativo: Avaliação da Oficina
 
 O arquivo **`webhook.py`** implementa um bot automatizado via **WhatsApp Business API**, permitindo que o usuário avalie a oficina do DevLabs de forma **interativa** e **flexível**.
 
