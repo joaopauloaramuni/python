@@ -220,6 +220,19 @@ Após configurar o Webhook:
 
 ---
 
+### 🔍 Inspect / HTTP
+
+- Acesse `http://127.0.0.1:4040` no navegador para abrir o painel do ngrok.
+
+- Vá na aba **Inspect → HTTP** para visualizar todas as requisições recebidas pelo webhook em tempo real.
+
+- Clique em cada requisição para ver detalhes como:
+  - Headers HTTP
+  - Payload JSON
+  - Resposta do servidor
+
+---
+
 ## 📝 Explicação do Código Python
 
 O projeto é dividido em **dois scripts independentes**, cada um com responsabilidades claras:
