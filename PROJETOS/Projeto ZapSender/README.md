@@ -14,7 +14,6 @@ O objetivo é fornecer uma base **simples**, **segura** e **reproduzível** para
 ## 📖 Sumário
 
 - [💬 Fluxo Interativo: Avaliação da Oficina](#-fluxo-interativo-avaliação-da-oficina)
-- [🖼️ Captura de Tela](#-captura-de-tela)
 - [💡 Estrutura do Projeto](#-estrutura-do-projeto)
 - [📘 Meta for Developers e a Cloud API](#-meta-for-developers-e-a-cloud-api)
 - [🚀 Passo a Passo para Criar o App no Meta for Developers](#-passo-a-passo-para-criar-o-app-no-meta-for-developers)
