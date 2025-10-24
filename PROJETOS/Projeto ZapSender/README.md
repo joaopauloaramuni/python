@@ -29,60 +29,29 @@ O objetivo é fornecer uma base **simples**, **segura** e **reproduzível** para
 
 ---
 
----
+## 💬 Fluxo Interativo: Avaliação da Oficina (WhatsApp + FastAPI)
 
-## 💬 Fluxo Interativo: Avaliação da Oficina (WhatsApp + Spring Boot)
-
-O **ZapSender** implementa um bot via **WhatsApp Cloud API**, permitindo avaliar a oficina do DevLabs de forma **interativa** e **flexível**.
+O arquivo **`webhook.py`** implementa um bot automatizado via **WhatsApp Business API**, permitindo que o usuário avalie a oficina do DevLabs de forma **interativa** e **flexível**.
 
 ---
 
 ### 🧠 Lógica de Funcionamento
 
-> **Observação:** você é quem dispara as ações via Postman ou Insomnia.
-
-1. Você **envia uma requisição para enviar um template** (ex.: "Hello World").  
-2. Em seguida, você **envia uma requisição para enviar uma mensagem com botões**:  
+1. O bot envia automaticamente **o template “Hello World”** ao iniciar o fluxo.
+2. Em seguida, envia uma **mensagem interativa com botões**:  
    > "Olá! Me diga: o que você achou da oficina do DevLabs? Sua opinião é muito importante!"  
    Botões disponíveis:  
    - 🟢 Ótima  
    - 🟡 Boa  
    - 🔵 Regular  
-3. Você **clica em um botão** na interface do WhatsApp, e o bot **responde confirmando a escolha**:  
+3. O usuário **responde clicando em um botão**, e o bot confirma:  
    > "Você escolheu: [opção]. Agradeço muito seu feedback! 😊"  
-4. Você pode **enviar uma nova requisição de texto**, por exemplo solicitando uma nota de 0 a 10:  
+4. O usuário **pode iniciar uma nova conversa** a qualquer momento enviando “Oi” ou qualquer outra mensagem.
+5. Ao iniciar uma nova conversa, o bot envia uma **pergunta de texto solicitando uma nota de 0 a 10**:  
    > "Olá! Já que iniciamos a conversa, me diga: de 0 a 10, o que você achou da oficina do DevLabs? Sua opinião é muito importante!"  
-5. O bot **responde confirmando a nota escolhida**:  
+6. O usuário responde com **uma nota de 0 a 10**, e o bot confirma:  
    > "Você escolheu: [nota]! Agradeço muito seu feedback. Qualquer coisa estou à disposição! 😊"  
-6. Todas as respostas (botão ou nota) são **registradas no terminal** e podem ser **armazenadas em banco de dados** futuramente.
-
----
-
-### 🔗 Endpoints para Testes (Postman / Insomnia)
-
-```bash
-GET http://localhost:8080/webhook?hub.mode=subscribe&hub.verify_token=joaopauloaramuni&hub.challenge=12345
-```
-Verificação do webhook.
-
-```bash
-GET http://localhost:8080/webhook/enviar-botoes?numeroDestino=5531980402103
-```
-Enviar mensagem com botões.
-
-```bashGET http://localhost:8080/webhook/enviar-texto?numeroDestino=5531980402103&texto=Olá%20Mundo
-```
-Enviar mensagem de texto.
-
-```bash
-GET http://localhost:8080/webhook/enviar-template?numeroDestino=5531980402103&nomeTemplate=hello_world&codigoIdioma=en_US
-```
-Enviar template via Webhook.
-
-```bash
-GET http://localhost:8080/zapsender/enviar-template?numeroDestino=5531980402103&nomeTemplate=hello_world&codigoIdioma=en_US
-```
-Enviar template via ZapSenderController.
+7. A resposta (opção de botão ou nota) é **registrada no terminal** e pode ser **armazenada em banco de dados** futuramente.
 
 ---
 
