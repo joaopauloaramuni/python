@@ -64,16 +64,11 @@ O arquivo **`webhook.py`** implementa um bot automatizado via **WhatsApp Busines
 🖥️ No terminal:
 
 ```bash
-📩 Payload recebido: {'object': 'whatsapp_business_account', 'entry': [{'id': '788244184191501', 'changes': [{'value': {'messaging_product': 'whatsapp', 'metadata': {'display_phone_number': '15551438086', 'phone_number_id': '836567342875521'}, 'contacts': [{'profile': {'name': 'João Paulo Aramuni'}, 'wa_id': '553180402103'}], 'messages': [{'from': '553180402103', 'id': 'wamid.HBgMNTUzMTgwNDAyMTAzFQIAEhgUM0JFNzE0NjRDNDJEMUEwREVGQUUA', 'timestamp': '1761175291', 'text': {'body': 'Mensagem de teste'}, 'type': 'text'}]}, 'field': 'messages'}]}]}
-Mensagem recebida de 553180402103: Mensagem de teste
-✅ Mensagem de texto enviada para 553180402103
 ...
-📌 553180402103 clicou na opção: Ótima
+📩 Payload recebido: {'object': 'whatsapp_business_account', 'entry': [{'id': '788244184191501', 'changes': [{'value': {'messaging_product': 'whatsapp', 'metadata': {'display_phone_number': '15551438086', 'phone_number_id': '836567342875521'}, 'contacts': [{'profile': {'name': 'João Paulo Aramuni'}, 'wa_id': '553180402103'}], 'messages': [{'from': '553180402103', 'id': 'wamid.HBgMNTUzMTgwNDAyMTAzFQIAEhgUM0I2QkIzRTlGRTIyNUQyN0Q2RDcA', 'timestamp': '1761249588', 'text': {'body': 'Oi'}, 'type': 'text'}]}, 'field': 'messages'}]}]}
+Mensagem recebida de 553180402103: Oi
 ✅ Mensagem de texto enviada para 553180402103
-...
-Mensagem recebida de 553180402103: 10
-⭐️ Nota recebida de 553180402103: 10
-✅ Mensagem de texto enviada para 553180402103
+INFO:     2a03:2880:12ff:7:::0 - "POST /webhook HTTP/1.1" 200 OK
 ...
 ```
 
