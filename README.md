@@ -257,6 +257,14 @@ Seaborn é uma biblioteca de visualização estatística baseada no Matplotlib. 
 - [Tutorial de Seaborn - Geeks for Geeks](https://www.geeksforgeeks.org/python/python-seaborn-tutorial/)
 - [Pacote Seaborn no PyPI](https://pypi.org/project/seaborn/)
 
+###### ⚗️ SciPy
+SciPy é uma biblioteca de código aberto em Python voltada para computação científica e técnica. Baseada no NumPy, oferece ferramentas avançadas para **álgebra linear, otimização, estatística, integração numérica, processamento de sinais e imagens**. É amplamente usada em análise de dados, machine learning e engenharia.
+
+- [Documentação Oficial do SciPy](https://docs.scipy.org/doc/scipy/)
+- [Pacote SciPy no PyPI](https://pypi.org/project/scipy/)
+- [Tutorial de SciPy - W3Schools](https://www.w3schools.com/python/scipy/index.php)
+- [SciPy Lecture Notes](https://scipy-lectures.org/)
+
 ###### 📗 Openpyxl
 Openpyxl é uma biblioteca em Python que permite ler, criar e modificar arquivos do Excel no formato `.xlsx`. É útil para automação de planilhas, relatórios e integração com dados tabulares.
 
