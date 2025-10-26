@@ -13,7 +13,7 @@ O intuito é fornecer um guia de estudo prático para estudantes e profissionais
 
 ---
 
-## 📝 Sobre o Projeto
+## 📝 Sobre o projeto
 
 Este projeto foi criado com fins educacionais, para que estudantes e profissionais possam entender e aplicar conceitos matemáticos e científicos em Python de forma prática. Ele oferece exemplos claros e visuais, permitindo que o usuário veja resultados imediatos de integração, otimização, estatística, interpolação e análise de sinais.
 
@@ -27,7 +27,7 @@ Este projeto foi criado com fins educacionais, para que estudantes e profissiona
 
 ---
 
-## 📊 Estatística: Conceitos Breves
+## 📊 Estatística: Conceitos breves
 
 Neste projeto, algumas técnicas estatísticas são demonstradas de forma prática:
 
@@ -43,7 +43,7 @@ Estes conceitos ajudam a analisar a relação entre dados, testar diferenças es
 
 ---
 
-## 📦 Instalação das Dependências
+## 📦 Instalação das dependências
 
 Para rodar este projeto, instale as bibliotecas necessárias usando o comando:
 
@@ -72,7 +72,7 @@ source .venv/bin/activate
 
 ---
 
-## 📚 Bibliotecas Usadas
+## 📚 Bibliotecas usadas
 
 * **SciPy 🧪**
   Biblioteca que fornece algoritmos e funções matemáticas avançadas para integração, otimização, álgebra linear, estatística, interpolação e muito mais.
@@ -91,25 +91,31 @@ source .venv/bin/activate
 
 ---
 
-## 📚 Documentação e Links Úteis
+## 📚 Documentação e links úteis
 
-* **SciPy**
-  Site oficial: [https://scipy.org/](https://scipy.org/)
+### SciPy
+* Site oficial: [https://scipy.org/](https://scipy.org/)
+* Documentação: [https://docs.scipy.org/doc/scipy/](https://docs.scipy.org/doc/scipy/)
 
-* **NumPy**
-  Site oficial: [https://numpy.org/](https://numpy.org/)
+### NumPy
+* Site oficial: [https://numpy.org/](https://numpy.org/)
+* Documentação: [https://numpy.org/doc/](https://numpy.org/doc/)
 
-* **Pandas**
-  Site oficial: [https://pandas.pydata.org/](https://pandas.pydata.org/)
+### Pandas
+* Site oficial: [https://pandas.pydata.org/](https://pandas.pydata.org/)
+* Documentação: [https://pandas.pydata.org/docs/](https://pandas.pydata.org/docs/)
 
-* **Seaborn**
-  Site oficial: [https://seaborn.pydata.org/](https://seaborn.pydata.org/)
+### Seaborn
+* Site oficial: [https://seaborn.pydata.org/](https://seaborn.pydata.org/)
+* Documentação: [https://seaborn.pydata.org/api.html](https://seaborn.pydata.org/api.html)
 
-* **Matplotlib**
-  Site oficial: [https://matplotlib.org/](https://matplotlib.org/)
+### Matplotlib
+* Site oficial: [https://matplotlib.org/](https://matplotlib.org/)
+* Documentação: [https://matplotlib.org/stable/contents.html](https://matplotlib.org/stable/contents.html)
 
-* **Python**
-  Site oficial: [https://www.python.org/](https://www.python.org/)
+### Python
+* Site oficial: [https://www.python.org/](https://www.python.org/)
+* Documentação: [https://docs.python.org/3/](https://docs.python.org/3/)
 
 ---
 
