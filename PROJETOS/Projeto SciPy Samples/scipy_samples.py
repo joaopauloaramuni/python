@@ -155,37 +155,40 @@ def exemplo_interpolacao():
 def exemplo_fft():
     """
     Demonstra a transformada de Fourier usando scipy.fft.
-    Salva gráfico em imgs/fft.png mostrando o sinal no tempo e o espectro.
+    Salva dois gráficos: imgs/fft_sinal.png e imgs/fft_espectro.png
     """
     t = np.linspace(0, 1, 500)
     # Cria um sinal composto por duas ondas senoidais (50 Hz e 120 Hz)
     sinal = np.sin(2 * np.pi * 50 * t) + 0.5 * np.sin(2 * np.pi * 120 * t)
-    # fft.fft calcula a Transformada Rápida de Fourier, convertendo o sinal do domínio do tempo para o domínio da frequência.
+    
+    # Calcula FFT e frequências
     espectro = fft.fft(sinal)
-    # fft.fftfreq calcula as frequências correspondentes aos pontos do espectro
     freq = fft.fftfreq(t.size, d=t[1] - t[0])
+    
+    # Mostra frequência de pico
     print("\n⚡ Transformada de Fourier:")
-    # np.argmax(np.abs(espectro)) encontra o índice da frequência com maior amplitude (o pico)
     print(f"Frequência de pico: {abs(freq[np.argmax(np.abs(espectro))]):.1f} Hz")
-
-    plt.figure(figsize=(12, 5))
-    plt.subplot(1, 2, 1)
+    
+    # Salva gráfico do sinal no tempo
+    plt.figure(figsize=(6, 4))
     plt.plot(t, sinal)
     plt.title('Sinal no Tempo')
     plt.xlabel('Tempo [s]')
     plt.ylabel('Amplitude')
     plt.grid(True)
-
-    plt.subplot(1, 2, 2)
-    # Plota apenas a metade positiva do espectro (suficiente para sinais reais)
+    plt.tight_layout()
+    plt.savefig("imgs/fft_sinal.png")
+    plt.close()
+    
+    # Salva gráfico do espectro de frequência
+    plt.figure(figsize=(6, 4))
     plt.plot(freq[:250], np.abs(espectro)[:250])
     plt.title('Espectro de Frequência (FFT)')
     plt.xlabel('Frequência [Hz]')
     plt.ylabel('Amplitude')
     plt.grid(True)
-
     plt.tight_layout()
-    plt.savefig("imgs/fft.png")
+    plt.savefig("imgs/fft_espectro.png")
     plt.close()
 
 
