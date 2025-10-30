@@ -18,8 +18,6 @@
 <br />
 <div align="center">
 
------
-
 <div>
 
 📅 DevFest 2025 - GDG - PUC Minas - Unidade Lourdes:
@@ -59,8 +57,6 @@
 </div>
 
 </div>
-
------
 
 </div>
 
