@@ -13,7 +13,7 @@
 <div>
 
 <details>
-<summary><img height="20" alt="GIF" src="https://joaopauloaramuni.github.io/image/calendar.gif?raw=true"/>&nbsp;Outros eventos
+<summary><img height="20" alt="GIF" src="https://joaopauloaramuni.github.io/image/calendar.gif?raw=true"/>&nbsp;Eventos
 </summary>
 <br />
 <div align="center">
@@ -25,7 +25,7 @@
 📅 DevFest 2025 - GDG - PUC Minas - Unidade Lourdes:
 
 <div align="center">
-<a href="https://www.instagram.com/p/DMFmRNYOryz/">
+<a href="https://www.sympla.com.br/produtor/gdgbh">
   <img height="675px" alt="devfest" src="https://joaopauloaramuni.github.io/image/devfest2.jpeg?raw=true"/>
 </a>
 </div>
