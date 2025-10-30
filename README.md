@@ -12,25 +12,13 @@
 
 <div>
 
-🐍 Python Sudeste 2025 - PUC Minas - Unidade Lourdes:
-
-<div align="center">
-<a href="https://2025.sudeste.python.org.br/">
-  <img src="https://joaopauloaramuni.github.io/image/pythonsudeste2.png?raw=true"/>
-</a>
-</div>
-
-</div>
-
------
-
-<div>
-
 <details>
 <summary><img height="20" alt="GIF" src="https://joaopauloaramuni.github.io/image/calendar.gif?raw=true"/>&nbsp;Outros eventos
 </summary>
 <br />
 <div align="center">
+
+-----
 
 <div>
 
@@ -43,6 +31,36 @@
 </div>
 
 </div>
+
+-----
+
+<div>
+
+🐍 Python Brasil 2025 - São Paulo:
+
+<div align="center">
+<a href="https://2025.pythonbrasil.org.br/">
+  <img src="https://joaopauloaramuni.github.io/image/pythonbrasil.png?raw=true"/>
+</a>
+</div>
+
+</div>
+
+-----
+
+<div>
+
+🐍 Python Sudeste 2025 - PUC Minas - Unidade Lourdes:
+
+<div align="center">
+<a href="https://2025.sudeste.python.org.br/">
+  <img src="https://joaopauloaramuni.github.io/image/pythonsudeste2.png?raw=true"/>
+</a>
+</div>
+
+</div>
+
+-----
 
 </div>
 
