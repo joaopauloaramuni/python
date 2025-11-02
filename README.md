@@ -312,6 +312,18 @@ Flourish é uma plataforma de visualização de dados que permite criar gráfico
 
 -----
 
+##### 📊 Datasets e Machine Learning
+
+###### 🐙 Kaggle
+[Kaggle](https://www.kaggle.com/) é uma das maiores plataformas para **datasets públicos, aprendizado de machine learning e exploração de dados**. Permite acessar milhares de conjuntos de dados de diversas áreas, criar notebooks colaborativos, experimentar algoritmos e compartilhar análises com a comunidade. Ideal para projetos de ciência de dados, experimentação empírica e aprendizado prático.
+
+Junte-se a mais de **27M+ machine learners** para explorar, testar e se atualizar nas últimas técnicas e tecnologias de ML. Descubra um vasto repositório de **dados, modelos e códigos publicados pela comunidade** para usar em seus projetos.
+
+- 🌐 [Acesse o Kaggle](https://www.kaggle.com/)
+- 💡 Explore datasets, notebooks e recursos de aprendizado de machine learning.
+
+-----
+
 ##### 🧹 Análise de Código
 Ferramentas para análise estatística de código, detecção de *code smells*, métricas de qualidade e identificação de más práticas de programação.
 
