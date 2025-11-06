@@ -188,6 +188,8 @@ Agradecimentos especiais pelas contribuições
 
 * v2 -> Aramuni, Diogo Brunoro - [https://github.com/DiogoBrunoro](https://github.com/DiogoBrunoro) e Filipe Faria Melo - [https://github.com/ffmelo-coder](https://github.com/ffmelo-coder)
 
+Projeto desenvolvido durante as **Oficinas do DevLabs** para o curso de **Engenharia de Software** da **PUC Minas**.
+
 ---
 
 ## 📝 Licença
