@@ -1,11 +1,36 @@
 # 📍 Projeto IBGE Locations
 
-Este projeto é um script Python que permite consultar a API de localidades do IBGE. Ele possui duas funcionalidades principais:
+Este projeto é um script Python que permite consultar as APIs públicas do IBGE.
 
-1. Listar todos os estados (UFs) do Brasil.
-2. Listar todos os municípios de um estado específico, informando a sigla do UF.
+---
 
-O projeto é útil para análise de dados geográficos, aplicações de geolocalização, ou para qualquer cenário em que seja necessário ter acesso às localidades do Brasil.
+## 📦 Sobre as versões do projeto
+
+### 🧩 Versão 1 (v1)
+
+Na primeira versão, o projeto utilizava apenas a **API de Localidades**, oferecendo as seguintes funcionalidades:
+
+1. Listar todos os estados (UFs) do Brasil.  
+2. Listar todos os municípios de um estado específico, informando a sigla da UF.  
+
+Essa versão era voltada principalmente para **análises geográficas** e **aplicações de geolocalização**.
+
+---
+
+### 🚀 Versão 2 (v2)
+
+Na segunda versão, o projeto foi expandido para incluir também a **API de Agregados (v3)** do IBGE, adicionando uma nova funcionalidade:
+
+3. Consultar a **população residente estimada (senso 2025)** de qualquer estado (UF) do Brasil.  
+
+Com isso, o projeto passou a ser útil não apenas para geolocalização, mas também para **análises populacionais**, **integrações com dashboards** e **sistemas baseados em dados oficiais do IBGE**.
+
+---
+
+## 🔗 APIs utilizadas
+
+- **API de Localidades (v1):** [https://servicodados.ibge.gov.br/api/v1/localidades](https://servicodados.ibge.gov.br/api/v1/localidades)  
+- **API de Agregados (v3):** [https://servicodados.ibge.gov.br/api/v3/agregados](https://servicodados.ibge.gov.br/api/v3/agregados)
 
 ---
 
@@ -39,6 +64,8 @@ source .venv/bin/activate
 ---
 
 ## 🖥️ Exemplo de saída no terminal
+
+### v1
 
 ```bash
 (.venv) (base) joaopauloaramuni@MacBook-Pro-de-Joao Projeto IBGE Locations % python ibge.py
@@ -85,11 +112,71 @@ Aguanil
 ...
 ```
 
+### v2
+
+```bash
+(.venv) (base) joaopauloaramuni@MacBook-Pro-de-Joao Projeto IBGE Locations % python ibge.py
+Buscando todos os estados...
+RO - Rondônia
+AC - Acre
+AM - Amazonas
+RR - Roraima
+PA - Pará
+AP - Amapá
+TO - Tocantins
+MA - Maranhão
+PI - Piauí
+CE - Ceará
+RN - Rio Grande do Norte
+PB - Paraíba
+PE - Pernambuco
+AL - Alagoas
+SE - Sergipe
+BA - Bahia
+MG - Minas Gerais
+ES - Espírito Santo
+RJ - Rio de Janeiro
+SP - São Paulo
+PR - Paraná
+SC - Santa Catarina
+RS - Rio Grande do Sul
+MS - Mato Grosso do Sul
+MT - Mato Grosso
+GO - Goiás
+DF - Distrito Federal
+
+Digite a sigla do estado para listar seus municípios: MG
+
+Municípios de MG:
+Abadia dos Dourados
+Abaeté
+Abre Campo
+Acaiaca
+Açucena
+Água Boa
+Água Comprida
+Aguanil
+
+População residente estimada de Minas Gerais (2025): 21,393,441 pessoas
+...
+```
+
+Para SP:
+```
+População residente estimada de São Paulo (2025): 46,081,801 pessoas
+```
+
 ---
 
 ## 📄 Documentação e Links úteis
 
-* [API de Localidades do IBGE](https://servicodados.ibge.gov.br/api/docs/localidades)
+### v1 - 🌎 API de Localidades do IBGE
+- **Documentação:** [https://servicodados.ibge.gov.br/api/docs/localidades](https://servicodados.ibge.gov.br/api/docs/localidades)
+- **Base URL:** [https://servicodados.ibge.gov.br/api/v1/localidades](https://servicodados.ibge.gov.br/api/v1/localidades)
+
+### v2 - 📊 API de Agregados do IBGE (versão 3)
+- **Documentação:** [https://servicodados.ibge.gov.br/api/docs/agregados?versao=3](https://servicodados.ibge.gov.br/api/docs/agregados?versao=3)
+- **Base URL:** [https://servicodados.ibge.gov.br/api/v3/agregados](https://servicodados.ibge.gov.br/api/v3/agregados)
 
 ---
 
