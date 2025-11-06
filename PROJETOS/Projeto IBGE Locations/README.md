@@ -180,6 +180,16 @@ População residente estimada de São Paulo (2025): 46,081,801 pessoas
 
 ---
 
+## 🤝 Contribuição
+
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull requests. 
+
+Agradecimentos especiais pelas contribuições
+
+* v2 -> Aramuni, Diogo Brunoro - [https://github.com/DiogoBrunoro](https://github.com/DiogoBrunoro) e Filipe Faria Melo - [https://github.com/ffmelo-coder](https://github.com/ffmelo-coder)
+
+---
+
 ## 📝 Licença
 
 Este projeto está licenciado sob a Licença MIT.
