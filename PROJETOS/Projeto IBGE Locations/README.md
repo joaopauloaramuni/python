@@ -203,6 +203,7 @@ Açucena
 Água Boa
 Água Comprida
 Aguanil
+...
 
 👥 População residente estimada de Minas Gerais (2025): 21,393,441 pessoas
 💰 PIB nominal de Minas Gerais (2021): R$ 857,593,214,000.00
@@ -210,11 +211,11 @@ Aguanil
 👨‍👩‍👧 População de MG em 2022 por sexo:
 👨 Homens: 9,789,842
 👩 Mulheres: 10,304,639
-...
 ```
 
 Para SP:
 ```
+...
 👥 População residente estimada de São Paulo (2025): 46,081,801 pessoas
 💰 PIB nominal de São Paulo (2021): R$ 2,719,751,231,000.00
 
