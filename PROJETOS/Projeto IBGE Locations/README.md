@@ -29,13 +29,13 @@ Com isso, o projeto passou a ser útil não apenas para geolocalização, mas ta
 
 ## 🔗 APIs utilizadas
 
-- **API de Localidades (versão 1 do projeto):** [https://servicodados.ibge.gov.br/api/v1/localidades](https://servicodados.ibge.gov.br/api/v1/localidades)  
-- **API de Agregados (versão 2 do projeto):** [https://servicodados.ibge.gov.br/api/v3/agregados](https://servicodados.ibge.gov.br/api/v3/agregados)
+- **API de Localidades (versão 1):** [https://servicodados.ibge.gov.br/api/v1/localidades](https://servicodados.ibge.gov.br/api/v1/localidades)  
+- **API de Agregados (versão 2):** [https://servicodados.ibge.gov.br/api/v3/agregados](https://servicodados.ibge.gov.br/api/v3/agregados)
 
 ### Exemplos de uso:
 
-- **API de Localidades (versão 1 do projeto):** [https://servicodados.ibge.gov.br/api/v1/localidades/estados/MG/municipios](https://servicodados.ibge.gov.br/api/v1/localidades/estados/MG/municipios)
-- **API de Agregados (versão 2 do projeto):** [https://servicodados.ibge.gov.br/api/v3/agregados/6579/periodos/2025/variaveis/9324?localidades=N3[31]](https://servicodados.ibge.gov.br/api/v3/agregados/6579/periodos/2025/variaveis/9324?localidades=N3[31])
+- **API de Localidades (versão 1):** [https://servicodados.ibge.gov.br/api/v1/localidades/estados/MG/municipios](https://servicodados.ibge.gov.br/api/v1/localidades/estados/MG/municipios)
+- **API de Agregados (versão 2):** [https://servicodados.ibge.gov.br/api/v3/agregados/6579/periodos/2025/variaveis/9324?localidades=N3[31]](https://servicodados.ibge.gov.br/api/v3/agregados/6579/periodos/2025/variaveis/9324?localidades=N3[31])
 
 ---
 
