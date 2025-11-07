@@ -29,8 +29,13 @@ Com isso, o projeto passou a ser útil não apenas para geolocalização, mas ta
 
 ## 🔗 APIs utilizadas
 
-- **API de Localidades (v1):** [https://servicodados.ibge.gov.br/api/v1/localidades](https://servicodados.ibge.gov.br/api/v1/localidades)  
-- **API de Agregados (v3):** [https://servicodados.ibge.gov.br/api/v3/agregados](https://servicodados.ibge.gov.br/api/v3/agregados)
+- **API de Localidades (versão 1 do projeto):** [https://servicodados.ibge.gov.br/api/v1/localidades](https://servicodados.ibge.gov.br/api/v1/localidades)  
+- **API de Agregados (versão 2 do projeto):** [https://servicodados.ibge.gov.br/api/v3/agregados](https://servicodados.ibge.gov.br/api/v3/agregados)
+
+### Exemplos de uso:
+
+- **API de Localidades (versão 1 do projeto):** [https://servicodados.ibge.gov.br/api/v1/localidades/estados/MG/municipios](https://servicodados.ibge.gov.br/api/v1/localidades/estados/MG/municipios)
+- **API de Agregados (versão 2 do projeto):** [https://servicodados.ibge.gov.br/api/v3/agregados/6579/periodos/2025/variaveis/9324?localidades=N3[31]](https://servicodados.ibge.gov.br/api/v3/agregados/6579/periodos/2025/variaveis/9324?localidades=N3[31])
 
 ---
 
@@ -174,7 +179,7 @@ População residente estimada de São Paulo (2025): 46,081,801 pessoas
 - **Documentação:** [https://servicodados.ibge.gov.br/api/docs/localidades](https://servicodados.ibge.gov.br/api/docs/localidades)
 - **Base URL:** [https://servicodados.ibge.gov.br/api/v1/localidades](https://servicodados.ibge.gov.br/api/v1/localidades)
 
-### v2 - 📊 API de Agregados do IBGE (versão 3)
+### v2 - 📊 API de Agregados do IBGE
 - **Documentação:** [https://servicodados.ibge.gov.br/api/docs/agregados?versao=3](https://servicodados.ibge.gov.br/api/docs/agregados?versao=3)
 - **Base URL:** [https://servicodados.ibge.gov.br/api/v3/agregados](https://servicodados.ibge.gov.br/api/v3/agregados)
 
