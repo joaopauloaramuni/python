@@ -19,10 +19,11 @@ Essa versão era voltada principalmente para **análises geográficas** e **apli
 
 ### 🚀 Versão 2 (v2)
 
-Na segunda versão, o projeto foi expandido para incluir também a **API de Agregados (v3)** do IBGE, adicionando novas funcionalidades:
+Na segunda versão, o projeto foi expandido para incluir a **API de Agregados (v3)** do IBGE, adicionando novas funcionalidades:
 
 3. Consultar a **população residente estimada (censo 2025)** de qualquer estado (UF) do Brasil.  
 4. Consultar o **PIB nominal (a preços correntes, 2021)** de qualquer estado (UF) do Brasil.  
+5. Consultar a **população por sexo (2022)** de qualquer estado (UF), mostrando separadamente **homens 👨** e **mulheres 👩**, facilitando análises demográficas mais detalhadas.  
 
 Com isso, o projeto passou a ser útil não apenas para **geolocalização**, mas também para **análises populacionais**, **econômicas** e **integrações com dashboards** baseados em dados oficiais do **IBGE**.
 
@@ -59,6 +60,10 @@ A **API de dados agregados do IBGE**, que alimenta o **SIDRA**, permite acessar 
 
 - **PIB Nominal por UF (2021):**  
   [https://servicodados.ibge.gov.br/api/v3/agregados/5938/periodos/2021/variaveis/37?localidades=N3[31]](https://servicodados.ibge.gov.br/api/v3/agregados/5938/periodos/2021/variaveis/37?localidades=N3[31])
+
+- **População por sexo (2022):**  
+  - Homens 👨: [https://servicodados.ibge.gov.br/api/v3/agregados/10125/periodos/2022/variaveis/11852?localidades=N3[31]&classificacao=2[4]|58[all]](https://servicodados.ibge.gov.br/api/v3/agregados/10125/periodos/2022/variaveis/11852?localidades=N3[31]&classificacao=2[4]|58[all])  
+  - Mulheres 👩: [https://servicodados.ibge.gov.br/api/v3/agregados/10125/periodos/2022/variaveis/11852?localidades=N3[31]&classificacao=2[5]|58[all]](https://servicodados.ibge.gov.br/api/v3/agregados/10125/periodos/2022/variaveis/11852?localidades=N3[31]&classificacao=2[5]|58[all])
 
 ---
 
@@ -199,15 +204,23 @@ Açucena
 Água Comprida
 Aguanil
 
-População residente estimada de Minas Gerais (2025): 21,393,441 pessoas
-PIB nominal de Minas Gerais (2021): R$ 857,593,214,000.00
+👥 População residente estimada de Minas Gerais (2025): 21,393,441 pessoas
+💰 PIB nominal de Minas Gerais (2021): R$ 857,593,214,000.00
+
+👨‍👩‍👧 População de MG em 2022 por sexo:
+👨 Homens: 9,789,842
+👩 Mulheres: 10,304,639
 ...
 ```
 
 Para SP:
 ```
-População residente estimada de São Paulo (2025): 46,081,801 pessoas
-PIB nominal de São Paulo (2021): R$ 2,719,751,231,000.00
+👥 População residente estimada de São Paulo (2025): 46,081,801 pessoas
+💰 PIB nominal de São Paulo (2021): R$ 2,719,751,231,000.00
+
+👨‍👩‍👧 População de SP em 2022 por sexo:
+👨 Homens: 20,939,894
+👩 Mulheres: 22,571,136
 ```
 
 ---
