@@ -19,11 +19,12 @@ Essa versão era voltada principalmente para **análises geográficas** e **apli
 
 ### 🚀 Versão 2 (v2)
 
-Na segunda versão, o projeto foi expandido para incluir também a **API de Agregados (v3)** do IBGE, adicionando uma nova funcionalidade:
+Na segunda versão, o projeto foi expandido para incluir também a **API de Agregados (v3)** do IBGE, adicionando novas funcionalidades:
 
-3. Consultar a **população residente estimada (senso 2025)** de qualquer estado (UF) do Brasil.  
+3. Consultar a **população residente estimada (censo 2025)** de qualquer estado (UF) do Brasil.  
+4. Consultar o **PIB nominal (a preços correntes, 2021)** de qualquer estado (UF) do Brasil.  
 
-Com isso, o projeto passou a ser útil não apenas para geolocalização, mas também para **análises populacionais**, **integrações com dashboards** e **sistemas baseados em dados oficiais do IBGE**.
+Com isso, o projeto passou a ser útil não apenas para **geolocalização**, mas também para **análises populacionais**, **econômicas** e **integrações com dashboards** baseados em dados oficiais do **IBGE**.
 
 ---
 
