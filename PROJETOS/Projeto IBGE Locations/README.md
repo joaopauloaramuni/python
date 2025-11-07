@@ -82,6 +82,20 @@ source .venv/bin/activate
 
 ---
 
+## ▶️ Execução do Projeto
+
+Após ativar o ambiente virtual e instalar as dependências, execute os arquivos Python conforme a versão desejada:
+
+```bash
+# Executar a versão 1 (v1)
+python ibge.py
+
+# Executar a versão 2 (v2)
+python ibge_v2.py
+```
+
+---
+
 ## 🖥️ Exemplo de saída no terminal
 
 ### v1
