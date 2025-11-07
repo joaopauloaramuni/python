@@ -34,7 +34,7 @@ Com isso, o projeto passou a ser útil não apenas para geolocalização, mas ta
 - **API de Agregados (versão 2):**
   - [https://servicodados.ibge.gov.br/api/v3/agregados](https://servicodados.ibge.gov.br/api/v3/agregados)
 
-### Exemplos de uso:
+### 🌐 Exemplos de uso:
 
 - **API de Localidades (versão 1):**
   - [https://servicodados.ibge.gov.br/api/v1/localidades/estados/MG/municipios](https://servicodados.ibge.gov.br/api/v1/localidades/estados/MG/municipios)
