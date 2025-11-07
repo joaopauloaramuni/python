@@ -42,6 +42,7 @@ A **API de dados agregados do IBGE**, que alimenta o **SIDRA**, permite acessar 
 - [Tabela 1712](https://sidra.ibge.gov.br/tabela/1712)  
 
 > **Observação 1:** Para desenvolvedores de soluções OLAP (Online Analytical Processing), os conceitos de **variáveis, classificações e categorias** correspondem a **medidas, dimensões e membros**, respectivamente.  
+
 > **Observação 2:** Esta versão da API permite **3 modos de visualização das variáveis**. Consulte o parâmetro `view` para mais detalhes.
 
 ---
