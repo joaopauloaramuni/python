@@ -36,6 +36,14 @@ Com isso, o projeto passou a ser útil não apenas para **geolocalização**, ma
 - **API de Agregados (versão 2 do projeto):**  
   [https://servicodados.ibge.gov.br/api/v3/agregados](https://servicodados.ibge.gov.br/api/v3/agregados)
 
+A **API de dados agregados do IBGE**, que alimenta o **SIDRA**, permite acessar dados de pesquisas e censos de forma automatizada. Para explorar melhor a API, recomenda-se consultar as tabelas do SIDRA 1705 e 1712, usadas como exemplos na documentação oficial:
+
+- [Tabela 1705](https://sidra.ibge.gov.br/tabela/1705)  
+- [Tabela 1712](https://sidra.ibge.gov.br/tabela/1712)  
+
+> **Observação 1:** Para desenvolvedores de soluções OLAP (Online Analytical Processing), os conceitos de **variáveis, classificações e categorias** correspondem a **medidas, dimensões e membros**, respectivamente.  
+> **Observação 2:** Esta versão da API permite **3 modos de visualização das variáveis**. Consulte o parâmetro `view` para mais detalhes.
+
 ---
 
 ### 🌐 Exemplos de uso
