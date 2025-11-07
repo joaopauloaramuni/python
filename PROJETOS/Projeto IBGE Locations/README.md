@@ -215,12 +215,22 @@ PIB nominal de São Paulo (2021): R$ 2,719,751,231,000.00
 ## 📄 Documentação e Links úteis
 
 ### v1 - 🌎 API de Localidades do IBGE
-- **Documentação:** [https://servicodados.ibge.gov.br/api/docs/localidades](https://servicodados.ibge.gov.br/api/docs/localidades)
+- **Documentação:** [https://servicodados.ibge.gov.br/api/docs/localidades](https://servicodados.ibge.gov.br/api/docs/localidades)  
 - **Base URL:** [https://servicodados.ibge.gov.br/api/v1/localidades](https://servicodados.ibge.gov.br/api/v1/localidades)
 
 ### v2 - 📊 API de Agregados do IBGE
-- **Documentação:** [https://servicodados.ibge.gov.br/api/docs/agregados?versao=3](https://servicodados.ibge.gov.br/api/docs/agregados?versao=3)
+- **Documentação:** [https://servicodados.ibge.gov.br/api/docs/agregados?versao=3](https://servicodados.ibge.gov.br/api/docs/agregados?versao=3)  
 - **Base URL:** [https://servicodados.ibge.gov.br/api/v3/agregados](https://servicodados.ibge.gov.br/api/v3/agregados)
+
+#### 🔹 Links úteis da API de Agregados
+- **Variáveis por agregado, períodos pesquisados e identificador da variável:**  
+  [https://servicodados.ibge.gov.br/api/docs/agregados?versao=3#api-Variaveis](https://servicodados.ibge.gov.br/api/docs/agregados?versao=3#api-Variaveis)  
+- **Query Builder (gerador de consultas customizadas):**  
+  [https://servicodados.ibge.gov.br/api/docs/agregados?versao=3#api-bq](https://servicodados.ibge.gov.br/api/docs/agregados?versao=3#api-bq)  
+- **Metadados da API:**  
+  [https://servicodados.ibge.gov.br/api/docs/agregados?versao=3#api-Metadados](https://servicodados.ibge.gov.br/api/docs/agregados?versao=3#api-Metadados)  
+- **SIDRA (visualização de tabelas e dados oficiais):**  
+  [https://sidra.ibge.gov.br/home/pimpfbr/brasil](https://sidra.ibge.gov.br/home/pimpfbr/brasil)
 
 ---
 
