@@ -29,20 +29,26 @@ Com isso, o projeto passou a ser útil não apenas para geolocalização, mas ta
 
 ## 🔗 APIs utilizadas
 
-- **API de Localidades (versão 1):**
-  - [https://servicodados.ibge.gov.br/api/v1/localidades](https://servicodados.ibge.gov.br/api/v1/localidades)  
-- **API de Agregados (versão 2):**
-  - [https://servicodados.ibge.gov.br/api/v3/agregados](https://servicodados.ibge.gov.br/api/v3/agregados)
+- **API de Localidades (versão 1 do projeto):**  
+  [https://servicodados.ibge.gov.br/api/v1/localidades](https://servicodados.ibge.gov.br/api/v1/localidades)
 
-### 🌐 Exemplos de uso:
+- **API de Agregados (versão 2 do projeto):**  
+  [https://servicodados.ibge.gov.br/api/v3/agregados](https://servicodados.ibge.gov.br/api/v3/agregados)
 
-- **API de Localidades (versão 1):**
-  - [https://servicodados.ibge.gov.br/api/v1/localidades/estados/MG/municipios](https://servicodados.ibge.gov.br/api/v1/localidades/estados/MG/municipios)
-- **API de Agregados (versão 2):**  
-  População estimada por UF:
-  - [https://servicodados.ibge.gov.br/api/v3/agregados/6579/periodos/2025/variaveis/9324?localidades=N3[31]](https://servicodados.ibge.gov.br/api/v3/agregados/6579/periodos/2025/variaveis/9324?localidades=N3[31])  
-  PIB Nominal por UF:
-  - [https://servicodados.ibge.gov.br/api/v3/agregados/5938/periodos/2021/variaveis/37?localidades=N3[31]](https://servicodados.ibge.gov.br/api/v3/agregados/5938/periodos/2021/variaveis/37?localidades=N3[31])
+---
+
+### 🌐 Exemplos de uso
+
+#### 🗺️ API de Localidades (versão 1 do projeto)
+- **Municípios de Minas Gerais:**  
+  [https://servicodados.ibge.gov.br/api/v1/localidades/estados/MG/municipios](https://servicodados.ibge.gov.br/api/v1/localidades/estados/MG/municipios)
+
+#### 📊 API de Agregados (versão 2 do projeto)
+- **População estimada por UF (2025):**  
+  [https://servicodados.ibge.gov.br/api/v3/agregados/6579/periodos/2025/variaveis/9324?localidades=N3[31]](https://servicodados.ibge.gov.br/api/v3/agregados/6579/periodos/2025/variaveis/9324?localidades=N3[31])
+
+- **PIB Nominal por UF (2021):**  
+  [https://servicodados.ibge.gov.br/api/v3/agregados/5938/periodos/2021/variaveis/37?localidades=N3[31]](https://servicodados.ibge.gov.br/api/v3/agregados/5938/periodos/2021/variaveis/37?localidades=N3[31])
 
 ---
 
@@ -170,12 +176,14 @@ Açucena
 Aguanil
 
 População residente estimada de Minas Gerais (2025): 21,393,441 pessoas
+PIB nominal de Minas Gerais (2021): R$ 857,593,214,000.00
 ...
 ```
 
 Para SP:
 ```
 População residente estimada de São Paulo (2025): 46,081,801 pessoas
+PIB nominal de São Paulo (2021): R$ 2,719,751,231,000.00
 ```
 
 ---
