@@ -69,6 +69,31 @@ def obter_pib_nominal_por_uf(uf_sigla, ano=2021):
     else:
         raise Exception(f"Erro ao buscar PIB: {response.status_code}, {response.text}")
 
+def obter_populacao_por_sexo_uf(uf_sigla, ano=2022):
+    """
+    Retorna a população de homens e mulheres de uma UF em um determinado ano.
+    """
+    ufs = obter_ufs()
+    uf_encontrada = next((uf for uf in ufs if uf["sigla"].upper() == uf_sigla.upper()), None)
+    if not uf_encontrada:
+        raise Exception(f"UF '{uf_sigla}' não encontrada.")
+    
+    uf_id = uf_encontrada["id"]
+    populacao_sexo = {}
+    for sexo_id, sexo_nome in [("4", "Homens"), ("5", "Mulheres")]:
+        url = f"{AGREGADOS_URL}/10125/periodos/{ano}/variaveis/11852?localidades=N3[{uf_id}]&classificacao=2[{sexo_id}]|58[all]"
+        response = requests.get(url)
+        if response.status_code == 200:
+            dados = response.json()
+            try:
+                total = int(dados[0]["resultados"][0]["series"][0]["serie"][str(ano)])
+                populacao_sexo[sexo_nome] = total
+            except (KeyError, IndexError):
+                populacao_sexo[sexo_nome] = None
+        else:
+            populacao_sexo[sexo_nome] = None
+    return populacao_sexo
+
 def main():
     print("Buscando todos os estados...")
     ufs = obter_ufs()
@@ -86,17 +111,26 @@ def main():
         print(e)
         return
 
-    # População estimada
+    # População estimada (2025)
     try:
         dados_pop = obter_populacao_estimada_por_uf(uf_sigla)
-        print(f"\nPopulação residente estimada de {dados_pop['nome']} (2025): {dados_pop['populacao']:,} pessoas")
+        print(f"\n👥 População residente estimada de {dados_pop['nome']} (2025): {dados_pop['populacao']:,} pessoas")
     except Exception as e:
         print(e)
     
-    # PIB nominal
+    # PIB nominal (2021)
     try:
         dados_pib = obter_pib_nominal_por_uf(uf_sigla)
-        print(f"PIB nominal de {dados_pib['nome']} (2021): R$ {dados_pib['pib_mil_reais'] * 1000:,.2f}")
+        print(f"💰 PIB nominal de {dados_pib['nome']} (2021): R$ {dados_pib['pib_mil_reais'] * 1000:,.2f}")
+    except Exception as e:
+        print(e)
+    
+    # População por sexo (2022)
+    try:
+        pop_sexo = obter_populacao_por_sexo_uf(uf_sigla)
+        print(f"\n👨‍👩‍👧 População de {uf_sigla} em 2022 por sexo:")
+        print(f"👨 Homens: {pop_sexo.get('Homens', 'N/A'):,}")
+        print(f"👩 Mulheres: {pop_sexo.get('Mulheres', 'N/A'):,}")
     except Exception as e:
         print(e)
 
