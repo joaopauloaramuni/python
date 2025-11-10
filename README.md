@@ -130,7 +130,7 @@ A leitura de bons livros é uma forma sólida e aprofundada de aprender Python, 
 - [📗 Introdução a Algoritmos e Programação com Python - Uma Abordagem Dirigida Por Testes (Raul Sidnei Wazlawick)](https://www.amazon.com.br/Introdu%C3%A7%C3%A3o-Algoritmos-Programa%C3%A7%C3%A3o-com-Python-ebook/dp/B09T4GSMQW)
 - [📕 Python para Análise de Dados (Wes McKinney)](https://www.amazon.com.br/Python-Para-An%C3%A1lise-Dados-Tratamento/dp/8575228412)
 - [📘 Python Fluente - Programação Concisa e Eficaz (Luciano Ramalho)](https://www.amazon.com.br/Python-Fluente-Programação-Concisa-Eficaz/dp/857522462X)
-- [📙 Pense em Python - Como um Cientista da Computação (Allen B. Downey)](https://www.amazon.com.br/Pense-Python-Como-Cientista-Computação/dp/8575225081)
+- [📙 Pense em Python - Como um Cientista da Computação (Allen B. Downey)](https://www.amazon.com.br/Pense-Python-Edi%C3%A7%C3%A3o-cientista-computa%C3%A7%C3%A3o/dp/8575229273)
 - [📒 Python Essential Reference (David Beazley)](https://www.amazon.com.br/Python-Essential-Reference-David-Beazley-dp-0134173279/dp/0134173279)
 - [📕 Web Scraping com Python - Coletando Dados da Web (Ryan Mitchell)](https://www.amazon.com.br/Web-Scraping-Com-Python-Coletando/dp/8575227300)
 - [📗 Guia do Mochileiro Python (Felipe Furtado)](https://python-guide-pt-br.readthedocs.io/pt-br/latest/)
