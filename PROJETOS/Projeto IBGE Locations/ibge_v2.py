@@ -2,6 +2,7 @@ import requests
 
 BASE_URL = "https://servicodados.ibge.gov.br/api/v1/localidades"
 AGREGADOS_URL = "https://servicodados.ibge.gov.br/api/v3/agregados"
+NOMES_URL = "https://servicodados.ibge.gov.br/api/v2/censos/nomes"
 
 def obter_ufs():
     """Retorna uma lista de todos os estados (UFs) do Brasil."""
@@ -94,14 +95,48 @@ def obter_populacao_por_sexo_uf(uf_sigla, ano=2022):
             populacao_sexo[sexo_nome] = None
     return populacao_sexo
 
+def obter_top5_nomes_por_estado(uf_sigla):
+    """
+    Retorna os 5 nomes mais comuns de um estado (UF) usando o Censo do IBGE.
+    Agora filtrando pelo ID da UF.
+    """
+    # Buscar ID da UF
+    ufs = obter_ufs()
+    uf_encontrada = next((uf for uf in ufs if uf["sigla"].upper() == uf_sigla.upper()), None)
+
+    if not uf_encontrada:
+        raise Exception(f"UF '{uf_sigla}' não encontrada.")
+
+    uf_id = uf_encontrada["id"]  # ex: MG -> 31
+
+    # Endpoint usando ID do estado:
+    url = f"{NOMES_URL}/ranking/?localidade={uf_id}"
+
+    response = requests.get(url)
+    if response.status_code != 200:
+        raise Exception(f"Erro ao buscar ranking de nomes: {response.status_code}")
+
+    dados = response.json()
+
+    try:
+        ranking = dados[0]["res"]
+        top5 = ranking[:5]
+        return [{"nome": r["nome"], "frequencia": r["frequencia"]} for r in top5]
+    except (KeyError, IndexError):
+        raise Exception("Erro ao processar o ranking de nomes.")
+
 def main():
+    
     print("Buscando todos os estados...")
+    
+    # Obter estados
     ufs = obter_ufs()
     for uf in ufs:
         print(f"{uf['sigla']} - {uf['nome']}")
 
     uf_sigla = input("\nDigite a sigla do estado para listar seus municípios: ").upper()
 
+    # Municípios por UF
     try:
         municipios = obter_municipios(uf_sigla)
         print(f"\nMunicípios de {uf_sigla}:")
@@ -131,6 +166,15 @@ def main():
         print(f"\n👨‍👩‍👧 População de {uf_sigla} em 2022 por sexo:")
         print(f"👨 Homens: {pop_sexo.get('Homens', 'N/A'):,}")
         print(f"👩 Mulheres: {pop_sexo.get('Mulheres', 'N/A'):,}")
+    except Exception as e:
+        print(e)
+
+    # Top 5 nomes mais comuns no estado
+    try:
+        top_nomes = obter_top5_nomes_por_estado(uf_sigla)
+        print(f"\n🏆 Top 5 nomes mais comuns em {uf_sigla}:")
+        for item in top_nomes:
+            print(f"{item['nome']} — {item['frequencia']:,} ocorrências")
     except Exception as e:
         print(e)
 
