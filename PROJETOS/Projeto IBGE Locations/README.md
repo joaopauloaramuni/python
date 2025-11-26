@@ -24,8 +24,9 @@ Na segunda versão, o projeto foi expandido para incluir a **API de Agregados (v
 3. Consultar a **população residente estimada (censo 2025)** de qualquer estado (UF) do Brasil.  
 4. Consultar o **PIB nominal (a preços correntes, 2021)** de qualquer estado (UF) do Brasil.  
 5. Consultar a **população por sexo (2022)** de qualquer estado (UF), mostrando separadamente **homens 👨** e **mulheres 👩**, facilitando análises demográficas mais detalhadas.  
+6. Consultar os **5 nomes mais comuns** de qualquer estado (UF), utilizando o ranking oficial do **Censo de Nomes** do IBGE — ideal para análises culturais, estatísticas e estudos sociais.
 
-Com isso, o projeto passou a ser útil não apenas para **geolocalização**, mas também para **análises populacionais**, **econômicas** e **integrações com dashboards** baseados em dados oficiais do **IBGE**.
+Com isso, o projeto passou a ser útil não apenas para **geolocalização**, mas também para **análises demográficas**, **econômicas**, **socioculturais** e **integrações com dashboards** baseados em dados oficiais do IBGE.
 
 ---
 
@@ -36,6 +37,9 @@ Com isso, o projeto passou a ser útil não apenas para **geolocalização**, ma
 
 - **API de Agregados (versão 2 do projeto):**  
   [https://servicodados.ibge.gov.br/api/v3/agregados](https://servicodados.ibge.gov.br/api/v3/agregados)
+
+- **API de Censos/Nomes (versão 2 do projeto):**
+  [https://servicodados.ibge.gov.br/api/v2/censos/nomes](https://servicodados.ibge.gov.br/api/v2/censos/nomes)
 
 A **API de dados agregados do IBGE**, que alimenta o **SIDRA**, permite acessar dados de pesquisas e censos de forma automatizada. Para explorar melhor a API, recomenda-se consultar as tabelas do SIDRA 1705 e 1712, usadas como exemplos na documentação oficial:
 
@@ -64,6 +68,10 @@ A **API de dados agregados do IBGE**, que alimenta o **SIDRA**, permite acessar 
 - **População por sexo (2022):**  
   - Homens 👨: [https://servicodados.ibge.gov.br/api/v3/agregados/10125/periodos/2022/variaveis/11852?localidades=N3[31]&classificacao=2[4]|58[all]](https://servicodados.ibge.gov.br/api/v3/agregados/10125/periodos/2022/variaveis/11852?localidades=N3[31]&classificacao=2[4]|58[all])  
   - Mulheres 👩: [https://servicodados.ibge.gov.br/api/v3/agregados/10125/periodos/2022/variaveis/11852?localidades=N3[31]&classificacao=2[5]|58[all]](https://servicodados.ibge.gov.br/api/v3/agregados/10125/periodos/2022/variaveis/11852?localidades=N3[31]&classificacao=2[5]|58[all])
+
+#### 🏆 API de Nomes (versão 2 do projeto)
+- **Top 5 nomes mais comuns por estado (exemplo com MG):**  
+  [https://servicodados.ibge.gov.br/api/v2/censos/nomes/ranking/?localidade=31](https://servicodados.ibge.gov.br/api/v2/censos/nomes/ranking/?localidade=31)
 
 ---
 
@@ -259,6 +267,10 @@ ANTONIO — 497,959 ocorrências
   [https://servicodados.ibge.gov.br/api/docs/agregados?versao=3#api-Metadados](https://servicodados.ibge.gov.br/api/docs/agregados?versao=3#api-Metadados)  
 - **SIDRA (visualização de tabelas e dados oficiais):**  
   [https://sidra.ibge.gov.br/home/pimpfbr/brasil](https://sidra.ibge.gov.br/home/pimpfbr/brasil)
+
+### v2 - 🏆 API de Censos/Nomes do IBGE
+- **Documentação:** [https://servicodados.ibge.gov.br/api/docs/censos/nomes](https://servicodados.ibge.gov.br/api/docs/censos/nomes)  
+- **Base URL:** [https://servicodados.ibge.gov.br/api/v2/censos/nomes](https://servicodados.ibge.gov.br/api/v2/censos/nomes)  
 
 ---
 
