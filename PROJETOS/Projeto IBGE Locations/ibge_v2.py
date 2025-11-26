@@ -125,6 +125,35 @@ def obter_top5_nomes_por_estado(uf_sigla):
     except (KeyError, IndexError):
         raise Exception("Erro ao processar o ranking de nomes.")
 
+def obter_frequencia_nome_por_uf(nome, uf_sigla):
+    """
+    Retorna todas as frequências por década de um nome em uma UF
+    """
+
+    # Descobre ID da UF
+    ufs = obter_ufs()
+    uf = next((u for u in ufs if u["sigla"].upper() == uf_sigla.upper()), None)
+
+    if not uf:
+        raise ValueError(f"UF '{uf_sigla}' não encontrada.")
+
+    uf_id = uf["id"]
+
+    # Endpoint da API
+    url = f"{NOMES_URL}/{nome}?localidade={uf_id}"
+    response = requests.get(url)
+
+    if response.status_code != 200:
+        raise Exception(f"Erro ao consultar nome: {response.status_code}")
+
+    dados = response.json()
+
+    try:
+        series = dados[0]["res"]  # lista de décadas
+        return series
+    except (KeyError, IndexError):
+        raise Exception("Erro ao processar o retorno da API.")
+
 def main():
     
     print("Buscando todos os estados...")
@@ -175,6 +204,23 @@ def main():
         print(f"\n🏆 Top 5 nomes mais comuns em {uf_sigla}:")
         for item in top_nomes:
             print(f"{item['nome']} — {item['frequencia']:,} ocorrências")
+    except Exception as e:
+        print(e)
+        
+    # Consulta frequência de um nome específico no estado
+    try:
+        nome_busca = input("\nDigite um nome para consultar sua frequência no estado: ").strip()
+
+        series = obter_frequencia_nome_por_uf(nome_busca, uf_sigla)
+
+        print(f"\n📊 Frequência do nome '{nome_busca}' em {uf_sigla} por década:\n")
+        for item in series:
+            # A API do IBGE usa intervalos matemáticos semiabertos no formato [1950,1960[
+            # Isso significa: inclui 1950 e vai até ANTES de 1960 (1950 ≤ ano < 1960).
+            # Aqui removemos os colchetes apenas para exibir como "1950 a 1960".
+            periodo = item["periodo"].replace("[", "").replace("]", "").replace(",", " a ")
+            print(f"Período: {periodo} — Frequência: {item['frequencia']:,}")
+
     except Exception as e:
         print(e)
 
