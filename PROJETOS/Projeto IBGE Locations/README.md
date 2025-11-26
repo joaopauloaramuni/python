@@ -25,6 +25,7 @@ Na segunda versão, o projeto foi expandido para incluir a **API de Agregados (v
 4. Consultar o **PIB nominal (a preços correntes, 2021)** de qualquer estado (UF) do Brasil.  
 5. Consultar a **população por sexo (2022)** de qualquer estado (UF), mostrando separadamente **homens 👨** e **mulheres 👩**, facilitando análises demográficas mais detalhadas.  
 6. Consultar os **5 nomes mais comuns** de qualquer estado (UF), utilizando o ranking oficial do **Censo de Nomes** do IBGE — ideal para análises culturais, estatísticas e estudos sociais.
+7. Consultar a **frequência histórica de um nome** em qualquer estado (UF), mostrando a distribuição por década — ideal para análises culturais, evolução temporal de nomes e estudos demográficos.
 
 Com isso, o projeto passou a ser útil não apenas para **geolocalização**, mas também para **análises demográficas**, **econômicas**, **socioculturais** e **integrações com dashboards** baseados em dados oficiais do IBGE.
 
@@ -72,6 +73,9 @@ A **API de dados agregados do IBGE**, que alimenta o **SIDRA**, permite acessar 
 #### 🏆 API de Nomes (versão 2 do projeto)
 - **Top 5 nomes mais comuns por estado (exemplo com MG):**  
   [https://servicodados.ibge.gov.br/api/v2/censos/nomes/ranking/?localidade=31](https://servicodados.ibge.gov.br/api/v2/censos/nomes/ranking/?localidade=31)
+
+- **Frequência histórica de um nome por estado (exemplo com 'Diogo' em MG):**  
+  [https://servicodados.ibge.gov.br/api/v2/censos/nomes/diogo?localidade=31](https://servicodados.ibge.gov.br/api/v2/censos/nomes/diogo?localidade=31)
 
 ---
 
@@ -226,6 +230,19 @@ JOSE — 626,188 ocorrências
 ANA — 359,216 ocorrências
 JOAO — 330,303 ocorrências
 ANTONIO — 231,316 ocorrências
+
+Digite um nome para consultar sua frequência no estado: Diogo
+
+📊 Frequência do nome 'Diogo' em MG por década:
+
+Período: 1930 a 1940 — Frequência: 28
+Período: 1940 a 1950 — Frequência: 41
+Período: 1950 a 1960 — Frequência: 56
+Período: 1960 a 1970 — Frequência: 72
+Período: 1970 a 1980 — Frequência: 290
+Período: 1980 a 1990 — Frequência: 4,417
+Período: 1990 a 2000 — Frequência: 4,557
+Período: 2000 a 2010 — Frequência: 5,739
 ```
 
 Para SP:
@@ -244,6 +261,20 @@ JOSE — 1,118,772 ocorrências
 ANA — 664,153 ocorrências
 JOAO — 610,851 ocorrências
 ANTONIO — 497,959 ocorrências
+
+Digite um nome para consultar sua frequência no estado: Diogo
+
+📊 Frequência do nome 'Diogo' em SP por década:
+
+Período: 1930 — Frequência: 81
+Período: 1930 a 1940 — Frequência: 213
+Período: 1940 a 1950 — Frequência: 266
+Período: 1950 a 1960 — Frequência: 263
+Período: 1960 a 1970 — Frequência: 308
+Período: 1970 a 1980 — Frequência: 892
+Período: 1980 a 1990 — Frequência: 11,753
+Período: 1990 a 2000 — Frequência: 9,957
+Período: 2000 a 2010 — Frequência: 12,191
 ```
 
 ---
