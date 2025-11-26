@@ -211,6 +211,13 @@ Aguanil
 👨‍👩‍👧 População de MG em 2022 por sexo:
 👨 Homens: 9,789,842
 👩 Mulheres: 10,304,639
+
+🏆 Top 5 nomes mais comuns em MG:
+MARIA — 1,307,650 ocorrências
+JOSE — 626,188 ocorrências
+ANA — 359,216 ocorrências
+JOAO — 330,303 ocorrências
+ANTONIO — 231,316 ocorrências
 ```
 
 Para SP:
@@ -222,6 +229,13 @@ Para SP:
 👨‍👩‍👧 População de SP em 2022 por sexo:
 👨 Homens: 20,939,894
 👩 Mulheres: 22,571,136
+
+🏆 Top 5 nomes mais comuns em SP:
+MARIA — 2,143,232 ocorrências
+JOSE — 1,118,772 ocorrências
+ANA — 664,153 ocorrências
+JOAO — 610,851 ocorrências
+ANTONIO — 497,959 ocorrências
 ```
 
 ---
