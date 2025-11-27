@@ -163,6 +163,17 @@ O Tkinter é a biblioteca padrão do Python para criação de interfaces gráfic
 
 -----
 
+##### 🌊 Desenvolvimento de aplicações interativas com Python
+
+###### 🚀 Streamlit: prototipagem rápida e dashboards  
+**Streamlit** permite criar aplicações interativas, dashboards e protótipos de projetos em Python de forma simples e rápida. Ideal para visualização de dados, aprendizado de máquina e demonstrações de projetos.
+
+- [📖 Documentação oficial - Streamlit](https://docs.streamlit.io/)  
+- [🎨 Gallery - Exemplos de apps](https://streamlit.io/gallery)  
+- [🐍 Streamlit Cloud - Hospedagem gratuita](https://streamlit.io/cloud)  
+
+-----
+
 ##### 🧪 Testes e qualidade de software
 
 ###### 🔍 pytest, unittest, tox  
