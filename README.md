@@ -154,11 +154,12 @@ Web Scraping é a técnica de extrair informações de páginas web de forma aut
 
 ##### 🖼️ GUI com Tkinter
 
-###### 🧰 Tkinter (GUI nativa do Python)  
-O Tkinter é a biblioteca padrão do Python para criação de interfaces gráficas (GUI). Ele fornece uma maneira simples e rápida de construir janelas, botões, menus, caixas de texto e outros componentes visuais diretamente com Python. Ideal para aplicações desktop leves, ferramentas utilitárias e protótipos educacionais.
+###### 🧰 Tkinter e Ttk (GUI nativa do Python)  
+O Tkinter é a biblioteca padrão do Python para criação de interfaces gráficas (GUI). Ele fornece uma maneira simples e rápida de construir janelas, botões, menus, caixas de texto e outros componentes visuais diretamente com Python. O **Ttk (Themed Tkinter)** é um módulo complementar que oferece widgets estilizados e temas modernos, mantendo a simplicidade do Tkinter. Ideal para aplicações desktop leves, ferramentas utilitárias e protótipos educacionais.
 
 - [📚 Documentação Oficial do Tkinter (pt-BR)](https://docs.python.org/pt-br/3/library/tkinter.html)
 - [📘 Documentação Oficial do Tkinter (en)](https://docs.python.org/3/library/tkinter.html)
+- [📖 Documentação Oficial do Ttk (en)](https://docs.python.org/3/library/tkinter.ttk.html)
 - [🌐 Repositórios Tkinter no GitHub](https://github.com/topics/tkinter-python)
 
 -----
