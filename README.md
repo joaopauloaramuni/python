@@ -83,6 +83,59 @@ IDE (Ambiente de Desenvolvimento Integrado) e editores especializados ajudam a e
 - [🧩 Visual Studio Code - Editor leve e extensível da Microsoft](https://code.visualstudio.com/)
 - [🔍 Python Tutor - Visualizador de Código Python](https://pythontutor.com/python-compiler.html)
 
+##### 🧰 Extensões Essenciais para VS Code
+
+###### 🧪 Qualidade de código, linting, formatação e produtividade  
+O Visual Studio Code se transforma em uma IDE muito mais poderosa quando equipado com extensões que aprimoram análise estática, formatação automática, navegação, depuração e organização visual. Em projetos Python, ferramentas como **Flake8**, **Black**, **Pylance**, **isort** e **GitLens** ajudam a manter um código mais limpo, consistente e profissional, além de facilitar o fluxo de trabalho e a manutenção.
+
+- **🐍 Python (Microsoft)**  
+  Extensão oficial para desenvolvimento em Python: execução, depuração, IntelliSense e integração com Jupyter.  
+  https://marketplace.visualstudio.com/items?itemName=ms-python.python
+
+- **🐞 Python Debugger (Microsoft)**  
+  Depurador oficial para Python, com breakpoints, stepping, watches e integração com testes.  
+  https://marketplace.visualstudio.com/items?itemName=ms-python.debugpy
+
+- **🌱 Python Environments (Microsoft)**  
+  Gerenciamento visual e simples de ambientes virtuais (venv, conda, pyenv etc.).  
+  https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-python-environment-manager
+
+- **🎯 Pylance (Microsoft)**  
+  Motor de análise estática rápido e preciso, com autocompletar avançado e verificação de tipos.  
+  https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance
+
+- **🧹 Flake8**  
+  Linter poderoso baseado em PyFlakes, pycodestyle e McCabe complexity.  
+  https://marketplace.visualstudio.com/items?itemName=ms-python.flake8
+
+- **🖤 Black Formatter**  
+  Formatador automático que aplica estilo consistente e opinativo ao código Python.  
+  https://marketplace.visualstudio.com/items?itemName=ms-python.black-formatter
+
+- **🔀 isort**  
+  Organiza e padroniza automaticamente os imports do projeto.  
+  https://marketplace.visualstudio.com/items?itemName=ms-python.isort
+
+- **💻 GitHub Copilot**  
+  Assistente de codificação baseado em IA, sugerindo trechos de código e auxiliando em tarefas repetitivas.  
+  https://marketplace.visualstudio.com/items?itemName=GitHub.copilot
+
+- **🔎 GitLens**  
+  História avançada de Git, blame inteligente, navegação por commits e insights.  
+  https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens
+
+- **⏱️ WakaTime**  
+  Rastreamento automático do tempo gasto programando por projeto/linguagem.  
+  https://marketplace.visualstudio.com/items?itemName=WakaTime.vscode-wakatime
+
+- **📦 VS Code Icons**  
+  Ícones padronizados para arquivos e pastas, facilitando navegação visual.  
+  https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons
+
+- **🎨 Min Theme (tema que eu utilizo)**  
+  Tema minimalista, limpo e com excelente contraste, ideal para longas sessões de código.  
+  https://marketplace.visualstudio.com/items?itemName=miguelsolorio.min-theme
+
 -----
 
 ###### 🎓 Como obter o PyCharm Professional gratuitamente com o GitHub Student Developer Pack
