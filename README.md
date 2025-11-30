@@ -98,7 +98,7 @@ O Visual Studio Code se transforma em uma IDE muito mais poderosa quando equipad
 
 - **🌱 Python Environments (Microsoft)**  
   Gerenciamento visual e simples de ambientes virtuais (venv, conda, pyenv etc.).  
-  https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-python-environment-manager
+  https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-python-envs
 
 - **🎯 Pylance (Microsoft)**  
   Motor de análise estática rápido e preciso, com autocompletar avançado e verificação de tipos.  
