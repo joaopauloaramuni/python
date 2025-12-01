@@ -104,6 +104,10 @@ O Visual Studio Code se transforma em uma IDE muito mais poderosa quando equipad
   Motor de análise estática rápido e preciso, com autocompletar avançado e verificação de tipos.  
   https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance
 
+- **🔀 isort (Microsoft)**  
+  Organiza e padroniza automaticamente os imports do projeto.  
+  https://marketplace.visualstudio.com/items?itemName=ms-python.isort
+  
 - **🧹 Flake8**  
   Linter poderoso baseado em PyFlakes, pycodestyle e McCabe complexity.  
   https://marketplace.visualstudio.com/items?itemName=ms-python.flake8
@@ -111,10 +115,6 @@ O Visual Studio Code se transforma em uma IDE muito mais poderosa quando equipad
 - **🖤 Black Formatter**  
   Formatador automático que aplica estilo consistente e opinativo ao código Python.  
   https://marketplace.visualstudio.com/items?itemName=ms-python.black-formatter
-
-- **🔀 isort**  
-  Organiza e padroniza automaticamente os imports do projeto.  
-  https://marketplace.visualstudio.com/items?itemName=ms-python.isort
 
 - **💻 GitHub Copilot**  
   Assistente de codificação baseado em IA, sugerindo trechos de código e auxiliando em tarefas repetitivas.  
