@@ -228,6 +228,16 @@ O Streamlit permite criar aplicações interativas, como dashboards para anális
 
 -----
 
+##### 🌐 Clientes REST
+
+###### 🔌 Ferramentas para testar, consumir e depurar APIs REST  
+Clientes REST permitem enviar requisições HTTP (GET, POST, PUT, DELETE), testar endpoints, autenticações e visualizar respostas com facilidade.
+
+- [Insomnia REST Client - Downloads](https://insomnia.rest/download)
+- [Postman - Downloads](https://www.postman.com/downloads/)
+
+-----
+
 ##### 🧪 Testes e qualidade de software
 
 ###### 🔍 pytest, unittest, tox  
