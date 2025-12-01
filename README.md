@@ -89,7 +89,7 @@ IDE (Ambiente de Desenvolvimento Integrado) e editores especializados ajudam a e
 O Visual Studio Code se transforma em uma IDE muito mais poderosa quando equipado com extensões que aprimoram análise estática, formatação automática, navegação, depuração e organização visual. Em projetos Python, ferramentas como **Flake8**, **Black**, **Pylance**, **isort** e **GitLens** ajudam a manter um código mais limpo, consistente e profissional, além de facilitar o fluxo de trabalho e a manutenção.
 
 - **🐍 Python (Microsoft)**  
-  Extensão oficial para desenvolvimento em Python: execução, depuração, IntelliSense e integração com Jupyter.  
+  Extensão oficial para desenvolvimento Python: execução, depuração, IntelliSense e integração com Jupyter.  
   https://marketplace.visualstudio.com/items?itemName=ms-python.python
 
 - **🐞 Python Debugger (Microsoft)**  
