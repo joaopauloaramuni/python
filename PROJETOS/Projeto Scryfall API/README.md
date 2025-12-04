@@ -2,9 +2,7 @@
 
 ## 🚀 Sobre o projeto
 
-Este projeto em Python permite buscar e exibir cartas de **Magic: The Gathering** diretamente da **Scryfall API**, a base de dados mais completa do jogo.  
-Ele cria uma interface gráfica usando **Tkinter**, baixa imagens com **Pillow** e busca dados reais das cartas usando **requests**.  
-É ideal para jogadores, colecionadores e desenvolvedores que desejam visualizar cartas rapidamente.
+Este projeto em Python permite buscar e exibir cartas de **Magic: The Gathering** diretamente da **Scryfall API**, a base de dados mais completa do jogo. Ele cria uma interface gráfica usando **Tkinter**, baixa imagens com **Pillow** e busca dados reais das cartas usando **requests**. É ideal para jogadores, colecionadores e desenvolvedores que desejam visualizar cartas rapidamente.
 
 ---
 
