@@ -10,6 +10,25 @@ scrapy-quotes/
 └── quotes.json
 ```
 
+### Criar e ativar o ambiente virtual
+
+É recomendável usar um ambiente virtual para gerenciar suas dependências. Siga os passos abaixo para configurar um ambiente virtual:
+
+1. Crie um ambiente virtual usando o seguinte comando:
+    ```bash
+    python3 -m venv .venv
+    ```
+
+2. Ative o ambiente virtual:
+    - No macOS e Linux:
+        ```bash
+        source .venv/bin/activate
+        ```
+    - No Windows:
+        ```bash
+        .venv\Scripts\activate
+        ```
+
 ### Dependências
 
 Certifique-se de que você tenha o Python e o Scrapy instalados. Você pode instalar o Scrapy usando o seguinte comando:
