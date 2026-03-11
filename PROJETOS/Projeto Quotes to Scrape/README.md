@@ -44,7 +44,7 @@ scrapy-quotes/
      .venv\Scripts\activate
      ```
      
-3. **Instale as dependências**
+3. **Instale as dependências:**
 
    Certifique-se de que você tenha o Python e o Scrapy instalados.  
    Você pode instalar o Scrapy usando o seguinte comando:
