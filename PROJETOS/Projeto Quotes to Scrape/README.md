@@ -19,7 +19,7 @@ scrapy-quotes/
    cd scrapy-quotes
    ```
    
-2. **Criar e ativar o ambiente virtual**
+2. **Crie e ative o ambiente virtual:**
 
    É recomendável usar um ambiente virtual para gerenciar suas dependências.  
    Siga os passos abaixo para configurar um ambiente virtual:
@@ -44,7 +44,7 @@ scrapy-quotes/
      .venv\Scripts\activate
      ```
      
-3. **Dependências**
+3. **Instale as dependências**
 
    Certifique-se de que você tenha o Python e o Scrapy instalados.  
    Você pode instalar o Scrapy usando o seguinte comando:
