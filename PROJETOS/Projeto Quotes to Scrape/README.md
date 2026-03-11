@@ -18,34 +18,41 @@ scrapy-quotes/
    git clone <URL_DO_REPOSITORIO>
    cd scrapy-quotes
    ```
-
+   
 2. **Criar e ativar o ambiente virtual**
 
-É recomendável usar um ambiente virtual para gerenciar suas dependências. Siga os passos abaixo para configurar um ambiente virtual:
+   É recomendável usar um ambiente virtual para gerenciar suas dependências.  
+   Siga os passos abaixo para configurar um ambiente virtual:
 
-a. Crie um ambiente virtual usando o seguinte comando:
-    ```bash
-    python3 -m venv .venv
-    ```
+   a. Crie um ambiente virtual usando o seguinte comando:
 
-b. Ative o ambiente virtual:
-    - No macOS e Linux:
-        ```bash
-        source .venv/bin/activate
-        ```
-    - No Windows:
-        ```bash
-        .venv\Scripts\activate
-        ```
+   ```bash
+   python3 -m venv .venv
+   ```
+   
+   b. Ative o ambiente virtual:
 
+   - No macOS e Linux:
+
+     ```bash
+     source .venv/bin/activate
+     ```
+     
+   - No Windows:
+
+     ```bash
+     .venv\Scripts\activate
+     ```
+     
 3. **Dependências**
 
-Certifique-se de que você tenha o Python e o Scrapy instalados. Você pode instalar o Scrapy usando o seguinte comando:
+   Certifique-se de que você tenha o Python e o Scrapy instalados.  
+   Você pode instalar o Scrapy usando o seguinte comando:
 
-```bash
-pip install scrapy
-```
-
+   ```bash
+   pip install scrapy
+   ```
+   
 4. **Execute o spider**:
 
    Para executar o spider, você pode usar o seguinte comando:
