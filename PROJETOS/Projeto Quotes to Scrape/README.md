@@ -16,7 +16,7 @@ scrapy-quotes/
 
    ```bash
    git clone <URL_DO_REPOSITORIO>
-   cd scrapy-quotes
+   cd nome-da-pasta
    ```
    
 2. **Crie e ative o ambiente virtual:**
