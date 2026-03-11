@@ -16,13 +16,15 @@ class BooksSpider(scrapy.Spider):
                 'title': book.css('h3 a::attr(title)').get(),
                 #'price': book.css('p.price_color::text').get(),
                 'price': float(book.css('p.price_color::text').get().replace('£', '')),
+                'stars': book.css('p.star-rating::attr(class)').re_first('star-rating (\w+)'),
                 'availability': book.css('p.instock.availability::text').re_first(r'(\S+\s\S+)'),
             }
             # self.books_list.append(book_data)
 
-            if book_data['price'] <= 50:
+            # Filtro de preço e de estrelas
+            if book_data['price'] <= 50 and (book_data['stars'] in ['Four', 'Five']):
                 self.books_list.append(book_data)
-
+ 
         # Caso haja próxima página
         next_page = response.css('li.next a::attr(href)').get()
         if next_page is not None:
