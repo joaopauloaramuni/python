@@ -9,18 +9,6 @@ Este projeto é um web scraper que coleta dados sobre livros do site [Books to S
 - Navega por todas as páginas do site e acumula os dados.
 - Salva os dados coletados em um arquivo JSON chamado `books.json`.
 
-## Dependências
-
-Este projeto utiliza as seguintes bibliotecas:
-
-- `scrapy`
-
-As dependências do projeto podem ser instaladas utilizando pip com o seguinte comando:
-
-```bash
-pip install scrapy
-```
-
 ## Estrutura do Projeto
 
 A estrutura básica do projeto é a seguinte:
@@ -31,16 +19,59 @@ scrapy-books/
 └── books.json
 ```
 
-## Executando o Projeto
+## Como Usar
 
-Para executar o projeto, use o seguinte comando:
+1. **Clone o repositório**:
 
-```bash
-scrapy runspider books.py  # roda um spider diretamente de um arquivo Python
-scrapy crawl books         # roda um spider dentro de um projeto Scrapy
-```
+   ```bash
+   git clone <URL_DO_REPOSITORIO>
+   cd nome-da-pasta
+   ```
+   
+2. **Crie e ative o ambiente virtual:**
 
-Os dados raspados serão salvos no arquivo `books.json`.
+   É recomendável usar um ambiente virtual para gerenciar suas dependências.  
+   Siga os passos abaixo para configurar um ambiente virtual:
+
+   a. Crie um ambiente virtual usando o seguinte comando:
+
+   ```bash
+   python3 -m venv .venv
+   ```
+   
+   b. Ative o ambiente virtual:
+
+   - No macOS e Linux:
+
+     ```bash
+     source .venv/bin/activate
+     ```
+     
+   - No Windows:
+
+     ```bash
+     .venv\Scripts\activate
+     ```
+     
+3. **Instale as dependências:**
+
+   Certifique-se de que você tenha o Python e o Scrapy instalados.  
+   Você pode instalar o Scrapy usando o seguinte comando:
+
+   ```bash
+   pip install scrapy
+   ```
+   
+4. **Execute o spider**:
+
+   Para executar o spider, você pode usar o seguinte comando:
+
+   ```bash
+   scrapy runspider books.py  # roda um spider diretamente de um arquivo Python
+   scrapy crawl books         # roda um spider dentro de um projeto Scrapy
+   ```
+
+   O spider irá coletar as citações de todas as páginas disponíveis no site e salvar os dados em `books.json`.
 
 ## Resultados
 
