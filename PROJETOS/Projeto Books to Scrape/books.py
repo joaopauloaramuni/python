@@ -14,14 +14,14 @@ class BooksSpider(scrapy.Spider):
         for book in response.css('article.product_pod'):
             book_data = {
                 'title': book.css('h3 a::attr(title)').get(),
-                'price': book.css('p.price_color::text').get(),
-                #'price': float(book.css('p.price_color::text').get().replace('£', '')),
-                'availability': book.css('p.instock.availability::text').re_first('(\S+\s\S+)'),
+                #'price': book.css('p.price_color::text').get(),
+                'price': float(book.css('p.price_color::text').get().replace('£', '')),
+                'availability': book.css('p.instock.availability::text').re_first(r'(\S+\s\S+)'),
             }
-            self.books_list.append(book_data)
+            # self.books_list.append(book_data)
 
-            # if book_data['price'] <= 50:
-                # self.books_list.append(book_data)
+            if book_data['price'] <= 50:
+                self.books_list.append(book_data)
 
         # Caso haja próxima página
         next_page = response.css('li.next a::attr(href)').get()
@@ -34,6 +34,6 @@ class BooksSpider(scrapy.Spider):
                 json.dump(self.books_list, f, ensure_ascii=False, indent=4)
 
 # Executa o spider
-# process = CrawlerProcess()
-# process.crawl(BooksSpider)
-# process.start()
+process = CrawlerProcess()
+process.crawl(BooksSpider)
+process.start()
