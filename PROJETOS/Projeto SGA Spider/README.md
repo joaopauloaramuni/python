@@ -171,12 +171,27 @@ Para temas **dark/light mais atuais**, pode-se usar a biblioteca [**ttkbootstrap
     - Horas a cumprir  
     - Data do último lançamento
     
-    ```
-    match_minimo = re.search(r'[Mm]ínimo de horas exigidas[:\s]+([\d:]+)', texto)
-    match_cumpridas = re.search(r'[Tt]otal de horas cumpridas[:\s]+([\d:]+)', texto)
-    match_cumprir = re.search(r'[Hh]oras a cumprir[:\s]+([\d:]+)', texto)
-    match_data = re.search(r'[Dd]ata do [úu]ltimo lan[çc]amento[:\s]+([\d/]+)', texto)
-    ```
+```
+match_minimo = re.search(r'[Mm]ínimo de horas exigidas[:\s]+([\d:]+)', texto)
+match_cumpridas = re.search(r'[Tt]otal de horas cumpridas[:\s]+([\d:]+)', texto)
+match_cumprir = re.search(r'[Hh]oras a cumprir[:\s]+([\d:]+)', texto)
+match_data = re.search(r'[Dd]ata do [úu]ltimo lan[çc]amento[:\s]+([\d/]+)', texto)
+```
+
+---
+
+### 📄 Exemplo de saída (`atividades_complementares.json`)
+
+```
+{
+    "minimo_horas_exigidas": "0100:00",
+    "total_horas_cumpridas": "0008:00",
+    "horas_a_cumprir": "0092:00",
+    "data_ultimo_lancamento": "15/01/2026"
+}
+```
+
+---
 
 * **Exportação 💾**:
 
@@ -214,12 +229,6 @@ A versão 5 representa um avanço significativo:
 - 🧠 Uso combinado de parsing HTML + parsing de PDF
 - 📊 Consolidação de dados acadêmicos em tempo real
 
-👉 Essa versão já se aproxima de um **mini-sistema acadêmico automatizado**, podendo ser evoluído para:
-
-- Dashboard web  
-- API REST  
-- Sistema de monitoramento acadêmico  
-
 ---
 
 ## 📸 Captura de Tela - Interface Tkinter
@@ -232,7 +241,7 @@ A versão 5 representa um avanço significativo:
 
 | <img src="https://joaopauloaramuni.github.io/python-imgs/SGA_Spider/imgs/atividades_complementares.png" width="1000px" alt="Atividades Complementares"> |
 | :-----------------------------------------------------------------------------------------------------------------------------------------------------: |
-|                                          **Interface gráfica em Tkinter (Faltas, Notas e Credenciais em abas)**                                         |
+|                              **Interface gráfica em Tkinter (Faltas, Notas, Credenciais e Horas Complementares em abas)**                               |
 
 ---
 
