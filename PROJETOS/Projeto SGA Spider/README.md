@@ -316,15 +316,6 @@ Ou seja, **não é mais necessário atualizar cookies em múltiplos pontos** do 
 
 ---
 
-## 💡 Dica (melhoria futura)
-
-Como você já utiliza `requests.Session()`, uma evolução interessante seria:
-
-- Remover completamente o uso manual de cookies  
-- Deixar o `session` gerenciar automaticamente  
-
-👉 Isso elimina totalmente a necessidade de atualização manual
-
 ### 3. Responder questionários de CPA ou outros questionários pop-up no SGA 📝
 
 Para que a raspagem de dados funcione corretamente, é importante responder qualquer questionário pendente que apareça em pop-ups no SGA.
