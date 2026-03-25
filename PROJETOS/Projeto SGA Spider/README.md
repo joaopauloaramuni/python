@@ -159,11 +159,12 @@ Para temas **dark/light mais atuais**, pode-se usar a biblioteca [**ttkbootstrap
   * `requests`
   * `beautifulsoup4`
   * `lxml`
+  * `pdfplumber`
 
 Você pode instalar as dependências com o comando:
 
 ```bash
-pip install requests beautifulsoup4 lxml
+pip install requests beautifulsoup4 lxml pdfplumber
 ```
 
 ---
@@ -176,43 +177,59 @@ Substitua SUA MATRICULA e SUA SENHA na variável formdata com as credenciais do 
 
 ### 2. Atualização de Cookies no Código 🍪
 
-Este projeto utiliza web scraping para acessar o SGA da PUC Minas e extrair informações de faltas, notas e credenciais. Para que as requisições HTTP funcionem corretamente, é **necessário manter os cookies atualizados**, pois o SGA depende deles para autenticação e sessão.
+Este projeto utiliza web scraping para acessar o SGA da PUC Minas e extrair informações de faltas, notas, credenciais e horas complementares. Para que as requisições HTTP funcionem corretamente, é **necessário manter os cookies atualizados**, pois o SGA depende deles para autenticação e sessão.
 
-Atualmente, os cookies estão definidos em **dois lugares** no código:
+## 🍪 Uso de Cookies
 
-1. **Durante o POST de login**
-   No dicionário `headers` dentro da função `start_requests()`. É neste local que a requisição de login envia os cookies necessários para autenticação:
+Os cookies agora estão definidos **em apenas um único lugar no código**, através de uma variável global:
 
-   ```python
-   headers = {
-       ...
-       'cookie': '_gcl_au=1.1.566669173.1756326589; ...',
-       ...
-   }
-   ```
+```
+cookies = '_fbp=...; _ga=...; JSESSIONID=...; ...'
+```
 
-2. **Durante os GETs após login**
-   No dicionário `basic_headers` dentro da função `after_login()`. Aqui, os cookies precisam estar atualizados para que as páginas de notas, faltas e credenciais sejam acessadas corretamente:
+Essa variável é reutilizada automaticamente nos headers das requisições:
 
-   ```python
-   basic_headers = {
-       ...
-       'cookie': '_gcl_au=1.1.566669173.1756326589; ...',
-       ...
-   }
-   ```
+- No login (`headers`)
+- Nas requisições autenticadas (`basic_headers`)
 
-}
+Ou seja, **não é mais necessário atualizar cookies em múltiplos pontos** do código.
 
-#### Observações importantes ⚠️
+---
 
-* Os cookies expiram ou são invalidados periodicamente, portanto **se você tentar rodar o código depois de algum tempo, precisará atualizar os cookies**.
-* Para obter os novos cookies:
+## ✅ Vantagem dessa abordagem
 
-  1. Acesse o SGA no navegador.
-  2. Faça login normalmente.
-  3. Abra o DevTools (F12) → aba **Application/Armazenamento** → **Cookies**.
-  4. Copie os valores atualizados e substitua nos dois locais do código mencionados acima.
+- Código mais limpo  
+- Evita inconsistência entre cookies  
+- Atualização centralizada (menos erro humano)
+
+---
+
+## ⚠️ Observações importantes
+
+* Os cookies **expiram ou são invalidados periodicamente**  
+👉 Se o código parar de funcionar, será necessário atualizá-los
+
+---
+
+## 🔄 Como atualizar os cookies
+
+1. Acesse o SGA no navegador  
+2. Faça login normalmente  
+3. Abra o DevTools (F12)  
+4. Vá em **Application (Armazenamento) → Cookies**  
+5. Copie os valores atualizados  
+6. Substitua **apenas na variável global `cookies`**
+
+---
+
+## 💡 Dica (melhoria futura)
+
+Como você já utiliza `requests.Session()`, uma evolução interessante seria:
+
+- Remover completamente o uso manual de cookies  
+- Deixar o `session` gerenciar automaticamente  
+
+👉 Isso elimina totalmente a necessidade de atualização manual
 
 ### 3. Responder questionários de CPA ou outros questionários pop-up no SGA 📝
 
@@ -229,7 +246,7 @@ Para que a raspagem de dados funcione corretamente, é importante responder qual
 Para executar o código e gerar a imagem a partir do texto especificado, basta utilizar o seguinte comando no terminal:
 
 ```bash
-python3 sga_v3.py
+python3 sga_v5.py
 ```
 
 Certifique-se de que você esteja no diretório onde o arquivo sga.py está localizado e que o ambiente virtual esteja ativado, caso você esteja usando um.
@@ -273,6 +290,8 @@ Os arquivos `faltas.json`, `notas.json` e `credenciais.json` serão gerados na p
 * **[Tkinter](https://docs.python.org/3/library/tkinter.html)**: biblioteca padrão do Python para criar interfaces gráficas.
 * **[json](https://docs.python.org/3/library/json.html)**: usada para ler e escrever os arquivos `faltas.json`, `notas.json` e `credenciais.json`.
 * **[os](https://docs.python.org/3/library/os.html)**: usada para manipulação de caminhos de arquivos e diretórios.
+* **[pdfplumber](https://pypi.org/project/pdfplumber/)**: utilizada para extrair textos, tabelas e informações estruturadas de arquivos PDF.  
+* **[pdfplumber (GitHub)](https://github.com/jsvine/pdfplumber)**: repositório oficial com código-fonte, exemplos avançados e documentação complementar.
 
 ---
 
@@ -286,6 +305,7 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull r
 * v2 -> Renato Matos - [https://github.com/RenatoMAP77](https://github.com/RenatoMAP77)
 * v3 -> Diogo Brunoro - [https://github.com/DiogoBrunoro](https://github.com/DiogoBrunoro)
 * v4 -> Aramuni, Diogo Brunoro e Filipe Faria Melo - [https://github.com/ffmelo-coder](https://github.com/ffmelo-coder)
+* v5 -> Luiz Gustavo Fagundes Teixeira - [https://github.com/luizfagundest](https://github.com/luizfagundest)
 
 ---
 
