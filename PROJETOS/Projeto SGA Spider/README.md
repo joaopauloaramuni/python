@@ -143,11 +143,96 @@ Para temas **dark/light mais atuais**, pode-se usar a biblioteca [**ttkbootstrap
 
 ---
 
+## Funcionalidades da Versão 5 - **Faltas, Notas, Credenciais e Horas Complementares 📊📄**
+
+* **Login Automático 🔐**: realiza login no portal do estudante da PUC Minas utilizando requisições HTTP simulando o navegador.
+
+* **Extração de Dados 🕵️‍♂️**:
+
+  * Navega automaticamente pelas páginas autenticadas do SGA.
+  * Extrai:
+    - **Faltas**
+    - **Notas**
+    - **Credenciais institucionais**
+  * Acessa o sistema de emissão de documentos e realiza um **POST direto** para gerar o PDF do histórico.
+
+* **Download de PDF 📄**:
+
+  * Realiza requisição para geração do relatório acadêmico.
+  * Faz download automático do arquivo `historico.pdf`.
+
+* **Extração de Dados do PDF 🔎**:
+
+  * Utiliza a biblioteca `pdfplumber` para extrair o texto da primeira página do PDF.
+  * Aplica **expressões regulares (regex)** para capturar informações relevantes:
+
+    - Mínimo de horas exigidas  
+    - Total de horas cumpridas  
+    - Horas a cumprir  
+    - Data do último lançamento  
+
+```
+match_minimo = re.search(r'[Mm]ínimo de horas exigidas[:\s]+([\d:]+)', texto)
+match_cumpridas = re.search(r'[Tt]otal de horas cumpridas[:\s]+([\d:]+)', texto)
+match_cumprir = re.search(r'[Hh]oras a cumprir[:\s]+([\d:]+)', texto)
+match_data = re.search(r'[Dd]ata do [úu]ltimo lan[çc]amento[:\s]+([\d/]+)', texto)
+```
+
+* **Exportação 💾**:
+
+  * Gera automaticamente os seguintes arquivos JSON:
+
+    - `faltas.json`
+    - `notas.json`
+    - `credenciais.json`
+    - `atividades_complementares.json`
+
+* **Interface Gráfica (Tkinter + ttk) 🖥️**:
+
+  * Interface com múltiplas abas exibindo:
+
+    - **Faltas**: disciplinas, carga horária e faltas  
+    - **Notas**: avaliações detalhadas  
+    - **Credenciais**: logins institucionais  
+    - **Horas Complementares**: dados extraídos do PDF  
+
+* **Integração Completa 🔗**:
+
+  * Integra dados de múltiplas fontes:
+    - HTML (via BeautifulSoup)
+    - PDF (via pdfplumber)
+  * Centraliza todas as informações acadêmicas em uma única interface.
+
+---
+
+### 🚀 Evolução da Versão 5
+
+A versão 5 representa um avanço significativo:
+
+- 🔄 Automatização completa do fluxo (login → scraping → download → parsing → interface)
+- 📄 Integração com documentos oficiais (PDF)
+- 🧠 Uso combinado de parsing HTML + parsing de PDF
+- 📊 Consolidação de dados acadêmicos em tempo real
+
+👉 Essa versão já se aproxima de um **mini-sistema acadêmico automatizado**, podendo ser evoluído para:
+
+- Dashboard web  
+- API REST  
+- Sistema de monitoramento acadêmico  
+
+---
+
 ## 📸 Captura de Tela - Interface Tkinter
 
 | <img src="https://joaopauloaramuni.github.io/python-imgs/SGA_Spider/imgs/tkinterUI.png" width="1000px" alt="Interface Tkinter"> |
 | :-----------------------------------------------------------------------------------------------------------------------------: |
 |                              **Interface gráfica em Tkinter (Faltas, Notas e Credenciais em abas)**                             |
+
+### Versão 5:
+
+| <img src="https://joaopauloaramuni.github.io/python-imgs/SGA_Spider/imgs/atividades_complementares.png" width="1000px" alt="Atividades Complementares"> |
+| :-----------------------------------------------------------------------------------------------------------------------------------------------------: |
+|                                          **Interface gráfica em Tkinter (Faltas, Notas e Credenciais em abas)**                                         |
 
 ---
 
