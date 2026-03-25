@@ -171,12 +171,12 @@ Para temas **dark/light mais atuais**, pode-se usar a biblioteca [**ttkbootstrap
     - Horas a cumprir  
     - Data do último lançamento  
 
-```
-match_minimo = re.search(r'[Mm]ínimo de horas exigidas[:\s]+([\d:]+)', texto)
-match_cumpridas = re.search(r'[Tt]otal de horas cumpridas[:\s]+([\d:]+)', texto)
-match_cumprir = re.search(r'[Hh]oras a cumprir[:\s]+([\d:]+)', texto)
-match_data = re.search(r'[Dd]ata do [úu]ltimo lan[çc]amento[:\s]+([\d/]+)', texto)
-```
+    ```
+    match_minimo = re.search(r'[Mm]ínimo de horas exigidas[:\s]+([\d:]+)', texto)
+    match_cumpridas = re.search(r'[Tt]otal de horas cumpridas[:\s]+([\d:]+)', texto)
+    match_cumprir = re.search(r'[Hh]oras a cumprir[:\s]+([\d:]+)', texto)
+    match_data = re.search(r'[Dd]ata do [úu]ltimo lan[çc]amento[:\s]+([\d/]+)', texto)
+    ```
 
 * **Exportação 💾**:
 
