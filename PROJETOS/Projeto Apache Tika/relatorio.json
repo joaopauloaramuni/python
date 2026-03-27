@@ -1,0 +1,20 @@
+[
+  {
+    "arquivo": "/Users/joaopauloaramuni/Documents/WORKSPACE-VSCODE/python-main/PROJETOS/Projeto Apache Tika/teste.pdf",
+    "tamanho_bytes": 10045390,
+    "tamanho_status": "normal",
+    "javascript": [],
+    "embedded_objects": [],
+    "encoding_suspeito": [],
+    "urls_suspeitas": [
+      "[encurtador] https://goo.gl/pp2T6r",
+      "[encurtador] https://goo.gl/pp2T6r",
+      "[tld-suspeito] http://lattes.cnpq.br/1208427665892059"
+    ],
+    "metadados_suspeitos": [],
+    "score": 6,
+    "risco": "Alto",
+    "erro": null,
+    "timestamp": "2026-03-27T16:29:11.259862"
+  }
+]
