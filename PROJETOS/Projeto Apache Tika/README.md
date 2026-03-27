@@ -1,6 +1,50 @@
-# 📄 PDF Security Analyzer (Apache Tika)
+# 📄 Projeto Apache Tika - PDF Security Analyzer
 
 Projeto em Python para análise de segurança de arquivos PDF utilizando o **Apache Tika**.
+
+---
+
+## 🔎 O que é o Apache Tika?
+
+O **Apache Tika** é uma biblioteca open source da Apache Software Foundation projetada para **extração de conteúdo e metadados de diversos tipos de arquivos**, incluindo PDFs, documentos do Office, imagens, HTML, entre outros.
+
+### 🧠 Conceito principal
+
+O Tika atua como uma camada de abstração que permite:
+- Detectar automaticamente o tipo de arquivo (MIME type)
+- Extrair texto de documentos estruturados e não estruturados
+- Ler metadados embutidos (autor, data de criação, ferramenta utilizada, etc.)
+
+Tudo isso **sem precisar implementar parsers específicos para cada formato**.
+
+---
+
+### ⚙️ Como funciona?
+
+O Apache Tika pode ser utilizado de duas formas:
+
+#### 1. Biblioteca Java
+- Uso direto em aplicações Java
+- Ideal para integração mais profunda
+
+#### 2. Servidor Tika (REST API)
+- Executa como um serviço HTTP
+- Permite integração com qualquer linguagem (Python, Node, etc.)
+
+No seu projeto, você está usando o **Tika Server via Python**, através da biblioteca `tika`.
+
+---
+
+### 🐍 Uso com Python
+
+A biblioteca `tika` para Python funciona como um cliente que se comunica com o Tika Server:
+
+```python
+from tika import parser
+
+parsed = parser.from_file("arquivo.pdf")
+texto = parsed["content"]
+metadados = parsed["metadata"]
 
 ---
 
@@ -125,4 +169,4 @@ Nome do arquivo [relatorio.json]: relatorio.json
 
 ## 📜 Licença
 
-MIT
+Este projeto está licenciado sob a MIT License.
