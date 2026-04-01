@@ -1,0 +1,139 @@
+# 📄 Projeto WebSocket Messenger
+
+Projeto em Python para comunicação em tempo real utilizando
+**WebSockets** com interface gráfica em **Tkinter**.
+
+---
+
+## 🔎 O que é WebSocket?
+
+WebSocket é um protocolo de comunicação que permite **conexão
+bidirecional persistente** entre cliente e servidor.
+
+### 🧠 Conceito principal
+
+Diferente do HTTP tradicional: - Comunicação contínua (sem múltiplas
+requisições) - Baixa latência - Ideal para aplicações em tempo real
+(chat, jogos, dashboards)
+
+------------------------------------------------------------------------
+
+## ⚙️ Como funciona?
+
+O projeto possui três partes:
+
+-   **Servidor (`server.py`)**
+    -   Gerencia conexões
+    -   Faz broadcast das mensagens
+    -   Controla entrada/saída de usuários
+-   **Cliente (`client.py`)**
+    -   Conecta ao servidor via WebSocket
+    -   Envia e recebe mensagens
+-   **Interface (`gui.py`)**
+    -   Interface gráfica com Tkinter
+    -   Interação do usuário
+
+------------------------------------------------------------------------
+
+## 🚀 Funcionalidades
+
+-   Chat em tempo real
+-   Múltiplos usuários na mesma rede
+-   Identificação por nickname
+-   Notificação de entrada e saída
+-   Interface gráfica simples
+-   Tratamento de erro de conexão
+
+------------------------------------------------------------------------
+
+## 🧰 Dependências
+
+``` bash
+pip install websockets
+```
+
+Tkinter já vem instalado por padrão no Python (na maioria dos sistemas).
+
+------------------------------------------------------------------------
+
+## 🐍 Ambiente Virtual
+
+### Criar ambiente:
+
+``` bash
+python3 -m venv .venv
+```
+
+### Ativar ambiente:
+
+**macOS/Linux**
+
+``` bash
+source .venv/bin/activate
+```
+
+**Windows**
+
+``` bash
+.venv\Scripts\activate
+```
+
+------------------------------------------------------------------------
+
+## ▶️ Execução
+
+### 1. Iniciar o servidor
+
+``` bash
+python server.py
+```
+
+Saída esperada:
+
+    Servidor rodando em ws://0.0.0.0:8765
+
+------------------------------------------------------------------------
+
+### 2. Iniciar os clientes
+
+Abra **dois terminais diferentes** e execute:
+
+``` bash
+python gui.py
+```
+
+Digite: - Nickname - IP do servidor (ex: 192.168.0.13)
+
+------------------------------------------------------------------------
+
+## 💬 Simulação de chat
+
+Para simular:
+
+1.  Abra **1 terminal para o servidor**
+2.  Abra **2 terminais para clientes**
+3.  Conecte ambos ao mesmo IP
+4.  Envie mensagens entre eles
+
+------------------------------------------------------------------------
+
+## 📊 Exemplo de uso
+
+    🔵 João entrou no chat
+    Maria: Oi!
+    João: Fala!
+    🔴 Maria saiu do chat
+
+------------------------------------------------------------------------
+
+## 🔗 Documentação e links úteis
+
+-   https://docs.python.org/3/library/tkinter.html
+-   https://websockets.readthedocs.io/
+-   https://github.com/python-websockets/websockets
+
+------------------------------------------------------------------------
+
+## 📜 Licença
+
+Este projeto está licenciado sob a MIT License.
