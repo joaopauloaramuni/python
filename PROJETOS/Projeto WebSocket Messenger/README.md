@@ -14,6 +14,14 @@ Diferente do HTTP tradicional: - Comunicação contínua (sem múltiplas requisi
 
 ---
 
+## 🖼️ Capturas de Tela
+
+| <img src="https://joaopauloaramuni.github.io/python-imgs/WebSocketMessenger/imgs/ChatWebSocket.png" alt="ChatWebSocket" width="800"/> |
+|:-----------------:|
+| ChatWebSocket.png |
+
+---
+
 ## ⚙️ Como funciona?
 
 O projeto possui três partes:
