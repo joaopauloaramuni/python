@@ -1,22 +1,18 @@
-# 📄 Projeto WebSocket Messenger
+# Projeto WebSocket Messenger 💬
 
-Projeto em Python para comunicação em tempo real utilizando
-**WebSockets** com interface gráfica em **Tkinter**.
+Projeto em Python para comunicação em tempo real utilizando **WebSockets** com interface gráfica em **Tkinter**.
 
 ---
 
 ## 🔎 O que é WebSocket?
 
-WebSocket é um protocolo de comunicação que permite **conexão
-bidirecional persistente** entre cliente e servidor.
+WebSocket é um protocolo de comunicação que permite **conexão bidirecional persistente** entre cliente e servidor.
 
 ### 🧠 Conceito principal
 
-Diferente do HTTP tradicional: - Comunicação contínua (sem múltiplas
-requisições) - Baixa latência - Ideal para aplicações em tempo real
-(chat, jogos, dashboards)
+Diferente do HTTP tradicional: - Comunicação contínua (sem múltiplas requisições) - Baixa latência - Ideal para aplicações em tempo real (chat, jogos, dashboards)
 
-------------------------------------------------------------------------
+---
 
 ## ⚙️ Como funciona?
 
@@ -33,7 +29,7 @@ O projeto possui três partes:
     -   Interface gráfica com Tkinter
     -   Interação do usuário
 
-------------------------------------------------------------------------
+---
 
 ## 🚀 Funcionalidades
 
@@ -44,7 +40,7 @@ O projeto possui três partes:
 -   Interface gráfica simples
 -   Tratamento de erro de conexão
 
-------------------------------------------------------------------------
+---
 
 ## 🧰 Dependências
 
@@ -54,7 +50,7 @@ pip install websockets
 
 Tkinter já vem instalado por padrão no Python (na maioria dos sistemas).
 
-------------------------------------------------------------------------
+---
 
 ## 🐍 Ambiente Virtual
 
@@ -78,7 +74,7 @@ source .venv/bin/activate
 .venv\Scripts\activate
 ```
 
-------------------------------------------------------------------------
+---
 
 ## ▶️ Execução
 
@@ -92,7 +88,7 @@ Saída esperada:
 
     Servidor rodando em ws://0.0.0.0:8765
 
-------------------------------------------------------------------------
+---
 
 ### 2. Iniciar os clientes
 
@@ -104,7 +100,7 @@ python gui.py
 
 Digite: - Nickname - IP do servidor (ex: 192.168.0.13)
 
-------------------------------------------------------------------------
+---
 
 ## 💬 Simulação de chat
 
@@ -115,16 +111,18 @@ Para simular:
 3.  Conecte ambos ao mesmo IP
 4.  Envie mensagens entre eles
 
-------------------------------------------------------------------------
+---
 
 ## 📊 Exemplo de uso
 
+    🔵 Henrique entrou no chat
     🔵 João entrou no chat
-    Maria: Oi!
-    João: Fala!
-    🔴 Maria saiu do chat
+    Henrique: Oi João!
+    João: Olá Henrique!
+    🔴 João saiu do chat
+    🔴 Henrique saiu do chat
 
-------------------------------------------------------------------------
+---
 
 ## 🔗 Documentação e links úteis
 
@@ -132,7 +130,7 @@ Para simular:
 -   https://websockets.readthedocs.io/
 -   https://github.com/python-websockets/websockets
 
-------------------------------------------------------------------------
+---
 
 ## 📜 Licença
 
