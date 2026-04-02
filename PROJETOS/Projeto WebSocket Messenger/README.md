@@ -197,7 +197,6 @@ Para simular:
 
 ## 📊 Exemplo de uso
 
-    ```
     🔵 Henrique entrou no chat
     🔵 João entrou no chat
     
@@ -206,7 +205,6 @@ Para simular:
     
     🔴 João saiu do chat
     🔴 Henrique saiu do chat
-    ```
 
 ---
 
