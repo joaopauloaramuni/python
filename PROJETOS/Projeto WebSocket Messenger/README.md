@@ -197,12 +197,16 @@ Para simular:
 
 ## 📊 Exemplo de uso
 
+    ```
     🔵 Henrique entrou no chat
     🔵 João entrou no chat
+    
     Henrique: Oi João!
     João: Olá Henrique!
+    
     🔴 João saiu do chat
     🔴 Henrique saiu do chat
+    ```
 
 ---
 
