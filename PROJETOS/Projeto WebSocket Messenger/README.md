@@ -18,7 +18,7 @@ Diferente do HTTP tradicional: - Comunicação contínua (sem múltiplas requisi
 
 O projeto possui três partes:
 
--   **Servidor (`server.py`)**
+-   **Servidor (`chat_server.py`)**
     -   Gerencia conexões
     -   Faz broadcast das mensagens
     -   Controla entrada/saída de usuários
@@ -81,7 +81,7 @@ source .venv/bin/activate
 ### 1. Iniciar o servidor
 
 ``` bash
-python server.py
+python chat_server.py
 ```
 
 Saída esperada:
@@ -98,7 +98,89 @@ Abra **dois terminais diferentes** e execute:
 python gui.py
 ```
 
-Digite: - Nickname - IP do servidor (ex: 192.168.0.13)
+Digite o Nickname: João  
+Digite o IP do servidor: (ex: 192.168.0.13)
+
+---
+
+## 🌐 Como descobrir o IP local
+
+Para conectar os clientes ao servidor, você precisa do **IP local da máquina que está rodando o servidor**.
+
+---
+
+### 🪟 Windows
+
+Abra o Prompt de Comando e execute:
+
+```bash
+ipconfig
+```
+
+Procure por:
+
+```bash
+IPv4 Address . . . . . . . . . . : 192.168.x.x
+```
+
+---
+
+### 🐧 Linux
+
+Abra o terminal e execute:
+
+```bash
+ip a
+```
+
+ou:
+
+```bash
+ifconfig
+```
+
+Procure por:
+
+```bash
+inet 192.168.x.x
+```
+
+---
+
+### 🍎 macOS
+
+Abra o terminal e execute:
+
+```bash
+ipconfig getifaddr en0
+```
+
+Se não funcionar, tente:
+
+```bash
+ifconfig
+```
+
+Procure por:
+
+```bash
+inet 192.168.x.x
+```
+
+---
+
+### ⚠️ Importante
+
+- Use um IP no formato:
+  ```bash
+  192.168.x.x ou 10.x.x.x
+  ```
+
+- **Não use:**
+  - `127.0.0.1` (localhost)
+  - `169.x.x.x` (problema de rede)
+
+- Todos os dispositivos devem estar na **mesma rede (Wi-Fi ou cabo)**.
 
 ---
 
