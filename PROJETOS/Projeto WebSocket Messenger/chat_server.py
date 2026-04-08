@@ -4,8 +4,11 @@ import websockets
 clientes = {}
 
 async def broadcast(msg):
-    for ws in clientes:
-        await ws.send(msg)
+    for ws in list(clientes.keys()):
+        try:
+            await ws.send(msg)
+        except:
+            pass
 
 async def handler(websocket):
     try:
@@ -17,7 +20,11 @@ async def handler(websocket):
 
         async for mensagem in websocket:
             nome = clientes[websocket]
-            await broadcast(f"{nome}: {mensagem}")
+            
+            if mensagem == "__typing__":
+                await broadcast(f"__typing__:{nome}")
+            else:
+                await broadcast(f"{nome}: {mensagem}")
 
     except websockets.exceptions.ConnectionClosed:
         pass
