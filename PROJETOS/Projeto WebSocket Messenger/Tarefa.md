@@ -1,6 +1,6 @@
-## 💻 Exercício: Implementar “Usuário está digitando...” em tempo real
+# 💻 Exercício: Implementar “Usuário está digitando...” em tempo real
 
-### 🎯 Objetivo
+## 🎯 Objetivo
 
 Modificar o projeto **WebSocket Messenger** para exibir, em tempo real, quando um usuário está digitando:
 
@@ -15,19 +15,20 @@ João está digitando...
 Atualmente, o chat apenas envia mensagens completas.  
 Sua tarefa é implementar um sistema de **evento de digitação** que:
 
-- Detecta quando o usuário começa a digitar
-- Notifica os outros clientes conectados
-- Exibe um indicador visual na interface
-- Remove o indicador após alguns segundos de inatividade
+- Detecta quando o usuário está digitando  
+- Notifica os outros clientes conectados  
+- Exibe um indicador visual na interface  
+- Remove automaticamente o indicador após alguns segundos  
 
 ---
 
 ## 🧩 Requisitos
 
-- Não quebrar o funcionamento atual do chat
-- Implementar comunicação em tempo real
-- Não exibir “você está digitando...” para o próprio usuário
-- Evitar envio excessivo de eventos (spam)
+- Não quebrar o funcionamento atual do chat  
+- Implementar comunicação em tempo real  
+- Não exibir “você está digitando...” para o próprio usuário  
+- Evitar envio excessivo de eventos (spam)  
+- Suportar múltiplos usuários digitando ao mesmo tempo  
 
 ---
 
@@ -35,10 +36,10 @@ Sua tarefa é implementar um sistema de **evento de digitação** que:
 
 ### 🔹 1. Detectar digitação no Tkinter
 
-Você pode usar eventos do teclado:
+Use eventos de teclado no campo de entrada:
 
 ```
-self.msg_entry.bind("<Key>", callback)
+self.msg_entry.bind("<Key>", self.on_typing)
 ```
 
 👉 Isso dispara sempre que o usuário pressiona uma tecla.
@@ -47,15 +48,17 @@ self.msg_entry.bind("<Key>", callback)
 
 ### 🔹 2. Criar um tipo especial de mensagem
 
-Diferencie mensagens normais de eventos:
+Utilize uma mensagem simples para representar o evento de digitação:
 
-Exemplo:
+```
+__typing__
+```
+
+E no servidor, associe ao nome do usuário:
 
 ```
 __typing__:João
 ```
-
-👉 Assim o servidor consegue identificar facilmente.
 
 ---
 
@@ -63,34 +66,30 @@ __typing__:João
 
 Ao detectar digitação:
 
-- Envie um evento ao servidor
-- Não envie mensagem vazia
-- Considere usar um “controle” para não enviar a cada tecla
+- Envie o evento `__typing__`
+- Use controle de tempo para evitar spam
 
-💡 Dica: use uma variável para controlar tempo:
+Exemplo (debounce simples com tempo):
 
 ```
-if not self.typing:
-    enviar_evento()
-    self.typing = True
+now = time.time()
+if now - self.last_typing > 1:
+    self.client.send_typing()
+    self.last_typing = now
 ```
+
+👉 Isso evita enviar evento a cada tecla pressionada.
 
 ---
 
-### 🔹 4. Usar debounce (evitar spam)
+### 🔹 4. Evitar spam (debounce)
 
-Evite enviar eventos a cada tecla pressionada.
+Não envie eventos continuamente.
 
-💡 Estratégia:
+Use uma variável de controle de tempo:
 
-- Envie o evento apenas se passou um tempo desde o último envio
-- Use `after()` do Tkinter
-
-Exemplo de ideia:
-
-```
-self.root.after(1000, parar_de_digitar)
-```
+- Envie no máximo 1 evento por segundo
+- Isso reduz carga no servidor e melhora desempenho
 
 ---
 
@@ -98,15 +97,16 @@ self.root.after(1000, parar_de_digitar)
 
 No servidor:
 
-- Detecte mensagens de digitação
-- Faça broadcast para outros usuários
-- Não tratar como mensagem normal
+- Detecte mensagens `__typing__`
+- Faça broadcast para os outros clientes
 
-💡 Dica:
+Exemplo:
 
 ```
-if mensagem.startswith("__typing__"):
-    broadcast(...)
+if mensagem == "__typing__":
+    await broadcast(f"__typing__:{nome}")
+else:
+    await broadcast(f"{nome}: {mensagem}")
 ```
 
 ---
@@ -115,13 +115,11 @@ if mensagem.startswith("__typing__"):
 
 Adicione um indicador visual:
 
-- Um `Label` abaixo do chat
-
-Exemplo:
-
 ```
 self.typing_label = tk.Label(root, text="", fg="gray")
 ```
+
+👉 Esse label exibirá quem está digitando.
 
 ---
 
@@ -133,34 +131,71 @@ Quando receber:
 __typing__:João
 ```
 
-Você deve:
-
-- Mostrar “João está digitando...”
-- Limpar após alguns segundos
-
-💡 Dica:
+Armazene o tempo do evento:
 
 ```
-self.root.after(2000, limpar_label)
+self.typing_users[nome] = time.time()
 ```
 
 ---
 
-### 🔹 8. Evitar mostrar para si mesmo
+### 🔹 8. Remover automaticamente (timeout)
 
-Você pode:
+Crie uma função que roda continuamente usando `after`:
 
-- Comparar o nickname recebido com o seu
-- Ignorar se for o mesmo
+```
+self.root.after(500, self.update_typing_label)
+```
+
+Nela:
+
+- Remova usuários que não digitam há alguns segundos (ex: 3s)
+- Atualize o texto do label
+
+Exemplo:
+
+```
+ativos = [
+    nome for nome, t in self.typing_users.items()
+    if time.time() - t < 3
+]
+```
+
+---
+
+### 🔹 9. Atualizar texto dinamicamente
+
+Trate singular e plural:
+
+```
+if len(ativos) == 1:
+    texto = f"{ativos[0]} está digitando..."
+elif len(ativos) > 1:
+    texto = f"{', '.join(ativos)} estão digitando..."
+else:
+    texto = ""
+```
+
+---
+
+### 🔹 10. Evitar mostrar para si mesmo
+
+Você pode ignorar o próprio usuário:
+
+```
+if nome == self.nickname:
+    return
+```
 
 ---
 
 ## ⭐ Desafios extras (opcional)
 
-- Mostrar múltiplos usuários digitando ao mesmo tempo
-- Criar animação (ex: “digitando...” com pontos)
-- Melhorar UX (ex: desaparecer suavemente)
-- Usar JSON ao invés de string simples
+- Mostrar múltiplos usuários digitando simultaneamente  
+- Criar animação (ex: “digitando...”)  
+- Melhorar UX (ex: fade out)  
+- Usar JSON ao invés de string simples  
+- Implementar evento “parou de digitar”  
 
 ---
 
@@ -172,17 +207,17 @@ Quando um usuário começa a digitar:
 Maria está digitando...
 ```
 
-E após parar:
+Após alguns segundos sem digitar:
 
-- O texto desaparece automaticamente
+- O indicador desaparece automaticamente  
 
 ---
 
 ## 🚀 Entrega
 
-- Código funcional
-- Explicação breve da solução
-- (Opcional) melhorias implementadas
+- Código funcional  
+- Explicação breve da solução  
+- (Opcional) melhorias implementadas  
 
 ---
 
@@ -190,9 +225,9 @@ E após parar:
 
 Separe responsabilidades:
 
-- Cliente → envia eventos
-- Servidor → distribui eventos
-- GUI → exibe estado
+- Cliente → envia eventos  
+- Servidor → distribui eventos  
+- GUI → exibe estado  
 
 ---
 
