@@ -37,7 +37,7 @@ class ChatGUI:
         server_ip = simpledialog.askstring(
             "Servidor", 
             "IP do servidor:", 
-            initialvalue="10.250.32.133",
+            initialvalue="10.250.32.133", # 192.168.0.13
             parent=self.root
         )
 
