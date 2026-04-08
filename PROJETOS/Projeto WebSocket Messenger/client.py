@@ -34,3 +34,10 @@ class ChatClient:
             self.ws.send(msg),
             self.loop
         )
+    
+    def send_typing(self):
+        if self.ws:
+            asyncio.run_coroutine_threadsafe(
+                self.ws.send("__typing__"),
+                self.loop
+            )
