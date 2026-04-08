@@ -166,7 +166,7 @@ Exemplo:
 ```
 ativos = [
     nome for nome, t in self.typing_users.items()
-    if time.time() - t < 3
+    if time.time() - t < 2
 ]
 ```
 
