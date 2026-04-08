@@ -30,10 +30,11 @@ class ChatClient:
             self.on_message(msg)
 
     def send(self, msg):
-        asyncio.run_coroutine_threadsafe(
-            self.ws.send(msg),
-            self.loop
-        )
+        if self.ws:
+            asyncio.run_coroutine_threadsafe(
+                self.ws.send(msg),
+                self.loop
+            )
     
     def send_typing(self):
         if self.ws:
