@@ -67,18 +67,27 @@ __typing__:João
 Ao detectar digitação:
 
 - Envie o evento `__typing__`
-- Use controle de tempo para evitar spam
+- Use o evento de teclado para disparar o envio
 
-Exemplo (debounce simples com tempo):
+Exemplo:
 
 ```
-now = time.time()
-if now - self.last_typing > 1:
+self.msg_entry.bind("<Key>", self.on_typing)
+```
+
+E na função:
+
+```
+def on_typing(self, event=None):
     self.client.send_typing()
-    self.last_typing = now
 ```
 
-👉 Isso evita enviar evento a cada tecla pressionada.
+👉 Isso envia um evento sempre que o usuário pressiona uma tecla.
+
+💡 Observação:
+
+- O controle de tempo (para evitar spam e remover o status)  
+- É feito no **lado da interface (recebimento)** usando `time.time()`  
 
 ---
 
