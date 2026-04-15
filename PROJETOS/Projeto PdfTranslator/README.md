@@ -19,7 +19,7 @@ A saída é um arquivo `.txt` traduzido e organizado por páginas.
 
 O projeto resolve os principais problemas de tradução de PDFs científicos:
 
-- Extração respeitando a **ordem visual de leitura**, inclusive em PDFs com duas colunas
+- Extração via `get_text("dict")`, que respeita automaticamente **colunas múltiplas** sem detecção manual de layout
 - Correção de **hifenização de quebra de linha** (`hyp-\nhenation → hyphenation`)
 - Divisão inteligente do texto em blocos, respeitando parágrafos e frases
 - Retry automático com **backoff crescente** em caso de falha na API
@@ -29,7 +29,7 @@ O projeto resolve os principais problemas de tradução de PDFs científicos:
 
 ## 🚀 Funcionalidades
 
-- Extração de texto via `blocks` (respeita colunas de artigos)
+- Extração de texto via `get_text("dict")` — respeita colunas e estrutura interna do PDF sem heurísticas de posição
 - Limpeza de artefatos comuns de PDFs científicos
 - Divisão inteligente por parágrafos e frases (limite seguro de 4500 chars)
 - Tradução com pausa entre chamadas (evita bloqueio da API gratuita)
@@ -86,8 +86,8 @@ python pdf_translator.py
 
 ## 📊 Exemplo de execução
 
-```bash
-(.venv) python traduzir_artigo.py
+```
+(.venv) python pdf_translator.py
 
 📄 Lendo PDF...
    8 página(s) encontrada(s).
@@ -136,7 +136,7 @@ artigos indexados nas bases Web of Science e Scopus...
 
 ```
 Projeto PdfTranslator/
-├── pdf_traslator.py     # Script principal
+├── pdf_translator.py    # Script principal
 ├── gui.py               # Interface com Tkinter
 ├── artigo.pdf           # PDF de entrada (você fornece)
 ├── artigo_traduzido.txt # Saída gerada automaticamente
