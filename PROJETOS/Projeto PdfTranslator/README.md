@@ -35,6 +35,7 @@ O projeto resolve os principais problemas de tradução de PDFs científicos:
 - Tradução com pausa entre chamadas (evita bloqueio da API gratuita)
 - Retry automático com backoff em falhas temporárias
 - Salvamento com separadores de página no `.txt` final
+- Interface gráfica com Tkinter
 
 ---
 
