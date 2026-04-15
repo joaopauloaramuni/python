@@ -9,26 +9,39 @@ from deep_translator import GoogleTranslator
 # ─────────────────────────────────────────────
 
 def ler_pdf(caminho_pdf: str) -> list[dict]:
-    """
-    Extrai texto página a página usando 'blocks', que respeita
-    a ordem visual de leitura mesmo em PDFs com duas colunas.
-
-    Retorna lista de dicts: [{"pagina": int, "texto": str}, ...]
-    """
     doc = fitz.open(caminho_pdf)
     paginas = []
 
     for num, pagina in enumerate(doc, start=1):
-        # 'blocks' retorna blocos ordenados por posição (y, x)
+        largura = pagina.rect.width
         blocos = pagina.get_text("blocks", sort=True)
+        blocos_texto = [b for b in blocos if b[6] == 0 and b[4].strip()]
 
-        # cada bloco: (x0, y0, x1, y1, texto, block_no, block_type)
-        # block_type == 0 → texto; 1 → imagem
-        texto_pagina = "\n".join(
-            b[4].strip()
-            for b in blocos
-            if b[6] == 0 and b[4].strip()  # só blocos de texto não-vazios
-        )
+        # ── Detecta se há colunas ──────────────────────────────────────────
+        # Se existem blocos nas duas metades horizontais da página,
+        # é provável que seja um layout de duas colunas.
+        metade = largura / 2
+        tem_esquerda = any(b[0] < metade and b[2] < metade * 1.2 for b in blocos_texto)
+        tem_direita  = any(b[0] > metade * 0.8 and b[2] > metade for b in blocos_texto)
+        duas_colunas = tem_esquerda and tem_direita
+
+        if duas_colunas:
+            # Coleta os blocos de cada coluna separadamente,
+            # ordenando cada uma por posição vertical (Y)
+            col_esq = sorted(
+                [b for b in blocos_texto if b[2] <= metade * 1.1],
+                key=lambda b: (b[1], b[0])
+            )
+            col_dir = sorted(
+                [b for b in blocos_texto if b[0] >= metade * 0.9],
+                key=lambda b: (b[1], b[0])
+            )
+            texto_pagina = "\n".join(b[4].strip() for b in col_esq)
+            texto_pagina += "\n\n"
+            texto_pagina += "\n".join(b[4].strip() for b in col_dir)
+        else:
+            texto_pagina = "\n".join(b[4].strip() for b in blocos_texto)
+
         paginas.append({"pagina": num, "texto": texto_pagina})
 
     doc.close()
