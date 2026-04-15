@@ -1,0 +1,200 @@
+
+════════════════════════════════════════════════════════════
+  PÁGINA 1
+════════════════════════════════════════════════════════════
+
+Editor de Técnicas de Programação R. Morris
+
+Sobre os critérios a serem utilizados na decomposição de sistemas em módulos
+
+DL Universidade Parnas Carnegie-Mellon
+
+Este artigo discute a modularização como um mecanismo para melhorar a flexibilidade e compreensibilidade de um sistema, ao mesmo tempo que permite a redução do seu tempo de desenvolvimento. A eficácia de uma “modularização” depende dos critérios utilizados na divisão do sistema em módulos. Um problema de projeto de sistema é apresentado e uma decomposição convencional e não convencional é descrita. Mostra-se que as decomposições não convencionais apresentam vantagens distintas para os objetivos traçados. Os critérios usados ​​para chegar às decomposições são discutidos. A decomposição não convencional, se implementada com a suposição convencional de que um módulo consiste em uma ou mais sub-rotinas, será menos eficiente na maioria dos casos. É delineada uma abordagem alternativa à implementação que não tem este efeito.
+
+Palavras-chave e frases: software, módulos, modularidade, engenharia de software, índice KWIC, design de software
+
+Categorias CR: 4.0
+
+Introdução
+
+Uma declaração lúcida da filosofia da programação modular pode ser encontrada em um livro de 1970 sobre o design de programas de sistema de Gouthier e Pont [1,
+
+¶I0.23], que citamos abaixo: 1
+
+Uma segmentação bem definida do esforço do projeto garante a modularidade do sistema. Cada tarefa forma um módulo de programa separado e distinto. No momento da implementação cada módulo e suas entradas e saídas estão bem definidas, não há confusão na interface pretendida com outros módulos do sistema. No momento da verificação a integridade do módulo é testada de forma independente; há poucos problemas de agendamento na sincronização da conclusão de diversas tarefas antes do início da finalização da compra. Finalmente, o sistema é mantido de forma modular; erros e deficiências do sistema podem ser atribuídos a módulos específicos do sistema, limitando assim o escopo da pesquisa detalhada de erros.
+
+Normalmente nada é dito sobre os critérios a serem utilizados na divisão do sistema em módulos. Este artigo discutirá essa questão e, por meio de exemplos, sugerirá alguns critérios que podem ser utilizados na decomposição de um sistema em módulos.
+
+Copyright @ 1972, Association for Computing Machinery, Inc. É concedida permissão geral para republicar, mas sem fins lucrativos, todo ou parte deste material, desde que seja feita referência a esta publicação, à sua data de emissão e ao fato de que os privilégios de reimpressão foram concedidos com permissão da Association for Computing Machinery.
+
+Endereço do autor: Departamento de Ciência da Computação, Carnegie-Melon University, Pittsburgh, PA 15213.
+
+1053
+
+Um breve relatório de status
+
+O maior avanço na área de programação modular tem sido o desenvolvimento de técnicas de codificação e montadores que (l) permitem que um módulo seja escrito com pouco conhecimento do código em outro módulo, e (2) permitem que os módulos sejam remontados e substituídos sem remontar todo o sistema. Esta facilidade é extremamente valiosa para a produção de grandes pedaços de código, mas os sistemas mais frequentemente usados ​​como exemplos de sistemas problemáticos são programas altamente modularizados e fazem uso das técnicas mencionadas acima.
+
+1 Reproduzido com permissão de Prentice-Hall, Englewood Cliffs, N.J.
+
+Comunicações de dezembro de 1972 do Volume 15 do ACM Número 12
+
+════════════════════════════════════════════════════════════
+  PÁGINA 2
+════════════════════════════════════════════════════════════
+
+Benefícios esperados da programação modular
+
+Os benefícios esperados da programação modular são: (1) gerenciais – o tempo de desenvolvimento deveria ser reduzido porque grupos separados trabalhariam em cada módulo com pouca necessidade de comunicação: (2) flexibilidade de produto – deveria ser possível fazer mudanças drásticas em um módulo sem a necessidade de alterar outros; (3) compreensibilidade – deveria ser possível estudar o sistema, um módulo de cada vez. Todo o sistema pode, portanto, ser melhor concebido porque é melhor compreendido.
+
+O que é modularização?
+
+Abaixo estão várias descrições parciais do sistema chamadas modularizações. Neste contexto, o “módulo” é considerado uma atribuição de responsabilidade e não um subprograma. As modularizações incluem as decisões de design que devem ser tomadas antes que o trabalho em módulos independentes possa começar. São incluídas decisões bastante diferentes para cada alternativa, mas em todos os casos a intenção é descrever todas as decisões ao “nível do sistema” (ou seja, decisões que afectam mais do que um módulo).
+
+Exemplo de Sistema 1: Um Sistema de Produção de Índice KWIC
+
+A seguinte descrição de um índice KWIC será suficiente para este artigo. O sistema de índice KWIC aceita um conjunto ordenado de linhas, cada linha é um conjunto ordenado de palavras e cada palavra é um conjunto ordenado de caracteres. Qualquer linha pode ser "deslocada circularmente" removendo repetidamente a primeira palavra e anexando-a no final da linha. O
+
+O sistema de índice KWXC gera uma lista de todos os deslocamentos circulares de todas as linhas em ordem alfabética.
+
+Este é um sistema pequeno. Exceto em circunstâncias extremas (enorme base de dados, sem software de suporte), tal sistema poderia ser produzido por um bom programador dentro de uma ou duas semanas. Conseqüentemente, nenhuma das dificuldades que motivam a programação modular são importantes para este sistema. Como é impraticável tratar minuciosamente um sistema grande, devemos realizar o exercício de tratar esse problema como se fosse um grande projeto. Apresentamos uma modularização que tipifica as abordagens atuais e outra que tem sido usada com sucesso em projetos de cursos de graduação.
+
+Modularização 1
+
+Vemos os seguintes módulos: Módulo 1: Entrada. Este módulo lê as linhas de dados do meio de entrada e as armazena no núcleo para processamento pelos módulos restantes. Os caracteres são agrupados em quatro por palavra e um caractere não utilizado é usado para indicar o final de uma palavra. Um índice é mantido para mostrar o endereço inicial de cada linha.
+
+Módulo 2: Mudança Circular. Este módulo é chamado após o módulo de entrada concluir seu trabalho. Ele prepara um índice que fornece o endereço do primeiro caractere de cada deslocamento circular e o índice original da linha no array formado pelo módulo 1. Ele deixa sua saída no núcleo com palavras em pares (número da linha original, endereço inicial).
+
+Módulo 3: Alfabetização. Este módulo toma como entrada os arrays produzidos pelos módulos 1 e 2. Ele produz um array no mesmo formato daquele produzido pelo módulo 2. Neste caso, porém, os deslocamentos circulares são listados em outra ordem (alfabeticamente).
+
+Módulo 4: Saída. Usando as matrizes produzidas pelo módulo 3 e pelo módulo 1, este módulo produz uma saída bem formatada listando todos os deslocamentos circulares. Num sistema sofisticado, o início real de cada linha será marcado, podem ser inseridos ponteiros para informações adicionais e o início do deslocamento circular pode, na verdade, não ser a primeira palavra da linha, etc.
+
+Módulo 5: Controle Mestre. Este módulo faz pouco mais do que controlar o sequenciamento entre os outros quatro módulos. Também pode lidar com mensagens de erro, alocação de espaço, etc.
+
+Deve ficar claro que o acima exposto não constitui um documento definitivo. Muito mais informações teriam que ser fornecidas antes que o trabalho pudesse começar. Os documentos de definição incluiriam uma série de imagens mostrando formatos básicos, convenções de ponteiros, convenções de chamada, etc. Todas as interfaces entre os quatro módulos devem ser especificadas antes que o trabalho possa começar.
+
+Esta é uma modularização no sentido pretendido por todos os proponentes da programação modular. O sistema está dividido em vários módulos com interfaces bem definidas; cada um é pequeno e simples o suficiente para ser totalmente compreendido e bem programado. Experimentos em pequena escala indicam que esta é aproximadamente a decomposição que seria proposta pela maioria dos programadores para a tarefa especificada.
+
+Modularização 2
+
+Vemos os seguintes módulos: Módulo 1: Line Storage. Este módulo consiste em uma série de funções ou sub-rotinas que fornecem os meios pelos quais o usuário do módulo pode invocá-lo. A chamada da função CHAR(r,w,c) terá como valor um número inteiro representando o c-ésimo caractere da r-ésima linha, com a palavra. Uma chamada como SETCHAR(r,w,c,d) fará com que o c-ésimo caractere na w-ésima palavra da r-ésima linha seja o caractere representado por d (ou seja, CHAR(r,w,c) = d).
+
+WORDS(r) retorna como valor o número de palavras em
+
+1054 Comunicações de dezembro de 1972 do Volume 15 do ACM Número 12
+
+════════════════════════════════════════════════════════════
+  PÁGINA 3
+════════════════════════════════════════════════════════════
+
+linha R. Existem certas restrições na forma como essas rotinas podem ser chamadas; se essas restrições forem violadas, as rotinas serão "armadilhas" para uma sub-rotina de tratamento de erros que será fornecida pelos usuários da rotina. Estão disponíveis rotinas adicionais que revelam ao chamador o número de palavras em qualquer linha, o número de linhas atualmente armazenadas e o número de caracteres em qualquer palavra. As funções DELINE e DELWRD são fornecidas para excluir partes de linhas que já foram armazenadas. Uma especificação precisa de um módulo semelhante foi fornecida em [3] e [8] e não a repetiremos aqui.
+
+Módulo 2: ENTRADA. Este módulo lê as linhas originais da mídia de entrada e chama o módulo de armazenamento de linha para armazená-las internamente.
+
+Módulo 3: Shifter Circular. As principais funções fornecidas por este módulo são análogas às funções fornecidas no módulo I. O módulo cria a impressão de que criamos um suporte de linha contendo não todas as linhas, mas todos os deslocamentos circulares das linhas. Assim, a chamada de função CSCHAR(I,w,c) fornece o valor que representa o c-ésimo caractere na w-ésima palavra do l-ésimo deslocamento circular. É especificado que (1) se i <j então os deslocamentos da linha i precedem os deslocamentos da linha j, e (2) para cada linha o primeiro deslocamento é o original
+
+linha, o segundo deslocamento é obtido fazendo uma rotação de uma palavra para o primeiro deslocamento, etc. É fornecida uma função CSSETUP que deve ser chamada antes que as outras funções tenham seus valores especificados. Para uma especificação mais precisa de tal módulo, consulte [8].
+
+Módulo 4: Alfabetizador. Este módulo consiste principalmente em duas funções. Um, ALPH, deve ser chamado antes que o outro tenha um valor definido. O segundo, ITH, servirá como índice. ITH(i) fornecerá o índice do deslocamento circular que vem na ordem alfabética. Definições formais dessas funções são fornecidas [8].
+
+Módulo 5: Saída. Este módulo dará a impressão desejada de conjunto de linhas ou deslocamentos circulares.
+
+Módulo 6: Controle Mestre. Função semelhante à modularização acima.
+
+Comparação das duas modularizações
+
+Geral. Ambos os esquemas funcionarão. A primeira é bastante convencional; o segundo foi usado com sucesso em um projeto de classe [7]. Ambos reduzirão a programação à programação relativamente independente de uma série de programas pequenos e administráveis.
+
+Observe primeiro que as duas decomposições podem compartilhar todas as representações de dados e métodos de acesso. Nossa discussão é sobre duas maneiras diferentes de cortar o que pode ser o mesmo objeto. Um sistema construído de acordo com a decomposição 1 poderia concebivelmente ser idêntico após a montagem a um construído de acordo com a decomposição 2. As diferenças entre as duas alternativas estão na forma como são divididas nas atribuições de trabalho e nas interfaces entre os módulos. Os algoritmos usados ​​em ambos os casos podem ser idênticos. Os sistemas são
+
+substancialmente diferente, mesmo que idêntico na representação executável. Isto é possível porque a representação executável só precisa ser usada para execução; outras representações são usadas para alterar, documentar, compreender, etc. Os dois sistemas não serão idênticos nessas outras representações.
+
+Mutabilidade. Há uma série de decisões de design que são questionáveis ​​e que provavelmente mudarão em muitas circunstâncias. Esta é uma lista parcial.
+
+1. Formato de entrada. 2. A decisão de ter todas as linhas armazenadas no núcleo. Para trabalhos grandes pode ser inconveniente ou impraticável manter todas as linhas no núcleo ao mesmo tempo. 3. A decisão de agrupar os caracteres de quatro em uma palavra. Nos casos em que estamos trabalhando com pequenas quantidades de dados pode ser indesejável compactar os caracteres; o tempo será economizado por um layout de caractere por palavra. Noutros casos podemos embalar, mas em formatos diferentes. 4. A decisão de criar um índice para os deslocamentos circulares em vez de armazená-los como tal. Novamente, para um índice pequeno ou um núcleo grande, escrevê-los pode ser a abordagem preferível. Alternativamente, podemos optar por não preparar nada durante o CSSETUP. Todos os cálculos poderiam ser feitos durante as chamadas de outras funções, como CSCHAR. 5. A decisão de colocar a lista em ordem alfabética uma vez, em vez de (a) pesquisar cada item quando necessário, ou
+
+(b) alfabetizar parcialmente como é feito no rIND de Hoare [2]. Em diversas circunstâncias, seria vantajoso distribuir o cálculo envolvido na alfabetização ao longo do tempo necessário para produzir o índice.
+
+Observando essas mudanças podemos ver as diferenças entre as duas modularizações. A primeira mudança limita-se a um módulo em ambas as decomposições. Para a primeira decomposição, a segunda alteração resultaria em alterações em todos os módulos! O mesmo se aplica à terceira mudança. Na primeira decomposição o formato da linha de armazenamento em núcleo deve ser utilizado por todos os programas. Na segunda decomposição a história é totalmente diferente. O conhecimento da maneira exata como as linhas são armazenadas está totalmente oculto para todos, exceto para o módulo 1. Qualquer alteração na forma de armazenamento pode ser confinada a esse módulo!
+
+Em algumas versões deste sistema havia um módulo adicional na decomposição. Um módulo de tabela de símbolos (conforme especificado em [3]) foi usado dentro do módulo de armazenamento de linha. Este facto era completamente invisível para o resto do sistema.
+
+A quarta mudança está confinada ao módulo de deslocamento circular na segunda decomposição, mas na primeira decomposição o alfabetizador e as rotinas de saída também saberão da mudança.
+
+A quinta mudança também será difícil na primeira decomposição. O módulo de saída esperará que o índice tenha sido concluído antes de começar. O módulo alfabetizador na segunda decomposição foi
+
+1055 Comunicações de dezembro de 1972 do Volume 15 do ACM Número 12
+
+════════════════════════════════════════════════════════════
+  PÁGINA 4
+════════════════════════════════════════════════════════════
+
+projetado para que um usuário não pudesse detectar quando a alfabetização foi realmente feita. Nenhum outro módulo precisa ser alterado.
+
+Desenvolvimento Independente. Na primeira modularização as interfaces entre os módulos são os formatos bastante complexos e as organizações de tabelas descritas acima. Estas representam decisões de design que não podem ser tomadas levianamente. A estrutura e organização da tabela são essenciais para a eficiência dos vários módulos e devem ser cuidadosamente desenhadas. O desenvolvimento desses formatos será uma parte importante do desenvolvimento do módulo e essa parte deve ser um esforço conjunto entre os diversos grupos de desenvolvimento. Na segunda modularização as interfaces são mais abstratas; eles consistem principalmente nos nomes das funções e nos números e tipos dos parâmetros. Estas são decisões relativamente simples e o desenvolvimento independente de módulos deveria começar muito mais cedo.
+
+Compreensibilidade. Para entender o módulo de saída na primeira modularização, será necessário entender algo sobre o alfabetizador, o deslocador circular e o módulo de entrada. Haverá aspectos das tabelas utilizadas pela saída que só farão sentido devido à forma como os outros módulos funcionam. Haverá restrições na estrutura das tabelas devido aos algoritmos utilizados nos demais módulos. O sistema só será compreensível como um todo. É meu julgamento subjetivo que isso não é verdade no segundo
+
+modularização.
+
+Os critérios
+
+Muitos leitores verão agora quais critérios foram usados em cada decomposição. Na primeira decomposição o critério utilizado foi tornar cada etapa principal do processamento um módulo. Pode-se dizer que para obter a primeira decomposição faz-se um fluxograma. Esta é a abordagem mais comum para decomposição ou modularização. É uma conseqüência de todo o treinamento de programadores que nos ensina que devemos começar com um fluxograma aproximado e partir daí para uma implementação detalhada. O fluxograma foi uma abstração útil para sistemas com cerca de 5.000 a 10.000 instruções, mas à medida que avançamos além disso, ele não parece ser suficiente; algo adicional é necessário.
+
+A segunda decomposição foi feita usando como critério 'ocultação de formação de aletas' [4]. Os módulos não correspondem mais a etapas do processamento. O módulo de armazenamento de linha, por exemplo, é utilizado em quase todas as ações do sistema. outros, sua interface ou definição foi escolhida para revelar o mínimo possível sobre seu funcionamento interno.
+
+1056
+
+Melhoria no Módulo de Mudança Circular
+
+Para ilustrar o impacto de tal critério, vamos dar uma olhada mais de perto no projeto do módulo de deslocamento circular da segunda decomposição. A retrospectiva sugere agora que esta definição revela mais informações do que o necessário. Embora tenhamos ocultado cuidadosamente o método de armazenamento ou cálculo da lista de deslocamentos circulares, especificamos uma ordem para essa lista. Os programas poderiam ser escritos de forma eficaz se especificássemos apenas (I) que as linhas indicadas na definição atual do deslocamento circular existiriam todas na tabela, (2) que nenhuma delas seria incluída duas vezes e (3) que existia uma função adicional que nos permitiria identificar a linha original dada a mudança. Ao prescrever a ordem das mudanças, fornecemos mais informações do que o necessário e restringimos desnecessariamente a classe de sistemas que podemos construir sem alterar as definições. Por exemplo, não permitimos um sistema em que os deslocamentos circulares fossem produzidos em ordem alfabética, ALPH estivesse vazio e ITH simplesmente retornasse seu argumento como um valor. Nossa falha em fazer isso na construção dos sistemas com a segunda decomposição deve ser claramente classificada como um erro de projeto.
+
+Além do critério geral de que cada módulo esconde alguma decisão de design do resto do sistema, podemos mencionar alguns exemplos específicos de decomposições que parecem aconselháveis.
+
+1. Uma estrutura de dados, suas ligações internas, procedimentos de acesso e modificação de procedimentos fazem parte de um único módulo. Eles não são compartilhados por muitos módulos como é feito convencionalmente. Esta noção talvez seja apenas uma elaboração das suposições por trás dos artigos de Balzer [9] e Mealy [10]. O design com isso em mente está claramente por trás do design do BLISS [11]. 2. A sequência de instruções necessárias para chamar uma determinada rotina e a própria rotina fazem parte do mesmo módulo. Esta regra não era relevante nos sistemas Fortran utilizados para experimentação, mas torna-se essencial para sistemas construídos em linguagem assembly. Não existem sequências de chamada gerais perfeitas para máquinas reais e, conseqüentemente, elas tendem a variar à medida que continuamos nossa busca pela sequência ideal. Ao atribuir a responsabilidade pela geração da chamada ao responsável pela rotina facilitamos tais melhorias e também tornamos mais viável ter diversas sequências distintas na mesma estrutura de software. 3. Os formatos de blocos de controle usados ​​em filas em sistemas operacionais e programas similares devem ser ocultados dentro de um “módulo de bloco de controle”. É convencional fazer de tais formatos as interfaces entre vários módulos. Como a evolução do projeto força mudanças frequentes nos formatos dos blocos de controle, tal decisão muitas vezes se mostra extremamente dispendiosa. 4. Códigos de caracteres, ordenações alfabéticas e dados semelhantes devem ser ocultados em um módulo para maior flexibilidade. 5. A sequência na qual determinados itens serão processados ​​deverá (na medida do possível) ser ocultada dentro de um único módulo. Várias mudanças que vão desde equipamentos
+
+Comunicações de dezembro de 1972 do Volume 15 do ACM Número 12
+
+════════════════════════════════════════════════════════════
+  PÁGINA 5
+════════════════════════════════════════════════════════════
+
+acréscimos de recursos à indisponibilidade de certos recursos em um sistema operacional tornam o sequenciamento extremamente variável.
+
+Eficiência e Implementação Se não formos cuidadosos, a segunda decomposição provará ser muito menos eficiente que a primeira. Se cada uma das funções for realmente implementada como um procedimento com uma sequência de chamada elaborada, haverá muitas chamadas devido à alternância repetida entre módulos. A primeira decomposição não sofrerá deste problema porque há transferência de controle relativamente infrequente entre módulos. Para economizar a sobrecarga da chamada de procedimento e ainda assim obter as vantagens que vimos acima, devemos implementar esses módulos de uma maneira incomum. Em muitos casos, as rotinas serão melhor inseridas no código por um montador; em outros casos, seriam inseridas transferências altamente especializadas e eficientes. Para utilizar com sucesso e eficiência o segundo tipo de decomposição será necessária uma ferramenta por meio da qual os programas possam ser escritos como se as funções fossem sub-rotinas, mas montados por qualquer implementação que seja apropriada. Se tal técnica for utilizada, a separação entre os módulos pode não ficar clara no código final. Por essa razão, recursos adicionais de modificação do programa também seriam úteis. Em outras palavras, as diversas representações do programa (que foram mencionadas anteriormente) devem ser mantidas na máquina juntamente com um programa realizando o mapeamento entre elas.
+
+Uma Decomposição Comum a um Compilador e Interpretador para a Mesma Linguagem Em uma tentativa anterior de aplicar essas regras de decomposição a um projeto de design, construímos um tradutor para um algoritmo de Markov expresso na notação descrita em [6]. Embora não fosse nossa intenção investigar a relação entre compiladores e tradutores interpretativos de uma linguagem, descobrimos que nossa decomposição era válida para um compilador puro e diversas variedades de interpretadores para a linguagem. Embora houvesse diferenças profundas e substanciais nas representações finais de execução de cada tipo de compilador, descobrimos que as decisões implícitas na decomposição inicial eram válidas para todos. Isso não teria sido verdade se tivéssemos dividido as responsabilidades segundo as linhas clássicas para um compilador ou interpretador (por exemplo, reconhecedor de sintaxe, gerador de código, rotinas de tempo de execução para um compilador). Em vez disso, a decomposição baseou-se na ocultação de várias decisões, como no exemplo acima. Assim, a representação de registos, o algoritmo de pesquisa, a interpretação de regras, etc. eram módulos e estes problemas existiam tanto nos tradutores de compilação como nos tradutores interpretativos. Não só a decomposição era válida em todos os casos, mas muitas das rotinas podiam ser usadas com apenas pequenas alterações em qualquer tipo de tradutor. Este exemplo fornece suporte adicional para o
+
+declaração de que a ordem temporal em que se espera que o processamento ocorra não deve ser usada para fazer a decomposição em módulos. Fornece ainda evidências de que um trabalho cuidadoso de decomposição pode resultar em transferência considerável de trabalho de um projeto para outro. Uma discussão mais detalhada deste exemplo foi contida em [8].
+
+Estrutura Hierárquica
+
+Podemos encontrar uma hierarquia de programa no sentido ilustrado por Dijkstra [5] no sistema definido de acordo com a decomposição 2. Se existir uma tabela de símbolos, ela funciona sem nenhum dos outros módulos, portanto está no nível 1. O armazenamento de linha está no nível 1 se nenhuma tabela de símbolos for usada ou está no nível 2 caso contrário. O Input e o Circular Shifter necessitam de armazenamento de linha para seu funcionamento. A saída e o alfabetizador exigirão o Circular Shifter, mas como o Circular Shifter e o suporte de linha são, de certa forma, compatíveis, seria fácil construir uma versão parametrizada dessas rotinas que poderiam ser usadas para colocar em ordem alfabética ou imprimir as linhas originais ou os deslocamentos circulares. No primeiro uso não necessitariam do Circular Shifter; no segundo eles fariam. Em outras palavras, nosso projeto nos permitiu ter uma representação única para programas que podem ser executados em qualquer um dos dois níveis da hierarquia. Nas discussões sobre a estrutura do sistema é fácil confundir os benefícios de uma boa decomposição com os de uma estrutura hierárquica. Temos uma estrutura hierárquica se uma determinada relação puder ser definida entre os módulos ou programas e essa relação for uma ordenação parcial. A relação com a qual estamos preocupados é “usa” ou “depende de”. É melhor usar uma relação entre programas já que em muitos casos um módulo depende apenas de parte de outro módulo (por exemplo, Circular Shifter depende apenas das partes de saída do suporte de linha e não do correto funcionamento de SETWORD). É concebível que pudéssemos obter os benefícios que temos discutido sem tal ordenação parcial, por ex. se todos os módulos estivessem no mesmo nível. A ordenação parcial nos dá dois benefícios adicionais. Primeiro, partes do sistema são beneficiadas (simplificadas) porque utilizam os serviços dos 2 níveis inferiores. Em segundo lugar, somos capazes de eliminar os níveis superiores e ainda ter um produto utilizável e útil. Por exemplo, a tabela de símbolos pode ser utilizada em outras aplicações; o titular da linha pode ser a base de um sistema de resposta a perguntas. A existência da estrutura hierárquica nos assegura que podemos “podar” os níveis superiores da árvore e iniciar uma nova árvore no tronco antigo. Se tivéssemos projetado um sistema no qual os módulos de “baixo nível” fizessem algum uso dos módulos de “alto nível”, não teríamos a hierarquia, seria muito mais difícil remover partes do sistema e “nível” não teria muito significado no sistema. Aqui, "inferior" significa "numeração inferior".
+
+1057 Comunicações de dezembro de 1972 do Volume 15 do ACM Número 12
+
+════════════════════════════════════════════════════════════
+  PÁGINA 6
+════════════════════════════════════════════════════════════
+
+Como é concebível que possamos ter um sistema com o tipo de decomposição mostrado na versão 1 (importantes decisões de design nas interfaces), mas mantendo uma estrutura hierárquica, devemos concluir que a estrutura hierárquica e a decomposição "limpa" são duas propriedades desejáveis, mas independentes, de uma estrutura de sistema.
+
+Conclusão
+
+Tentamos demonstrar através destes exemplos que é quase sempre incorreto iniciar a decomposição de um sistema em módulos com base num fluxograma. Propomos, em vez disso, que se comece com uma lista de decisões de design difíceis ou decisões de design que provavelmente mudarão. Cada módulo é então projetado para ocultar tal decisão dos outros. Como, na maioria dos casos, as decisões de projeto transcendem o tempo de execução, os módulos não corresponderão às etapas do processamento. Para conseguir uma implementação eficiente devemos abandonar a suposição de que um módulo é uma ou mais sub-rotinas e, em vez disso, permitir que sub-rotinas e programas sejam montados em coleções de código de vários módulos.
+
+Recebido em agosto de 1971; revisado em novembro de 1971
+
+Referências
+
+1. Gauthier, Richard e Pont, Stephen. Projetando Programas de Sistemas, (C), Prentice-Hall, Englewood Cliffs, NJ, 1970. 2. Hoare, CAR Prova de um programa, FIND. Com. ACM 14, 1 (janeiro de 1971), 39-45. 3. Parnas, D. L. Uma técnica para especificação de módulos de software com exemplos. Com. ACM 15, 5 (maio de 1972), 330-336. 4. Parnas, D. L. Aspectos de distribuição de informações da metodologia de design. Tecnologia. Rep., Partida. Computer Science, Carnegie-Melon U., Pittsburgh, Pa., 1971. Também apresentado no Congresso IFIP de 1971, Ljubljana, Iugoslávia. 5. Dijkstra, E. W. A estrutura do sistema de multiprogramação "O". Com. ACM 11, 5 (maio de 1968), 341-346. 6. Galler, B., e Perlis, A. J. A View of Programming Languages, Addison-Wesley, Reading, Mass., 1970. 7. Parnas, D. L. Um curso sobre engenharia de software. Processo. Simpósio Técnico SIGCSE, março de 1972.
+
+8. Parnas, D. L. Sobre os critérios a serem utilizados na decomposição de sistemas em módulos. Tecnologia. Rep., Partida. Ciência da Computação, Carnegie-Mellon U., Pittsburgh, Pa., 1971. 9. Balzer, R. M. Programação sem dados. Processo. AFIPS 1967 FJCC, Vol. 31, AFIPS Press, Montvale, NJ, pp. 10. Mealy, G. H. Outra análise dos dados. Processo. AFIPS 1967 FJCC, Vol. 31, AFIPS Press, Montvale, NJ, pp.
+
+11. Wulf, W. A., Russell, D. B., e Habermann, A. N. BLISS, Uma linguagem para programação de sistemas. Com. ACM 14, 12 (dez.
+
+1971), 780-790.
+
+1058 Comunicações da ACM
+
+Dezembro de 1972 Volume 15 Número 12
