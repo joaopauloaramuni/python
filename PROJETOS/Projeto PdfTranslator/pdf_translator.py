@@ -13,35 +13,25 @@ def ler_pdf(caminho_pdf: str) -> list[dict]:
     paginas = []
 
     for num, pagina in enumerate(doc, start=1):
-        largura = pagina.rect.width
-        blocos = pagina.get_text("blocks", sort=True)
-        blocos_texto = [b for b in blocos if b[6] == 0 and b[4].strip()]
+        raw = pagina.get_text("dict", flags=fitz.TEXT_PRESERVE_WHITESPACE)
+        linhas_por_bloco = []
 
-        # ── Detecta se há colunas ──────────────────────────────────────────
-        # Se existem blocos nas duas metades horizontais da página,
-        # é provável que seja um layout de duas colunas.
-        metade = largura / 2
-        tem_esquerda = any(b[0] < metade and b[2] < metade * 1.2 for b in blocos_texto)
-        tem_direita  = any(b[0] > metade * 0.8 and b[2] > metade for b in blocos_texto)
-        duas_colunas = tem_esquerda and tem_direita
+        for block in raw.get("blocks", []):
+            if block.get("type") != 0:
+                continue
 
-        if duas_colunas:
-            # Coleta os blocos de cada coluna separadamente,
-            # ordenando cada uma por posição vertical (Y)
-            col_esq = sorted(
-                [b for b in blocos_texto if b[2] <= metade * 1.1],
-                key=lambda b: (b[1], b[0])
-            )
-            col_dir = sorted(
-                [b for b in blocos_texto if b[0] >= metade * 0.9],
-                key=lambda b: (b[1], b[0])
-            )
-            texto_pagina = "\n".join(b[4].strip() for b in col_esq)
-            texto_pagina += "\n\n"
-            texto_pagina += "\n".join(b[4].strip() for b in col_dir)
-        else:
-            texto_pagina = "\n".join(b[4].strip() for b in blocos_texto)
+            spans_do_bloco = [
+                s["text"].strip()
+                for line in block.get("lines", [])
+                for s in line.get("spans", [])
+                if s.get("text", "").strip()
+            ]
 
+            if spans_do_bloco:
+                # Cada bloco vira um parágrafo separado
+                linhas_por_bloco.append(" ".join(spans_do_bloco))
+
+        texto_pagina = "\n\n".join(linhas_por_bloco)
         paginas.append({"pagina": num, "texto": texto_pagina})
 
     doc.close()
