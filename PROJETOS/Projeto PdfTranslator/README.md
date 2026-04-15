@@ -6,7 +6,14 @@ Projeto em Python para tradução automática de artigos científicos em PDF do 
 
 ## 🔎 O que é o projeto?
 
-O **PdfTranslator** é um script Python que extrai o texto de um PDF página a página, realiza limpeza dos artefatos comuns de documentos científicos e traduz o conteúdo utilizando a API do Google Translator, gerando um arquivo `.txt` traduzido e organizado por páginas.
+O **PdfTranslator** é uma ferramenta em Python que extrai o texto de um PDF página a página, realiza limpeza dos artefatos comuns de documentos científicos e traduz o conteúdo utilizando a API do Google Translator.
+
+O projeto oferece duas formas de uso:
+
+- 🖥️ **Interface gráfica (Tkinter)** — uso simples com botões
+- 🧪 **Modo script (CLI)** — execução direta via terminal
+
+A saída é um arquivo `.txt` traduzido e organizado por páginas.
 
 ### 🧠 Conceito principal
 
