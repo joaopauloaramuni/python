@@ -77,7 +77,8 @@ source .venv/bin/activate
 Coloque o PDF na mesma pasta do script com o nome `artigo.pdf` (ou edite a variável `caminho_pdf` no `main()`), depois execute:
 
 ```bash
-python traduzir_artigo.py
+python gui.py  # ou
+python pdf_translator.py
 ```
 
 ---
@@ -134,7 +135,8 @@ artigos indexados nas bases Web of Science e Scopus...
 
 ```
 Projeto PdfTranslator/
-├── traduzir_artigo.py   # Script principal
+├── pdf_traslator.py     # Script principal
+├── gui.py               # Interface com Tkinter
 ├── artigo.pdf           # PDF de entrada (você fornece)
 ├── artigo_traduzido.txt # Saída gerada automaticamente
 └── README.md
@@ -147,6 +149,7 @@ Projeto PdfTranslator/
 - https://pymupdf.readthedocs.io/
 - https://github.com/nidhaloff/deep-translator
 - https://pypi.org/project/deep-translator/
+- https://docs.python.org/3/library/tkinter.html
 
 ---
 
