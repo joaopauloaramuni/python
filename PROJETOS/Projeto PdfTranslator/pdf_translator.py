@@ -40,23 +40,23 @@ def ler_pdf(caminho_pdf: str) -> list[dict]:
 # ─────────────────────────────────────────────
 
 def limpar_texto(texto: str) -> str:
-    """
-    Corrige artefatos comuns de PDFs científicos:
-      - hífens de quebra de linha  (hyp-\\nhenation → hyphenation)
-      - quebras de linha dentro do mesmo parágrafo
-      - espaços múltiplos
-    """
     # 1. Une palavras hifenizadas no fim da linha
     texto = re.sub(r"-\n(\w)", r"\1", texto)
 
-    # 2. Une linhas que fazem parte do mesmo parágrafo.
-    #    Critério: linha termina com letra/vírgula/; e a próxima começa com minúscula
-    texto = re.sub(r"(?<=[a-záéíóúãõàâêôçA-Z,;:])\n(?=[a-záéíóúãõàâêôç])", " ", texto)
+    # 2. Corrige bullet quebrado
+    texto = re.sub(r"•\s*\n\s*", "• ", texto)
 
-    # 3. Normaliza múltiplas linhas em branco → separador de parágrafo
+    # 3. Une linhas do mesmo parágrafo
+    texto = re.sub(
+        r"(?<=[a-záéíóúãõàâêôçA-Z,;:])\n(?=[a-záéíóúãõàâêôç])",
+        " ",
+        texto
+    )
+
+    # 4. Normaliza múltiplas linhas em branco
     texto = re.sub(r"\n{3,}", "\n\n", texto)
 
-    # 4. Remove espaços extras
+    # 5. Remove espaços extras
     texto = re.sub(r"[ \t]{2,}", " ", texto)
 
     return texto.strip()
