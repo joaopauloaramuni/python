@@ -1,6 +1,6 @@
 # 📄 Projeto PdfTranslator
 
-Projeto em Python para tradução automática de artigos científicos em PDF do **inglês para o português**, utilizando **PyMuPDF (fitz)** e **Deep Translator**.
+Projeto em Python para tradução automática de artigos científicos em PDF do **inglês para o português**, utilizando **PyMuPDF (fitz)**, **Deep Translator** e **ttkbootstrap**.
 
 ---
 
@@ -10,7 +10,7 @@ O **PdfTranslator** é uma ferramenta em Python que extrai o texto de um PDF pá
 
 O projeto oferece duas formas de uso:
 
-- 🖥️ **Interface gráfica (Tkinter)** — uso simples com botões
+- 🖥️ **Interface gráfica (ttkbootstrap)** — uso simples com botões e visual moderno
 - 🧪 **Modo script (CLI)** — execução direta via terminal
 
 A saída é um arquivo `.txt` traduzido e organizado por páginas.
@@ -35,7 +35,7 @@ O projeto resolve os principais problemas de tradução de PDFs científicos:
 - Tradução com pausa entre chamadas (evita bloqueio da API gratuita)
 - Retry automático com backoff em falhas temporárias
 - Salvamento com separadores de página no `.txt` final
-- Interface gráfica com Tkinter
+- Interface gráfica moderna com **ttkbootstrap**
 
 ---
 
@@ -70,6 +70,19 @@ source .venv/bin/activate
 ```bash
 .venv\Scripts\activate
 ```
+
+---
+
+## 🎨 Interface Gráfica (ttkbootstrap)
+
+A interface utiliza `ttkbootstrap`, uma extensão moderna do Tkinter que oferece temas visuais inspirados no Bootstrap. O import utilizado é:
+
+```python
+import ttkbootstrap as ttk
+from ttkbootstrap.constants import *
+```
+
+Para alterar o tema visual, basta modificar o parâmetro `themename` ao instanciar a janela principal. Temas disponíveis incluem: `flatly`, `darkly`, `superhero`, `cosmo`, `journal`, entre outros.
 
 ---
 
@@ -137,7 +150,7 @@ artigos indexados nas bases Web of Science e Scopus...
 ```
 Projeto PdfTranslator/
 ├── pdf_translator.py    # Script principal
-├── gui.py               # Interface com Tkinter
+├── gui.py               # Interface com ttkbootstrap
 ├── artigo.pdf           # PDF de entrada (você fornece)
 ├── artigo_traduzido.txt # Saída gerada automaticamente
 └── README.md
@@ -150,7 +163,17 @@ Projeto PdfTranslator/
 - https://pymupdf.readthedocs.io/
 - https://github.com/nidhaloff/deep-translator
 - https://pypi.org/project/deep-translator/
-- https://docs.python.org/3/library/tkinter.html
+- https://ttkbootstrap.readthedocs.io/
+
+---
+
+## Contribuição 🤝
+
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull requests.
+
+### Agradecimentos especiais pelas contribuições
+
+* v1 -> Davi Nunes Carvalho - [GitHub](https://github.com/Davii13/) e Artur Bomtempo [GitHub](https://github.com/arturbomtempo-dev)
 
 ---
 
