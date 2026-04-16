@@ -212,7 +212,7 @@ def main():
 if __name__ == "__main__":
     main()
 
-# ─────────────────────────────────────────────
+# ─────────────────────────────────────────────────────
 # Instalação das dependências:
-#   pip install pymupdf deep-translator
-# ─────────────────────────────────────────────
+#   pip install pymupdf deep-translator ttkbootstrap
+# ─────────────────────────────────────────────────────
