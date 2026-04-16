@@ -6,7 +6,7 @@ Projeto em Python para tradução automática de artigos científicos em PDF do 
 
 ## Captura de Tela 📸
 
-| <img src="https://joaopauloaramuni.github.io/python-imgs/PdfTranslator/imgs/home.png" width="1000px" alt="Home"> |
+| <img src="https://joaopauloaramuni.github.io/python-imgs/PdfTranslator/imgs/home.png" width="800px" alt="Home"> |
 | :--------------------------------------------------------------------------------------------------------------: |
 |                                                **Pdf Translator**                                                |
 
