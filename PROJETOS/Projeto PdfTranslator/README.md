@@ -42,7 +42,7 @@ O projeto resolve os principais problemas de tradução de PDFs científicos:
 ## 🧰 Dependências
 
 ```bash
-pip install pymupdf deep-translator
+pip install pymupdf deep-translator ttkbootstrap
 ```
 
 ---
