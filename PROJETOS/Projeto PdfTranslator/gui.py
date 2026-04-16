@@ -1,5 +1,6 @@
-import tkinter as tk
-from tkinter import filedialog, scrolledtext, messagebox
+import ttkbootstrap as ttk
+from ttkbootstrap.constants import *
+from tkinter import filedialog, messagebox
 import threading
 import sys
 import os
@@ -7,17 +8,15 @@ import pdf_translator
 
 
 # ─────────────────────────────────────────────
-# REDIRECIONAR PRINT PARA TEXTAREA
+# REDIRECIONAR PRINT
 # ─────────────────────────────────────────────
-
 class RedirectOutput:
     def __init__(self, text_widget):
         self.text_widget = text_widget
 
     def write(self, message):
-        self.text_widget.insert(tk.END, message)
-        self.text_widget.see(tk.END)
-        self.text_widget.update_idletasks()
+        self.text_widget.insert("end", message)
+        self.text_widget.see("end")
 
     def flush(self):
         pass
@@ -26,66 +25,69 @@ class RedirectOutput:
 # ─────────────────────────────────────────────
 # AÇÕES
 # ─────────────────────────────────────────────
-
-def escolher_pdf(entry_path):
+def escolher_pdf(entry):
     caminho = filedialog.askopenfilename(
         title="Selecionar PDF",
-        filetypes=[("Arquivos PDF", "*.pdf")]
+        filetypes=[("PDF", "*.pdf")]
     )
     if caminho:
-        entry_path.delete(0, tk.END)
-        entry_path.insert(0, caminho)
+        entry.delete(0, "end")
+        entry.insert(0, caminho)
 
 
-def executar_traducao(entry_path, text_output, btn_traduzir):
-    caminho_pdf = entry_path.get()
+def executar_traducao(entry, btn, progress, status):
+    caminho_pdf = entry.get()
 
     if not caminho_pdf or not os.path.exists(caminho_pdf):
         messagebox.showerror("Erro", "Selecione um PDF válido.")
         return
 
-    # define saída no mesmo diretório
     caminho_saida = os.path.splitext(caminho_pdf)[0] + "_traduzido.txt"
 
     def tarefa():
         try:
-            btn_traduzir.config(state=tk.DISABLED)
+            btn.config(state=DISABLED)
+            progress.start()
+            status.config(text="🔄 Processando...")
 
             print("📄 Lendo PDF...")
             paginas = pdf_translator.ler_pdf(caminho_pdf)
-            print(f"{len(paginas)} página(s) encontrada(s).")
 
             resultado = []
 
             for pg in paginas:
-                print(f"\n── Página {pg['pagina']} ──────────────────────────────")
+                print(f"\n── Página {pg['pagina']} ──")
 
                 texto_limpo = pdf_translator.limpar_texto(pg["texto"])
 
                 if not texto_limpo:
-                    print("(página sem texto — pulando)")
-                    resultado.append({**pg, "texto_traduzido": "[imagem / sem texto]"})
+                    print("(sem texto)")
+                    resultado.append({**pg, "texto_traduzido": "[sem texto]"})
                     continue
 
                 blocos = pdf_translator.dividir_em_blocos(texto_limpo)
-                print(f"{len(blocos)} bloco(s) para traduzir.")
-
                 traducoes = pdf_translator.traduzir_blocos(blocos)
-                texto_traduzido = "\n\n".join(traducoes)
 
-                resultado.append({**pg, "texto_traduzido": texto_traduzido})
+                resultado.append({
+                    **pg,
+                    "texto_traduzido": "\n\n".join(traducoes)
+                })
 
-            print("\n💾 Salvando resultado...")
+            print("\n💾 Salvando...")
             pdf_translator.salvar_resultado(resultado, caminho_saida)
 
-            print(f"\n✅ Concluído! Arquivo salvo em:\n{caminho_saida}")
+            print("\n✅ Finalizado!")
+            status.config(text="✅ Concluído")
 
             messagebox.showinfo("Sucesso", "Tradução concluída!")
 
         except Exception as e:
             messagebox.showerror("Erro", str(e))
+            status.config(text="❌ Erro")
+
         finally:
-            btn_traduzir.config(state=tk.NORMAL)
+            progress.stop()
+            btn.config(state=NORMAL)
 
     threading.Thread(target=tarefa).start()
 
@@ -93,58 +95,88 @@ def executar_traducao(entry_path, text_output, btn_traduzir):
 # ─────────────────────────────────────────────
 # GUI
 # ─────────────────────────────────────────────
-
 def criar_interface():
-    root = tk.Tk()
-    root.title("Tradutor de PDF")
-    root.geometry("700x500")
+    app = ttk.Window(themename="superhero")  # 🔥 tema bonito
+    app.title("Tradutor de PDF")
+    app.geometry("800x600")
 
-    # ── Frame topo ────────────────────────────
-    frame_top = tk.Frame(root)
-    frame_top.pack(fill=tk.X, padx=10, pady=10)
+    container = ttk.Frame(app, padding=20)
+    container.pack(fill=BOTH, expand=True)
 
-    entry_path = tk.Entry(frame_top)
-    entry_path.pack(side=tk.LEFT, fill=tk.X, expand=True, padx=(0, 5))
+    # ── HEADER ───────────────────────────────
+    ttk.Label(
+        container,
+        text="📄 Tradutor de PDF",
+        font=("Segoe UI", 20, "bold")
+    ).pack(anchor="center", pady=(0, 10))
 
-    btn_arquivo = tk.Button(
-        frame_top,
-        text="Selecionar PDF",
-        command=lambda: escolher_pdf(entry_path)
+    ttk.Label(
+        container,
+        text="Traduza PDFs automaticamente para texto",
+        font=("Segoe UI", 10)
+    ).pack(anchor="center", pady=(0, 20))
+
+    # ── CARD ────────────────────────────────
+    card = ttk.Frame(container, padding=15, bootstyle="secondary")
+    card.pack(fill=X, pady=10)
+
+    ttk.Label(card, text="Arquivo PDF:", font=("Segoe UI", 10, "bold")).pack(anchor="w")
+
+    row = ttk.Frame(card)
+    row.pack(fill=X, pady=5)
+
+    entry = ttk.Entry(row)
+    entry.pack(side=LEFT, fill=X, expand=True, padx=(0, 5))
+
+    ttk.Button(
+        row,
+        text="📂",
+        width=3,
+        bootstyle=PRIMARY,
+        command=lambda: escolher_pdf(entry)
+    ).pack(side=LEFT)
+
+    # ── BOTÃO ───────────────────────────────
+    btn = ttk.Button(
+        container,
+        text="🚀 Iniciar Tradução",
+        bootstyle="success-outline",
+        width=25
     )
-    btn_arquivo.pack(side=tk.LEFT)
+    btn.pack(pady=10)
 
-    # ── Botão traduzir ────────────────────────
-    btn_traduzir = tk.Button(
-        root,
-        text="Traduzir e Gerar TXT",
-        height=2
+    # ── PROGRESSO ───────────────────────────
+    progress = ttk.Progressbar(container, mode="indeterminate")
+    progress.pack(fill=X, pady=5)
+
+    status = ttk.Label(container, text="⏳ Aguardando...", font=("Segoe UI", 9))
+    status.pack(anchor="center", pady=(0, 10))
+
+    # ── LOG ─────────────────────────────────
+    log_frame = ttk.Frame(container)
+    log_frame.pack(fill=BOTH, expand=True)
+
+    text = ttk.Text(
+        log_frame,
+        wrap="word",
+        font=("Consolas", 10),
+        height=15
     )
-    btn_traduzir.pack(fill=tk.X, padx=10, pady=5)
+    text.pack(fill=BOTH, expand=True)
 
-    # ── Área de saída ─────────────────────────
-    text_output = scrolledtext.ScrolledText(root, wrap=tk.WORD)
-    text_output.pack(fill=tk.BOTH, expand=True, padx=10, pady=10)
-
-    # redireciona print()
-    sys.stdout = RedirectOutput(text_output)
-    sys.stderr = RedirectOutput(text_output)
+    # redireciona print
+    sys.stdout = RedirectOutput(text)
+    sys.stderr = RedirectOutput(text)
 
     # conecta botão
-    btn_traduzir.config(
-        command=lambda: executar_traducao(entry_path, text_output, btn_traduzir)
-    )
+    btn.config(command=lambda: executar_traducao(entry, btn, progress, status))
 
-    return root
+    return app
 
 
 # ─────────────────────────────────────────────
 # MAIN
 # ─────────────────────────────────────────────
-
-def main():
+if __name__ == "__main__":
     app = criar_interface()
     app.mainloop()
-
-
-if __name__ == "__main__":
-    main()
