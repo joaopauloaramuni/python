@@ -9,7 +9,7 @@ Projeto em Python para tradução automática de artigos científicos em PDF do 
 <table align="center">
   <tr>
     <td align="center">
-      <img src="https://joaopauloaramuni.github.io/python-imgs/PdfTranslator/imgs/home.png" width="800px" alt="Home">
+      <img src="https://joaopauloaramuni.github.io/python-imgs/PdfTranslator/imgs/home_v2.png" width="800px" alt="Home">
     </td>
   </tr>
   <tr>
@@ -46,13 +46,71 @@ O projeto resolve os principais problemas de tradução de PDFs científicos:
 
 ## 🚀 Funcionalidades
 
-- Extração de texto via `get_text("dict")` — respeita colunas e estrutura interna do PDF sem heurísticas de posição
-- Limpeza de artefatos comuns de PDFs científicos
-- Divisão inteligente por parágrafos e frases (limite seguro de 4500 chars)
-- Tradução com pausa entre chamadas (evita bloqueio da API gratuita)
-- Retry automático com backoff em falhas temporárias
-- Salvamento com separadores de página no `.txt` final
-- Interface gráfica moderna com **ttkbootstrap**
+### 🎯 Funcionalidades Principais
+- **Tradução Automática**: Tradução completa de PDFs com um clique
+- **Interface Intuitiva**: GUI moderna com design responsivo
+- **Múltiplos Idiomas**: Suporte a 26 idiomas diferentes
+- **Detecção Automática**: Identificação automática do idioma de origem
+- **Preservação de Estrutura**: Mantém formatação e separação por páginas
+- **Extração de Texto Inteligente**: Uso de `get_text("dict")`, respeitando colunas e estrutura interna do PDF sem heurísticas de posição
+- **Limpeza de Texto**: Remoção de artefatos comuns de PDFs científicos
+- **Divisão Inteligente**: Separação por parágrafos e frases (limite seguro de 4500 caracteres)
+- **Controle de Tradução**: Pausa entre chamadas para evitar bloqueio da API gratuita
+- **Resiliência**: Retry automático com backoff em falhas temporárias
+- **Exportação Estruturada**: Salvamento em `.txt` com separadores de página
+- **Interface Moderna**: Construída com `ttkbootstrap`
+
+### 🔧 Funcionalidades Técnicas
+- **Processamento Assíncrono**: Interface não bloqueia durante a tradução
+- **Gerenciamento de Erros**: Retry automático em falhas de API
+- **Otimização de Blocos**: Divisão inteligente para maximizar eficiência
+- **Log Detalhado**: Acompanhamento em tempo real do progresso
+- **Tratamento de Imagens**: Identifica e ignora páginas baseadas em imagens
+
+### 📊 Funcionalidades de Saída
+- **Formato Estruturado**: Arquivo `.txt` com separadores de página
+- **Preservação de Conteúdo**: Mantém texto original em caso de falha
+- **Nomenclatura Automática**: Nome gerado automaticamente baseado no arquivo original
+
+---
+
+## 🌐 Idiomas Suportados
+
+O projeto suporta 26 idiomas com detecção automática:
+
+| Idioma | Código |
+|--------|--------|
+| Detectar automaticamente | auto |
+| Afrikaans | af |
+| Alemão | de |
+| Árabe | ar |
+| Chinês (simplificado) | zh-CN |
+| Chinês (tradicional) | zh-TW |
+| Coreano | ko |
+| Dinamarquês | da |
+| Espanhol | es |
+| Finlandês | fi |
+| Francês | fr |
+| Grego | el |
+| Hindi | hi |
+| Holandês | nl |
+| Húngaro | hu |
+| Indonésio | id |
+| Inglês | en |
+| Italiano | it |
+| Japonês | ja |
+| Norueguês | no |
+| Persa | fa |
+| Polonês | pl |
+| Português | pt |
+| Romeno | ro |
+| Russo | ru |
+| Sueco | sv |
+| Tailandês | th |
+| Tcheco | cs |
+| Turco | tr |
+| Ucraniano | uk |
+| Vietnamita | vi |
 
 ---
 
