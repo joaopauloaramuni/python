@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/logo.png" width="200" alt="Directory Organizer Engine Logo">
+  <img src="https://joaopauloaramuni.github.io/python-imgs/DirectoryOrganizerEngine/imgs/logo.png" width="200" alt="Directory Organizer Engine Logo">
 </p>
 
 <h1 align="center">Projeto Directory Organizer Engine</h1>
@@ -23,7 +23,7 @@
 O **Directory Organizer Engine** é uma ferramenta desenvolvida para resolver a desordem digital. Com uma interface moderna e intuitiva, ele automatiza a tarefa tediosa de classificar arquivos, movendo-os para pastas categorizadas com base em suas extensões. Ideal para manter áreas de trabalho, downloads e pastas pessoais sempre limpas e organizadas.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/319cac29-6437-4584-a3ff-2b2e0e171f9c" width="800" alt="Interface da Aplicação">
+  <img src="https://joaopauloaramuni.github.io/python-imgs/DirectoryOrganizerEngine/imgs/home.png" width="800" alt="Interface da Aplicação">
 </p>
 
 ---
