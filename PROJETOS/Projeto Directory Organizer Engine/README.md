@@ -2,7 +2,7 @@
   <img src="assets/logo.png" width="200" alt="Directory Organizer Engine Logo">
 </p>
 
-<h1 align="center">Directory Organizer Engine</h1>
+<h1 align="center">Projeto Directory Organizer Engine</h1>
 
 <p align="center">
   <strong>Um motor de organização de arquivos potente, seguro e multiplataforma para manter seus diretórios sempre organizados.</strong>
@@ -26,6 +26,8 @@ O **Directory Organizer Engine** é uma ferramenta desenvolvida para resolver a 
   <img src="https://github.com/user-attachments/assets/319cac29-6437-4584-a3ff-2b2e0e171f9c" width="800" alt="Interface da Aplicação">
 </p>
 
+---
+
 ## 🚀 Funcionalidades Principais
 
 - 🧠 **Organização Inteligente**: Detecta e move arquivos automaticamente para categorias predefinidas (ex.: PDFs, Imagens, Vídeos, Executáveis, Documentos, Áudio, Compactados, Outros).
@@ -36,6 +38,8 @@ O **Directory Organizer Engine** é uma ferramenta desenvolvida para resolver a 
 - 🔄 **Processamento Seguro**: Não organiza subpastas por padrão (configurável), evitando alterações indesejadas.
 - 📁 **Compatibilidade**: Funciona em Windows, Linux e macOS.
 
+---
+
 ## 🛠️ Tecnologias Utilizadas
 
 O projeto utiliza tecnologias modernas e robustas do ecossistema Python:
@@ -45,6 +49,8 @@ O projeto utiliza tecnologias modernas e robustas do ecossistema Python:
 - **Manipulação de Arquivos**: `pathlib` e `shutil` – Bibliotecas padrão para operações seguras.
 - **Empacotamento**: [PyInstaller](https://pyinstaller.org/) – Para criar executáveis standalone.
 - **Logging**: Sistema integrado para auditoria e depuração.
+
+---
 
 ## 📁 Estrutura do Projeto
 
@@ -69,11 +75,13 @@ Directory-Organizer-Engine/
 │       └── file_utils.py   # Funções para manipulação de arquivos
 ├── test_organizer/         # Pasta de teste (Compactados/, Imagens/, Outros/, PDFs/, Vídeos/)
 ├── main.py                 # Ponto de entrada da aplicação
-├── verify_logic.py         # Script de teste para validação
+├── test_verify_logic.py    # Script de teste para validação
 ├── requirements.txt        # Dependências Python
 ├── organizer.log           # Arquivo de logs (gerado automaticamente)
 └── README.md               # Esta documentação
 ```
+
+---
 
 ## 🔄 Como o Sistema Funciona
 
@@ -93,6 +101,8 @@ graph TD
     J --> K[Repetir para todos os arquivos]
     K --> L[Operação concluída - mostrar resultado]
 ```
+
+---
 
 ## ⚙️ Como Começar
 
@@ -159,6 +169,8 @@ python verify_logic.py
 ```
 Ele cria arquivos de teste, organiza-os e verifica os resultados.
 
+---
+
 ## 📝 Configuração Personalizada
 
 Personalize o comportamento editando `engine/config/settings.py`:
@@ -188,6 +200,8 @@ Personalize o comportamento editando `engine/config/settings.py`:
 - **Arquivos não organizados**: Verifique permissões de escrita na pasta selecionada.
 - **Logs não gerados**: Arquivo `organizer.log` é criado na execução.
 
+---
+
 ## 🤝 Contribuição
 
 Contribuições são bem-vindas! Siga estes passos:
@@ -198,16 +212,20 @@ Contribuições são bem-vindas! Siga estes passos:
 4. Push para a branch (`git push origin feature/NovaFeature`).
 5. Abra um Pull Request.
 
-## � Agradecimentos
+---
+
+## 🙏 Agradecimentos
 
 Agradecimentos especiais ao Professor João Paulo Aramuni pela orientação e ajuda na criação deste projeto. Sua contribuição foi fundamental para o desenvolvimento e aprendizado.
 
-## �📄 Licença
+---
 
-Distribuído sob a [Licença MIT](LICENSE). Veja o arquivo para detalhes.
+## 📜 Licença
+
+Este projeto está licenciado sob a MIT License.
 
 ---
 
 <p align="center">
-  Desenvolvido com ❤️ por <a href="https://github.com/Davii13">Davii13</a> | <a href="https://github.com/Davii13/Directory-Organizer-Engine/issues">Reportar Issues</a>
+  Desenvolvido por <a href="https://github.com/Davii13">Davii13</a>, aluno do 4° período do curso de Engenharia de Software da PUC Minas durante as oficinas de desenvolvimento "DevLabs" ministradas pelo professor João Paulo Aramuni | <a href="https://github.com/Davii13/Directory-Organizer-Engine/issues">Reportar Issues</a>
 </p>
