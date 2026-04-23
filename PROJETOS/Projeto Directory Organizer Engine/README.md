@@ -226,6 +226,6 @@ Este projeto está licenciado sob a MIT License.
 
 ---
 
-<p align="center">
-  Desenvolvido por <a href="https://github.com/Davii13">Davii13</a>, aluno do 4° período do curso de Engenharia de Software da PUC Minas durante as oficinas de desenvolvimento "DevLabs" ministradas pelo professor João Paulo Aramuni | <a href="https://github.com/Davii13/Directory-Organizer-Engine/issues">Reportar Issues</a>
-</p>
+## 🧑‍💻 Autor
+
+Desenvolvido por <a href="https://github.com/Davii13">Davii13</a>, aluno do 4° período do curso de Engenharia de Software da PUC Minas durante as oficinas de desenvolvimento "DevLabs" ministradas pelo professor João Paulo Aramuni | <a href="https://github.com/Davii13/Directory-Organizer-Engine/issues">Reportar Issues</a>
