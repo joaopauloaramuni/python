@@ -1,9 +1,13 @@
 import os
 import requests
+import urllib3
 from bs4 import BeautifulSoup
 import tkinter as tk
 from tkinter import ttk
 import json
+
+# Desativa o warning causado pelo verify=False
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
  
 #--- NOVO PIP INSTALL NECESSÁRIO : pip install requests beautifulsoup4 lxml pdfplumber ---#
  
