@@ -369,6 +369,7 @@ Os arquivos `faltas.json`, `notas.json` e `credenciais.json` serão gerados na p
 ## Documentação e links úteis 📚
 
 * **[Requests](https://pypi.org/project/requests/)**: utilizada para enviar requisições HTTP e acessar páginas do SGA.
+* **[urllib3](https://pypi.org/project/urllib3/)**: utilizada para controlar avisos relacionados às requisições HTTPS, especialmente o InsecureRequestWarning gerado quando a validação do certificado é desabilitada.
 * **[Beautiful Soup 4](https://pypi.org/project/beautifulsoup4/)**: utilizada para fazer o parsing do HTML e extrair informações das páginas.
 * **[Documentação oficial do Beautiful Soup 4](https://beautiful-soup-4.readthedocs.io/en/latest/)**: referência completa sobre métodos, seletores e exemplos de uso do Beautiful Soup.
 * **[lxml](https://pypi.org/project/lxml/)**: parser eficiente para HTML/XML, usado junto com o Beautiful Soup.
