@@ -229,7 +229,7 @@ class FaltasSpider:
                 'https://was.sistemas.pucminas.br/Generico/RelatorioGenerico.jsp', #url de post para obter o pdf do histórico escolar
                 data=payload_pdf,
                 headers=headers_was,
-                #verify=False,
+                verify=False,
                 allow_redirects=True
             )
  
