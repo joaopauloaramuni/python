@@ -75,7 +75,8 @@ class Navegador:
     def __enter__(self):
         from playwright.sync_api import sync_playwright
         self._pw = sync_playwright().start()
-        self._nav = self._pw.chromium.launch()
+        self._nav = self._pw.chromium.launch(headless=False, slow_mo=500)
+        # self._nav = self._pw.chromium.launch() # por padrão não mostra a janela do chrome
         self._pagina = self._nav.new_page(user_agent=HEADERS["User-Agent"])
         self._pagina.route("**/*", self._filtro)
         return self
