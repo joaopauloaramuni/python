@@ -1,4 +1,4 @@
-# 🚀 Projeto GitHubAPI ContributorStats
+# 🚀 Projeto GitHubAPI ContributorStats 2
 
 O **GitHubAPI ContributorStats** é uma ferramenta Python para analisar repositórios do GitHub (públicos e **privados**) e gerar um **ranking detalhado dos colaboradores** com base em métricas reais de código. Ela usa o Token de Acesso Pessoal (PAT) do GitHub para acessar os dados e trata o processamento assíncrono das estatísticas da API (*polling* da resposta `202 Accepted`).
 
@@ -15,12 +15,12 @@ Mostrar com clareza quem mais contribuiu para um repositório, não só pela qua
 
 ## 🖼️ Interface gráfica
 
-![Interface gráfica do GitHub Contributor Stats (tema escuro)](assets/screenshot_gui_dark.png)
+![Interface gráfica do GitHub Contributor Stats (tema escuro)](https://joaopauloaramuni.github.io/python-imgs/ContributorStats_2/imgs/screenshot_gui_dark.png)
 
 <details>
 <summary>Ver tema claro</summary>
 
-![Interface gráfica do GitHub Contributor Stats (tema claro)](assets/screenshot_gui_light.png)
+![Interface gráfica do GitHub Contributor Stats (tema claro)](https://joaopauloaramuni.github.io/python-imgs/ContributorStats_2/imgs/screenshot_gui_light.png)
 
 </details>
 
